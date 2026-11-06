@@ -1,0 +1,119 @@
+{
+  "run_id": "haiku__common__win__p3__r1",
+  "model": "haiku",
+  "model_id": "anthropic/claude-haiku-5.5",
+  "pin": "anthropic",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "3",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:53:08.902615+00:00",
+  "finished_at": "2026-11-03T13:56:34.081319+00:00",
+  "seconds": 202.1,
+  "input_tokens": 153694,
+  "output_tokens": 27189,
+  "cached_tokens": 643748,
+  "cost_usd": 0.1844,
+  "cost_source": "reported",
+  "billed_usd": 0.18442268044,
+  "searches": [
+    "California Proposition 3 2026 poll extend high-income tax schools health care",
+    "PPIC statewide survey 2026 Proposition 3 income tax extension",
+    "Prop 3 California November 2026 ballot poll support oppose",
+    "Proposition 3 election results November 3 2026 California income tax passes or fails",
+    "Prop 3 early returns California voters income tax top earners permanent election night",
+    "SurveyUSA poll California propositions October 2026 Prop 3 high income tax",
+    "Proposition 3 opposition campaign spending California Taxpayers Association Building a Better California 2026",
+    "CalMatters ballot polling trend slump support for propositions declines before election day data",
+    "voters approve Proposition 3 California high-income tax permanent November 2026 results",
+    "Proposition 55 2016 final poll support income tax extension PPIC October 2016 result 63 percent",
+    "\"No on Prop 3\" 2026 California opposition ad campaign income tax top earners Howard Jarvis CalTax",
+    "Berkeley IGS September 2026 poll Proposition 3 yes no high income tax likely voters",
+    "Prop 3 teachers union final days campaign November 2026 high-income tax Yes on 3 opponents"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/3/",
+    "https://timesofsandiego.com/education/2026/10/13/educators-fear-californias-flood-of-ballot-initiatives-could-sink-school-funding-measure/",
+    "https://escholarship.org/content/qt3167k0wk/qt3167k0wk.pdf",
+    "https://www.sfgate.com/politics/article/proposition-3-elections-22501511.php",
+    "https://calmatters.org/politics/2026/10/tax-propositions-ballot-measures/",
+    "https://electcademocrats.com/polls/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-3",
+    "https://www.ppic.org/blog/five-fast-takes-on-californias-midterm-mood/",
+    "https://www.ppic.org/wp-content/uploads/time-trends-likely-voters-1026.pdf",
+    "https://calmatters.org/politics/elections/2019/10/ballot-california-polling-trend-slump-fact-check-myth-data/",
+    "https://finance.yahoo.com/economy/policy/articles/tax-top-fix-housing-back-144800471.html"
+  ],
+  "tool_errors": 2,
+  "warnings": [],
+  "network": {
+    "requests": 26,
+    "requests_per_host": {
+      "openrouter.ai": 24,
+      "escholarship.org": 1,
+      "finance.yahoo.com": 1
+    },
+    "hosts": [
+      "escholarship.org",
+      "finance.yahoo.com",
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 25,
+      "403": 1
+    },
+    "bytes_up": 2350431,
+    "bytes_down": 590287,
+    "wire_bytes": {
+      "harness_to_proxy": 2400292,
+      "proxy_to_harness": 680553,
+      "proxy_to_internet": 2393453,
+      "internet_to_proxy": 735618
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/economy/policy/articles/tax-top-fix-housing-back-144800471.html",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 23,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:53:08.902615+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:53:08.902615+00:00",
+      "finished_at": "2026-11-03T13:56:34.081319+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

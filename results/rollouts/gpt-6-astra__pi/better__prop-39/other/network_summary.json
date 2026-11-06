@@ -1,0 +1,63 @@
+{
+  "requests": 26,
+  "requests_per_host": {
+    "openrouter.ai": 17,
+    "www.mercurynews.com": 2,
+    "www.courthousenews.com": 1,
+    "electionconfidence.org": 1,
+    "www.nber.org": 1,
+    "electionlab.mit.edu": 1,
+    "oag.ca.gov": 1,
+    "www.library.ca.gov": 1,
+    "selc.senate.ca.gov": 1
+  },
+  "hosts": [
+    "electionconfidence.org",
+    "electionlab.mit.edu",
+    "oag.ca.gov",
+    "openrouter.ai",
+    "selc.senate.ca.gov",
+    "www.courthousenews.com",
+    "www.library.ca.gov",
+    "www.mercurynews.com",
+    "www.nber.org"
+  ],
+  "status_counts": {
+    "200": 25,
+    "403": 1
+  },
+  "bytes_up": 1546052,
+  "bytes_down": 1063470,
+  "wire_bytes": {
+    "harness_to_proxy": 1598560,
+    "proxy_to_harness": 1151177,
+    "proxy_to_internet": 1592684,
+    "internet_to_proxy": 1205227
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 26,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

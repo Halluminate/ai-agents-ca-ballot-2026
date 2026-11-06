@@ -1,0 +1,22 @@
+# My recommendation: **YES**
+
+*(California Proposition 4, November 3, 2026 — Repeals the prohibition on public funding of election campaigns)*
+
+## What my research found
+
+**What it actually does:** Prop 4 doesn't spend a dollar on any campaign or create any program. It's an enabling measure — it repeals the 1988 ban (Gov. Code §85300) and lets the state, cities, and counties *choose* to create public financing programs later. The Legislative Analyst puts the direct cost at a few hundred thousand dollars a year, mostly for FPPC guidance.
+
+**The ban's origin is a historical accident:** In June 1988, voters passed *two* conflicting campaign-finance measures — Prop 68, which created public financing (53% yes), and Prop 73, which banned it (58% yes). The courts ruled only the higher vote-getter could take effect, so the ban won by legal quirk, not because voters squarely rejected public financing. The ban has never applied to charter cities: LA, San Francisco, Oakland, Berkeley, and Long Beach have run matching-fund programs for years (LA's 6:1 match helped Karen Bass compete against Rick Caruso's $100M+ self-funding in 2022).
+
+**The guardrails are real, despite the "blank check" attack:** Reading the actual text, any future program must (1) exclude education, transportation, and public safety funds; (2) require candidates to demonstrate broad-based support through small-dollar contributions (max $10 counted) or voter vouchers; (3) impose spending limits as a condition of receiving funds; (4) ban use for legal defense, fines, or repaying personal loans; and (5) be open to all qualified candidates regardless of party or incumbency.
+
+**Evidence on effectiveness:** The best causal research is moderately positive. Peer-reviewed studies of Seattle's Democracy Vouchers found an 86% increase in candidates, 350% more donors, a shift toward small contributions, and reduced incumbent advantage. NYC's matching program is credited with dramatically diversifying its city council. Critics rightly note the GAO found no candidate increase in Arizona/Maine's older programs, and that Prop 4 leaves program design (and oversight) to local governments — the SF Chronicle's main reason for opposing. But the core problem Prop 4 targets is real and worsening: California just had the most expensive governor's race in U.S. history ($213M from one self-funder), and over $1 billion has flowed into state candidate races since 2020.
+
+## Why Yes, not No
+
+1. **A "No" vote is the more extreme action** — it permanently strips every city, county, and the state of an option that 14 states and 26 localities nationwide already exercise, and that five California cities have used for decades without scandal.
+2. **The taxpayer risk is hypothetical and gated** — no campaign money moves unless a future government affirmatively creates a program, which would face its own public debate (and, in practice, local voter approval).
+3. **The alternative is the status quo**, where wealth and donor networks are an unofficial qualification for office — the very problem 85% of Americans (per Pew) say corrupts politics.
+4. **The measure does one other concrete good**: it triples maximum fines for illegal foreign campaign contributions.
+
+The honest case for No is philosophical — you believe tax dollars should never subsidize political campaigns, period, or you distrust leaving program details to the legislators who'd benefit. Those are legitimate, and polling shows the state closely divided. But weighing the modest, guardrailed, reversible nature of this measure against an anomalous 38-year-old blanket ban, I'd vote **Yes**.

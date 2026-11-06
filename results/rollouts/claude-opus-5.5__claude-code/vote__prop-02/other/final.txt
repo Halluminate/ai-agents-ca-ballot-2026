@@ -1,0 +1,55 @@
+I'm not going to cast this vote for you. Prop 2 is a fight largely along party lines, and the research shows the facts aren't really in dispute: both sides agree it would **grow the state's reserves** and **make taxpayer refunds less likely**. Which of those matters more to you is the decision. Election Day is tomorrow, Nov. 3, and one question gets you to yes or no:
+
+> **In the next boom, should extra tax money be saved, or should the state spending limit keep pushing it out as refunds and one-time projects?**
+> - **Saved → YES**
+> - **Refunded or spent, or you won't enlarge the fund until the rules for taking money out are tightened → NO**
+
+### What it does (starts in 2027-28; this is not the 2024 school bond Prop 2)
+- **Bigger cap:** The rainy day fund's limit doubles from 10% to 20% of state tax revenue, roughly $21B to $42B.
+- **Bigger deposits in booms:** The state must save more when capital-gains tax revenue spikes.
+- **Spending limit change:** Under the Gann limit (California's constitutional cap on state spending), savings would count when they're spent, not when they're deposited.
+- **Debt payments:** Required extra debt payments are extended from 2030 to 2040. More debts would qualify, including school obligations, internal state loans and the ~$20B federal unemployment insurance loan.
+- **Unchanged:** taxes, Prop 98 school funding and the rules for taking money out.
+- **Small effect at first:** The fund holds $15.1B, below even today's cap, and the state is $27B under the spending limit. Prop 2 mostly matters in the next boom.
+
+### Strongest case for YES
+- California ranks about 5th among states for revenue swings but about 29th for reserves.
+- The nonpartisan Legislative Analyst's Office (LAO) estimates that in a bad scenario, current rules cover about a third of future shortfalls. This approach would cover about half.
+- The LAO said the core of this plan "clearly improves upon current law." It had also recommended counting withdrawals against the limit, which Prop 2 does.
+- In 2022, staying under the limit pushed about $48B of surplus into tax refunds (including a $9.5B one) and exempt one-time spending instead of savings. Former budget staffer Jason Sisney says leaders would have saved more without that pressure. About $82B in budget problems followed.
+
+### Strongest case for NO
+- **Fewer refunds is the point of the change, not a side effect.** A formal Gann refund has only been triggered once, in 1987, but the limit's pressure helped produce the 2022 refund.
+- **Taking money out stays easy.** The LAO says the "budget emergency" test "can allow a fiscal emergency declaration during a sizeable budget surplus."
+- **Recent behavior:** About $12B was withdrawn in 2024–26, and this year's budget skipped a $5.4B deposit. Critic David Crane, a former Schwarzenegger adviser, argues a bigger fund just lets governors "bake in spending."
+- **Half a reform:** The LAO wanted the cap to reach 50% by 2055.
+- **Unemployment loan:** Prop 2 would let saved money pay off the unemployment insurance loan, which employers would otherwise repay through federal payroll taxes. The progressive-leaning California Budget & Policy Center flagged this.
+
+### Claims to discount
+- **"Guarantees more spending" (No side):** The LAO's only fiscal finding is that reserves would be higher.
+- **"Stops politicians from overspending" (Yes side):** Overstated. Nothing stops lawmakers from skipping deposits. Even the SF Chronicle endorsed it only "if our politicians bother to use it."
+
+**Who's on each side:**
+- **Yes:** Newsom, Democrats, Republican Assemblymember Josh Hoover, firefighters, hospitals, LA Area Chamber of Commerce, SPUR, SF Chronicle, Sacramento Bee.
+- **No:** California Republican Party, Howard Jarvis Taxpayers Association, Reform California, Govern for California, San Diego Union-Tribune, Orange County Register.
+
+Sources:
+- [Official arguments & rebuttals (SOS)](https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm)
+- [LAO ballot analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=2&year=2026)
+- [LAO: Rethinking California's Reserve Policy](https://www.lao.ca.gov/Publications/Report/5028)
+- [LAO: 2026-27 Budget Overview](https://lao.ca.gov/Publications/Report/5197)
+- [LAO: 2022-23 Spending Plan](https://lao.ca.gov/Publications/Report/4616)
+- [Jason Sisney on the 2022 spending limit](https://jasonsisney.substack.com/p/state-moving-closer-to-its-appropriation)
+- [California Budget & Policy Center](https://calbudgetcenter.org/resources/should-voters-approve-proposition-2-how-californias-rainy-day-fund-would-be-updated/)
+- [CalMatters explainer](https://calmatters.org/politics/2026/10/california-proposition-2-explained/)
+- [CalMatters voter guide](https://calmatters.org/california-voter-guide-2026/proposition-2-rainy-day-fund/)
+- [Gabriel/Hoover op-ed](https://calmatters.org/commentary/2026/10/rainy-day-fund-california-proposition/)
+- [David Crane, SF Standard](https://sfstandard.com/opinion/2026/09/14/newsom-rainy-day-fund-prop-2/)
+- [HJTA voting guide](https://www.hjta.org/2026votingguide/)
+- [Reform California](https://www.reformcalifornia.org/voter-guides/california)
+- [SPUR](https://www.spur.org/voter-guide/2026-11/ca-prop-2-rainy-day-fund)
+- [SF Chronicle endorsement](https://www.sfchronicle.com/opinion/editorials/article/prop-2-money-california-22468892.php)
+- [California Today guide](https://californiatoday.com/guides/elections/2026-california-proposition-2-guide/)
+- [SF Inquirer](https://sfinquirer.com/2026/10/25/proposition-2-california-rainy-day-fund-spending-limit/)
+- [Daily Bruin](https://dailybruin.com/2026/10/27/californians-will-vote-on-expanding-state-budget-reserves-with-proposition-2)
+- [SCNG guide (Yahoo)](https://www.yahoo.com/news/politics/articles/guide-proposition-2-lets-leaders-100000708.html)

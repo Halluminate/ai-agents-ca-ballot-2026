@@ -1,0 +1,265 @@
+{
+  "run_id": "sonnet__native__vote__p43__r1",
+  "model": "sonnet",
+  "model_id": "anthropic/claude-sonnet-5.5",
+  "pin": "anthropic",
+  "arm": "native",
+  "harness": "claude_code",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "43",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T12:20:00.289103+00:00",
+  "finished_at": "2026-11-03T12:32:51.827748+00:00",
+  "seconds": 769.3,
+  "input_tokens": 48661,
+  "output_tokens": 39260,
+  "cached_tokens": 325965,
+  "cost_usd": 1.1789,
+  "cost_source": "reported",
+  "billed_usd": 1.1789011999999999,
+  "searches": [
+    "California Proposition 43 November 2026",
+    "Legislative Analyst's Office Proposition 43 2026 analysis two-thirds vote local special taxes citizen initiatives fiscal effect",
+    "ACA 22 2025-2026 text \"Section 4.5\" Article XII two-thirds local initiative special taxes ad valorem real property",
+    "Prop 43 editorial endorsement \"Prop. 43\" Los Angeles Times editorial board two-thirds special taxes recommendation",
+    "Prop 43 ballot label lawsuit title \"Limits voters' ability to raise revenues\" Howard Jarvis court ruling misleading",
+    "PPIC October 2026 survey Proposition 43 likely voters local special taxes two-thirds poll",
+    "Prop 43 endorsement \"yes\" editorial Mercury News OR \"San Diego Union-Tribune\" OR \"Orange County Register\" two-thirds vote local special taxes",
+    "Howard Jarvis Taxpayers Association withdrew initiative deal Wicks ACA 22 what happens if Prop 43 fails 2028 initiative",
+    "ACA 22 Assembly floor analysis citizen initiative special taxes passed majority vote since Upland number of measures revenue billion"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 9,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-43-tax-threshold/",
+    "https://calmatters.org/politics/2026/10/california-prop-43-election-2026/",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_43",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_43",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-43-limits",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43.pdf",
+    "https://cavotes.org/ballot-measure/2026-prop-43/",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-43-local-tax-threshold",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=43&year=2026",
+    "https://quickguidetoprops.sos.ca.gov/propositions/2026-11-03/43",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-43-local-special-tax",
+    "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260ACA22",
+    "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-43/legal-text/",
+    "https://www.bwslaw.com/insights/2026-california-tax-ballot-measures/",
+    "https://www.sfchronicle.com/opinion/editorials/article/california-ballot-measures-propositions-22507044.php",
+    "https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-43-ballot-california-22477053.php",
+    "https://www.pressdemocrat.com/2026/10/03/endorsement-prop-43-wants-to-fix-a-system-that-isnt-broken/",
+    "https://lao.ca.gov/ballot/2026/prop43-110326.pdf",
+    "https://calmatters.org/housing/2026/06/tax-cut-measure-pulled/",
+    "https://www.hjta.org/press-releases/taxpayers-win-in-sacramento-with-unprecedented-support-for-two-thirds-vote-requirement-to-raise-special-taxes/",
+    "https://calmatters.org/politics/2026/10/tax-propositions-ballot-measures/",
+    "https://www.kqed.org/news/12103136/why-opponents-of-prop-43-say-it-would-cripple-local-funding",
+    "https://thebusinessjournal.com/prop-43-two-thirds-vote-local-special-taxes/",
+    "https://calmatters.digitaldemocracy.org/bills/ca_202520260aca22"
+  ],
+  "tool_errors": 2,
+  "warnings": [
+    "capture: 7 connections were not readable by the proxy (api.anthropic.com:443)"
+  ],
+  "network": {
+    "requests": 115,
+    "requests_per_host": {
+      "api.anthropic.com": 46,
+      "openrouter.ai": 46,
+      "calmatters.org": 4,
+      "voterguide.sos.ca.gov": 2,
+      "www.sfchronicle.com": 2,
+      "en.wikipedia.org": 1,
+      "igs.berkeley.edu": 1,
+      "vig.cdn.sos.ca.gov": 1,
+      "cavotes.org": 1,
+      "lao.ca.gov": 1,
+      "quickguidetoprops.sos.ca.gov": 1,
+      "laist.com": 1,
+      "leginfo.legislature.ca.gov": 1,
+      "growsf.org": 1,
+      "www.bwslaw.com": 1,
+      "www.pressdemocrat.com": 1,
+      "www.hjta.org": 1,
+      "www.kqed.org": 1,
+      "thebusinessjournal.com": 1,
+      "calmatters.digitaldemocracy.org": 1
+    },
+    "hosts": [
+      "api.anthropic.com",
+      "calmatters.digitaldemocracy.org",
+      "calmatters.org",
+      "cavotes.org",
+      "en.wikipedia.org",
+      "growsf.org",
+      "igs.berkeley.edu",
+      "laist.com",
+      "lao.ca.gov",
+      "leginfo.legislature.ca.gov",
+      "openrouter.ai",
+      "quickguidetoprops.sos.ca.gov",
+      "thebusinessjournal.com",
+      "vig.cdn.sos.ca.gov",
+      "voterguide.sos.ca.gov",
+      "www.bwslaw.com",
+      "www.hjta.org",
+      "www.kqed.org",
+      "www.pressdemocrat.com",
+      "www.sfchronicle.com"
+    ],
+    "status_counts": {
+      "200": 113,
+      "403": 1
+    },
+    "bytes_up": 3495890,
+    "bytes_down": 2389919,
+    "wire_bytes": {
+      "harness_to_proxy": 3595530,
+      "proxy_to_harness": 2713435,
+      "proxy_to_internet": 3594777,
+      "internet_to_proxy": 2802245
+    },
+    "byte_counter": true,
+    "errors": 8,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0144,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0049,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0042,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0028,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0015,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0277,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0042,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 58,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:20:00.289103+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:20:00.289103+00:00",
+      "finished_at": "2026-11-03T12:32:51.827748+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

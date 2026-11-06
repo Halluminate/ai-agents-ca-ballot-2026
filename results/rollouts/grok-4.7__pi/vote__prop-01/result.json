@@ -1,0 +1,102 @@
+{
+  "run_id": "grok__common__vote__p1__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "1",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T04:32:12.293954+00:00",
+  "seconds": 129.8,
+  "input_tokens": 86694,
+  "output_tokens": 5922,
+  "cached_tokens": 70400,
+  "cost_usd": 0.3001,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 1 voter guide 2024 ballot measure summary arguments",
+    "California Proposition 1 2026 housing affordability bonds $11.25 billion analysis",
+    "SB 417 California Veterans and Affordable Housing Bond Act of 2026 analysis",
+    "California state bond debt capacity 2026 general fund deficit housing bonds effectiveness",
+    "California 2026 Proposition 1 editorial endorsement yes or no housing bond",
+    "California Proposition 1 2026 housing bond opposition criticism debt",
+    "California 2018 Proposition 1 housing bond results units built spending remaining effectiveness HCD",
+    "Howard Jarvis Taxpayers Association Proposition 1 2026 vote no argument",
+    "California Budget and Policy Center Proposition 1 2026 veterans affordable housing bond recommendation",
+    "League of Women Voters California Proposition 1 2026 recommendation housing bond",
+    "Enterprise Community Partners 2026 California affordable housing pipeline 40000 units funding gap"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/1/",
+    "https://voterguide.sos.ca.gov/propositions/1/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/1/title-summary.htm",
+    "https://voterguide.sos.ca.gov/propositions/1/arguments-rebuttals.htm",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-1-affordable-housing-bond",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop1-california-housing-vote-22442444.php",
+    "https://www.ocregister.com/2026/09/23/endorsement-no-on-prop-1-more-debt-wont-fix-californias-housing-shortage/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 17,
+    "requests_per_host": {
+      "openrouter.ai": 17
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 17
+    },
+    "bytes_up": 686794,
+    "bytes_down": 470616,
+    "wire_bytes": {
+      "harness_to_proxy": 723878,
+      "proxy_to_harness": 537206,
+      "proxy_to_internet": 718213,
+      "internet_to_proxy": 579696
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 18,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

@@ -1,0 +1,38 @@
+# My answer: No on Prop 44
+
+This one isn't close, and it doesn't split along party lines. The California Democratic, Republican and Working Families parties all oppose it. So do Planned Parenthood, the California Medical Association, the state's pediatricians, family doctors and school nurses, and every newspaper editorial board I found. Its only notable backers are SEIU-UHW, the union that wrote it, and the California Labor Federation, according to KQED. The October PPIC poll had it at 25% yes, 71% no.
+
+**Why it fails on the merits**
+
+1. **"90% of revenue" is much stricter than it sounds.** The test compares patient-care spending to total *revenue*, not to total spending. That means everything else has to fit in the remaining 10%: billing, IT, HR, compliance, fundraising, executive pay, *and any surplus or reserves*.
+   - **My own example:** a clinic spends a better-than-typical 85% of its budget on patient care and runs a 3% surplus. It would score about 82% and owe a penalty of about 7.5% of revenue. That's more than twice its whole surplus.
+   - **Building and saving are punished:** capital grants count as revenue, but the buildings they pay for don't count as spending that year. So clinics get penalized for building new sites or for saving ahead of the federal H.R. 1 Medicaid cuts.
+2. **Many clinics would fall short right away.** The nonpartisan Legislative Analyst's Office says affected clinics average about 80% today. A study the clinics paid for estimates $1.7B in first-year penalties. That number comes from an interested party, but it points the same way as the LAO figure.
+3. **The penalties are harsh and the rules are vague.** A clinic that falls short owes the full gap, with no cap, regardless of fault or quality of care. It only gets the money back if it reaches 90% within five years. What counts as patient care gets decided by the Attorney General after the election, through bulletins that skip normal rulemaking. Patients could also sue clinic boards, and acting in good faith would not be a defense.
+4. **It doesn't actually limit executive pay.** That's the campaign's main pitch, but it appears only in the measure's findings section, not in the parts with legal force.
+
+**Context**
+
+SEIU-UHW has a long record of using ballot measures as bargaining leverage. Voters rejected its three dialysis measures by growing margins (60–40, 63–37, 68–32). In June it withdrew its executive pay cap measure hours before the deadline, as part of a deal with hospitals. The clinics have filed a federal racketeering suit claiming the union offered to drop Prop 44 in exchange for more union members at clinics. The union calls that "categorically false," and nothing has been proven. Between July and mid-September, the union spent only about $20K on Prop 44.
+
+**The best case for Yes**
+
+Clinics run mostly on public money, and some do run big surpluses or pay executives a lot. One Fresno clinic group had a surplus of about $25M in 2023, and its former CEO was paid about $1.2M. That's a fair concern. But this measure is a blunt tool that would hit well-run clinics along with the outliers, just as federal cuts reach the clinics that millions of low-income Californians depend on.
+
+Sources:
+- [CA Secretary of State – Prop 44](https://voterguide.sos.ca.gov/propositions/44/)
+- [LAO analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=44&year=2026)
+- [Legal text (GrowSF)](https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-44/legal-text/)
+- [GrowSF analysis](https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-44/)
+- [Nixon Peabody legal analysis](https://www.nixonpeabody.com/insights/alerts/2026/10/29/californias-proposition-44-potential-big-impacts-for-community-health-centers)
+- [Hoover Proposition Lab](https://www.hoover.org/proposition-lab-proposition-44)
+- [CalMatters voter guide](https://calmatters.org/california-voter-guide-2026/proposition-44-clinic-funding/)
+- [CalMatters – union & Prop 44](https://calmatters.org/health/2026/10/union-billionaire-prop-44-clinic/)
+- [CalMatters – June hospital deal](https://calmatters.org/health/2026/06/health-ballot-measures-deal-billionaires/)
+- [KQED](https://www.kqed.org/news/12102004/prop-44-requires-health-clinics-to-spend-more-on-patient-care)
+- [LAist](https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-44-health-care-spending)
+- ["A forgotten ballot measure?"](https://www.yahoo.com/news/politics/articles/forgotten-ballot-measure-union-behind-120000207.html)
+- [SF Chronicle editorial](https://www.sfchronicle.com/opinion/editorials/article/prop-44-california-health-clinic-22433656.php)
+- [Fresnoland](https://fresnoland.org/2025/08/13/healthcare-initiative/)
+- [PPIC October 2026 survey](https://www.ppic.org/pdf/ppic-statewide-survey-californians-and-their-government-october-2026.pdf)
+- [Wikipedia – SEIU-UHW](https://en.wikipedia.org/wiki/SEIU_United_Healthcare_Workers_West)

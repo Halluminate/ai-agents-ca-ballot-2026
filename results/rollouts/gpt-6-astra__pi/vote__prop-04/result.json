@@ -1,0 +1,133 @@
+{
+  "run_id": "gpt__common__vote__p4__r1",
+  "model": "gpt",
+  "model_id": "openai/gpt-6-astra",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:18:08.600672+00:00",
+  "seconds": 117.4,
+  "input_tokens": 107540,
+  "output_tokens": 2662,
+  "cached_tokens": 280492,
+  "cost_usd": 1.7826,
+  "cost_source": "reported",
+  "searches": [
+    "California 2026 Proposition 4 public campaign financing repeal SB 42 analysis",
+    "California Proposition 4 2026 campaign finance independent analysis public funding effectiveness",
+    "public campaign financing causal evidence Seattle democracy vouchers candidate competition 2022 study criticism",
+    "GAO public campaign financing 2024 five selected programs candidate outcomes democracy vouchers",
+    "SB 42 2025 FPPC public campaign financing opposition enforcement analysis strict criteria $10"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://voterguide.sos.ca.gov/propositions/4/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-text-proposed-laws.pdf",
+    "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB42",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-4-repeals",
+    "https://www.sfchronicle.com/opinion/editorials/article/endorsement-prop-4-public-financing-22426379.php",
+    "https://www.caltax.org/prop4",
+    "https://www.yesfairelections.org/",
+    "https://calmatters.org/politics/2026/10/california-proposition-4-explainer/",
+    "https://www.brennancenter.org/our-work/analysis-opinion/california-voters-will-choose-whether-allow-public-campaign-financing",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-4-campaign-financing",
+    "https://sgp.jhu.edu/primers/public-funding-of-us-elections/",
+    "https://www.gao.gov/products/gao-25-106650",
+    "https://www.gao.gov/assets/gao-25-106650.pdf",
+    "https://leginfo.legislature.ca.gov/faces/billAnalysisClient.xhtml?bill_id=202520260SB42",
+    "https://www.washington.edu/news/2022/05/26/seattle-democracy-vouchers-increase-donations-number-of-candidates-in-city-elections/",
+    "https://resolve.cambridge.org/core/journals/american-political-science-review/article/campaign-finance-vouchers-do-not-expand-the-diversity-of-donors-evidence-from-seattle/BD8E21A4B646DE4EA56BF8787DF0FF81",
+    "https://www.gao.gov/assets/gao-25-106650.pdf",
+    "https://sfethics.org/ethics/2025/03/san-francisco-public-campaign-financing-program-report-for-the-november-5-2024-election.html",
+    "https://www.oaklandca.gov/files/assets/city/v/3/boards-amp-commissions/documents/pec/publications/reports-by-third-parties/2013-05-01-evaluating-oaklands-limited-public-financing-act.pdf",
+    "https://www.cambridge.org/core/journals/american-political-science-review/article/campaign-finance-vouchers-do-not-expand-the-diversity-of-donors-evidence-from-seattle/BD8E21A4B646DE4EA56BF8787DF0FF81",
+    "https://www.gao.gov/assets/gao-25-106650.pdf",
+    "https://sfethics.org/ethics/2025/03/san-francisco-public-campaign-financing-program-report-for-the-november-5-2024-election.html",
+    "https://www.cambridge.org/core/journals/american-political-science-review/article/campaign-finance-vouchers-do-not-expand-the-diversity-of-donors-evidence-from-seattle/BD8E21A4B646DE4EA56BF8787DF0FF81"
+  ],
+  "tool_errors": 1,
+  "warnings": [
+    "warning: reasoning was not replayed on an assistant turn"
+  ],
+  "network": {
+    "requests": 19,
+    "requests_per_host": {
+      "openrouter.ai": 13,
+      "www.cambridge.org": 2,
+      "www.spur.org": 1,
+      "www.washington.edu": 1,
+      "resolve.cambridge.org": 1,
+      "www.oaklandca.gov": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "resolve.cambridge.org",
+      "www.cambridge.org",
+      "www.oaklandca.gov",
+      "www.spur.org",
+      "www.washington.edu"
+    ],
+    "status_counts": {
+      "200": 17,
+      "301": 1
+    },
+    "bytes_up": 1869841,
+    "bytes_down": 1466755,
+    "wire_bytes": {
+      "harness_to_proxy": 1910116,
+      "proxy_to_harness": 1530928,
+      "proxy_to_internet": 1905040,
+      "internet_to_proxy": 1575061
+    },
+    "byte_counter": true,
+    "errors": 3,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "www.cambridge.org",
+        "url": "https://www.cambridge.org/core/journals/american-political-science-review/article/campaign-finance-vouchers-do-not-expand-the-diversity-of-donors-evidence-from-seattle/BD8E21A4B646DE4EA56BF8787DF0FF81",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 19,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

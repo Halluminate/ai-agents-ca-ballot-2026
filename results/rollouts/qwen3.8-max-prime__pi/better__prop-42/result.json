@@ -1,0 +1,124 @@
+{
+  "run_id": "qwen-max-prime__common__better__p42__r1",
+  "model": "qwen-max-prime",
+  "model_id": "qwen/qwen3.8-max-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "42",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:08:10.295592+00:00",
+  "finished_at": "2026-11-03T11:11:14.607164+00:00",
+  "seconds": 181.6,
+  "input_tokens": 90627,
+  "output_tokens": 8406,
+  "cached_tokens": 411392,
+  "cost_usd": 0.7097,
+  "cost_source": "reported",
+  "billed_usd": 0.709725458,
+  "searches": [
+    "California Proposition 42 2024 news media independence act",
+    "Prop 42 California 2026 Sergey Brin funding billionaire tax Prop 40 conflict clause",
+    "PPIC poll Prop 40 Prop 41 Prop 42 October 2026 results",
+    "\"Prop 42\" California 2026 endorsements editorial board vote no",
+    "Prop 42 California analysis experts breadth \"estate tax\" OR \"digital assets\" OR \"unintended consequences\" constitutional ban personal property tax",
+    "Shanske Prop 42 \"capital gains\" sloppy wording California wealth tax analysis Daily Journal",
+    "Mercury News endorsement reject Propositions 40 41 42 reasoning",
+    "\"Prop 42\" campaign finance total raised Building a Better California spending oppose SEIU-UHW 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/42/",
+    "https://voterguide.sos.ca.gov/propositions/42/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/42/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/40/index.htm",
+    "https://voterguide.sos.ca.gov/propositions/41/index.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-text-proposed-laws.pdf",
+    "https://voterguide.sos.ca.gov/propositions/40/analysis.htm",
+    "https://www.dailyjournal.com/articles/395463-propositions-41-and-42-bad-ideas-that-threaten-to-hurt-all-californians",
+    "https://cms.hoover.org/proposition-lab-proposition-42",
+    "https://inewsource.org/2026-10-23/tax-measures-on-california-ballot-2026-election/",
+    "https://eml.berkeley.edu/~saez/GGS26props41-42.pdf",
+    "https://calmatters.org/california-voter-guide-2026/proposition-42-property-taxes/",
+    "https://eml.berkeley.edu/~saez/GGS26props41-42.pdf",
+    "https://calmatters.org/health/2026/10/prop-40-billionaire-tax-fact-check/",
+    "https://www.mercurynews.com/2026-10-13/bay-area-news-group-california-election-endorsements-november-2026/",
+    "https://www.mercurynews.com/2026-10-13/bay-area-news-group-california-election-endorsements-november-2026/"
+  ],
+  "tool_errors": 1,
+  "warnings": [],
+  "network": {
+    "requests": 27,
+    "requests_per_host": {
+      "openrouter.ai": 21,
+      "inewsource.org": 2,
+      "www.mercurynews.com": 2,
+      "www.dailyjournal.com": 1,
+      "cms.hoover.org": 1
+    },
+    "hosts": [
+      "cms.hoover.org",
+      "inewsource.org",
+      "openrouter.ai",
+      "www.dailyjournal.com",
+      "www.mercurynews.com"
+    ],
+    "status_counts": {
+      "200": 24,
+      "301": 2,
+      "403": 1
+    },
+    "bytes_up": 2050608,
+    "bytes_down": 1236196,
+    "wire_bytes": {
+      "harness_to_proxy": 2108203,
+      "proxy_to_harness": 1352478,
+      "proxy_to_internet": 2099793,
+      "internet_to_proxy": 1422282
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 27,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:08:10.295592+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:08:10.295592+00:00",
+      "finished_at": "2026-11-03T11:11:14.607164+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

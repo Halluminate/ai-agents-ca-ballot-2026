@@ -1,0 +1,247 @@
+{
+  "requests": 33,
+  "requests_per_host": {
+    "openrouter.ai": 14,
+    "voterguide.sos.ca.gov": 5,
+    "ballotpedia.org": 3,
+    "lao.ca.gov": 2,
+    "leginfo.legislature.ca.gov": 2,
+    "www.hjta.org": 1,
+    "yeson43.com": 1,
+    "www.sandiegouniontribune.com": 1,
+    "www.sacbee.com": 1,
+    "calmatters.org": 1,
+    "lwvc.org": 1,
+    "www.sfchronicle.com": 1
+  },
+  "hosts": [
+    "ballotpedia.org",
+    "calmatters.org",
+    "lao.ca.gov",
+    "leginfo.legislature.ca.gov",
+    "lwvc.org",
+    "openrouter.ai",
+    "voterguide.sos.ca.gov",
+    "www.hjta.org",
+    "www.sacbee.com",
+    "www.sandiegouniontribune.com",
+    "www.sfchronicle.com",
+    "yeson43.com"
+  ],
+  "status_counts": {
+    "200": 25,
+    "301": 1,
+    "403": 2,
+    "404": 1
+  },
+  "bytes_up": 1206225,
+  "bytes_down": 1614385,
+  "wire_bytes": {
+    "harness_to_proxy": 1251427,
+    "proxy_to_harness": 1743147,
+    "proxy_to_internet": 1249416,
+    "internet_to_proxy": 1897115
+  },
+  "byte_counter": true,
+  "errors": 12,
+  "error_details": [
+    {
+      "kind": "connect_error",
+      "host": "openrouter.ai",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "openrouter.ai",
+      "error": null
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "openrouter.ai",
+      "sni": "openrouter.ai",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/",
+      "error": "stream reset by client (CANCEL)"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/models",
+      "error": "stream reset by client (CANCEL)"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "vig.cdn.sos.ca.gov",
+      "sni": "vig.cdn.sos.ca.gov",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "stream reset by client (PROTOCOL_ERROR)"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "calmatters.org",
+      "sni": "calmatters.org",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "stream reset by client (PROTOCOL_ERROR)"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "openrouter.ai",
+      "sni": "openrouter.ai",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "http",
+      "host": "www.sacbee.com",
+      "url": "https://www.sacbee.com/opinion/election-endorsements/article316956235.html",
+      "error": "stream reset by client (INTERNAL_ERROR)"
+    },
+    {
+      "kind": "connect_error",
+      "host": "openrouter.ai",
+      "error": null
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 111,
+      "bytes_down": 0,
+      "duration": 4.9038,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 111,
+      "bytes_down": 0,
+      "duration": 0.4034,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1593,
+      "bytes_down": 39,
+      "duration": 6.0819,
+      "reason": "connection closed early"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3275,
+      "duration": 5.5302,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3275,
+      "duration": 5.4809,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "vig.cdn.sos.ca.gov",
+      "port": 443,
+      "sni": "vig.cdn.sos.ca.gov",
+      "bytes_up": 1560,
+      "bytes_down": 39,
+      "duration": 14.1868,
+      "reason": "connection closed early"
+    },
+    {
+      "host": "calmatters.org",
+      "port": 443,
+      "sni": "calmatters.org",
+      "bytes_up": 1548,
+      "bytes_down": 39,
+      "duration": 31.2269,
+      "reason": "connection closed early"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1809,
+      "bytes_down": 39,
+      "duration": 10.8448,
+      "reason": "connection closed early"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 63,
+      "bytes_down": 0,
+      "duration": 0.0663,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "ballotpedia.org",
+      "port": 443,
+      "sni": "ballotpedia.org",
+      "bytes_up": 1818,
+      "bytes_down": 39,
+      "duration": 260.2507,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "www.latimes.com",
+      "port": 443,
+      "sni": "www.latimes.com",
+      "bytes_up": 1551,
+      "bytes_down": 39,
+      "duration": 260.0371,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [
+    {
+      "process": "grok-1.0.70",
+      "operation": "network-outbound",
+      "target": null,
+      "attempts": 52
+    },
+    {
+      "process": "grok-1.0.70",
+      "operation": "network-outbound",
+      "target": "remote:*:49466",
+      "attempts": 1
+    }
+  ],
+  "blocked_attempts": 53,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 30,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "allowed, not recorded"
+}

@@ -1,0 +1,113 @@
+{
+  "run_id": "qwen-max__common__better__p4__r1",
+  "model": "qwen-max",
+  "model_id": "qwen/qwen3.8-max-0902",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:19:26.868468+00:00",
+  "finished_at": "2026-11-03T13:23:43.725682+00:00",
+  "seconds": 254.1,
+  "input_tokens": 78193,
+  "output_tokens": 6870,
+  "cached_tokens": 313088,
+  "cost_usd": 0.3216,
+  "cost_source": "reported",
+  "billed_usd": 0.32159575288000003,
+  "searches": [
+    "California Proposition 4 2024 safe drinking water wildfire prevention natural resources bond",
+    "California 2026 Proposition 4 repeals prohibition public funding election campaigns",
+    "Proposition 4 2026 California poll public financing campaigns support oppose Berkeley IGS",
+    "\"Proposition 4\" 2026 California late October Berkeley IGS poll yes no undecided campaign finance",
+    "Prop 4 2026 California opposition funding \"No on Prop 4\" DeMaio Reform California campaign committee money",
+    "\"Californians for Fair Elections\" Prop 4 2026 contributions donors funding committee",
+    "Los Angeles Times endorsement Prop 4 2026 public campaign financing editorial",
+    "New York City matching funds program evidence small donors diversity effectiveness study public campaign financing works",
+    "\"Proposition 4\" 2026 California easy voter guide CAVE analysis recommendation"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://voterguide.sos.ca.gov/propositions/4/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-4-repeals",
+    "https://calmatters.org/california-voter-guide-2026/proposition-4-public-fundraising/",
+    "https://www.hoover.org/proposition-lab-proposition-4",
+    "https://calmatters.org/politics/2026/10/california-proposition-4-explainer/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-text-proposed-laws.pdf",
+    "https://escholarship.org/content/qt72722408/qt72722408.pdf",
+    "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB42",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-4-campaign-financing"
+  ],
+  "tool_errors": 1,
+  "warnings": [],
+  "network": {
+    "requests": 21,
+    "requests_per_host": {
+      "openrouter.ai": 20,
+      "escholarship.org": 1
+    },
+    "hosts": [
+      "escholarship.org",
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 20,
+      "403": 1
+    },
+    "bytes_up": 1636929,
+    "bytes_down": 884016,
+    "wire_bytes": {
+      "harness_to_proxy": 1683706,
+      "proxy_to_harness": 989927,
+      "proxy_to_internet": 1676680,
+      "internet_to_proxy": 1042985
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 22,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:19:26.868468+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:19:26.868468+00:00",
+      "finished_at": "2026-11-03T13:23:43.725682+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

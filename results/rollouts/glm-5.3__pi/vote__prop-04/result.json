@@ -1,0 +1,102 @@
+{
+  "run_id": "glm__common__vote__p4__r1",
+  "model": "glm",
+  "model_id": "z-ai/glm-5.3",
+  "pin": "z-ai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "4",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T10:58:41.175111+00:00",
+  "finished_at": "2026-11-03T11:03:15.711630+00:00",
+  "seconds": 271.3,
+  "input_tokens": 77560,
+  "output_tokens": 11640,
+  "cached_tokens": 301568,
+  "cost_usd": 0.2788,
+  "cost_source": "reported",
+  "billed_usd": 0.27883465648,
+  "searches": [
+    "California Proposition 4 November 2026 public campaign financing repeal ban",
+    "California Proposition 73 1988 ban public funding campaigns history",
+    "Proposition 4 California 2026 polling Berkeley IGS poll public financing",
+    "Seattle democracy vouchers study effectiveness small donor matching public financing research evidence",
+    "SB 42 Umberg California Fair Elections Act 2026 legislative history vote Newsom signed",
+    "states that ban public financing of campaigns California only state statutory ban",
+    "\"Proposition 4\" California 2026 campaign contributions committee totals yes no support oppose funding",
+    "Los Angeles Times endorsement Proposition 4 2026 public campaign financing position"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://voterguide.sos.ca.gov/propositions/4/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm",
+    "https://www.sfchronicle.com/opinion/editorials/article/endorsement-prop-4-public-financing-22426379.php",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-4-repeals",
+    "https://calmatters.org/california-voter-guide-2026/proposition-4-public-fundraising/",
+    "https://calmatters.org/politics/2026/10/california-proposition-4-explainer/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-text-proposed-laws.pdf",
+    "https://www.sacbee.com/opinion/election-endorsements/article317448027.html",
+    "https://www.sandiegouniontribune.com/2026/09/04/endorsement-dont-buy-prop-4s-baloney-about-publicly-financed-campaigns/",
+    "https://www.mercurynews.com/2026/10/19/endorsement-reject-prop-4-dont-let-politicians-raid-public-funds-for-their-campaigns/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 19,
+    "requests_per_host": {
+      "openrouter.ai": 19
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 19
+    },
+    "bytes_up": 1678028,
+    "bytes_down": 4104464,
+    "wire_bytes": {
+      "harness_to_proxy": 1718198,
+      "proxy_to_harness": 4362125,
+      "proxy_to_internet": 1712700,
+      "internet_to_proxy": 4404325
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 19,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:58:41.175111+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:58:41.175111+00:00",
+      "finished_at": "2026-11-03T11:03:15.711630+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

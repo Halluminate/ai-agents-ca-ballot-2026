@@ -1,0 +1,47 @@
+{
+  "requests": 49,
+  "requests_per_host": {
+    "openrouter.ai": 45,
+    "leginfo.legislature.ca.gov": 1,
+    "sfinquirer.com": 1,
+    "calmatters.digitaldemocracy.org": 1,
+    "calmatters.org": 1
+  },
+  "hosts": [
+    "calmatters.digitaldemocracy.org",
+    "calmatters.org",
+    "leginfo.legislature.ca.gov",
+    "openrouter.ai",
+    "sfinquirer.com"
+  ],
+  "status_counts": {
+    "200": 49
+  },
+  "bytes_up": 17363852,
+  "bytes_down": 1154686,
+  "wire_bytes": {
+    "harness_to_proxy": 17474806,
+    "proxy_to_harness": 1344041,
+    "proxy_to_internet": 17462978,
+    "internet_to_proxy": 1440653
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 43,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

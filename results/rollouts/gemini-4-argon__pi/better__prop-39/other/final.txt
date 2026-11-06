@@ -1,0 +1,32 @@
+Whether to vote **yes** or **no** on California Proposition 39 is a policy and value judgment that depends on which priorities you weigh most heavily, so it cannot be answered with a single "yes" or "no." Below is an overview of the measure and the main arguments on both sides from the Official Voter Information Guide to help you decide.
+
+### What Proposition 39 Does
+Proposition 39 is an initiative constitutional amendment that would change voter identification and registration verification rules in California:
+* **In-Person Voting:** Requires voters to present government-issued identification when voting in person.
+* **Vote-by-Mail:** Requires voters to designate a government-issued ID in their voter registration and write the last four digits of that ID number on their mail ballot envelope.
+* **Free Voter ID Card:** Requires the state to provide a free voter identification card to any eligible voter who requests one.
+* **Citizenship Verification & Audits:** Requires election officials to make "best efforts" using government data to verify that registered voters are U.S. citizens and report verification percentages annually. Requires the State Auditor to audit state and county compliance every odd-numbered year.
+* **Fiscal Impact:** According to the Legislative Analyst's Office, the measure would increase state and local government costs by tens of millions to low hundreds of millions of dollars annually (less than 0.25% of the state's General Fund budget).
+
+---
+
+### Reasons to Vote YES
+Supporters (including Californians for Voter ID, the Transparency Foundation, the Howard Jarvis Taxpayers Association, the Latino American Political Association, and the California Women's Leadership Association) argue that:
+* **Increases Election Trust:** Requiring voter ID and regular independent audits builds public confidence in election results across party lines.
+* **Improves Voter Roll Accuracy:** Requiring officials to verify citizenship and maintain updated voter lists ensures only eligible citizens are registered.
+* **Maintains Accessibility:** The measure preserves vote-by-mail and guarantees a free state-issued voter ID card for anyone who needs one.
+* **Reduces Signature Verification Issues:** Relying on the last four digits of an ID number could reduce the problem of valid mail ballots being flagged or rejected due to inconsistent signatures.
+
+---
+
+### Reasons to Vote NO
+Opponents (including ACLU California Action, Common Cause, and the League of Women Voters of California) argue that:
+* **Creates Barriers for Eligible Voters:** Existing registration and signature processes already verify voters. Adding ID requirements creates extra hurdles—such as the time and expense needed to obtain underlying documents for a "free" ID, or the risk of a mail ballot being rejected due to a simple numbering mistake on the envelope.
+* **High Taxpayer Cost:** Implementing the new system, issuing IDs, and conducting new verification processes would cost taxpayers tens of millions to low hundreds of millions of dollars every year.
+* **Privacy and Identity Theft Risks:** Requiring voters to write the last four digits of a government ID number on mail ballot return envelopes could expose personal information and increase the risk of identity theft.
+
+---
+
+### Summary
+* Vote **YES** if you believe requiring government-issued ID verification, citizenship checks, and regular audits is worth the administrative cost to strengthen election security and public trust.
+* Vote **NO** if you believe current verification rules are sufficient and that the measure would create unnecessary barriers to voting, privacy risks, and significant ongoing taxpayer expenses.

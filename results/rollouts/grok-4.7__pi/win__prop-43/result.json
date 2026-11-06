@@ -1,0 +1,80 @@
+{
+  "run_id": "grok__common__win__p43__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:55:22.063701+00:00",
+  "seconds": 29.1,
+  "input_tokens": 40077,
+  "output_tokens": 1290,
+  "cached_tokens": 6784,
+  "cost_usd": 0.1116,
+  "cost_source": "reported",
+  "searches": [
+    "Proposition 43 California November 2026 special taxes two-thirds vote polling",
+    "California Proposition 43 2026 poll odds likely to pass",
+    "California Prop 43 2026 campaign spending supporters opponents",
+    "California Proposition 43 2026 election results early returns"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.tpsielections.com/forecast/measures/ca/proposition-43"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 9,
+    "requests_per_host": {
+      "openrouter.ai": 8,
+      "www.tpsielections.com": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.tpsielections.com"
+    ],
+    "status_counts": {
+      "200": 9
+    },
+    "bytes_up": 176190,
+    "bytes_down": 122320,
+    "wire_bytes": {
+      "harness_to_proxy": 193242,
+      "proxy_to_harness": 146004,
+      "proxy_to_internet": 190847,
+      "internet_to_proxy": 165781
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 9,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

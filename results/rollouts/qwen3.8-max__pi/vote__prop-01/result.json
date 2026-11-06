@@ -1,0 +1,150 @@
+{
+  "run_id": "qwen-max__common__vote__p1__r1",
+  "model": "qwen-max",
+  "model_id": "qwen/qwen3.8-max-0902",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "1",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "last_line",
+  "error": "",
+  "started_at": "2026-11-03T12:49:45.522128+00:00",
+  "finished_at": "2026-11-03T12:55:52.054313+00:00",
+  "seconds": 363.3,
+  "input_tokens": 94635,
+  "output_tokens": 8985,
+  "cached_tokens": 590720,
+  "cost_usd": 0.4519,
+  "cost_source": "reported",
+  "billed_usd": 0.45193152512,
+  "searches": [
+    "California Proposition 1 voter guide sos.ca.gov",
+    "SB 417 California 2026 housing bond $11.25 billion Proposition 1",
+    "Proposition 1 November 2026 California housing bond endorsements poll",
+    "Proposition 1 2026 housing bond opposition criticism \"no\" vote California",
+    "California affordable housing cost per unit TCAC 2025 subsidy gap LIHTC average",
+    "Proposition 1 California housing bond criticism oppose November 2026",
+    "LAO overview of state bond debt 2026 California general obligation debt service billion authorized unsold",
+    "LA Times SF Chronicle San Diego Union-Tribune endorsement Proposition 1 housing bond November 2026",
+    "Enterprise Community Partners 2026 California affordable housing production pipeline 40,000 units stalled funding",
+    "SB 417 2026 housing bond accountability reporting audit requirements \"Proposition 1\" oversight",
+    "Howard Jarvis Taxpayers Association Proposition 1 2026 housing bond oppose election guide",
+    "California affordable housing development cost per unit 2025 2026 TCAC decline cost containment",
+    "2018 Proposition 1 California $4 billion housing bond results units produced evaluation HCD",
+    "California State Auditor HCD housing bond oversight report 2024 2025 multifamily housing program monitoring recommendations",
+    "LAO 2026-27 budget outlook California operating deficits projection fiscal",
+    "California state auditor housing bond funds HCD oversight inconsistent report",
+    "California 2026-27 budget deficit LAO forecast operating deficit multiyear outlook",
+    "Los Angeles Times editorial board Proposition 1 housing bond 2026 recommendation",
+    "League of Women Voters California Proposition 1 2026 position easy voter guide housing bond"
+  ],
+  "search_errors": 4,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/1/",
+    "https://voterguide.sos.ca.gov/propositions/1/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/1/title-summary.htm",
+    "https://www.hoover.org/proposition-lab-proposition-1",
+    "https://www.eastbaytimes.com/2026-10-26/endorsement-proposition-1-37-affordable-housing-crisis-november-3-general-election/",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-1-affordable-housing-bond",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-1-housing",
+    "https://calbudgetcenter.org/resources/proposition-1-californias-veterans-and-affordable-housing-bond/",
+    "https://test.lao.ca.gov/ballot/2026/Overview-of-State-Bond-Debt_110326.pdf"
+  ],
+  "tool_errors": 4,
+  "warnings": [
+    "capture: 1 connection attempts that ignored the proxy were blocked (node remote:*:49322 x1)"
+  ],
+  "network": {
+    "requests": 31,
+    "requests_per_host": {
+      "openrouter.ai": 28,
+      "www.eastbaytimes.com": 2,
+      "test.lao.ca.gov": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "test.lao.ca.gov",
+      "www.eastbaytimes.com"
+    ],
+    "status_counts": {
+      "200": 30,
+      "301": 1
+    },
+    "bytes_up": 2747553,
+    "bytes_down": 1280365,
+    "wire_bytes": {
+      "harness_to_proxy": 2817007,
+      "proxy_to_harness": 1428506,
+      "proxy_to_internet": 2806738,
+      "internet_to_proxy": 1505279
+    },
+    "byte_counter": true,
+    "errors": 4,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "node",
+        "operation": "network-outbound",
+        "target": "remote:*:49322",
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 1,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 32,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:49:45.522128+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:49:45.522128+00:00",
+      "finished_at": "2026-11-03T12:55:52.054313+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

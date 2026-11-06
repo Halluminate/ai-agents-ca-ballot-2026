@@ -1,0 +1,266 @@
+{
+  "requests": 137,
+  "requests_per_host": {
+    "api.anthropic.com": 73,
+    "openrouter.ai": 45,
+    "voterguide.sos.ca.gov": 3,
+    "calmatters.org": 3,
+    "lao.ca.gov": 2,
+    "www.ppic.org": 2,
+    "taxpolicycenter.org": 1,
+    "vig.cdn.sos.ca.gov": 1,
+    "en.wikipedia.org": 1,
+    "www.sfchronicle.com": 1,
+    "laist.com": 1,
+    "www.kpbs.org": 1,
+    "igs.berkeley.edu": 1,
+    "www.pillsburylaw.com": 1,
+    "wrenews.com": 1
+  },
+  "hosts": [
+    "api.anthropic.com",
+    "calmatters.org",
+    "en.wikipedia.org",
+    "igs.berkeley.edu",
+    "laist.com",
+    "lao.ca.gov",
+    "openrouter.ai",
+    "taxpolicycenter.org",
+    "vig.cdn.sos.ca.gov",
+    "voterguide.sos.ca.gov",
+    "wrenews.com",
+    "www.kpbs.org",
+    "www.pillsburylaw.com",
+    "www.ppic.org",
+    "www.sfchronicle.com"
+  ],
+  "status_counts": {
+    "200": 125,
+    "403": 2
+  },
+  "bytes_up": 4196934,
+  "bytes_down": 7215100,
+  "wire_bytes": {
+    "harness_to_proxy": 4364690,
+    "proxy_to_harness": 7528738,
+    "proxy_to_internet": 4317216,
+    "internet_to_proxy": 7611710
+  },
+  "byte_counter": true,
+  "errors": 24,
+  "error_details": [
+    {
+      "kind": "tls_failed_client",
+      "host": "api.anthropic.com",
+      "sni": "api.anthropic.com",
+      "error": "The client disconnected during the handshake. If this happens consistently for api.anthropic.com, this may indicate that the client does not trust the proxy's certificate."
+    },
+    {
+      "kind": "tls_failed_server",
+      "host": "api.anthropic.com",
+      "sni": "api.anthropic.com",
+      "error": "connection closed"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "api.anthropic.com",
+      "sni": "api.anthropic.com",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "tls_failed_server",
+      "host": "api.anthropic.com",
+      "sni": "api.anthropic.com",
+      "error": "connection closed"
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "connection closed"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "api.anthropic.com",
+      "sni": "api.anthropic.com",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "tls_failed_server",
+      "host": "openrouter.ai",
+      "sni": "openrouter.ai",
+      "error": "connection closed"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/messages?beta=true",
+      "error": "connection closed"
+    },
+    {
+      "kind": "tls_failed_server",
+      "host": "openrouter.ai",
+      "sni": "openrouter.ai",
+      "error": "connection closed"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/messages?beta=true",
+      "error": "connection closed"
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "tls_failed_server",
+      "host": "api.anthropic.com",
+      "sni": "api.anthropic.com",
+      "error": "connection closed"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "api.anthropic.com",
+      "sni": "api.anthropic.com",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/messages?beta=true",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/messages?beta=true",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/messages?beta=true",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": "api.anthropic.com",
+      "bytes_up": 1609,
+      "bytes_down": 2611,
+      "duration": 12.8491,
+      "reason": "The client disconnected during the handshake. If this happens consistently for api.anthropic.com, this may indicate that the client does not trust the proxy's certificate."
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": "api.anthropic.com",
+      "bytes_up": 1609,
+      "bytes_down": 39,
+      "duration": 11.3759,
+      "reason": "connection closed early"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": "api.anthropic.com",
+      "bytes_up": 1609,
+      "bytes_down": 39,
+      "duration": 10.6196,
+      "reason": "connection closed early"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": "api.anthropic.com",
+      "bytes_up": 1609,
+      "bytes_down": 39,
+      "duration": 653.1225,
+      "reason": "connection closed early"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0052,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0023,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 66,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

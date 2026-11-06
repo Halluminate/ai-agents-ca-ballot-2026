@@ -1,0 +1,139 @@
+{
+  "run_id": "grok__native__win__p45__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "native",
+  "harness": "grok_build",
+  "effort": "xhigh",
+  "prompt": "win",
+  "prop": "45",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:48:33.638886+00:00",
+  "finished_at": "2026-11-03T12:54:07.218644+00:00",
+  "seconds": 331.0,
+  "input_tokens": 109942,
+  "output_tokens": 5888,
+  "cached_tokens": 48640,
+  "cost_usd": 0.2795,
+  "cost_source": "estimated",
+  "billed_usd": 2.255816,
+  "searches": [
+    "California Proposition 45 2026 voter guide SOS",
+    "California Proposition 45 2026 poll results CEQA",
+    "Prop 45 California 2026 election results OR polling who will win",
+    "\"Proposition 45\" California 2026 campaign finance spending Yes No",
+    "California Prop 45 November 2026 likely to pass OR fail",
+    "California Proposition 45 2026 PPIC poll October 46 50",
+    "Proposition 45 California Democratic Party opposition endorsement 2026",
+    "California Prop 45 early vote OR election night results November 3 2026",
+    "site:ballotpedia.org California Proposition 45 2026",
+    "California Proposition 45 2026 LA Times Sacramento Bee endorsement",
+    "California ballot measures late polls under 50 percent pass rate history PPIC",
+    "Prop 45 California 2026 CalMatters poll forecast spending latest",
+    "California Proposition 45 prediction market odds Polymarket Kalshi",
+    "\"Proposition 45\" California \"undecided\" OR \"late poll\" OR \"SurveyUSA\" OR \"Berkeley IGS\" OR \"Emerson\" 2026",
+    "California Prop 45 2026 newspaper endorsements Chronicle Mercury News Union-Tribune"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 0,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/45/",
+    "https://www.ppic.org/press-release/californians-head-to-polls-in-historically-sour-mood-billionaire-wealth-tax-slips-below-majority-support/",
+    "https://onpointpolitics.us/forecast/measures/ca/proposition-45",
+    "https://electionresults.sos.ca.gov/returns/ballot-measures",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.ppic.org/wp-content/uploads/crosstabs-likely-voters-1026.pdf",
+    "https://ballotpedia.org/California_Proposition_45,_Changes_to_Environmental_Review_Process_for_Certain_Projects_Initiative_(2026"
+  ],
+  "tool_errors": 1,
+  "warnings": [
+    "capture: 23 connection attempts that ignored the proxy were blocked (grok-1.0.70 network-outbound x23)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 34,
+    "requests_per_host": {
+      "openrouter.ai": 27,
+      "www.ppic.org": 3,
+      "voterguide.sos.ca.gov": 1,
+      "electionresults.sos.ca.gov": 1,
+      "onpointpolitics.us": 1,
+      "ballotpedia.org": 1
+    },
+    "hosts": [
+      "ballotpedia.org",
+      "electionresults.sos.ca.gov",
+      "onpointpolitics.us",
+      "openrouter.ai",
+      "voterguide.sos.ca.gov",
+      "www.ppic.org"
+    ],
+    "status_counts": {
+      "200": 32,
+      "404": 1
+    },
+    "bytes_up": 640588,
+    "bytes_down": 2870164,
+    "wire_bytes": {
+      "harness_to_proxy": 657790,
+      "proxy_to_harness": 2958419,
+      "proxy_to_internet": 655423,
+      "internet_to_proxy": 2982827
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 23
+      }
+    ],
+    "blocked_attempts": 23,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 12,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:48:33.638886+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:48:33.638886+00:00",
+      "finished_at": "2026-11-03T12:54:07.218644+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "run_id": "gemini__native__win__p4__r1",
+  "model": "gemini",
+  "model_id": "gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "native",
+  "harness": "gemini_cli",
+  "effort": "high",
+  "prompt": "win",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:56:34.870447+00:00",
+  "finished_at": "2026-11-03T11:00:46.778329+00:00",
+  "seconds": 247.6,
+  "input_tokens": 90902,
+  "output_tokens": 81547,
+  "cached_tokens": 158762,
+  "cost_usd": 0.4896,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "\"Proposition 4\" California polling 2024 OR 2026",
+    "\"Proposition 4\" \"public funding\" California 2026 polling OR endorsements OR fundraising",
+    "\"Proposition 25\" 2016 California \"public funding\" OR \"repeals prohibition against public funding of election campaigns\"",
+    "\"REPEALS PROHIBITION AGAINST PUBLIC FUNDING OF ELECTION CAMPAIGNS\" California proposition",
+    "\"Allow Public Financing of Election Campaigns Measure\" ballotpedia",
+    "\"CAFairElections.org\" OR \"caltax.org/prop4\"",
+    "\"CAFairElections.org\" ballotpedia",
+    "\"Proposition 15\" 2010 California \"Fair Elections\" polling OR results",
+    "\"public funding of election campaigns\" editorial \"Proposition 4\" OR \"SB 42\" California"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://voterguide.sos.ca.gov/propositions/4/pdf/prop4.pdf",
+    "https://voterguide.sos.ca.gov/propositions/4/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2gJgkKzjv8RFKH2dX8rQsSATbwNqhRiw7SZn9XCJAcox1keUzyoD0ldc6TfF7PCXbzgELuxkd4LQWNvG_Ww7BX2c3IykapKuQgizJ7QOGh6ikAX1P1udKwyP9AZOEu1IDeEVDfc0Kpos8KGPsFBanXYe1euP9_Ix1OxvU6Q_t6e4ReY6zjG3HbhWjfKNQJWFWWtzGswhf9ZyJCcZ8GA1cNjJw",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo2j0-gesZZLCHGMBsQFOalkdisJfe3GBsdpcTIh5vvBLpQPb1EkA-wJF4Pz_Eh6YX2JqsqKAV8pNjP9ZcveGdfNjEm6B44SVIkF-ZYQ7kTxyyLjp6Qg4h7mNoHkXvsHtC7mAlRQx3YBY7m6Lr1XUYk3ZZpMQF__USvwW9Z1r0BaLSXzsd_86gVTvPKwYntb3q_A6U-oYKR7HGVlLcHJwWd4La",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-v5Eyl3taishXyq7UP-sXxiqCurQHLCd5SEss6APEyPC7gifhmsK3HBwmEJXk0dpHVrhCdarvma11l_MKxdqD5VGujVIoaDOxOkTHq2H3EgHMpSzxoDAGSkLboHTrqeSo__PDo1tW2wehVEVVLwvyJYlx"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.",
+    "capture: 6 connection attempts that ignored the proxy were blocked (node network-outbound x6)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 27,
+    "requests_per_host": {
+      "generativelanguage.googleapis.com": 25,
+      "vertexaisearch.cloud.google.com": 1,
+      "ballotpedia.org": 1
+    },
+    "hosts": [
+      "ballotpedia.org",
+      "generativelanguage.googleapis.com",
+      "vertexaisearch.cloud.google.com"
+    ],
+    "status_counts": {
+      "200": 25,
+      "302": 1,
+      "500": 1
+    },
+    "bytes_up": 960090,
+    "bytes_down": 165008,
+    "wire_bytes": {
+      "harness_to_proxy": 998269,
+      "proxy_to_harness": 212941,
+      "proxy_to_internet": 993447,
+      "internet_to_proxy": 254210
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "node",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 6
+      }
+    ],
+    "blocked_attempts": 6,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 18,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:56:34.870447+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:56:34.870447+00:00",
+      "finished_at": "2026-11-03T11:00:46.778329+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

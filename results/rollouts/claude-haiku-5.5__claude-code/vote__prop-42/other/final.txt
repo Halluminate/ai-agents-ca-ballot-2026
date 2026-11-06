@@ -1,0 +1,41 @@
+I won't pick yes or no for you on this one. It's a values call: how much future state taxing power to give up to protect savings, versus keeping that power to tax wealth and fund health care. Reasonable Californians land on both sides. Here's the yes/no version of the choice:
+
+- **Vote YES** if you want new state taxes on savings, investments, retirement accounts, and other personal property (and most retroactive taxes) ruled out in the constitution, where only voters can reverse it. Note that this would also void the billionaire tax (Prop 40) if Prop 42 gets more yes votes.
+- **Vote NO** if you want the state to keep those options open, including for taxing billionaires' wealth through Prop 40.
+
+**What the research shows**
+
+- **What it does:** A constitutional amendment that passes with a majority. It bars new state taxes on owning personal property (anything other than real estate) that take effect from Jan. 1, 2026 on, and most retroactive state taxes. The one exception lets the Legislature reach back up to 365 days during a governor-declared emergency.
+- **What it doesn't do:** It repeals no existing taxes (vehicle license fees and business-equipment property taxes stay), doesn't touch real estate taxes, and doesn't stop income tax on investment returns.
+- **Fiscal impact:** No dollar estimate for Prop 42 itself. The official fiscal line says "Possibility that tax revenues will not go up as much in the future." The LAO says it "restricts the options the state has to raise taxes in the future," and how much revenue that would cost is "unclear."
+- **Prop 40 link:** Prop 40 is a one-time 5% tax on net worth of $1 billion or more, for people who were California residents on Jan. 1, 2026. Prop 42's text says that if it outpolls a conflicting measure, that measure's provisions are void. The official analysis says Prop 40 "could be stopped from becoming law even if it gets yes votes from a majority of voters," and courts would likely have to settle the scope.
+- **Prop 40 revenue is disputed:** Backers say about $100B. The LAO says "tens of billions" over several years, with a possible ongoing income-tax loss of under $1B a year. Hoover estimates about $30B up front but a negative long-run net present value (−$38.9B) because of lost income tax.
+- **Polls are close and mixed:** PPIC (Oct. 16–22, 1,086 likely voters, ±3.8): Prop 42 at 51% yes; Prop 40 at 46% yes / 52% no; Prop 41 (a separate rival) at 48% yes / 49% no. UC Berkeley IGS (October): Prop 42 at 43% yes / 45% no. Prop 42 leads Prop 40 on yes share in PPIC, so the scenario where it voids Prop 40 is live.
+- **Money:** KQED's Nov. 1 Secretary of State figures show about $159M on the Yes side, nearly all from Building a Better California, whose top donors include Sergey Brin. The No side has about $34.5M, $31.7M of it from SEIU-UHW, the union behind Prop 40. Totals differ by outlet and overlap across measures.
+- **Coalitions:** Yes includes Gov. Newsom (who opposes Prop 40), the California Professional Firefighters, the State Building & Construction Trades Council, AMVETS, and the California Small Business Association. No includes SEIU-UHW, the California Democratic Party, the California Federation of Labor Unions, Bernie Sanders, and the ACLU of Southern California, which calls the Prop 41/42 pair "very deceiving." The San Francisco Chronicle's editorial board appears to oppose it; I only saw the headline and an excerpt.
+
+**Strongest case for each side**
+
+- **Yes:** Savings were already taxed as income, so a later tax on the same holdings is "double taxation," in supporters' words. Retroactive taxes would hit people who planned under the rules at the time. Hoover's explainer calls it a "credible commitment" that could keep wealthy residents from leaving.
+- **No:** It writes a broad limit into the constitution, well beyond the billionaire tax, and only voters can undo it. Nearly 70% of General Fund tax revenue comes from the income tax (per Hoover), so cutting other options adds risk. Opponents call it a disguised attempt to void Prop 40 and say the retirement fears are overstated, since Prop 40 exempts pensions and traditional retirement accounts. It does tax Roth accounts above $10M, though.
+
+**Caveats**
+
+- I couldn't open the LAO analysis or the Secretary of State's arguments pages, so the official quotes above come from guides that reproduce them. The measure's full text wasn't available to me either. If you can, read the official guide at voterguide.sos.ca.gov before you vote.
+- Today is Election Day. Polls close at 8 p.m. local time. If you vote by mail, drop it off at a drop box or vote center before then.
+
+If you tell me which trade-off matters most to you, I can show which side of the key that puts you on.
+
+Sources:
+- [Official voter guide, Prop 42](https://voterguide.sos.ca.gov/propositions/42/)
+- [Berkeley IGS guide](https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-42)
+- [California Today guide](https://californiatoday.com/guides/elections/2026-california-proposition-42-guide/)
+- [CA Votes (League of Women Voters)](https://cavotes.org/ballot-measure/2026-prop-42/)
+- [Hoover Institution Proposition Lab](https://www.hoover.org/proposition-lab-proposition-42)
+- [LAist voter guide](https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-42)
+- [ABC7 Los Angeles](https://abc7.com/post/everything-need-know-props-41-42-designed-cancel-californias-billionaire-tax/19938087/)
+- [KQED voter guide](https://www.kqed.org/voterguide/california/proposition-42)
+- [SF Standard on PPIC poll](https://sfstandard.com/2026/10/27/billionaire-tax-prop-40-ppic-poll-october/)
+- [CNBC explainer on Prop 40](https://www.cnbc.com/2026/10/22/california-proposition-40-billionaire-tax-wealth.html)
+- [The Signal Desk analysis](https://www.thesignaldesk.org/articles/california-prop-40-41-42.html)
+- [San Francisco Chronicle editorial (excerpt only)](https://www.sfchronicle.com/opinion/editorials/article/california-proposition-42-taxes-22449389.php)

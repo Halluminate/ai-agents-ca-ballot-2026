@@ -1,0 +1,197 @@
+{
+  "requests": 170,
+  "requests_per_host": {
+    "api.anthropic.com": 69,
+    "openrouter.ai": 68,
+    "voterguide.sos.ca.gov": 4,
+    "calmatters.org": 3,
+    "votenoonprop38.org": 3,
+    "www.sfchronicle.com": 3,
+    "cavotes.org": 1,
+    "www.michaeljfox.org": 1,
+    "yeson38.com": 1,
+    "laist.com": 1,
+    "www.kqed.org": 1,
+    "www.cbsnews.com": 1,
+    "oag.ca.gov": 1,
+    "vig.cdn.sos.ca.gov": 1,
+    "www.hoover.org": 1,
+    "californiatoday.com": 1,
+    "growsf.org": 1,
+    "neurosaeculum.org": 1,
+    "natlawreview.com": 1,
+    "ballotpedia.org": 1,
+    "cityonahillpress.com": 1,
+    "statehornet.com": 1,
+    "externalaffairs.ucla.edu": 1,
+    "www.briefs.co": 1,
+    "www.kpbs.org": 1,
+    "igs.berkeley.edu": 1
+  },
+  "hosts": [
+    "api.anthropic.com",
+    "ballotpedia.org",
+    "californiatoday.com",
+    "calmatters.org",
+    "cavotes.org",
+    "cityonahillpress.com",
+    "externalaffairs.ucla.edu",
+    "growsf.org",
+    "igs.berkeley.edu",
+    "laist.com",
+    "natlawreview.com",
+    "neurosaeculum.org",
+    "oag.ca.gov",
+    "openrouter.ai",
+    "statehornet.com",
+    "vig.cdn.sos.ca.gov",
+    "votenoonprop38.org",
+    "voterguide.sos.ca.gov",
+    "www.briefs.co",
+    "www.cbsnews.com",
+    "www.hoover.org",
+    "www.kpbs.org",
+    "www.kqed.org",
+    "www.michaeljfox.org",
+    "www.sfchronicle.com",
+    "yeson38.com"
+  ],
+  "status_counts": {
+    "200": 167,
+    "202": 1,
+    "403": 1
+  },
+  "bytes_up": 5941668,
+  "bytes_down": 4697294,
+  "wire_bytes": {
+    "harness_to_proxy": 6077965,
+    "proxy_to_harness": 5202136,
+    "proxy_to_internet": 6078065,
+    "internet_to_proxy": 5327158
+  },
+  "byte_counter": true,
+  "errors": 8,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.003,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0018,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0034,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0025,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0018,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0052,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0001,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 75,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

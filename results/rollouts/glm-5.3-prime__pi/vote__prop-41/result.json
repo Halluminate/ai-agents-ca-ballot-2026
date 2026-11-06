@@ -1,0 +1,102 @@
+{
+  "run_id": "glm-prime__common__vote__p41__r1",
+  "model": "glm-prime",
+  "model_id": "z-ai/glm-5.3-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "41",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "first_sentence",
+  "error": "",
+  "started_at": "2026-11-03T10:50:05.170924+00:00",
+  "finished_at": "2026-11-03T10:51:33.885584+00:00",
+  "seconds": 85.9,
+  "input_tokens": 42493,
+  "output_tokens": 7351,
+  "cached_tokens": 87040,
+  "cost_usd": 0.2528,
+  "cost_source": "reported",
+  "billed_usd": 0.25275111528,
+  "searches": [
+    "California Proposition 2024 Proposition 41 veteran housing",
+    "Prop 41 California 2026 ballot spending limit audit initiative Sergey Brin funding",
+    "CalMatters Prop 40 41 42 billionaire tax countermeasures 2026 explained",
+    "\"Proposition 41\" 2026 editorial endorsement \"vote no\" Gann limit auditor special taxes"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/41/",
+    "https://voterguide.sos.ca.gov/propositions/41/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/40/",
+    "https://voterguide.sos.ca.gov/propositions/42/",
+    "https://calmatters.org/health/2026/09/california-wealth-tax-prop-40-41-42/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+    "https://www.sfchronicle.com/opinion/editorials/article/endorsement-california-prop-41-taxes-22445889.php"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 11,
+    "requests_per_host": {
+      "openrouter.ai": 11
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 11
+    },
+    "bytes_up": 579424,
+    "bytes_down": 1488506,
+    "wire_bytes": {
+      "harness_to_proxy": 599076,
+      "proxy_to_harness": 1594219,
+      "proxy_to_internet": 596631,
+      "internet_to_proxy": 1613823
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 10,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:50:05.170924+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:50:05.170924+00:00",
+      "finished_at": "2026-11-03T10:51:33.885584+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

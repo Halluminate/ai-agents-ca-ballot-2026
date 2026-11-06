@@ -1,0 +1,93 @@
+{
+  "run_id": "kimi__common__vote__p42__r1",
+  "model": "kimi",
+  "model_id": "moonshotai/kimi-k3",
+  "pin": "moonshotai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "42",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:45:41.980687+00:00",
+  "finished_at": "2026-11-03T10:49:13.269778+00:00",
+  "seconds": 206.0,
+  "input_tokens": 33806,
+  "output_tokens": 6667,
+  "cached_tokens": 58368,
+  "cost_usd": 0.2444,
+  "cost_source": "reported",
+  "billed_usd": 0.2443949244,
+  "searches": [
+    "California Proposition 42 voterguide.sos.ca.gov",
+    "California Proposition 42 2026 billionaire tax Sergey Brin personal property tax initiative",
+    "California Proposition 40 2026 billionaire wealth tax SEIU healthcare",
+    "Proposition 42 California 2026 editorial endorsement \"vote no\" OR \"vote yes\" newspaper",
+    "Los Angeles Times editorial Proposition 42 2026 endorsement billionaire tax poison pill"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/42/",
+    "https://voterguide.sos.ca.gov/propositions/42/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/42/arguments-rebuttals.htm",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=42&year=2026",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-text-proposed-laws.pdf"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 11,
+    "requests_per_host": {
+      "openrouter.ai": 11
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 11
+    },
+    "bytes_up": 409240,
+    "bytes_down": 1079484,
+    "wire_bytes": {
+      "harness_to_proxy": 431005,
+      "proxy_to_harness": 1162527,
+      "proxy_to_internet": 427870,
+      "internet_to_proxy": 1186459
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 11,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:45:41.980687+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:45:41.980687+00:00",
+      "finished_at": "2026-11-03T10:49:13.269778+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

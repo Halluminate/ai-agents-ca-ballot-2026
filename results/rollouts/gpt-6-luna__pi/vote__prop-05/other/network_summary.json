@@ -1,0 +1,43 @@
+{
+  "requests": 53,
+  "requests_per_host": {
+    "openrouter.ai": 51,
+    "www.lao.ca.gov": 1,
+    "voterguide.sos.ca.gov": 1
+  },
+  "hosts": [
+    "openrouter.ai",
+    "voterguide.sos.ca.gov",
+    "www.lao.ca.gov"
+  ],
+  "status_counts": {
+    "200": 53
+  },
+  "bytes_up": 5341077,
+  "bytes_down": 3357004,
+  "wire_bytes": {
+    "harness_to_proxy": 5461144,
+    "proxy_to_harness": 3616177,
+    "proxy_to_internet": 5443277,
+    "internet_to_proxy": 3752804
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 54,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

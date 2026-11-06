@@ -1,0 +1,81 @@
+{
+  "run_id": "gemini__common__better__p45__r1",
+  "model": "gemini",
+  "model_id": "google/gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "45",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "finished_at": "2026-11-03T04:46:22.973366+00:00",
+  "seconds": 54.1,
+  "input_tokens": 24588,
+  "output_tokens": 2614,
+  "cached_tokens": 18602,
+  "cost_usd": 0.0823,
+  "cost_source": "reported",
+  "searches": [
+    "\"Proposition 45\" California voter guide"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/45/",
+    "https://voterguide.sos.ca.gov/propositions/45/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/45/arguments-rebuttals.htm",
+    "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-45-ceqa-housing-data-center-voter-guide",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-45-environmental-review"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 7,
+    "requests_per_host": {
+      "openrouter.ai": 5,
+      "www.latimes.com": 1,
+      "laist.com": 1
+    },
+    "hosts": [
+      "laist.com",
+      "openrouter.ai",
+      "www.latimes.com"
+    ],
+    "status_counts": {
+      "200": 7
+    },
+    "bytes_up": 177322,
+    "bytes_down": 215028,
+    "wire_bytes": {
+      "harness_to_proxy": 191542,
+      "proxy_to_harness": 239552,
+      "proxy_to_internet": 190046,
+      "internet_to_proxy": 253936
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 8,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

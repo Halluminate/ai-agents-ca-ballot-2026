@@ -1,0 +1,31 @@
+I won't give a one-word answer on this one. It turns on a values trade-off: faster approval for housing, water, power and other projects versus fuller environmental review and public challenges. Reasonable people land on both sides, so I'd rather lay out what's solid and what's disputed and let you decide.
+
+**What it does**
+- Creates an opt-in fast track for "essential" projects: most housing (including market-rate), water, clean energy, health facilities, wildfire-risk work, broadband, schools, and transportation, including highways.
+- Sets hard deadlines: 365 business days for an environmental impact report, 180 for a negative declaration, and 270 days for courts to resolve a challenge. Applicants can sue if agencies miss them.
+- Lets applicants propose one alternative instead of the multiple alternatives agencies must consider now. Comment periods are capped at 45 days for an EIR and 20 for a negative declaration.
+- Limits lawsuits: 30-day filing window, deferential review, and courts can halt only the noncompliant part of a project, not rescind approval.
+- Doesn't exempt projects from CEQA or repeal the Clean Water Act, Clean Air Act, or Endangered Species Act.
+
+**Case for yes**
+- Long reviews and lawsuits are real costs for housing, water, power and hospitals, and the measure makes the deadlines enforceable.
+- Prevailing-wage and workforce rules apply to most non-housing projects.
+- Supporters include hospital and water groups, affordable-housing advocates, LULAC, and NAACP California-Hawaii. The LAO's full analysis says long-run savings for agencies are likely but uncertain.
+
+**Case for no**
+- It trades environmental analysis and public input for speed. The LAO notes it could lead to projects with "unintended negative environmental impacts" being approved.
+- The categories are broad (ancillary infrastructure, wildfire-risk reduction, highway projects), and the measure directs that it be read to give "the fullest possible weight" to approving them.
+- It's an initiative. The Legislature can amend it only by a two-thirds vote, and only in ways that further its purposes, so mistakes would be hard to fix.
+- Opposed by the state Democratic Party, the state Labor Federation, the State Building Trades, Sierra Club California, and the SF Chronicle editorial board.
+
+**Disputed points**
+- **Data centers:** Supporters cite a Legislative Counsel opinion on a related statute. Critics say the broadband and "ancillary" language could cover them. A court would likely decide.
+- **Housing costs:** The sponsor says permitting delays add $75,000 per home. NAHB puts the pure cost of regulatory delay under 1% of price, roughly $4,000 on an average home, though its broader regulatory estimate (fees, codes, and more) is about $132,000. Nothing in the text requires savings to reach renters or buyers.
+- **Litigation:** A pro-reform Holland & Knight study counts about 48,000 housing units in CEQA suits in 2020. Other studies find only a few percent of projects are sued.
+
+**Where things stand**
+- PPIC's latest poll (Oct. 16–22) had it at 46% yes and 50% no, down from 49–46 yes in September. A July poll showed 73% yes, but that question didn't use the ballot wording.
+- The Mercury News endorsed yes, and the SF Chronicle endorsed no. As of the latest reporting I found, Newsom and Becerra hadn't taken a position.
+
+**How to decide**
+Vote yes if your main concern is that review delays are blocking essential projects, and you trust the new deadlines and narrower court review to avoid serious environmental harm. Vote no if you'd rather keep full review and public challenges for these projects, or you think the broad definitions reach well beyond housing. The core question is which risk you think is worse: a needed project stalled for years, or a harmful one approved before its impacts were studied.

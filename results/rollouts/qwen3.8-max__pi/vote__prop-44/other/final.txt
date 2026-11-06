@@ -1,0 +1,17 @@
+## My research
+
+**What it does:** Prop 44 (SEIU-UHW's "Clinic Funding Accountability and Transparency Act") forces nonprofit Federally Qualified Health Centers to spend 90% of **total revenue** on "program services," with a penalty equal to the full shortfall, plus a private right of action for any patient, criminal penalties, and the definition of "program services" left to post-election "binding guidance" from the Attorney General.
+
+**The decisive problem — it penalizes solvency, not waste.** Because the denominator is *revenue*, not *expenses*, a clinic that runs a prudent surplus gets fined even if every dollar it spends goes to care. The Legislative Analyst confirms clinics average ~80%. Brad Fulton (Indiana University's Philanthropy Research Hub, **not** involved in the fight), analyzing actual Form 990s for the Sacramento Bee, found **89% of 147 California clinic organizations would fail**, facing $1.6B in first-year fines — and of the 16 that passed, **all but two were operating in the red**. His conclusion: *"Almost no health center in the U.S. meets Prop. 44's standard."* A measure only financially distressed clinics can satisfy is a broken measure. California Today's independent replication shows the same: WellSpace spent 93.5% of *expenses* on program services but scored 77.9% purely because it ran a reserve.
+
+**It doesn't even do what it advertises.** The findings target $1.95M CEO salaries, but the operative text caps nothing — executive pay counts identically to a bookkeeper's salary. And the "transparency" benefit is largely already free: Form 990 data is public on ProPublica Nonprofit Explorer, which is exactly how these ratios were computed without Prop 44.
+
+**Wrong targets, worst timing.** It hits only the nonprofit safety net (not hospitals, not for-profits) serving 1 in 4 Medi-Cal patients — precisely as federal Medicaid cuts threaten ~2M Californians with coverage loss and up to $30B in state health funding.
+
+**It's a bargaining chip, not reform.** CPCA filed a federal RICO suit alleging Regan offered to pull Prop 44 if CPCA backed unionizing 25,000 workers. The dead legislative version (AB 1113) would have *exempted* clinics that created "labor-management cooperation committees." SEIU-UHW has spent $216M+ on such measures — three dialysis props ($340M, all rejected), most others withdrawn after concessions.
+
+**Consensus:** No from Newsom, both state parties, the Howard Jarvis Taxpayers Association, the California Chamber, Planned Parenthood, CMA, AAP-CA, AAFP, ACOG, ACEP, school nurses, and 300+ organizations. Every major editorial board — SF Chronicle, LA Times, McClatchy, Mercury News, San Diego Union-Tribune, OC Register, and progressive GrowSF — says no. Polling: 25% yes / 71% no, the least popular of 14 measures. Sole funder: SEIU-UHW ($16.9M vs. $38.6M against).
+
+The accountability concern is real, but this instrument fines the safety net for being solvent, leaves its core term undefined, and serves a labor dispute. Fix executive pay with a pay cap; get transparency from already-public 990s.
+
+**No.**

@@ -1,0 +1,109 @@
+{
+  "requests": 48,
+  "requests_per_host": {
+    "openrouter.ai": 31,
+    "voterguide.sos.ca.gov": 4,
+    "lao.ca.gov": 3,
+    "vig.cdn.sos.ca.gov": 1,
+    "calmatters.org": 1,
+    "www.hoover.org": 1,
+    "www.yesprop3ca.com": 1,
+    "votenoprop3.com": 1,
+    "hoover-s3-website.s3.us-west-2.amazonaws.com": 1,
+    "www.ppic.org": 1,
+    "calbudgetcenter.org": 1,
+    "growsf.org": 1,
+    "edsource.org": 1
+  },
+  "hosts": [
+    "calbudgetcenter.org",
+    "calmatters.org",
+    "edsource.org",
+    "growsf.org",
+    "hoover-s3-website.s3.us-west-2.amazonaws.com",
+    "lao.ca.gov",
+    "openrouter.ai",
+    "vig.cdn.sos.ca.gov",
+    "votenoprop3.com",
+    "voterguide.sos.ca.gov",
+    "www.hoover.org",
+    "www.ppic.org",
+    "www.yesprop3ca.com"
+  ],
+  "status_counts": {
+    "200": 46,
+    "404": 1
+  },
+  "bytes_up": 1348507,
+  "bytes_down": 4329853,
+  "wire_bytes": {
+    "harness_to_proxy": 1386323,
+    "proxy_to_harness": 4479175,
+    "proxy_to_internet": 1382240,
+    "internet_to_proxy": 4538913
+  },
+  "byte_counter": true,
+  "errors": 3,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/",
+      "error": "stream reset by client (CANCEL)"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "stream reset by client (CANCEL)"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "stream reset by client (CANCEL)"
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3275,
+      "duration": 0.1724,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 2069,
+      "bytes_down": 1718,
+      "duration": 0.1279,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [
+    {
+      "process": "grok-1.0.70",
+      "operation": "network-outbound",
+      "target": null,
+      "attempts": 38
+    }
+  ],
+  "blocked_attempts": 38,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 23,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "allowed, not recorded"
+}

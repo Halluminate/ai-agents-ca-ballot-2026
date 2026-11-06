@@ -1,0 +1,100 @@
+{
+  "run_id": "sol__native__better__p3__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "3",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:04:46.573898+00:00",
+  "finished_at": "2026-11-03T11:08:00.407008+00:00",
+  "seconds": 191.8,
+  "input_tokens": 36,
+  "output_tokens": 6424,
+  "cached_tokens": 578018,
+  "cost_usd": 0.4638,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 3 2026 permanent high income tax schools healthcare Legislative Analyst ...",
+    "site.lao.ca.gov 2025 25-0016 permanent income tax 2031 ...",
+    "site.lao.ca.gov \"2026-27\" \"Fiscal Outlook\" \"deficit\" ...",
+    "\"Proposition 3\" \"2026\" \"site:caltax.org\" ...",
+    "\"Gutierrez\" \"Proposition 3\" \"2026\" CalMatters taxes ...",
+    "\"Robert Gutierrez\" \"Prop. 3\" \"calmatters.org/commentary\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/3/",
+    "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+    "https://www.yesprop3ca.com",
+    "https://www.lao.ca.gov/Publications/Report/5197",
+    "https://www.policyengine.org/us/ballot-measures-2026/ca-prop-3",
+    "https://www.sco.ca.gov/Files-AUD/08_2022CADeptofEducation_EPAR_GF.pdf",
+    "https://calmatters.org/commentary/2026/08/proposition-3-temporary-tax-permanent/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 23,
+    "requests_per_host": {
+      "api.openai.com": 19,
+      "ab.chatgpt.com": 4
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 18,
+      "202": 4
+    },
+    "bytes_up": 1363082,
+    "bytes_down": 2556444,
+    "wire_bytes": {
+      "harness_to_proxy": 1078596,
+      "proxy_to_harness": 1577018,
+      "proxy_to_internet": 1076931,
+      "internet_to_proxy": 1615035
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1986,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 21,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:04:46.573898+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:04:46.573898+00:00",
+      "finished_at": "2026-11-03T11:08:00.407008+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

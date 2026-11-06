@@ -1,0 +1,71 @@
+{
+  "requests": 66,
+  "requests_per_host": {
+    "openrouter.ai": 52,
+    "escholarship.org": 2,
+    "en.wikipedia.org": 2,
+    "apnews.com": 2,
+    "igs.berkeley.edu": 1,
+    "www.desertsun.com": 1,
+    "electionresults.sos.ca.gov": 1,
+    "www.politico.com": 1,
+    "finance.yahoo.com": 1,
+    "data.ddhq.io": 1,
+    "electcademocrats.com": 1,
+    "www.bloomberg.com": 1
+  },
+  "hosts": [
+    "apnews.com",
+    "data.ddhq.io",
+    "electcademocrats.com",
+    "electionresults.sos.ca.gov",
+    "en.wikipedia.org",
+    "escholarship.org",
+    "finance.yahoo.com",
+    "igs.berkeley.edu",
+    "openrouter.ai",
+    "www.bloomberg.com",
+    "www.desertsun.com",
+    "www.politico.com"
+  ],
+  "status_counts": {
+    "200": 62,
+    "402": 1,
+    "403": 2,
+    "404": 1
+  },
+  "bytes_up": 9271418,
+  "bytes_down": 1633831,
+  "wire_bytes": {
+    "harness_to_proxy": 9371987,
+    "proxy_to_harness": 1796842,
+    "proxy_to_internet": 9361530,
+    "internet_to_proxy": 1896223
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/economy/policy/articles/tax-top-fix-housing-back-144800471.html",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 43,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

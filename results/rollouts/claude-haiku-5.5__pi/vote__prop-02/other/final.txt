@@ -1,0 +1,31 @@
+I won't pick yes or no for you on this one. It turns on a values trade-off, and reasonable Californians land on both sides. Below is what the measure does, which claims hold up, and the question that should decide it.
+
+I read the measure text, the Legislative Analyst's Office (LAO) analysis and its 2025 reserves report, the 2026–27 budget documents, and coverage and endorsements from CalMatters, the LA Times, the SF Chronicle, PPIC, the Howard Jarvis Taxpayers Association (HJTA), and Hoover.
+
+**What Prop 2 does**
+- Raises the cap on the state's rainy day fund from 10% to 20% of General Fund tax revenue. The fund is about $15 billion now, below the current cap (about $21 billion in the LAO's 2025 estimate), so the higher cap matters mostly after the fund refills.
+- Requires bigger set-asides when capital-gains revenue spikes, and extends required debt payments through 2039–40 instead of 2029–30.
+- Starting in 2027–28, deposits into the rainy day fund wouldn't count against the state spending limit (the Gann limit) until withdrawn. The same applies to a surplus holding account, up to 10% of taxes.
+- Keeps the current withdrawal and suspension rules, but adds a shortcut: when emergency conditions exist, the governor's May budget revision can count as the budget-emergency declaration if it proposes a reserve withdrawal or deposit suspension.
+- Doesn't raise taxes or appropriate money, and the text says it doesn't change the school funding guarantee.
+
+**The case for yes**
+Save in good years so you don't cut services or raise taxes in bad ones. Newsom, Democrats, firefighters, hospitals, clinics, and chambers of commerce back it. The LAO's ballot analysis is neutral, but its 2025 report said a version of this plan would raise the share of future funding shortfalls covered from about a third to about half. It still said that falls short and recommended a cap rising to 50% by 2055. On the spending-limit change, the LAO said it "has merit" because current rules treat saving as spending. The Sacramento Bee, the SF Chronicle, and LA Times columnist George Skelton endorsed yes.
+
+**The case for no**
+The sharpest fight is over the spending limit. Under current law, revenue above the 1979 Gann limit (a cap on state spending) must be split between taxpayer rebates and schools if it stays above the limit for two years. Money parked in reserves doesn't count against the limit until it's spent, so it can keep rebates from being triggered. The HJTA, the California Taxpayers Association, most Republicans, and Reform California oppose it. HJTA calls it "a Band-Aid on a severed limb." Skeptics also point to recent history: the state withdrew about $12 billion and suspended deposits over the last two budget years, and Prop 2 leaves the substantive withdrawal rules alone.
+
+**Checking the claims**
+- "Makes rebates less likely" is a fair reading. The LAO says the change "could make it easier for the state to save more on a discretionary basis" and would "somewhat reduce" spending-limit constraints. "Cancels your rebate" overstates it, because the 2026–27 budget has $27 billion of room under the limit, so no rebate is triggered now.
+- On my reading of the text, the spending-limit exemption for rainy-day deposits has no dollar cap (the holding account's is capped at 10% of taxes), and voluntary deposits sit outside the 20% cap. That is the most concrete basis for the "loophole" charge.
+- "Guarantees education funding" overstates things. Prop 98 already protects school funding, and the measure says it doesn't change that guarantee.
+- "Within 24 hours" doesn't match the public timeline. ACA 20 passed June 25, and the budget that suspended a $5.4 billion deposit passed June 29. The two were part of the same budget package, though.
+- "Republicans back it" is overstated. CalMatters reports that Assemblymember Josh Hoover was the only Republican lawmaker to vote yes.
+
+**The question that decides it**
+- If your bigger worry is the state running short in the next downturn and cutting services, lean **yes**.
+- If your bigger worry is the state keeping money that could go back to taxpayers and spending it later, lean **no**.
+
+Either way, a yes requires more money set aside and exempts reserve deposits from the spending limit. A no keeps today's smaller cushion and today's limit. PPIC's October poll had 61% of likely voters saying yes, so this isn't a fringe measure, but that doesn't tell you how to vote. The election is November 3, 2026. I couldn't find results.
+
+If you tell me which of those two worries matters more to you, I can help you weigh the rest.

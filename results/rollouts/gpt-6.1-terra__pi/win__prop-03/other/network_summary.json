@@ -1,0 +1,42 @@
+{
+  "requests": 18,
+  "requests_per_host": {
+    "openrouter.ai": 17,
+    "escholarship.org": 1
+  },
+  "hosts": [
+    "escholarship.org",
+    "openrouter.ai"
+  ],
+  "status_counts": {
+    "200": 17,
+    "403": 1
+  },
+  "bytes_up": 480698,
+  "bytes_down": 208518,
+  "wire_bytes": {
+    "harness_to_proxy": 519413,
+    "proxy_to_harness": 259725,
+    "proxy_to_internet": 513578,
+    "internet_to_proxy": 304525
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 19,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

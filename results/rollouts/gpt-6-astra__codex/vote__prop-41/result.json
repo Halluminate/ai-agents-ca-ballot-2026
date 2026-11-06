@@ -1,0 +1,106 @@
+{
+  "run_id": "gpt__native__vote__p41__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "41",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:57:19.865733+00:00",
+  "finished_at": "2026-11-03T11:00:38.112665+00:00",
+  "seconds": 195.5,
+  "input_tokens": 39,
+  "output_tokens": 6173,
+  "cached_tokens": 801667,
+  "cost_usd": 2.8338,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:voterguide.sos.ca.gov \"propositions/41\" proposition ...",
+    "California Proposition 41 2026 audits spending limit analysis CalMatters ...",
+    "site:auditor.ca.gov audit recommendations implemented financial savings 2025 California ...",
+    "site:lao.ca.gov \"25-0040\" audit ...",
+    "site:lao.ca.gov \"The State Appropriations Limit\" \"2021\" ...",
+    "site:auditor.ca.gov \"2023-102.1\" homelessness ...",
+    "\"McGeorge\" \"Proposition 41\" \"2026\" \"audit\" legal ...",
+    "site:auditor.ca.gov \"2025-041\"",
+    "\"McGeorge\" \"Proposition 41\" \"2026\" \"ten percent\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/41/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-41-audits",
+    "https://www.calcpa.org/whats-happening/press/calcpa-takes-positions-on-november-tax-measures",
+    "https://www.yesonprop41.org/",
+    "https://cms.hoover.org/proposition-lab-proposition-41",
+    "https://lao.ca.gov/BallotAnalysis/Initiative/2025-040",
+    "https://lao.ca.gov/Publications/Report/4416",
+    "https://embed-rech-01.dialog.cm/pacificreview/docs/mcgeorge_school_of_law_california_initiative_revie",
+    "https://www.auditor.ca.gov/reports/responses-2023-102-1-all/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 27,
+    "requests_per_host": {
+      "api.openai.com": 23,
+      "ab.chatgpt.com": 4
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 21,
+      "202": 4,
+      "500": 1
+    },
+    "bytes_up": 1495512,
+    "bytes_down": 2731125,
+    "wire_bytes": {
+      "harness_to_proxy": 1155200,
+      "proxy_to_harness": 1640563,
+      "proxy_to_internet": 1153710,
+      "internet_to_proxy": 1683745
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2333,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 24,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:57:19.865733+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:57:19.865733+00:00",
+      "finished_at": "2026-11-03T11:00:38.112665+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

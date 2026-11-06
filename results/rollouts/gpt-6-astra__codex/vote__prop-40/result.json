@@ -1,0 +1,108 @@
+{
+  "run_id": "gpt__native__vote__p40__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "40",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T12:27:58.538900+00:00",
+  "finished_at": "2026-11-03T12:30:53.442298+00:00",
+  "seconds": 172.8,
+  "input_tokens": 39,
+  "output_tokens": 7368,
+  "cached_tokens": 794730,
+  "cost_usd": 2.8925,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 40 November 2026 voter guide analysis",
+    "'amend'",
+    "California billionaire tax Stanford study \"$25 billion\" Rauh 2026 ...",
+    "\"Proposition 40\" billionaire tax voter guide ...",
+    "\"Jaros\" \"Rauh\" \"35899\" ...",
+    "'IV.A'",
+    "\"Jaros\" \"Rauh\" \"2026\" \"litigation\" \"pdf\" ...",
+    "site:dhcs.ca.gov 2026 H.R. 1 30 billion Medi-Cal impact federal funding cuts ...",
+    "\"Galle v Rauh\" Hoopes ...",
+    "wealth tax migration aggregate economic effects Scandinavia working paper 2026 NBER Moretti Jakobsen Kleven",
+    "\"Galle v Rauh\" \"Hoopes\" revenue California ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/40/",
+    "https://www.kqed.org/voterguide/california/proposition-40/",
+    "https://www.nber.org/papers/w35899",
+    "https://www.nber.org/system/files/working_papers/w35899/w35899.pdf",
+    "https://calmatters.org/politics/2026/10/california-billionaire-tax-explainer/",
+    "https://www.hoover.org/research/net-present-value-billionaire-tax-act-assessment-fiscal-effects-californias-proposed",
+    "https://www.policyengine.org/us/california-wealth-tax",
+    "https://taxfoundation.org/research/all/state/california-proposition-40-wealth-tax-constitutional-legal-issues/",
+    "https://www.nber.org/system/files/chapters/c15504/c15504.pdf",
+    "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6428578"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 29,
+    "requests_per_host": {
+      "api.openai.com": 26,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 25,
+      "202": 3
+    },
+    "bytes_up": 1411970,
+    "bytes_down": 3449862,
+    "wire_bytes": {
+      "harness_to_proxy": 1108947,
+      "proxy_to_harness": 2232716,
+      "proxy_to_internet": 1106533,
+      "internet_to_proxy": 2284148
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 3261,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 28,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:27:58.538900+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:27:58.538900+00:00",
+      "finished_at": "2026-11-03T12:30:53.442298+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

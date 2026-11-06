@@ -1,0 +1,83 @@
+{
+  "run_id": "gemini__common__better__p2__r1",
+  "model": "gemini",
+  "model_id": "google/gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "2",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "finished_at": "2026-11-03T04:52:57.243228+00:00",
+  "seconds": 37.7,
+  "input_tokens": 12803,
+  "output_tokens": 2125,
+  "cached_tokens": 9052,
+  "cost_usd": 0.0478,
+  "cost_source": "reported",
+  "searches": [],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/",
+    "https://voterguide.sos.ca.gov/propositions/2/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/title-summary.htm"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 5,
+    "requests_per_host": {
+      "openrouter.ai": 4,
+      "voterguide.sos.ca.gov": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "voterguide.sos.ca.gov"
+    ],
+    "status_counts": {
+      "200": 5
+    },
+    "bytes_up": 89354,
+    "bytes_down": 44321,
+    "wire_bytes": {
+      "harness_to_proxy": 99842,
+      "proxy_to_harness": 59933,
+      "proxy_to_internet": 98345,
+      "internet_to_proxy": 72596
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 6,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

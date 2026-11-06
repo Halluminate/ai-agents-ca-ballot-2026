@@ -1,0 +1,39 @@
+Because choosing how to vote on a ballot measure depends on your personal values and policy priorities, I cannot answer with a simple "yes" or "no." Instead, here is a breakdown of **California Proposition 42** based on the Official Voter Information Guide and the text of the proposed law so you can decide which vote aligns with your views.
+
+---
+
+### What Proposition 42 Does
+Proposition 42 (titled the *Retirement and Personal Savings Protection Act of 2026*) is an initiative constitutional amendment on the November 3, 2026 ballot. If passed, it would:
+1. **Ban New State Personal Property & Asset Taxes:** Prohibit any new state tax enacted on or after January 1, 2026, on the ownership or control of personal property (everything people own other than real estate). This explicitly includes financial assets, stocks, investment accounts, retirement holdings (pensions, 401(k)s, IRAs), business interests, digital assets, and intellectual property.
+2. **Ban Most Retroactive State Taxes:** Prohibit new state taxes from applying retroactively based on a taxpayer’s conduct, activities, or residency status prior to the tax's effective date (with narrow exceptions for Legislative statutes passed during declared emergencies that look back no more than 365 days).
+3. **Nullify Conflicting Measures on the Same Ballot:** State that if another measure on the November 2026 ballot conflicts with Proposition 42, and Proposition 42 passes with more "Yes" votes, the conflicting measure is void in its entirety. 
+   * *Context with Proposition 40:* Proposition 40, also on the November 2026 ballot, proposes a one-time 5% wealth tax on the net worth (including financial assets and business interests) of billionaires who were California residents as of January 1, 2026, primarily to fund health care. Because Proposition 40 taxes personal financial assets and applies based on a past residency date (January 1, 2026), Proposition 42 directly conflicts with it and would nullify Proposition 40 if both pass and Proposition 42 receives more votes.
+
+### Fiscal Impact
+According to the Legislative Analyst’s Office (LAO), Proposition 42 restricts the state’s options to raise taxes in the future, which could result in lower future state tax revenues than would otherwise occur (including preventing the one-time revenue increase from Proposition 40 if it nullifies that measure).
+
+---
+
+### The Case for Voting **YES**
+A **YES** vote means the state could not establish new taxes on the ownership of financial assets or other personal property, nor enact certain retroactive taxes.
+
+* **Protects Retirement and Savings from "Double Taxation":** Supporters argue that Californians already pay high income taxes when they earn money, as well as capital gains and income taxes when they withdraw investments or retirement funds. Proposition 42 closes a constitutional gap that currently allows the state to tax the value of personal savings, investments, and retirement accounts simply for holding them.
+* **Prevents Retroactive Tax Changes:** Proponents emphasize that individuals, retirees, and businesses need predictable, advance notice of tax rules to plan their finances, and that taxing people based on past actions or prior residency is fundamentally unfair.
+* **Addresses Affordability Concerns:** Supporters point out that California already has some of the highest income, sales, and gas taxes in the country, and that constitutional guardrails are needed to prevent politicians or special interests from taxing nest eggs in the future.
+* **Key Supporters:** California Professional Firefighters, State Building and Construction Trades Council of California, Peace Officers Research Association of California (PORAC), AMVETS Department of California, and the California Small Business Association.
+
+---
+
+### The Case for Voting **NO**
+A **NO** vote means the state would retain the option to establish new taxes on the ownership of financial assets or other personal property, and Proposition 42 would not block conflicting tax measures such as Proposition 40.
+
+* **Designed to Block the Billionaire Wealth Tax (Proposition 40):** Opponents argue that Proposition 42 is not genuinely about protecting ordinary retirement accounts, since Proposition 40 only taxes individuals with over $1 billion in wealth and already exempts pensions and retirement accounts. Instead, opponents contend Proposition 42 was drafted and funded by billionaires specifically to invalidate Proposition 40 via its retroactive-tax ban and conflicting-measures clause.
+* **Protects Extreme Wealth Over Public Services:** Opponents point out that tech billionaires (such as Google co-founder Sergey Brin) have contributed tens of millions of dollars to back countermeasures like Proposition 42 to avoid paying a 5% wealth tax that would otherwise raise tens of billions of dollars for Medi-Cal, public hospitals, and health care programs.
+* **Limits Future Revenue Flexibility:** Voting no preserves the ability of voters and the Legislature to consider wealth or financial asset taxes on high-net-worth individuals in the future to fund state services.
+* **Key Opponents:** SEIU-United Healthcare Workers West (SEIU-UHW) and U.S. Senator Bernie Sanders.
+
+---
+
+### Summary to Help You Decide
+* Vote **YES** if you want a permanent constitutional ban on new state taxes on personal property and financial assets (including stocks, business interests, and savings/retirement accounts), want to prohibit retroactive state taxes, or want to block Proposition 40's wealth tax.
+* Vote **NO** if you believe the state and voters should retain the power to tax financial assets and net worth (such as the billionaire wealth tax in Proposition 40 to fund health care) and do not want those efforts blocked by a broad constitutional prohibition.

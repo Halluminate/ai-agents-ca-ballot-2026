@@ -1,0 +1,91 @@
+{
+  "run_id": "qwen-27b__common__vote__p3__r1",
+  "model": "qwen-27b",
+  "model_id": "qwen/qwen3.8-27b",
+  "pin": "deepinfra",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "3",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "first_line",
+  "error": "",
+  "started_at": "2026-11-03T13:44:29.057677+00:00",
+  "finished_at": "2026-11-03T13:46:12.273641+00:00",
+  "seconds": 100.5,
+  "input_tokens": 32458,
+  "output_tokens": 4539,
+  "cached_tokens": 34496,
+  "cost_usd": 0.0299,
+  "cost_source": "reported",
+  "billed_usd": 0.029941251000000002,
+  "searches": [
+    "California Proposition 3 2026 ballot measure",
+    "Ballotpedia Proposition 3 California 2026 permanent funding schools healthcare Prop 30 expiration",
+    "\"Prop 3\" California 2026 \"if it fails\" schools layoff estimates General Fund cut 2031"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/3/",
+    "https://lao.ca.gov/ballot/2026/prop3-110326.pdf",
+    "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-3",
+    "https://calmatters.org/politics/elections/2026/10/prop-3-california/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 8,
+    "requests_per_host": {
+      "openrouter.ai": 8
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 8
+    },
+    "bytes_up": 267142,
+    "bytes_down": 1611656,
+    "wire_bytes": {
+      "harness_to_proxy": 280081,
+      "proxy_to_harness": 1713960,
+      "proxy_to_internet": 278556,
+      "internet_to_proxy": 1726341
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 7,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:44:29.057677+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:44:29.057677+00:00",
+      "finished_at": "2026-11-03T13:46:12.273641+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

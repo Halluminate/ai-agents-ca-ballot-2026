@@ -1,0 +1,106 @@
+{
+  "requests": 155,
+  "requests_per_host": {
+    "openrouter.ai": 122,
+    "www.latimes.com": 6,
+    "www.ppic.org": 3,
+    "vigarchive.sos.ca.gov": 2,
+    "www.cbsnews.com": 2,
+    "www.hoover.org": 2,
+    "www.nber.org": 2,
+    "lao.ca.gov": 1,
+    "law.justia.com": 1,
+    "ballotpedia.org": 1,
+    "www.sos.ca.gov": 1,
+    "wedrawthelines.ca.gov": 1,
+    "redistricting.lls.edu": 1,
+    "scocal.stanford.edu": 1,
+    "www.dailynews.com": 1,
+    "www.independent.org": 1,
+    "www.taxfoundation.org": 1,
+    "taxfoundation.org": 1,
+    "gabriel-zucman.eu": 1,
+    "www2.nber.org": 1,
+    "www.calmatters.org": 1,
+    "eml.berkeley.edu": 1,
+    "calmatters.org": 1
+  },
+  "hosts": [
+    "ballotpedia.org",
+    "calmatters.org",
+    "eml.berkeley.edu",
+    "gabriel-zucman.eu",
+    "lao.ca.gov",
+    "law.justia.com",
+    "openrouter.ai",
+    "redistricting.lls.edu",
+    "scocal.stanford.edu",
+    "taxfoundation.org",
+    "vigarchive.sos.ca.gov",
+    "wedrawthelines.ca.gov",
+    "www.calmatters.org",
+    "www.cbsnews.com",
+    "www.dailynews.com",
+    "www.hoover.org",
+    "www.independent.org",
+    "www.latimes.com",
+    "www.nber.org",
+    "www.ppic.org",
+    "www.sos.ca.gov",
+    "www.taxfoundation.org",
+    "www2.nber.org"
+  ],
+  "status_counts": {
+    "200": 147,
+    "202": 1,
+    "301": 3,
+    "404": 4
+  },
+  "bytes_up": 17320977,
+  "bytes_down": 11715471,
+  "wire_bytes": {
+    "harness_to_proxy": 17666892,
+    "proxy_to_harness": 12379427,
+    "proxy_to_internet": 17618891,
+    "internet_to_proxy": 12783983
+  },
+  "byte_counter": true,
+  "errors": 2,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "www.nber.org",
+      "url": "https://www.nber.org/system/files/working_papers/w35899.pdf",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [
+    {
+      "process": "node",
+      "operation": "network-outbound",
+      "target": "remote:*:54919",
+      "attempts": 1
+    }
+  ],
+  "blocked_attempts": 1,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 155,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

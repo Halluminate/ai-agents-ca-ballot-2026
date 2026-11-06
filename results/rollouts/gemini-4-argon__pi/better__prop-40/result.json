@@ -1,0 +1,78 @@
+{
+  "run_id": "gemini__common__better__p40__r1",
+  "model": "gemini",
+  "model_id": "google/gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "40",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "finished_at": "2026-11-03T04:54:05.539366+00:00",
+  "seconds": 48.9,
+  "input_tokens": 18669,
+  "output_tokens": 2156,
+  "cached_tokens": 26391,
+  "cost_usd": 0.0666,
+  "cost_source": "reported",
+  "searches": [
+    "\"Proposition 40\" \"voterguide.sos.ca.gov\" OR California Proposition 40"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/40/",
+    "https://voterguide.sos.ca.gov/propositions/40/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/40/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/40/title-summary.htm"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 10,
+    "requests_per_host": {
+      "openrouter.ai": 7,
+      "voterguide.sos.ca.gov": 3
+    },
+    "hosts": [
+      "openrouter.ai",
+      "voterguide.sos.ca.gov"
+    ],
+    "status_counts": {
+      "200": 10
+    },
+    "bytes_up": 193562,
+    "bytes_down": 71903,
+    "wire_bytes": {
+      "harness_to_proxy": 212757,
+      "proxy_to_harness": 97736,
+      "proxy_to_internet": 209835,
+      "internet_to_proxy": 123620
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 10,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

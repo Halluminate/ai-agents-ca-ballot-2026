@@ -1,0 +1,100 @@
+{
+  "run_id": "qwen-27b__common__vote__p4__r1",
+  "model": "qwen-27b",
+  "model_id": "qwen/qwen3.8-27b",
+  "pin": "deepinfra",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "first_line",
+  "error": "",
+  "started_at": "2026-11-03T13:39:02.819904+00:00",
+  "finished_at": "2026-11-03T13:42:55.613501+00:00",
+  "seconds": 229.0,
+  "input_tokens": 75588,
+  "output_tokens": 10125,
+  "cached_tokens": 37632,
+  "cost_usd": 0.047,
+  "cost_source": "reported",
+  "billed_usd": 0.046953321,
+  "searches": [
+    "California Proposition 4 2026 what is it about",
+    "PPIC October 2026 poll Proposition 4 public campaign financing support oppose",
+    "Sacramento Bee editorial Prop 4 public campaign financing endorsement 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://www.lao.ca.gov/BallotAnalysis/Proposition?number=4&year=2026",
+    "https://calmatters.org/politics/2026/10/california-proposition-4-explainer/",
+    "https://calmatters.org/politics/2026/10/california-proposition-4-explainer/",
+    "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-text-proposed-laws.pdf",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-4-repeals"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 9,
+    "requests_per_host": {
+      "openrouter.ai": 9
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 9
+    },
+    "bytes_up": 479137,
+    "bytes_down": 3713740,
+    "wire_bytes": {
+      "harness_to_proxy": 496620,
+      "proxy_to_harness": 3903110,
+      "proxy_to_internet": 494279,
+      "internet_to_proxy": 3921026
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 9,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:39:02.819904+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:39:02.819904+00:00",
+      "finished_at": "2026-11-03T13:42:55.613501+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

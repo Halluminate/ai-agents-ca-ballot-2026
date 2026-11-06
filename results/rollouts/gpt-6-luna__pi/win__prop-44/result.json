@@ -1,0 +1,120 @@
+{
+  "run_id": "luna__common__win__p44__r1",
+  "model": "luna",
+  "model_id": "openai/gpt-6-luna",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "44",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:11:25.903585+00:00",
+  "finished_at": "2026-11-03T13:12:10.481775+00:00",
+  "seconds": 41.7,
+  "input_tokens": 84986,
+  "output_tokens": 1727,
+  "cached_tokens": 44866,
+  "cost_usd": 0.1592,
+  "cost_source": "reported",
+  "billed_usd": 0.1591541304,
+  "searches": [
+    "California Prop 44 2026 campaign spending fundraising SEIU-UHW clinic clinics opposition campaign funding",
+    "site:sos.ca.gov 2026 Proposition 44 90 percent community health clinics ballot arguments official",
+    "California ballot measure 2026 Proposition 44 campaign finance disclosure",
+    "2026 California proposition polls ballot measures Prop 44",
+    "California Prop 44 2026 voters unions SEIU-UHW 90% health clinics spending 90 percent revenue",
+    "California Proposition 44 2026 ballot 90% FQHC opposition clinic closures",
+    "Prop 44 California 2026 No on Proposition 44 website campaign",
+    "California Proposition 44 2026 endorsements support opposition community clinics 90 percent revenue",
+    "California Proposition 44 2026 news ballot initiative health clinics 90 percent revenue likelihood",
+    "California Proposition 44 2026 polling Prop 44 community health clinics yes no poll",
+    "California ballot proposition 44 2026 campaign association endorsements opposition American Academy Pediatrics",
+    "California Proposition 44 history 2026 initiative community clinics SEIU-UHW filing",
+    "site:calmatters.org Proposition 44 2026 California community health clinics",
+    "California November 2026 ballot proposition initiatives prop 44 likely voter support",
+    "\"Proposition 44\" \"25%\" PPIC October 2026",
+    "BallotPedia California Proposition 44 2026 polling endorsements campaign spending",
+    "Prop 44 opposition $44 million spending campaign 2026",
+    "Prop 44 No campaign 2026 media campaign funding ads October 2026 eight figure campaign",
+    "California 2026 proposition 44 poll PPIC September October polling accuracy",
+    "PPIC October 2026 survey Proposition 44 support oppose 25% likely voters",
+    "\"Prop. 44\" \"25%\" California poll October 2026",
+    "PPIC Statewide Survey October 2026 propositions likely voters Prop 44 pdf",
+    "Prop 44 yes campaign advertising media buy 2026 election campaign SEIU UHW",
+    "2026 California proposition 44 election results prediction polling No yes",
+    "2026 California ballot propositions September survey proposition 44 opinion poll independent survey likely voters",
+    "California Prop 44 latest poll October 2026 No on 44 likely votes poll results",
+    "California Prop 44 2026 editorial endorsements no vote Sacramento Bee LA Times SF Chronicle",
+    "Prop 44 California 2026 endorsements California Democratic Party Republican Party oppose official list",
+    "California Prop 44 2026 PPIC September poll exact question likely voters Proposition 44 34% 61%"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/44/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 33,
+    "requests_per_host": {
+      "openrouter.ai": 33
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 33
+    },
+    "bytes_up": 632195,
+    "bytes_down": 364443,
+    "wire_bytes": {
+      "harness_to_proxy": 702829,
+      "proxy_to_harness": 443374,
+      "proxy_to_internet": 690689,
+      "internet_to_proxy": 532028
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 33,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:11:25.903585+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:11:25.903585+00:00",
+      "finished_at": "2026-11-03T13:12:10.481775+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

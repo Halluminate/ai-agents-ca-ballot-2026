@@ -1,0 +1,52 @@
+{
+  "requests": 23,
+  "requests_per_host": {
+    "openrouter.ai": 15,
+    "escholarship.org": 2,
+    "www.politico.com": 2,
+    "www.nytimes.com": 1,
+    "results.surveyusa.com": 1,
+    "www.tpsielections.com": 1,
+    "nypost.com": 1
+  },
+  "hosts": [
+    "escholarship.org",
+    "nypost.com",
+    "openrouter.ai",
+    "results.surveyusa.com",
+    "www.nytimes.com",
+    "www.politico.com",
+    "www.tpsielections.com"
+  ],
+  "status_counts": {
+    "200": 19,
+    "403": 4
+  },
+  "bytes_up": 1152351,
+  "bytes_down": 533428,
+  "wire_bytes": {
+    "harness_to_proxy": 1199302,
+    "proxy_to_harness": 607803,
+    "proxy_to_internet": 1192974,
+    "internet_to_proxy": 661718
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 23,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

@@ -1,0 +1,37 @@
+## My vote: **YES** on Proposition 1
+
+*(California, November 3, 2026 ballot — SB 417, the Veterans and Affordable Housing Bond Act of 2026: $11.25B in general obligation bonds, $10B repaid by the General Fund + $1.25B self-repaying CalVet home loans.)*
+
+---
+
+### What I found
+
+**The money is going to a specific, documented bottleneck — not a wish list.**
+- Enterprise Community Partners (March 2026) counts **39,880 entitled, fully-designed, "shovel-ready" affordable homes across 461 developments** sitting idle solely for lack of gap financing. Clearing that backlog requires roughly **$4.1B** in state funds.
+- The state's flagship Multifamily Housing Program is oversubscribed **~9 to 1**. The 2018 bond ($4B) was fully committed in five years and produced 22,735 units.
+- The 2026-27 budget contains essentially **no ongoing General Fund money** for affordable housing development — only $500M for state LIHTC and $200M for MHP. The programs are dry. A "no" vote doesn't redirect $10B to schools; it leaves the pipeline stalled.
+
+**The timing multiplier is unusually good.** Federal HR1 (2025) cut the tax-exempt bond threshold for 4% credits in half, expanding California's credit equity capacity by roughly **$3B/year** — but that equity requires matching state dollars. Every $1 of state money leverages **~$3.60–$4.00** in federal, local, and private capital. Right now the state dollar is the binding constraint, so its return is at a multi-year high. Waiting makes it worse: each additional funding round adds **~4 months and ~$20,000 per unit**.
+
+**The cost is modest and the debt structure is sound.**
+- LAO: **$500–600M/year for ~25 years ≈ 0.25% of the General Fund.** Total repayment ~$17.4B (about 15% more in real terms than paying cash — the normal, honest price of building now).
+- California's GF debt service is currently ~3% of revenue, **below** the 4% historical average — there is real capacity.
+- The **$1.25B CalVet portion is self-liquidating**, repaid by veterans' mortgage payments (no net taxpayer cost). The true General Fund ask is $10B.
+- Housing carries **55-year affordability covenants** — the asset outlives the debt by decades. This is the textbook-correct use of a GO bond (unlike, say, Prop 38's research bond on the same ballot).
+
+### The strongest case against, and why it doesn't win
+
+| Opposition argument | Source | My assessment |
+|---|---|---|
+| Adds ~$580M/yr of fixed debt service amid **$10–35B projected structural deficits** | Howard Jarvis Taxpayers Assn.; Sen. Tony Strickland; George Skelton (LA Times) | The real concern. But 0.25% of the GF won't fix a structural gap, and the "just find $10B in the budget instead" alternative is not credible given the enacted budget's $700M total for these programs. |
+| **Doesn't attack the root cause** — subsidized housing in CA costs ~1.5x market rate (RAND 2025); only $200M goes to cost-reducing pilots | Bay Area News Group / Mercury News & East Bay Times; Pacific Research Institute; Hoover Institution | Legitimate, and it's the best argument here. But it's addressed by other levers on this same ballot (Prop 45, CEQA reform) and by recent streamlining laws — and "defund until costs are reformed" leaves 40,000 permitted homes rotting while their costs escalate. |
+| **A drop in the bucket** — ~40,000 units vs. ~1 million affordable homes needed (4%) | San Diego U-T editorial board | True, and the reason it can't be the *only* tool. Not a reason to reject 40,000 homes, preservation of 5,500 more, and homebuyer help for 40,000 households. |
+| **Misleading title** — only 11% goes to veterans, and that slice repays itself | Strickland; John Seiler (U-T) | Fair criticism of packaging and of the omnibus logrolling (students, tribes, farmworkers, infrastructure). A drafting sin, not a policy flaw. |
+| **Weak accountability** | State Auditor Report 2018-037 found HCD's oversight of bond funds "inconsistent" | Real, but dated (that audit covered the 2002/2006 grant programs; most recommendations are now marked fully implemented). SB 417 adds an annual reporting requirement (§54088) and an independent audit for CalVet. Still thin — worth demanding a public cost-and-results dashboard. |
+
+**Consensus check:** No official argument against was even filed. The Legislature passed it 29–2 (Senate) and 61–7 (Assembly); the state Republican Party is officially **neutral**. Yes: Newsom, LWV of California, SPUR, CA YIMBY, CA Building Industry, AFL-CIO, CTA, Habitat for Humanity, US Vets, CalVet, CA Apartment Assn., MTC/ABAG, Airbnb, Meta, Anthropic, SF Chronicle, Sacramento Bee/McClatchy. No: HJTA, Pacific Research Institute, U-T, Bay Area News Group, Daily Breeze. PPIC polls it **60% yes / 38% no**; forecast models give it ~99% odds of passage.
+
+### Bottom line
+This is a small, well-targeted, properly-structured borrowing that clears a documented 40,000-home bottleneck at a moment when each state dollar pulls in nearly four dollars of federal and private capital — at a cost of about a quarter of one percent of the General Fund, with the veterans' slice paying for itself. It is not sufficient to solve California's housing crisis and does nothing about per-unit construction costs, which is why I'd pair it with **yes on Prop 45** (CEQA reform) and demand a public tracking dashboard. But the alternative to "yes" isn't cheaper cash — it's no homes.
+
+**Vote YES.**

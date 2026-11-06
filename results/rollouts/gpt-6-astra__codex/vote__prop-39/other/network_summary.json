@@ -1,0 +1,222 @@
+{
+  "requests": 55,
+  "requests_per_host": {
+    "api.openai.com": 50,
+    "ab.chatgpt.com": 5
+  },
+  "hosts": [
+    "ab.chatgpt.com",
+    "api.openai.com"
+  ],
+  "status_counts": {
+    "101": 1,
+    "200": 43,
+    "202": 4,
+    "500": 1
+  },
+  "bytes_up": 5054571,
+  "bytes_down": 3577122,
+  "wire_bytes": {
+    "harness_to_proxy": 7496495,
+    "proxy_to_harness": 2624659,
+    "proxy_to_internet": 4810484,
+    "internet_to_proxy": 2705497
+  },
+  "byte_counter": true,
+  "errors": 20,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "ab.chatgpt.com",
+      "url": "https://ab.chatgpt.com/otlp/v1/metrics",
+      "error": "stream reset by client (CANCEL)"
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.openai.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "ab.chatgpt.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.openai.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.openai.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.openai.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.openai.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "ab.chatgpt.com",
+      "error": null
+    },
+    {
+      "kind": "tls_failed_server",
+      "host": "api.openai.com",
+      "sni": "api.openai.com",
+      "error": "connection closed"
+    },
+    {
+      "kind": "http",
+      "host": "api.openai.com",
+      "url": "https://api.openai.com/v1/responses",
+      "error": "connection closed"
+    },
+    {
+      "kind": "http",
+      "host": "api.openai.com",
+      "url": "https://api.openai.com/v1/responses",
+      "error": "connection closed"
+    },
+    {
+      "kind": "http",
+      "host": "api.openai.com",
+      "url": "https://api.openai.com/v1/responses",
+      "error": "connection closed"
+    },
+    {
+      "kind": "http",
+      "host": "api.openai.com",
+      "url": "https://api.openai.com/v1/responses",
+      "error": "connection closed"
+    },
+    {
+      "kind": "http",
+      "host": "api.openai.com",
+      "url": "https://api.openai.com/v1/responses",
+      "error": "connection closed"
+    },
+    {
+      "kind": "http",
+      "host": "api.openai.com",
+      "url": "https://api.openai.com/v1/responses",
+      "error": "stream reset by client (CANCEL)"
+    },
+    {
+      "kind": "http",
+      "host": "api.openai.com",
+      "url": "https://api.openai.com/v1/responses",
+      "error": "stream reset by client (CANCEL)"
+    },
+    {
+      "kind": "http",
+      "host": "api.openai.com",
+      "url": "https://api.openai.com/v1/responses",
+      "error": "stream reset by client (CANCEL)"
+    },
+    {
+      "kind": "http",
+      "host": "api.openai.com",
+      "url": "https://api.openai.com/v1/responses",
+      "error": "stream reset by client (CANCEL)"
+    },
+    {
+      "kind": "http",
+      "host": "api.openai.com",
+      "url": "https://api.openai.com/v1/responses",
+      "error": "stream reset by client (CANCEL)"
+    },
+    {
+      "kind": "http",
+      "host": "api.openai.com",
+      "url": "https://api.openai.com/v1/responses",
+      "error": "stream reset by client (CANCEL)"
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "api.openai.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 95,
+      "bytes_down": 0,
+      "duration": 15.0025,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "ab.chatgpt.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 65,
+      "bytes_down": 0,
+      "duration": 10.0025,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.openai.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 95,
+      "bytes_down": 0,
+      "duration": 15.0011,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.openai.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 95,
+      "bytes_down": 0,
+      "duration": 15.0009,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.openai.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 95,
+      "bytes_down": 0,
+      "duration": 15.0013,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.openai.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 95,
+      "bytes_down": 0,
+      "duration": 15.0145,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "ab.chatgpt.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 65,
+      "bytes_down": 0,
+      "duration": 10.0005,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 2659,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 55,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

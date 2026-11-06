@@ -1,0 +1,57 @@
+{
+  "requests": 37,
+  "requests_per_host": {
+    "openrouter.ai": 28,
+    "voterguide.sos.ca.gov": 1,
+    "cms.hoover.org": 1,
+    "www.sacbee.com": 1,
+    "www.latimes.com": 1,
+    "californiatoday.com": 1,
+    "oag.ca.gov": 1,
+    "www.courthousenews.com": 1,
+    "www.politico.com": 1,
+    "campaignforaccountability.org": 1
+  },
+  "hosts": [
+    "californiatoday.com",
+    "campaignforaccountability.org",
+    "cms.hoover.org",
+    "oag.ca.gov",
+    "openrouter.ai",
+    "voterguide.sos.ca.gov",
+    "www.courthousenews.com",
+    "www.latimes.com",
+    "www.politico.com",
+    "www.sacbee.com"
+  ],
+  "status_counts": {
+    "200": 37
+  },
+  "bytes_up": 5025100,
+  "bytes_down": 1033792,
+  "wire_bytes": {
+    "harness_to_proxy": 5093424,
+    "proxy_to_harness": 1161667,
+    "proxy_to_internet": 5086267,
+    "internet_to_proxy": 1226775
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 31,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

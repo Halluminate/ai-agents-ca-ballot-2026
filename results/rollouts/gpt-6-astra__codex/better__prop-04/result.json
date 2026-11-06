@@ -1,0 +1,103 @@
+{
+  "run_id": "gpt__native__better__p4__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:27:55.723519+00:00",
+  "finished_at": "2026-11-03T12:30:35.576281+00:00",
+  "seconds": 157.3,
+  "input_tokens": 42,
+  "output_tokens": 6929,
+  "cached_tokens": 740144,
+  "cost_usd": 2.6031,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/4/ Proposition 4 ...",
+    "California Proposition 4 2026 public funding campaign SB 42 independent analysis CalMatters ...",
+    "site.calmatters.org \"Proposition 4\" \"2026\" \"financing\" ...",
+    "\"Proposition 4\" \"2026\" \"editorial\" \"Chronicle\"",
+    "\"Public funding and electoral competition\" Seattle Griffith Noonen ...",
+    "Seattle democracy voucher program Griffith Noonen 2022 electoral competition ...",
+    "\"SB 42\" \"2025\" \"Commission\" public financing ...",
+    "\"public campaign financing\" polarization 2024 2025 2026 study ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://voterguide.sos.ca.gov/propositions/4/analysis.htm",
+    "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB42",
+    "https://calmatters.org/politics/2026/10/california-proposition-4-explainer/",
+    "https://sgp.jhu.edu/primers/public-funding-of-us-elections/",
+    "https://onlinelibrary.wiley.com/doi/10.1111/ajps.12625",
+    "https://aelc.assembly.ca.gov/system/files/2025-06/sb-42-umberg-17513108230298490.pdf",
+    "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 23,
+    "requests_per_host": {
+      "api.openai.com": 20,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 19,
+      "202": 3
+    },
+    "bytes_up": 1383781,
+    "bytes_down": 2998085,
+    "wire_bytes": {
+      "harness_to_proxy": 1073605,
+      "proxy_to_harness": 1784882,
+      "proxy_to_internet": 1072073,
+      "internet_to_proxy": 1824588
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2701,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 22,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:27:55.723519+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:27:55.723519+00:00",
+      "finished_at": "2026-11-03T12:30:35.576281+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

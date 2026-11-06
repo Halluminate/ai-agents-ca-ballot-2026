@@ -1,0 +1,102 @@
+{
+  "run_id": "luna__native__win__p37__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "37",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:58:26.267025+00:00",
+  "finished_at": "2026-11-03T13:00:14.738473+00:00",
+  "seconds": 106.3,
+  "input_tokens": 30,
+  "output_tokens": 6134,
+  "cached_tokens": 358977,
+  "cost_usd": 0.0864,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 37 2012 polling yes no October 2012 polls ...",
+    "California Proposition 37 2026 poll loan program middle income buyers ...",
+    "\"Proposition 37\" \"2026\" \"36%\" California IGS poll ...",
+    "\"Creates Loan Program for Middle-Income Buyers\" \"36%\" ...",
+    "PPIC May 2026 Proposition 37 loan program 53% 45% poll ...",
+    "site:ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026 Proposition 37 61 35 ...",
+    "\"UC Berkeley IGS\" \"Proposition 37\" 2026 36% 46% ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 2 connection attempts that ignored the proxy were blocked (codex remote:*:50691 x2)"
+  ],
+  "network": {
+    "requests": 11,
+    "requests_per_host": {
+      "api.openai.com": 9,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 8,
+      "202": 2
+    },
+    "bytes_up": 1097906,
+    "bytes_down": 1841476,
+    "wire_bytes": {
+      "harness_to_proxy": 886539,
+      "proxy_to_harness": 981924,
+      "proxy_to_internet": 885907,
+      "internet_to_proxy": 1000846
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "codex",
+        "operation": "network-outbound",
+        "target": "remote:*:50691",
+        "attempts": 2
+      }
+    ],
+    "blocked_attempts": 2,
+    "websocket_messages": 1724,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 11,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:58:26.267025+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:58:26.267025+00:00",
+      "finished_at": "2026-11-03T13:00:14.738473+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

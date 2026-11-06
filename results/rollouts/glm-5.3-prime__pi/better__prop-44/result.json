@@ -1,0 +1,92 @@
+{
+  "run_id": "glm-prime__common__better__p44__r1",
+  "model": "glm-prime",
+  "model_id": "z-ai/glm-5.3-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "44",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:16:19.324600+00:00",
+  "finished_at": "2026-11-03T13:17:04.095977+00:00",
+  "seconds": 41.4,
+  "input_tokens": 29862,
+  "output_tokens": 2537,
+  "cached_tokens": 45824,
+  "cost_usd": 0.157,
+  "cost_source": "reported",
+  "billed_usd": 0.157001938,
+  "searches": [
+    "\"Prop 44\" California clinics ballot measure editorial oppose SEIU union organizing leverage",
+    "Proposition 44 California 2026 community health clinics 90% spending SEIU-UHW",
+    "\"Proposition 44\" supporters list endorsements \"Yes on Prop 44\" SEIU dialysis Regan history 2018 2020",
+    "CalMatters Proposition 44 clinics recommendation ballot measure 2026",
+    "\"Proposition 44\" Los Angeles Times editorial board recommendation no OR yes clinics"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/44/",
+    "https://voterguide.sos.ca.gov/propositions/44/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm",
+    "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-44-health-clinic-spending-voter-guide"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 11,
+    "requests_per_host": {
+      "openrouter.ai": 11
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 11
+    },
+    "bytes_up": 346945,
+    "bytes_down": 561530,
+    "wire_bytes": {
+      "harness_to_proxy": 370435,
+      "proxy_to_harness": 618118,
+      "proxy_to_internet": 367152,
+      "internet_to_proxy": 643316
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 12,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:16:19.324600+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:16:19.324600+00:00",
+      "finished_at": "2026-11-03T13:17:04.095977+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

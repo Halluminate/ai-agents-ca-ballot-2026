@@ -1,0 +1,94 @@
+{
+  "run_id": "luna__native__vote__p5__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "5",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:02:17.555047+00:00",
+  "finished_at": "2026-11-03T13:06:45.367580+00:00",
+  "seconds": 265.5,
+  "input_tokens": 63,
+  "output_tokens": 22950,
+  "cached_tokens": 1242194,
+  "cost_usd": 0.1004,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 5 2026 recall election process analysis opposition support SB 2026 ...",
+    "site:leginfo.legislature.ca.gov SCA 1 2024 recall successor text California Newman ...",
+    "California Proposition 5 2026 recall election gubernatorial flaw special election",
+    "Los Angeles Times editorial Prop 5 recall California 2026 endorsement yes no ...",
+    "California Constitution Article V Section 5 vacancy Secretary of State attorney general unexpired term official text ...",
+    "2021 California Newsom recall official results Larry Elder statement of vote PDF"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/5/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 20,
+    "requests_per_host": {
+      "api.openai.com": 15,
+      "ab.chatgpt.com": 5
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 14,
+      "202": 5
+    },
+    "bytes_up": 1500194,
+    "bytes_down": 3801177,
+    "wire_bytes": {
+      "harness_to_proxy": 1136532,
+      "proxy_to_harness": 2045037,
+      "proxy_to_internet": 1135469,
+      "internet_to_proxy": 2072829
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2442,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 17,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:02:17.555047+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:02:17.555047+00:00",
+      "finished_at": "2026-11-03T13:06:45.367580+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "requests": 53,
+  "requests_per_host": {
+    "openrouter.ai": 19,
+    "www.ppic.org": 4,
+    "www.latimes.com": 4,
+    "www.fppc.ca.gov": 4,
+    "voterguide.sos.ca.gov": 3,
+    "emersoncollegepolling.com": 3,
+    "www.sos.ca.gov": 2,
+    "www.yesfairelections.org": 2,
+    "caltax.org": 2,
+    "electionresults.sos.ca.gov": 2,
+    "www.caltax.org": 1,
+    "ballotpedia.org": 1,
+    "calmatters.org": 1,
+    "www.cafairelections.org": 1,
+    "news.ballotpedia.org": 1,
+    "www.igs.berkeley.edu": 1,
+    "www.sacbee.com": 1,
+    "www.politico.com": 1
+  },
+  "hosts": [
+    "ballotpedia.org",
+    "calmatters.org",
+    "caltax.org",
+    "electionresults.sos.ca.gov",
+    "emersoncollegepolling.com",
+    "news.ballotpedia.org",
+    "openrouter.ai",
+    "voterguide.sos.ca.gov",
+    "www.cafairelections.org",
+    "www.caltax.org",
+    "www.fppc.ca.gov",
+    "www.igs.berkeley.edu",
+    "www.latimes.com",
+    "www.politico.com",
+    "www.ppic.org",
+    "www.sacbee.com",
+    "www.sos.ca.gov",
+    "www.yesfairelections.org"
+  ],
+  "status_counts": {
+    "200": 34,
+    "301": 6,
+    "404": 8
+  },
+  "bytes_up": 2024467,
+  "bytes_down": 2984724,
+  "wire_bytes": {
+    "harness_to_proxy": 2086610,
+    "proxy_to_harness": 3118791,
+    "proxy_to_internet": 2084206,
+    "internet_to_proxy": 3231209
+  },
+  "byte_counter": true,
+  "errors": 16,
+  "error_details": [
+    {
+      "kind": "connect_error",
+      "host": "openrouter.ai",
+      "error": null
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "openrouter.ai",
+      "sni": "openrouter.ai",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "stream reset by client (PROTOCOL_ERROR)"
+    },
+    {
+      "kind": "http",
+      "host": "www.sos.ca.gov",
+      "url": "https://www.sos.ca.gov/campaign-lobbying/cal-access-resources/measure-contributions/2026-ballot-measure-contribution-totals",
+      "error": "stream reset by client (CANCEL)"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "stream reset by client (PROTOCOL_ERROR)"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "server closed connection"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "www.latimes.com",
+      "sni": "www.latimes.com",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "www.sos.ca.gov",
+      "sni": "www.sos.ca.gov",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "escholarship.org",
+      "sni": "escholarship.org",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "www.ppic.org",
+      "sni": "www.ppic.org",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "connect_error",
+      "host": "ballotpedia.org",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "www.igs.berkeley.edu",
+      "error": null
+    },
+    {
+      "kind": "tls_failed_server",
+      "host": "www.ppic.org",
+      "sni": "www.ppic.org",
+      "error": "connection closed"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "www.ppic.org",
+      "sni": "www.ppic.org",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "http",
+      "host": "www.sacbee.com",
+      "url": "https://www.sacbee.com/news/politics-government/election/article312345678.html",
+      "error": "stream reset by client (INTERNAL_ERROR)"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "stream reset by client (CANCEL)"
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 111,
+      "bytes_down": 0,
+      "duration": 0.421,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1593,
+      "bytes_down": 39,
+      "duration": 6.8418,
+      "reason": "connection closed early"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3275,
+      "duration": 4.1903,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3275,
+      "duration": 3.9906,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "www.latimes.com",
+      "port": 443,
+      "sni": "www.latimes.com",
+      "bytes_up": 1551,
+      "bytes_down": 39,
+      "duration": 11.7433,
+      "reason": "connection closed early"
+    },
+    {
+      "host": "www.sos.ca.gov",
+      "port": 443,
+      "sni": "www.sos.ca.gov",
+      "bytes_up": 1815,
+      "bytes_down": 39,
+      "duration": 11.7228,
+      "reason": "connection closed early"
+    },
+    {
+      "host": "escholarship.org",
+      "port": 443,
+      "sni": "escholarship.org",
+      "bytes_up": 1554,
+      "bytes_down": 39,
+      "duration": 11.945,
+      "reason": "connection closed early"
+    },
+    {
+      "host": "www.ppic.org",
+      "port": 443,
+      "sni": "www.ppic.org",
+      "bytes_up": 1809,
+      "bytes_down": 39,
+      "duration": 25.6812,
+      "reason": "connection closed early"
+    },
+    {
+      "host": "ballotpedia.org",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 67,
+      "bytes_down": 0,
+      "duration": 10.0004,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "www.igs.berkeley.edu",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 77,
+      "bytes_down": 0,
+      "duration": 10.0028,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "www.ppic.org",
+      "port": 443,
+      "sni": "www.ppic.org",
+      "bytes_up": 1542,
+      "bytes_down": 39,
+      "duration": 53.9854,
+      "reason": "connection closed early"
+    },
+    {
+      "host": "calmatters.org",
+      "port": 443,
+      "sni": "calmatters.org",
+      "bytes_up": 1548,
+      "bytes_down": 39,
+      "duration": 220.5913,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [
+    {
+      "process": "grok-1.0.70",
+      "operation": "network-outbound",
+      "target": null,
+      "attempts": 108
+    }
+  ],
+  "blocked_attempts": 108,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 40,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "allowed, not recorded"
+}

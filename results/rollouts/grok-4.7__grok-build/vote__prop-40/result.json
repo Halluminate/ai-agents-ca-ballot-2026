@@ -1,0 +1,173 @@
+{
+  "run_id": "grok__native__vote__p40__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "native",
+  "harness": "grok_build",
+  "effort": "xhigh",
+  "prompt": "vote",
+  "prop": "40",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:46:41.711439+00:00",
+  "finished_at": "2026-11-03T12:55:54.864751+00:00",
+  "seconds": 550.8,
+  "input_tokens": 65402,
+  "output_tokens": 8654,
+  "cached_tokens": 125568,
+  "cost_usd": 0.2455,
+  "cost_source": "estimated",
+  "billed_usd": 2.58593,
+  "searches": [
+    "California Proposition 40 voter guide 2026",
+    "California Proposition 40 official title summary arguments yes no",
+    "California Proposition 40 2026 wealth tax billionaire Stanford study fiscal impact analysis",
+    "California Proposition 40 2026 full text wealth tax amendment legislature expand tax retirement accounts legal analysis",
+    "Jaros Rauh NBER California billionaire tax Proposition 40 NPV Stanford Hoover critique Saez Zucman",
+    "California Proposition 40 text of proposed law legislature amend without voter approval Section",
+    "site:ballotpedia.org California Proposition 40 2026 One-Time Wealth Tax",
+    "\"Billionaire Tax Act\" California 2026 text \"may be amended\" legislature Galle Saez Gamage",
+    "California Proposition 40 Newsom opposition reasons legal analysis Tax Foundation PPIC CalMatters",
+    "California Proposition 40 Prop 98 exemption shortchange schools fact check CalMatters",
+    "California billionaire tax 2026 Saez Zucman revenue estimate response to Rauh Jaros",
+    "pdftotext California proposition 40 text proposed law sections 50300 50314",
+    "California Medi-Cal federal cuts HR1 2025 2026 billion dollar impact Prop 40 funding gap size"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 0,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/40/",
+    "https://voterguide.sos.ca.gov/propositions/40/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/40/title-summary.htm",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=40&year=2026",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+    "https://lao.ca.gov/ballot/2026/prop40-110326.pdf",
+    "https://taxfoundation.org/research/all/state/california-proposition-40-wealth-tax-constitutional-legal-issues/",
+    "https://ballotpedia.org/California_Proposition_40,_One-Time_Wealth_Tax_for_State-Funded_Healthcare,_Education,_and_Food_Assistance_Programs_Initiative_(2026",
+    "https://eml.berkeley.edu/~saez/responsetorauh26.pdf",
+    "https://www.nber.org/papers/w35899"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 38 connection attempts that ignored the proxy were blocked (grok-1.0.70 network-outbound x38)",
+    "capture: 3 connections were not readable by the proxy (openrouter.ai:443, voterguide.sos.ca.gov:443)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 35,
+    "requests_per_host": {
+      "openrouter.ai": 25,
+      "voterguide.sos.ca.gov": 3,
+      "lao.ca.gov": 2,
+      "vig.cdn.sos.ca.gov": 1,
+      "ballotpedia.org": 1,
+      "taxfoundation.org": 1,
+      "www.nber.org": 1,
+      "eml.berkeley.edu": 1
+    },
+    "hosts": [
+      "ballotpedia.org",
+      "eml.berkeley.edu",
+      "lao.ca.gov",
+      "openrouter.ai",
+      "taxfoundation.org",
+      "vig.cdn.sos.ca.gov",
+      "voterguide.sos.ca.gov",
+      "www.nber.org"
+    ],
+    "status_counts": {
+      "200": 33,
+      "404": 1
+    },
+    "bytes_up": 804292,
+    "bytes_down": 3215741,
+    "wire_bytes": {
+      "harness_to_proxy": 838329,
+      "proxy_to_harness": 3355276,
+      "proxy_to_internet": 834740,
+      "internet_to_proxy": 3410522
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3189,
+        "duration": 0.126,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "voterguide.sos.ca.gov",
+        "port": 443,
+        "sni": "voterguide.sos.ca.gov",
+        "bytes_up": 2093,
+        "bytes_down": 1718,
+        "duration": 0.1354,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 2069,
+        "bytes_down": 1718,
+        "duration": 0.1882,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 38
+      }
+    ],
+    "blocked_attempts": 38,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 20,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:46:41.711439+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:46:41.711439+00:00",
+      "finished_at": "2026-11-03T12:55:54.864751+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

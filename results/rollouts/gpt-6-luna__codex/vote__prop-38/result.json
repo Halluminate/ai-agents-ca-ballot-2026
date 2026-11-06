@@ -1,0 +1,96 @@
+{
+  "run_id": "luna__native__vote__p38__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:02:42.274484+00:00",
+  "finished_at": "2026-11-03T13:04:49.981336+00:00",
+  "seconds": 125.5,
+  "input_tokens": 57,
+  "output_tokens": 10337,
+  "cached_tokens": 1306353,
+  "cost_usd": 0.116,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 38 2026 $8.4 billion immunology research bond independent analysis ...",
+    "site:calmatters.org 2026 Proposition 38 institute 3 employees Gary Michelson $4.2 billion research bond ...",
+    "'As of January 1, 2026'",
+    "site:calmatters.org \"three employees\" Proposition 38 institute ...",
+    "California SB 895 2026 Foundation for Science and Health Research signed law funding California medical research ...",
+    "California Proposition 71 CIRM first royalty payment 2018 outcomes first FDA approved therapy March 2026 official CIRM ...",
+    "California CIRM Prop 71 royalty income research bond state returns $190,345 first royalty payment 2018 annual report ...",
+    "editorial endorse No Proposition 38 California 2026 immunology bond Sacramento Bee San Francisco Chronicle ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/38/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 22,
+    "requests_per_host": {
+      "api.openai.com": 19,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 18,
+      "202": 3
+    },
+    "bytes_up": 1406690,
+    "bytes_down": 3273778,
+    "wire_bytes": {
+      "harness_to_proxy": 1011547,
+      "proxy_to_harness": 1847120,
+      "proxy_to_internet": 1009312,
+      "internet_to_proxy": 1883239
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1934,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 21,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:02:42.274484+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:02:42.274484+00:00",
+      "finished_at": "2026-11-03T13:04:49.981336+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

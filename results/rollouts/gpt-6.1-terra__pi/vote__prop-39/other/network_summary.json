@@ -1,0 +1,59 @@
+{
+  "requests": 29,
+  "requests_per_host": {
+    "openrouter.ai": 22,
+    "www.texastribune.org": 2,
+    "lao.ca.gov": 1,
+    "calbudgetcenter.org": 1,
+    "www.journals.uchicago.edu": 1,
+    "www.nber.org": 1,
+    "www.sos.ca.gov": 1
+  },
+  "hosts": [
+    "calbudgetcenter.org",
+    "lao.ca.gov",
+    "openrouter.ai",
+    "www.journals.uchicago.edu",
+    "www.nber.org",
+    "www.sos.ca.gov",
+    "www.texastribune.org"
+  ],
+  "status_counts": {
+    "200": 28,
+    "403": 1
+  },
+  "bytes_up": 1298631,
+  "bytes_down": 573342,
+  "wire_bytes": {
+    "harness_to_proxy": 1360556,
+    "proxy_to_harness": 666037,
+    "proxy_to_internet": 1352019,
+    "internet_to_proxy": 738308
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 30,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

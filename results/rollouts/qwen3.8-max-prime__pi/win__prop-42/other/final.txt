@@ -1,0 +1,21 @@
+**Research summary — California Proposition 42 (Nov 3, 2026): "Prohibits New State Personal Property Taxes and Certain Retroactive State Taxes" (the billionaire-backed countermeasure to Prop 40)**
+
+*Final polling (likely voters):*
+| Pollster | Field | Yes | No | Und. |
+|---|---|---|---|---|
+| IGS/Berkeley | Aug 3–9 | 40 | 37 | 23 |
+| PPIC | Sep 4–10 | 54 | 43 | 3 |
+| IGS/Berkeley | Sep 15–20 | 43 | 34 | 23 |
+| **PPIC (Ipsos KnowledgePanel)** | **Oct 16–22** | **51** | **47** | **2** |
+| AIMSA | Oct 19–24 | 50 | — | — |
+| IGS/LA Times | Oct 19–25 | 43 | 45 | 12 |
+
+*Prediction markets (Nov 2–3):* Kalshi ~56–57%, Polymarket ~54% → **~55% to pass**; separate market prices "Prop 42 gets more yes votes than Prop 40" at 63–67%, and "Prop 40 takes effect" at only 13%.
+
+*Advantages for the Yes side:* overwhelming money ($159M raised vs. $33M, ~$65M spent on Prop 42 in October alone); Gov. Newsom's Oct 9 endorsement; a broad blue-collar coalition (CA Professional Firefighters, Building & Construction Trades, PORAC, AMVETS, Small Business Assn., CPA society, CA GOP); a simple, resonant "protect your retirement savings" message that ads keep deliberately decoupled from the billionaire tax; a midterm electorate skewed older (55+ favored it 61–34). PPIC — the probability-panel poll with almost no undecideds — is the only late survey putting it above 50%, and it outpolls Prop 40 in every final survey.
+
+*Risks:* a clear negative trend (IGS "No" jumped 34→45); relentless media/editorial framing as a "billionaire-funded trick" (Chronicle, Merc News, Sac Bee, LA Times all "No"); the Democratic Party, SEIU-UHW and Bernie Sanders opposing; and 14-measure ballot confusion that typically penalizes complex initiatives.
+
+*Net assessment:* The evidence points to a near coin-flip that leans toward passage — the market consensus (~55%), the majority-Yes PPIC reading, the 5-to-1 closing-week spending edge, the governor's endorsement and the older midterm electorate together outweigh the negative trend and hostile editorial environment. The affirmative side is modestly more likely to prevail.
+
+yes

@@ -1,0 +1,107 @@
+{
+  "requests": 39,
+  "requests_per_host": {
+    "openrouter.ai": 25,
+    "voterguide.sos.ca.gov": 4,
+    "calmatters.org": 2,
+    "www.latimes.com": 2,
+    "vig.cdn.sos.ca.gov": 1,
+    "lao.ca.gov": 1,
+    "igs.berkeley.edu": 1,
+    "www.spur.org": 1,
+    "romolawgroup.com": 1,
+    "ballotpedia.org": 1
+  },
+  "hosts": [
+    "ballotpedia.org",
+    "calmatters.org",
+    "igs.berkeley.edu",
+    "lao.ca.gov",
+    "openrouter.ai",
+    "romolawgroup.com",
+    "vig.cdn.sos.ca.gov",
+    "voterguide.sos.ca.gov",
+    "www.latimes.com",
+    "www.spur.org"
+  ],
+  "status_counts": {
+    "200": 36,
+    "301": 1,
+    "404": 1
+  },
+  "bytes_up": 780081,
+  "bytes_down": 3132549,
+  "wire_bytes": {
+    "harness_to_proxy": 812992,
+    "proxy_to_harness": 3282047,
+    "proxy_to_internet": 809694,
+    "internet_to_proxy": 3333509
+  },
+  "byte_counter": true,
+  "errors": 2,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/",
+      "error": "stream reset by client (CANCEL)"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "stream reset by client (CANCEL)"
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3189,
+      "duration": 0.3088,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 2069,
+      "bytes_down": 1632,
+      "duration": 0.149,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3275,
+      "duration": 0.1615,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [
+    {
+      "process": "grok-1.0.70",
+      "operation": "network-outbound",
+      "target": null,
+      "attempts": 35
+    }
+  ],
+  "blocked_attempts": 35,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 20,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "allowed, not recorded"
+}

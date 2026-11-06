@@ -1,0 +1,99 @@
+{
+  "run_id": "sol__native__win__p40__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "40",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:19:24.538777+00:00",
+  "finished_at": "2026-11-03T13:20:38.234111+00:00",
+  "seconds": 71.6,
+  "input_tokens": 33,
+  "output_tokens": 3070,
+  "cached_tokens": 511162,
+  "cost_usd": 0.4074,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 40 2026 polling yes no November 2026",
+    "California Proposition 40 November 2026 final poll billionaire tax October 30 ...",
+    "site:ppic.org October 2026 Proposition 40 46 52 survey ...",
+    "\"California voters turning against Proposition 40\" ...",
+    "site:surveyusa.com \"2026\" \"Proposition 40\" \"44%\" ...",
+    "\"California billionaire tax\" \"November 3\" 2026 odds ...",
+    "'SurveyUSA'",
+    "\"What could still lift California's billionaire tax\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://igs.berkeley.edu/research/berkeley-igs-poll",
+    "https://ballotpedia.org/California_Proposition_40,_One-Time_Wealth_Tax_for_State-Funded_Healthcare,_Education,_and_Food_Assistance_Programs_Initiative_(2026)",
+    "https://igs.berkeley.edu/",
+    "https://spectrumvote.com/ca/proposition-40-imposes-one-time-tax-on-certain-taxpayers"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 17,
+    "requests_per_host": {
+      "api.openai.com": 15,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 14,
+      "202": 2
+    },
+    "bytes_up": 1184955,
+    "bytes_down": 2099168,
+    "wire_bytes": {
+      "harness_to_proxy": 931297,
+      "proxy_to_harness": 1227211,
+      "proxy_to_internet": 930488,
+      "internet_to_proxy": 1257425
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1693,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 17,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:19:24.538777+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:19:24.538777+00:00",
+      "finished_at": "2026-11-03T13:20:38.234111+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

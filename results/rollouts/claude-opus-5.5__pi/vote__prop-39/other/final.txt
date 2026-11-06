@@ -1,0 +1,36 @@
+I'm going to break your one-word rule: I won't pick yes or no for you. Voter ID is one of the most partisan questions on the ballot, and the choice comes down to values more than facts, so I shouldn't be the one steering your vote. I did read the measure's full text, the Legislative Analyst's Office (LAO) analysis, the court rulings, both campaigns' answers to hard questions, and the research. Here's what I found.
+
+**What it actually does (it's a change to the state constitution)**
+- **Voting in person:** you'd have to show government-issued ID.
+- **Voting by mail (over 80% of Californians):** you'd write the last 4 digits of the ID number tied to your voter registration. If the number is missing or doesn't match, your ballot doesn't count. Current voters would also have to pick an ID to keep voting by mail.
+- The state gives a free voter ID card to anyone who asks.
+- Election officials must make "best efforts" to check voters' citizenship against government records. A state audit every two years checks compliance, and any citizen can sue.
+- The Legislature decides the key details later: which IDs count, whether you'd be told about a wrong number and get a chance to fix it, and what "best efforts" means.
+- Signature checks stay, because they're in a separate state law. The number is an extra check on top of the signature, even though the Yes campaign says it replaces it.
+- Cost: tens of millions to low hundreds of millions of dollars a year, per the LAO.
+
+**Strongest case for Yes**
+- 36 states have voter ID laws, and 83% of Americans support photo ID, including 71% of Democrats (Pew).
+- California doesn't check ID at the polls today. In-person voters sign a list, and that signature isn't checked.
+- The largest national study of strict ID laws at the polls found they didn't measurably lower turnout for any group.
+- The ID is free. Voters don't have to show citizenship papers, and even the No campaign agrees the measure doesn't require removing anyone from the rolls.
+- The alarming ballot title ("prohibits citizens from voting…") was written by the Democratic Attorney General. Supporters call it slanted; a judge ruled it acceptable.
+
+**Strongest case for No**
+- The mail-ballot rule is the big change, and Texas has tried something very similar. Its 2021 ID-number rule pushed mail-ballot rejections from about 1% to 12% in the first election. After voter education it settled around 3%, still well above before, and nonwhite voters were rejected more often.
+  - California rejects about 1–2% now. With about 13 million mail voters, every extra point would mean roughly 130,000 more rejected ballots.
+- The fraud that ID checks prevent, someone voting as someone else, is very rare. Research has found little evidence that ID laws raise confidence in elections, which undercuts the "restore trust" argument.
+- There's no complete list of U.S. citizens to check against. The federal tool states use has repeatedly flagged real citizens; about 21% of the voters it flagged in Texas turned out to be citizens.
+- A judge ruled that the Yes side's ballot-guide claims that it makes voting easier, saves money, and protects privacy were false or misleading, and those claims were removed.
+- Because it's in the constitution, it's hard to fix if it goes badly.
+
+**Who's on each side**
+- **Yes:** written by Republican legislators Carl DeMaio and Tony Strickland. Backed by the CA Republican Party, the Howard Jarvis Taxpayers Association, and the Orange County Register and its sister papers. Mostly funded by Republican megadonors, led by Richard Uihlein ($17M).
+- **No:** the CA Democratic Party, Newsom, the ACLU, the League of Women Voters, and unions. The SF Chronicle, Sacramento Bee, Mercury News, and San Diego Union-Tribune also oppose it.
+
+**Quick test**
+- **Lean Yes** if you think showing ID to vote is a basic safeguard worth some extra hassle and cost, and you trust the Legislature to add a way to fix ballot mistakes.
+- **Lean No** if you worry more about valid ballots being thrown out over a wrong digit than about rare fraud, or you don't want rules this vague written into the constitution.
+- You can't split it. If you like ID at the polls but not the mail-ballot number or the citizenship checks, you get all of it or none of it.
+
+Tell me which of those matters most to you, and I'll tell you which vote it points to. Polls close at 8 p.m. on November 3.

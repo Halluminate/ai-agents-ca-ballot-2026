@@ -1,0 +1,103 @@
+{
+  "run_id": "flash__native__win__p42__r1",
+  "model": "flash",
+  "model_id": "gemini-3.8-flash",
+  "pin": "google-ai-studio",
+  "arm": "native",
+  "harness": "gemini_cli",
+  "effort": "high",
+  "prompt": "win",
+  "prop": "42",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:27:51.817650+00:00",
+  "finished_at": "2026-11-03T13:30:07.600461+00:00",
+  "seconds": 133.7,
+  "input_tokens": 63903,
+  "output_tokens": 19141,
+  "cached_tokens": 98811,
+  "cost_usd": 0.2204,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 42 voterguide.sos.ca.gov",
+    "\"Proposition 42\" California 2026 poll OR polling OR \"more likely to win\"",
+    "\"Proposition 42\" California 2014 voter guide",
+    "\"Proposition 42\" California results",
+    "\"Proposition 42\" 2026 California forecast OR prediction OR odds OR \"likely to\"",
+    "\"Proposition 42\" site:onpointpolitics.us",
+    "\"Proposition 42\" \"51%\" OR \"66%\" 2026 California",
+    "\"Proposition 42\" \"November 3, 2026\" \"likely to win\" OR \"projected to win\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/42/"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.",
+    "capture: 1 connection attempts that ignored the proxy were blocked (node network-outbound x1)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 16,
+    "requests_per_host": {
+      "generativelanguage.googleapis.com": 16
+    },
+    "hosts": [
+      "generativelanguage.googleapis.com"
+    ],
+    "status_counts": {
+      "200": 16
+    },
+    "bytes_up": 645790,
+    "bytes_down": 87212,
+    "wire_bytes": {
+      "harness_to_proxy": 672976,
+      "proxy_to_harness": 114794,
+      "proxy_to_internet": 668722,
+      "internet_to_proxy": 149409
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "node",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 1,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 13,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:27:51.817650+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:27:51.817650+00:00",
+      "finished_at": "2026-11-03T13:30:07.600461+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

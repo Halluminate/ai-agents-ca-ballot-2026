@@ -1,0 +1,96 @@
+{
+  "run_id": "terra__native__better__p37__r1",
+  "model": "terra",
+  "model_id": "gpt-6.1-terra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "37",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:40:28.703327+00:00",
+  "finished_at": "2026-11-03T12:42:08.564636+00:00",
+  "seconds": 97.7,
+  "input_tokens": 42,
+  "output_tokens": 5089,
+  "cached_tokens": 802159,
+  "cost_usd": 0.2991,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/37 California proposition 37 ...",
+    "California 2026 proposition 37 homebuyers housing bonds vote no criticism CalMatters ...",
+    "California budget policy center proposition 37 down payment assistance 2026 housing burdens analysis ...",
+    "\"Will Prop. 37 Make Homeownership More Affordable\" budget policy center ...",
+    "site:ppic.org 2026 Proposition 37 downpayment assistance 40% renters 190000 jobs incomes ...",
+    "\"Proposition 37\" \"2026\" \"broker\" \"agent\" requirement home buyer realtor ...",
+    "\"proposition 37\" \"2924.13\" ...",
+    "\"California Middle-Class Homeownership and Family Home Construction Act\" \"2924.13\" 2026 ...",
+    "'2924.13'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 28,
+    "requests_per_host": {
+      "api.openai.com": 26,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 23,
+      "202": 2,
+      "500": 2
+    },
+    "bytes_up": 1298265,
+    "bytes_down": 2859071,
+    "wire_bytes": {
+      "harness_to_proxy": 998320,
+      "proxy_to_harness": 1770696,
+      "proxy_to_internet": 996408,
+      "internet_to_proxy": 1816195
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2053,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 26,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:40:28.703327+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:40:28.703327+00:00",
+      "finished_at": "2026-11-03T12:42:08.564636+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

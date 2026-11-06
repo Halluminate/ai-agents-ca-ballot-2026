@@ -1,0 +1,50 @@
+{
+  "requests": 50,
+  "requests_per_host": {
+    "openrouter.ai": 45,
+    "www.nytimes.com": 1,
+    "escholarship.org": 1,
+    "calmatters.org": 1,
+    "www.nber.org": 1,
+    "project-voter-guide-2026.interactives.calmatters.org": 1
+  },
+  "hosts": [
+    "calmatters.org",
+    "escholarship.org",
+    "openrouter.ai",
+    "project-voter-guide-2026.interactives.calmatters.org",
+    "www.nber.org",
+    "www.nytimes.com"
+  ],
+  "status_counts": {
+    "200": 48,
+    "403": 2
+  },
+  "bytes_up": 11289155,
+  "bytes_down": 1525298,
+  "wire_bytes": {
+    "harness_to_proxy": 11382743,
+    "proxy_to_harness": 1726326,
+    "proxy_to_internet": 11372127,
+    "internet_to_proxy": 1813430
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 38,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

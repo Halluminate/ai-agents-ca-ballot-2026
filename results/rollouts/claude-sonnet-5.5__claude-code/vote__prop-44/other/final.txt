@@ -1,0 +1,28 @@
+**No.**
+
+Here is the basis, if you want it. I read the Legislative Analyst's analysis, both campaigns' materials, a law-firm breakdown of the measure's mechanics, and independent coverage.
+
+- **The rule is blunt, and its effect depends on a definition not yet written.** The Legislative Analyst says clinics now spend about 80% of revenue on health care services, so a typical clinic would be roughly 10 points short. A clinic that falls short pays the state a penalty equal to the shortfall. It gets the money back only if it reaches 90% within five years. The test divides Form 990 program spending by total revenue, so surpluses, reserves and one-time capital grants can count against a clinic. The Attorney General decides what counts as qualifying spending after the vote.
+- **Some clinics could close, and the timing is bad.** The Legislative Analyst notes that clinics unable to comply might close. State enforcement would cost low tens of millions of dollars a year, paid for by fees on clinics, just as federal Medicaid cuts under H.R. 1 arrive. The opponents' figure of $1.7 billion in first-year penalties comes from a study commissioned by the clinic association, so I discounted it. My concern doesn't depend on that number.
+- **The sponsor has a track record.** SEIU-UHW funds the Yes side almost entirely. Voters rejected its three dialysis measures. A federal suit filed in September alleges it offered to drop this measure in exchange for more union membership at clinics, or for an end to the clinic association's opposition to its billionaire-tax measure. The union calls the claims "categorically false."
+- **Opposition is unusually broad.** Both the Democratic and Republican parties oppose it, along with pediatrician, family-physician, school-nurse and Planned Parenthood groups, the League of Women Voters, and editorial boards from the SF Chronicle to the OC Register. Even sources that accept the goal, such as the Hoover Institution and the Oakland Review of Books, call it the wrong tool.
+
+**The best case for Yes:** Some taxpayer-funded clinics pay executives around $2 million, and some run large surpluses. AltaMed's CEO made about $1.95 million in 2024 per its Form 990. The measure would also force public reporting of each clinic's spending ratio. If you weigh that accountability above the design risks, Yes is a defensible vote.
+
+**Limit:** I couldn't get the measure's full-text PDF to open. Details beyond the Legislative Analyst's summary come from secondary analyses.
+
+Sources:
+- [CA Secretary of State, Prop 44 voter guide](https://voterguide.sos.ca.gov/propositions/44/)
+- [Legislative Analyst's analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=44&year=2026)
+- [CalMatters voter guide](https://calmatters.org/california-voter-guide-2026/proposition-44-clinic-funding/)
+- [CalMatters explainer, via Lost Coast Outpost](https://lostcoastoutpost.com/2026/oct/7/the-same-union-supporting-a-billionaire-tax-wants/)
+- [KQED](https://www.kqed.org/news/12102004/prop-44-requires-health-clinics-to-spend-more-on-patient-care)
+- [SF Examiner](https://www.sfexaminer.com/news/public-health/prop-44-divides-community-clinics-and-health-care-union/article_914eeaf8-9803-42ee-ad04-4c039a05cda3.html)
+- [California Today guide](https://californiatoday.com/guides/elections/california-proposition-44-2026/)
+- [Nixon Peabody analysis](https://www.nixonpeabody.com/insights/alerts/2026/10/29/californias-proposition-44-potential-big-impacts-for-community-health-centers)
+- [Hoover Institution Proposition Lab](https://www.hoover.org/proposition-lab-proposition-44)
+- [Oakland Review of Books](https://www.oaklandreviewofbooks.org/voting-guide-2026/proposition-44-no/)
+- [McClatchy editorial boards, via Yahoo](https://www.yahoo.com/news/politics/articles/prop-44-high-stakes-test-210000627.html)
+- [League of Women Voters of California](https://lwvc.org/ballot-recommendations/)
+- [Yes on 44](https://yesonprop44.com/)
+- [No on 44 newsroom](https://noprop44.com/news/)

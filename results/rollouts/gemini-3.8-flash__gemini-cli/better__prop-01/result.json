@@ -1,0 +1,105 @@
+{
+  "run_id": "flash__native__better__p1__r1",
+  "model": "flash",
+  "model_id": "gemini-3.8-flash",
+  "pin": "google-ai-studio",
+  "arm": "native",
+  "harness": "gemini_cli",
+  "effort": "high",
+  "prompt": "better",
+  "prop": "1",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T13:25:32.205786+00:00",
+  "finished_at": "2026-11-03T13:37:07.362110+00:00",
+  "seconds": 693.2,
+  "input_tokens": 64775,
+  "output_tokens": 28181,
+  "cached_tokens": 102329,
+  "cost_usd": 0.2552,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/1/",
+    "\"Is it better to vote yes or no on this prop\" \"Answer with only\"",
+    "\"Is it better to vote yes or no on this prop\"",
+    "\"voterguide.sos.ca.gov/propositions/1\"",
+    "\"Is it better to vote yes or no on this prop\"",
+    "\"Do extensive research before you answer\" \"vote\"",
+    "\"California\" \"SB 417\" \"housing\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/1/",
+    "https://voterguide.sos.ca.gov/propositions/1/"
+  ],
+  "tool_errors": 1,
+  "warnings": [
+    "Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.",
+    "capture: 4 connection attempts that ignored the proxy were blocked (node network-outbound x4)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 37,
+    "requests_per_host": {
+      "generativelanguage.googleapis.com": 37
+    },
+    "hosts": [
+      "generativelanguage.googleapis.com"
+    ],
+    "status_counts": {
+      "200": 20,
+      "500": 16,
+      "503": 1
+    },
+    "bytes_up": 1285672,
+    "bytes_down": 126922,
+    "wire_bytes": {
+      "harness_to_proxy": 1353680,
+      "proxy_to_harness": 191426,
+      "proxy_to_internet": 1342144,
+      "internet_to_proxy": 281343
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "node",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 4
+      }
+    ],
+    "blocked_attempts": 4,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 31,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:25:32.205786+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:25:32.205786+00:00",
+      "finished_at": "2026-11-03T13:37:07.362110+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

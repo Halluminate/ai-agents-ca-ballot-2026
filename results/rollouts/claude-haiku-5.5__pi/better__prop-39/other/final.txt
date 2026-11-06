@@ -1,0 +1,26 @@
+I know you asked for a one-word answer, but I won't pick a side on this one. Prop. 39 is a contested partisan measure. Whether it's worth voting yes depends on how you weigh election confidence and ID checks against new barriers and privacy risks for eligible voters. I can give you the facts that bear on that.
+
+**What it does**
+- **In person:** a government-issued ID every time you vote.
+- **By mail:** write the last four digits of your designated ID number on the envelope. If it doesn't match your registration, the ballot isn't counted. The measure doesn't say whether signature checks continue or how a mismatch can be cured. The Legislature would have to fill that in.
+- **Citizenship:** officials must use "best efforts" (undefined) to check citizenship against government data and report the results each year.
+- **Cost:** the Legislative Analyst estimates tens of millions to low hundreds of millions of dollars a year.
+
+**Polls**
+Most late-October polls show it failing. PPIC had 41% yes and 58% no, and Berkeley IGS had 37% and 57%. SurveyUSA (49% yes, 42% no) is the main exception. PPIC found 82% of Republicans in favor and 84% of Democrats opposed, with independents split. The official "yes" argument says Democrats and independents back it by solid majorities, which PPIC didn't find.
+
+**How the main claims hold up**
+- **Fraud:** Supporters now mostly argue for trust rather than widespread fraud. Experts and the Secretary of State say voter fraud is rare.
+- **Turnout:** The largest study of strict ID laws (Cantoni & Pons, 2021) found no significant effect on turnout overall, which cuts against suppression claims. A North Carolina study found drops of up to about 2.6 points among voters who lacked ID. The campaign's claim that voter ID increases turnout isn't supported by this research.
+- **Trust:** Several studies find little difference in confidence between states with strict and minimal ID laws. Partisanship matters more.
+- **Mail-ballot rejections:** Texas's 2022 ID-number rule for mail ballots pushed rejections from about 1% to 12.4% in its first primary, mostly from missing or mismatched numbers. That's the closest precedent. California's mail rejection rate is about 1–2%, mostly from signature problems and late arrivals.
+- **Campaign numbers:** The Yes side says more than 100,000 ballots were rejected for signature mismatches. In November 2024, 122,480 were rejected for all reasons, and about 71,000 of those were signature problems. The No side's "12 times" Texas comparison is roughly right as a rate but compares different elections.
+- **Privacy and savings:** A Superior Court judge found the campaign's claims that the measure makes voting easier, saves money, and protects privacy to be false or misleading. The judge said the envelope numbers make IDs "less private, and less secure."
+
+**Where it turns**
+- **Yes** makes sense if you think checking identity and citizenship on every ballot is worth a small rise in rejection risk and a privacy cost. Supporters note it requires no documentary citizenship proof and offers free IDs.
+- **No** makes sense if you think new failure points for mail ballots, undefined terms, and the costs outweigh the benefits. UCLA's Matt Barreto says the mail-ballot number requirement may be more vulnerable to legal challenge than other voter ID laws.
+
+**Who's behind it:** The state Republican Party backs it, and the state Democratic Party, the ACLU, Common Cause, and the League of Women Voters oppose it. The Yes side has raised about $37 million, including $17 million from Richard Uihlein. The No side has raised about $35 million, including about $6.5 million from the state Democratic Party.
+
+I couldn't find any election results, so this is based on pre-election reporting. If you tell me which factor matters most to you, I can dig deeper into the evidence on it.

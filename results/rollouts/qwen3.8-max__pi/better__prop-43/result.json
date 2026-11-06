@@ -1,0 +1,132 @@
+{
+  "run_id": "qwen-max__common__better__p43__r1",
+  "model": "qwen-max",
+  "model_id": "qwen/qwen3.8-max-0902",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:56:55.543257+00:00",
+  "finished_at": "2026-11-03T11:06:42.850311+00:00",
+  "seconds": 582.8,
+  "input_tokens": 137355,
+  "output_tokens": 19529,
+  "cached_tokens": 519168,
+  "cost_usd": 0.5877,
+  "cost_source": "reported",
+  "billed_usd": 0.58765143368,
+  "searches": [
+    "California Proposition 43 voterguide.sos.ca.gov",
+    "California Proposition 43 2026 poll two-thirds local special taxes",
+    "\"Prop 43\" 2026 California editorial endorsement two-thirds local tax",
+    "ACA 22 Wicks 2026 local special taxes two-thirds voter initiative resolution chapter 132",
+    "Howard Jarvis \"Local Taxpayer Protection Act to Save Proposition 13\" 2026 initiative withdrawn compromise ACA 22 what it would have done",
+    "Prop 43 2026 campaign contributions who funds yes campaign top donors",
+    "\"Proposition 43\" California November 2026 election results",
+    "Bay Area transit measure November 2026 ballot citizen initiative majority vote Prop 43 two-thirds",
+    "CalMatters \"over two dozen\" citizen initiative special taxes simple majority since 2017 Upland revenue",
+    "how many California local special tax measures pass with two-thirds how often fail between 50% and 66.7% data",
+    "LA County Measure A 2024 homeless sales tax citizen initiative simple majority passed 57%",
+    "supermajority requirement tax increases local government revenue distortion fees assessments research Prop 13 two-thirds effects",
+    "Los Angeles Times editorial Proposition 43 2026 endorsement vote"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=43&year=2026",
+    "https://voterguide.sos.ca.gov/propositions/43/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/43/title-summary.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43-text-proposed-laws.pdf",
+    "https://www.hoover.org/proposition-lab-proposition-43",
+    "https://www.cmc.edu/sites/default/files/Proposition%2043%20Backgrounder%20100526.pdf",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-43-local-special-tax",
+    "https://ballotpedia.org/California_Proposition_43,_Two-Thirds_Vote_Requirement_for_Local_Special_Tax_Initiatives_Amendment_(November_2026",
+    "https://www.kqed.org/news/12103136/why-opponents-of-prop-43-say-it-would-cripple-local-funding",
+    "https://www.kqed.org/news/12095893/prop-43-would-make-it-harder-to-raise-local-taxes-can-it-pass",
+    "https://calmatters.org/california-voter-guide-2026/proposition-43-tax-threshold/",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-43-local-tax-threshold",
+    "https://calmatters.org/commentary/2026/08/california-constitution-proposition-43-taxes/",
+    "https://calmatters.org/commentary/2026/08/proposition-43-taxes-minority-rule/",
+    "https://www.sacbee.com/opinion/election-endorsements/article316956235.html",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_43",
+    "https://calmatters.org/politics/2026/10/california-prop-43-election-2026/",
+    "https://taxpolicycenter.org/taxvox/californias-proposition-43-adds-new-chapter-states-history-local-tax-limits",
+    "https://calbudgetcenter.org/resources/should-california-voters-approve-proposition-43/",
+    "https://www.mercurynews.com/2026-10-17/endorsement-back-prop-43-restore-voter-approved-restrictions-on-local-taxes-proposition-13/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 27,
+    "requests_per_host": {
+      "openrouter.ai": 24,
+      "ballotpedia.org": 1,
+      "www.sacbee.com": 1,
+      "taxpolicycenter.org": 1
+    },
+    "hosts": [
+      "ballotpedia.org",
+      "openrouter.ai",
+      "taxpolicycenter.org",
+      "www.sacbee.com"
+    ],
+    "status_counts": {
+      "200": 26,
+      "202": 1
+    },
+    "bytes_up": 2616453,
+    "bytes_down": 2444656,
+    "wire_bytes": {
+      "harness_to_proxy": 2672855,
+      "proxy_to_harness": 2655101,
+      "proxy_to_internet": 2665042,
+      "internet_to_proxy": 2716116
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 26,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:56:55.543257+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:56:55.543257+00:00",
+      "finished_at": "2026-11-03T11:06:42.850311+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

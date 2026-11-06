@@ -1,0 +1,47 @@
+Whether to vote **Yes** or **No** on Proposition 39 is a personal decision for each voter, and an AI cannot tell you how to vote. Proposition 39 involves competing values, priorities, and perspectives on election administration and access. 
+
+Below is an overview of what each vote means, along with the primary arguments for and against the measure, to help you make an informed choice.
+
+---
+
+### What the Measure Does
+
+Proposition 39 is an initiative constitutional amendment that would:
+- **In-Person Voting:** Require voters to present a government-issued photo identification at polling places. The state would be required to provide free voter ID cards upon request to eligible voters who do not have qualifying ID.
+- **Vote-by-Mail:** Require voters casting mail-in ballots to write the last four digits of a designated government-issued identification number on the return envelope. Ballots without a matching ID number would not be counted.
+- **Citizenship Verification:** Direct state and county election officials to use government databases to verify the citizenship status of registered voters and report those verification rates annually.
+- **Fiscal Impact:** According to the nonpartisan Legislative Analyst’s Office (LAO), the measure would result in ongoing state and local government costs ranging from tens of millions to low hundreds of millions of dollars annually.
+
+---
+
+### What Your Vote Means
+
+* **A YES vote means:** California would establish new voter identification requirements, requiring voters to present government-issued ID to vote in person and to provide an identification number on mail-in ballot envelopes. The state would verify citizenship data and provide free IDs upon request.
+* **A NO vote means:** California's current voting procedures would remain unchanged. In-person and mail-in ballot verification would continue to rely primarily on signature matching against voter registration records, without requiring government-issued photo ID at the polls.
+
+---
+
+### Arguments in Favor (Vote YES)
+
+Supporters, including groups such as Californians for Voter ID and various taxpayer associations, argue:
+
+1. **Promoting Public Confidence:** Proponents believe requiring identification strengthens trust and integrity in election outcomes, reassuring voters that every ballot is cast by an eligible citizen.
+2. **Standardization with Other States:** A majority of U.S. states have some form of voter ID law. Supporters argue California's reliance solely on signature verification is outdated, especially given widespread universal mail-in voting.
+3. **Addressing Access Concerns:** The initiative explicitly requires the state to provide free government-issued IDs to any eligible voter who requests one, which supporters contend removes financial barriers to voting.
+4. **Enhanced Objective Verification:** Supporters maintain that verifying matching identification numbers on mail ballots is more objective, reliable, and consistent than subjective signature-matching by election workers.
+
+---
+
+### Arguments Against (Vote NO)
+
+Opponents, including civil rights organizations, voting rights groups (such as the ACLU California Action and the League of Women Voters of California), and state officials, argue:
+
+1. **Risk of Disenfranchisement:** Opponents contend that photo ID requirements create unnecessary hurdles that disproportionately burden low-income individuals, seniors, students, and voters with disabilities who may lack standard identification or the necessary supporting documentation to obtain one.
+2. **Extremely Low Rate of In-Person Voter Fraud:** Critics point out that numerous independent studies and election audits show voter impersonation fraud is vanishingly rare, meaning the law addresses a problem that does not meaningfully exist.
+3. **High Cost to Taxpayers:** The measure would require tens to hundreds of millions of taxpayer dollars annually to administer ID verification and issue state cards, funds opponents argue would be better spent elsewhere.
+4. **Risk to Mail Ballots and Privacy:** Opponents warn that otherwise eligible mail ballots could be disqualified over clerical mistakes or omitted numbers, and that requiring personal ID numbers on ballot envelopes introduces privacy and security risks.
+
+---
+
+### Where to Learn More
+To read the full text of the measure, the independent fiscal analysis, and candidate/campaign endorsements, you can visit the [California Secretary of State Official Voter Information Guide](https://voterguide.sos.ca.gov/propositions/39/) and the [California Legislative Analyst's Office Analysis](https://lao.ca.gov/).

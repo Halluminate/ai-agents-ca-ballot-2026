@@ -1,0 +1,54 @@
+{
+  "requests": 31,
+  "requests_per_host": {
+    "openrouter.ai": 26,
+    "www.sandiegouniontribune.com": 2,
+    "www.mercurynews.com": 2,
+    "cavotes.org": 1
+  },
+  "hosts": [
+    "cavotes.org",
+    "openrouter.ai",
+    "www.mercurynews.com",
+    "www.sandiegouniontribune.com"
+  ],
+  "status_counts": {
+    "200": 28,
+    "301": 2,
+    "404": 1
+  },
+  "bytes_up": 3328658,
+  "bytes_down": 1359162,
+  "wire_bytes": {
+    "harness_to_proxy": 3393256,
+    "proxy_to_harness": 1501543,
+    "proxy_to_internet": 3383578,
+    "internet_to_proxy": 1572946
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 29,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

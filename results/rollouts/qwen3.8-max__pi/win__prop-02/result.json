@@ -1,0 +1,91 @@
+{
+  "run_id": "qwen-max__common__win__p2__r1",
+  "model": "qwen-max",
+  "model_id": "qwen/qwen3.8-max-0902",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "2",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:06:42.884849+00:00",
+  "finished_at": "2026-11-03T11:07:48.484281+00:00",
+  "seconds": 62.8,
+  "input_tokens": 27304,
+  "output_tokens": 1431,
+  "cached_tokens": 36864,
+  "cost_usd": 0.1079,
+  "cost_source": "reported",
+  "billed_usd": 0.107920078,
+  "searches": [
+    "California Proposition 2 2024 polls school facilities bond",
+    "\"2026\" California ballot propositions list ACA rainy day fund",
+    "California Proposition 2 November 2026 rainy day fund legislative constitutional amendment",
+    "California Proposition 2 2026 poll support rainy day fund October 2026",
+    "PPIC statewide survey October 2026 propositions likely voters \"Proposition 2\"",
+    "Prop 2 2026 California endorsements yes on 2 rainy day fund opposition campaign",
+    "Polymarket Kalshi California Proposition 2 2026 rainy day fund odds pass"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 12,
+    "requests_per_host": {
+      "openrouter.ai": 12
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 12
+    },
+    "bytes_up": 256491,
+    "bytes_down": 215088,
+    "wire_bytes": {
+      "harness_to_proxy": 282338,
+      "proxy_to_harness": 255131,
+      "proxy_to_internet": 278387,
+      "internet_to_proxy": 284631
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 13,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:06:42.884849+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:06:42.884849+00:00",
+      "finished_at": "2026-11-03T11:07:48.484281+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

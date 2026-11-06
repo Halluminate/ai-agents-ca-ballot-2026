@@ -1,0 +1,141 @@
+{
+  "run_id": "grok__native__win__p5__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "native",
+  "harness": "grok_build",
+  "effort": "xhigh",
+  "prompt": "win",
+  "prop": "5",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:54:07.252993+00:00",
+  "finished_at": "2026-11-03T13:01:34.109984+00:00",
+  "seconds": 444.4,
+  "input_tokens": 81952,
+  "output_tokens": 9179,
+  "cached_tokens": 136192,
+  "cost_usd": 0.2871,
+  "cost_source": "estimated",
+  "billed_usd": 2.960612,
+  "searches": [
+    "California Proposition 5 2026 election polls likely to pass",
+    "California Proposition 5 2026 PPIC poll yes no recall",
+    "California Proposition 5 November 2026 election forecast odds polling average",
+    "\"Proposition 5\" California 2026 poll OR survey OR \"yes\" OR \"no\" site:ppic.org OR site:igs.berkeley.edu OR site:latimes.com",
+    "California Proposition 5 2026 election results early returns November 3",
+    "Kalshi Polymarket California Proposition 5 pass odds November 2026",
+    "California Proposition 5 2026 \"no\" lead OR trailing OR \"likely to fail\" OR \"more likely\"",
+    "Berkeley IGS California propositions poll October 2026 Proposition 5 recall",
+    "California ballot measures historical pass rate when polling below 50% two weeks before election",
+    "electionresults.sos.ca.gov Proposition 5 2026 returns",
+    "Los Angeles Times San Francisco Chronicle endorsement Proposition 5 2026 recall",
+    "California Proposition 5 2026 campaign spending Cal-Access \"Yes on 5\" OR \"No on 5\"",
+    "\"Proposition 5\" California (poll OR survey) (2026) (yes) (recall) -PPIC",
+    "site:electionresults.sos.ca.gov Proposition 5 2026",
+    "California Proposition 5 2026 \"yes\" OR \"no\" early vote mail ballot returns"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 0,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/5/",
+    "https://ballotpedia.org/California_Proposition_5,_Eliminate_State_Officer_Recall_Successor_Elections_Amendment_(2026",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://onpointpolitics.us/forecast/measures/ca/proposition-5",
+    "https://voterguide.sos.ca.gov/propositions/5/arguments-rebuttals.htm",
+    "https://electionresults.sos.ca.gov/",
+    "https://www.sfchronicle.com/projects/2026/california-sf-election-endorsements/"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 12 connection attempts that ignored the proxy were blocked (grok-1.0.70 network-outbound x12)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 34,
+    "requests_per_host": {
+      "openrouter.ai": 27,
+      "voterguide.sos.ca.gov": 2,
+      "ballotpedia.org": 1,
+      "www.ppic.org": 1,
+      "onpointpolitics.us": 1,
+      "electionresults.sos.ca.gov": 1,
+      "www.sfchronicle.com": 1
+    },
+    "hosts": [
+      "ballotpedia.org",
+      "electionresults.sos.ca.gov",
+      "onpointpolitics.us",
+      "openrouter.ai",
+      "voterguide.sos.ca.gov",
+      "www.ppic.org",
+      "www.sfchronicle.com"
+    ],
+    "status_counts": {
+      "200": 32,
+      "404": 1
+    },
+    "bytes_up": 922863,
+    "bytes_down": 3032302,
+    "wire_bytes": {
+      "harness_to_proxy": 942998,
+      "proxy_to_harness": 3145936,
+      "proxy_to_internet": 940613,
+      "internet_to_proxy": 3174037
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 12
+      }
+    ],
+    "blocked_attempts": 12,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 13,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:54:07.252993+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:54:07.252993+00:00",
+      "finished_at": "2026-11-03T13:01:34.109984+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

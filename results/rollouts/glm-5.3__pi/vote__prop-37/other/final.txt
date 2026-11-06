@@ -1,0 +1,31 @@
+# My recommendation: **YES**
+
+After reviewing the official voter guide, the Legislative Analyst's analysis, independent research from PPIC and the Hoover Institution, campaign finance data, polling, and editorial positions across the spectrum, here's how I'd think about it.
+
+## What Prop 37 does
+
+It would let CalHFA (the state's existing housing finance agency) sell up to **$25 billion in revenue bonds** to fund "middle-class homeownership loans" — fixed-rate second mortgages covering up to 17% of the price of a **newly built home**, so buyers put as little as 3% down (reaching the 20% that avoids mortgage insurance). Eligible buyers: CA residents earning up to 200% of area median income (~$116K–$410K depending on county), buying homes capped at roughly $1M–$1.5M. It also creates a voluntary "qualified builder" program trading higher labor standards for streamlined construction-defect litigation rules.
+
+## Why I land on Yes
+
+1. **The fiscal risk to you as a taxpayer is genuinely low.** These are revenue bonds, not general obligation bonds — legally not a debt or pledge of state credit. Repayment comes only from homebuyers' loan payments. The nonpartisan LAO confirms "no direct state or local costs." If investors don't buy the bonds or buyers don't want the loans, the program simply stays small. Even the left-leaning California Budget & Policy Center director, a skeptic, conceded: "if it doesn't work, the state's not really on the hook."
+
+2. **It's designed better than typical down-payment assistance.** The standard critique of down-payment help (it just adds bidders to a fixed housing supply and inflates prices) is directly addressed by the new-construction-only requirement — demand subsidy is paired with new supply. PPIC found it could help close up to ~40% of California's homeownership gap with the rest of the country. Housing-supply advocates (SPUR, YIMBY Action) support it for this reason.
+
+3. **It attacks a real, documented barrier.** California has the lowest or second-lowest homeownership rate in the nation, and the down payment — $180,000+ on a median home — is the wall. The state's existing Dream For All program was oversubscribed in under two weeks. This targets the "missing middle" who earn too much for existing programs but can't save the down payment.
+
+4. **Consumer protections are built in:** fixed rates, no prepayment penalties, fee caps, hardship deferrals, annual audits, owner-occupancy required.
+
+5. **Bipartisan breadth, no organized opposition.** Newsom, Treasurer Fiona Ma, Controller Malia Cohen, Becerra, unions, chambers of commerce, teachers, nurses, Realtors — and no opposition committee or ballot argument was even filed. PPIC's final poll showed 65% yes / 32% no.
+
+## The honest case against (worth knowing)
+
+- **Terms are unknown until after the vote** — second mortgages are riskier for investors, so rates could exceed the ~7% conventional rate, adding ~$900+/month in payments. PPIC found only ~40% of eligible renters could afford that.
+- **Loose targeting:** up to 200% of AMI (~$300K+ in some counties), no first-time/first-generation priority — the League of Women Voters opposes on these equity grounds.
+- **Critics (Sac Bee, OC Register, SD Union-Tribune, Bay Area News Group, Howard Jarvis)** call it a risky experiment that helps Californians "borrow their way" deeper into debt, potentially bids up new-home prices, encourages sprawl, and weakens homeowner construction-defect remedies in favor of builders.
+
+## Bottom line
+
+The objections are mostly about whether it will be *effective enough*, not whether it's *harmful*. The downside is capped (opt-in loans, no taxpayer liability, bonds issued only as demand materializes), while the upside — tens of thousands of new homes and first-time middle-class buyers — is meaningful. As the SF Chronicle put it: given how dire the crisis is, "any positive impact is better than none at all."
+
+**Vote yes.**

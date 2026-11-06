@@ -1,0 +1,311 @@
+{
+  "run_id": "sonnet__native__better__p4__r1",
+  "model": "sonnet",
+  "model_id": "anthropic/claude-sonnet-5.5",
+  "pin": "anthropic",
+  "arm": "native",
+  "harness": "claude_code",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "4",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T12:05:07.878017+00:00",
+  "finished_at": "2026-11-03T12:20:43.088565+00:00",
+  "seconds": 932.7,
+  "input_tokens": 100744,
+  "output_tokens": 32592,
+  "cached_tokens": 459436,
+  "cost_usd": 1.8848,
+  "cost_source": "reported",
+  "billed_usd": 1.8788624999999999,
+  "searches": [
+    "California Proposition 4 2026 public financing of campaigns repeal ban Prop 73 ACA",
+    "Prop 4 California November 2026 public campaign financing CalMatters voter guide",
+    "SB 42 Umberg California Fair Elections Act text public financing \"85300\" Political Reform Act foreign contributions penalties",
+    "editorial endorsement Proposition 4 public financing campaigns California 2026 \"Prop. 4\" editorial board recommends",
+    "PPIC statewide survey October 2026 Proposition 4 public financing likely voters support oppose",
+    "Sacramento Bee editorial endorsement Yes on Proposition 4 public campaign financing 2026",
+    "Prop 4 California public financing Dan Schnur opposes \"poorly written\" no cap candidates eligibility fraud concerns",
+    "San Francisco Ethics Commission study public financing program effectiveness 2023 report candidates third-party spending",
+    "research evidence public financing of campaigns effects competition polarization small donors Arizona Maine Seattle democracy vouchers New York matching funds study",
+    "Howard Jarvis Taxpayers Association v. Newsom 2019 SB 1107 public financing court of appeal Prop 73 voter approval required",
+    "Los Angeles public matching funds program Bass Raman $1.2 million 2026 mayoral campaign public financing cost critics",
+    "public campaign financing fraud abuse fake candidates matching funds scandal Los Angeles Oakland Democracy Dollars Seattle program misuse",
+    "sacbee.com editorial Prop 4 public financing campaigns \"Yes on Prop 4\" Sacramento Bee editorial board",
+    "Los Angeles Times editorial board Proposition 4 2026 public financing campaigns endorsement",
+    "Mercury News East Bay Times editorial Prop 4 public financing campaigns \"no\" reasons October 2026",
+    "SB 42 Umberg public campaign financing Assembly vote 2025 party line Republicans oppose \"Fair Elections Act\" Newsom signed ballot",
+    "San Diego Union-Tribune editorial Prop 4 taxpayer-funded campaigns no 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 16,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://voterguide.sos.ca.gov/propositions/4/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/4/text-of-proposed-laws.htm",
+    "https://voterguide.sos.ca.gov/propositions/4/text-of-proposed-law.htm",
+    "https://calmatters.org/politics/2026/10/california-proposition-4-explainer/",
+    "https://lao.ca.gov/ballot/2026/prop4-110326.pdf",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-4-repeals",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=4&year=2026",
+    "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB42",
+    "https://legiscan.com/CA/text/SB42/id/3271776",
+    "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-4/legal-text/",
+    "https://ballotpedia.org/California_Allow_Public_Financing_of_Election_Campaigns_Measure_(2026",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-text-proposed-laws.pdf",
+    "https://www.kqed.org/news/12101308/prop-4-allows-cities-to-create-public-campaign-financing-programs",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-4",
+    "https://www.kpbs.org/news/politics/2026/09/23/proposition-4-allow-public-financing-of-political-campaigns",
+    "https://calmatters.org/california-voter-guide-2026/proposition-4-public-fundraising/",
+    "https://www.sfchronicle.com/opinion/editorials/article/endorsement-prop-4-public-financing-22426379.php",
+    "https://www.pressdemocrat.com/2026/09/18/pd-endorsement-no-on-prop-4-taxpayer-dollars-should-not-support-campaigns/",
+    "https://www.caltax.org/prop4",
+    "https://cafairelections.org",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-4-campaign-financing",
+    "https://www.yesfairelections.org/",
+    "https://www.hoover.org/proposition-lab-proposition-4",
+    "https://aelc.assembly.ca.gov/system/files/2025-06/sb-42-umberg-17513108230298490.pdf",
+    "https://aelc.assembly.ca.gov/system/files/2025-06/sb-42-umberg-17513108230298490.pdf"
+  ],
+  "tool_errors": 2,
+  "warnings": [
+    "capture: 8 connections were not readable by the proxy (api.anthropic.com:443)"
+  ],
+  "network": {
+    "requests": 136,
+    "requests_per_host": {
+      "openrouter.ai": 55,
+      "api.anthropic.com": 54,
+      "voterguide.sos.ca.gov": 5,
+      "calmatters.org": 2,
+      "lao.ca.gov": 1,
+      "igs.berkeley.edu": 1,
+      "leginfo.legislature.ca.gov": 1,
+      "legiscan.com": 1,
+      "growsf.org": 1,
+      "ballotpedia.org": 1,
+      "vig.cdn.sos.ca.gov": 1,
+      "www.kqed.org": 1,
+      "laist.com": 1,
+      "www.kpbs.org": 1,
+      "www.sfchronicle.com": 1,
+      "www.pressdemocrat.com": 1,
+      "www.caltax.org": 1,
+      "caltax.org": 1,
+      "cafairelections.org": 1,
+      "www.cafairelections.org": 1,
+      "www.spur.org": 1,
+      "www.yesfairelections.org": 1,
+      "www.hoover.org": 1,
+      "aelc.assembly.ca.gov": 1
+    },
+    "hosts": [
+      "aelc.assembly.ca.gov",
+      "api.anthropic.com",
+      "ballotpedia.org",
+      "cafairelections.org",
+      "calmatters.org",
+      "caltax.org",
+      "growsf.org",
+      "igs.berkeley.edu",
+      "laist.com",
+      "lao.ca.gov",
+      "leginfo.legislature.ca.gov",
+      "legiscan.com",
+      "openrouter.ai",
+      "vig.cdn.sos.ca.gov",
+      "voterguide.sos.ca.gov",
+      "www.cafairelections.org",
+      "www.caltax.org",
+      "www.hoover.org",
+      "www.kpbs.org",
+      "www.kqed.org",
+      "www.pressdemocrat.com",
+      "www.sfchronicle.com",
+      "www.spur.org",
+      "www.yesfairelections.org"
+    ],
+    "status_counts": {
+      "200": 127,
+      "202": 1,
+      "301": 1,
+      "302": 1,
+      "403": 4
+    },
+    "bytes_up": 4564596,
+    "bytes_down": 3504311,
+    "wire_bytes": {
+      "harness_to_proxy": 4675750,
+      "proxy_to_harness": 3914234,
+      "proxy_to_internet": 4675185,
+      "internet_to_proxy": 4011265
+    },
+    "byte_counter": true,
+    "errors": 11,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0052,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0022,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0055,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0028,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0018,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0007,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.002,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0024,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 64,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:05:07.878017+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:05:07.878017+00:00",
+      "finished_at": "2026-11-03T12:20:43.088565+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

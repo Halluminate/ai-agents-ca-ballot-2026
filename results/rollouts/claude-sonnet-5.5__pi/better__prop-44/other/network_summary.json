@@ -1,0 +1,47 @@
+{
+  "requests": 43,
+  "requests_per_host": {
+    "openrouter.ai": 39,
+    "lao.ca.gov": 1,
+    "www.dailybulletin.com": 1,
+    "www.sandiegouniontribune.com": 1,
+    "calmatters.digitaldemocracy.org": 1
+  },
+  "hosts": [
+    "calmatters.digitaldemocracy.org",
+    "lao.ca.gov",
+    "openrouter.ai",
+    "www.dailybulletin.com",
+    "www.sandiegouniontribune.com"
+  ],
+  "status_counts": {
+    "200": 43
+  },
+  "bytes_up": 9404773,
+  "bytes_down": 708556,
+  "wire_bytes": {
+    "harness_to_proxy": 9480556,
+    "proxy_to_harness": 836169,
+    "proxy_to_internet": 9472801,
+    "internet_to_proxy": 900268
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 31,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

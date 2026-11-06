@@ -1,0 +1,386 @@
+{
+  "run_id": "sonnet__native__better__p42__r1",
+  "model": "sonnet",
+  "model_id": "anthropic/claude-sonnet-5.5",
+  "pin": "anthropic",
+  "arm": "native",
+  "harness": "claude_code",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "42",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T12:07:02.064986+00:00",
+  "finished_at": "2026-11-03T12:27:56.865308+00:00",
+  "seconds": 1252.0,
+  "input_tokens": 136401,
+  "output_tokens": 31556,
+  "cached_tokens": 374410,
+  "cost_usd": 1.727,
+  "cost_source": "reported",
+  "billed_usd": 1.7261368999999998,
+  "searches": [
+    "California Proposition 42 2026 ballot",
+    "Legislative Analyst's Office Proposition 42 November 2026 analysis personal property tax constitutional amendment",
+    "Prop 42 California Newsom endorses ban personal property taxes retroactive billionaire tax Prop 40",
+    "Prop 42 California legal experts unintended consequences constitutional amendment \"Proposition 42\" tax law professor",
+    "Proposition 42 editorial endorsement vote no OR yes Los Angeles Times 2026 personal property tax retroactive",
+    "Galle Gamage Shanske Prop 42 poorly drafted retroactive vehicle license fee Roth IRA analysis",
+    "San Diego Union-Tribune OR Orange County Register endorsement Prop 42 yes retirement savings billionaire tax",
+    "Prop 42 \"six\" proposed taxes retirement accounts California Legislature wealth tax bills AB 259 SB 1 unrealized gains Yes on 42 claim fact check",
+    "CalTax California Taxpayers Association position Proposition 42 2026 ballot",
+    "Prop 42 poll October 2026 California likely voters Prop 40 billionaire tax Prop 41 Prop 42 support",
+    "\"Retirement and Personal Savings Protection Act\" California text \"personal property\" \"retroactive\" Article VIII section initiative 25-0039"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 11,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/42/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-42-property-taxes/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-42",
+    "https://lao.ca.gov/ballot/2026/prop42-110326.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42.pdf",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-42-personal-property-taxes",
+    "https://voterguide.sos.ca.gov/propositions/42/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/42/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/42/text-of-proposed-laws.htm",
+    "https://en.wikipedia.org/wiki/2026_California_billionaire_tax_initiative",
+    "https://californiatoday.com/guides/elections/2026-california-proposition-42-guide/",
+    "https://cavotes.org/ballot-measure/2026-prop-42/",
+    "https://sherafy.com/california-proposition-42-2026/",
+    "http://quickguidetoprops.sos.ca.gov/propositions/2026-11-03/42",
+    "https://ballotpedia.org/California_Proposition_42,_Ban_New_State_Personal_Property_Taxes_and_Certain_Retroactive_State_Taxes_Initiative_(2026",
+    "https://calbudgetcenter.org/resources/what-would-proposition-42-mean-for-california/",
+    "https://www.hoover.org/proposition-lab-proposition-42",
+    "https://calmatters.org/politics/2026/10/newsom-tax-propositions-november-election/",
+    "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7438118",
+    "https://www.sfexaminer.com/news/politics/here-s-what-you-should-know-about-prop-42/article_104cd2a1-0906-484e-8ba5-8880aa1a6c5a.html",
+    "https://www.sfchronicle.com/election/article/prop-40-41-42-california-22476000.php",
+    "https://www.dailyjournal.com/articles/395463-propositions-41-and-42-bad-ideas-that-threaten-to-hurt-all-californians",
+    "https://scholarship.law.missouri.edu/facpubs/1384/",
+    "https://abc7news.com/post/everything-need-know-props-41-42-designed-cancel-californias-billionaire-tax/19938087/",
+    "https://www.pressdemocrat.com/2026/10/10/endorsement-if-you-support-the-billionaire-tax-vote-no-on-props-41-and-42/",
+    "https://www.hjta.org/2026votingguide/",
+    "https://yesonprop42.org",
+    "https://www.sfchronicle.com/opinion/editorials/article/california-proposition-42-taxes-22449389.php",
+    "https://voterguide.sos.ca.gov/propositions/42/arguments-rebuttals.htm",
+    "https://calmatters.org/politics/2026/10/california-billionaire-tax-explainer/",
+    "https://www.kqed.org/voterguide/california/proposition-42",
+    "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-42/legal-text/",
+    "https://fiscalrealitycheck.substack.com/p/a-california-ballot-collision-wealth",
+    "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-42/legal-text/",
+    "https://fiscalrealitycheck.substack.com/p/a-california-ballot-collision-wealth"
+  ],
+  "tool_errors": 3,
+  "warnings": [
+    "capture: 11 connections were not readable by the proxy (api.anthropic.com:443)"
+  ],
+  "network": {
+    "requests": 154,
+    "requests_per_host": {
+      "api.anthropic.com": 65,
+      "openrouter.ai": 57,
+      "voterguide.sos.ca.gov": 4,
+      "calmatters.org": 3,
+      "www.sfchronicle.com": 2,
+      "igs.berkeley.edu": 1,
+      "lao.ca.gov": 1,
+      "vig.cdn.sos.ca.gov": 1,
+      "www.spur.org": 1,
+      "en.wikipedia.org": 1,
+      "californiatoday.com": 1,
+      "cavotes.org": 1,
+      "quickguidetoprops.sos.ca.gov": 1,
+      "sherafy.com": 1,
+      "ballotpedia.org": 1,
+      "calbudgetcenter.org": 1,
+      "www.hoover.org": 1,
+      "papers.ssrn.com": 1,
+      "www.sfexaminer.com": 1,
+      "www.dailyjournal.com": 1,
+      "scholarship.law.missouri.edu": 1,
+      "abc7news.com": 1,
+      "www.pressdemocrat.com": 1,
+      "www.hjta.org": 1,
+      "yesonprop42.org": 1,
+      "www.kqed.org": 1,
+      "growsf.org": 1,
+      "fiscalrealitycheck.substack.com": 1
+    },
+    "hosts": [
+      "abc7news.com",
+      "api.anthropic.com",
+      "ballotpedia.org",
+      "calbudgetcenter.org",
+      "californiatoday.com",
+      "calmatters.org",
+      "cavotes.org",
+      "en.wikipedia.org",
+      "fiscalrealitycheck.substack.com",
+      "growsf.org",
+      "igs.berkeley.edu",
+      "lao.ca.gov",
+      "openrouter.ai",
+      "papers.ssrn.com",
+      "quickguidetoprops.sos.ca.gov",
+      "scholarship.law.missouri.edu",
+      "sherafy.com",
+      "vig.cdn.sos.ca.gov",
+      "voterguide.sos.ca.gov",
+      "www.dailyjournal.com",
+      "www.hjta.org",
+      "www.hoover.org",
+      "www.kqed.org",
+      "www.pressdemocrat.com",
+      "www.sfchronicle.com",
+      "www.sfexaminer.com",
+      "www.spur.org",
+      "yesonprop42.org"
+    ],
+    "status_counts": {
+      "200": 145,
+      "202": 1,
+      "403": 3,
+      "429": 1
+    },
+    "bytes_up": 4618690,
+    "bytes_down": 3532919,
+    "wire_bytes": {
+      "harness_to_proxy": 4768583,
+      "proxy_to_harness": 4012329,
+      "proxy_to_internet": 4767046,
+      "internet_to_proxy": 4142561
+    },
+    "byte_counter": true,
+    "errors": 18,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0032,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0041,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 9.9997,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0036,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0026,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0015,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0102,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.003,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0172,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0106,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0046,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 89,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:07:02.064986+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:07:02.064986+00:00",
+      "finished_at": "2026-11-03T12:27:56.865308+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

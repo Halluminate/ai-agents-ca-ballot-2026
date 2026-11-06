@@ -1,0 +1,113 @@
+{
+  "run_id": "luna__native__vote__p39__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "39",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:56:50.799814+00:00",
+  "finished_at": "2026-11-03T13:03:03.325962+00:00",
+  "seconds": 370.1,
+  "input_tokens": 87,
+  "output_tokens": 25109,
+  "cached_tokens": 2939990,
+  "cost_usd": 0.2296,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:sos.ca.gov 2026 Proposition 39 California voter identification initiative analysis ...",
+    "'Proposition 39'",
+    "site:lao.ca.gov California voter ID Proposition 39 2026 costs tens millions hundreds millions analysis ...",
+    "site:sos.ca.gov 2024 General Election ballot status rejected signature mismatch California 2024 voter ballots ...",
+    "Justin Levitt The Truth About Voter Fraud 31 incidents 1 billion ballots 2000 2014 law review paper ...",
+    "Cantoni Pons 2021 strict ID laws don't stop voters fraud perception trust electoral integrity voter fraud actual perceived evidence ...",
+    "\"Voter Fraud, Voter ID, and Legitimacy\" Christian Fong full text pdf experiment ...",
+    "'Version 1'",
+    "\"100,000\" ballots \"200,000\" \"Prop. 39\" signature mismatch California voter ID ...",
+    "Texas 2022 mail ballot rejection rates after SB 1 ID number requirement official data Texas Secretary State ...",
+    "site:elections.cdn.sos.ca.gov/vbm-rejection-reason/2026 June 2026 California primary rejected ballots 148241 ...",
+    "site:sos.ga.gov/news 20 noncitizens voter roll audit 2024 8.2 million 9 voted ...",
+    "New Jersey 2026 audit 6600 noncitizens voter rolls 400 voted official report state audit ...",
+    "site:auditor.ca.gov California DMV motor voter noncitizens accidentally registered audit 2019 1500 voters ...",
+    "Grimmer Yoder durable differential deterrent effects strict photo identification laws 2022 full text study results Black white voters North Carolina ...",
+    "site:calbudgetcenter.org 2.7 million California voters no driver license expired 3 million voter ID ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/39/"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 1 connection attempts that ignored the proxy were blocked (codex remote:*:50404 x1)"
+  ],
+  "network": {
+    "requests": 36,
+    "requests_per_host": {
+      "api.openai.com": 29,
+      "ab.chatgpt.com": 7
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 28,
+      "202": 7
+    },
+    "bytes_up": 2005129,
+    "bytes_down": 5301216,
+    "wire_bytes": {
+      "harness_to_proxy": 1425996,
+      "proxy_to_harness": 3043616,
+      "proxy_to_internet": 1422813,
+      "internet_to_proxy": 3096322
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "codex",
+        "operation": "network-outbound",
+        "target": "remote:*:50404",
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 1,
+    "websocket_messages": 2891,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 31,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:56:50.799814+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:56:50.799814+00:00",
+      "finished_at": "2026-11-03T13:03:03.325962+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

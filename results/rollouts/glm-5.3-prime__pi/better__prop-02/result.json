@@ -1,0 +1,104 @@
+{
+  "run_id": "glm-prime__common__better__p2__r1",
+  "model": "glm-prime",
+  "model_id": "z-ai/glm-5.3-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "2",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:15:05.705848+00:00",
+  "finished_at": "2026-11-03T13:16:19.313006+00:00",
+  "seconds": 70.9,
+  "input_tokens": 49607,
+  "output_tokens": 5748,
+  "cached_tokens": 87296,
+  "cost_usd": 0.2638,
+  "cost_source": "reported",
+  "billed_usd": 0.263803366,
+  "searches": [
+    "California Proposition 2 November 2024 school facilities bond $10 billion",
+    "California Proposition 2 2026 rainy day fund constitutional amendment budget reserve",
+    "\"Proposition 2\" 2026 California rainy day fund editorial recommendation Los Angeles Times OR \"San Francisco Chronicle\" OR CalMatters",
+    "LAO \"Rethinking California's Reserve Policy\" 2025 recommend 20 percent Budget Stabilization Account Gann limit deposits",
+    "ACA 20 Gabriel \"Save California's Future Act\" 2026 budget suspended $5 billion Budget Stabilization Account deposit"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/",
+    "https://voterguide.sos.ca.gov/propositions/2/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-2-rainy",
+    "https://calbudgetcenter.org/resources/should-voters-approve-proposition-2-how-californias-rainy-day-fund-would-be-updated/",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-2-rainy-day-fund",
+    "https://calbudgetcenter.org/resources/should-voters-approve-proposition-2-how-californias-rainy-day-fund-would-be-updated/",
+    "https://ballotpedia.org/California_Proposition_2,_Budget_Stabilization_Account_Cap_Increase_and_Gann_Limit_Changes_Amendment_(2026",
+    "https://www.kpbs.org/news/politics/2026/10/02/proposition-2-raise-limit-on-rainy-day-fund-deposits"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 11,
+    "requests_per_host": {
+      "openrouter.ai": 11
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 11
+    },
+    "bytes_up": 613392,
+    "bytes_down": 1210584,
+    "wire_bytes": {
+      "harness_to_proxy": 634879,
+      "proxy_to_harness": 1295866,
+      "proxy_to_internet": 632286,
+      "internet_to_proxy": 1316757
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 11,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:15:05.705848+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:15:05.705848+00:00",
+      "finished_at": "2026-11-03T13:16:19.313006+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

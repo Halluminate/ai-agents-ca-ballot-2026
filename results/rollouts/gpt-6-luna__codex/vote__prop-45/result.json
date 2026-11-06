@@ -1,0 +1,102 @@
+{
+  "run_id": "luna__native__vote__p45__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "45",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:04:25.267198+00:00",
+  "finished_at": "2026-11-03T11:07:59.640018+00:00",
+  "seconds": 212.3,
+  "input_tokens": 78,
+  "output_tokens": 14112,
+  "cached_tokens": 2769384,
+  "cost_usd": 0.2223,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/45 Proposition 45 official voter guide California ...",
+    "2026 California Proposition 45 CEQA official text Legislative Analyst analysis ...",
+    "site:lao.ca.gov/BallotAnalysis/Proposition?number=45&year=2026 Proposition 45 LAO analysis ...",
+    "Prop 45 California data centers scope applies legal experts 2026 KQED ...",
+    "'essential transportation project'",
+    "CEQA litigation housing costs project delays empirical study California 2023 BAE report primary research ...",
+    "\"$75,000\" \"Prop. 45\" housing delay California 2026 ...",
+    "Little Hoover Commission 2023 CEQA targeted reforms report PDF recommendations lawsuits late comment infill housing ...",
+    "'18.1%'",
+    "'21021. Public Participation'",
+    "critique Blue Sky Consulting Group Prop 45 estimate 20,000 homes 2026 ...",
+    "\"$75,000\" \"Prop 45\" California 2026 source CEQA unit ...",
+    "\"delay\" \"$75,000\" California home permitting housing environmental review ...",
+    "California Proposition 45 2026 editorial endorsement yes no newspaper ...",
+    "'two-thirds vote'",
+    "\"California Initiative Review 2026\" \"Proposition 45\" McGeorge School of Law ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 30,
+    "requests_per_host": {
+      "api.openai.com": 26,
+      "ab.chatgpt.com": 4
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 25,
+      "202": 4
+    },
+    "bytes_up": 1914582,
+    "bytes_down": 4946333,
+    "wire_bytes": {
+      "harness_to_proxy": 1279790,
+      "proxy_to_harness": 2944654,
+      "proxy_to_internet": 1275693,
+      "internet_to_proxy": 2996993
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2912,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 28,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:04:25.267198+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:04:25.267198+00:00",
+      "finished_at": "2026-11-03T11:07:59.640018+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

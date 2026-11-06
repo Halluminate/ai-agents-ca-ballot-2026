@@ -1,0 +1,488 @@
+{
+  "requests": 341,
+  "requests_per_host": {
+    "api.anthropic.com": 150,
+    "openrouter.ai": 132,
+    "calmatters.org": 7,
+    "igs.berkeley.edu": 4,
+    "www.ppic.org": 4,
+    "www.cbsnews.com": 3,
+    "www.yahoo.com": 3,
+    "sfstandard.com": 2,
+    "www.kqed.org": 2,
+    "defirate.com": 2,
+    "www.sfchronicle.com": 2,
+    "laist.com": 2,
+    "sanjosespotlight.com": 2,
+    "voterguide.sos.ca.gov": 1,
+    "www.onpointpolitics.us": 1,
+    "escholarship.org": 1,
+    "thehill.com": 1,
+    "www.cnbc.com": 1,
+    "en.wikipedia.org": 1,
+    "www.sanjoseinside.com": 1,
+    "www.cpapracticeadvisor.com": 1,
+    "kalshi.com": 1,
+    "electionresults.sos.ca.gov": 1,
+    "californiatoday.com": 1,
+    "www.kron4.com": 1,
+    "fortune.com": 1,
+    "www.pressdemocrat.com": 1,
+    "www.washingtonpost.com": 1,
+    "gizmodo.com": 1,
+    "www.theskylineview.com": 1,
+    "hotair.com": 1,
+    "yesonprop42.org": 1,
+    "www.sfexaminer.com": 1,
+    "medium.com": 1,
+    "www.cnn.com": 1,
+    "www.multistate.us": 1,
+    "cbsnews.com": 1,
+    "www.dailycal.org": 1,
+    "gvwire.com": 1
+  },
+  "hosts": [
+    "api.anthropic.com",
+    "californiatoday.com",
+    "calmatters.org",
+    "cbsnews.com",
+    "defirate.com",
+    "electionresults.sos.ca.gov",
+    "en.wikipedia.org",
+    "escholarship.org",
+    "fortune.com",
+    "gizmodo.com",
+    "gvwire.com",
+    "hotair.com",
+    "igs.berkeley.edu",
+    "kalshi.com",
+    "laist.com",
+    "medium.com",
+    "openrouter.ai",
+    "sanjosespotlight.com",
+    "sfstandard.com",
+    "thehill.com",
+    "voterguide.sos.ca.gov",
+    "www.cbsnews.com",
+    "www.cnbc.com",
+    "www.cnn.com",
+    "www.cpapracticeadvisor.com",
+    "www.dailycal.org",
+    "www.kqed.org",
+    "www.kron4.com",
+    "www.multistate.us",
+    "www.onpointpolitics.us",
+    "www.ppic.org",
+    "www.pressdemocrat.com",
+    "www.sanjoseinside.com",
+    "www.sfchronicle.com",
+    "www.sfexaminer.com",
+    "www.theskylineview.com",
+    "www.washingtonpost.com",
+    "www.yahoo.com",
+    "yesonprop42.org"
+  ],
+  "status_counts": {
+    "200": 313,
+    "301": 4,
+    "403": 6,
+    "429": 1,
+    "451": 1
+  },
+  "bytes_up": 15572808,
+  "bytes_down": 10889640,
+  "wire_bytes": {
+    "harness_to_proxy": 15895023,
+    "proxy_to_harness": 11830098,
+    "proxy_to_internet": 15857448,
+    "internet_to_proxy": 12056864
+  },
+  "byte_counter": true,
+  "errors": 38,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "api.anthropic.com",
+      "sni": "api.anthropic.com",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "http",
+      "host": "sfstandard.com",
+      "url": "https://sfstandard.com/2026/10/27/billionaire-tax-prop-40-ppic-poll-october/",
+      "error": "server closed connection"
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/messages?beta=true",
+      "error": "server closed connection"
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "tls_failed_server",
+      "host": "api.anthropic.com",
+      "sni": "api.anthropic.com",
+      "error": "connection closed"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "api.anthropic.com",
+      "sni": "api.anthropic.com",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "tls_failed_server",
+      "host": "api.anthropic.com",
+      "sni": "api.anthropic.com",
+      "error": "connection closed"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "api.anthropic.com",
+      "sni": "api.anthropic.com",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/messages?beta=true",
+      "error": "server closed connection"
+    },
+    {
+      "kind": "tls_failed_server",
+      "host": "api.anthropic.com",
+      "sni": "api.anthropic.com",
+      "error": "connection closed"
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "connection closed"
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "tls_failed_server",
+      "host": "api.anthropic.com",
+      "sni": "api.anthropic.com",
+      "error": "connection closed"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "api.anthropic.com",
+      "sni": "api.anthropic.com",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/messages?beta=true",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/messages?beta=true",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": "api.anthropic.com",
+      "bytes_up": 1609,
+      "bytes_down": 39,
+      "duration": 11.1583,
+      "reason": "connection closed early"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0231,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0166,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": "api.anthropic.com",
+      "bytes_up": 1609,
+      "bytes_down": 39,
+      "duration": 21.1625,
+      "reason": "connection closed early"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0042,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": "api.anthropic.com",
+      "bytes_up": 1609,
+      "bytes_down": 39,
+      "duration": 20.4185,
+      "reason": "connection closed early"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": "api.anthropic.com",
+      "bytes_up": 1609,
+      "bytes_down": 39,
+      "duration": 680.3829,
+      "reason": "connection closed early"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0094,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0005,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0007,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0013,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0028,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0005,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0035,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0032,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0027,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [
+    {
+      "process": "claude.exe",
+      "operation": "network-outbound",
+      "target": "remote:*:49463",
+      "attempts": 3
+    }
+  ],
+  "blocked_attempts": 3,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 152,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

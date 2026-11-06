@@ -1,0 +1,141 @@
+{
+  "requests": 39,
+  "requests_per_host": {
+    "openrouter.ai": 29,
+    "voterguide.sos.ca.gov": 4,
+    "lao.ca.gov": 1,
+    "vig.cdn.sos.ca.gov": 1,
+    "ballotpedia.org": 1,
+    "www.latimes.com": 1,
+    "calmatters.org": 1,
+    "calbudgetcenter.org": 1
+  },
+  "hosts": [
+    "ballotpedia.org",
+    "calbudgetcenter.org",
+    "calmatters.org",
+    "lao.ca.gov",
+    "openrouter.ai",
+    "vig.cdn.sos.ca.gov",
+    "voterguide.sos.ca.gov",
+    "www.latimes.com"
+  ],
+  "status_counts": {
+    "200": 37,
+    "404": 1
+  },
+  "bytes_up": 1057959,
+  "bytes_down": 3964335,
+  "wire_bytes": {
+    "harness_to_proxy": 1106051,
+    "proxy_to_harness": 4164296,
+    "proxy_to_internet": 1101057,
+    "internet_to_proxy": 4216626
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "stream reset by client (CANCEL)"
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3275,
+      "duration": 0.1177,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "voterguide.sos.ca.gov",
+      "port": 443,
+      "sni": "voterguide.sos.ca.gov",
+      "bytes_up": 2093,
+      "bytes_down": 1718,
+      "duration": 0.1893,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "voterguide.sos.ca.gov",
+      "port": 443,
+      "sni": "voterguide.sos.ca.gov",
+      "bytes_up": 2093,
+      "bytes_down": 1718,
+      "duration": 0.1296,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3275,
+      "duration": 0.122,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 2069,
+      "bytes_down": 1718,
+      "duration": 0.1205,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3189,
+      "duration": 0.1405,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3275,
+      "duration": 0.1647,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3275,
+      "duration": 0.1663,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [
+    {
+      "process": "grok-1.0.70",
+      "operation": "network-outbound",
+      "target": null,
+      "attempts": 24
+    }
+  ],
+  "blocked_attempts": 24,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 27,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "allowed, not recorded"
+}

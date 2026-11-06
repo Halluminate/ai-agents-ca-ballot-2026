@@ -1,0 +1,37 @@
+I won't answer with just "yes" or "no." Prop 45 is a contested measure in tomorrow's election, and the choice depends on how much you value faster building versus environmental review and public input. Even experts who want CEQA reformed are split on it. Here is what the research shows so you can decide.
+
+**What a Yes vote does:** It creates an optional fast track through the California Environmental Quality Act (CEQA) for "essential" projects. These include housing, water, clean energy and transmission, roads and highways, hospitals, schools, broadband, wildfire work, and fire and police stations.
+- **Deadlines:** about 1.5 years (365 business days) for a full environmental impact report. Lawsuits must be filed within 30 days and resolved within 270.
+- **What counts as harm:** only violations of objective standards already in place when the application was filed.
+- **Review and input:** the developer proposes the one alternative studied, public comment is capped, and consultation is limited to federally recognized tribes.
+- **Courts and amendments:** courts can stop only the part of a project that broke the rules, not the whole approval. The Legislature can change the law only by a two-thirds vote.
+- **Cost:** the Legislative Analyst's Office estimates tens of millions to over $100M a year at first, with uncertain long-term effects.
+
+**Case for Yes:** CEQA delays and lawsuits drive up costs for housing, transmission lines and clean energy. Firm deadlines and narrow court remedies have worked in housing permitting reform. The measure also covers projects the 2025 infill-housing exemption missed. Supporters include the Chamber of Commerce, the CA Republican Party, hospitals, water agencies, a clean energy trade group, NAACP CA/HI, Asm. Buffy Wicks, and most newspaper editorial boards (Sacramento Bee, SD Union-Tribune, Mercury News, OC Register).
+
+**Case for No:** It's very broad. It reaches freeways, new suburban subdivisions and dams, and possibly data centers (the two sides dispute this). Berkeley law professor Eric Biber says it effectively repeals CEQA for covered projects. Most infill housing is already exempt, so the new housing benefit falls mostly on sprawl. Mistakes would be hard to fix. Opponents include the CA Democratic Party, the Labor Federation, the Building Trades, the Sierra Club, NRDC, the League of Women Voters, and the SF Chronicle.
+
+**Neutral:** Newsom, Sen. Scott Wiener, CA YIMBY, YIMBY Action and SPUR. They like the deadlines but worry it's too broad and encourages sprawl.
+
+**Money and polling:** Yes has raised about $36M (business groups, utilities, data-center builders, an oil company). No has raised about $30M (unions, environmental groups). PPIC in October: 46% Yes, 50% No.
+
+**How to decide:**
+- **Lean yes** if you think CEQA's delays are the bigger problem and you'll accept some sprawl and a law that's hard to fix in exchange for building faster.
+- **Lean no** if you'd rather keep broader review and community input, and you prefer narrower fixes passed by the Legislature.
+
+Sources:
+- [CA SOS voter guide](https://voterguide.sos.ca.gov/propositions/45/)
+- [LAO analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=45&year=2026)
+- [GrowSF annotated text](https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-45/legal-text/)
+- [CalMatters guide](https://calmatters.org/california-voter-guide-2026/proposition-45-environmental-review/)
+- [CalMatters explainer](https://calmatters.org/environment/2026/10/prop-45-california-ceqa-explained/)
+- [SPUR](https://www.spur.org/voter-guide/2026-11/ca-prop-45-environmental-review-ceqa)
+- [CA YIMBY](https://cayimby.org/blog/proposition-45-2026/)
+- [SF Standard](https://sfstandard.com/2026/10/26/california-prop-45-ceqa-reform-yimbys/)
+- [Legal Planet (Biber)](https://legal-planet.org/2026/09/14/a-summary-of-baca/)
+- [Inside Climate News](https://insideclimatenews.org/news/28102026/california-prop-45-aims-to-weaken-environmental-law/)
+- [HousingWire](https://www.housingwire.com/articles/california-prop-45-ceqa-timelines/)
+- [CalChamber endorsements](https://advocacy.calchamber.com/articles/editorial-support-for-proposition-45-continues-to-grow-across-california)
+- [Greenbelt Alliance](https://www.greenbelt.org/blog/ceqa-baca-initiative/)
+- [Ascent](https://ascent.inc/prop-45/)
+- [LAist](https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-45-environmental-review)

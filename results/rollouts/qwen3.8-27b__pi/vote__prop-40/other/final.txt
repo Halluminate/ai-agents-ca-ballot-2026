@@ -1,0 +1,23 @@
+
+
+I've now researched this thoroughly — the official VIG and arguments, the nonpartisan Legislative Analyst's analysis, the measure's design details, the academic revenue studies, the legal structure, the interaction with Props 41/42, the federal funding context, and the latest polling. Here's the bottom line of what I found:
+
+**What it is:** A one-time 5% tax on the net worth of ~200 Californians worth over $1B (residents as of Jan 1, 2026, even if they later leave), due 2027 with a 5-year installment option. Real estate and most retirement accounts are excluded. 90% of proceeds must go to health care (mainly Medi-Cal), the rest to education/food assistance. Revenue is exempt from the Gann spending limit and school-funding requirements, and the state has discretion over how and when to spend it.
+
+**Key findings weighing on my decision:**
+
+1. **The revenue claims are far from settled.** Proponents (the measure's authors at UC Berkeley) project ~$100B. The nonpartisan LAO says only "tens of billions" and "very hard to predict." A Nov 2026 NBER paper by Stanford/Hoover economists found 7 billionaires already left the state (removing ~30% of the tax base) and projects only ~$30B gross, with a possible net *loss* of up to ~$39B in present value from lost ongoing income taxes.
+
+2. **One-time money for a recurring, back-loaded problem.** The federal OBBBA Medi-Cal cuts are real and severe — but the largest share of the cuts lands after 2030, long after this one-time revenue is spent. Even the emergency framing is structurally mismatched to this tool.
+
+3. **Weak fiscal guardrails.** Gann-limit and school-funding exemptions plus broad legislative discretion and no dedicated oversight provisions are exactly the kind of design California voters have historically rejected.
+
+4. **Real expansion pathway and legal risk.** The measure includes a two-thirds legislative amendment clause (drafters say it's limited; election-law experts split on how limited), it's the first US wealth tax with a retroactive residency anchor, it includes "expedited judicial review" anticipating challenges, and it can be nullified by Props 41/42 if they out-vote it.
+
+5. **Who's on each side.** Pro: SEIU-UHW, Bernie Sanders, the state Democratic Party, Ro Khanna. Con: the state's major medical and hospital organizations (California Medical Association, Primary Care Association, Children's Hospital Association), teachers, firefighters, building trades, both gubernatorial candidates — plus billionaires funding the opposition (Sergey Brin alone has spent $57M+, which is fair to note as a conflict of interest).
+
+6. **Polling:** Both of California's most reputable pollsters (PPIC 46/52, UC Berkeley IGS 42/50, late Oct) show it trailing.
+
+The "yes" case is moral and the crisis is genuine, but a durable funding gap is better addressed by durable revenue (Prop 3, which polls ahead with majority support), while this measure pairs an uncertain, one-time windfall below its advertised figure with broad spending discretion, an amendment pathway, and real litigation risk.
+
+**No.**

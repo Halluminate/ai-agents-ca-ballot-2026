@@ -1,0 +1,20 @@
+Whether to vote **yes** or **no** on California Proposition 38 depends on how you weigh competing priorities regarding medical research funding, state debt, and how California sets its public health and budget priorities. Because this is a policy decision with valid arguments on both sides, I cannot choose a side or answer with only "yes" or "no," but here is a summary of the measure and the main arguments for each position to help you decide.
+
+### Overview of Proposition 38
+* **What it does:** Authorizes $8.4 billion in state general obligation bonds to fund immunology and immunotherapy medical research. At least $4.2 billion must go toward research on cancer, heart disease, and Alzheimer’s disease. About half of the funds would support a University of California–affiliated nonprofit medical research institute, and the other half would be distributed as competitive grants to California universities and nonprofit research institutions.
+* **Other provisions:** Caps state administrative costs at 2%, requires annual independent audits, mandates that treatments developed with the funding be offered at a 20% discount in California, and requires 10% of any licensing/discovery revenue to go back to the state to help repay the bonds.
+* **Fiscal impact (Legislative Analyst’s Office):** Increases state General Fund costs by roughly $500 million to $600 million per year for about 20 years to repay the bonds with interest (about 0.25% of the total General Fund budget). Some or all of these costs could eventually be offset if the funded research generates significant commercial revenue, though the amount and timing of any such revenue are uncertain.
+
+---
+
+### Arguments for Voting YES
+* **Accelerates life-saving medical research:** Supporters (including patient advocacy groups such as the Alzheimer’s Association, the Michael J. Fox Foundation, the ALS Association, and the American Nurses Association California) argue that immunology and immunotherapy hold major promise for treating and curing cancer, Alzheimer’s, heart disease, and other serious illnesses.
+* **Offsets federal funding cuts:** Proponents argue that dedicated state funding provides stable support for California universities and nonprofit research institutes amid uncertainty and cuts in federal research funding.
+* **Taxpayer and patient protections:** Supporters highlight the 2% cap on administrative expenses, mandatory independent audits, the requirement that 10% of licensing revenues go toward repaying the state's bond costs, and the 20% discount for California patients on resulting treatments.
+
+---
+
+### Arguments for Voting NO
+* **Adds to long-term state debt and reduces budget flexibility:** Opponents note that California faces ongoing structural budget challenges, and committing $500 million to $600 million annually from the General Fund for roughly two decades locks taxpayers into long-term debt and reduces funds available for other public health and state priorities.
+* **“Ballot-box budgeting” for science:** Critics argue that scientific funding priorities should be set through the normal budget process and expert scientific review across all areas of health and medicine, rather than earmarking billions of borrowed dollars for a single specialized field via ballot initiative.
+* **Uncertain financial returns:** Opponents point out that basic and clinical research carries high uncertainty, universities rarely commercialize therapies entirely on their own, and licensing revenues are not guaranteed to pay back the cost of the bonds. Critics also argue that state-specific price controls (the 20% discount mandate) could complicate commercialization.

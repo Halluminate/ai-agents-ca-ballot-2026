@@ -1,0 +1,111 @@
+{
+  "run_id": "grok__common__better__p4__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:23:48.649852+00:00",
+  "seconds": 160.3,
+  "input_tokens": 110868,
+  "output_tokens": 7785,
+  "cached_tokens": 109696,
+  "cost_usd": 0.3538,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 4 2026 public funding election campaigns analysis",
+    "SB 42 California Fair Elections Act 2026 court case Prop 73 public financing ban Howard Jarvis",
+    "effectiveness of public campaign financing evidence review Connecticut Maine New York Seattle corruption competition",
+    "California Proposition 4 2026 endorsements editorial boards yes no public financing",
+    "CalMatters Proposition 4 2026 public campaign financing explained",
+    "California Prop 4 2026 ballotpedia public financing"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://voterguide.sos.ca.gov/propositions/4/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/4/title-summary.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-text-proposed-laws.pdf",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-4-campaign-financing",
+    "https://www.sfchronicle.com/opinion/editorials/article/endorsement-prop-4-public-financing-22426379.php",
+    "https://www.brennancenter.org/our-work/analysis-opinion/california-voters-will-choose-whether-allow-public-campaign-financing",
+    "https://www.gao.gov/products/gao-25-106650",
+    "https://www.sacbee.com/opinion/election-endorsements/article317765284.html",
+    "https://calmatters.org/politics/2026/10/california-proposition-4-explainer/",
+    "https://www.hoover.org/proposition-lab-proposition-4",
+    "https://www.sacbee.com/opinion/election-endorsements/article317448027.html"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 14,
+    "requests_per_host": {
+      "openrouter.ai": 13,
+      "www.sacbee.com": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.sacbee.com"
+    ],
+    "status_counts": {
+      "200": 14
+    },
+    "bytes_up": 1014153,
+    "bytes_down": 497883,
+    "wire_bytes": {
+      "harness_to_proxy": 1038614,
+      "proxy_to_harness": 559323,
+      "proxy_to_internet": 1035644,
+      "internet_to_proxy": 584063
+    },
+    "byte_counter": true,
+    "errors": 3,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 12,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

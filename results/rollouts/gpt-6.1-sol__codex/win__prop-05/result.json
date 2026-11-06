@@ -1,0 +1,106 @@
+{
+  "run_id": "sol__native__win__p5__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "5",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:15:21.727045+00:00",
+  "finished_at": "2026-11-03T13:17:45.600444+00:00",
+  "seconds": 141.7,
+  "input_tokens": 33,
+  "output_tokens": 6907,
+  "cached_tokens": 454541,
+  "cost_usd": 0.3895,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 5 2026 recall election polling yes no November 3 2026 ...",
+    "\"Proposition 5\" \"2026\" \"poll\" October ...",
+    "site:ppic.org \"October 2026\" \"Proposition 5\" ...",
+    "site:ppic.org/publication/ \"october-2026\" \"Proposition 5\" ...",
+    "\"Proposition 5\" \"2026\" \"Kalshi\" ...",
+    "\"Proposition 5\" \"2026\" \"results\" California November 3 ...",
+    "'Proposition 5'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/5/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+    "https://calmatters.org/politics/2026/10/california-election-proposition-5-explainer/",
+    "https://quickguidetoprops.sos.ca.gov/propositions/2026-11-03/5",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.onpointpolitics.us/forecast/measures/ca/proposition-5",
+    "https://ballotpedia.org/California_Proposition_5,_Eliminate_State_Officer_Recall_Successor_Elections_Amendment_(2026)",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-5",
+    "https://www.lao.ca.gov/BallotAnalysis/Proposition?number=5&year=2026",
+    "https://api.elections.kalshi.com/trade-api/v2/markets/KXCABALLOTMEASURES-26NOV03-PR05",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 31,
+    "requests_per_host": {
+      "api.openai.com": 28,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 25,
+      "202": 3,
+      "500": 2
+    },
+    "bytes_up": 1189212,
+    "bytes_down": 3007320,
+    "wire_bytes": {
+      "harness_to_proxy": 1013373,
+      "proxy_to_harness": 1807208,
+      "proxy_to_internet": 1011679,
+      "internet_to_proxy": 1856003
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 3941,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 28,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:15:21.727045+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:15:21.727045+00:00",
+      "finished_at": "2026-11-03T13:17:45.600444+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

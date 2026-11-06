@@ -1,0 +1,97 @@
+{
+  "run_id": "qwen-max-prime__common__vote__p44__r1",
+  "model": "qwen-max-prime",
+  "model_id": "qwen/qwen3.8-max-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "44",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "last_line",
+  "error": "",
+  "started_at": "2026-11-03T13:05:30.126923+00:00",
+  "finished_at": "2026-11-03T13:07:05.997314+00:00",
+  "seconds": 93.1,
+  "input_tokens": 56367,
+  "output_tokens": 4886,
+  "cached_tokens": 151296,
+  "cost_usd": 0.3851,
+  "cost_source": "reported",
+  "billed_usd": 0.38515,
+  "searches": [
+    "California Proposition 44 ballot measure",
+    "Proposition 44 California 2026 editorial board recommendation community health clinics",
+    "PPIC poll Proposition 44 2026 clinic spending support opposition",
+    "\"Prop 44\" Berkeley Research Group report clinics penalties $1.7 billion analysis criticism",
+    "Los Angeles Times editorial Prop 44 clinics SEIU-UHW 2026",
+    "Newsom opposes Proposition 44 clinics October 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/44/",
+    "https://www.lao.ca.gov/BallotAnalysis/Proposition?number=44&year=2026",
+    "https://www.hoover.org/proposition-lab-proposition-44",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-44",
+    "https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm",
+    "https://calmatters.org/california-voter-guide-2026/proposition-44-clinic-funding/",
+    "https://calmatters.org/health/2026/10/union-billionaire-prop-44-clinic/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 13,
+    "requests_per_host": {
+      "openrouter.ai": 13
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 13
+    },
+    "bytes_up": 856093,
+    "bytes_down": 575803,
+    "wire_bytes": {
+      "harness_to_proxy": 878991,
+      "proxy_to_harness": 627784,
+      "proxy_to_internet": 875629,
+      "internet_to_proxy": 653511
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 11,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:05:30.126923+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:05:30.126923+00:00",
+      "finished_at": "2026-11-03T13:07:05.997314+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

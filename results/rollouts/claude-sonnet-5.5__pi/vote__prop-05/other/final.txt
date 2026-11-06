@@ -1,0 +1,35 @@
+**I'm going to pass on a one-word answer.** The facts here are mostly agreed on. The choice turns on a values trade-off that splits along party lines, so I'd rather give you the deciding question than make the call for you.
+
+Your link is the Nov. 3, 2026 Prop 5 on recall elections. I read the measure's text, the Legislative Analyst's (LAO) analysis, the ballot arguments, polling, NCSL's multi-state data, a 2021 Berkeley expert analysis, and five newspaper editorials.
+
+**The deciding question: when voters remove an official, which cost would you rather accept?**
+- **Vote No** if you'd accept a replacement who may win with only a plurality. In exchange, voters pick the successor immediately, on the same ballot.
+- **Vote Yes** if you'd accept a delay, an appointment, or the Lt. Governor taking over. In exchange, no one wins a crowded plurality contest.
+
+**What it does:**
+- Recall ballots would ask only "remove or keep?"
+- If the official is removed, legislators are replaced through a special election.
+- A governor is replaced by the Lt. Governor. If the recall comes early in the term, a special election follows at the next statewide primary, with a majority or runoff rule.
+- Other statewide officers are replaced by a governor's appointee, generally confirmed by the Legislature.
+- A recalled official could run in the special election.
+- Signature rules don't change. Local recalls have worked this way since 2023.
+
+**Best case for Yes:**
+- In 2018, Josh Newman was recalled 58–42, yet his replacement got about 16,000 fewer votes than he did.
+- In 2021, Larry Elder would have become governor with about 28% of all ballots.
+- Only 7 of the 19 recall states, California included, pick a successor on the same ballot (NCSL).
+- Backers include Common Cause, the League of Women Voters, the Democratic Party, and the Sacramento Bee.
+
+**Best case for No:**
+- Voters lose a say in the successor at the moment they remove someone, and legislative seats could sit vacant for months.
+- The "recalled official may run again" clause is the weak spot. The author told the SF Chronicle it "wouldn't pain me if it wasn't there," and the Chronicle opposed the measure over it. The clause is bundled with the rest, so you can't vote on it separately.
+- Berkeley's recall experts analyzed the general idea in 2021 and took no position on Prop 5 itself. They called automatic replacement "the least democratic option."
+- Backers include the Republican Party, the Mercury News, the OC Register, and the San Diego Union-Tribune.
+
+**Spin to discount:**
+- **The "28%":** It's arithmetically right, but Elder had 48% of the replacement votes cast. About 5.5 million voters skipped that question, as Democratic leaders urged. In 2003, the winner out-polled the votes to keep Davis.
+- **Who picks:** Neither side's claim is fully accurate. Only legislative seats and an early-term governor recall go to a voter election. "Politicians pick" fits other statewide offices. A late-term governor is succeeded by the separately elected Lt. Governor with no new vote.
+- **Cost:** The LAO says the net effect is unknown, with savings or costs in the millions either way, under 0.1% of the General Fund.
+- **Partisan effect:** The rule is party-neutral. But Democrats currently dominate statewide offices, so in practice it would mostly limit Republican-led recalls.
+
+The last PPIC poll had Prop 5 at 45% yes and 52% no. Polls close at 8 p.m. on Nov. 3.

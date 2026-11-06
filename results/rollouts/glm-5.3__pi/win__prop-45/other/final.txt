@@ -1,0 +1,28 @@
+I now have a comprehensive picture of this race. Here's a summary of my research:
+
+**Proposition 45 (November 3, 2026, California)** — a CEQA reform measure ("Building an Affordable California Act") sponsored by the California Chamber of Commerce that would expedite environmental review for housing, water, transportation, and health projects.
+
+**Key evidence:**
+
+**Polling trend (PPIC, likely voters):**
+- July 2026 (before ballot title): 73% Yes / 24% No
+- September 2026: 49% Yes / 46% No
+- October 2026 (final poll, Oct 16–22): **46% Yes / 50% No** — first time a majority opposes
+
+**Prediction markets (as of Nov 2, election eve):**
+- Kalshi: **32% chance to pass**
+- Polymarket: **31% chance to pass**
+
+**Forecasts:**
+- On Point Politics model: 47.8% chance to pass; No side has 52.3% chance to prevail
+
+**Campaign dynamics favoring No:**
+- Support has been in a steady "nosedive" (−27 points since July) as voters learned the details
+- The Democratic Party officially opposed it; 54% of Democratic voters and 50% of independents now oppose — only Republicans favor it, and they're a minority of the CA electorate
+- A 550+ organization coalition of labor, environmental, and health groups opposes it; even prominent CEQA reformers (Scott Wiener, California YIMBY) are neutral, and Tom Steyer opposes
+- Late-breaking controversies (data centers, oil/utility funding) hurt the Yes message
+- Ballot measures that trail in final polling historically tend to lose, as undecided voters break toward No
+
+The one outlier (a Probolsky poll showing Yes narrowly ahead, without full toplines) doesn't outweigh the converging evidence from the final PPIC poll, both prediction markets, and statistical forecasts — all pointing to the No side prevailing.
+
+**no**

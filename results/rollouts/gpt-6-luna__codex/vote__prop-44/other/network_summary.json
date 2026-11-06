@@ -1,0 +1,43 @@
+{
+  "requests": 16,
+  "requests_per_host": {
+    "api.openai.com": 13,
+    "ab.chatgpt.com": 3
+  },
+  "hosts": [
+    "ab.chatgpt.com",
+    "api.openai.com"
+  ],
+  "status_counts": {
+    "101": 1,
+    "200": 12,
+    "202": 3
+  },
+  "bytes_up": 1306301,
+  "bytes_down": 2583511,
+  "wire_bytes": {
+    "harness_to_proxy": 1000119,
+    "proxy_to_harness": 1485623,
+    "proxy_to_internet": 998860,
+    "internet_to_proxy": 1510491
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 1882,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 15,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

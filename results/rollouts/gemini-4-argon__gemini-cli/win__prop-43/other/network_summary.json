@@ -1,0 +1,53 @@
+{
+  "requests": 21,
+  "requests_per_host": {
+    "generativelanguage.googleapis.com": 21
+  },
+  "hosts": [
+    "generativelanguage.googleapis.com"
+  ],
+  "status_counts": {
+    "200": 20
+  },
+  "bytes_up": 931340,
+  "bytes_down": 109236,
+  "wire_bytes": {
+    "harness_to_proxy": 963216,
+    "proxy_to_harness": 146678,
+    "proxy_to_internet": 958756,
+    "internet_to_proxy": 182851
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "generativelanguage.googleapis.com",
+      "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-4-argon:streamGenerateContent?alt=sse",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [
+    {
+      "process": "node",
+      "operation": "network-outbound",
+      "target": null,
+      "attempts": 8
+    }
+  ],
+  "blocked_attempts": 8,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 15,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "allowed, not recorded"
+}

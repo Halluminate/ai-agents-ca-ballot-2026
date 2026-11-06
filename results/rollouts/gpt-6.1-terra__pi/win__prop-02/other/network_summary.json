@@ -1,0 +1,43 @@
+{
+  "requests": 18,
+  "requests_per_host": {
+    "openrouter.ai": 16,
+    "www.onpointpolitics.us": 1,
+    "cityhallpass.com": 1
+  },
+  "hosts": [
+    "cityhallpass.com",
+    "openrouter.ai",
+    "www.onpointpolitics.us"
+  ],
+  "status_counts": {
+    "200": 18
+  },
+  "bytes_up": 489037,
+  "bytes_down": 271237,
+  "wire_bytes": {
+    "harness_to_proxy": 527467,
+    "proxy_to_harness": 323268,
+    "proxy_to_internet": 521863,
+    "internet_to_proxy": 368076
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 19,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

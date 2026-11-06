@@ -1,0 +1,107 @@
+{
+  "run_id": "sol__native__vote__p39__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "39",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:15:43.154096+00:00",
+  "finished_at": "2026-11-03T13:18:52.662787+00:00",
+  "seconds": 186.9,
+  "input_tokens": 42,
+  "output_tokens": 7870,
+  "cached_tokens": 911426,
+  "cost_usd": 0.6181,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:voterguide.sos.ca.gov \"Proposition 39\" \"2026\" ...",
+    "California Proposition 39 2026 voter ID independent analysis ...",
+    "California proposition 39 2026 court ruling false claims signatures verification save money August ...",
+    "California Proposition 39 2026 voter ID independent analysis CalMatters LAist KQED ...",
+    "site.calmatters.org \"Proposition 39\" \"2026\" voter guide ...",
+    "\"How a stronger voter ID law can alleviate doubts\" California ...",
+    "site.honestelections.org \"Voter ID for Mail Ballots\" rejection ...",
+    "\"Voter ID for Mail Ballots\" \"2024\" ...",
+    "'percentage points'",
+    "\"Voter ID for Mail Ballots\" \"Honest Elections\" report Texas 2024 rejection",
+    "'Abstract'",
+    "'KEY FINDINGS'",
+    "'VI.'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/39/",
+    "https://www.nber.org/papers/w25522",
+    "https://honestelections.org/wp-content/uploads/2024/11/HEP-Voter-ID-for-Mail-Ballots-Report.pdf",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=3019.&lawCode=ELEC",
+    "https://www.nber.org/system/files/working_papers/w25522/w25522.pdf",
+    "https://cris.unibo.it/retrieve/8a6b8238-58d5-456a-b525-e8b87cec2640/20210513_StrictIDlaws_merged_copyright.pdf",
+    "https://calbudgetcenter.org/news/new-analysis-prop-39-would-create-new-barriers-to-voting-for-millions-of-california-voters/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 31,
+    "requests_per_host": {
+      "api.openai.com": 27,
+      "ab.chatgpt.com": 4
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 26,
+      "202": 4
+    },
+    "bytes_up": 1417553,
+    "bytes_down": 3474607,
+    "wire_bytes": {
+      "harness_to_proxy": 1119007,
+      "proxy_to_harness": 2154462,
+      "proxy_to_internet": 1116786,
+      "internet_to_proxy": 2206007
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 3592,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 29,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:15:43.154096+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:15:43.154096+00:00",
+      "finished_at": "2026-11-03T13:18:52.662787+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "run_id": "grok__native__better__p39__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "native",
+  "harness": "grok_build",
+  "effort": "xhigh",
+  "prompt": "better",
+  "prop": "39",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:46:41.707703+00:00",
+  "finished_at": "2026-11-03T12:52:00.565066+00:00",
+  "seconds": 316.3,
+  "input_tokens": 47074,
+  "output_tokens": 7913,
+  "cached_tokens": 39552,
+  "cost_usd": 0.1614,
+  "cost_source": "estimated",
+  "billed_usd": 1.9257279999999999,
+  "searches": [
+    "California Proposition 39 2026 voter ID initiative analysis",
+    "California Prop 39 2026 text of proposed law voter identification",
+    "Texas 2022 mail ballot rejection rate ID number requirement SB1",
+    "voter impersonation fraud rates United States studies Brennan Center Heritage database California",
+    "academic evidence voter ID laws effect on turnout meta analysis 2020 2024",
+    "California 2024 election ballot rejection signature mismatch statistics",
+    "Georgia mail ballot ID number rejection rate 2022 2024 absentee SB202",
+    "California noncitizen voter registration proven cases 2020-2026 scale",
+    "Proposition 39 California 2026 implementation problems cure process analysis CalMatters PPIC Ballotpedia",
+    "last four SSN ballot envelope identity theft risk mail voting ID requirement"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 0,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/39/",
+    "https://voterguide.sos.ca.gov/propositions/39/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/39/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/39/title-summary.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39.pdf"
+  ],
+  "tool_errors": 1,
+  "warnings": [
+    "capture: 27 connection attempts that ignored the proxy were blocked (grok-1.0.70 network-outbound x27)",
+    "capture: 4 connections were not readable by the proxy (openrouter.ai:443)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 27,
+    "requests_per_host": {
+      "openrouter.ai": 21,
+      "voterguide.sos.ca.gov": 4,
+      "vig.cdn.sos.ca.gov": 2
+    },
+    "hosts": [
+      "openrouter.ai",
+      "vig.cdn.sos.ca.gov",
+      "voterguide.sos.ca.gov"
+    ],
+    "status_counts": {
+      "200": 25,
+      "404": 1
+    },
+    "bytes_up": 345857,
+    "bytes_down": 2256992,
+    "wire_bytes": {
+      "harness_to_proxy": 365375,
+      "proxy_to_harness": 2361759,
+      "proxy_to_internet": 362788,
+      "internet_to_proxy": 2380434
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1419,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.2195,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 2069,
+        "bytes_down": 1718,
+        "duration": 0.218,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.2202,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 27
+      }
+    ],
+    "blocked_attempts": 27,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 13,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:46:41.707703+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:46:41.707703+00:00",
+      "finished_at": "2026-11-03T12:52:00.565066+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "run_id": "sol__native__vote__p37__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "37",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:18:17.526952+00:00",
+  "finished_at": "2026-11-03T13:21:37.032467+00:00",
+  "seconds": 197.3,
+  "input_tokens": 51,
+  "output_tokens": 7272,
+  "cached_tokens": 1080685,
+  "cost_usd": 0.6181,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 37 2026 $25 billion new homes mortgage revenue bonds independent analysis ...",
+    "\"Proposition 37\" \"2026\" \"opponents\" ...",
+    "site.lwvc.org \"37\" \"2026\" mortgage ...",
+    "site.lwvc.org \"Proposition 37\" ...",
+    "'51515.06'",
+    "\"Civil Code\" \"2924.13\" \"2026\" ...",
+    "\"Proposition 37\" \"2924.13\" ...",
+    "\"Proposition 37\" \"zombie\" ...",
+    "site.ocregister.com/2026/09/20/endorsement-no-on-proposition-37-a-risky-25-billion-housing-experiment/ ...",
+    "\"Proposition 37\" \"2026\" \"risk\" site.dailynews.com ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/37/",
+    "https://calbudgetcenter.org/resources/will-proposition-37-make-homeownership-more-affordable-its-not-guaranteed/",
+    "https://lwvc.org/ballot-recommendations/",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2924.13.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2924.13.&lawCode=CIV",
+    "https://calmatters.org/california-voter-guide-2026/proposition-37-homebuyers-loan/",
+    "https://consumerwatchdog.org/accountability/our-2026-ca-initiative-picks/",
+    "https://ternercenter.berkeley.edu/research-and-policy/construction-defect-liability/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 30,
+    "requests_per_host": {
+      "api.openai.com": 26,
+      "ab.chatgpt.com": 4
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 25,
+      "202": 4
+    },
+    "bytes_up": 1512382,
+    "bytes_down": 3552898,
+    "wire_bytes": {
+      "harness_to_proxy": 1183587,
+      "proxy_to_harness": 2113914,
+      "proxy_to_internet": 1180973,
+      "internet_to_proxy": 2164356
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 3187,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 28,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:18:17.526952+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:18:17.526952+00:00",
+      "finished_at": "2026-11-03T13:21:37.032467+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

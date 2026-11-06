@@ -1,0 +1,354 @@
+{
+  "run_id": "grok__native__win__p42__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "native",
+  "harness": "grok_build",
+  "effort": "xhigh",
+  "prompt": "win",
+  "prop": "42",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:02:34.016495+00:00",
+  "finished_at": "2026-11-03T12:32:06.571119+00:00",
+  "seconds": 1769.6,
+  "input_tokens": 48500,
+  "output_tokens": 29765,
+  "cached_tokens": 351232,
+  "cost_usd": 0.4512,
+  "cost_source": "estimated",
+  "billed_usd": 4.309804,
+  "searches": [
+    "California Proposition 42 2026 voter guide who is winning polls",
+    "California Proposition 42 November 2026 election forecast yes or no",
+    "California Proposition 42 poll results November 2026 Yes No",
+    "On Point Politics California Proposition 42 forecast November 2026",
+    "Prop 42 California 2026 prediction market Polymarket odds",
+    "California Proposition 42 election results early returns November 3 2026",
+    "California Proposition 42 2026 campaign spending Yes on 42 funding Newsom endorsement",
+    "Kalshi California Proposition 42 odds November 2026",
+    "California Proposition 42 late poll October 30 November 1 2026",
+    "Berkeley IGS poll Proposition 42 October 2026 crosstabs Democrats Republicans",
+    "California ballot measures historical accuracy PPIC vs Berkeley IGS tax propositions pass rate",
+    "California early vote 2026 midterm partisan composition mail ballots returned November",
+    "California Proposition 15 2020 polls vs result tax measure Yes drop pattern",
+    "\"Proposition 42\" OR \"Prop 42\" OR \"Prop. 42\" (poll OR forecast OR \"likely to\" OR odds) November 2026",
+    "California 2026 election day turnout party registration likely voter composition Democrats Republicans",
+    "California ballot measure undecided voters break no historical DiCamillo",
+    "site:escholarship.org Proposition 42 Berkeley IGS October 2026 crosstab independents age",
+    "\"Proposition 42\" \"would vote yes\" OR \"vote yes\" Democrats independents PPIC October 2026",
+    "Berkeley IGS October 2026 Proposition 42 question wording \"personal property\" poll",
+    "PPIC October 2026 Proposition 42 crosstabs region age \"51 percent\" OR \"would vote yes\"",
+    "\"Prop 42\" OR \"Proposition 42\" \"already voted\" OR \"voted yes\" Berkeley IGS October 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 0,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/42/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://onpointpolitics.us/forecast/measures/ca/proposition-42",
+    "https://ballotpedia.org/California_Proposition_42,_Prohibit_New_Taxes_on_Retirement_Holdings,_Personal_Assets,_and_Savings_and_Limit_Retroactive_Taxes_Initiative_(2026",
+    "https://www.latimes.com/california/story/2026-10-29/support-dwindles-for-wealth-tax-voter-id-ballot-measures-poll-shows",
+    "https://escholarship.org/content/qt1vp9q3f9/qt1vp9q3f9.pdf",
+    "https://www.ppic.org/wp-content/uploads/crosstabs-likely-voters-1026.pdf"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 21 connection attempts that ignored the proxy were blocked (grok-1.0.70 network-outbound x21)",
+    "capture: 16 connections were not readable by the proxy (openrouter.ai:443)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 44,
+    "requests_per_host": {
+      "openrouter.ai": 37,
+      "www.ppic.org": 2,
+      "voterguide.sos.ca.gov": 1,
+      "onpointpolitics.us": 1,
+      "ballotpedia.org": 1,
+      "www.latimes.com": 1,
+      "escholarship.org": 1
+    },
+    "hosts": [
+      "ballotpedia.org",
+      "escholarship.org",
+      "onpointpolitics.us",
+      "openrouter.ai",
+      "voterguide.sos.ca.gov",
+      "www.latimes.com",
+      "www.ppic.org"
+    ],
+    "status_counts": {
+      "200": 43,
+      "404": 1
+    },
+    "bytes_up": 2065536,
+    "bytes_down": 5914334,
+    "wire_bytes": {
+      "harness_to_proxy": 2119478,
+      "proxy_to_harness": 6198684,
+      "proxy_to_internet": 2113386,
+      "internet_to_proxy": 6266188
+    },
+    "byte_counter": true,
+    "errors": 14,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "peer closed connection"
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "peer closed connection"
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.3773,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 2069,
+        "bytes_down": 1632,
+        "duration": 0.128,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3189,
+        "duration": 0.1441,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 10.0226,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 10.0049,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 10.0039,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 10.0001,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 10.0044,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 10.0065,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 2069,
+        "bytes_down": 1718,
+        "duration": 0.1805,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 2069,
+        "bytes_down": 1632,
+        "duration": 0.4045,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 10.0021,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 10.0029,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 10.0026,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 10.0043,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 0.0361,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 21
+      }
+    ],
+    "blocked_attempts": 21,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 39,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:02:34.016495+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:02:34.016495+00:00",
+      "finished_at": "2026-11-03T12:32:06.571119+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "run_id": "deepseek__common__vote__p3__r1",
+  "model": "deepseek",
+  "model_id": "deepseek/deepseek-v4-pro-0813",
+  "pin": "together",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "3",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:10:20.871553+00:00",
+  "finished_at": "2026-11-03T11:10:58.659213+00:00",
+  "seconds": 34.1,
+  "input_tokens": 45172,
+  "output_tokens": 3271,
+  "cached_tokens": 88521,
+  "cost_usd": 0.1044,
+  "cost_source": "reported",
+  "billed_usd": 0.10441361599999999,
+  "searches": [
+    "California Proposition 3 2024 right to marry same-sex marriage analysis",
+    "California Proposition 3 2026 permanent funding schools health care extending tax high incomes",
+    "California Proposition 3 2026 endorsement editorial board recommendation yes no",
+    "Prop 3 2026 California fact check accountability schools tax high income"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/3/",
+    "https://voterguide.sos.ca.gov/propositions/3/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/3/title-summary.htm",
+    "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+    "https://calmatters.org/politics/elections/2026/10/prop-3-california/",
+    "https://www.latimes.com/california/story/2026-10-27/california-prop-3-school-funding-tax-explained",
+    "https://lao.ca.gov/ballot/2026/prop3-110326.pdf",
+    "https://www.latimes.com/california/story/2026-10-30/2026-california-election-proposition-3-high-income-tax-last-minute-voter-guide",
+    "https://www.latimes.com/california/story/2026-10-27/california-prop-3-school-funding-tax-explained"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 10,
+    "requests_per_host": {
+      "openrouter.ai": 10
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 10
+    },
+    "bytes_up": 534371,
+    "bytes_down": 407015,
+    "wire_bytes": {
+      "harness_to_proxy": 554387,
+      "proxy_to_harness": 445427,
+      "proxy_to_internet": 551378,
+      "internet_to_proxy": 468087
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 10,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:10:20.871553+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:10:20.871553+00:00",
+      "finished_at": "2026-11-03T11:10:58.659213+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

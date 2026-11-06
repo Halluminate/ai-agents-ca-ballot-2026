@@ -1,0 +1,78 @@
+{
+  "run_id": "grok__common__win__p39__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "39",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:41:38.842802+00:00",
+  "seconds": 28.9,
+  "input_tokens": 27910,
+  "output_tokens": 1295,
+  "cached_tokens": 3968,
+  "cost_usd": 0.0758,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 39 voter guide which side more likely to win",
+    "California Proposition 39 2026 latest poll results election night November"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/39/",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_39",
+    "https://onpointpolitics.us/forecast/measures/ca/proposition-39"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 6,
+    "requests_per_host": {
+      "openrouter.ai": 5,
+      "onpointpolitics.us": 1
+    },
+    "hosts": [
+      "onpointpolitics.us",
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 6
+    },
+    "bytes_up": 109716,
+    "bytes_down": 115855,
+    "wire_bytes": {
+      "harness_to_proxy": 122145,
+      "proxy_to_harness": 135340,
+      "proxy_to_internet": 120528,
+      "internet_to_proxy": 149374
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 7,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

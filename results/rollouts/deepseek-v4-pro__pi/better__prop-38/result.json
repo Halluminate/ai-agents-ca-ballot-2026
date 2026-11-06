@@ -1,0 +1,90 @@
+{
+  "run_id": "deepseek__common__better__p38__r1",
+  "model": "deepseek",
+  "model_id": "deepseek/deepseek-v4-pro-0813",
+  "pin": "together",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:58:06.116081+00:00",
+  "finished_at": "2026-11-03T10:58:33.577934+00:00",
+  "seconds": 24.2,
+  "input_tokens": 23579,
+  "output_tokens": 1136,
+  "cached_tokens": 38434,
+  "cost_usd": 0.0559,
+  "cost_source": "reported",
+  "billed_usd": 0.055872562720000005,
+  "searches": [
+    "California Proposition 38 pros and cons analysis",
+    "CalMatters Proposition 38 California Institute for Immunology Immunotherapy investigation",
+    "Proposition 38 California 2026 endorsements yes no editorial boards"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/38/",
+    "https://www.lao.ca.gov/BallotAnalysis/Proposition?number=38&year=2026",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-38-money-california-22453646.php",
+    "https://calmatters.org/california-voter-guide-2026/proposition-38-research-bond/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 8,
+    "requests_per_host": {
+      "openrouter.ai": 8
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 8
+    },
+    "bytes_up": 269289,
+    "bytes_down": 161849,
+    "wire_bytes": {
+      "harness_to_proxy": 281979,
+      "proxy_to_harness": 187810,
+      "proxy_to_internet": 280725,
+      "internet_to_proxy": 198830
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 7,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:58:06.116081+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:58:06.116081+00:00",
+      "finished_at": "2026-11-03T10:58:33.577934+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

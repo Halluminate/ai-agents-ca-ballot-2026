@@ -1,0 +1,69 @@
+{
+  "requests": 72,
+  "requests_per_host": {
+    "openrouter.ai": 60,
+    "www.sfelections.org": 2,
+    "escholarship.org": 2,
+    "cityhallpass.com": 1,
+    "apnews.com": 1,
+    "electionresults.sos.ca.gov": 1,
+    "kalshi.com": 1,
+    "www.nytimes.com": 1,
+    "finance.yahoo.com": 1,
+    "en.wikipedia.org": 1,
+    "www.seattletimes.com": 1
+  },
+  "hosts": [
+    "apnews.com",
+    "cityhallpass.com",
+    "electionresults.sos.ca.gov",
+    "en.wikipedia.org",
+    "escholarship.org",
+    "finance.yahoo.com",
+    "kalshi.com",
+    "openrouter.ai",
+    "www.nytimes.com",
+    "www.seattletimes.com",
+    "www.sfelections.org"
+  ],
+  "status_counts": {
+    "200": 65,
+    "403": 5,
+    "404": 1,
+    "429": 1
+  },
+  "bytes_up": 12092027,
+  "bytes_down": 823248,
+  "wire_bytes": {
+    "harness_to_proxy": 12203708,
+    "proxy_to_harness": 999564,
+    "proxy_to_internet": 12191915,
+    "internet_to_proxy": 1105632
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/economy/policy/articles/tax-top-fix-housing-back-144800471.html",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 46,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

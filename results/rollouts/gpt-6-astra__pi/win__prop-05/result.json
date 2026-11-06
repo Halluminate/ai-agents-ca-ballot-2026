@@ -1,0 +1,112 @@
+{
+  "run_id": "gpt__common__win__p5__r1",
+  "model": "gpt",
+  "model_id": "openai/gpt-6-astra",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "5",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:05:25.880676+00:00",
+  "seconds": 49.0,
+  "input_tokens": 83419,
+  "output_tokens": 1704,
+  "cached_tokens": 113451,
+  "cost_usd": 1.2762,
+  "cost_source": "reported",
+  "searches": [
+    "California 2026 recall reform SCA 1 Newman poll voters replacement election",
+    "California 2026 Proposition 5 recall election process polling yes no",
+    "\"Proposition 5\" \"2026\" \"recall\" \"Berkeley\" poll",
+    "\"Proposition 5\" \"2026\" \"poll\" \"October\"",
+    "site.ppic.org 2026 September Proposition 5 35 59 recall",
+    "\"Proposition 5\" \"2026\" \"poll\" \"November\" recall",
+    "\"Prop. 5\" \"2026\" \"52\" \"45\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/5/",
+    "https://voterguide.sos.ca.gov/propositions/5/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/5/arguments-rebuttals.htm",
+    "https://fixtherecall.com/",
+    "https://www.ijpr.org/politics-government/2026-10-05/democrats-want-to-change-the-rules-for-california-recall-elections-voters-get-their-say-with-prop-5",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-5-sca-1-newman-elections-recall-state-officers-res-ch-204-2024",
+    "https://www.cbsnews.com/sacramento/news/california-proposition-5-recall-reform-what-to-know/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-5",
+    "https://www.ijpr.org/politics-government/2026-10-05/democrats-want-to-change-the-rules-for-california-recall-elections-voters-get-their-say-with-prop-5",
+    "https://onpointpolitics.us/forecast/measures/ca/proposition-5",
+    "https://calmatters.org/california-voter-guide-2026/proposition-5-recall-reform/",
+    "https://ballotpedia.org/California_Proposition_5,_Eliminate_State_Officer_Recall_Successor_Elections_Amendment_(2026",
+    "https://www.politico.com/newsletters/california-playbook-pm/2026/10/05/californias-orphaned-ballot-measures-01107257",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.mercurynews.com/2026/11/02/we-asked-the-yes-on-prop-5-campaign-why-voters-should-approve-the-measure/"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "warning: reasoning was not replayed on an assistant turn"
+  ],
+  "network": {
+    "requests": 17,
+    "requests_per_host": {
+      "openrouter.ai": 13,
+      "www.cbsnews.com": 1,
+      "onpointpolitics.us": 1,
+      "calmatters.org": 1,
+      "www.mercurynews.com": 1
+    },
+    "hosts": [
+      "calmatters.org",
+      "onpointpolitics.us",
+      "openrouter.ai",
+      "www.cbsnews.com",
+      "www.mercurynews.com"
+    ],
+    "status_counts": {
+      "200": 17
+    },
+    "bytes_up": 870120,
+    "bytes_down": 563460,
+    "wire_bytes": {
+      "harness_to_proxy": 904524,
+      "proxy_to_harness": 612858,
+      "proxy_to_internet": 899911,
+      "internet_to_proxy": 654586
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 17,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

@@ -1,0 +1,102 @@
+{
+  "run_id": "qwen-max__common__win__p4__r1",
+  "model": "qwen-max",
+  "model_id": "qwen/qwen3.8-max-0902",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:07:35.022134+00:00",
+  "finished_at": "2026-11-03T11:09:22.645718+00:00",
+  "seconds": 104.9,
+  "input_tokens": 41386,
+  "output_tokens": 2068,
+  "cached_tokens": 90368,
+  "cost_usd": 0.1685,
+  "cost_source": "reported",
+  "billed_usd": 0.16845358608000002,
+  "searches": [
+    "California Proposition 4 2024 climate bonds poll yes no",
+    "California Proposition 4 2026 public financing campaigns repeal proposition ballot",
+    "\"2026\" California ballot measure public financing of campaigns legislature AB 1659 repeal Prop 34",
+    "California Proposition 4 poll 2026 public campaign financing likely voters yes no percent",
+    "PPIC poll October 2026 California propositions Prop 4 public financing",
+    "\"Prop 4\" California November 2026 predictions forecast pass fail public campaign financing analysis",
+    "California propositions November 2026 which are expected to pass projected Prop 4 Prop 5 likely to fail",
+    "Prop 4 California 2026 campaign funds raised \"yes on 4\" \"no on 4\" million advertising",
+    "\"Proposition 4\" California 2026 news November 1 2 2026 polling trailing expected to fail",
+    "Berkeley IGS poll November 2026 final proposition 4 public financing yes no"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 17,
+    "requests_per_host": {
+      "openrouter.ai": 17
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 17
+    },
+    "bytes_up": 539866,
+    "bytes_down": 306180,
+    "wire_bytes": {
+      "harness_to_proxy": 577067,
+      "proxy_to_harness": 360585,
+      "proxy_to_internet": 571109,
+      "internet_to_proxy": 404319
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 18,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:07:35.022134+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:07:35.022134+00:00",
+      "finished_at": "2026-11-03T11:09:22.645718+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

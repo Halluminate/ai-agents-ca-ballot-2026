@@ -1,0 +1,93 @@
+{
+  "run_id": "luna__common__win__p5__r1",
+  "model": "luna",
+  "model_id": "openai/gpt-6-luna",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "5",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:12:10.489628+00:00",
+  "finished_at": "2026-11-03T13:12:31.877804+00:00",
+  "seconds": 18.4,
+  "input_tokens": 8226,
+  "output_tokens": 652,
+  "cached_tokens": 4056,
+  "cost_usd": 0.0065,
+  "cost_source": "reported",
+  "billed_usd": 0.00648719,
+  "searches": [
+    "California Proposition 5 2024 election results official yes no vote"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/65-official-dec-vote-results-bm.pdf",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=5&year=2024",
+    "https://vigarchive.sos.ca.gov/2024/general/propositions/5/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 7,
+    "requests_per_host": {
+      "openrouter.ai": 4,
+      "elections.cdn.sos.ca.gov": 1,
+      "lao.ca.gov": 1,
+      "vigarchive.sos.ca.gov": 1
+    },
+    "hosts": [
+      "elections.cdn.sos.ca.gov",
+      "lao.ca.gov",
+      "openrouter.ai",
+      "vigarchive.sos.ca.gov"
+    ],
+    "status_counts": {
+      "200": 7
+    },
+    "bytes_up": 60754,
+    "bytes_down": 206119,
+    "wire_bytes": {
+      "harness_to_proxy": 74732,
+      "proxy_to_harness": 232169,
+      "proxy_to_internet": 73178,
+      "internet_to_proxy": 246369
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 8,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:12:10.489628+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:12:10.489628+00:00",
+      "finished_at": "2026-11-03T13:12:31.877804+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

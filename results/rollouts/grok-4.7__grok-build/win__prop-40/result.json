@@ -1,0 +1,135 @@
+{
+  "run_id": "grok__native__win__p40__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "native",
+  "harness": "grok_build",
+  "effort": "xhigh",
+  "prompt": "win",
+  "prop": "40",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:54:28.055023+00:00",
+  "finished_at": "2026-11-03T12:58:25.231813+00:00",
+  "seconds": 234.9,
+  "input_tokens": 76802,
+  "output_tokens": 4151,
+  "cached_tokens": 39680,
+  "cost_usd": 0.1983,
+  "cost_source": "estimated",
+  "billed_usd": 1.841524,
+  "searches": [
+    "California Proposition 40 2026 voter guide who is winning polls",
+    "California Proposition 40 2026 latest poll PPIC Berkeley IGS Yes No",
+    "California Prop 40 campaign spending Yes on 40 No on 40 2026",
+    "California Prop 40 November 2026 forecast prediction likely to pass or fail",
+    "California Proposition 40 early results November 3 2026",
+    "PPIC October 2026 Proposition 40 poll full results",
+    "California Proposition 40 newspaper endorsements editorial boards Yes No 2026",
+    "California Secretary of State 2026 ballot measure contribution totals Proposition 40",
+    "California billionaire tax Prop 40 Sergey Brin spending Newsom opposition November 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 0,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/40/",
+    "https://voterguide.sos.ca.gov/propositions/40/analysis.htm",
+    "https://ballotpedia.org/California_Proposition_40,_One-Time_Wealth_Tax_for_State-Funded_Healthcare,_Education,_and_Food_Assistance_Programs_Initiative_(2026",
+    "https://www.latimes.com/california/story/2026-10-29/support-dwindles-for-wealth-tax-voter-id-ballot-measures-poll-shows",
+    "https://www.ppic.org/press-release/californians-head-to-polls-in-historically-sour-mood-billionaire-wealth-tax-slips-below-majority-support/"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 14 connection attempts that ignored the proxy were blocked (grok-1.0.70 network-outbound x14)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 24,
+    "requests_per_host": {
+      "openrouter.ai": 19,
+      "voterguide.sos.ca.gov": 2,
+      "ballotpedia.org": 1,
+      "www.latimes.com": 1,
+      "www.ppic.org": 1
+    },
+    "hosts": [
+      "ballotpedia.org",
+      "openrouter.ai",
+      "voterguide.sos.ca.gov",
+      "www.latimes.com",
+      "www.ppic.org"
+    ],
+    "status_counts": {
+      "200": 22,
+      "404": 1
+    },
+    "bytes_up": 437475,
+    "bytes_down": 1605943,
+    "wire_bytes": {
+      "harness_to_proxy": 451950,
+      "proxy_to_harness": 1669491,
+      "proxy_to_internet": 450517,
+      "internet_to_proxy": 1693922
+    },
+    "byte_counter": true,
+    "errors": 3,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 14
+      }
+    ],
+    "blocked_attempts": 14,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 10,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:54:28.055023+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:54:28.055023+00:00",
+      "finished_at": "2026-11-03T12:58:25.231813+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

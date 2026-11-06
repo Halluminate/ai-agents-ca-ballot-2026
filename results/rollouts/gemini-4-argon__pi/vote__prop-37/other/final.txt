@@ -1,0 +1,31 @@
+Because deciding how to vote on a ballot measure depends on your personal priorities and views on housing and fiscal policy, I cannot give a simple "yes" or "no" recommendation. Below is a breakdown of what **California Proposition 37** (*Creates Loan Program for Middle-Income Buyers of Qualified New Homes*) would do, along with the main arguments for and against it, so you can decide which choice aligns best with your priorities.
+
+---
+
+### What Proposition 37 Does
+* **Down Payment Loan Program:** Authorizes the California Housing Finance Agency (CalHFA) to issue up to **$25 billion in revenue bonds** to offer fixed-rate second mortgages covering up to **17%** of the purchase price of a newly built home (or a unit converted from a nonresidential building).
+* **Buyer & Home Eligibility:** Buyers must put down at least **3%** from their own funds, have lived in California for at least one year, occupy the home as their primary residence, and earn no more than **200% of the Area Median Income (AMI)**. Buyers do not need to be first-time homebuyers. Eligible home prices are capped at 125% of the county's federal conforming loan limit (roughly **$1.04 million to $1.56 million** in 2026, depending on the county).
+* **Fiscal Impact:** Because the revenue bonds are repaid through participating homeowners' monthly payments on their second mortgages rather than the state General Fund, the Legislative Analyst's Office (LAO) concluded the measure has **no direct state or local taxpayer costs**.
+* **Builder Option & Legal Rules:** Developers can opt into a "qualified builder" track that requires higher labor standards in exchange for modified construction-defect pre-litigation rules. The measure also caps borrower origination fees at 0.5%, caps plaintiffs' attorney contingency fees in defect cases at 30%, and exempts the program's loans from a 2025 state foreclosure-protection statute governing subordinate mortgages.
+
+---
+
+### Reasons to Vote YES
+* **Reduces Upfront Down Payment Barriers:** In California's expensive housing market, saving a 20% down payment is a major obstacle for middle-income earners who make too much to qualify for low-income assistance. Pairing a 3% cash down payment with a 17% state loan allows buyers to reach the 20% threshold and avoid paying private mortgage insurance (PMI).
+* **No Direct Cost to Taxpayers:** The program is financed by private bond investors and repaid by the borrowers who use the loans, rather than through tax increases or General Fund spending.
+* **Tied to New Housing Supply:** By limiting eligible purchases to newly constructed or newly converted homes, proponents argue the program will stimulate homebuilding and support construction jobs.
+* **Notable Supporters:** California Democratic Party, Gov. Gavin Newsom, State Treasurer Fiona Ma, State Controller Malia Cohen, California Association of Realtors, California Conference of Carpenters, United Nurses Associations of California, and the editorial boards of *The Sacramento Bee* and the *San Francisco Chronicle*.
+
+---
+
+### Reasons to Vote NO
+* **Creates a Second Monthly Mortgage Payment:** Unlike existing CalHFA down payment programs (*MyHome* and *Dream For All*), which defer repayment until the home is sold or refinanced, Prop. 37 loans require ongoing monthly payments to pay back bondholders. Analysts at the California Budget & Policy Center note that because second mortgages carry higher default risk for investors, the interest rates on these loans are not guaranteed to be below market rates and could strain family budgets.
+* **Does Not Lower Underlying Housing Costs:** Critics argue that subsidizing buyer demand without addressing the root causes of high housing costs may inflate home prices further and encourage buyers to take on more debt than they can safely afford—especially since newly built homes often come with HOA fees, Mello-Roos tax assessments, and high wildfire insurance costs.
+* **Targeting and Sprawl Concerns:** Because the program allows household incomes up to 200% of AMI and does not require applicants to be first-time buyers, critics argue benefits may skew toward higher-income households who already own homes. Additionally, restricting loans to new construction could incentivize suburban sprawl over urban infill.
+* **Notable Opponents:** While no formal opposition argument was submitted for the official state voter guide, the measure is opposed by the League of Women Voters of California, Reform California, and the editorial boards of *The San Diego Union-Tribune*, *The Orange County Register*, and *The Mercury News*.
+
+---
+
+### Summary
+* Vote **YES** if you believe the state should use self-financing revenue bonds to help middle-income buyers cover down payments on newly built homes without direct taxpayer cost.
+* Vote **NO** if you believe the state should not facilitate additional monthly mortgage debt for homebuyers, or if you think the program is poorly targeted and fails to address the root causes of housing unaffordability.

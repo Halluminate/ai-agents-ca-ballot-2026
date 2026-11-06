@@ -1,0 +1,94 @@
+{
+  "run_id": "gemini__native__better__p42__r1",
+  "model": "gemini",
+  "model_id": "gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "native",
+  "harness": "gemini_cli",
+  "effort": "high",
+  "prompt": "better",
+  "prop": "42",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T11:01:44.026633+00:00",
+  "finished_at": "2026-11-03T11:02:07.577541+00:00",
+  "seconds": 21.7,
+  "input_tokens": 7657,
+  "output_tokens": 6255,
+  "cached_tokens": 9290,
+  "cost_usd": 0.0364,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/42/"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.",
+    "capture: 1 connection attempts that ignored the proxy were blocked (node network-outbound x1)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 3,
+    "requests_per_host": {
+      "generativelanguage.googleapis.com": 3
+    },
+    "hosts": [
+      "generativelanguage.googleapis.com"
+    ],
+    "status_counts": {
+      "200": 3
+    },
+    "bytes_up": 73255,
+    "bytes_down": 8053,
+    "wire_bytes": {
+      "harness_to_proxy": 75520,
+      "proxy_to_harness": 12232,
+      "proxy_to_internet": 75428,
+      "internet_to_proxy": 13462
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "node",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 1,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 2,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:01:44.026633+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:01:44.026633+00:00",
+      "finished_at": "2026-11-03T11:02:07.577541+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

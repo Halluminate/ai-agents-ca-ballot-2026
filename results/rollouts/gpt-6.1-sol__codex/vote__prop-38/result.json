@@ -1,0 +1,107 @@
+{
+  "run_id": "sol__native__vote__p38__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:16:56.857989+00:00",
+  "finished_at": "2026-11-03T13:20:22.021870+00:00",
+  "seconds": 202.2,
+  "input_tokens": 48,
+  "output_tokens": 7719,
+  "cached_tokens": 1083194,
+  "cost_usd": 0.6621,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 38 2026 immunology 8.4 billion analysis ...",
+    "site.lao.ca.gov 2026 immunology immunotherapy 25-0026 ...",
+    "\"site:aai.org\" \"38\" \"California\" ...",
+    "American Association Immunologists Proposition 38 endorsement statement 2026 ...",
+    "site.cirm.ca.gov 2026 royalty revenue 2025 annual report state general fund ...",
+    "CIRM \"royalties\" \"2025\" ...",
+    "NIH research funding California 2026 grants restored funding cuts October 2026 ...",
+    "site.laopinion.com \"38\" \"2026\" \"Proposici\u00f3n\" ...",
+    "'Licensing fees'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/38/",
+    "https://calmatters.org/politics/elections/2026/10/prop-38-california/",
+    "https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm",
+    "https://calmatters.org/politics/elections/2026/07/proposition-38-california/",
+    "https://yeson38.com/",
+    "https://www.kqed.org/voterguide/california/proposition-38",
+    "https://lao.ca.gov/ballot/2025/250488.pdf",
+    "https://www.calimmunology.org/",
+    "https://news.aai.org/2026/06/25/aai-backs-california-immunology-medical-research-cures-initiative/",
+    "https://www.cirm.ca.gov/wp-content/uploads/2026/01/15a.-20260129-FY-23-24-Financial-Audit-Report-ICOC-updated-260122.pdf",
+    "https://www.lao.ca.gov/Publications/Report/5197"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 32,
+    "requests_per_host": {
+      "api.openai.com": 28,
+      "ab.chatgpt.com": 4
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 27,
+      "202": 4
+    },
+    "bytes_up": 1589840,
+    "bytes_down": 3761017,
+    "wire_bytes": {
+      "harness_to_proxy": 1207033,
+      "proxy_to_harness": 2377033,
+      "proxy_to_internet": 1203792,
+      "internet_to_proxy": 2433042
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 3267,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 30,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:16:56.857989+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:16:56.857989+00:00",
+      "finished_at": "2026-11-03T13:20:22.021870+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

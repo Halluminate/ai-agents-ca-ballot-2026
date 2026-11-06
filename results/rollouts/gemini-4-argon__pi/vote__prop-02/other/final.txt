@@ -1,0 +1,37 @@
+I cannot tell you how to vote or answer with a simple "yes" or "no." Deciding how to vote on a ballot measure depends on your personal priorities and views on state fiscal policy. Below is a summary of what **California Proposition 2** (*Increases State’s Rainy Day Fund. Legislative Constitutional Amendment.*) would do, along with the main arguments for and against it from the Official Voter Information Guide, to help you make your own decision.
+
+---
+
+### What Proposition 2 Does
+Placed on the ballot by the Legislature (ACA 20), Proposition 2 amends the California Constitution to change the rules governing state budget reserves, debt payments, and the state spending limit:
+
+* **Doubles the Rainy Day Fund Cap:** Increases the maximum required balance of the state's main Rainy Day Fund (the Budget Stabilization Account) from **10% to 20%** of General Fund tax revenues, and requires larger deposits in years when tax revenues from capital/investment gains are unusually high.
+* **Extends and Expands Extra Debt Payments:** Extends the requirement for the state to make annual extra debt payments from **2030 through 2040**. In addition to paying down long-term state employee pension and retiree health liabilities, the measure expands the allowed uses of these payments to include required funding for schools and community colleges, repaying internal borrowing from other state funds, and repaying certain federal loans.
+* **Changes State Appropriations Limit Accounting:** Currently, money deposited into reserves counts toward California's constitutional spending limit (the "Gann Limit") at the time it is deposited. Under Proposition 2, deposits into the Rainy Day Fund—as well as deposits into a separate account for surging revenues (up to 10% of General Fund taxes per year)—would **not** count toward the spending limit when deposited, and would instead count only when withdrawn and spent.
+
+---
+
+### Fiscal Impact
+According to the nonpartisan Legislative Analyst’s Office (LAO):
+* **Higher State Reserves:** Requiring deposits until the Rainy Day Fund reaches 20% of General Fund taxes (and requiring larger deposits during revenue surges) would result in the state holding higher budget reserves over time, making it easier to balance the budget during economic downturns.
+* **Potentially Higher Debt Payments:** Extending mandatory extra debt payments through 2040 could result in the state paying down more debt than it otherwise would under current law.
+
+---
+
+### Arguments in Favor (Vote YES)
+Supporters—including Governor Gavin Newsom, Assembly Budget Chair Jesse Gabriel, the California Professional Firefighters, the Los Angeles Area Chamber of Commerce, the California Hospital Association, and education leaders—argue that Proposition 2:
+* **Mitigates "Boom-and-Bust" Budget Cycles:** California relies heavily on volatile income and capital gains taxes, which recently swung the state budget from a $100 billion surplus to a $50 billion deficit. Doubling the reserve cap to 20% builds a larger cushion for recessions.
+* **Curbs Unsustainable Spending:** Requiring the state to save a larger share of tax windfalls during economic booms prevents lawmakers from committing temporary revenue spikes to new ongoing programs that cannot be sustained.
+* **Protects Core Services During Downturns:** Having larger reserves helps prevent sudden cuts to K–12 schools, community colleges, Medi-Cal, healthcare clinics, and public safety when tax revenues drop or federal funding is reduced.
+
+### Arguments Against (Vote NO)
+Opponents—including Assembly Budget Vice Chair David Tangipa, State Senator Steven Choi, and Reform California—argue that Proposition 2:
+* **Weakens the Constitutional Spending Limit and Reduces Taxpayer Rebates:** Under California's constitution, tax revenues collected above the state appropriations limit must be partially returned to taxpayers as rebates (alongside extra school funding). Excluding reserve deposits from the spending limit makes it much less likely that the limit will be triggered and that taxpayers will receive rebates.
+* **Does Not Guarantee New Funding for Core Services:** The measure does not dedicate new funding to schools, healthcare, or public safety, leaving spending decisions in the hands of lawmakers when funds are eventually withdrawn.
+* **Lacks True Fiscal Discipline:** Opponents contend that lawmakers already have tools to save money and point out that the Legislature voted to suspend more than $5 billion in required reserve deposits at the same time it placed Proposition 2 on the ballot.
+
+---
+
+### Summary of Your Choices
+* **Vote YES** if you want the state constitution to require a larger Rainy Day Fund (up to 20% of General Fund revenues), extend mandatory extra debt payments through 2040, and count reserve funds toward the state spending limit when they are withdrawn rather than when they are deposited.
+* **Vote NO** if you want to keep the current constitutional rules—maintaining the 10% Rainy Day Fund cap, ending mandatory extra debt payments after 2030, and continuing to count reserve deposits toward the state spending limit when deposited (preserving the current threshold for potential taxpayer rebates).

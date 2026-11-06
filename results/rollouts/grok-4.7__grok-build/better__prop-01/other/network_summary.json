@@ -1,0 +1,337 @@
+{
+  "requests": 52,
+  "requests_per_host": {
+    "openrouter.ai": 32,
+    "voterguide.sos.ca.gov": 5,
+    "calmatters.org": 4,
+    "leginfo.legislature.ca.gov": 3,
+    "lao.ca.gov": 2,
+    "vig.cdn.sos.ca.gov": 1,
+    "www.sos.ca.gov": 1,
+    "yesonprop1ca.com": 1,
+    "ballotpedia.org": 1,
+    "www.ppic.org": 1,
+    "www.sacbee.com": 1
+  },
+  "hosts": [
+    "ballotpedia.org",
+    "calmatters.org",
+    "lao.ca.gov",
+    "leginfo.legislature.ca.gov",
+    "openrouter.ai",
+    "vig.cdn.sos.ca.gov",
+    "voterguide.sos.ca.gov",
+    "www.ppic.org",
+    "www.sacbee.com",
+    "www.sos.ca.gov",
+    "yesonprop1ca.com"
+  ],
+  "status_counts": {
+    "200": 38,
+    "404": 3
+  },
+  "bytes_up": 994761,
+  "bytes_down": 2750084,
+  "wire_bytes": {
+    "harness_to_proxy": 1067458,
+    "proxy_to_harness": 2941735,
+    "proxy_to_internet": 1059042,
+    "internet_to_proxy": 3021938
+  },
+  "byte_counter": true,
+  "errors": 17,
+  "error_details": [
+    {
+      "kind": "connect_error",
+      "host": "openrouter.ai",
+      "error": null
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/",
+      "error": "stream reset by client (CANCEL)"
+    },
+    {
+      "kind": "tls_failed_server",
+      "host": "openrouter.ai",
+      "sni": "openrouter.ai",
+      "error": "connection closed"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/responses",
+      "error": "connection closed"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "stream reset by client (PROTOCOL_ERROR)"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/responses",
+      "error": "connection closed"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/responses",
+      "error": "connection closed"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "stream reset by client (CANCEL)"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/responses",
+      "error": "connection closed"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/responses",
+      "error": "connection closed"
+    },
+    {
+      "kind": "connect_error",
+      "host": "www.howardjarvis.org",
+      "error": null
+    },
+    {
+      "kind": "http",
+      "host": "www.ppic.org",
+      "url": "https://www.ppic.org/blog/proposition-1-housing-bond/",
+      "error": "peer closed connection"
+    },
+    {
+      "kind": "http",
+      "host": "leginfo.legislature.ca.gov",
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB417",
+      "error": "peer closed connection"
+    },
+    {
+      "kind": "http",
+      "host": "www.sacbee.com",
+      "url": "https://www.sacbee.com/news/politics-government/election/article/california-proposition-1-housing-bond-2026/",
+      "error": "stream reset by client (INTERNAL_ERROR)"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "stream reset by client (PROTOCOL_ERROR)"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "stream reset by client (CANCEL)"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "stream reset by client (CANCEL)"
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 111,
+      "bytes_down": 0,
+      "duration": 0.3899,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 2069,
+      "bytes_down": 1718,
+      "duration": 2.376,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 2069,
+      "bytes_down": 1718,
+      "duration": 2.3384,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "www.howardjarvis.org",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 77,
+      "bytes_down": 0,
+      "duration": 10.0012,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "calmatters.org",
+      "port": 443,
+      "sni": "calmatters.org",
+      "bytes_up": 1805,
+      "bytes_down": 3200,
+      "duration": 1.9589,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 2069,
+      "bytes_down": 1718,
+      "duration": 1.7166,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3275,
+      "duration": 1.7204,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "calmatters.org",
+      "port": 443,
+      "sni": "calmatters.org",
+      "bytes_up": 1805,
+      "bytes_down": 3200,
+      "duration": 3.9403,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "leginfo.legislature.ca.gov",
+      "port": 443,
+      "sni": "leginfo.legislature.ca.gov",
+      "bytes_up": 1841,
+      "bytes_down": 3328,
+      "duration": 2.9035,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3275,
+      "duration": 0.2702,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3275,
+      "duration": 0.133,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3275,
+      "duration": 0.1312,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3275,
+      "duration": 0.1279,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "voterguide.sos.ca.gov",
+      "port": 443,
+      "sni": "voterguide.sos.ca.gov",
+      "bytes_up": 1569,
+      "bytes_down": 39,
+      "duration": 597.4739,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "calmatters.org",
+      "port": 443,
+      "sni": "calmatters.org",
+      "bytes_up": 1548,
+      "bytes_down": 39,
+      "duration": 476.8658,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "reason.org",
+      "port": 443,
+      "sni": "reason.org",
+      "bytes_up": 1536,
+      "bytes_down": 39,
+      "duration": 474.7383,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "ballotpedia.org",
+      "port": 443,
+      "sni": "ballotpedia.org",
+      "bytes_up": 1551,
+      "bytes_down": 39,
+      "duration": 448.8882,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "www.latimes.com",
+      "port": 443,
+      "sni": "www.latimes.com",
+      "bytes_up": 1551,
+      "bytes_down": 39,
+      "duration": 448.884,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [
+    {
+      "process": "grok-1.0.70",
+      "operation": "network-outbound",
+      "target": null,
+      "attempts": 60
+    },
+    {
+      "process": "grok-1.0.70",
+      "operation": "network-outbound",
+      "target": "remote:*:49478",
+      "attempts": 1
+    }
+  ],
+  "blocked_attempts": 61,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 44,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "allowed, not recorded"
+}

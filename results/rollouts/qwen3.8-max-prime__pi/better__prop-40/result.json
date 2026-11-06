@@ -1,0 +1,146 @@
+{
+  "run_id": "qwen-max-prime__common__better__p40__r1",
+  "model": "qwen-max-prime",
+  "model_id": "qwen/qwen3.8-max-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "40",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:59:27.138846+00:00",
+  "finished_at": "2026-11-03T13:04:47.149306+00:00",
+  "seconds": 316.6,
+  "input_tokens": 144376,
+  "output_tokens": 14835,
+  "cached_tokens": 1368064,
+  "cost_usd": 1.5208,
+  "cost_source": "reported",
+  "billed_usd": 2.529933993880001,
+  "searches": [
+    "California Proposition 40 voter guide sos.ca.gov",
+    "\"Prop 40\" California 2026 billionaire tax SEIU-UHW news analysis",
+    "Proposition 40 2026 California billionaire tax poll",
+    "Proposition 40 editorial board recommendation LA Times SF Chronicle Sacramento Bee billionaire tax 2026",
+    "Proposition 40 billionaire tax legal analysis constitutional retroactive lawsuit 2026",
+    "economists letter opposing California Proposition 40 wealth tax 2026 signed",
+    "Proposition 40 billionaire tax November 2026 latest news court ruling lawsuit Newsom opposition",
+    "California state budget 2026-27 deficit Medi-Cal federal cuts how state responding hospitals closing",
+    "LA Times editorial board recommendation Proposition 40 billionaire tax October 2026",
+    "Proposition 3 2026 California make millionaire tax permanent LAO revenue estimate",
+    "Jon Hartley economists letter opposing Proposition 40 signatories Nobel laureates list",
+    "\"A Wealth Tax Would Harm California\" Tyson Mendonca Project Syndicate Proposition 40",
+    "Prop 40 billionaire tax \"vote no\" analysis experts flaws one-time revenue cliff Prop 98 exemption accountability",
+    "SEIU-UHW extortion abuse allegations Proposition 40 billionaire tax union",
+    "\"Proposition 40\" text \"two-thirds\" legislature amend \"consistent with and furthers the purposes\" audit accountability provisions",
+    "Prop 40 billionaire tax news November 3 2026 election day expectations court challenge Prop 41 42 conflict ruling",
+    "CalMatters \"why the fate of California's wealth tax could be decided well after the election\"",
+    "Prop 40 ballot measure text legislative amendment two-thirds vote no audit accountability"
+  ],
+  "search_errors": 2,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/40/",
+    "https://voterguide.sos.ca.gov/propositions/40/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/40/arguments-rebuttals.htm",
+    "https://calmatters.org/health/2026/10/prop-40-billionaire-tax-fact-check/",
+    "https://www.nhpr.org/2026-11-02/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions",
+    "https://www.nhpr.org/2026-11-02/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions",
+    "https://calmatters.org/politics/2026/10/california-billionaire-tax-explainer/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-40-one",
+    "https://calbudgetcenter.org/resources/billionaire-tax-explained-what-proposition-40-would-mean-for-california/",
+    "https://ivn.us/opinion-a-wealth-tax-would-harm-california/",
+    "https://calbudgetcenter.org/resources/billionaire-tax-explained-what-proposition-40-would-mean-for-california/",
+    "https://www.ppic.org/blog/how-can-californians-make-sense-of-the-tax-measures-on-the-november-ballot/",
+    "https://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-29/trace_21010d1f17879843396752542e0cd5/requestId_e3271e83321c4143b20567f1a4574397/9255c06f7833f887f63f4f6925c8e430?Expires=1819088343&OSSAccessKeyId=LTAI5tKoG9A3DkwGD635QVZr&Signature=zL%2Bx9wQ9%2Fs%2FJ8xKXrX%2Fs0v%2B4xLQ%3D",
+    "https://calbudgetcenter.org/resources/billionaire-tax-explained-what-proposition-40-would-mean-for-california/",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_40",
+    "https://ridleylawoffices.com/california-billionaire-tax-prop-40/",
+    "https://ridleylawoffices.com/california-billionaire-tax-prop-40/"
+  ],
+  "tool_errors": 4,
+  "warnings": [],
+  "network": {
+    "requests": 41,
+    "requests_per_host": {
+      "openrouter.ai": 37,
+      "www.nhpr.org": 1,
+      "ivn.us": 1,
+      "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com": 1,
+      "ridleylawoffices.com": 1
+    },
+    "hosts": [
+      "ivn.us",
+      "openrouter.ai",
+      "ridleylawoffices.com",
+      "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com",
+      "www.nhpr.org"
+    ],
+    "status_counts": {
+      "200": 39,
+      "403": 1
+    },
+    "bytes_up": 6197039,
+    "bytes_down": 2012977,
+    "wire_bytes": {
+      "harness_to_proxy": 6283289,
+      "proxy_to_harness": 2191582,
+      "proxy_to_internet": 6272304,
+      "internet_to_proxy": 2278566
+    },
+    "byte_counter": true,
+    "errors": 3,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "ivn.us",
+        "url": "https://ivn.us/opinion-a-wealth-tax-would-harm-california/",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 38,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:59:27.138846+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:59:27.138846+00:00",
+      "finished_at": "2026-11-03T13:04:47.149306+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

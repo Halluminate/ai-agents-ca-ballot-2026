@@ -1,0 +1,98 @@
+{
+  "run_id": "sol__native__win__p1__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "1",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:02:20.791658+00:00",
+  "finished_at": "2026-11-03T11:03:35.986048+00:00",
+  "seconds": 73.1,
+  "input_tokens": 36,
+  "output_tokens": 3228,
+  "cached_tokens": 556475,
+  "cost_usd": 0.4004,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 1 2026 housing 11.25 billion poll November 2026 ...",
+    "site.ppic.org October 2026 Proposition 1 60 38 housing bond ...",
+    "'Proposition 1 ('",
+    "site.sos.ca.gov \"2026\" \"Proposition 1\" \"Contributions\" ...",
+    "site.hjta.org \"2026\" \"Proposition 1\" ...",
+    "Howard Jarvis Taxpayers Association November 2026 ballot proposition 1 voter guide housing bond ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/1/",
+    "https://ballotpedia.org/California_Proposition_1,_Veteran_and_Housing_Assistance_Programs_Bond_Measure_(2026)",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-1-sb-417-limon-veterans-and-affordable-housing-bond-act-2026-ch-16-2026",
+    "https://defirate.com/odds/california-props/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 16,
+    "requests_per_host": {
+      "api.openai.com": 14,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 13,
+      "202": 2
+    },
+    "bytes_up": 1187138,
+    "bytes_down": 2154798,
+    "wire_bytes": {
+      "harness_to_proxy": 926568,
+      "proxy_to_harness": 1219367,
+      "proxy_to_internet": 925651,
+      "internet_to_proxy": 1248775
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1654,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 16,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:02:20.791658+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:02:20.791658+00:00",
+      "finished_at": "2026-11-03T11:03:35.986048+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

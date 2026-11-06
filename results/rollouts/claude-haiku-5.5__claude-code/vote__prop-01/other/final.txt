@@ -1,0 +1,37 @@
+**Yes.**
+
+This is the $11.25 billion Veterans and Affordable Housing Bond Act of 2026, not the 2024 behavioral health Prop 1. The research leans yes, but it's a judgment about taking on new state debt for housing, so the downsides matter.
+
+**Why yes**
+- **The money mostly goes to stalled projects.** Enterprise Community Partners counts nearly 40,000 approved units waiting on financing, per [SPUR](https://www.spur.org/voter-guide/2026-11/ca-prop-1-affordable-housing-bond). A county summary of LAO findings says the 2018 housing bond money is already allocated, so approved projects stall without new funds.
+- **The state's cost is modest.** The LAO puts the cost at $500–600 million a year for about 25 years, roughly 0.25% of the General Fund budget. Per the [LAO bond overview](https://lao.ca.gov/ballotanalysis/bonds), bond debt service is about 3% of revenue, below a historical average of about 4%. This adds about a quarter point.
+- **The $1.25 billion veterans piece is self-repaying.** Veterans' loan payments cover that debt, and the LAO says the program has "always operated at no direct cost to the state."
+- **Support is broad and opposition is thin.** A PPIC October poll, as reported by [WRE News](https://wrenews.com/california-proposition-1-housing-bond-11-25-billion-november-2026/), shows 60% yes and 38% no among likely voters, up from 55% in September. The state guide has no official argument against, and opponents have reported raising no money. Newsom and the [SF Chronicle](https://davisvanguard.org/2026/10/sf-chronicle-endorses-prop-1/) back it.
+
+**Strongest case for no**
+- **Long debt on top of a budget gap.** The General Fund repays the $10 billion portion, about $12.5–17 billion in total depending on assumptions. The LAO estimates borrowing costs about 15% more than cash after inflation. The state also has about $40 billion of previously approved bonds not yet sold, and the LAO has projected an ~$18 billion gap for 2026–27.
+- **The unit numbers are ceilings, and subsidies are expensive.** "Up to 40,000" units depends on other funding. The $7.2 billion rental share works out to about $180,000 per promised unit (my math). [Scott Alexander's post](https://www.astralcodexten.com/p/my-california-ballot-2026) votes no, with reservations, and argues the real count will be lower. Other critics say permitting and construction costs are the real problem. [Hoover](https://www.hoover.org/proposition-lab-proposition-1) is skeptical of bonds as the tool.
+- **The veterans framing is weak.** About 11% goes to veterans, and critics call the name a "bait-and-switch."
+
+**What I couldn't verify**
+- The bill text (SB 417) was blocked. The summaries I could access describe no audit or oversight mechanism. SPUR points to a 10% extremely-low-income set-aside and reserve requirements, but those are program rules, not oversight. This is the biggest gap.
+- The poll figures come from a news report of PPIC's survey, because PPIC's page was blocked. The SF Chronicle endorsement comes from a secondary summary.
+
+If you put heavy weight on limiting new state debt, or think subsidies are the wrong tool for housing, vote No.
+
+Sources:
+- [Official voter guide, Prop 1](https://voterguide.sos.ca.gov/propositions/1/)
+- [LAO ballot analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=1&year=2026)
+- [LAO state bond debt overview](https://lao.ca.gov/ballotanalysis/bonds)
+- [CalMatters explainer](https://calmatters.org/housing/homelessness/2026/10/prop-1-housing-bond/)
+- [CalMatters voter guide](https://calmatters.org/california-voter-guide-2026/proposition-1-housing-bond/)
+- [SPUR voter guide](https://www.spur.org/voter-guide/2026-11/ca-prop-1-affordable-housing-bond)
+- [Hoover Institution Proposition Lab](https://www.hoover.org/proposition-lab-proposition-1)
+- [Berkeley IGS guide](https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-1-housing)
+- [Governor's signing release](https://www.gov.ca.gov/2026/06/25/governor-newsom-signs-historic-housing-bond-set-for-voters-on-the-november-ballot/)
+- [Senate press release](https://sd07.senate.ca.gov/news/legislature-approves-1125-billion-affordable-housing-bond)
+- [WRE News (PPIC poll report)](https://wrenews.com/california-proposition-1-housing-bond-11-25-billion-november-2026/)
+- [Scott Alexander, "My California Ballot, 2026"](https://www.astralcodexten.com/p/my-california-ballot-2026)
+- [Davis Vanguard (SF Chronicle endorsement)](https://davisvanguard.org/2026/10/sf-chronicle-endorses-prop-1/)
+- [LA County 2026 ballot measures memo](https://file.lacounty.gov/SDSInter/bos/bc/1218268_2026BallotMeasuresMemo.pdf)
+- [SF Chronicle, "California faces $18B deficit"](https://www.sfchronicle.com/politics/article/california-budget-outlook-21194827.php)

@@ -1,0 +1,99 @@
+{
+  "run_id": "sol__native__better__p40__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "40",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:15:12.951887+00:00",
+  "finished_at": "2026-11-03T13:20:10.292439+00:00",
+  "seconds": 295.2,
+  "input_tokens": 81,
+  "output_tokens": 8414,
+  "cached_tokens": 2796183,
+  "cost_usd": 0.9956,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "'PROPOSITION 40'",
+    "California Proposition 40 2026 billionaire tax analysis Stanford 25 billion wealth tax November 2026 ...",
+    "Expert Report California 2026 Billionaire Tax Revenue Economic Constitutional Analysis Galle Gamage Saez Shanske 2026 ...",
+    "\"Jaros\" \"Rauh\" \"October 2026\" \"pdf\" ...",
+    "\"Net Present Value\" \"Billionaire\" \"pdf\" ...",
+    "Jeff Hoopes Proposition 40 tax academics survey 105 2026 ...",
+    "\"What Do Tax Experts Think\" \"California\" Hoopes ...",
+    "Medicaid expansion mortality causal evidence adults NBER 2019 Miller Johnson Wherry life saving 2025 ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/40/",
+    "https://www.nber.org/system/files/working_papers/w35899/w35899.pdf",
+    "https://www.nber.org/system/files/chapters/c15504/c15504.pdf",
+    "https://calmatters.org/politics/2026/10/california-billionaire-tax-explainer/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 33,
+    "requests_per_host": {
+      "api.openai.com": 28,
+      "ab.chatgpt.com": 5
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 27,
+      "202": 5
+    },
+    "bytes_up": 1992709,
+    "bytes_down": 4705656,
+    "wire_bytes": {
+      "harness_to_proxy": 1406515,
+      "proxy_to_harness": 2758711,
+      "proxy_to_internet": 1403031,
+      "internet_to_proxy": 2815255
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2566,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 30,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:15:12.951887+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:15:12.951887+00:00",
+      "finished_at": "2026-11-03T13:20:10.292439+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

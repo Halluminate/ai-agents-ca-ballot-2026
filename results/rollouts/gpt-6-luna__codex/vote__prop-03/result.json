@@ -1,0 +1,90 @@
+{
+  "run_id": "luna__native__vote__p3__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "3",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:05:56.179071+00:00",
+  "finished_at": "2026-11-03T13:08:23.043921+00:00",
+  "seconds": 144.6,
+  "input_tokens": 33,
+  "output_tokens": 9132,
+  "cached_tokens": 484773,
+  "cost_usd": 0.0618,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/3 Proposition 3 official voter guide California 2024 ...",
+    "2026 California Proposition 3 tax rates permanent text initiative official Proposition 30 Proposition 55 2031 ...",
+    "site:trackprop55.sco.ca.gov high earner tax annual revenue Prop 30 55 California 2025 ...",
+    "California Proposition 3 2026 voter guide prop tax extension CalMatters ballot measure ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 13,
+    "requests_per_host": {
+      "api.openai.com": 11,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 10,
+      "202": 2
+    },
+    "bytes_up": 607935,
+    "bytes_down": 2118447,
+    "wire_bytes": {
+      "harness_to_proxy": 350349,
+      "proxy_to_harness": 1253040,
+      "proxy_to_internet": 348890,
+      "internet_to_proxy": 1274772
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1258,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 13,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:05:56.179071+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:05:56.179071+00:00",
+      "finished_at": "2026-11-03T13:08:23.043921+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "run_id": "grok__common__vote__p3__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "3",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T04:54:12.511488+00:00",
+  "seconds": 157.2,
+  "input_tokens": 95700,
+  "output_tokens": 7530,
+  "cached_tokens": 118912,
+  "cost_usd": 0.3417,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 3 2026 permanent funding schools health care tax high incomes analysis",
+    "California Proposition 3 2026 editorial endorsement yes or no high income tax",
+    "California Prop 3 2026 vs Prop 40 tax the rich difference analysis",
+    "California Proposition 55 Education Protection Account allocation formula Prop 98 how revenue is spent",
+    "Sacramento Bee endorsement Proposition 3 2026 yes or no",
+    "California Proposition 3 2026 LA Times editorial board endorsement OR oppose",
+    "Proposition 3 2026 California drops Medi-Cal formula never triggered criticism",
+    "California high earner migration Proposition 30 55 evidence millionaire tax flight PPIC FTB",
+    "California Proposition 43 2026 what does it do income tax"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/3/",
+    "https://voterguide.sos.ca.gov/propositions/3/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/3/title-summary.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf",
+    "https://lao.ca.gov/ballot/2026/prop3-110326.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf",
+    "https://www.mercurynews.com/2026/10/27/endorsement-proposition-3-california-ballot-measure-progressive-income-tax/",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-3-high-earner-income-tax-extension",
+    "https://lao.ca.gov/BallotAnalysis/Initiative/2025-016",
+    "https://calbudgetcenter.org/resources/should-voters-approve-prop-3-how-top-tax-rates-have-helped-californians/",
+    "https://www.sacbee.com/opinion/election-endorsements/article317445836.html"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 22,
+    "requests_per_host": {
+      "openrouter.ai": 16,
+      "lao.ca.gov": 2,
+      "www.mercurynews.com": 1,
+      "www.spur.org": 1,
+      "calbudgetcenter.org": 1,
+      "www.sacbee.com": 1
+    },
+    "hosts": [
+      "calbudgetcenter.org",
+      "lao.ca.gov",
+      "openrouter.ai",
+      "www.mercurynews.com",
+      "www.sacbee.com",
+      "www.spur.org"
+    ],
+    "status_counts": {
+      "200": 22
+    },
+    "bytes_up": 942350,
+    "bytes_down": 803653,
+    "wire_bytes": {
+      "harness_to_proxy": 986311,
+      "proxy_to_harness": 893478,
+      "proxy_to_internet": 981088,
+      "internet_to_proxy": 937891
+    },
+    "byte_counter": true,
+    "errors": 3,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 22,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

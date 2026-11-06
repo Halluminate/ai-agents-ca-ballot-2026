@@ -1,0 +1,21 @@
+# Vote: **YES** on Proposition 40
+
+I researched the official voter guide, the nonpartisan Legislative Analyst's Office (LAO) analysis, the California Budget & Policy Center's detailed explainer, the Stanford/Hoover Institution study, campaign finance records, and editorial/news coverage from the LA Times, Sacramento Bee, SF Chronicle, and CNBC. Here's my reasoning:
+
+## What it actually does
+- One-time **5% tax on net worth above $1 billion**, applying only to people who were California residents on Jan 1, 2026 (~250 individuals/couples/trusts holding ~$2 trillion in wealth). Payable over 5 years. Real estate, pensions, and retirement accounts are excluded.
+- Revenue: **90% to healthcare, 10% to education/food assistance**, to backfill the federal "One Big Beautiful Bill" cuts — which are projected to strip ~1.3 million Californians of Medi-Cal coverage and cost the state tens of billions.
+
+## Why the core criticisms don't hold up
+1. **"Billionaires will flee and cost us revenue."** The LAO (the state's nonpartisan fiscal referee) says income tax losses would "probably" be **less than $1 billion per year**, against tens of billions collected. The scary $25B/net-negative figure comes from a Hoover Institution study assuming mass permanent flight — but the tax's design largely defuses this: liability is locked to Jan 1, 2026 residency, so *moving now doesn't avoid the tax* (Sergey Brin's Miami house doesn't help him). The empirical literature on California millionaire taxes (Prop 30) found tiny migration effects — 535 departures out of 67,000 top-bracket filers.
+2. **"It taxes retirement accounts / could be expanded to you."** False or misleading per the official LAO analysis — retirement accounts and pensions are explicitly excluded. The "they're coming for your savings" messaging is attached to Prop 42, a billionaire-funded companion measure written specifically to nullify Prop 40.
+3. **"It shortchanges schools $3 billion."** There's no scenario where schools get *less* than the status quo — this is brand-new money that wouldn't otherwise exist, plus a dedicated 10% education/food account. The Prop 98 exemption is about routing, not subtraction.
+4. **Fiscal cliff / no guardrails.** This is the most legitimate concern (LA Times and SF Chronicle editorial boards make it). But the reserve fund structure, spending caps, and anti-supplantation provisions create a multi-year bridge — and the alternative being offered is *nothing*, while healthcare cuts hit right now. "Wait for Congress" is not a plan.
+
+## The tell
+Campaign finance: **~$368 million spent against vs. ~$36 million for** — with ~$293 million from the ~250 billionaires who'd personally pay the tax (Brin is now the largest individual ballot-measure donor in California history, ~0.07% of his wealth defending the other 99.93%). Meanwhile the biggest single potential taxpayer, Nvidia's Jensen Huang (~$8 billion owed), says paying would be a "privilege."
+
+## Bottom line
+The underlying logic is sound: the federal government cut healthcare for low-income Californians to fund tax breaks that largely benefited this exact group, whose accumulated wealth is otherwise barely taxed at all (~70% of billionaire wealth is unrealized gains that are never taxed and escape estate tax through step-up basis). Even the harshest independent study concedes the tax would collect **$28–36 billion** for a healthcare system facing a genuine emergency. The risks (litigation, some revenue leakage, a future funding cliff) are real but manageable and mostly front-loaded into estimates; the benefit is tens of billions of dollars, now, for millions of people's coverage.
+
+**Vote Yes on 40** — and note that for it to actually take effect, you'd also want to vote **No on 41 and No on 42**, the billionaire-funded measures designed to nullify it if they receive more votes.

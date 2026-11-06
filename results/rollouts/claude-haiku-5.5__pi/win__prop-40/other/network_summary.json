@@ -1,0 +1,48 @@
+{
+  "requests": 40,
+  "requests_per_host": {
+    "openrouter.ai": 35,
+    "escholarship.org": 2,
+    "thehill.com": 1,
+    "commonwealthbeacon.org": 1,
+    "calmatters.org": 1
+  },
+  "hosts": [
+    "calmatters.org",
+    "commonwealthbeacon.org",
+    "escholarship.org",
+    "openrouter.ai",
+    "thehill.com"
+  ],
+  "status_counts": {
+    "200": 37,
+    "403": 3
+  },
+  "bytes_up": 5528524,
+  "bytes_down": 820835,
+  "wire_bytes": {
+    "harness_to_proxy": 5592724,
+    "proxy_to_harness": 944256,
+    "proxy_to_internet": 5585867,
+    "internet_to_proxy": 1007434
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 28,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

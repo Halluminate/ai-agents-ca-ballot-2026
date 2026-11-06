@@ -1,0 +1,96 @@
+{
+  "run_id": "terra__native__better__p43__r1",
+  "model": "terra",
+  "model_id": "gpt-6.1-terra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:35:24.887947+00:00",
+  "finished_at": "2026-11-03T12:36:40.566761+00:00",
+  "seconds": 73.5,
+  "input_tokens": 33,
+  "output_tokens": 4270,
+  "cached_tokens": 503377,
+  "cost_usd": 0.2579,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California proposition 43 November 2026 voter guide yes no ...",
+    "proposition 43 2026 California analysis two thirds vote taxes citizen initiated records local initiative number special taxes ...",
+    "\"prop 43\" \"supermajority\" local taxes empirical california 2026 threshold ...",
+    "Los Angeles mansion tax Measure ULA economic impact transactions housing UCLA study 2025 2026 ...",
+    "\"proposition 43\" \"ad valorem\" 2026 voter initiative property taxes significance amendment ...",
+    "\"proposition 43\" \"yes\" \"2026\" editorial board drawbacks voters ...",
+    "UCLA RAND measure ULA property transfer tax housing production analysis April 2025 study Los Angeles impartial ...",
+    "'California Proposition 43'",
+    "California local initiative special tax repeal simple majority Proposition 218 California 2025 ballot ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 23,
+    "requests_per_host": {
+      "api.openai.com": 21,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 19,
+      "202": 2,
+      "500": 1
+    },
+    "bytes_up": 1208880,
+    "bytes_down": 2728090,
+    "wire_bytes": {
+      "harness_to_proxy": 954823,
+      "proxy_to_harness": 1783361,
+      "proxy_to_internet": 953626,
+      "internet_to_proxy": 1824433
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2206,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 22,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:35:24.887947+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:35:24.887947+00:00",
+      "finished_at": "2026-11-03T12:36:40.566761+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

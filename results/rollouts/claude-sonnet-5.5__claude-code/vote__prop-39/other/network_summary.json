@@ -1,0 +1,210 @@
+{
+  "requests": 208,
+  "requests_per_host": {
+    "openrouter.ai": 83,
+    "api.anthropic.com": 83,
+    "voterguide.sos.ca.gov": 4,
+    "calmatters.org": 4,
+    "www.kqed.org": 3,
+    "en.wikipedia.org": 2,
+    "lao.ca.gov": 2,
+    "vig.cdn.sos.ca.gov": 2,
+    "cdce.umd.edu": 2,
+    "igs.berkeley.edu": 1,
+    "elections.cdn.sos.ca.gov": 1,
+    "laist.com": 1,
+    "www.kpbs.org": 1,
+    "www.californiachoices.org": 1,
+    "www.spur.org": 1,
+    "cavotes.org": 1,
+    "www.ppic.org": 1,
+    "www.sfchronicle.com": 1,
+    "abc7.com": 1,
+    "www.reformcalifornia.org": 1,
+    "www.votebeat.org": 1,
+    "www.npr.org": 1,
+    "electionlab.mit.edu": 1,
+    "stateline.org": 1,
+    "www.pewresearch.org": 1,
+    "vrp.ucla.edu": 1,
+    "www.golden-state.org": 1,
+    "dailybruin.com": 1,
+    "www.aclunorcal.org": 1,
+    "ballotpedia.org": 1,
+    "www.hoover.org": 1,
+    "californiatoday.com": 1
+  },
+  "hosts": [
+    "abc7.com",
+    "api.anthropic.com",
+    "ballotpedia.org",
+    "californiatoday.com",
+    "calmatters.org",
+    "cavotes.org",
+    "cdce.umd.edu",
+    "dailybruin.com",
+    "electionlab.mit.edu",
+    "elections.cdn.sos.ca.gov",
+    "en.wikipedia.org",
+    "igs.berkeley.edu",
+    "laist.com",
+    "lao.ca.gov",
+    "openrouter.ai",
+    "stateline.org",
+    "vig.cdn.sos.ca.gov",
+    "voterguide.sos.ca.gov",
+    "vrp.ucla.edu",
+    "www.aclunorcal.org",
+    "www.californiachoices.org",
+    "www.golden-state.org",
+    "www.hoover.org",
+    "www.kpbs.org",
+    "www.kqed.org",
+    "www.npr.org",
+    "www.pewresearch.org",
+    "www.ppic.org",
+    "www.reformcalifornia.org",
+    "www.sfchronicle.com",
+    "www.spur.org",
+    "www.votebeat.org"
+  ],
+  "status_counts": {
+    "200": 201,
+    "202": 1,
+    "403": 3
+  },
+  "bytes_up": 8223190,
+  "bytes_down": 6437339,
+  "wire_bytes": {
+    "harness_to_proxy": 8395647,
+    "proxy_to_harness": 7031802,
+    "proxy_to_internet": 8394940,
+    "internet_to_proxy": 7179582
+  },
+  "byte_counter": true,
+  "errors": 12,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "www.npr.org",
+      "url": "https://www.npr.org/2022/11/04/1134435571/texas-mail-ballot-rejections-general-election",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/messages?beta=true",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/messages?beta=true",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/messages?beta=true",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "tls_failed_server",
+      "host": "cdce.umd.edu",
+      "sni": "cdce.umd.edu",
+      "error": "Certificate verify failed: unable to get local issuer certificate"
+    },
+    {
+      "kind": "http",
+      "host": "cdce.umd.edu",
+      "url": "https://cdce.umd.edu/feature/new-cdce-survey-shows-millions-lack-id-voter-id-laws-spread-more-states",
+      "error": "Certificate verify failed: unable to get local issuer certificate"
+    },
+    {
+      "kind": "tls_failed_server",
+      "host": "cdce.umd.edu",
+      "sni": "cdce.umd.edu",
+      "error": "Certificate verify failed: unable to get local issuer certificate"
+    },
+    {
+      "kind": "http",
+      "host": "cdce.umd.edu",
+      "url": "https://cdce.umd.edu/news/news-study-finds-millions-californians-lack-id-voter-id-debate-grows",
+      "error": "Certificate verify failed: unable to get local issuer certificate"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "api.anthropic.com",
+      "sni": "api.anthropic.com",
+      "error": "connection closed early"
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0024,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0037,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0021,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": "api.anthropic.com",
+      "bytes_up": 1578,
+      "bytes_down": 39,
+      "duration": 32.043,
+      "reason": "connection closed early"
+    }
+  ],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 89,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

@@ -1,0 +1,38 @@
+You asked for a one-word answer, but I won't give one. This is a values tradeoff that research can't settle, and the call should be yours. Both sides agree on what the measure does. They disagree on whether a two-thirds bar is the right rule, and voters split by party on it. The October PPIC poll had likely voters at 42% yes and 55% no, with 28% of Democrats and 68% of Republicans in favor.
+
+I read the official guide, the Legislative Analyst's analysis, the measure's text, and coverage and editorials from both sides.
+
+**What it does**
+- Starting Jan. 1, 2027, a new, increased, or extended local *special* tax (one earmarked for a specific purpose) proposed by citizen petition would need two-thirds approval instead of a simple majority. Special taxes proposed by city councils and boards already need two-thirds.
+- It isn't retroactive, so existing taxes like LA's Measure ULA stay. It doesn't change general taxes, which still pass by majority. It doesn't cap transfer taxes, and it doesn't apply to measures on today's ballot.
+- The text has a second provision the ballot label doesn't mention. It bars local governments, including through initiatives, from imposing ad valorem real property taxes beyond what the Constitution already allows. One summary says this mostly extends an existing limit to voter initiatives. The Legislative Analyst's analysis doesn't appear to discuss it.
+- The Legislative Analyst says local tax revenue "could be lower in the future than they otherwise would be." The actual impact is unknown.
+- LAist counts over two dozen voter-initiated special taxes that passed with under two-thirds since the 2017 *Upland* ruling. Examples are ULA (about 58%) and two Sonoma County taxes from 2024 (about 62–63%). The Press Democrat says the Sonoma taxes would have failed under Prop 43.
+
+**How it maps to a vote**
+- **Yes** fits if you think earmarked taxes should need broad consensus no matter who puts them on the ballot. It also fits if you see the gap between petition-proposed and government-proposed taxes as a loophole (supporters' word) and worry about organized interests passing taxes in low-turnout elections. You'd also be accepting that some taxes a local majority wants would fail. Supporters include the Howard Jarvis Taxpayers Association, CalTax, the California Chamber of Commerce, and the California Republican Party.
+- **No** fits if you think majority rule should govern local taxes and a third of voters shouldn't be able to block something nearly 67% back. It also fits if you value petitions as a way to fund fire, schools, or housing when officials won't act. You'd be accepting that more taxes could pass. Opponents include the California Democratic Party, firefighter, teacher, and SEIU unions, and the League of California Cities.
+
+**Claims to weigh carefully**
+- Supporters cite "over 2,000 new or higher local taxes" in a decade. I couldn't verify that figure. The measure only changes the narrower set of voter-initiated special taxes. They also say it protects against transfer taxes, but it neither caps nor repeals them. The cap was dropped in the deal.
+- Opponents say it limits funding for fire and 911. It closes one majority-vote path, not all of them. General taxes still pass by majority, and a council's own special tax already needed two-thirds. The "one-third veto" is how any two-thirds rule works, including the existing one.
+
+**Limits of what I found**
+- The Legislature's 68–2 and 35–1 votes reflect a June deal to pull a broader Howard Jarvis initiative, which is off the ballot whatever happens today. Assemblymember Buffy Wicks wrote the language and now opposes it. I found nothing on what Howard Jarvis would do if Prop 43 fails.
+- The official bill page and the voter-guide PDF wouldn't load or couldn't be read. I read the measure's text as reproduced by GrowSF and checked it against the Legislative Analyst's page and a law firm's summary.
+
+Sources:
+- [Official voter guide, Prop 43](https://voterguide.sos.ca.gov/propositions/43/) and [arguments and rebuttals](https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm)
+- [Legislative Analyst's analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=43&year=2026)
+- [CalMatters voter guide](https://calmatters.org/california-voter-guide-2026/proposition-43-tax-threshold/)
+- [CalMatters, October explainer](https://calmatters.org/politics/2026/10/california-prop-43-election-2026/)
+- [CalMatters, June deal](https://calmatters.org/housing/2026/06/tax-cut-measure-pulled/)
+- [LAist voter guide](https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-43-local-special-tax)
+- [Berkeley IGS guide](https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-43-limits)
+- [GrowSF annotated legal text](https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-43/legal-text/)
+- [BWS Law analysis](https://www.bwslaw.com/insights/2026-california-tax-ballot-measures/)
+- [Digital Democracy, ACA 22](https://calmatters.digitaldemocracy.org/bills/ca_202520260aca22)
+- [HJTA press release](https://www.hjta.org/press-releases/taxpayers-win-in-sacramento-with-unprecedented-support-for-two-thirds-vote-requirement-to-raise-special-taxes/)
+- [Press Democrat editorial](https://www.pressdemocrat.com/2026/10/03/endorsement-prop-43-wants-to-fix-a-system-that-isnt-broken/)
+- [KQED on opponents](https://www.kqed.org/news/12103136/why-opponents-of-prop-43-say-it-would-cripple-local-funding)
+- [PPIC October 2026 survey](https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/)

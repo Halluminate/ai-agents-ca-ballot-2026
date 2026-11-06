@@ -1,0 +1,157 @@
+{
+  "run_id": "glm-prime__common__win__p42__r1",
+  "model": "glm-prime",
+  "model_id": "z-ai/glm-5.3-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "42",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:41:33.333196+00:00",
+  "finished_at": "2026-11-03T13:50:24.881375+00:00",
+  "seconds": 528.5,
+  "input_tokens": 162082,
+  "output_tokens": 54556,
+  "cached_tokens": 1277696,
+  "cost_usd": 1.7203,
+  "cost_source": "reported",
+  "billed_usd": 1.7203329023199996,
+  "searches": [
+    "California Proposition 42 2024 poll results",
+    "Proposition 42 California November 2026 polling Berkeley IGS poll",
+    "PPIC October 2026 survey Proposition 42 likely voters support",
+    "AIMSA poll California Proposition 42 50% support October 2026",
+    "Berkeley IGS Poll October 29 2026 Proposition 42 tabulations release 2026-22",
+    "\"Yes on 42\" California campaign contributions spending billionaires Newsom endorsement",
+    "Proposition 42 California poll November 2026 final \"Nov. 2\" OR \"November 1\" OR \"Nov 1\" early voting returns",
+    "Proposition 42 California prediction market odds Kalshi betting",
+    "AIMSA poll Proposition 42 oppose percent \"Proposition 42\" AIMSA October 2026 results",
+    "\"Proposition 42\" IGS poll October Democrats Republicans independents breakdown \"43%\" OR \"45%\"",
+    "Citrin POLITICO poll California October 2026 Proposition 42 Proposition 41 results",
+    "AIMSA poll \"Proposition 42\" \"50%\" oppose OR against OR oppose-percent California likely voters",
+    "Berkeley IGS \"Proposition 42\" table \"already voted\" October 2026 yes no",
+    "\"Proposition 42\" California final week campaign ads November 2 2026 \"Yes on 42\" OR \"No on 42\" analysis"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/42/",
+    "https://www.yahoo.com/news/politics/articles/support-dwindles-wealth-tax-voter-100000646.html",
+    "https://www.nytimes.com/interactive/polls/california-prop-42-personal-property-tax-polls-2026.html",
+    "https://escholarship.org/content/qt1vp9q3f9/qt1vp9q3f9.pdf",
+    "https://electcademocrats.com/polls/",
+    "https://electcademocrats.com/polls/",
+    "https://escholarship.org/uc/item/72722408",
+    "https://electcademocrats.com/polls/",
+    "https://www.ppic.org/wp-content/uploads/crosstabs-likely-voters-1026.pdf",
+    "https://www.ppic.org/wp-content/uploads/crosstabs-likely-voters-1026.pdf",
+    "https://www.ppic.org/wp-content/uploads/crosstabs-likely-voters-1026.pdf",
+    "https://www.ppic.org/pdf/ppic-statewide-survey-californians-and-their-government-october-2026.pdf",
+    "https://www.morningstar.com/news/business-wire/20261027904374/tax-the-top-fix-housing-back-becerra-cost-of-living-drives-californias-vote-aimsa-poll-finds",
+    "https://californiatoday.com/guides/elections/2026-california-proposition-42-guide/",
+    "https://blog.fiftyplusone.news/p/where-do-voters-stand-on-this-years",
+    "https://escholarship.org/uc/item/1vp9q3f9",
+    "https://www.innovationopenlab.com/news-biz/74326/tax-the-top-fix-housing-back-becerra-cost-of-living-drives-california-s-vote-aimsa/article_eaea50ac-6754-57f0-b3cf-ddb046fe06d3.html",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_42",
+    "https://onpointpolitics.us/results/2026/bm-CA-proposition-42",
+    "https://onpointpolitics.us/forecast/measures/ca/proposition-42",
+    "https://defirate.com/odds/california-props/"
+  ],
+  "tool_errors": 5,
+  "warnings": [],
+  "network": {
+    "requests": 42,
+    "requests_per_host": {
+      "openrouter.ai": 34,
+      "escholarship.org": 3,
+      "www.nytimes.com": 1,
+      "www.morningstar.com": 1,
+      "blog.fiftyplusone.news": 1,
+      "www.innovationopenlab.com": 1,
+      "onpointpolitics.us": 1
+    },
+    "hosts": [
+      "blog.fiftyplusone.news",
+      "escholarship.org",
+      "onpointpolitics.us",
+      "openrouter.ai",
+      "www.innovationopenlab.com",
+      "www.morningstar.com",
+      "www.nytimes.com"
+    ],
+    "status_counts": {
+      "200": 37,
+      "403": 5
+    },
+    "bytes_up": 5376064,
+    "bytes_down": 11249106,
+    "wire_bytes": {
+      "harness_to_proxy": 5465292,
+      "proxy_to_harness": 11835349,
+      "proxy_to_internet": 5454789,
+      "internet_to_proxy": 11925856
+    },
+    "byte_counter": true,
+    "errors": 4,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 41,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:41:33.333196+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:41:33.333196+00:00",
+      "finished_at": "2026-11-03T13:50:24.881375+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

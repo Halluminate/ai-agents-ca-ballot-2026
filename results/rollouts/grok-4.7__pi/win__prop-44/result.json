@@ -1,0 +1,88 @@
+{
+  "run_id": "grok__common__win__p44__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "44",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:12:24.453531+00:00",
+  "seconds": 28.6,
+  "input_tokens": 28107,
+  "output_tokens": 1405,
+  "cached_tokens": 23808,
+  "cost_usd": 0.0968,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 44 2024 voter guide which side likely to win",
+    "Proposition 44 California 2026 campaign spending opposition yes no latest poll",
+    "California Proposition 44 poll 2026 PPIC support percent likely voters",
+    "Prop 44 California election forecast likely to pass or fail 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/44/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-44-requires-community-health-clinics-spend-90-percent-revenue-program-services-initiative-statute",
+    "https://onpointpolitics.us/forecast/measures/ca/proposition-44"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 9,
+    "requests_per_host": {
+      "openrouter.ai": 8,
+      "onpointpolitics.us": 1
+    },
+    "hosts": [
+      "onpointpolitics.us",
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 9
+    },
+    "bytes_up": 202666,
+    "bytes_down": 138740,
+    "wire_bytes": {
+      "harness_to_proxy": 221793,
+      "proxy_to_harness": 164728,
+      "proxy_to_internet": 218985,
+      "internet_to_proxy": 187284
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 10,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

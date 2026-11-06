@@ -1,0 +1,96 @@
+{
+  "run_id": "sol__native__better__p5__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "5",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:53:18.438702+00:00",
+  "finished_at": "2026-11-03T10:56:34.731754+00:00",
+  "seconds": 194.1,
+  "input_tokens": 45,
+  "output_tokens": 5867,
+  "cached_tokens": 801781,
+  "cost_usd": 0.5015,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 5 2026 recall SCA 1 analysis ...",
+    "California 2026 \"Proposition 5\" recall analysis CalMatters ...",
+    "site.lhc.ca.gov \"Reforming the Recall\" recommendations 2022 ...",
+    "\"2026\" \"Proposition 5\" \"McGeorge\" ...",
+    "site.lwvc.org \"Proposition 5\" \"2026\" recall ...",
+    "\"The replacement election in the recall is unnecessary\" Salerno Paul ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/5/",
+    "https://lhc.ca.gov/wp-content/uploads/Reports/266/Report266.pdf",
+    "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SCA1"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 21,
+    "requests_per_host": {
+      "api.openai.com": 17,
+      "ab.chatgpt.com": 4
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 16,
+      "202": 4
+    },
+    "bytes_up": 1408520,
+    "bytes_down": 2699620,
+    "wire_bytes": {
+      "harness_to_proxy": 1073899,
+      "proxy_to_harness": 1591991,
+      "proxy_to_internet": 1072587,
+      "internet_to_proxy": 1626273
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1606,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 19,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:53:18.438702+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:53:18.438702+00:00",
+      "finished_at": "2026-11-03T10:56:34.731754+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

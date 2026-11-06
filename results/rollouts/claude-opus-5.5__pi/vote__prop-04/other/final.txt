@@ -1,0 +1,52 @@
+I won't pick Yes or No for you on this one. It's a contested political measure, and the right vote depends on which tradeoffs you care about more. Informed people split on it, including the Legislature (along party lines) and the major newspapers. Here's what I found so you can decide quickly.
+
+## What Prop 4 does (Nov. 3, 2026 ballot)
+- **Lifts a 1988 ban** on using public money for campaigns. The ban currently covers the state, counties, general-law cities and special districts. Charter cities like Los Angeles, San Francisco and Berkeley can already do it.
+- **Doesn't create or pay for any program.** A government could set one up later by statute, ordinance or charter. That means a city council or the Legislature could create one without a public vote.
+- **Rules any future program must follow:**
+  - It can't use money set aside for education, transportation or public safety.
+  - Candidates who take public money must accept spending limits.
+  - Candidates must show broad support, measured by a number of small donors (no more than $10 each counts) or vouchers.
+  - The money can't pay legal fees or fines, or repay loans candidates made to their own campaigns.
+  - Programs can't favor a party, incumbents or challengers.
+- **What it leaves out:** no dollar caps and no required watchdog. The state's ethics agency is explicitly not responsible for enforcing local programs.
+- **Also** triples the maximum fine for illegal foreign campaign money.
+- **Cost:** a few hundred thousand dollars a year for the state. Any real cost depends on which programs get adopted. For scale, San Francisco sets aside $2.75 per resident per year and paid $8.8M to 27 candidates in 2024.
+
+## Checking the ballot arguments
+- **Yes side:**
+  - "Doesn't spend a dime": true directly, but it's what makes later spending possible.
+  - "If local voters want it": misleading, since councils can adopt programs without a vote.
+  - "California is the only state with a ban": widely repeated, but I couldn't find an independent fact-check.
+- **No side:**
+  - "No limit on candidates or money": technically true, but each program has to set its own qualification bar and spending limits.
+  - "No limit on spending": misleading, because candidates taking public money must accept limits. Those limits are set locally and can be raised if a candidate is heavily outspent.
+  - The taxpayer group CalTax calls the ban "constitutional." It's actually a voter-approved law, not part of the constitution.
+  - "Special-interest money still allowed": true. Super PAC spending can't be limited under current law. San Francisco's 2024 races had record public funding and record outside spending ($19M).
+
+## What the research says
+- **Fairly consistent:** more candidates run, more small donors give, and incumbents lose some of their edge. Seattle's voucher program raised the number of council candidates by 86% and unique donors by 350%.
+- **Weak or mixed:** evidence that it actually reduces special-interest influence.
+- **Possible downside:** some studies find publicly funded legislators are more ideologically extreme; others find no difference.
+- **Unknown:** whether it improves policy or the quality of government.
+- **Real-world cautions:**
+  - Oakland voters approved a $4M voucher program in 2022 by 73%, but it's still unfunded because of budget deficits.
+  - New York City's 8-to-1 match has been targeted by fake-donor schemes. People tied to Eric Adams' 2021 campaign have pleaded guilty; the federal case against Adams himself was dismissed.
+
+## Who's on each side
+- **Yes:** Gov. Newsom, the state Democratic Party, League of Women Voters, Common Cause, ACLU, major unions, Sierra Club, SPUR, and the Sacramento Bee and its sister McClatchy papers.
+- **No:** the state Republican Party, CalTax, Howard Jarvis Taxpayers Association, the California Hispanic Chambers of Commerce, and former state ethics commission chair Dan Schnur. Editorial boards against: SF Chronicle, Mercury News/East Bay Times, San Diego Union-Tribune, OC Register and Press Democrat.
+- **Polls:** about even or slightly behind. The public policy institute PPIC's October poll had it at 45% yes, 52% no; UC Berkeley's late-October poll had it tied 41–41. Voters rejected repeal in 2000, 2006 and 2010, but those measures also created specific programs. This one doesn't.
+
+## Quick decision guide
+**Lean Yes if:**
+- big donors and outside spending worry you more than the cost;
+- you think every city and county should have the option LA and SF already have;
+- you'll accept some tax money going to candidates you dislike in exchange for more competition.
+
+**Lean No if:**
+- tax money for campaigns is a dealbreaker on principle;
+- you don't trust officials to design programs that fund their own campaigns when no public vote or watchdog is required;
+- you'd rather see a tighter version, with caps and oversight, or a study of existing programs first.
+
+If you tell me which of these matters most to you, I can tell you which way it points.

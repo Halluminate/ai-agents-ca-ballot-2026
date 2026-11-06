@@ -1,0 +1,341 @@
+{
+  "run_id": "haiku__native__better__p43__r1",
+  "model": "haiku",
+  "model_id": "anthropic/claude-haiku-5.5",
+  "pin": "anthropic",
+  "arm": "native",
+  "harness": "claude_code",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "43",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T11:54:44.597418+00:00",
+  "finished_at": "2026-11-03T12:51:29.097440+00:00",
+  "seconds": 3398.2,
+  "input_tokens": 77994,
+  "output_tokens": 32243,
+  "cached_tokens": 262955,
+  "cost_usd": 0.6771,
+  "cost_source": "reported",
+  "billed_usd": 0.6770901500000002,
+  "searches": [
+    "Proposition 43 California 2026 two-thirds vote local special taxes citizen initiatives",
+    "Prop 43 California November 2026 Legislative Analyst's Office analysis",
+    "Proposition 43 Howard Jarvis Upland special taxes CalMatters",
+    "LAO Proposition 43 fiscal effect local tax revenue annually millions billions estimate",
+    "CalMatters commentary \"Minority rule in California\" Proposition 43 special taxes",
+    "CalMatters commentary August 2026 California constitution Proposition 43 taxes court muddied",
+    "PPIC September 2026 survey Proposition 43 likely voters oppose support two-thirds special taxes",
+    "citizen-initiated special taxes passed simple majority since 2017 would have failed two-thirds count California Upland",
+    "Proposition 43 2026 Measure ULA Santa Clara open space Alameda health measure would have failed two-thirds threshold",
+    "PPIC October 2026 statewide survey Proposition 43 support 42% oppose 55% likely voters"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 10,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/",
+    "https://lao.ca.gov/ballot/2026/prop43-110326.pdf",
+    "https://calmatters.org/california-voter-guide-2026/proposition-43-tax-threshold/",
+    "https://taxpolicycenter.org/taxvox/californias-proposition-43-adds-new-chapter-states-history-local-tax-limits",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43.pdf",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_43",
+    "https://calmatters.org/politics/2026/10/california-prop-43-election-2026/",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-43-ballot-california-22477053.php",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-43-local-special-tax",
+    "https://www.kpbs.org/news/politics/2026/10/01/proposition-43-raise-vote-threshold-for-special-tax-measures",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=43&year=2026",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-43-limits",
+    "https://calmatters.org/politics/2026/10/tax-propositions-ballot-measures/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://voterguide.sos.ca.gov/propositions/43/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm",
+    "https://www.pillsburylaw.com/en/news-and-insights/the-sequel-to-upland-a-calif-supermajority-tax-showdown.html",
+    "https://www.ppic.org/pdf/ppic-statewide-survey-californians-and-their-government-october-2026.pdf",
+    "https://wrenews.com/california-proposition-43-local-special-tax-vote-threshold-real-estate-2026/"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 6 connections were not readable by the proxy (api.anthropic.com:443)"
+  ],
+  "network": {
+    "requests": 137,
+    "requests_per_host": {
+      "api.anthropic.com": 73,
+      "openrouter.ai": 45,
+      "voterguide.sos.ca.gov": 3,
+      "calmatters.org": 3,
+      "lao.ca.gov": 2,
+      "www.ppic.org": 2,
+      "taxpolicycenter.org": 1,
+      "vig.cdn.sos.ca.gov": 1,
+      "en.wikipedia.org": 1,
+      "www.sfchronicle.com": 1,
+      "laist.com": 1,
+      "www.kpbs.org": 1,
+      "igs.berkeley.edu": 1,
+      "www.pillsburylaw.com": 1,
+      "wrenews.com": 1
+    },
+    "hosts": [
+      "api.anthropic.com",
+      "calmatters.org",
+      "en.wikipedia.org",
+      "igs.berkeley.edu",
+      "laist.com",
+      "lao.ca.gov",
+      "openrouter.ai",
+      "taxpolicycenter.org",
+      "vig.cdn.sos.ca.gov",
+      "voterguide.sos.ca.gov",
+      "wrenews.com",
+      "www.kpbs.org",
+      "www.pillsburylaw.com",
+      "www.ppic.org",
+      "www.sfchronicle.com"
+    ],
+    "status_counts": {
+      "200": 125,
+      "403": 2
+    },
+    "bytes_up": 4196934,
+    "bytes_down": 7215100,
+    "wire_bytes": {
+      "harness_to_proxy": 4364690,
+      "proxy_to_harness": 7528738,
+      "proxy_to_internet": 4317216,
+      "internet_to_proxy": 7611710
+    },
+    "byte_counter": true,
+    "errors": 24,
+    "error_details": [
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "The client disconnected during the handshake. If this happens consistently for api.anthropic.com, this may indicate that the client does not trust the proxy's certificate."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 2611,
+        "duration": 12.8491,
+        "reason": "The client disconnected during the handshake. If this happens consistently for api.anthropic.com, this may indicate that the client does not trust the proxy's certificate."
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 11.3759,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 10.6196,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 653.1225,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0052,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0023,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 66,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:54:44.597418+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:54:44.597418+00:00",
+      "finished_at": "2026-11-03T12:51:29.097440+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

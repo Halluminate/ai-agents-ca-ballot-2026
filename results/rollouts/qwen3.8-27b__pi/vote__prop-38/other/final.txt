@@ -1,0 +1,23 @@
+
+
+I've now reviewed the official voter guide, the nonpartisan Legislative Analyst's analysis, the full pro/con arguments, the CalMatters investigation, and California's current fiscal condition. Here's the picture:
+
+**What Prop 38 does:** Authorizes an $8.4B general obligation bond for immunology/immunotherapy research (cancer, heart disease, Alzheimer's), repaid from the General Fund at **$500M–$600M annually for ~20 years** (~$12B total with interest).
+
+**Key findings from research:**
+
+1. **Half the money ($4.2B) is effectively earmarked for one institution.** CalMatters' analysis found the "qualifications" (200,000+ sq ft, UC medical center with 35,000+ inpatient admissions and 3.5M+ outpatient visits, specific $50M donations to a "microbiome research program," etc.) match exactly one institute in the state: the UCLA-affiliated **California Institute for Immunology & Immunotherapy (CIII)**. A UCLA spokesperson confirmed no other affiliated nonprofit could qualify. A ballot-process scholar called it "very clearly designed to support a specific nonprofit."
+
+2. **Serious conflict of interest.** The proposition's chief payers — billionaires Gary Michelson, Meyer Luskin, and Michael Milken (who've raised ~$72M for the Yes campaign) — are the co-founders of CIII. Michelson is its board chair and its largest donor. In other words, the main funders would direct half of the borrowed public money to their own organization.
+
+3. **The recipient is barely operating.** As of last month CIII had **3 employees** (vs. 51 planned), no executive director, no track record, most of its building not finished until 2028, and it would already get "primary responsibility" for negotiating sale/licensing of *all* drugs from the funded research — even those created by other institutions.
+
+4. **The "no net cost to taxpayers" claim is contradicted by the state's own fiscal analysts.** The LAO puts the cost at $500M–$600M/year for ~20 years, with repayment offsets only *if* the research happens to produce revenue — uncertain, and possibly decades away. Notably, the LAO also notes borrowing costs ~10% more (inflation-adjusted) than paying cash upfront — and California has ~$100B in cash balances.
+
+5. **Transparency gap.** The measure states the institute "shall not be deemed a public agency for any purpose under state law" — meaning the entity taking $4.2B in public debt money would be largely exempt from the California Public Records Act.
+
+6. **Fiscal context:** California faces a structural deficit in 2026-27, with General Fund reserves being drawn down and a ~$29B "wall of debt." Meanwhile, a better-designed alternative (Sen. Wiener's $7.5B peer-reviewed research-foundation bond, SB 895) is already headed to the 2028 ballot.
+
+**The fair "yes" case:** Immunology research is genuinely important and losing federal funding; major patient-advocacy orgs (Michael J. Fox Foundation, Alzheimer's Association, ALS Association) back it; the 20% drug discount for Californians is a real benefit; prior research bonds (71, 14) passed and produced results. But the science being good doesn't make this deal's design sound — the earmarking, the self-dealing, the records exemption, and the unsupported "free money" framing are serious governance problems.
+
+**My recommendation: No**

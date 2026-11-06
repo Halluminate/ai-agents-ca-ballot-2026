@@ -1,0 +1,135 @@
+{
+  "run_id": "sol__common__vote__p41__r1",
+  "model": "sol",
+  "model_id": "openai/gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "41",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:01:04.520564+00:00",
+  "finished_at": "2026-11-03T11:02:43.937893+00:00",
+  "seconds": 96.2,
+  "input_tokens": 112133,
+  "output_tokens": 2886,
+  "cached_tokens": 374340,
+  "cost_usd": 0.3719,
+  "cost_source": "reported",
+  "billed_usd": 0.37190469216,
+  "searches": [
+    "California 2026 Proposition 41 special taxes spending limit audits analysis",
+    "California Proposition 41 2026 editorial recommend audits spending limit Yes No",
+    "site.lao.ca.gov state appropriations Gann limit 2026 2027 spending room taxes exemptions",
+    "site.lao.ca.gov \"State Appropriations Limit\" \"2021\" \"budget\"",
+    "League Women Voters California 2026 \"Proposition 41\" audits"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/41/",
+    "https://voterguide.sos.ca.gov/propositions/41/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-41-audits-special-taxes",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-41-audits",
+    "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-41-tax-audit-voter-guide",
+    "https://www.eastbaytimes.com/2026/11/02/we-asked-the-yes-on-prop-41-campaign-why-voters-should-approve-the-measure/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+    "https://calmatters.org/california-voter-guide-2026/proposition-41-tax-audits/",
+    "https://ballotpedia.org/California_Proposition_41,_Prohibit_Excluding_New_State_Taxes_from_Spending_Limit_and_Require_Special_Tax_Audits_Initiative_(2026",
+    "https://calbudgetcenter.org/resources/what-would-proposition-41-mean-for-california/",
+    "https://www.yesonprop41.org/",
+    "https://www.eastbaytimes.com/2026/11/02/we-asked-the-yes-on-prop-41-campaign-why-voters-should-approve-the-measure/",
+    "https://www.ppic.org/blog/how-can-californians-make-sense-of-the-tax-measures-on-the-november-ballot/",
+    "https://www.ocregister.com/2026/09/21/endorsement-yes-on-proposition-41-and-42-to-limit-taxation-in-california/",
+    "https://www.mercurynews.com/2026/10/21/endorsement-reject-california-ballot-propositions-40-41-42-billionaires-tax-ai-inequality/",
+    "https://www.sacbee.com/opinion/election-endorsements/article317122476.html",
+    "https://www.auditor.ca.gov/about-us/",
+    "https://www.yesonprop41.org/faq",
+    "https://www.mercurynews.com/2026/10/21/endorsement-reject-california-ballot-propositions-40-41-42-billionaires-tax-ai-inequality/",
+    "https://calmatters.org/health/2026/09/california-wealth-tax-prop-40-41-42/",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-41-requires-audits-programs-funded-new-state-special-taxes-prohibits-new-state-taxes-are-excluded-existing-voter-app",
+    "https://lwvc.org/ballot-recommendations/",
+    "https://lao.ca.gov/Publications/Report/5197",
+    "https://lao.ca.gov/reports/2021/4416/SAL-042121.pdf",
+    "https://lwvc.org/ballot-recommendations/",
+    "https://lao.ca.gov/Publications/Report/5197"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "warning: reasoning was not replayed on an assistant turn"
+  ],
+  "network": {
+    "requests": 16,
+    "requests_per_host": {
+      "openrouter.ai": 14,
+      "www.ppic.org": 1,
+      "lao.ca.gov": 1
+    },
+    "hosts": [
+      "lao.ca.gov",
+      "openrouter.ai",
+      "www.ppic.org"
+    ],
+    "status_counts": {
+      "200": 16
+    },
+    "bytes_up": 2225365,
+    "bytes_down": 1125594,
+    "wire_bytes": {
+      "harness_to_proxy": 2259109,
+      "proxy_to_harness": 1187197,
+      "proxy_to_internet": 2255308,
+      "internet_to_proxy": 1219938
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 16,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:01:04.520564+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:01:04.520564+00:00",
+      "finished_at": "2026-11-03T11:02:43.937893+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

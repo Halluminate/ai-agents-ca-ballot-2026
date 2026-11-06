@@ -1,0 +1,107 @@
+{
+  "run_id": "qwen-27b__common__vote__p45__r1",
+  "model": "qwen-27b",
+  "model_id": "qwen/qwen3.8-27b",
+  "pin": "deepinfra",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "45",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:27:33.518938+00:00",
+  "finished_at": "2026-11-03T13:30:10.472127+00:00",
+  "seconds": 154.1,
+  "input_tokens": 112831,
+  "output_tokens": 6010,
+  "cached_tokens": 53312,
+  "cost_usd": 0.0454,
+  "cost_source": "reported",
+  "billed_usd": 0.04544442,
+  "searches": [
+    "California Proposition 45 voter guide what does it say",
+    "\"Prop 45\" OR \"Proposition 45\" California data centers CEQA environmental impact expert criticism",
+    "Los Angeles Times editorial endorsement \"Prop 45\" CEQA vote"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/45/",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=45&year=2026",
+    "https://voterguide.sos.ca.gov/propositions/45/arguments-rebuttals.htm",
+    "https://calmatters.org/california-voter-guide-2026/proposition-45-environmental-review/",
+    "https://lao.ca.gov/ballot/2026/prop45-110326.pdf",
+    "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-45-ceqa-housing-data-center-voter-guide",
+    "https://calmatters.org/environment/2026/10/prop-45-california-ceqa-explained/",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-45-environmental-review",
+    "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-45-ceqa-housing-data-center-voter-guide",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-45-ceqa-california-22468905.php",
+    "https://insideclimatenews.org/news/28102026/california-prop-45-aims-to-weaken-environmental-law/",
+    "https://www.latimes.com/environment/story/2026-10-14/californias-prop-45-aims-to-speed-construction-projects-opponents-say-data-centers-will-benefit"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 1 connection attempts that ignored the proxy were blocked (node remote:*:63379 x1)"
+  ],
+  "network": {
+    "requests": 9,
+    "requests_per_host": {
+      "openrouter.ai": 9
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 9
+    },
+    "bytes_up": 693111,
+    "bytes_down": 2164790,
+    "wire_bytes": {
+      "harness_to_proxy": 710858,
+      "proxy_to_harness": 2294242,
+      "proxy_to_internet": 708517,
+      "internet_to_proxy": 2312300
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "node",
+        "operation": "network-outbound",
+        "target": "remote:*:63379",
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 1,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 9,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:27:33.518938+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:27:33.518938+00:00",
+      "finished_at": "2026-11-03T13:30:10.472127+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "requests": 21,
+  "requests_per_host": {
+    "openrouter.ai": 19,
+    "project-voter-guide-2026.interactives.calmatters.org": 1,
+    "kalshi.com": 1
+  },
+  "hosts": [
+    "kalshi.com",
+    "openrouter.ai",
+    "project-voter-guide-2026.interactives.calmatters.org"
+  ],
+  "status_counts": {
+    "200": 20,
+    "429": 1
+  },
+  "bytes_up": 580988,
+  "bytes_down": 303388,
+  "wire_bytes": {
+    "harness_to_proxy": 626819,
+    "proxy_to_harness": 361378,
+    "proxy_to_internet": 619418,
+    "internet_to_proxy": 415952
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 22,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

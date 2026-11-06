@@ -1,0 +1,76 @@
+{
+  "run_id": "grok__common__win__p40__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "40",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:10:22.476755+00:00",
+  "seconds": 30.3,
+  "input_tokens": 16365,
+  "output_tokens": 1483,
+  "cached_tokens": 9344,
+  "cost_usd": 0.0667,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 40 2022 who is winning poll results yes or no",
+    "Proposition 40 campaign spending 2026 opposition vs support latest",
+    "California Prop 40 latest poll November 2026 No lead Berkeley PPIC",
+    "Proposition 40 California 2026 prediction market Polymarket odds billionaire tax"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/40/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 7,
+    "requests_per_host": {
+      "openrouter.ai": 7
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 7
+    },
+    "bytes_up": 98642,
+    "bytes_down": 82231,
+    "wire_bytes": {
+      "harness_to_proxy": 113311,
+      "proxy_to_harness": 105017,
+      "proxy_to_internet": 111345,
+      "internet_to_proxy": 120360
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 8,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

@@ -1,0 +1,106 @@
+{
+  "run_id": "sol__native__win__p38__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:17:20.859614+00:00",
+  "finished_at": "2026-11-03T13:18:45.100899+00:00",
+  "seconds": 82.2,
+  "input_tokens": 27,
+  "output_tokens": 3548,
+  "cached_tokens": 303713,
+  "cost_usd": 0.3667,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 38 2026 immunology polling November ...",
+    "\"Proposition 38\" \"2026\" polling poll ...",
+    "\"Proposition 38\" \"October 2026\" poll Berkeley ...",
+    "\"Proposition 38\" \"2026\" \"November 2\" ...",
+    "'Proposition 38'",
+    "'Campaign finance'",
+    "\"Proposition 38\" \"2026\" \"October 29\" ...",
+    "\"Proposition 38\" 2026 campaign \"$\" million October November finance ...",
+    "site.ppic.org \"October 2020\" \"Proposition 14\" ...",
+    "'Californians for Life-Saving Immunology'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/38/",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_38",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://ballotpedia.org/California_Proposition_38%2C_Immunology_and_Immunotherapy_Research_Funding_Initiative_%282026%29",
+    "https://www.sos.ca.gov/campaign-lobbying/cal-access-resources/measure-contributions/2026-ballot-measure-contribution-totals",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+    "https://calmatters.org/politics/elections/2026/10/prop-38-california/",
+    "https://votenoonprop38.org/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 24,
+    "requests_per_host": {
+      "api.openai.com": 22,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 20,
+      "202": 2,
+      "500": 1
+    },
+    "bytes_up": 1130806,
+    "bytes_down": 2254856,
+    "wire_bytes": {
+      "harness_to_proxy": 927903,
+      "proxy_to_harness": 1481908,
+      "proxy_to_internet": 926478,
+      "internet_to_proxy": 1523020
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1966,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 23,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:17:20.859614+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:17:20.859614+00:00",
+      "finished_at": "2026-11-03T13:18:45.100899+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

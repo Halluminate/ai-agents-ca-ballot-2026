@@ -1,0 +1,57 @@
+{
+  "requests": 26,
+  "requests_per_host": {
+    "openrouter.ai": 21,
+    "www.lao.ca.gov": 1,
+    "www.marinij.com": 1,
+    "www.brennancenter.org": 1,
+    "www.yalelawjournal.org": 1,
+    "yalelawjournal.org": 1
+  },
+  "hosts": [
+    "openrouter.ai",
+    "www.brennancenter.org",
+    "www.lao.ca.gov",
+    "www.marinij.com",
+    "www.yalelawjournal.org",
+    "yalelawjournal.org"
+  ],
+  "status_counts": {
+    "200": 25,
+    "301": 1
+  },
+  "bytes_up": 1466433,
+  "bytes_down": 591317,
+  "wire_bytes": {
+    "harness_to_proxy": 1523239,
+    "proxy_to_harness": 670262,
+    "proxy_to_internet": 1514909,
+    "internet_to_proxy": 734343
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 27,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

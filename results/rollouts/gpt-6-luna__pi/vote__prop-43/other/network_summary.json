@@ -1,0 +1,47 @@
+{
+  "requests": 28,
+  "requests_per_host": {
+    "openrouter.ai": 25,
+    "www.kqed.org": 1,
+    "www.taxpolicycenter.org": 1,
+    "taxpolicycenter.org": 1
+  },
+  "hosts": [
+    "openrouter.ai",
+    "taxpolicycenter.org",
+    "www.kqed.org",
+    "www.taxpolicycenter.org"
+  ],
+  "status_counts": {
+    "200": 26,
+    "301": 1,
+    "403": 1
+  },
+  "bytes_up": 1398811,
+  "bytes_down": 2245713,
+  "wire_bytes": {
+    "harness_to_proxy": 1458085,
+    "proxy_to_harness": 2390047,
+    "proxy_to_internet": 1449189,
+    "internet_to_proxy": 2457569
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 28,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

@@ -1,0 +1,69 @@
+{
+  "requests": 107,
+  "requests_per_host": {
+    "api.anthropic.com": 54,
+    "openrouter.ai": 35,
+    "calmatters.org": 5,
+    "en.wikipedia.org": 3,
+    "voterguide.sos.ca.gov": 2,
+    "www.sfchronicle.com": 2,
+    "igs.berkeley.edu": 1,
+    "lao.ca.gov": 1,
+    "sfstandard.com": 1,
+    "lapublicpress.org": 1,
+    "abc7news.com": 1,
+    "www.npr.org": 1
+  },
+  "hosts": [
+    "abc7news.com",
+    "api.anthropic.com",
+    "calmatters.org",
+    "en.wikipedia.org",
+    "igs.berkeley.edu",
+    "lao.ca.gov",
+    "lapublicpress.org",
+    "openrouter.ai",
+    "sfstandard.com",
+    "voterguide.sos.ca.gov",
+    "www.npr.org",
+    "www.sfchronicle.com"
+  ],
+  "status_counts": {
+    "200": 105,
+    "403": 1
+  },
+  "bytes_up": 2800572,
+  "bytes_down": 6187648,
+  "wire_bytes": {
+    "harness_to_proxy": 2883694,
+    "proxy_to_harness": 6422201,
+    "proxy_to_internet": 2883916,
+    "internet_to_proxy": 6498215
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "www.npr.org",
+      "url": "https://www.npr.org/sections/planet-money/2026/11/02/g-s1-151009/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 43,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

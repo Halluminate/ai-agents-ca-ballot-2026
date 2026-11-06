@@ -1,0 +1,58 @@
+{
+  "requests": 10,
+  "requests_per_host": {
+    "openrouter.ai": 6,
+    "vig.cdn.sos.ca.gov": 2,
+    "www.yesprop3ca.com": 1,
+    "votenoprop3.com": 1
+  },
+  "hosts": [
+    "openrouter.ai",
+    "vig.cdn.sos.ca.gov",
+    "votenoprop3.com",
+    "www.yesprop3ca.com"
+  ],
+  "status_counts": {
+    "200": 10
+  },
+  "bytes_up": 340466,
+  "bytes_down": 365683,
+  "wire_bytes": {
+    "harness_to_proxy": 360671,
+    "proxy_to_harness": 399451,
+    "proxy_to_internet": 358428,
+    "internet_to_proxy": 419630
+  },
+  "byte_counter": true,
+  "errors": 2,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 11,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

@@ -1,0 +1,123 @@
+{
+  "run_id": "qwen-max-prime__common__vote__p40__r1",
+  "model": "qwen-max-prime",
+  "model_id": "qwen/qwen3.8-max-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "40",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "first_line",
+  "error": "",
+  "started_at": "2026-11-03T13:13:25.904037+00:00",
+  "finished_at": "2026-11-03T13:16:30.567316+00:00",
+  "seconds": 181.6,
+  "input_tokens": 117878,
+  "output_tokens": 9140,
+  "cached_tokens": 678144,
+  "cost_usd": 0.9711,
+  "cost_source": "reported",
+  "billed_usd": 0.971140451,
+  "searches": [
+    "California Proposition 40 voter guide sos.ca.gov",
+    "Proposition 40 California 2026 billionaire wealth tax analysis criticism",
+    "Proposition 40 California polling 2026 billionaire tax survey support",
+    "Prop 40 \"legislature\" amend \"two-thirds\" wealth tax loophole expand retirement accounts claim fact check",
+    "Sacramento Bee editorial board endorsement Prop 40 billionaire tax yes",
+    "Newsom Prop 40 billionaire tax opposition statement 2026",
+    "Zuckerberg Meta deal California billionaire tax Prop 40 stay eight years shares",
+    "Prop 40 supplantation protection Proposition 98 schools \"$3 billion\" healthcare spending caps $22.5 billion",
+    "California November 3 2026 election results Proposition 40 outcome",
+    "\"Prop 40\" schools \"$3 billion\" annually shortchanges ProtectCaliforniaSchools Prop 98 exemption claim",
+    "Prop 40 wealth tax constitutionality legal scholars due process retroactive likely upheld courts analysis"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/40/",
+    "https://voterguide.sos.ca.gov/propositions/40/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/40/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+    "https://www.npr.org/sections/planet-money/2026-11-02/g-s1-151009/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions/",
+    "https://www.npr.org/sections/planet-money/2026-11-02/g-s1-151009/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions/",
+    "https://taxfoundation.org/research/all/state/california-proposition-40-wealth-tax-constitutional-legal-issues/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-40-one",
+    "https://calmatters.org/california-voter-guide-2026/proposition-40-billionaire-tax/",
+    "https://cms.hoover.org/proposition-lab-proposition-40",
+    "https://www.latimes.com/opinion/story/2026-09-06/editorial-vote-no-on-proposition-40",
+    "https://lao.ca.gov/ballot/2026/prop40-110326.pdf",
+    "https://calbudgetcenter.org/resources/billionaire-tax-explained-what-proposition-40-would-mean-for-california/",
+    "https://calbudgetcenter.org/resources/billionaire-tax-explained-what-proposition-40-would-mean-for-california/",
+    "https://calbudgetcenter.org/resources/billionaire-tax-explained-what-proposition-40-would-mean-for-california/",
+    "https://eml.berkeley.edu/~saez/prop40explainer-sept2026.pdf",
+    "https://scocablog.com/proposition-40-a-measured-look-at-the-billionaire-tax/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 28,
+    "requests_per_host": {
+      "openrouter.ai": 25,
+      "www.npr.org": 2,
+      "cms.hoover.org": 1
+    },
+    "hosts": [
+      "cms.hoover.org",
+      "openrouter.ai",
+      "www.npr.org"
+    ],
+    "status_counts": {
+      "200": 27,
+      "301": 1
+    },
+    "bytes_up": 3308786,
+    "bytes_down": 1239453,
+    "wire_bytes": {
+      "harness_to_proxy": 3368535,
+      "proxy_to_harness": 1362247,
+      "proxy_to_internet": 3360078,
+      "internet_to_proxy": 1433969
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 27,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:13:25.904037+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:13:25.904037+00:00",
+      "finished_at": "2026-11-03T13:16:30.567316+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "run_id": "sol__native__better__p43__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:09:02.459077+00:00",
+  "finished_at": "2026-11-03T11:34:10.812721+00:00",
+  "seconds": 1506.1,
+  "input_tokens": 45,
+  "output_tokens": 6266,
+  "cached_tokens": 816878,
+  "cost_usd": 0.5246,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 43 2026 local special taxes two-thirds voter initiative analysis ...",
+    "site.leginfo.legislature.ca.gov ACA 22 2026 two-thirds local special taxes ...",
+    "site.leginfo.legislature.ca.gov \"ACA 22\" \"2026\" \"special tax\" ...",
+    "California Proposition 43 2026 local special taxes citizen initiative nonpartisan analysis CalMatters ...",
+    "site.courts.ca.gov \"City and County of San Francisco\" \"All Persons\" \"2020\" \"special taxes\" ...",
+    "site.sonomacounty.ca.gov \"Measure H\" \"61.83\" ...",
+    "supermajority voting local tax increases empirical evidence California study ...",
+    "'$1.44'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/",
+    "https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm",
+    "https://www.lao.ca.gov/BallotAnalysis/Proposition?number=43&year=2026",
+    "https://calmatters.org/politics/2026/10/california-prop-43-election-2026/",
+    "https://calmatters.digitaldemocracy.org/bills/ca_202520260aca22",
+    "https://law.justia.com/cases/california/court-of-appeal/2020/a158645.html",
+    "https://calbudgetcenter.org/resources/should-california-voters-approve-proposition-43/",
+    "https://www.hjta.org/california-commentary/proposition-43-is-essential-for-taxpayer-protection/",
+    "https://www.treasurer.ca.gov/cdiac/publications/results-2024-general.pdf",
+    "https://www.lao.ca.gov/reports/2014/finance/local-taxes/voter-approval-032014.aspx",
+    "https://sonoma-county.legistar.com/LegislationDetail.aspx?GUID=4FDD3C5D-6A66-422B-A77F-A887FA878DB7&ID=8024288&Options=&Search=",
+    "https://www.cambridge.org/core/journals/state-politics-and-policy-quarterly/article/abs/effect-of-supermajority-vote-requirements-for-tax-increase-in-california-a-synthetic-control-method-approach/2EF0DC7CC373DADF62FEEB669C77A04B"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 11 connections were not readable by the proxy (api.openai.com:443)"
+  ],
+  "network": {
+    "requests": 38,
+    "requests_per_host": {
+      "api.openai.com": 32,
+      "ab.chatgpt.com": 6
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 27,
+      "202": 4
+    },
+    "bytes_up": 3004278,
+    "bytes_down": 3014908,
+    "wire_bytes": {
+      "harness_to_proxy": 4633246,
+      "proxy_to_harness": 2104272,
+      "proxy_to_internet": 2750838,
+      "internet_to_proxy": 2157144
+    },
+    "byte_counter": true,
+    "errors": 21,
+    "error_details": [
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "ab.chatgpt.com",
+        "url": "https://ab.chatgpt.com/otlp/v1/metrics",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "ab.chatgpt.com",
+        "url": "https://ab.chatgpt.com/otlp/v1/metrics",
+        "error": "client disconnected"
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.openai.com",
+        "sni": "api.openai.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "connection closed"
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "stream reset by client (CANCEL)"
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 95,
+        "bytes_down": 0,
+        "duration": 15.0,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 95,
+        "bytes_down": 0,
+        "duration": 14.9986,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 95,
+        "bytes_down": 0,
+        "duration": 14.9958,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 95,
+        "bytes_down": 0,
+        "duration": 14.9998,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 95,
+        "bytes_down": 0,
+        "duration": 14.9989,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 65,
+        "bytes_down": 480,
+        "duration": 300.0232,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 65,
+        "bytes_down": 277,
+        "duration": 30.0201,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 65,
+        "bytes_down": 277,
+        "duration": 30.0195,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 65,
+        "bytes_down": 277,
+        "duration": 30.0214,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 65,
+        "bytes_down": 277,
+        "duration": 30.0181,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 65,
+        "bytes_down": 277,
+        "duration": 30.0463,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2021,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 43,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:09:02.459077+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:09:02.459077+00:00",
+      "finished_at": "2026-11-03T11:34:10.812721+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

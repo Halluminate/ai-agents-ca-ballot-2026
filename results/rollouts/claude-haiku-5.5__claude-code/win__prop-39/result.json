@@ -1,0 +1,125 @@
+{
+  "run_id": "haiku__native__win__p39__r1",
+  "model": "haiku",
+  "model_id": "anthropic/claude-haiku-5.5",
+  "pin": "anthropic",
+  "arm": "native",
+  "harness": "claude_code",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "39",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:12:28.980421+00:00",
+  "finished_at": "2026-11-03T13:33:25.264579+00:00",
+  "seconds": 1253.9,
+  "input_tokens": 30968,
+  "output_tokens": 11834,
+  "cached_tokens": 114782,
+  "cost_usd": 0.4337,
+  "cost_source": "reported",
+  "billed_usd": 0.43365822,
+  "searches": [
+    "California Proposition 39 November 2026 poll",
+    "California Prop 39 voter ID results",
+    "Proposition 39 voter ID California odds Kalshi Polymarket",
+    "PPIC survey October 2026 voter ID Proposition 39 likely voters",
+    "Berkeley IGS poll voter ID proposition 2026 California",
+    "Trump voter ID California Prop 39 campaign spending opposition ads final week",
+    "Kalshi California Proposition 39 voter ID market",
+    "ballot measure support declines during campaign undecided voters vote no study",
+    "California Proposition 39 voter ID election results passes fails",
+    "Prop 39 voter ID final poll before election November 2026 California likely voters"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 10,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/39/",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_39",
+    "https://en.wikipedia.org/wiki/2026_California_voter_ID_initiative",
+    "https://www.kqed.org/news/12106950/is-californias-proposed-billionaire-tax-in-trouble-new-polls-find-bad-news",
+    "https://ivn.us/new-ca-poll-voter-id-measure-leads-today-its-undecided-voters-point-the-other-way/",
+    "https://escholarship.org/content/qt3w14s99c/qt3w14s99c.pdf",
+    "https://www.ppic.org/press-release/californians-head-to-polls-in-historically-sour-mood-billionaire-wealth-tax-slips-below-majority-support/",
+    "https://defirate.com/odds/california-props/",
+    "https://calmatters.org/politics/2026/10/california-election-voter-id-proposition-39/"
+  ],
+  "tool_errors": 1,
+  "warnings": [],
+  "network": {
+    "requests": 72,
+    "requests_per_host": {
+      "api.anthropic.com": 38,
+      "openrouter.ai": 26,
+      "en.wikipedia.org": 2,
+      "voterguide.sos.ca.gov": 1,
+      "www.kqed.org": 1,
+      "ivn.us": 1,
+      "escholarship.org": 1,
+      "defirate.com": 1,
+      "calmatters.org": 1
+    },
+    "hosts": [
+      "api.anthropic.com",
+      "calmatters.org",
+      "defirate.com",
+      "en.wikipedia.org",
+      "escholarship.org",
+      "ivn.us",
+      "openrouter.ai",
+      "voterguide.sos.ca.gov",
+      "www.kqed.org"
+    ],
+    "status_counts": {
+      "200": 71
+    },
+    "bytes_up": 2015066,
+    "bytes_down": 3800907,
+    "wire_bytes": {
+      "harness_to_proxy": 2055597,
+      "proxy_to_harness": 3930477,
+      "proxy_to_internet": 2056245,
+      "internet_to_proxy": 3959284
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 20,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:12:28.980421+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:12:28.980421+00:00",
+      "finished_at": "2026-11-03T13:33:25.264579+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "requests": 30,
+  "requests_per_host": {
+    "openrouter.ai": 26,
+    "vig.cdn.sos.ca.gov": 1,
+    "laist.com": 1,
+    "www.sgvtribune.com": 1,
+    "www.pacificresearch.org": 1
+  },
+  "hosts": [
+    "laist.com",
+    "openrouter.ai",
+    "vig.cdn.sos.ca.gov",
+    "www.pacificresearch.org",
+    "www.sgvtribune.com"
+  ],
+  "status_counts": {
+    "200": 30
+  },
+  "bytes_up": 4075804,
+  "bytes_down": 1320772,
+  "wire_bytes": {
+    "harness_to_proxy": 4135382,
+    "proxy_to_harness": 1469567,
+    "proxy_to_internet": 4128232,
+    "internet_to_proxy": 1527606
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 27,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

@@ -1,0 +1,48 @@
+{
+  "requests": 16,
+  "requests_per_host": {
+    "openrouter.ai": 15,
+    "scocablog.com": 1
+  },
+  "hosts": [
+    "openrouter.ai",
+    "scocablog.com"
+  ],
+  "status_counts": {
+    "200": 16
+  },
+  "bytes_up": 2084090,
+  "bytes_down": 275677,
+  "wire_bytes": {
+    "harness_to_proxy": 2118740,
+    "proxy_to_harness": 325676,
+    "proxy_to_internet": 2113869,
+    "internet_to_proxy": 363150
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 16,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

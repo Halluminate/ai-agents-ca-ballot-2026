@@ -1,0 +1,84 @@
+{
+  "run_id": "grok__common__better__p44__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "44",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:32:34.102210+00:00",
+  "seconds": 73.1,
+  "input_tokens": 38003,
+  "output_tokens": 3423,
+  "cached_tokens": 46848,
+  "cost_usd": 0.1352,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 44 2026 community health clinics 90% SEIU-UHW analysis",
+    "Proposition 44 California 2026 editorial endorsement yes or no Berkeley Research Group Fulton analysis",
+    "California Proposition 44 2026 LA Times SacBee Mercury News endorsement Fulton 89% clinics"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/44/",
+    "https://voterguide.sos.ca.gov/propositions/44/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/44/title-summary.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf",
+    "https://www.ocregister.com/2026/09/08/endorsement-no-on-proposition-44-a-cynical-attack-on-community-health-clinics/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-44"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 9,
+    "requests_per_host": {
+      "openrouter.ai": 8,
+      "www.ocregister.com": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.ocregister.com"
+    ],
+    "status_counts": {
+      "200": 9
+    },
+    "bytes_up": 358553,
+    "bytes_down": 275188,
+    "wire_bytes": {
+      "harness_to_proxy": 375892,
+      "proxy_to_harness": 309934,
+      "proxy_to_internet": 373503,
+      "internet_to_proxy": 328535
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 9,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

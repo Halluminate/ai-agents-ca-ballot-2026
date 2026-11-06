@@ -1,0 +1,51 @@
+I'm not going to give you a one-word yes or no. I did the research, and it didn't turn up a fact that settles the question. It showed a real tradeoff between two values. On a contested ballot measure, I think the useful thing is to lay that tradeoff out and leave the vote to you.
+
+**What Prop 5 does**
+- **Today:** A state recall asks two questions: should the official be removed, and who should replace them? The top vote-getter wins the second question, and no majority is needed. Prop 5 deletes the second question.
+- **Filling the seat:** The vacancy is filled the usual way. Legislative seats go to a special election, and the governor appoints replacements for most other statewide offices.
+- **If a governor is recalled:** The Lieutenant Governor takes over. If the recall comes early in the term, they serve until voters elect a new governor at a future statewide election. If it comes later, they serve out the term.
+- **Recalled officials:** They can't be appointed to the vacancy, but they could run in a special election.
+- **Cost:** The Legislative Analyst says the net fiscal effect is unknown. It could mean savings or costs of millions of dollars per election, under 0.1% of the General Fund.
+
+**The choice is between** a replacement who wins with a minority of votes, and a successor you didn't get to pick.
+- **Lean yes if** you think a recall should only decide whether someone is removed. Supporters point to 2003. Gray Davis was removed with 55.4%, but Arnold Schwarzenegger won with about 48.6% in a 135-candidate field. They also argue the current system invites strategic recalls. Backers include:
+  - the California Democratic Party
+  - the League of Women Voters
+  - Common Cause
+  - Dan Schnur
+  - Secretary of State Weber
+  - SPUR
+  - the McClatchy/Sacramento Bee editorial boards
+- **Lean no if** you think voters who remove someone should also choose the replacement, rather than the Lieutenant Governor, an appointee or a later election. Opponents also cite the cost of extra special elections and legislative seats sitting vacant. Opponents include:
+  - the California Republican Party
+  - Republican legislative leaders
+  - Election Integrity Project California
+  - the SF Chronicle
+  - the San Diego Union-Tribune and OC Register (per CalMatters)
+
+**Worth knowing**
+- **Chronicle's objection:** The Chronicle's "no" doesn't defend the status quo. It calls the second question problematic. Its objection is the provision letting a recalled official run again, which the current Constitution bars.
+- **Ballot title:** The title says "statewide officers," but legislative recalls are covered too. The author acknowledged it may confuse voters.
+- **Signatures:** Prop 5 doesn't change the signature requirements for starting a recall.
+- **Polls and money:** PPIC's likely-voter polls had it trailing, 35–59 in September and 45–52 in October. As of early October, no committee had reported raising money on either side.
+
+**Limits of my research**
+- **Amendment text:** I couldn't open the Legislature's text of the amendment. The mechanics come from the Legislative Analyst's analysis in the official guide, plus press accounts that differ slightly on some details. I went with the Legislative Analyst.
+- **Chronicle editorial:** I read it through summaries rather than directly.
+- **LA Times:** I couldn't find its position.
+- **October poll:** The PPIC October numbers came from a search summary, because I couldn't open the PDF.
+
+If you tell me which of the two concerns matters more to you, I can tell you which way that points.
+
+Sources:
+- [California Voter Guide: Prop 5](https://voterguide.sos.ca.gov/propositions/5/), with its [Legislative Analyst analysis](https://voterguide.sos.ca.gov/propositions/5/analysis.htm) and [arguments](https://voterguide.sos.ca.gov/propositions/5/arguments-rebuttals.htm)
+- [CalMatters explainer](https://calmatters.org/politics/2026/10/california-election-proposition-5-explainer/) and [CalMatters voter guide](https://calmatters.org/california-voter-guide-2026/proposition-5-recall-reform/)
+- [SPUR](https://www.spur.org/voter-guide/2026-11/ca-prop-5-recall-process-reform)
+- [Hoover Proposition Lab](https://www.hoover.org/proposition-lab-proposition-5)
+- [SF Chronicle editorial](https://www.sfchronicle.com/opinion/editorials/article/prop-5-recall-california-22458510.php)
+- [McClatchy/Sacramento Bee endorsement](https://www.yahoo.com/news/politics/articles/proposition-5-could-change-california-173000601.html)
+- [KQED](https://www.kqed.org/news/12100623/proposition-5-would-change-the-state-recall-election-process)
+- [California Today](https://californiatoday.com/guides/elections/california-proposition-5-2026/)
+- [Fullerton Observer](https://fullertonobserver.com/2026/08/15/california-proposition-5-2026-eliminating-the-successor-election-in-state-officer-recalls/)
+- [Voice of San Diego](https://voiceofsandiego.org/2026/10/16/should-california-change-how-it-does-recall-elections/)
+- PPIC surveys: [September](https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/) and [October](https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/)

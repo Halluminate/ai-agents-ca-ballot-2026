@@ -1,0 +1,95 @@
+{
+  "run_id": "luna__native__better__p44__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "44",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:02:29.642767+00:00",
+  "finished_at": "2026-11-03T13:05:18.218779+00:00",
+  "seconds": 166.4,
+  "input_tokens": 45,
+  "output_tokens": 14419,
+  "cached_tokens": 833920,
+  "cost_usd": 0.1008,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 44 2026 90% FQHC analysis $1.7 billion clinics 88% ...",
+    "site:calmatters.org health 2026 Prop 44 clinics 90% spending requirement $1.7 billion report clinic ...",
+    "'Scenario 1'",
+    "California 2026 Proposition 44 study critique 90% clinic spending BRG report response methodology ...",
+    "\"Prop. 44\" California health clinic executive salaries clinic 2026 executive pay ...",
+    "site:hrsa.gov health center program compliance manual governing board majority patients annual financial audit FQHC ...",
+    "Los Angeles Times endorsement No Proposition 44 2026 clinics \"Prop. 44\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/44/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 18,
+    "requests_per_host": {
+      "api.openai.com": 15,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 14,
+      "202": 3
+    },
+    "bytes_up": 1366762,
+    "bytes_down": 2899905,
+    "wire_bytes": {
+      "harness_to_proxy": 1028386,
+      "proxy_to_harness": 1706916,
+      "proxy_to_internet": 1027356,
+      "internet_to_proxy": 1735821
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1591,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 17,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:02:29.642767+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:02:29.642767+00:00",
+      "finished_at": "2026-11-03T13:05:18.218779+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

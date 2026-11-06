@@ -1,0 +1,43 @@
+{
+  "requests": 18,
+  "requests_per_host": {
+    "openrouter.ai": 16,
+    "lao.ca.gov": 1,
+    "www.latimes.com": 1
+  },
+  "hosts": [
+    "lao.ca.gov",
+    "openrouter.ai",
+    "www.latimes.com"
+  ],
+  "status_counts": {
+    "200": 18
+  },
+  "bytes_up": 1414096,
+  "bytes_down": 666484,
+  "wire_bytes": {
+    "harness_to_proxy": 1451472,
+    "proxy_to_harness": 745029,
+    "proxy_to_internet": 1446584,
+    "internet_to_proxy": 783840
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 18,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

@@ -1,0 +1,101 @@
+{
+  "run_id": "gpt__native__vote__p44__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "44",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T11:00:00.448793+00:00",
+  "finished_at": "2026-11-03T11:02:53.579086+00:00",
+  "seconds": 170.9,
+  "input_tokens": 33,
+  "output_tokens": 6401,
+  "cached_tokens": 616422,
+  "cost_usd": 2.5523,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 44 November 2026 voter guide",
+    "Proposition 44 2026 community clinics 90 percent CalMatters analysis ...",
+    "site:calmatters.org \"2026\" \"Proposition 44\" clinics",
+    "\"Proposition 44\" \"90\" \"evidence\" 2026 ...",
+    "site:bphc.hrsa.gov \"Chapter 15\" \"Financial Management\" \"non-grant\" ...",
+    "\"Proposition 44\" \"90%\" \"research\" ...",
+    "\"Proposition 44 ensures\" \"patients\" ...",
+    "'waiver'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/44/",
+    "https://lao.ca.gov/ballot/2025/250392.pdf",
+    "https://cms.hoover.org/proposition-lab-proposition-44",
+    "https://bphc.hrsa.gov/compliance/compliance-manual/chapter15",
+    "https://calmatters.org/commentary/2026/08/patients-revenue-proposition-44-california/",
+    "https://californiatoday.com/guides/elections/california-proposition-44-2026/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 23,
+    "requests_per_host": {
+      "api.openai.com": 20,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 19,
+      "202": 3
+    },
+    "bytes_up": 1392075,
+    "bytes_down": 2818264,
+    "wire_bytes": {
+      "harness_to_proxy": 1077521,
+      "proxy_to_harness": 1864595,
+      "proxy_to_internet": 1075452,
+      "internet_to_proxy": 1905785
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2222,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 22,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:00:00.448793+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:00:00.448793+00:00",
+      "finished_at": "2026-11-03T11:02:53.579086+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

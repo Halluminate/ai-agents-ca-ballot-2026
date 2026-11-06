@@ -1,0 +1,31 @@
+**No**
+
+It's a judgment call on values, but on the evidence I could find, the costs and open questions outweigh the likely benefit.
+
+- **The cost is real and ongoing.** The Legislative Analyst's Office estimates added state and local costs of "tens of millions" to "low hundreds of millions" of dollars a year, and says savings "likely would not exceed the costs."
+- **You'd be approving rules that aren't written yet.** The Legislature would have to define which IDs count and what "best efforts" citizenship checks means. The LAO gives no effective date. As a constitutional amendment, it "cannot simply repeal" easily, per Hoover, so a Yes locks in an unfinished framework.
+- **It adds a new way for mail ballots to fail.** About 13 million Californians voted by mail in 2024. Under this measure, a mail ballot with the wrong or missing ID digits would not count. I found no cure process in the sources I could read, and Hoover says lawmakers would have to add one. Today about 0.9% of mail ballots are rejected, mostly for signature mismatches, which current law lets voters fix.
+- **The fraud it targets is rare.** Hoover, which leans toward the measure, says there is "no credible proof of widespread or systematic election fraud in California."
+
+Access is my weakest reason. A National Bureau of Economic Research study by Cantoni and Pons (revised 2021) found strict photo-ID laws in other states did not measurably reduce registration or turnout. It doesn't study this measure, though.
+
+**Strongest case for Yes:** Voter ID is broadly popular (Pew, Aug. 2025: 83% of adults support requiring government-issued photo ID, including 71% of Democrats). The free ID card eases the burden, and mail voting is now where most Californians vote, so adding an identity check there has logic. If you weight public confidence and uniform ID rules heavily, Yes is defensible.
+
+**Polls:** Most late-October polls show No ahead. Berkeley IGS had 37% yes and 57% no, and PPIC had 41% and 58%. SurveyUSA is the outlier at 49% yes and 42% no.
+
+**Limits:** I couldn't open the official measure text or the LAO PDF; both came back as compressed binary. PPIC's site blocked access. The lawsuit and enforcement details come from secondary summaries that conflict. The SF Chronicle warns anyone can sue if government isn't "promptly" acting, while the IGS guide says that language doesn't appear. The poll table is from Wikipedia, and I confirmed the October IGS and PPIC numbers only through secondary coverage.
+
+Sources:
+- [CA Secretary of State voter guide, Prop 39](https://voterguide.sos.ca.gov/propositions/39/)
+- [LAO ballot analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=39&year=2026)
+- [Berkeley IGS voter guide](https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-39-voter)
+- [Hoover Institution explainer](https://www.hoover.org/proposition-lab-proposition-39)
+- [SPUR voter guide](https://www.spur.org/voter-guide/2026-11/ca-prop-39-california-voter-id)
+- [CalMatters explainer](https://calmatters.org/california-voter-guide-2026/proposition-39-voter-id/)
+- [LAist explainer](https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-39)
+- [CalMatters, megadonors](https://calmatters.org/politics/2026/10/california-election-voter-id-proposition-39/)
+- [SF Chronicle editorial](https://www.sfchronicle.com/opinion/editorials/article/california-ballot-measures-propositions-22507044.php)
+- [Wikipedia, 2026 California voter ID initiative (poll table)](https://en.wikipedia.org/wiki/2026_California_voter_ID_initiative)
+- [NBER, Cantoni & Pons, "Strict ID Laws Don't Stop Voters"](https://www.nber.org/papers/w25522)
+- [Pew Research, Aug. 2025](https://www.pewresearch.org/politics/2025/08/22/majority-of-americans-continue-to-back-expanded-early-voting-voting-by-mail-voter-id/)
+- [CalVoter, 2024 rejected ballots](https://calvoter.org/content/california-elections-officials-rejected-122000-ballots-2024-election-here%E2%80%99s-why)

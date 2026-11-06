@@ -1,0 +1,108 @@
+{
+  "run_id": "glm-prime__common__win__p43__r1",
+  "model": "glm-prime",
+  "model_id": "z-ai/glm-5.3-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:45:29.691009+00:00",
+  "finished_at": "2026-11-03T13:46:20.099050+00:00",
+  "seconds": 47.7,
+  "input_tokens": 24432,
+  "output_tokens": 2864,
+  "cached_tokens": 48384,
+  "cost_usd": 0.151,
+  "cost_source": "reported",
+  "billed_usd": 0.15103327304,
+  "searches": [
+    "California Proposition 43 2026 poll two-thirds special taxes",
+    "Proposition 43 2026 California ballot \"special taxes\" polling",
+    "\"No on Prop 43\" campaign 2026 fundraising ads firefighters",
+    "Berkeley IGS poll November 2026 Proposition 43 36% 46%",
+    "Proposition 43 California election results November 3 2026",
+    "\"Yes on 43\" OR \"Proposition 43\" California last-minute polling surge voters November 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_43",
+    "https://www.vcstar.com/story/news/politics/elections/2026/10/28/poll-more-california-voters-oppose-billionaire-tax-measure/92482944007/"
+  ],
+  "tool_errors": 1,
+  "warnings": [],
+  "network": {
+    "requests": 13,
+    "requests_per_host": {
+      "openrouter.ai": 12,
+      "www.vcstar.com": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.vcstar.com"
+    ],
+    "status_counts": {
+      "200": 12,
+      "402": 1
+    },
+    "bytes_up": 312385,
+    "bytes_down": 618418,
+    "wire_bytes": {
+      "harness_to_proxy": 338453,
+      "proxy_to_harness": 676087,
+      "proxy_to_internet": 334484,
+      "internet_to_proxy": 707159
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 13,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:45:29.691009+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:45:29.691009+00:00",
+      "finished_at": "2026-11-03T13:46:20.099050+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

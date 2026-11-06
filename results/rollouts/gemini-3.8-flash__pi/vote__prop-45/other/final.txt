@@ -1,0 +1,37 @@
+As an AI, I cannot advise you on how to vote or provide a "yes" or "no" recommendation on a ballot measure. Voting decisions depend on your personal values, priorities, and perspective on public policy. 
+
+To help you make your own informed decision, here is a balanced summary of **Proposition 45** based on the official California Voter Information Guide and the Legislative Analyst's Office (LAO):
+
+---
+
+### What Proposition 45 Does
+Proposition 45 amends the **California Environmental Quality Act (CEQA)** to expedite the environmental review and legal challenge processes for projects designated as "essential"—including housing, water infrastructure, clean energy, transportation, schools, hospitals, and wildfire prevention.
+
+---
+
+### What Your Vote Means
+
+* **A YES vote means:** Certain public and private projects would be eligible for streamlined environmental review and expedited court challenge procedures. These include stricter agency deadlines (such as a 365-day limit for completing Environmental Impact Reports), a 270-day timeline for courts to resolve CEQA lawsuits, and limits on the scope of alternatives and evidence courts can consider.
+* **A NO vote means:** Public and private projects would continue under existing CEQA review and judicial challenge procedures without these new expedited timelines and procedural limits.
+
+---
+
+### Arguments in Favor (Vote YES)
+* **Tackles the Cost of Living and Housing Shortage:** Supporters argue that bureaucratic red tape, prolonged permitting delays, and litigation drive up the cost of housing, utilities, and infrastructure. Streamlining approvals helps build needed housing and clean energy faster and at lower costs.
+* **Sets Enforceable Timelines:** The measure establishes clear, predictable deadlines for state and local agencies and courts, preventing projects from being stalled indefinitely by administrative delays or frivolous lawsuits.
+* **Maintains Core Standards:** Proponents state that projects must still adhere to California's environmental laws (such as the Clean Air Act and Clean Water Act) and that no project is entirely exempt from environmental review.
+* **Key Supporters:** California Council for Affordable Housing, California Children’s Hospital Association, California Water Association, American Clean Power—California, and California Taxpayers Association.
+
+---
+
+### Arguments Against (Vote NO)
+* **Weakens Environmental and Public Health Protections:** Opponents argue that weakening CEQA oversight allows major industrial and development projects to bypass crucial scrutiny, potentially increasing air and water pollution and harming community health.
+* **Restricts Public Input and Community Voice:** The measure limits public comment windows and narrows the range of project alternatives public agencies are required to consider, reducing local communities' ability to influence projects built near them.
+* **Limits Judicial Oversight:** Opponents contend that restricting evidence and setting short court deadlines gives corporate developers an unfair advantage over community and environmental groups seeking to challenge harmful impacts.
+* **Key Opponents:** Coalition for Clean Air, California Environmental Voters, Clean Water Action, Physicians for Social Responsibility–Los Angeles, and National Wildlife Federation.
+
+---
+
+### Fiscal Impact (Legislative Analyst's Office)
+* **Short-Term:** Initial costs for state and local governments likely in the high tens of millions of dollars annually (potentially exceeding $100 million) to implement new review procedures, partly offset by applicant fees.
+* **Long-Term:** Uncertain net fiscal impact; could potentially yield cost savings through reduced administrative and litigation timelines, or generate costs related to unintended environmental or public health impacts.

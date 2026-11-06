@@ -1,0 +1,98 @@
+{
+  "run_id": "gpt__native__win__p40__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "40",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:06:48.773266+00:00",
+  "finished_at": "2026-11-03T11:08:38.775044+00:00",
+  "seconds": 107.9,
+  "input_tokens": 39,
+  "output_tokens": 3369,
+  "cached_tokens": 576128,
+  "cost_usd": 2.1287,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 40 2026 billionaire tax latest poll November October 2026 ...",
+    "\"Proposition 40\" \"October\" \"2026\" \"SurveyUSA\" ...",
+    "site.surveyusa.com \"2026\" \"October\" \"billionaire\" ...",
+    "'SurveyUSA'",
+    "\"Dems Remain in Charge\" \"Proposition 40\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/40/",
+    "https://www.ppic.org/press-release/californians-head-to-polls-in-historically-sour-mood-billionaire-wealth-tax-slips-below-majority-support/",
+    "https://escholarship.org/content/qt72722408/qt72722408.pdf",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_40",
+    "https://www.onpointpolitics.us/forecast/measures/ca/proposition-40",
+    "https://electionresults.sos.ca.gov/returns/ballot-measures"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 18,
+    "requests_per_host": {
+      "api.openai.com": 16,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 15,
+      "202": 2
+    },
+    "bytes_up": 1193840,
+    "bytes_down": 2265078,
+    "wire_bytes": {
+      "harness_to_proxy": 941459,
+      "proxy_to_harness": 1271708,
+      "proxy_to_internet": 940489,
+      "internet_to_proxy": 1304144
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1686,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 18,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:06:48.773266+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:06:48.773266+00:00",
+      "finished_at": "2026-11-03T11:08:38.775044+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

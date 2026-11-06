@@ -1,0 +1,101 @@
+{
+  "run_id": "kimi__common__vote__p40__r1",
+  "model": "kimi",
+  "model_id": "moonshotai/kimi-k3",
+  "pin": "moonshotai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "40",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "first_line",
+  "error": "",
+  "started_at": "2026-11-03T12:41:04.801776+00:00",
+  "finished_at": "2026-11-03T12:43:13.722894+00:00",
+  "seconds": 126.1,
+  "input_tokens": 42316,
+  "output_tokens": 3925,
+  "cached_tokens": 103424,
+  "cost_usd": 0.227,
+  "cost_source": "reported",
+  "billed_usd": 0.22702867599999998,
+  "searches": [
+    "California Proposition 40 voter guide",
+    "California Proposition 40 billionaire tax 2026 analysis criticism editorial",
+    "Proposition 40 California billionaire tax poll November 2026 support opposition"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/40/",
+    "https://voterguide.sos.ca.gov/propositions/40/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/40/arguments-rebuttals.htm",
+    "https://calmatters.org/politics/2026/10/last-minute-voter-guide-propositions/",
+    "https://www.npr.org/sections/planet-money/2026/11/02/g-s1-151009/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions",
+    "https://calmatters.org/politics/2026/10/california-billionaire-tax-explainer/",
+    "https://www.npr.org/sections/planet-money/2026/11/02/g-s1-151009/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions",
+    "https://www.latimes.com/opinion/story/2026-09-06/editorial-vote-no-on-proposition-40"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 9,
+    "requests_per_host": {
+      "openrouter.ai": 9
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 9
+    },
+    "bytes_up": 628689,
+    "bytes_down": 564834,
+    "wire_bytes": {
+      "harness_to_proxy": 648681,
+      "proxy_to_harness": 613140,
+      "proxy_to_internet": 645650,
+      "internet_to_proxy": 635826
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 10,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:41:04.801776+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:41:04.801776+00:00",
+      "finished_at": "2026-11-03T12:43:13.722894+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

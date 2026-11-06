@@ -1,0 +1,94 @@
+{
+  "run_id": "glm-prime__common__vote__p38__r1",
+  "model": "glm-prime",
+  "model_id": "z-ai/glm-5.3-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "38",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T11:02:47.097181+00:00",
+  "finished_at": "2026-11-03T11:03:59.633146+00:00",
+  "seconds": 69.8,
+  "input_tokens": 38176,
+  "output_tokens": 4469,
+  "cached_tokens": 68096,
+  "cost_usd": 0.2149,
+  "cost_source": "reported",
+  "billed_usd": 0.21489915376000002,
+  "searches": [
+    "California Proposition 38 voterguide.sos.ca.gov",
+    "California Proposition 38 2026 immunology research bonds $8.4 billion initiative backers",
+    "CalMatters Proposition 38 California Institute for Immunology and Immunotherapy Michelson earmark criteria",
+    "Proposition 38 California 2026 editorial endorsements newspapers oppose League of Women Voters Newsom",
+    "Proposition 38 California poll 2026 immunology bond polling results",
+    "\"Yes on 38\" response criticism Michelson institute criticism federal NIH cuts California backfill research response"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/38/",
+    "https://voterguide.sos.ca.gov/propositions/38/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm",
+    "https://lwvc.org/ballot-recommendations/",
+    "https://www.statnews.com/2026/10/19/california-prop-38-immunology-research-bond-oddly-specific-earmark/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 12,
+    "requests_per_host": {
+      "openrouter.ai": 12
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 12
+    },
+    "bytes_up": 486125,
+    "bytes_down": 934738,
+    "wire_bytes": {
+      "harness_to_proxy": 510174,
+      "proxy_to_harness": 1007449,
+      "proxy_to_internet": 506642,
+      "internet_to_proxy": 1034280
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 12,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:02:47.097181+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:02:47.097181+00:00",
+      "finished_at": "2026-11-03T11:03:59.633146+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

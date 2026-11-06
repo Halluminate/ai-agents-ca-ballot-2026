@@ -1,0 +1,103 @@
+{
+  "run_id": "gemini__common__win__p2__r1",
+  "model": "gemini",
+  "model_id": "google/gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "2",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T04:46:33.854449+00:00",
+  "seconds": 65.1,
+  "input_tokens": 47844,
+  "output_tokens": 1685,
+  "cached_tokens": 49510,
+  "cost_usd": 0.1378,
+  "cost_source": "reported",
+  "searches": [
+    "\"Proposition 2\" California 2024 polling OR results OR outcome",
+    "\"INCREASES STATE'S RAINY DAY FUND\" OR \"Rules for building state budget reserves and paying down extra state debts would change\" California",
+    "\"Proposition 2\" 2026 California PPIC OR \"Public Policy Institute of California\" OR \"Berkeley IGS\"",
+    "\"Proposition 2\" \"Rainy Day Fund\" 2026 California poll OR polling OR endorsements OR Ballotpedia"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/",
+    "https://voterguide.sos.ca.gov/propositions/2/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/title-summary.htm",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-2-rainy-day-fund",
+    "https://www.californiachoices.org/proposition-2-2026",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-2-rainy",
+    "https://calmatters.org/california-voter-guide-2026/proposition-2-rainy-day-fund/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.californiachoices.org/ballot-endorsements-november-3-2026"
+  ],
+  "tool_errors": 1,
+  "warnings": [],
+  "network": {
+    "requests": 13,
+    "requests_per_host": {
+      "openrouter.ai": 9,
+      "www.californiachoices.org": 3,
+      "voterguide.sos.ca.gov": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "voterguide.sos.ca.gov",
+      "www.californiachoices.org"
+    ],
+    "status_counts": {
+      "200": 12,
+      "301": 1
+    },
+    "bytes_up": 390097,
+    "bytes_down": 84331,
+    "wire_bytes": {
+      "harness_to_proxy": 417919,
+      "proxy_to_harness": 117953,
+      "proxy_to_internet": 413602,
+      "internet_to_proxy": 155090
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "www.californiachoices.org",
+        "url": "https://www.californiachoices.org/ballot-endorsements-november-3-2026",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 14,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

@@ -1,0 +1,23 @@
+# My recommendation: **Yes**
+
+I researched this extensively — the official voter guide, the Legislative Analyst's analysis, the full legal text, the dueling economic studies, campaign finance records, fact-checks, polling, and editorial positions. Here's how I got there:
+
+## What Prop 40 does
+A one-time 5% tax on the net worth of ~200–250 Californians worth $1B+ who were residents on Jan 1, 2026 (payable over 5 years), with 90% of revenue going to healthcare and 10% to education/food assistance. It was designed by economists Emmanuel Saez and Gabriel Zucman with three tax-law professors, specifically to counter Medi-Cal cuts in the federal "One Big Beautiful Bill" (state officials project $19–30B/year in lost federal healthcare funding, with coverage for over a million Californians at risk).
+
+## Why the key anti-40 arguments didn't persuade me
+
+- **"It will cost the state $25–39 billion"** — This comes from a Stanford/Hoover study whose net-loss math requires assuming courts strike down half the tax and that billionaires flee *indefinitely* into the future. The **nonpartisan Legislative Analyst's Office** — the neutral arbiter — instead projects the tax raises "tens of billions" with ongoing income-tax losses of "less than $1 billion per year." Even the Hoover authors' *gross* revenue estimate is $28–36B — real money the state otherwise won't have.
+- **"It could be expanded to tax your retirement/savings"** — Fact-checks (CalMatters/LAist, legal experts) rate this only partially true at best. The tax is written into the state Constitution, its stated purpose references "billionaire wealth" repeatedly, and it explicitly exempts pensions and retirement accounts. Election-law experts say the Legislature likely *couldn't* lower the $1B threshold without going back to voters.
+- **"Billionaires will flee"** — The tax is retroactive and one-time: leaving *after* it passes doesn't escape the bill, which is why the LAO's flight estimate is small. Meanwhile, the Bay Area captured ~75% of U.S. AI funding in 2025; Nvidia's Jensen Huang, who'd owe ~$8B, said he's "perfectly fine" paying it, and Zuckerberg arranged to pay while committing to stay 8 years.
+- **The campaign itself** — The No side has raised ~$368M vs. ~$36M for Yes (~10:1), with ~96% of opposition money from a handful of billionaires led by Sergey Brin's record-shattering $102M — the largest individual ballot-measure donation in California history, from someone who moved to Nevada specifically to dodge the tax. Their "doctors, teachers, firefighters" coalition is overwhelmingly funded by the people being taxed. Public support collapsed from +19 points in March to roughly even only after this ad blitz. That level of self-interested spending is itself evidence the tax would actually collect from them.
+
+## The legitimate concerns I weighed
+It's not a perfect measure: it's ballot-box budgeting, one-time money partially funding ongoing costs (a fiscal cliff risk), it bypasses the Prop 98 school-funding formula (why the teachers' union opposes), gives the Legislature broad spending discretion, and will face litigation (though it contains expedited-judicial-review and severability provisions designed for that). Gov. Newsom, major editorial boards, and several healthcare groups oppose it — those are serious voices, and their objections are mostly about prudence and process rather than the core fairness of the tax.
+
+## Bottom line
+The neutral LAO numbers show a large net revenue gain for a genuine healthcare emergency; the scariest opposition claims don't survive fact-checking; the tax is narrowly targeted at people whose wealth roughly tripled since 2019 and who pay lower effective tax rates than ordinary workers; and the record-setting counter-campaign is transparently self-interested. On the merits, the case for it outweighs the risks.
+
+**Vote Yes on Proposition 40.**
+
+*(One practical note: Props 41 and 42 on the same ballot were placed by the same billionaire-funded group specifically to nullify Prop 40 if they receive more votes — so if you vote yes on 40, the consistent move is no on 41 and 42.)*

@@ -1,0 +1,96 @@
+{
+  "run_id": "terra__native__vote__p5__r1",
+  "model": "terra",
+  "model_id": "gpt-6.1-terra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "5",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:38:50.442730+00:00",
+  "finished_at": "2026-11-03T12:40:24.547882+00:00",
+  "seconds": 91.3,
+  "input_tokens": 33,
+  "output_tokens": 4891,
+  "cached_tokens": 507174,
+  "cost_usd": 0.2515,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California official voter guide proposition 5 2026 2025 2024 voterguide.sos.ca.gov propositions 5 ...",
+    "2026 california proposition 5 recall election changes pros cons democracy expert calmatters ...",
+    "California proposition 5 2026 recall election reform arguments academic experts endorsements drawbacks SCA 1 ...",
+    "California SCA 1 2024 recall amendment full legislative text special election gubernatorial vacancy opposition incumbent ...",
+    "\"proposition 5\" 2026 \"recalled\" \"author\" \"no\" Chronicle flaw ...",
+    "2026 proposition 5 endorsements yes no editorial board California recall orange county register Sacramento Chronicle ...",
+    "California Proposition 5 2026 why does it let recalled politicians run again argument for against ...",
+    "California Proposition 5 2026 legal arguments special election winner percentage runoff democratic fairness appointment governor ...",
+    "site:sos.ca.gov 2018 senator josh newman recall official election results Chang 33 42 percent ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 46,
+    "requests_per_host": {
+      "api.openai.com": 44,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 33,
+      "202": 2,
+      "500": 10
+    },
+    "bytes_up": 1217357,
+    "bytes_down": 3048700,
+    "wire_bytes": {
+      "harness_to_proxy": 1007048,
+      "proxy_to_harness": 2176755,
+      "proxy_to_internet": 1004130,
+      "internet_to_proxy": 2240003
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2026,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 36,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:38:50.442730+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:38:50.442730+00:00",
+      "finished_at": "2026-11-03T12:40:24.547882+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

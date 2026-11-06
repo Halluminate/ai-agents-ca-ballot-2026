@@ -1,0 +1,91 @@
+{
+  "run_id": "luna__native__win__p38__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:05:34.287514+00:00",
+  "finished_at": "2026-11-03T13:06:21.849512+00:00",
+  "seconds": 45.4,
+  "input_tokens": 21,
+  "output_tokens": 3411,
+  "cached_tokens": 180980,
+  "cost_usd": 0.061,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 38 2012 polls support opposition election results ...",
+    "2026 California Proposition 38 immunology research polls yes no latest poll 2026 ...",
+    "\"Proposition 38\" California \"2026\" campaign spending opposition UCLA immunology ...",
+    "'Proposition 38'",
+    "\"California Proposition 38\" 2026 \"No\" polling immunology research vote"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 8,
+    "requests_per_host": {
+      "api.openai.com": 7,
+      "ab.chatgpt.com": 1
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 6,
+      "202": 1
+    },
+    "bytes_up": 931654,
+    "bytes_down": 1238192,
+    "wire_bytes": {
+      "harness_to_proxy": 763226,
+      "proxy_to_harness": 702062,
+      "proxy_to_internet": 762628,
+      "internet_to_proxy": 717707
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 852,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 9,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:05:34.287514+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:05:34.287514+00:00",
+      "finished_at": "2026-11-03T13:06:21.849512+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

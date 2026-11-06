@@ -1,0 +1,62 @@
+{
+  "requests": 20,
+  "requests_per_host": {
+    "openrouter.ai": 16,
+    "onpointpolitics.us": 1,
+    "www.nytimes.com": 1,
+    "escholarship.org": 1,
+    "kalshi.com": 1
+  },
+  "hosts": [
+    "escholarship.org",
+    "kalshi.com",
+    "onpointpolitics.us",
+    "openrouter.ai",
+    "www.nytimes.com"
+  ],
+  "status_counts": {
+    "200": 17,
+    "403": 2,
+    "429": 1
+  },
+  "bytes_up": 724330,
+  "bytes_down": 284748,
+  "wire_bytes": {
+    "harness_to_proxy": 765336,
+    "proxy_to_harness": 343506,
+    "proxy_to_internet": 759275,
+    "internet_to_proxy": 392724
+  },
+  "byte_counter": true,
+  "errors": 2,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 20,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

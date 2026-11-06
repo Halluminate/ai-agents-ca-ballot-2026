@@ -1,0 +1,92 @@
+{
+  "run_id": "terra__native__better__p41__r1",
+  "model": "terra",
+  "model_id": "gpt-6.1-terra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "41",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:04:33.723933+00:00",
+  "finished_at": "2026-11-03T11:05:15.324626+00:00",
+  "seconds": 39.6,
+  "input_tokens": 24,
+  "output_tokens": 2048,
+  "cached_tokens": 254198,
+  "cost_usd": 0.1749,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California proposition 41 2026 voter guide ballot measure November 41",
+    "California 2026 Proposition 41 Calmatters analysis who benefits taxpayers spending limit audits billionaires ...",
+    "Proposition 41 California 2026 vote no editorial endorsement state audit 10 percent ...",
+    "'Ballot summary'",
+    "\"Proposition 41\" \"vote no\" \"2026\" editorial board tax ...",
+    "\"41\" \"42\" \"40\" \"vote no\" editorial board california \"2026\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 15,
+    "requests_per_host": {
+      "api.openai.com": 14,
+      "ab.chatgpt.com": 1
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 13,
+      "202": 1
+    },
+    "bytes_up": 1009822,
+    "bytes_down": 1599176,
+    "wire_bytes": {
+      "harness_to_proxy": 813340,
+      "proxy_to_harness": 997828,
+      "proxy_to_internet": 812727,
+      "internet_to_proxy": 1025702
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1058,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 16,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:04:33.723933+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:04:33.723933+00:00",
+      "finished_at": "2026-11-03T11:05:15.324626+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

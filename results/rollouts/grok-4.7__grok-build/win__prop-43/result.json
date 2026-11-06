@@ -1,0 +1,143 @@
+{
+  "run_id": "grok__native__win__p43__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "native",
+  "harness": "grok_build",
+  "effort": "xhigh",
+  "prompt": "win",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:51:30.683969+00:00",
+  "finished_at": "2026-11-03T12:55:30.117336+00:00",
+  "seconds": 237.1,
+  "input_tokens": 56086,
+  "output_tokens": 4859,
+  "cached_tokens": 73472,
+  "cost_usd": 0.1781,
+  "cost_source": "estimated",
+  "billed_usd": 1.2050020000000001,
+  "searches": [
+    "California Proposition 43 2026 voter guide SOS",
+    "California Proposition 43 polling odds yes or no 2026",
+    "PPIC statewide survey October 2026 Proposition 43 yes no",
+    "California Proposition 43 election results November 3 2026",
+    "California Proposition 43 2026 poll Berkeley IGS CalMatters campaign spending",
+    "California Proposition 43 Kalshi Polymarket odds November 2026",
+    "\"Proposition 43\" early results OR \"yes\" OR \"no\" November 3 2026 California",
+    "site:calmatters.org Proposition 43 2026 polling likely to pass or fail"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 0,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/",
+    "https://voterguide.sos.ca.gov/propositions/43/analysis.htm",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_43",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://ballotpedia.org/California_Proposition_43,_Two-Thirds_Vote_Requirement_for_Local_Special_Tax_Initiatives_and_Property_Tax_Initiative_Prohibition_Amendment_(2026",
+    "https://electionresults.sos.ca.gov/returns/ballot-measures",
+    "https://electionresults.sos.ca.gov/returns/ballot-measures"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 16 connection attempts that ignored the proxy were blocked (grok-1.0.70 network-outbound x16)",
+    "capture: 1 connections were not readable by the proxy (openrouter.ai:443)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 24,
+    "requests_per_host": {
+      "openrouter.ai": 18,
+      "voterguide.sos.ca.gov": 2,
+      "en.wikipedia.org": 1,
+      "electionresults.sos.ca.gov": 1,
+      "www.ppic.org": 1,
+      "ballotpedia.org": 1
+    },
+    "hosts": [
+      "ballotpedia.org",
+      "electionresults.sos.ca.gov",
+      "en.wikipedia.org",
+      "openrouter.ai",
+      "voterguide.sos.ca.gov",
+      "www.ppic.org"
+    ],
+    "status_counts": {
+      "200": 22,
+      "404": 1
+    },
+    "bytes_up": 611936,
+    "bytes_down": 1449956,
+    "wire_bytes": {
+      "harness_to_proxy": 630387,
+      "proxy_to_harness": 1516132,
+      "proxy_to_internet": 628627,
+      "internet_to_proxy": 1545378
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3189,
+        "duration": 0.1651,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 16
+      }
+    ],
+    "blocked_attempts": 16,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 12,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:51:30.683969+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:51:30.683969+00:00",
+      "finished_at": "2026-11-03T12:55:30.117336+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "requests": 30,
+  "requests_per_host": {
+    "openrouter.ai": 15,
+    "dailybruin.com": 3,
+    "yeson38.com": 2,
+    "www.calimmunology.org": 2,
+    "calmatters.org": 1,
+    "www.statnews.com": 1,
+    "www.eastbaytimes.com": 1,
+    "www.sandiegouniontribune.com": 1,
+    "blog.cirm.ca.gov": 1,
+    "www.cirm.ca.gov": 1,
+    "jamanetwork.com": 1,
+    "newsroom.ucla.edu": 1
+  },
+  "hosts": [
+    "blog.cirm.ca.gov",
+    "calmatters.org",
+    "dailybruin.com",
+    "jamanetwork.com",
+    "newsroom.ucla.edu",
+    "openrouter.ai",
+    "www.calimmunology.org",
+    "www.cirm.ca.gov",
+    "www.eastbaytimes.com",
+    "www.sandiegouniontribune.com",
+    "www.statnews.com",
+    "yeson38.com"
+  ],
+  "status_counts": {
+    "200": 28,
+    "308": 1,
+    "403": 1
+  },
+  "bytes_up": 2033643,
+  "bytes_down": 1832081,
+  "wire_bytes": {
+    "harness_to_proxy": 2097490,
+    "proxy_to_harness": 1937723,
+    "proxy_to_internet": 2089338,
+    "internet_to_proxy": 2014330
+  },
+  "byte_counter": true,
+  "errors": 2,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 31,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

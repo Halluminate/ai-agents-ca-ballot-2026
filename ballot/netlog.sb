@@ -1,0 +1,51 @@
+;; Sandbox for one experiment run: everything is allowed except outbound network
+;; connections, which may only go to the capture proxy or to unix sockets.
+;; Anything that ignores the proxy settings fails with "Operation not permitted"
+;; instead of reaching the internet unrecorded.
+;;
+;; netlog.py applies it with:
+;;   sandbox-exec -f netlog.sb -D PROXY_PORT=<port> -D RUN_TAG=<tag> -D CONFDIR=... -D VENV=...
+;;                -D ADDON=... -D PROFILE=... -D MODULE=... -D RUN_DIR=... [-D BLOCK_DNS=1] <command...>
+;;
+;; PROXY_PORT  the one 127.0.0.1 / ::1 port the run may connect to (the proxy).
+;;             Other localhost ports are refused too, so a local service that
+;;             forwards traffic cannot become a way around the record.
+;; RUN_TAG     added to the kernel's report of every refused operation, so
+;;             netlog.py can read this run's blocked attempts from the system log
+;;             and write them into the record.
+;; BLOCK_DNS   "1" also refuses the system resolver socket. Clients that use the
+;;             proxy never need DNS (the proxy resolves names), and a lookup would
+;;             send a hostname, which can carry data, outside the record.
+;; CONFDIR, VENV, ADDON, PROFILE, MODULE, RUN_DIR
+;;             the capture's own files and the run folder: never writable from
+;;             inside, so a run cannot change its record or switch the capture off
+;;             (for example with a mitmproxy config.yaml) for later runs.
+;;
+;; UDP, ICMP and IPv6 are network-outbound too, so they are refused like TCP.
+;; The rules apply to every child process too, and cannot be lifted from inside.
+
+(version 1)
+(allow default)
+
+(deny network-outbound (with message (param "RUN_TAG")))
+(allow network-outbound (remote unix-socket))
+(allow network-outbound (remote ip (string-append "localhost:" (param "PROXY_PORT"))))
+
+;; Local services that relay traffic to the internet over a unix socket: container
+;; engines (a container has its own network) and SSH connection sharing (ssh -W).
+(deny network-outbound (with message (param "RUN_TAG"))
+      (remote unix-socket (path-regex #"/\.docker/" #"docker\.sock$" #"/\.colima/" #"/\.lima/"
+                                      #"/\.orbstack/" #"/\.rd/" #"podman" #"containerd" #"vmnetd"
+                                      #"/\.ssh/")))
+
+(if (equal? (param "BLOCK_DNS") "1")
+    (deny network-outbound (with message (param "RUN_TAG"))
+          (remote unix-socket (path-literal "/private/var/run/mDNSResponder"))))
+
+(deny file-write* (with message (param "RUN_TAG"))
+      (subpath (param "CONFDIR"))
+      (subpath (param "VENV"))
+      (literal (param "ADDON"))
+      (literal (param "PROFILE"))
+      (literal (param "MODULE"))
+      (subpath (param "RUN_DIR")))

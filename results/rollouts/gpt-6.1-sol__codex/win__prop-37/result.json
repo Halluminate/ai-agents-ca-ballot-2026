@@ -1,0 +1,95 @@
+{
+  "run_id": "sol__native__win__p37__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "37",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:08:56.994860+00:00",
+  "finished_at": "2026-11-03T11:10:00.642879+00:00",
+  "seconds": 61.6,
+  "input_tokens": 24,
+  "output_tokens": 2672,
+  "cached_tokens": 251886,
+  "cost_usd": 0.3008,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 37 2026 housing mortgage poll support opposition ...",
+    "\"Proposition 37\" \"2026\" polling support opposition October ...",
+    "'Methodology'",
+    "\"Proposition 37\" \"2026\" \"poll\" November October 30 ...",
+    "site.lwvc.org \"2026\" \"37\" ...",
+    "'Prop 37'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/37/",
+    "https://voteyeson37.com/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 15,
+    "requests_per_host": {
+      "api.openai.com": 13,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 12,
+      "202": 2
+    },
+    "bytes_up": 1037096,
+    "bytes_down": 1730937,
+    "wire_bytes": {
+      "harness_to_proxy": 847906,
+      "proxy_to_harness": 1095963,
+      "proxy_to_internet": 847271,
+      "internet_to_proxy": 1123445
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1287,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 15,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:08:56.994860+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:08:56.994860+00:00",
+      "finished_at": "2026-11-03T11:10:00.642879+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

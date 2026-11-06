@@ -1,0 +1,13 @@
+**Yes.**
+
+Prop 3 keeps the top rates (10.3% to 12.3%) from falling back to 9.3% in 2031. The Legislative Analyst's Office estimates $5 billion to $15 billion a year is at stake, with about 40% going to schools and community colleges. The administration projects structural deficits of roughly $10 billion a year through 2029–30. The best case for No is that the top combined rate would stay at 13.3%, and research on the 2012 increase found behavioral responses offset about 45% of the windfall in year one. If you put tax competitiveness and spending restraint first, vote No.
+
+Caveats: I couldn't access the measure's full text, so the audit claims in the official Yes argument and the health-care share are unverified. Supporters say a No could cost schools up to $15 billion a year, but the LAO's 40% school share implies about $2–6 billion (my arithmetic; the sources don't fully reconcile this). Prop 3 is the income-tax extension, not the separate billionaire tax (Prop 40).
+
+Sources:
+- [Official voter guide, Prop 3](https://voterguide.sos.ca.gov/propositions/3/)
+- [LAO analysis, Prop 3](https://lao.ca.gov/BallotAnalysis/Proposition?number=3&year=2026)
+- [LAO, Initial Comments on the May Revision (May 2026)](https://lao.ca.gov/Publications/Report/5187)
+- [CalMatters, What to know about Prop. 3](https://calmatters.org/politics/elections/2026/10/prop-3-california/)
+- [Rauh & Shyu, "Behavioral Responses to State Income Taxation of High Earners," AEJ: Economic Policy](https://www.aeaweb.org/articles?id=10.1257%2Fpol.20200500)
+- [CaVotes (League of Women Voters), Prop 55 (2016)](https://cavotes.org/ballot-measure/2016-prop-55/)

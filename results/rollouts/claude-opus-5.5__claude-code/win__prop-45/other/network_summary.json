@@ -1,0 +1,63 @@
+{
+  "requests": 74,
+  "requests_per_host": {
+    "openrouter.ai": 32,
+    "api.anthropic.com": 31,
+    "www.noprop45ca.com": 2,
+    "voterguide.sos.ca.gov": 1,
+    "www.ppic.org": 1,
+    "www.onpointpolitics.us": 1,
+    "escholarship.org": 1,
+    "www.kqed.org": 1,
+    "defirate.com": 1,
+    "kalshi.com": 1,
+    "www.sfchronicle.com": 1,
+    "pro.stateaffairs.com": 1
+  },
+  "hosts": [
+    "api.anthropic.com",
+    "defirate.com",
+    "escholarship.org",
+    "kalshi.com",
+    "openrouter.ai",
+    "pro.stateaffairs.com",
+    "voterguide.sos.ca.gov",
+    "www.kqed.org",
+    "www.noprop45ca.com",
+    "www.onpointpolitics.us",
+    "www.ppic.org",
+    "www.sfchronicle.com"
+  ],
+  "status_counts": {
+    "200": 71,
+    "403": 1,
+    "429": 2
+  },
+  "bytes_up": 1941834,
+  "bytes_down": 1584490,
+  "wire_bytes": {
+    "harness_to_proxy": 1993016,
+    "proxy_to_harness": 1747643,
+    "proxy_to_internet": 1993372,
+    "internet_to_proxy": 1792013
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 26,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

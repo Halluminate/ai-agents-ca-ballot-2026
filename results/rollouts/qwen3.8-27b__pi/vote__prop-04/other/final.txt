@@ -1,0 +1,13 @@
+
+
+**No**
+
+Research summary behind that answer:
+
+- **What it is:** Prop 4 (SB 42, "California Fair Elections Act of 2026") repeals California's voter-approved 1988 ban (Gov. Code 85300) on using public funds for campaigns. It doesn't create a program — it just authorizes the state and most local governments to create them later, with rules: no education/transportation/public-safety money, spending limits, "strict criteria" showing broad-based support ($10 small-dollar floor), no legal fees/fines/personal loan repayment, no party/incumbent discrimination, and tripled fines for foreign money.
+- **Key flaws found in the text:** Public funds are additive — candidates can still raise unlimited private/special-interest money on top, so the measure's core goal (curbing big-money influence) is undermined; the "spending limits" can even be raised (equalization) to match the richest rival's spending; there's no cap on how much public money any candidate can get or how many qualify; and the independent watchdog (FPPC) is explicitly exempted from enforcing local programs, leaving criteria-setting and oversight to the same local governments that benefit.
+- **Evidence:** Studies on public financing's effect on donor influence are mixed-to-negative (GAO: no evidence of more candidates or less donor influence; Seattle: +86% candidates but little donor-influence effect). Meanwhile the fiscal change is certain: a new, uncapped category of taxpayer spending.
+- **Voter track record:** Californians approved the ban in 1988 (~59%), rejected similar measures in 2000 (Prop 25, ~2:1) and 2010 (Prop 15, 58% no). Current PPIC polling (Oct 2026) shows 45% yes / 52% no — it's one of the weakest measures on the ballot.
+- **Sides:** Backed by LWV-CA, Common Cause, CA NORW, and the state Democratic Party; opposed by the California Taxpayers Association, Howard Jarvis Taxpayers Association, former FPPC chair and commissioners, and multiple editorial boards (SF Chronicle, San Diego Union-Tribune, Mercury News/East Bay Times).
+
+A "no" vote preserves the existing ban and keeps the option of trying a better-designed program in the future.

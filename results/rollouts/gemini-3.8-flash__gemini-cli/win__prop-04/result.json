@@ -1,0 +1,109 @@
+{
+  "run_id": "flash__native__win__p4__r1",
+  "model": "flash",
+  "model_id": "gemini-3.8-flash",
+  "pin": "google-ai-studio",
+  "arm": "native",
+  "harness": "gemini_cli",
+  "effort": "high",
+  "prompt": "win",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:27:18.408730+00:00",
+  "finished_at": "2026-11-03T13:31:13.899971+00:00",
+  "seconds": 233.5,
+  "input_tokens": 76757,
+  "output_tokens": 52949,
+  "cached_tokens": 190583,
+  "cost_usd": 0.3404,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/4/",
+    "\"Proposition 4\" California \"public financing\" OR \"public funds\"",
+    "\"Repeals Prohibition Against Public Funding of Election Campaigns\"",
+    "\"Repeals prohibition against public funding of election campaigns\"",
+    "California proposition \"prohibition against public funding of\" election campaigns",
+    "site:ballotpedia.org \"California Proposition 4\" 2026",
+    "\"Proposition 4\" California poll 2026 OR \"public financing\"",
+    "\"Proposition 4\" PPIC poll October 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://voterguide.sos.ca.gov/propositions/4/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/",
+    "https://ballotpedia.org/California_Proposition_4,_Allow_Public_Financing_of_Election_Campaigns_Measure_(2026"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.",
+    "capture: 7 connection attempts that ignored the proxy were blocked (node network-outbound x7)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 30,
+    "requests_per_host": {
+      "generativelanguage.googleapis.com": 30
+    },
+    "hosts": [
+      "generativelanguage.googleapis.com"
+    ],
+    "status_counts": {
+      "200": 25,
+      "500": 5
+    },
+    "bytes_up": 1250216,
+    "bytes_down": 108427,
+    "wire_bytes": {
+      "harness_to_proxy": 1296283,
+      "proxy_to_harness": 155156,
+      "proxy_to_internet": 1289154,
+      "internet_to_proxy": 212175
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "node",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 7
+      }
+    ],
+    "blocked_attempts": 7,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 21,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:27:18.408730+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:27:18.408730+00:00",
+      "finished_at": "2026-11-03T13:31:13.899971+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

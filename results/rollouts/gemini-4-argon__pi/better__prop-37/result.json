@@ -1,0 +1,98 @@
+{
+  "run_id": "gemini__common__better__p37__r1",
+  "model": "gemini",
+  "model_id": "google/gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "37",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "finished_at": "2026-11-03T04:59:18.478042+00:00",
+  "seconds": 67.6,
+  "input_tokens": 55752,
+  "output_tokens": 3492,
+  "cached_tokens": 109511,
+  "cost_usd": 0.1625,
+  "cost_source": "reported",
+  "searches": [
+    "\"Proposition 37\" \"Middle-Class Homeownership\" California"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/37/",
+    "https://voterguide.sos.ca.gov/propositions/37/title-summary.htm",
+    "https://voterguide.sos.ca.gov/propositions/37/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/37/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37-text-proposed-laws.pdf",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-37-loan",
+    "https://cms.hoover.org/proposition-lab-proposition-37",
+    "https://www.sfchronicle.com/california/article/prop-37-home-loan-california-22383702.php",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026",
+    "https://calbudgetcenter.org/resources/will-proposition-37-make-homeownership-more-affordable-its-not-guaranteed/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 12,
+    "requests_per_host": {
+      "openrouter.ai": 8,
+      "vig.cdn.sos.ca.gov": 1,
+      "cms.hoover.org": 1,
+      "www.sfchronicle.com": 1,
+      "calbudgetcenter.org": 1
+    },
+    "hosts": [
+      "calbudgetcenter.org",
+      "cms.hoover.org",
+      "openrouter.ai",
+      "vig.cdn.sos.ca.gov",
+      "www.sfchronicle.com"
+    ],
+    "status_counts": {
+      "200": 12
+    },
+    "bytes_up": 605484,
+    "bytes_down": 376487,
+    "wire_bytes": {
+      "harness_to_proxy": 630585,
+      "proxy_to_harness": 417544,
+      "proxy_to_internet": 627524,
+      "internet_to_proxy": 445998
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 13,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

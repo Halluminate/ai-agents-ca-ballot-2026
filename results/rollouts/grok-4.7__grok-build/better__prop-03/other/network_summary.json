@@ -1,0 +1,194 @@
+{
+  "requests": 67,
+  "requests_per_host": {
+    "openrouter.ai": 21,
+    "lao.ca.gov": 12,
+    "voterguide.sos.ca.gov": 4,
+    "calmatters.org": 4,
+    "ballotpedia.org": 4,
+    "www.sos.ca.gov": 3,
+    "www.fppc.ca.gov": 3,
+    "vig.cdn.sos.ca.gov": 2,
+    "www.ppic.org": 2,
+    "edsource.org": 2,
+    "votenoprop3.com": 1,
+    "www.yesprop3ca.com": 1,
+    "calbudgetcenter.org": 1,
+    "fppc.ca.gov": 1,
+    "www.sacbee.com": 1,
+    "www.oag.ca.gov": 1,
+    "www.taxfoundation.org": 1,
+    "taxfoundation.org": 1,
+    "www.hjta.org": 1,
+    "lwvc.org": 1
+  },
+  "hosts": [
+    "ballotpedia.org",
+    "calbudgetcenter.org",
+    "calmatters.org",
+    "edsource.org",
+    "fppc.ca.gov",
+    "lao.ca.gov",
+    "lwvc.org",
+    "openrouter.ai",
+    "taxfoundation.org",
+    "vig.cdn.sos.ca.gov",
+    "votenoprop3.com",
+    "voterguide.sos.ca.gov",
+    "www.fppc.ca.gov",
+    "www.hjta.org",
+    "www.oag.ca.gov",
+    "www.ppic.org",
+    "www.sacbee.com",
+    "www.sos.ca.gov",
+    "www.taxfoundation.org",
+    "www.yesprop3ca.com"
+  ],
+  "status_counts": {
+    "200": 51,
+    "301": 4,
+    "302": 2,
+    "404": 6
+  },
+  "bytes_up": 4666397,
+  "bytes_down": 3396813,
+  "wire_bytes": {
+    "harness_to_proxy": 4750106,
+    "proxy_to_harness": 3602489,
+    "proxy_to_internet": 4744674,
+    "internet_to_proxy": 3741992
+  },
+  "byte_counter": true,
+  "errors": 9,
+  "error_details": [
+    {
+      "kind": "tls_failed_client",
+      "host": "openrouter.ai",
+      "sni": "openrouter.ai",
+      "error": "The client disconnected during the handshake. If this happens consistently for openrouter.ai, this may indicate that the client does not trust the proxy's certificate."
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "openrouter.ai",
+      "sni": "openrouter.ai",
+      "error": "The client disconnected during the handshake. If this happens consistently for openrouter.ai, this may indicate that the client does not trust the proxy's certificate."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "stream reset by client (PROTOCOL_ERROR)"
+    },
+    {
+      "kind": "http",
+      "host": "www.sos.ca.gov",
+      "url": "https://www.sos.ca.gov/campaign-lobbying/cal-access-resources/measure-contributions/2026-ballot-measure-contribution-totals",
+      "error": "stream reset by client (CANCEL)"
+    },
+    {
+      "kind": "http",
+      "host": "www.sacbee.com",
+      "url": "https://www.sacbee.com/news/politics-government/capitol-alert/article312000000.html",
+      "error": "stream reset by client (INTERNAL_ERROR)"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "stream reset by client (PROTOCOL_ERROR)"
+    },
+    {
+      "kind": "tls_failed_server",
+      "host": "openrouter.ai",
+      "sni": "openrouter.ai",
+      "error": "connection closed"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "openrouter.ai",
+      "sni": "openrouter.ai",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "stream reset by client (CANCEL)"
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1593,
+      "bytes_down": 2679,
+      "duration": 6.2892,
+      "reason": "The client disconnected during the handshake. If this happens consistently for openrouter.ai, this may indicate that the client does not trust the proxy's certificate."
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1593,
+      "bytes_down": 2679,
+      "duration": 5.1169,
+      "reason": "The client disconnected during the handshake. If this happens consistently for openrouter.ai, this may indicate that the client does not trust the proxy's certificate."
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1809,
+      "bytes_down": 39,
+      "duration": 19.3069,
+      "reason": "connection closed early"
+    },
+    {
+      "host": "voterguide.sos.ca.gov",
+      "port": 443,
+      "sni": "voterguide.sos.ca.gov",
+      "bytes_up": 1569,
+      "bytes_down": 39,
+      "duration": 610.3754,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "www.mercurynews.com",
+      "port": 443,
+      "sni": "www.mercurynews.com",
+      "bytes_up": 1563,
+      "bytes_down": 39,
+      "duration": 92.3452,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [
+    {
+      "process": "grok-1.0.70",
+      "operation": "network-outbound",
+      "target": null,
+      "attempts": 129
+    },
+    {
+      "process": "grok-1.0.70",
+      "operation": "network-outbound",
+      "target": "remote:*:49497",
+      "attempts": 2
+    }
+  ],
+  "blocked_attempts": 131,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 47,
+  "empty_connections": 2,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "allowed, not recorded"
+}

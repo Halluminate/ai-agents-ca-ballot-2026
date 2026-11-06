@@ -1,0 +1,22 @@
+# Yes
+
+Based on my research, I'd recommend voting **yes** on this proposition. Here's the reasoning:
+
+## What it does
+Proposition 2 (the Nov. 3, 2026 measure — the "Save for California's Future Act," placed on the ballot by the Legislature as ACA 20) would:
+- **Double the cap** on the state's Rainy Day Fund (Budget Stabilization Account) from 10% to 20% of General Fund tax revenues
+- **Save more in boom years** by capturing 150% of capital-gains revenue above 10% of the General Fund
+- **Extend required debt payments through 2040** (instead of 2030), with expanded eligible uses: Prop 98 school settle-up obligations, Medi-Cal loans, and the state's ~$20 billion federal unemployment insurance debt
+- **Change Gann limit accounting** so reserve deposits no longer count toward the state spending cap when deposited (only when withdrawn)
+
+## Why yes
+1. **The problem is real.** California's revenue is heavily dependent on capital gains from high earners, swinging from a massive surplus to ~$30–50 billion deficits within a few years. The state drew down $12.2 billion from the Rainy Day Fund over the last two years and suspended deposits — the fund worked as designed, but it's too small. The nonpartisan Legislative Analyst's Office has explicitly recommended building reserves beyond current rules.
+2. **The Gann-limit change fixes a genuine flaw.** Currently, *saving* counts against the spending cap the same as *spending* — a perverse incentive that rewards spending over saving in boom years.
+3. **It's tested, bipartisan, and mainstream.** It builds on the framework voters approved in 2014, which measurably softened the 2020 pandemic downturn. It passed the Legislature 59–8 (Assembly) and 29–2 (Senate), with a Republican co-author. The LA Chamber of Commerce, firefighters, hospitals, and education leaders support it; PPIC polls it at ~60–61% support.
+
+## The counterarguments — and why they fall short
+- **"It makes tax rebates less likely."** This is technically true but mostly theoretical: the Gann-limit rebate has triggered exactly once in ~45 years (1986–87), and the state is currently ~$27 billion *under* the limit. The trade — more savings vs. a hypothetical rebate — favors savings.
+- **"It's a slush fund politicians can raid."** Withdrawals still require a declared budget emergency with defined conditions, capped at 50% of the balance per year, and debt payments can't be suspended even in emergencies. The fund was drawn down during genuine deficits, and deposits have already resumed.
+- **"It locks money away from services."** The extra set-asides would have been under 1–2% of the General Fund in only about 6 of the last 14 years — a modest, worthwhile insurance cost given California's volatility.
+
+The one fair criticism is that the same legislators who proposed this also suspended $5.4 billion in required deposits in the 2026 budget — but that happened under deficit conditions, which is precisely when the fund is meant to be used, and the fund is being replenished. That's a reason to watch implementation, not to reject a structurally sound, broadly-endorsed fiscal reform.

@@ -1,0 +1,98 @@
+{
+  "run_id": "grok__common__vote__p43__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:17:37.807108+00:00",
+  "seconds": 128.0,
+  "input_tokens": 70795,
+  "output_tokens": 6036,
+  "cached_tokens": 80256,
+  "cost_usd": 0.2485,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 43 2026 voter guide",
+    "ACA 22 Howard Jarvis deal Proposition 43 citizen special tax Upland",
+    "California Proposition 43 2026 editorial endorsements yes or no",
+    "citizen initiative special taxes passed majority not two-thirds California since Upland how many",
+    "Proposition 43 2026 campaign contributions opposition No on 43 top donors",
+    "CalMatters proposition 43 voter guide recommendation 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/",
+    "https://voterguide.sos.ca.gov/propositions/43/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-43-local-special-tax",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=43&year=2026",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43-text-proposed-laws.pdf",
+    "https://www.hoover.org/proposition-lab-proposition-43",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_43",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-43-local-tax-threshold",
+    "https://calmatters.org/california-voter-guide-2026/proposition-43-tax-threshold/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 14,
+    "requests_per_host": {
+      "openrouter.ai": 12,
+      "lao.ca.gov": 1,
+      "calmatters.org": 1
+    },
+    "hosts": [
+      "calmatters.org",
+      "lao.ca.gov",
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 14
+    },
+    "bytes_up": 669988,
+    "bytes_down": 444416,
+    "wire_bytes": {
+      "harness_to_proxy": 700122,
+      "proxy_to_harness": 503734,
+      "proxy_to_internet": 695863,
+      "internet_to_proxy": 537471
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 15,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

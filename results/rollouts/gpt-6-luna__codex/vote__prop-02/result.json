@@ -1,0 +1,96 @@
+{
+  "run_id": "luna__native__vote__p2__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "2",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T13:06:21.863420+00:00",
+  "finished_at": "2026-11-03T13:10:47.502551+00:00",
+  "seconds": 262.8,
+  "input_tokens": 54,
+  "output_tokens": 19778,
+  "cached_tokens": 1262926,
+  "cost_usd": 0.1223,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 2 2026 rainy day fund independent analysis Legislative Analyst Office ...",
+    "site:lao.ca.gov Proposition 2 California 2026 rainy day fund ballot measure analysis ...",
+    "'Raising the Reserve Cap Improves Upon Current Law'",
+    "site:sacbee.com editorial Prop 2 2026 rainy day fund endorse California ...",
+    "San Diego Union Tribune editorial Prop 2 2026 rainy day fund California 'No on Proposition 2' ...",
+    "\"Newsom drained billions from the Rainy Day Fund\" \"Prop. 2\" ...",
+    "site:lao.ca.gov Gann Limit 2021 taxpayer rebate California state appropriations limit exceed 2021 ...",
+    "California 2026 budget suspended $5 billion required rainy day fund deposits June 2026 Proposition 2 ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 23,
+    "requests_per_host": {
+      "api.openai.com": 18,
+      "ab.chatgpt.com": 5
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 17,
+      "202": 5
+    },
+    "bytes_up": 1579579,
+    "bytes_down": 3700925,
+    "wire_bytes": {
+      "harness_to_proxy": 1151024,
+      "proxy_to_harness": 2167877,
+      "proxy_to_internet": 1148828,
+      "internet_to_proxy": 2202899
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2473,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 20,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:06:21.863420+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:06:21.863420+00:00",
+      "finished_at": "2026-11-03T13:10:47.502551+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

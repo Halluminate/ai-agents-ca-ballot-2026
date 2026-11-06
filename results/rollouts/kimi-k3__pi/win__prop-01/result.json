@@ -1,0 +1,96 @@
+{
+  "run_id": "kimi__common__win__p1__r1",
+  "model": "kimi",
+  "model_id": "moonshotai/kimi-k3",
+  "pin": "moonshotai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "1",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "last_line",
+  "error": "",
+  "started_at": "2026-11-03T12:41:51.699904+00:00",
+  "finished_at": "2026-11-03T12:43:10.102137+00:00",
+  "seconds": 75.1,
+  "input_tokens": 17720,
+  "output_tokens": 2012,
+  "cached_tokens": 17664,
+  "cost_usd": 0.114,
+  "cost_source": "reported",
+  "billed_usd": 0.11401195,
+  "searches": [
+    "California Proposition 1 voterguide.sos.ca.gov proposition",
+    "California Proposition 1 November 2026 housing bond $11.25 billion poll",
+    "\"Proposition 1\" 2026 California housing bond SB 417 veterans affordable housing bond measure",
+    "PPIC poll October 2026 Proposition 1 housing bond likely voters",
+    "California Prop 1 housing bond 2026 polling support \"yes\" lead"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/1/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 9,
+    "requests_per_host": {
+      "openrouter.ai": 9
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 9
+    },
+    "bytes_up": 154196,
+    "bytes_down": 295609,
+    "wire_bytes": {
+      "harness_to_proxy": 171261,
+      "proxy_to_harness": 329798,
+      "proxy_to_internet": 168920,
+      "internet_to_proxy": 348152
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 9,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:41:51.699904+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:41:51.699904+00:00",
+      "finished_at": "2026-11-03T12:43:10.102137+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

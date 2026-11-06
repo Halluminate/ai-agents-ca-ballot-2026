@@ -1,0 +1,182 @@
+{
+  "run_id": "grok__native__better__p45__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "native",
+  "harness": "grok_build",
+  "effort": "xhigh",
+  "prompt": "better",
+  "prop": "45",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:53:39.113317+00:00",
+  "finished_at": "2026-11-03T13:01:44.539725+00:00",
+  "seconds": 482.9,
+  "input_tokens": 136526,
+  "output_tokens": 10971,
+  "cached_tokens": 47232,
+  "cost_usd": 0.3625,
+  "cost_source": "estimated",
+  "billed_usd": 2.284436,
+  "searches": [
+    "California Proposition 45 2026 CEQA environmental review analysis",
+    "California Prop 45 2026 YES NO campaign funding CEQA housing",
+    "California Prop 45 2026 editorial endorsements LA Times CalMatters analysis CEQA",
+    "Proposition 45 2026 CEQA one alternative tribal consultation data center loophole criticism",
+    "site:lao.ca.gov Proposition 45 2026 ballot analysis",
+    "California 2025 CEQA reform AB 130 SB 131 infill housing exemption what remains Prop 45",
+    "Proposition 45 2026 legal text alternatives analysis mitigation frozen baseline court remedy section",
+    "California CEQA delay costs housing empirical evidence Holland Knight study lawsuit abuse",
+    "Proposition 45 Building an Affordable California Act full text Public Resources Code 21022 21025 21027 amendment two-thirds",
+    "SPUR Proposition 45 2026 position CEQA recommendation",
+    "California Prop 45 2026 does it preserve mitigation measures feasible alternatives no project agency approval discretion",
+    "Prop 45 2026 substantial evidence standard fair argument CEQA frozen thresholds significance vest existing laws only mitigation",
+    "California YIMBY Prop 45 position 2026 California Democratic Party opposition endorsements"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 0,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/45/",
+    "https://voterguide.sos.ca.gov/propositions/45/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/45/title-summary.htm",
+    "https://voterguide.sos.ca.gov/propositions/45/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=45&year=2026",
+    "https://calmatters.org/environment/2026/10/prop-45-california-ceqa-explained/",
+    "https://calmatters.org/environment/2026/10/prop-45-california-ceqa-explained/",
+    "https://www.latimes.com/california/newsletter/2026-10-19/skelton-monday-politics-newsletter-prop-45-ceqa/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-45",
+    "https://calmatters.org/housing/2026/10/yimby-prop-45-ceqa/",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-45-environmental-review-ceqa",
+    "https://romolawgroup.com/blog/california-proposition-45-ceqa-essential-projects/",
+    "https://ballotpedia.org/California_Proposition_45,_Changes_to_Environmental_Review_Process_for_Certain_Projects_Initiative_(2026"
+  ],
+  "tool_errors": 1,
+  "warnings": [
+    "capture: 35 connection attempts that ignored the proxy were blocked (grok-1.0.70 network-outbound x35)",
+    "capture: 3 connections were not readable by the proxy (openrouter.ai:443)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 39,
+    "requests_per_host": {
+      "openrouter.ai": 25,
+      "voterguide.sos.ca.gov": 4,
+      "calmatters.org": 2,
+      "www.latimes.com": 2,
+      "vig.cdn.sos.ca.gov": 1,
+      "lao.ca.gov": 1,
+      "igs.berkeley.edu": 1,
+      "www.spur.org": 1,
+      "romolawgroup.com": 1,
+      "ballotpedia.org": 1
+    },
+    "hosts": [
+      "ballotpedia.org",
+      "calmatters.org",
+      "igs.berkeley.edu",
+      "lao.ca.gov",
+      "openrouter.ai",
+      "romolawgroup.com",
+      "vig.cdn.sos.ca.gov",
+      "voterguide.sos.ca.gov",
+      "www.latimes.com",
+      "www.spur.org"
+    ],
+    "status_counts": {
+      "200": 36,
+      "301": 1,
+      "404": 1
+    },
+    "bytes_up": 780081,
+    "bytes_down": 3132549,
+    "wire_bytes": {
+      "harness_to_proxy": 812992,
+      "proxy_to_harness": 3282047,
+      "proxy_to_internet": 809694,
+      "internet_to_proxy": 3333509
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3189,
+        "duration": 0.3088,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 2069,
+        "bytes_down": 1632,
+        "duration": 0.149,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1615,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 35
+      }
+    ],
+    "blocked_attempts": 35,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 20,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:53:39.113317+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:53:39.113317+00:00",
+      "finished_at": "2026-11-03T13:01:44.539725+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+Based on my research, here is what I found and my recommendation.
+
+## What Prop 2 (Nov. 2026, ACA 20) actually does
+
+- **Doubles the rainy day fund cap** from 10% to 20% of General Fund tax revenue, requiring deposits until the higher level is reached (overflow goes to infrastructure, as under current law)
+- **Requires bigger set-asides in boom years** when capital gains tax revenue spikes
+- **Extends mandatory debt payments** from 2030 to 2040 and expands eligible debts to include California's ~$20 billion federal unemployment insurance loan, school "settle-up" obligations, and Medi-Cal loans
+- **Fixes a Gann Limit quirk:** deposits into savings would no longer count as "spending" toward the state appropriations limit when deposited — they'd count when actually withdrawn and spent. This is what makes taxpayer rebates somewhat less likely
+- Leaves withdrawal safeguards intact (budget emergency declaration, 50% first-year withdrawal limit)
+
+## Key findings from my research
+
+- **The problem is real:** California swung from a ~$100B surplus to a ~$50B deficit within a few years; revenue volatility is among the worst of any state, and the nonpartisan LAO has long urged building larger reserves in good years. Reserves prevent deeper cuts to schools and Medi-Cal during recessions.
+- **Opposition's strongest point is weak in practice:** the Gann rebate has been meaningfully triggered only twice in 47 years (1987, and the 2021–22 Golden State Stimulus). The "24 hours later they suspended $5B in deposits" attack refers to the Legislature using the *existing* emergency-suspension mechanism during a deficit — a feature that remains available under Prop 2 and is precisely why reserves exist.
+- **Support is broad and bipartisan** (Assembly 59–8, Senate 29–2): Newsom, firefighters, hospitals, the LA Chamber of Commerce, the California PTA, the State Board of Education president, plus the Sacramento Bee, SF Chronicle, and LA Times' George Skelton. Opposition is limited to legislative Republicans and Reform California; the San Diego Union-Tribune and OC Register editorialized no, largely on ideological spending-cap grounds.
+- The "slush fund" claim doesn't match the mechanics: the LAO's official analysis concludes simply that "state budget reserves would be higher," and the mandatory saving/debt-paydown structure mirrors Prop 2 of 2014, which voters approved ~69% and which is widely credited with improving the state's fiscal footing.
+
+## My answer
+
+**Yes.**

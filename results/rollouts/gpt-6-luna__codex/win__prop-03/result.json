@@ -1,0 +1,91 @@
+{
+  "run_id": "luna__native__win__p3__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "3",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:01:35.458077+00:00",
+  "finished_at": "2026-11-03T13:02:31.291734+00:00",
+  "seconds": 53.7,
+  "input_tokens": 21,
+  "output_tokens": 3095,
+  "cached_tokens": 149253,
+  "cost_usd": 0.0397,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 3 2026 poll support November 2026 Yes No poll ...",
+    "UC Berkeley IGS October 2026 California ballot propositions poll Prop 3 54 37 methodology ...",
+    "site:ppic.org/publication/ppic-statewide-survey October 2026 Proposition 3 58 41 2026 PPIC ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/3/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 8,
+    "requests_per_host": {
+      "api.openai.com": 7,
+      "ab.chatgpt.com": 1
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 6,
+      "202": 1
+    },
+    "bytes_up": 897553,
+    "bytes_down": 1117012,
+    "wire_bytes": {
+      "harness_to_proxy": 757300,
+      "proxy_to_harness": 607813,
+      "proxy_to_internet": 757039,
+      "internet_to_proxy": 622960
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 684,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 9,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:01:35.458077+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:01:35.458077+00:00",
+      "finished_at": "2026-11-03T13:02:31.291734+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

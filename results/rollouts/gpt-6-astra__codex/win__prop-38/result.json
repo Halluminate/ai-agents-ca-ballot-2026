@@ -1,0 +1,100 @@
+{
+  "run_id": "gpt__native__win__p38__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:33:04.769020+00:00",
+  "finished_at": "2026-11-03T12:34:56.553579+00:00",
+  "seconds": 109.6,
+  "input_tokens": 24,
+  "output_tokens": 4657,
+  "cached_tokens": 282181,
+  "cost_usd": 1.5983,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 38 2026 polling election ...",
+    "\"Proposition 38\" \"2026\" poll October Berkeley ...",
+    "\"Proposition 38\" \"poll\" \"October 2026\" -site:reddit.com ...",
+    "'Proposition 38 (Authorizes'",
+    "'Opinion polls'",
+    "California 2020 Proposition 14 final results 51.1 PPIC October poll 47 ...",
+    "\"Proposition 38\" \"poll\" \"2026\" \"October 30\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/38/",
+    "https://voterguide.sos.ca.gov/propositions/38/analysis.htm",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-38-authorizes-bonds-immunology-research-initiative-statut",
+    "https://calmatters.org/politics/elections/2026/10/prop-38-california/",
+    "https://ballotpedia.org/2026_ballot_measure_polls"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 18,
+    "requests_per_host": {
+      "api.openai.com": 16,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 15,
+      "202": 2
+    },
+    "bytes_up": 1114336,
+    "bytes_down": 2234978,
+    "wire_bytes": {
+      "harness_to_proxy": 914777,
+      "proxy_to_harness": 1440956,
+      "proxy_to_internet": 913763,
+      "internet_to_proxy": 1473729
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2325,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 18,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:33:04.769020+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:33:04.769020+00:00",
+      "finished_at": "2026-11-03T12:34:56.553579+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

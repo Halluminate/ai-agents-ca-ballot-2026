@@ -1,0 +1,98 @@
+{
+  "run_id": "luna__native__vote__p40__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "40",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:03:15.481407+00:00",
+  "finished_at": "2026-11-03T13:08:40.655807+00:00",
+  "seconds": 322.9,
+  "input_tokens": 69,
+  "output_tokens": 29448,
+  "cached_tokens": 1871993,
+  "cost_usd": 0.1565,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 40 2026 one-time wealth tax LAO analysis billionaires official fiscal estimate ...",
+    "site:hoover.org \"Net Present Value\" \"Billionaire Tax Act\" California Prop 40 ...",
+    "'amend'",
+    "site:calbudgetcenter.org \"Billionaire Tax Explained\" Proposition 40 California implications one-time tax ...",
+    "KFF California federal budget cuts Medicaid $19 billion annual Prop 40 1.6 million coverage 2026 ...",
+    "'migration'",
+    "\"The Net Present Value of the Billionaire Tax Act\" pdf Rauh Jaros 2026 NBER ...",
+    "\"The Net Present Value of the California Billionaire Tax Act\" Rauh Jaros Kearney 2026 paper PDF ...",
+    "Prop 40 California one-time wealth tax legal experts likely constitutionality experts not sure 2026 law professors ...",
+    "site:lao.ca.gov 2026-27 California Medi-Cal federal H.R. 1 funding cuts billions coverage 2029 2030 ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/40/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 26,
+    "requests_per_host": {
+      "api.openai.com": 20,
+      "ab.chatgpt.com": 6
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 19,
+      "202": 6
+    },
+    "bytes_up": 1759969,
+    "bytes_down": 4684250,
+    "wire_bytes": {
+      "harness_to_proxy": 1297203,
+      "proxy_to_harness": 2682257,
+      "proxy_to_internet": 1294676,
+      "internet_to_proxy": 2718951
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 3028,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 22,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:03:15.481407+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:03:15.481407+00:00",
+      "finished_at": "2026-11-03T13:08:40.655807+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

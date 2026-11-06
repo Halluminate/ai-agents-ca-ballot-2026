@@ -1,0 +1,39 @@
+{
+  "requests": 19,
+  "requests_per_host": {
+    "openrouter.ai": 19
+  },
+  "hosts": [
+    "openrouter.ai"
+  ],
+  "status_counts": {
+    "200": 19
+  },
+  "bytes_up": 1678028,
+  "bytes_down": 4104464,
+  "wire_bytes": {
+    "harness_to_proxy": 1718198,
+    "proxy_to_harness": 4362125,
+    "proxy_to_internet": 1712700,
+    "internet_to_proxy": 4404325
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 19,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

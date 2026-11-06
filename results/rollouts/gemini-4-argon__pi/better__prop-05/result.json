@@ -1,0 +1,73 @@
+{
+  "run_id": "gemini__common__better__p5__r1",
+  "model": "gemini",
+  "model_id": "google/gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "5",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "finished_at": "2026-11-03T05:01:53.281505+00:00",
+  "seconds": 34.2,
+  "input_tokens": 9175,
+  "output_tokens": 1957,
+  "cached_tokens": 2356,
+  "cost_usd": 0.0382,
+  "cost_source": "reported",
+  "searches": [],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/5/",
+    "https://voterguide.sos.ca.gov/propositions/5/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/5/arguments-rebuttals.htm"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 3,
+    "requests_per_host": {
+      "openrouter.ai": 3
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 3
+    },
+    "bytes_up": 49145,
+    "bytes_down": 36339,
+    "wire_bytes": {
+      "harness_to_proxy": 55506,
+      "proxy_to_harness": 46108,
+      "proxy_to_internet": 54586,
+      "internet_to_proxy": 52992
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 4,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

@@ -1,0 +1,15 @@
+I've now gathered a comprehensive picture of Proposition 4 (November 3, 2026 — the California Fair Elections Act, SB 42). Let me synthesize my research.
+
+**What Prop 4 actually does:**
+- Repeals the 1988 (Prop 73) ban on using public funds for candidate campaigns — the only such categorical state ban in the nation. It does **not** create any program or spend any money itself.
+- Merely gives the state and local governments the *option* to create public financing programs, with required safeguards: no funds earmarked for education/transportation/public safety; recipients must demonstrate broad-based support and agree to spending limits; no funds for legal defense, fines, or personal loan repayment; no discrimination by party or incumbency; triples penalties for illegal foreign campaign money.
+- Direct fiscal impact: only a few hundred thousand dollars/year for FPPC guidance (per the nonpartisan LAO).
+
+**Key considerations:**
+- **Evidence for:** Seattle's voucher program increased donors per race 350%, small donations 270%, and candidates 86% (UW, 2022); voucher users were far more likely to vote, and low-income residents/people of color participated more than via cash giving. Arizona/Maine programs "significantly increased competition" (Stanford). In L.A.'s 2022 mayoral race, publicly financed candidates averaged ~6,600 contributions of ~$530 vs. ~560 contributions of ~$25,000 for non-participants. Six California charter cities (LA, SF, Berkeley, Oakland, Long Beach, Richmond) run programs without incident.
+- **Evidence against/caveats:** GAO (2010) found mixed results in Arizona/Maine; public financing doesn't eliminate big money (independent expenditures remain post-Citizens United); a 2013 Oakland study found it boosted competition but didn't dilute wealthy donors' influence; future programs *could* cost meaningful taxpayer money if enacted.
+- **Structural point:** The opponents' "blank check" framing is misleading — Prop 4 compels nothing. Any program requires a future, separate act of a legislature, county board, or city council, subject to budget processes and voter accountability. The current ban prevents even local voters from *choosing* such a program. With billionaire/special-interest spending in California hitting record levels (e.g., $213M self-funded governor's race; $300M+ from two tech-backed groups this cycle), removing a unique categorical barrier to one of the few constitutionally permissible counterweights — with real guardrails and local option — is the better course.
+
+Yes aligns with the League of Women Voters, Common Cause, Consumer Watchdog, ACLU CA, SPUR, and the Sacramento Bee; no aligns with taxpayer groups and several editorial boards (Chronicle, Mercury News, OC Register, SD Union-Tribune), whose objections rest largely on hypothetical future spending rather than the measure's actual mechanics.
+
+yes

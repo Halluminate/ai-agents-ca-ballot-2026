@@ -1,0 +1,104 @@
+{
+  "run_id": "gemini__native__better__p37__r1",
+  "model": "gemini",
+  "model_id": "gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "native",
+  "harness": "gemini_cli",
+  "effort": "high",
+  "prompt": "better",
+  "prop": "37",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T11:00:11.636658+00:00",
+  "finished_at": "2026-11-03T11:01:58.569536+00:00",
+  "seconds": 105.0,
+  "input_tokens": 12157,
+  "output_tokens": 21899,
+  "cached_tokens": 21074,
+  "cost_usd": 0.0918,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/37/",
+    "https://voterguide.sos.ca.gov/propositions/37/"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.",
+    "capture: 4 connection attempts that ignored the proxy were blocked (node network-outbound x4)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 8,
+    "requests_per_host": {
+      "generativelanguage.googleapis.com": 7,
+      "voterguide.sos.ca.gov": 1
+    },
+    "hosts": [
+      "generativelanguage.googleapis.com",
+      "voterguide.sos.ca.gov"
+    ],
+    "status_counts": {
+      "200": 7
+    },
+    "bytes_up": 174112,
+    "bytes_down": 30524,
+    "wire_bytes": {
+      "harness_to_proxy": 180620,
+      "proxy_to_harness": 43703,
+      "proxy_to_internet": 180308,
+      "internet_to_proxy": 48593
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "generativelanguage.googleapis.com",
+        "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "node",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 4
+      }
+    ],
+    "blocked_attempts": 4,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 4,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:00:11.636658+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:00:11.636658+00:00",
+      "finished_at": "2026-11-03T11:01:58.569536+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

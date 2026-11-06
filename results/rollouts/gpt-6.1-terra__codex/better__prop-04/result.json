@@ -1,0 +1,94 @@
+{
+  "run_id": "terra__native__better__p4__r1",
+  "model": "terra",
+  "model_id": "gpt-6.1-terra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:46:25.147102+00:00",
+  "finished_at": "2026-11-03T10:47:42.235058+00:00",
+  "seconds": 74.3,
+  "input_tokens": 33,
+  "output_tokens": 3872,
+  "cached_tokens": 488710,
+  "cost_usd": 0.2444,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/4/ California proposition 4 2026 official voter guide ...",
+    "2026 proposition 4 california allow public financing of election campaigns debate disadvantages endorsements analysis ...",
+    "'Text of Proposed Law'",
+    "\"proposition 4\" \"2026\" \"campaign\" \"editorial\" endorsement california public financing ethics ...",
+    "\"democracy vouchers\" Seattle 2022 86% candidates journal public economics independent expenditure donor ...",
+    "2026 California proposition 4 public funding campaigns San Francisco Chronicle editorial flaw local commission independently enforced waste ...",
+    "site:sgp.jhu.edu/primers/public-funding-of-us-elections \"Key Takeaways\" \"competition\" polarization fundraising ...",
+    "\"public financing\" campaign finance impact government policy special interest influence legislative voting experimental study ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 13,
+    "requests_per_host": {
+      "api.openai.com": 11,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 10,
+      "202": 2
+    },
+    "bytes_up": 1212784,
+    "bytes_down": 2125810,
+    "wire_bytes": {
+      "harness_to_proxy": 932826,
+      "proxy_to_harness": 1188001,
+      "proxy_to_internet": 931778,
+      "internet_to_proxy": 1211984
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1997,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 13,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:46:25.147102+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:46:25.147102+00:00",
+      "finished_at": "2026-11-03T10:47:42.235058+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "run_id": "gpt__native__better__p5__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "5",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:32:16.132722+00:00",
+  "finished_at": "2026-11-03T12:35:17.187468+00:00",
+  "seconds": 178.8,
+  "input_tokens": 51,
+  "output_tokens": 5736,
+  "cached_tokens": 1049219,
+  "cost_usd": 3.0331,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California 2026 Proposition 5 recall elections SCA 1 analysis opposition ...",
+    "site.calmatters.org 2026 proposition 5 recall elections ...",
+    "site.lhc.ca.gov reforming recall 2022 report succession lieutenant governor ...",
+    "\"Proposition 5\" \"2026\" recall ...",
+    "site.hjta.org \"2026\" \"Proposition 5\" ...",
+    "site.leginfo.legislature.ca.gov \"10705\" \"majority\" special election ...",
+    "site.lhc.ca.gov \"Reforming the Recall\" \"Replacement as with\" \"trust\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/5/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop5-text-proposed-laws.pdf",
+    "https://lhc.ca.gov/report/reforming-recall/",
+    "https://scocablog.com/some-context-on-proposition-5/",
+    "https://www.hjta.org/california-commentary/2026-ballot-measure-recommendations/",
+    "https://scocablog.com/wp-content/uploads/2026/10/CCC-letter-and-policy-analysis-to-legislature.pdf",
+    "https://lwvc.org/ballot-recommendations/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 22,
+    "requests_per_host": {
+      "api.openai.com": 19,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 18,
+      "202": 3
+    },
+    "bytes_up": 1436439,
+    "bytes_down": 3087493,
+    "wire_bytes": {
+      "harness_to_proxy": 1088415,
+      "proxy_to_harness": 1767002,
+      "proxy_to_internet": 1086381,
+      "internet_to_proxy": 1805732
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2266,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 21,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:32:16.132722+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:32:16.132722+00:00",
+      "finished_at": "2026-11-03T12:35:17.187468+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

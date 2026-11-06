@@ -1,0 +1,46 @@
+{
+  "requests": 16,
+  "requests_per_host": {
+    "openrouter.ai": 16
+  },
+  "hosts": [
+    "openrouter.ai"
+  ],
+  "status_counts": {
+    "200": 16
+  },
+  "bytes_up": 1301023,
+  "bytes_down": 246448,
+  "wire_bytes": {
+    "harness_to_proxy": 1334414,
+    "proxy_to_harness": 295446,
+    "proxy_to_internet": 1329836,
+    "internet_to_proxy": 330563
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 16,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

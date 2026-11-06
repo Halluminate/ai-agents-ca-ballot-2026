@@ -1,0 +1,11 @@
+
+
+Based on my research, I've reviewed the official VIG pages, the full text of the proposed law, the Legislative Analyst's analyses for Props 40 and 41, and independent coverage (LA Times, SF Chronicle, McClatchy editorial boards).
+
+Key findings:
+- **What it does:** Prop 41 requires State Auditor pre-ballot and every-4-year audits of programs funded by new special taxes (genuinely reasonable, but advisory in nature), and crucially **bans any state tax enacted after Jan 1, 2026 from being exempt from the state spending (Gann) limit** — and bars the state from even collecting such a tax.
+- **The decisive mechanic:** Its "conflicting measures" clause states that if it gets more yes votes than another initiative containing a Gann-limit-exempt tax, Prop 41 prevails and **all provisions of that other measure are null and void**. That other measure is Prop 40 (the one-time 5% billionaire tax, 90% of whose tens of billions in revenue goes to healthcare). The "Findings" section explicitly frames the spending-limit clause as aimed at defeating new taxes exempt from the limit — i.e., Prop 40.
+- **Who's behind it:** Funded by "Building a Better California" (Google co-founder Sergey Brin, $57M+, and other billionaires targeted by Prop 40); opposed by SEIU and Bernie Sanders.
+- **Net effect:** The modest, non-binding audit benefits are outweighed by the measure's primary, designed consequence — voiding tens of billions in healthcare funding if it out-polls Prop 40, plus a permanent constitutional constraint on all future dedicated special taxes. A NO vote preserves the status quo and lets voters' direct decision on Prop 40 stand.
+
+no

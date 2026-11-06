@@ -1,0 +1,57 @@
+{
+  "requests": 52,
+  "requests_per_host": {
+    "openrouter.ai": 45,
+    "escholarship.org": 1,
+    "electionresults.sos.ca.gov": 1,
+    "kalshi.com": 1,
+    "polymarket.com": 1,
+    "en.wikipedia.org": 1,
+    "www.desertsun.com": 1,
+    "www.kcra.com": 1
+  },
+  "hosts": [
+    "electionresults.sos.ca.gov",
+    "en.wikipedia.org",
+    "escholarship.org",
+    "kalshi.com",
+    "openrouter.ai",
+    "polymarket.com",
+    "www.desertsun.com",
+    "www.kcra.com"
+  ],
+  "status_counts": {
+    "200": 48,
+    "402": 1,
+    "403": 1,
+    "404": 1,
+    "429": 1
+  },
+  "bytes_up": 5999565,
+  "bytes_down": 868021,
+  "wire_bytes": {
+    "harness_to_proxy": 6098686,
+    "proxy_to_harness": 1021419,
+    "proxy_to_internet": 6085588,
+    "internet_to_proxy": 1130593
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 44,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

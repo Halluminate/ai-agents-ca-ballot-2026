@@ -1,0 +1,354 @@
+{
+  "run_id": "sonnet__native__better__p5__r1",
+  "model": "sonnet",
+  "model_id": "anthropic/claude-sonnet-5.5",
+  "pin": "anthropic",
+  "arm": "native",
+  "harness": "claude_code",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "5",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T12:07:18.094607+00:00",
+  "finished_at": "2026-11-03T12:21:10.858734+00:00",
+  "seconds": 830.4,
+  "input_tokens": 68638,
+  "output_tokens": 28905,
+  "cached_tokens": 258251,
+  "cost_usd": 1.3629,
+  "cost_source": "reported",
+  "billed_usd": 1.3628781,
+  "searches": [
+    "California Proposition 5 2026 recall election process legislative constitutional amendment",
+    "Ballotpedia California Proposition 5 2026 recall replacement candidate",
+    "Proposition 5 recall editorial endorsement \"Prop. 5\" California Los Angeles Times OR \"San Francisco Chronicle\" OR \"Sacramento Bee\" 2026",
+    "PPIC Statewide Survey October 2026 Proposition 5 recall likely voters",
+    "SCA 1 Newman 2024 recall elections Resolution Chapter 204 Legislative Counsel's Digest text \"recall\" \"successor\" special election lieutenant governor",
+    "Prop 5 recall \"San Diego Union-Tribune\" OR \"Orange County Register\" OR \"Mercury News\" editorial vote no recall lieutenant governor 2026",
+    "Howard Jarvis Taxpayers Association Proposition 5 2026 recall successor election position",
+    "Little Hoover Commission recall report 2022 recommendations replacement candidate plurality successor question",
+    "Los Angeles Times editorial board Prop. 5 recall elections 2026 endorsement",
+    "KQED voter guide 2026 Proposition 5 recall replacement question"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 10,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/5/",
+    "https://voterguide.sos.ca.gov/propositions/5/",
+    "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+    "https://voterguide.sos.ca.gov/propositions/5/arguments-rebuttals.htm",
+    "https://calmatters.org/california-voter-guide-2026/proposition-5-recall-reform/",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=5&year=2026",
+    "https://voterguide.sos.ca.gov/propositions/5/analysis.htm",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-5-recall-process-reform",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-5-recall-elections",
+    "https://calmatters.org/politics/2026/10/california-election-proposition-5-explainer/",
+    "https://cavotes.org/ballot-measure/2026-prop-5/",
+    "https://fullertonobserver.com/2026/08/15/california-proposition-5-2026-eliminating-the-successor-election-in-state-officer-recalls/",
+    "https://www.cbsnews.com/sacramento/news/california-proposition-5-recall-reform-what-to-know/",
+    "https://www.sfchronicle.com/projects/2026/california-sf-election-endorsements/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop5-text-proposed-laws.pdf",
+    "https://selc.senate.ca.gov/sites/selc.senate.ca.gov/files/SCA%201%20(Newman",
+    "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SCA1",
+    "https://legiscan.com/CA/text/SCA1/id/2670349",
+    "https://calmatters.digitaldemocracy.org/bills/ca_202320240sca1",
+    "https://voterguide.sos.ca.gov/propositions/5/text-of-proposed-laws.htm",
+    "https://californiatoday.com/guides/elections/california-proposition-5-2026/",
+    "https://www.hjta.org/2026votingguide/",
+    "https://lhc.ca.gov/wp-content/uploads/Reports/266/FactSheet266.pdf",
+    "https://ballotpedia.org/California_Proposition_5,_Eliminate_State_Officer_Recall_Successor_Elections_Amendment_(2026"
+  ],
+  "tool_errors": 4,
+  "warnings": [
+    "capture: 13 connections were not readable by the proxy (api.anthropic.com:443)"
+  ],
+  "network": {
+    "requests": 108,
+    "requests_per_host": {
+      "api.anthropic.com": 49,
+      "openrouter.ai": 40,
+      "voterguide.sos.ca.gov": 4,
+      "calmatters.org": 2,
+      "lao.ca.gov": 1,
+      "www.spur.org": 1,
+      "laist.com": 1,
+      "fullertonobserver.com": 1,
+      "www.sfchronicle.com": 1,
+      "vig.cdn.sos.ca.gov": 1,
+      "selc.senate.ca.gov": 1,
+      "leginfo.legislature.ca.gov": 1,
+      "legiscan.com": 1,
+      "calmatters.digitaldemocracy.org": 1,
+      "www.hjta.org": 1,
+      "californiatoday.com": 1,
+      "lhc.ca.gov": 1
+    },
+    "hosts": [
+      "api.anthropic.com",
+      "californiatoday.com",
+      "calmatters.digitaldemocracy.org",
+      "calmatters.org",
+      "fullertonobserver.com",
+      "laist.com",
+      "lao.ca.gov",
+      "leginfo.legislature.ca.gov",
+      "legiscan.com",
+      "lhc.ca.gov",
+      "openrouter.ai",
+      "selc.senate.ca.gov",
+      "vig.cdn.sos.ca.gov",
+      "voterguide.sos.ca.gov",
+      "www.hjta.org",
+      "www.sfchronicle.com",
+      "www.spur.org"
+    ],
+    "status_counts": {
+      "200": 102,
+      "403": 4
+    },
+    "bytes_up": 3460363,
+    "bytes_down": 2541610,
+    "wire_bytes": {
+      "harness_to_proxy": 3552765,
+      "proxy_to_harness": 2845525,
+      "proxy_to_internet": 3551520,
+      "internet_to_proxy": 2924716
+    },
+    "byte_counter": true,
+    "errors": 16,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0005,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0007,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0003,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 9.99,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0043,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 9.9957,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0038,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.004,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.004,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0025,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0217,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0017,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 60,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:07:18.094607+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:07:18.094607+00:00",
+      "finished_at": "2026-11-03T12:21:10.858734+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

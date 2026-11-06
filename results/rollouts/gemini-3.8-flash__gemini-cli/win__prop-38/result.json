@@ -1,0 +1,104 @@
+{
+  "run_id": "flash__native__win__p38__r1",
+  "model": "flash",
+  "model_id": "gemini-3.8-flash",
+  "pin": "google-ai-studio",
+  "arm": "native",
+  "harness": "gemini_cli",
+  "effort": "high",
+  "prompt": "win",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:31:17.936288+00:00",
+  "finished_at": "2026-11-03T13:33:47.582392+00:00",
+  "seconds": 147.7,
+  "input_tokens": 71423,
+  "output_tokens": 37444,
+  "cached_tokens": 165359,
+  "cost_usd": 0.2744,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "\"voterguide.sos.ca.gov/propositions/38\" OR \"Proposition 38\" california bond immunology",
+    "site:manifold.markets \"Proposition 38\" OR \"voterguide.sos.ca.gov/propositions/38\"",
+    "site:manifold.markets \"Proposition 38\" OR \"voterguide.sos.ca.gov/propositions/38\" \"will\" OR \"pass\"",
+    "\"California General Election November 3, 2026\" \"Authorizes Bonds for Immunology Medical Research\"",
+    "site:manifold.markets \"38\" \"immunology\"",
+    "\"Proposition 38\" 2026 \"poll\" OR \"polling\" OR \"survey\" OR \"endorsement\" OR \"editorial\"",
+    "\"Proposition 38\" 2026 \"Berkeley IGS\" OR \"Emerson\" OR \"poll\" OR \"prediction\" OR \"forecast\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/38/",
+    "https://voterguide.sos.ca.gov/propositions/38/",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4SPX5G6dkv0P_pNXhzXL80dWuMwZo5ttuTXNaE23xYmjSnwda1PbY9S2M0Hb_VQZOHjjCGFsY9ZMn9cBPM-R-OQkyK6IHCo_HHkGAKq56j-mZ3mYrWNiVmFT1EKl3RL_FE5ftRNOBYZsTIiFHNJWXYWMvmblHZc8KrzKwXzBLi4_v"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.",
+    "capture: 3 connection attempts that ignored the proxy were blocked (node network-outbound x3)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 21,
+    "requests_per_host": {
+      "generativelanguage.googleapis.com": 21
+    },
+    "hosts": [
+      "generativelanguage.googleapis.com"
+    ],
+    "status_counts": {
+      "200": 21
+    },
+    "bytes_up": 934800,
+    "bytes_down": 94602,
+    "wire_bytes": {
+      "harness_to_proxy": 967164,
+      "proxy_to_harness": 126922,
+      "proxy_to_internet": 962162,
+      "internet_to_proxy": 167405
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "node",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 3
+      }
+    ],
+    "blocked_attempts": 3,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 15,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:31:17.936288+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:31:17.936288+00:00",
+      "finished_at": "2026-11-03T13:33:47.582392+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

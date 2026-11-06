@@ -1,0 +1,109 @@
+{
+  "run_id": "luna__native__better__p43__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:01:27.416086+00:00",
+  "finished_at": "2026-11-03T13:05:25.243179+00:00",
+  "seconds": 235.4,
+  "input_tokens": 66,
+  "output_tokens": 21415,
+  "cached_tokens": 1874589,
+  "cost_usd": 0.1725,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 43 2026 majority vote local special taxes analysis independent ...",
+    "site:leginfo.legislature.ca.gov ACA 22 2026 Prop 43 article XII special tax two-thirds ...",
+    "\"ACA 22\" \"Prop. 43\" California 2026 text Section 4.5 ad valorem taxes ...",
+    "California property tax ad valorem local government initiative Proposition 13 current constitution Article XIII A section 1 section 4 voter initiative tax majority ...",
+    "California Constitution Article XIII D Section 3(a)(1) text official ...",
+    "\"over two dozen\" local taxes 2017 simple majority Proposition 43 California measures list ...",
+    "California Proposition 43 endorsed no editorial Sacramento Bee 2026 ...",
+    "\"Endorsement: Prop. 43 is absurd\" Prop 43 California editorial recommendation no or yes ...",
+    "California Proposition 43 2026 tax policy center two thirds majority local initiative policy analysis ...",
+    "site:sandiegouniontribune.com/opinion \"Prop. 43\" \"Yes\" 2026 ...",
+    "\"Endorsement: Vote Yes on Prop. 43 to preserve intent of state tax laws\" ...",
+    "Proposition 43 2026 section 4.5 b ad valorem tax real property what changes compared with current law ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 1 connection attempts that ignored the proxy were blocked (codex remote:*:51154 x1)"
+  ],
+  "network": {
+    "requests": 26,
+    "requests_per_host": {
+      "api.openai.com": 22,
+      "ab.chatgpt.com": 4
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 21,
+      "202": 4
+    },
+    "bytes_up": 1686836,
+    "bytes_down": 4359354,
+    "wire_bytes": {
+      "harness_to_proxy": 1174086,
+      "proxy_to_harness": 2572754,
+      "proxy_to_internet": 1172540,
+      "internet_to_proxy": 2615381
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "codex",
+        "operation": "network-outbound",
+        "target": "remote:*:51154",
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 1,
+    "websocket_messages": 2598,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 24,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:01:27.416086+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:01:27.416086+00:00",
+      "finished_at": "2026-11-03T13:05:25.243179+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

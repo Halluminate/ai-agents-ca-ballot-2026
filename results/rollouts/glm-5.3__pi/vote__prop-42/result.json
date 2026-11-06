@@ -1,0 +1,97 @@
+{
+  "run_id": "glm__common__vote__p42__r1",
+  "model": "glm",
+  "model_id": "z-ai/glm-5.3",
+  "pin": "z-ai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "42",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T13:22:25.923779+00:00",
+  "finished_at": "2026-11-03T13:25:37.186800+00:00",
+  "seconds": 188.3,
+  "input_tokens": 51005,
+  "output_tokens": 8699,
+  "cached_tokens": 112768,
+  "cost_usd": 0.1593,
+  "cost_source": "reported",
+  "billed_usd": 0.159310416,
+  "searches": [
+    "California Proposition 42 2024 voter guide",
+    "Proposition 42 California 2026 Sergey Brin funding wealth tax opposition",
+    "CalMatters Proposition 42 2026 \"no on 42\" OR \"yes on 42\" wealth tax billionaire",
+    "\"Proposition 42\" California editorial board recommendation oppose OR support 2026 wealth tax \"vote no\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/42/",
+    "https://voterguide.sos.ca.gov/propositions/42/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/42/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/40/",
+    "https://voterguide.sos.ca.gov/propositions/41/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-42-property-taxes/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-text-proposed-laws.pdf",
+    "https://www.sfchronicle.com/opinion/editorials/article/california-proposition-42-taxes-22449389.php",
+    "https://calmatters.org/health/2026/10/prop-40-billionaire-tax-fact-check/",
+    "https://www.sacbee.com/opinion/us-viewpoints/article317724881.html"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 12,
+    "requests_per_host": {
+      "openrouter.ai": 12
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 12
+    },
+    "bytes_up": 723131,
+    "bytes_down": 3033660,
+    "wire_bytes": {
+      "harness_to_proxy": 749301,
+      "proxy_to_harness": 3208626,
+      "proxy_to_internet": 745621,
+      "internet_to_proxy": 3236604
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 13,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:22:25.923779+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:22:25.923779+00:00",
+      "finished_at": "2026-11-03T13:25:37.186800+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

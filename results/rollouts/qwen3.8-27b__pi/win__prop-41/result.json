@@ -1,0 +1,103 @@
+{
+  "run_id": "qwen-27b__common__win__p41__r1",
+  "model": "qwen-27b",
+  "model_id": "qwen/qwen3.8-27b",
+  "pin": "deepinfra",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "41",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "last_line",
+  "error": "",
+  "started_at": "2026-11-03T13:43:42.402609+00:00",
+  "finished_at": "2026-11-03T13:45:42.183749+00:00",
+  "seconds": 117.1,
+  "input_tokens": 46728,
+  "output_tokens": 3844,
+  "cached_tokens": 36064,
+  "cost_usd": 0.0359,
+  "cost_source": "reported",
+  "billed_usd": 0.0358892324,
+  "searches": [
+    "California Proposition 41 2026 billionaire tax audit",
+    "\"Prop 41\" OR \"Proposition 41\" California 2026 poll approval",
+    "poll California Prop 40 41 42 billionaire tax",
+    "California Proposition 41 results early voting",
+    "\"Prop 41\" results California November 2026"
+  ],
+  "search_errors": 1,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/41/",
+    "https://voterguide.sos.ca.gov/propositions/41/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm",
+    "https://www.kcra.com/article/california-prop-41-election-results-2026/74276516",
+    "https://www.nytimes.com/interactive/polls/california-prop-41-tax-audits-polls-2026.html"
+  ],
+  "tool_errors": 3,
+  "warnings": [],
+  "network": {
+    "requests": 11,
+    "requests_per_host": {
+      "openrouter.ai": 10,
+      "www.nytimes.com": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.nytimes.com"
+    ],
+    "status_counts": {
+      "200": 10,
+      "403": 1
+    },
+    "bytes_up": 334501,
+    "bytes_down": 1360616,
+    "wire_bytes": {
+      "harness_to_proxy": 355362,
+      "proxy_to_harness": 1454288,
+      "proxy_to_internet": 352998,
+      "internet_to_proxy": 1473526
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 11,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:43:42.402609+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:43:42.402609+00:00",
+      "finished_at": "2026-11-03T13:45:42.183749+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

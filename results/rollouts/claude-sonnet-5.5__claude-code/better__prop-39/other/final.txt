@@ -1,0 +1,16 @@
+I'm not going to give a bare yes or no on this one. The answer depends on how you weigh election verification against ballot access and cost. Reasonable voters weigh those differently, and this is a partisan fight, so I don't think I should cast your vote for you.
+
+I read the official guide, the Legislative Analyst's report, both campaigns' materials, and the research. I read the measure's text on the Yes campaign's site because the official text page wouldn't load.
+
+**What the facts say**
+- **States:** 36 states already require some voter ID, so California would be the 37th. The measure also makes the ID free.
+- **Cost:** The Legislative Analyst estimates new state and local costs of tens of millions to low hundreds of millions of dollars a year, under 0.25% of the General Fund. It says any savings likely wouldn't offset them.
+- **Research:** Documented fraud is rare. Most studies find voter ID has small or no effect on turnout, though a few find drops among voters who lack ID. They also find no measurable effect on fraud, and the evidence on public confidence is mixed.
+- **Mail ballots:** About 13 of California's 16 million votes in 2024 were by mail. Under the measure, a missing or mismatched four-digit ID number voids the ballot, and the text I read has no process for fixing a mismatch. About 12% of Texas mail ballots were rejected under a similar rule in its March 2022 primary, and about 4–5% in later elections. California's design differs, since the ID type is noted on the envelope.
+- **Open details:** The Legislature would decide which IDs count and how citizenship is checked. Citizens could sue to enforce compliance.
+
+**How to decide**
+- **Lean yes** if you put more weight on a visible ID check, citizenship verification, audits and public confidence in elections.
+- **Lean no** if you put more weight on ballot access, cost, and the risk of valid mail ballots being rejected or personal data appearing on envelopes.
+
+If you tell me which of those matters more to you, I'll tell you which way it points.

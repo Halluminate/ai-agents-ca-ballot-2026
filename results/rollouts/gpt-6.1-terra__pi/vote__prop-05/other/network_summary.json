@@ -1,0 +1,54 @@
+{
+  "requests": 41,
+  "requests_per_host": {
+    "openrouter.ai": 34,
+    "www.kcra.com": 1,
+    "www.the-downballot.com": 1,
+    "www.fresnobee.com": 1,
+    "www.santacruzsentinel.com": 1,
+    "www.kqed.org": 1,
+    "www.law.berkeley.edu": 1,
+    "www.sos.ca.gov": 1
+  },
+  "hosts": [
+    "openrouter.ai",
+    "www.fresnobee.com",
+    "www.kcra.com",
+    "www.kqed.org",
+    "www.law.berkeley.edu",
+    "www.santacruzsentinel.com",
+    "www.sos.ca.gov",
+    "www.the-downballot.com"
+  ],
+  "status_counts": {
+    "200": 40,
+    "404": 1
+  },
+  "bytes_up": 4190985,
+  "bytes_down": 1231682,
+  "wire_bytes": {
+    "harness_to_proxy": 4282067,
+    "proxy_to_harness": 1370029,
+    "proxy_to_internet": 4269862,
+    "internet_to_proxy": 1471954
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 42,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

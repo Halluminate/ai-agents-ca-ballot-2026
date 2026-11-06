@@ -1,0 +1,101 @@
+{
+  "run_id": "terra__native__vote__p37__r1",
+  "model": "terra",
+  "model_id": "gpt-6.1-terra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "37",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:40:26.350030+00:00",
+  "finished_at": "2026-11-03T12:41:58.802997+00:00",
+  "seconds": 90.3,
+  "input_tokens": 30,
+  "output_tokens": 5176,
+  "cached_tokens": 428263,
+  "cost_usd": 0.2837,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 37 November 2026 official voter guide ...",
+    "California 2026 Proposition 37 homeownership loan reasons oppose construction defects builders analysis ...",
+    "\"Proposition 37\" 2026 home loans construction \"defects\" middle class ...",
+    "2026 \"proposition 37\" homebuyers new homes \"opponents\" analysis ...",
+    "\"proposition 37\" \"2026\" home loans editorial \"no\" ...",
+    "\"California Proposition 37\" 2026 down payment loans home builders bond \"against\" ...",
+    "site:ppic.org \"Proposition 37\" housing down payment November 2026 ...",
+    "\"Proposition 37\" 2026 homeownership \"endorsement\" no ...",
+    "\"proposition 37\" \"League of Women Voters\" \"2026\" downpayment NO ...",
+    "California proposition 37 \"construction\" \"defect\" lawyers homeowners labor union 2026 ...",
+    "'Risk'",
+    "down payment assistance piggyback loan versus primary mortgage insurance monthly payment research second mortgage default ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://calbudgetcenter.org/resources/will-proposition-37-make-homeownership-more-affordable-its-not-guaranteed/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 25,
+    "requests_per_host": {
+      "api.openai.com": 23,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 21,
+      "202": 2,
+      "500": 1
+    },
+    "bytes_up": 1187096,
+    "bytes_down": 2741075,
+    "wire_bytes": {
+      "harness_to_proxy": 959066,
+      "proxy_to_harness": 1899198,
+      "proxy_to_internet": 958002,
+      "internet_to_proxy": 1944915
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1932,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 24,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:40:26.350030+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:40:26.350030+00:00",
+      "finished_at": "2026-11-03T12:41:58.802997+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

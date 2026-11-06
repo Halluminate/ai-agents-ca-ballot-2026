@@ -1,0 +1,103 @@
+{
+  "run_id": "gemini__native__win__p2__r1",
+  "model": "gemini",
+  "model_id": "gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "native",
+  "harness": "gemini_cli",
+  "effort": "high",
+  "prompt": "win",
+  "prop": "2",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:02:23.211335+00:00",
+  "finished_at": "2026-11-03T11:03:41.349707+00:00",
+  "seconds": 76.2,
+  "input_tokens": 41703,
+  "output_tokens": 16180,
+  "cached_tokens": 32052,
+  "cost_usd": 0.151,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "\"voterguide.sos.ca.gov/propositions/2/\" OR \"California Proposition 2\"",
+    "\"Increases State's Rainy Day Fund\" California Proposition 2 OR ACA",
+    "\"Proposition 2\" \"Rainy Day Fund\" OR \"ACA 20\" California 2026 polling OR endorsements OR opposition",
+    "\"California Proposition 2\" 2026 ballotpedia \"Rainy Day\" OR \"Budget Stabilization\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/",
+    "https://voterguide.sos.ca.gov/propositions/2/"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.",
+    "capture: 4 connection attempts that ignored the proxy were blocked (node network-outbound x4)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 14,
+    "requests_per_host": {
+      "generativelanguage.googleapis.com": 13,
+      "voterguide.sos.ca.gov": 1
+    },
+    "hosts": [
+      "generativelanguage.googleapis.com",
+      "voterguide.sos.ca.gov"
+    ],
+    "status_counts": {
+      "200": 12,
+      "500": 2
+    },
+    "bytes_up": 348771,
+    "bytes_down": 52645,
+    "wire_bytes": {
+      "harness_to_proxy": 366652,
+      "proxy_to_harness": 74935,
+      "proxy_to_internet": 364327,
+      "internet_to_proxy": 95919
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "node",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 4
+      }
+    ],
+    "blocked_attempts": 4,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 9,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:02:23.211335+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:02:23.211335+00:00",
+      "finished_at": "2026-11-03T11:03:41.349707+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

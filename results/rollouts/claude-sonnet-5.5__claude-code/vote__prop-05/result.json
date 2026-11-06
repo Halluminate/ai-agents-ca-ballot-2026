@@ -1,0 +1,382 @@
+{
+  "run_id": "sonnet__native__vote__p5__r1",
+  "model": "sonnet",
+  "model_id": "anthropic/claude-sonnet-5.5",
+  "pin": "anthropic",
+  "arm": "native",
+  "harness": "claude_code",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "5",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T11:54:44.655154+00:00",
+  "finished_at": "2026-11-03T12:07:15.614627+00:00",
+  "seconds": 741.1,
+  "input_tokens": 62007,
+  "output_tokens": 35626,
+  "cached_tokens": 406570,
+  "cost_usd": 1.5763,
+  "cost_source": "reported",
+  "billed_usd": 1.5763428000000004,
+  "searches": [
+    "California Proposition 5 2026 recall election statewide officers constitutional amendment",
+    "SCA 1 Newman recall elections constitutional amendment Legislative Counsel's Digest text Article II Section 15 Article V Section 10",
+    "PPIC Statewide Survey September 2026 Proposition 5 recall likely voters",
+    "San Francisco Chronicle editorial Prop 5 recall vote no recalled officials run again 2026",
+    "Los Angeles Times editorial endorsement Proposition 5 recall elections November 2026",
+    "Prop 5 recall Newsom Kounalakis lieutenant governor successor critics supporters Dan Schnur Josh Newman interview",
+    "Joshua Spivak Recall Elections Blog California Proposition 5 SCA 1 recall reform",
+    "Prop 5 California recall editorial endorsement Sacramento Bee yes OR \"Union-Tribune\" no OR \"Mercury News\" no OR \"Orange County Register\" no",
+    "PPIC October 2026 survey Proposition 5 recall 45% yes 52% no likely voters",
+    "Newsom position Proposition 5 recall \"Prop 5\" Newsom vote yes 2026 ballot measures positions",
+    "\"Prop 5\" recall poll California October 2026 Berkeley IGS OR Emerson OR \"Public Policy Institute\" voters support oppose",
+    "Los Angeles Times editorial board \"Proposition 5\" recall \"second question\" 2026 recommends",
+    "latimes.com endorsements 2026 California propositions Prop 5 recall elections Times recommends",
+    "Prop 5 recall election law professor says OR argues \"Prop. 5\" recall plurality lieutenant governor Hasen OR Levinson OR Cain OR Nalder OR Gerken"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 14,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/5/",
+    "https://voterguide.sos.ca.gov/propositions/5/",
+    "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+    "https://calmatters.org/california-voter-guide-2026/proposition-5-recall-reform/",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-5-recall-process-reform",
+    "https://www.hoover.org/proposition-lab-proposition-5",
+    "https://lao.ca.gov/Ballot/2026/Prop5-110326",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-5-recall-elections",
+    "https://fullertonobserver.com/2026/08/15/california-proposition-5-2026-eliminating-the-successor-election-in-state-officer-recalls/",
+    "https://www.abc10.com/article/news/politics/elections/california-prop-5-recall-reform/103-6509088f-815d-4d63-9565-5d177f48927a",
+    "https://voterguide.sos.ca.gov/propositions/5/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/5/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/5/text-proposed-laws.htm",
+    "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SCA1",
+    "https://ballotpedia.org/California_Eliminate_State_Officer_Recall_Successor_Elections_Amendment_(2026",
+    "https://californiatoday.com/guides/elections/california-proposition-5-2026/",
+    "https://selc.senate.ca.gov/sites/selc.senate.ca.gov/files/SCA%201%20(Newman",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-5-recall-california-22458510.php",
+    "https://calmatters.org/politics/2026/10/california-election-proposition-5-explainer/",
+    "https://voiceofsandiego.org/2026/10/16/should-california-change-how-it-does-recall-elections/",
+    "https://www.ppic.org/pdf/ppic-statewide-survey-californians-and-their-government-october-2026.pdf",
+    "https://www.astralcodexten.com/p/my-california-ballot-2026",
+    "https://www.yahoo.com/news/politics/articles/proposition-5-could-change-california-173000601.html",
+    "https://scocablog.com/some-context-on-proposition-5/",
+    "https://www.dailyrepublic.com/news/the-right-stuff-proposition-5-the-governors-recall-revenge/article_bdca496c-9246-4fbd-9a14-795c53ecbe4c.html",
+    "https://voterguide.sos.ca.gov/propositions/5/arguments-rebuttals.htm",
+    "https://legiscan.com/CA/text/SCA1/id/2670349",
+    "https://statehornet.com/2026/11/buzzin-at-the-ballot-box-california-proposes-to-change-recall-election-process",
+    "https://sfstandard.com/2026-election-voter-guide/proposition/5/",
+    "https://calmatters.org/politics/2026/10/last-minute-voter-guide-propositions/",
+    "http://quickguidetoprops.sos.ca.gov/propositions/2026-11-03/5",
+    "https://www.kqed.org/news/12100623/proposition-5-would-change-the-state-recall-election-process"
+  ],
+  "tool_errors": 1,
+  "warnings": [
+    "capture: 5 connections were not readable by the proxy (api.anthropic.com:443)"
+  ],
+  "network": {
+    "requests": 165,
+    "requests_per_host": {
+      "api.anthropic.com": 76,
+      "openrouter.ai": 56,
+      "voterguide.sos.ca.gov": 5,
+      "lao.ca.gov": 3,
+      "calmatters.org": 2,
+      "www.ppic.org": 2,
+      "statehornet.com": 2,
+      "www.spur.org": 1,
+      "www.hoover.org": 1,
+      "www.abc10.com": 1,
+      "laist.com": 1,
+      "fullertonobserver.com": 1,
+      "ballotpedia.org": 1,
+      "leginfo.legislature.ca.gov": 1,
+      "californiatoday.com": 1,
+      "selc.senate.ca.gov": 1,
+      "www.sfchronicle.com": 1,
+      "voiceofsandiego.org": 1,
+      "www.astralcodexten.com": 1,
+      "www.yahoo.com": 1,
+      "scocablog.com": 1,
+      "www.dailyrepublic.com": 1,
+      "legiscan.com": 1,
+      "sfstandard.com": 1,
+      "quickguidetoprops.sos.ca.gov": 1,
+      "www.kqed.org": 1
+    },
+    "hosts": [
+      "api.anthropic.com",
+      "ballotpedia.org",
+      "californiatoday.com",
+      "calmatters.org",
+      "fullertonobserver.com",
+      "laist.com",
+      "lao.ca.gov",
+      "leginfo.legislature.ca.gov",
+      "legiscan.com",
+      "openrouter.ai",
+      "quickguidetoprops.sos.ca.gov",
+      "scocablog.com",
+      "selc.senate.ca.gov",
+      "sfstandard.com",
+      "statehornet.com",
+      "voiceofsandiego.org",
+      "voterguide.sos.ca.gov",
+      "www.abc10.com",
+      "www.astralcodexten.com",
+      "www.dailyrepublic.com",
+      "www.hoover.org",
+      "www.kqed.org",
+      "www.ppic.org",
+      "www.sfchronicle.com",
+      "www.spur.org",
+      "www.yahoo.com"
+    ],
+    "status_counts": {
+      "200": 140,
+      "202": 1,
+      "301": 1,
+      "302": 1,
+      "403": 4
+    },
+    "bytes_up": 5541452,
+    "bytes_down": 5208375,
+    "wire_bytes": {
+      "harness_to_proxy": 5806897,
+      "proxy_to_harness": 5693705,
+      "proxy_to_internet": 5701643,
+      "internet_to_proxy": 5815829
+    },
+    "byte_counter": true,
+    "errors": 25,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "The client disconnected during the handshake. If this happens consistently for api.anthropic.com, this may indicate that the client does not trust the proxy's certificate."
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "voterguide.sos.ca.gov",
+        "url": "https://voterguide.sos.ca.gov/propositions/5/arguments-rebuttals.htm",
+        "error": "server closed connection"
+      },
+      {
+        "kind": "http",
+        "host": "voterguide.sos.ca.gov",
+        "url": "https://voterguide.sos.ca.gov/propositions/5/text-proposed-laws.htm",
+        "error": "server closed connection"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 2611,
+        "duration": 10.3445,
+        "reason": "The client disconnected during the handshake. If this happens consistently for api.anthropic.com, this may indicate that the client does not trust the proxy's certificate."
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 10.9892,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0008,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 22.9331,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 506.2503,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 86,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:54:44.655154+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:54:44.655154+00:00",
+      "finished_at": "2026-11-03T12:07:15.614627+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "run_id": "gemini__common__win__p5__r1",
+  "model": "gemini",
+  "model_id": "google/gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "5",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:02:33.860889+00:00",
+  "seconds": 87.4,
+  "input_tokens": 109219,
+  "output_tokens": 3188,
+  "cached_tokens": 270073,
+  "cost_usd": 0.3129,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 5 2024 polling",
+    "California Proposition 5 2024 ballotpedia",
+    "California recall ballot measure 2026 polling \"SCA 1\" OR \"Josh Newman\"",
+    "\"SCA 1\" recall California 2026 ballotpedia",
+    "California recall reform polling PPIC OR Berkeley IGS",
+    "\"Proposition 5\" recall 2026 poll October PPIC OR Berkeley IGS",
+    "\"Release #2026-22\" Berkeley IGS Poll \"Proposition 5\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/5/",
+    "https://voterguide.sos.ca.gov/propositions/5/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/5/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/",
+    "https://voterguide.sos.ca.gov/propositions/5/title-summary.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop5-text-proposed-laws.pdf",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+    "https://www.politico.com/newsletters/california-playbook-pm/2026/10/05/californias-orphaned-ballot-measures-01107257",
+    "https://californiatoday.com/guides/elections/california-proposition-5-2026/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-5",
+    "https://igs.berkeley.edu/research/berkeley-igs-poll",
+    "https://californiatoday.com/guides/elections/california-proposition-5-2026/",
+    "https://californiatoday.com/guides/elections/california-proposition-5-2026/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026",
+    "https://escholarship.org/uc/item/72722408",
+    "https://escholarship.org/uc/item/1vp9q3f9",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026",
+    "https://electcademocrats.com/polls/",
+    "https://californiatoday.com/guides/elections/2026-california-ballot-cheat-sheet/"
+  ],
+  "tool_errors": 2,
+  "warnings": [],
+  "network": {
+    "requests": 20,
+    "requests_per_host": {
+      "openrouter.ai": 15,
+      "californiatoday.com": 2,
+      "escholarship.org": 2,
+      "voterguide.sos.ca.gov": 1
+    },
+    "hosts": [
+      "californiatoday.com",
+      "escholarship.org",
+      "openrouter.ai",
+      "voterguide.sos.ca.gov"
+    ],
+    "status_counts": {
+      "200": 18,
+      "403": 2
+    },
+    "bytes_up": 1424081,
+    "bytes_down": 179203,
+    "wire_bytes": {
+      "harness_to_proxy": 1467994,
+      "proxy_to_harness": 231439,
+      "proxy_to_internet": 1461470,
+      "internet_to_proxy": 283918
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 21,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

@@ -1,0 +1,43 @@
+{
+  "requests": 38,
+  "requests_per_host": {
+    "openrouter.ai": 36,
+    "www.eastbaytimes.com": 1,
+    "leginfo.legislature.ca.gov": 1
+  },
+  "hosts": [
+    "leginfo.legislature.ca.gov",
+    "openrouter.ai",
+    "www.eastbaytimes.com"
+  ],
+  "status_counts": {
+    "200": 38
+  },
+  "bytes_up": 9769800,
+  "bytes_down": 1489894,
+  "wire_bytes": {
+    "harness_to_proxy": 9837699,
+    "proxy_to_harness": 1659545,
+    "proxy_to_internet": 9831064,
+    "internet_to_proxy": 1714731
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 27,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

@@ -1,0 +1,89 @@
+{
+  "requests": 2,
+  "requests_per_host": {
+    "openrouter.ai": 2
+  },
+  "hosts": [
+    "openrouter.ai"
+  ],
+  "status_counts": {
+    "200": 2
+  },
+  "bytes_up": 10185,
+  "bytes_down": 49542,
+  "wire_bytes": {
+    "harness_to_proxy": 14630,
+    "proxy_to_harness": 58590,
+    "proxy_to_internet": 13783,
+    "internet_to_proxy": 61773
+  },
+  "byte_counter": true,
+  "errors": 4,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "connect_error",
+      "host": "openrouter.ai",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "openrouter.ai",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "openrouter.ai",
+      "error": null
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 108,
+      "bytes_down": 276,
+      "duration": 30.0314,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 108,
+      "bytes_down": 276,
+      "duration": 30.0187,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 108,
+      "bytes_down": 349,
+      "duration": 180.0279,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 6,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

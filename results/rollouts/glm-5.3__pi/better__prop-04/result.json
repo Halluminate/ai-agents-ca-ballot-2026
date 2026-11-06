@@ -1,0 +1,95 @@
+{
+  "run_id": "glm__common__better__p4__r1",
+  "model": "glm",
+  "model_id": "z-ai/glm-5.3",
+  "pin": "z-ai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "last_line",
+  "error": "",
+  "started_at": "2026-11-03T13:22:41.715681+00:00",
+  "finished_at": "2026-11-03T13:25:24.116579+00:00",
+  "seconds": 159.6,
+  "input_tokens": 45793,
+  "output_tokens": 6862,
+  "cached_tokens": 97344,
+  "cost_usd": 0.14,
+  "cost_source": "reported",
+  "billed_usd": 0.139989786,
+  "searches": [
+    "California Proposition 4 2024 climate bond $10 billion pros and cons",
+    "\"Proposition 4\" 2026 California \"public funding\" campaigns endorsement editorial",
+    "California Prop 4 2026 public campaign financing repeal Prop 73 ban ballot measure",
+    "Los Angeles Times OR Sacramento Bee editorial endorsement Proposition 4 public campaign financing 2026 \"vote no\" OR \"vote yes\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://voterguide.sos.ca.gov/propositions/4/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm",
+    "https://calmatters.org/politics/2026/10/california-proposition-4-explainer/",
+    "https://www.hoover.org/proposition-lab-proposition-4",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-text-proposed-laws.pdf",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-4-campaign-financing",
+    "https://www.sfchronicle.com/opinion/editorials/article/endorsement-prop-4-public-financing-22426379.php"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 11,
+    "requests_per_host": {
+      "openrouter.ai": 11
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 11
+    },
+    "bytes_up": 665226,
+    "bytes_down": 2400048,
+    "wire_bytes": {
+      "harness_to_proxy": 687072,
+      "proxy_to_harness": 2539707,
+      "proxy_to_internet": 684208,
+      "internet_to_proxy": 2562129
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 11,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:22:41.715681+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:22:41.715681+00:00",
+      "finished_at": "2026-11-03T13:25:24.116579+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

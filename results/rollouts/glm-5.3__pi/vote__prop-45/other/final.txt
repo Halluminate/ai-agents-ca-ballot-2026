@@ -1,0 +1,25 @@
+# My recommendation: **No.**
+
+I researched the official voter guide, the nonpartisan Legislative Analyst's Office (LAO) analysis, campaign finance records, polling, and reporting/editorials from more than a dozen outlets across the spectrum. Here's how I got there.
+
+## What Prop 45 does
+
+It creates an opt-in, fast-tracked CEQA pathway for projects it deems "essential" (housing, water, clean energy, healthcare, schools, broadband, transportation, wildfire work). It imposes real deadlines — 365 business days for environmental review, 270 days for courts to resolve lawsuits — and makes several substantive changes: agencies get one shot to request application fixes; environmental standards are frozen as of the application date; the **applicant** (not the agency) proposes the single project alternative analyzed; public comment windows get capped; consultation is limited to federally recognized tribes only; and courts can no longer halt an entire non-compliant project, only the deficient portion.
+
+## The strongest case for Yes (and it's real)
+
+CEQA abuse is genuine and well-documented. Lawsuits with appeals routinely take 4–5 years; the law has been weaponized by NIMBYs, competitors, and unions to block housing, transit, and even wildfire brush-clearing. California's affordability crisis is severe, and even longtime critics of CEQA in the press concede the measure contains "eminently reasonable" reforms. It has support from children's hospitals, affordable-housing groups, the NAACP and LULAC chapters, and ~28 newspaper editorial boards (Sacramento Bee/McClatchy, San Diego U-T, OC Register, Mercury News, Wall Street Journal). Other substantive laws — Clean Air Act, Clean Water Act, etc. — still apply.
+
+## Why I land on No
+
+- **The drafting is poll-tested, not policy-driven.** The campaign's own strategist admitted high-speed rail and the Delta tunnel were excluded and freeway expansion included based on "voter appetite" polling (per the SF Chronicle). That means streamlining applies equally to infill housing *and* to sprawl housing in wildfire zones and freeway expansions — while exempting the transit project that arguably most needs help.
+- **Specific provisions go beyond "speed" and cut real protections.** The LAO's nonpartisan analysis flags the tribal change (excluding non-federally recognized tribes strips consultation rights from most tribes in the Bay Area, LA, and Central Coast — the Amah Mutsun's successful defense of sacred sites is a concrete example), the applicant-controlled alternatives analysis, frozen standards that ignore new information discovered mid-review, and narrowed judicial remedies. UCLA's Julia Stein calls it "a blunt force instrument."
+- **The people who know CEQA reform best won't endorse it.** Gov. Newsom — who signed the biggest CEQA reforms in state history and rails against its "weaponization" — is pointedly silent. So are gubernatorial frontrunner Xavier Becerra, Sen. Scott Wiener (the Legislature's leading CEQA reformer), YIMBY Action, and SPUR. That's a telling signal from people who want exactly this outcome.
+- **The Legislature is demonstrably already fixing this.** In 2025, Newsom signed AB 130/SB 131, exempting most urban infill housing and creating 10 new exemption categories with huge bipartisan majorities. A 41-page initiative statute locks in an untested regime that legal experts predict will itself spawn years of litigation — ironic for an anti-litigation measure.
+- **Follow the money, both ways.** Yes-side funding (~$38M+) is dominated by PG&E, Edison, Sempra, an oil producer (California Resources Corp.), data-center developers, and tech billionaires — with genuine ambiguity about whether the "broadband" category sweeps in data centers (legal experts are split; the funders have $4M+ riding on it). The No side has its own rich funders (Wendy Schmidt, $10M) and self-interested unions, so I discounted pure "follow the money" arguments — but the data-center and utility tilt of the Yes side is hard to ignore.
+- **Costs are concrete; benefits are speculative.** The LAO estimates high tens of millions to $100M+ per year in initial government costs, with "uncertain" long-term effects, and the measure contains no requirement that savings reach rents or utility bills.
+- **Timing matters.** With the federal government actively rolling back environmental protections, state-level review is the remaining backstop.
+
+Even the SF Chronicle's editorial board — which has spent years decrying CEQA abuse and demanding reform — concluded Prop 45 is "poll-tested political Swiss cheese" and urged a No vote.
+
+**Bottom line:** California badly needs CEQA reform, but this particular measure is poorly targeted, poll-driven, riddled with drafting problems that would weaken review for exactly the highest-impact projects, and it arrives just as the Legislature is finally delivering reform through a process that can be fine-tuned. **Vote No.**

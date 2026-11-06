@@ -1,0 +1,97 @@
+{
+  "run_id": "flash__common__win__p45__r1",
+  "model": "flash",
+  "model_id": "google/gemini-3.8-flash",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "45",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:40:45.877952+00:00",
+  "finished_at": "2026-11-03T13:41:49.858924+00:00",
+  "seconds": 61.2,
+  "input_tokens": 25704,
+  "output_tokens": 1847,
+  "cached_tokens": 55214,
+  "cost_usd": 0.0607,
+  "cost_source": "reported",
+  "billed_usd": 0.06073869456000001,
+  "searches": [
+    "\"Proposition 45\" site:sos.ca.gov",
+    "\"Proposition 45\" \"Modifies Environmental Review for Certain Projects\"",
+    "\"Proposition 45\" California poll OR results 2026 OR 2024",
+    "date today",
+    "\"Proposition 45\" California 2026 prediction OR odds OR forecast OR \"likely to win\"",
+    "\"Proposition 45\" (poll OR survey OR Berkeley OR \"Emerson\" OR \"USC\") 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/45/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 14,
+    "requests_per_host": {
+      "openrouter.ai": 14
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 14
+    },
+    "bytes_up": 351468,
+    "bytes_down": 73525,
+    "wire_bytes": {
+      "harness_to_proxy": 371756,
+      "proxy_to_harness": 98592,
+      "proxy_to_internet": 368835,
+      "internet_to_proxy": 121172
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 10,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:40:45.877952+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:40:45.877952+00:00",
+      "finished_at": "2026-11-03T13:41:49.858924+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

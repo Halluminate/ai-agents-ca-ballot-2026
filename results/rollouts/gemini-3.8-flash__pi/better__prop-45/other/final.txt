@@ -1,0 +1,36 @@
+Whether to vote **Yes** or **No** on California Proposition 45 is a subjective policy decision that depends on how you weigh regulatory streamlining against environmental oversight and public participation. Because there is no objective or consensus answer, a simple "yes" or "no" cannot capture the trade-offs involved.
+
+Below is an overview of what the measure does and the primary arguments on both sides.
+
+---
+
+### What Proposition 45 Does
+Proposition 45 amends the California Environmental Quality Act (CEQA) to establish expedited review and legal procedures for projects designated as "essential" (including certain housing, water, clean energy, transportation, school, and healthcare facilities). Key changes include:
+- **Binding Timelines:** Establishes a 365-day target for completing Environmental Impact Reports (EIRs) and a 270-day limit for courts to resolve CEQA lawsuits.
+- **Review Standards:** Assesses environmental impacts based on standards in place at the time of application, and allows applicants to propose only one project alternative for agencies to consider rather than multiple alternatives.
+- **Court Remedies:** Restricts a court from stopping an entire project if a CEQA violation is found; courts may only halt the specific non-compliant portion while the agency remedies it.
+- **Tribal & Public Input:** Limits mandatory tribal consultations to federally recognized California tribes and sets tighter limits on public comment periods.
+
+---
+
+### Arguments for Voting YES
+* **Accelerating Critical Infrastructure:** Supporters argue that California’s severe housing shortage, water infrastructure deficits, and clean energy transition are routinely delayed by bureaucratic red tape and protracted CEQA reviews.
+* **Lowering Project Costs:** Permitting delays and extensive litigation add significant costs to housing and public works projects. Proponents maintain that strict timelines and predictable approvals will lower the cost of living and save taxpayer dollars.
+* **Curber Abuse of Litigation:** Advocates argue that CEQA lawsuits are often used as delay tactics by opponents or competitors ("NIMBYism") rather than for genuine environmental protection.
+* **Maintains Core Standards:** Proponents emphasize that projects must still comply with existing state and federal environmental quality standards (such as the Clean Air and Clean Water Acts), and that local governments retain ultimate authority over land use approvals.
+* **Key Endorsements:** Supported by groups such as the California Council for Affordable Housing, California Children’s Hospital Association, California Water Association, and business organizations.
+
+---
+
+### Arguments for Voting NO
+* **Weakening Environmental Safeguards:** Opponents argue that CEQA is California’s bedrock law for identifying and mitigating pollution, toxic hazards, and ecological damage. They contend that limiting alternative project reviews undermines the state’s ability to prevent environmental harm.
+* **Reducing Public and Community Voice:** Critics point out that the measure shortens public comment windows and narrows consultation requirements for non-federally recognized Native American tribes, reducing the ability of local communities to identify potential health risks.
+* **Limiting Judicial Oversight:** Restricting court review and narrowing the remedies available when agencies violate environmental law shifts power toward developers and away from affected residents.
+* **Fiscal and Environmental Risks:** The nonpartisan Legislative Analyst’s Office notes that the measure could result in tens of millions of dollars in near-term implementation costs and could lead to projects being approved with unmitigated environmental impacts, leaving taxpayers or local communities to deal with the remediation.
+* **Key Endorsements:** Opposed by environmental and public health organizations such as the Coalition for Clean Air, Clean Water Action, California Environmental Voters, the National Wildlife Federation, and healthcare worker associations.
+
+---
+
+### Conclusion
+* A **YES** vote aligns with prioritizing the rapid construction of housing, clean energy, and public infrastructure by reducing regulatory delays and litigation risks.
+* A **NO** vote aligns with preserving existing environmental reviews, public comment periods, and court oversight to protect local community health, air, and water quality.

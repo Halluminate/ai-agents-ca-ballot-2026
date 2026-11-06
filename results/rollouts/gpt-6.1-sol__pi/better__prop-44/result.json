@@ -1,0 +1,129 @@
+{
+  "run_id": "sol__common__better__p44__r1",
+  "model": "sol",
+  "model_id": "openai/gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "44",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:55:17.922065+00:00",
+  "finished_at": "2026-11-03T10:56:51.040782+00:00",
+  "seconds": 90.3,
+  "input_tokens": 106906,
+  "output_tokens": 2128,
+  "cached_tokens": 249693,
+  "cost_usd": 0.3642,
+  "cost_source": "reported",
+  "billed_usd": 0.36422195976,
+  "searches": [
+    "California Proposition 44 2026 community health clinics 90 percent revenue independent analysis",
+    "California Proposition 44 2026 clinic 90 percent independent analysis overhead Health Management Associates 1.7 billion",
+    "Proposition 44 2026 90 percent clinics endorsement yes evidence nonprofit spending minimum",
+    "California community clinics spending 90 percent overhead 2026 independent expert Prop 44",
+    "\"Proposition 44\" \"2026\" \"research\" \"90\"",
+    "community health center overhead ratio administrative costs nonprofit 90% program spending evidence",
+    "California community health centers financial landscape operating margins administrative costs 2024 2025 CHCF",
+    "\"Brad Fulton\" \"Prop. 44\"",
+    "site.bphc.hrsa.gov health center compliance manual financial management board authority majority patients",
+    "site.give.org overhead myth ratio true measure charity performance costs"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/44/",
+    "https://voterguide.sos.ca.gov/propositions/44/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf",
+    "https://www.kqed.org/news/12102004/prop-44-requires-health-clinics-to-spend-more-on-patient-care",
+    "https://yesonprop44.com/",
+    "https://noprop44.com/",
+    "https://noprop44.com/wp-content/uploads/2025/11/BRG-Report-on-Clinic-Funding-Accountability-Transparency-Act-2025_1117.pdf",
+    "https://calmatters.org/health/2026/10/union-billionaire-prop-44-clinic/",
+    "https://www.latimes.com/california/story/2026-10-30/2026-california-election-proposition-44-health-clinic-spending-last-minute-voter-guide",
+    "https://yesonprop44.com/wp-content/uploads/2026/09/Fact-Sheet-2026-Prop-44-Clinic-Funding-Act.pdf",
+    "https://www.sacbee.com/news/politics-government/election/voter-guide/article317117912.html",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-44",
+    "https://calmatters.org/california-voter-guide-2026/proposition-44-clinic-funding/",
+    "https://noprop44.com/wp-content/uploads/2025/11/BRG-Report-on-Clinic-Funding-Accountability-Transparency-Act-2025_1117.pdf",
+    "https://calmatters.org/commentary/2026/08/patients-revenue-proposition-44-california/",
+    "https://calmatters.org/commentary/2026/08/proposition-44-destructive-community-clinics/",
+    "https://www.sacbee.com/news/politics-government/capitol-alert/article317016992.html",
+    "https://cms.hoover.org/proposition-lab-proposition-44",
+    "https://www.chcf.org/wp-content/uploads/2026/05/CommunityClinicsAlmanac_2026.pdf"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "warning: reasoning was not replayed on an assistant turn"
+  ],
+  "network": {
+    "requests": 18,
+    "requests_per_host": {
+      "openrouter.ai": 18
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 18
+    },
+    "bytes_up": 1659951,
+    "bytes_down": 203820,
+    "wire_bytes": {
+      "harness_to_proxy": 1698760,
+      "proxy_to_harness": 252766,
+      "proxy_to_internet": 1692846,
+      "internet_to_proxy": 296761
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 18,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:55:17.922065+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:55:17.922065+00:00",
+      "finished_at": "2026-11-03T10:56:51.040782+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

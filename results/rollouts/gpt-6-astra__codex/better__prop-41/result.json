@@ -1,0 +1,102 @@
+{
+  "run_id": "gpt__native__better__p41__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "41",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:58:06.127628+00:00",
+  "finished_at": "2026-11-03T11:01:25.273830+00:00",
+  "seconds": 196.6,
+  "input_tokens": 42,
+  "output_tokens": 6162,
+  "cached_tokens": 867634,
+  "cost_usd": 2.7638,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/41 Proposition 41 California ...",
+    "California 2026 Proposition 41 audits special taxes spending limit independent analysis ...",
+    "California Proposition 41 2026 audits voter guide CalMatters KQED Gann limit ...",
+    "site.lao.ca.gov state appropriations limit 2026 Gann challenges growth revenues spending ...",
+    "site.lao.ca.gov \"The State Appropriations Limit\" \"2021\" ...",
+    "\"Endorsement: Yes on Propositions 41 and 42\" ...",
+    "site.auditor.ca.gov \"2026\" \"implemented\" \"recommendations\" \"Legislature\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/41/",
+    "https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm",
+    "https://www.kqed.org/voterguide/california/proposition-41/",
+    "https://www.yesonprop41.org/about-prop41",
+    "https://lao.ca.gov/Publications/Report/5176",
+    "https://calbudgetcenter.org/resources/what-would-proposition-41-mean-for-california/",
+    "https://www.pacificresearch.org/california-spends-first-asks-questions-rarely/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-41-audits"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 25,
+    "requests_per_host": {
+      "api.openai.com": 21,
+      "ab.chatgpt.com": 4
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 20,
+      "202": 4
+    },
+    "bytes_up": 1413860,
+    "bytes_down": 3011728,
+    "wire_bytes": {
+      "harness_to_proxy": 1095138,
+      "proxy_to_harness": 1803978,
+      "proxy_to_internet": 1093448,
+      "internet_to_proxy": 1844884
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2726,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 23,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:58:06.127628+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:58:06.127628+00:00",
+      "finished_at": "2026-11-03T11:01:25.273830+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

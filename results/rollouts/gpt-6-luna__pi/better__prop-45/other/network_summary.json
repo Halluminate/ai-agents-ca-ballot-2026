@@ -1,0 +1,154 @@
+{
+  "requests": 141,
+  "requests_per_host": {
+    "openrouter.ai": 98,
+    "www.kff.org": 5,
+    "board.coveredca.com": 3,
+    "www.latimes.com": 3,
+    "www.healthaffairs.org": 3,
+    "vigarchive.sos.ca.gov": 2,
+    "www.commonwealthfund.org": 2,
+    "shea.senate.ca.gov": 2,
+    "www.cms.gov": 2,
+    "pubmed.ncbi.nlm.nih.gov": 2,
+    "lao.ca.gov": 1,
+    "www.dmhc.ca.gov": 1,
+    "www.ppic.org": 1,
+    "www.calhealthreport.org": 1,
+    "www.lwvc.org": 1,
+    "www.sph.umn.edu": 1,
+    "news.bloomberglaw.com": 1,
+    "lwvc.org": 1,
+    "www.hcfo.org": 1,
+    "www.insurance.ca.gov": 1,
+    "www.brookings.edu": 1,
+    "aspe.hhs.gov": 1,
+    "consumerfed.org": 1,
+    "ccf.georgetown.edu": 1,
+    "kpbs.org": 1,
+    "www.kpbs.org": 1,
+    "www.fresnobee.com": 1,
+    "collections.awsprod.nlm.nih.gov": 1,
+    "collections.nlm.nih.gov": 1
+  },
+  "hosts": [
+    "aspe.hhs.gov",
+    "board.coveredca.com",
+    "ccf.georgetown.edu",
+    "collections.awsprod.nlm.nih.gov",
+    "collections.nlm.nih.gov",
+    "consumerfed.org",
+    "kpbs.org",
+    "lao.ca.gov",
+    "lwvc.org",
+    "news.bloomberglaw.com",
+    "openrouter.ai",
+    "pubmed.ncbi.nlm.nih.gov",
+    "shea.senate.ca.gov",
+    "vigarchive.sos.ca.gov",
+    "www.brookings.edu",
+    "www.calhealthreport.org",
+    "www.cms.gov",
+    "www.commonwealthfund.org",
+    "www.dmhc.ca.gov",
+    "www.fresnobee.com",
+    "www.hcfo.org",
+    "www.healthaffairs.org",
+    "www.insurance.ca.gov",
+    "www.kff.org",
+    "www.kpbs.org",
+    "www.latimes.com",
+    "www.lwvc.org",
+    "www.ppic.org",
+    "www.sph.umn.edu"
+  ],
+  "status_counts": {
+    "200": 125,
+    "301": 2,
+    "403": 3,
+    "404": 10
+  },
+  "bytes_up": 8228073,
+  "bytes_down": 9405197,
+  "wire_bytes": {
+    "harness_to_proxy": 8531229,
+    "proxy_to_harness": 9908771,
+    "proxy_to_internet": 8488201,
+    "internet_to_proxy": 10256698
+  },
+  "byte_counter": true,
+  "errors": 5,
+  "error_details": [
+    {
+      "kind": "tls_failed_server",
+      "host": "www.hcfo.org",
+      "sni": "www.hcfo.org",
+      "error": "Certificate verify failed: self-signed certificate"
+    },
+    {
+      "kind": "http",
+      "host": "www.hcfo.org",
+      "url": "https://www.hcfo.org/grants/assessing-impact-states-authority-review-health-insurance-rates-cost-premiums.html",
+      "error": "Certificate verify failed: self-signed certificate"
+    },
+    {
+      "kind": "connect_error",
+      "host": "collections.nlm.gov",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "collections.awsprod.nlm.gov",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "collections.nlm.gov",
+      "error": null
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "collections.nlm.gov",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 120,
+      "bytes_down": 282,
+      "duration": 0.1795,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "collections.awsprod.nlm.gov",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 136,
+      "bytes_down": 290,
+      "duration": 0.1563,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "collections.nlm.gov",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 120,
+      "bytes_down": 282,
+      "duration": 0.0147,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 144,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

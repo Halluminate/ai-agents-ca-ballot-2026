@@ -1,0 +1,29 @@
+Whether it is better to vote **yes** or **no** on California Proposition 44 is a value judgment that depends on your priorities regarding healthcare oversight, nonprofit clinic operations, and regulatory risk. Because there is no objective consensus on how voters should weigh these trade-offs, I cannot answer with only "yes" or "no." Below is an overview of the measure and the core arguments on both sides to help you make your own decision.
+
+---
+
+### What Proposition 44 Does
+**Proposition 44** (*Requires Community Health Clinics Spend 90% of Revenue on Program Services*) is an initiative statute on the November 3, 2026 California ballot affecting private, nonprofit Federally Qualified Health Centers (safety-net community clinics that primarily serve low-income and uninsured patients):
+* **90% Minimum Spending Requirement:** Requires affected clinics to spend at least 90% of their total annual revenue on "program services" that advance their charitable purpose (such as patient care), capping administrative and other overhead expenses at 10%. According to the Legislative Analyst's Office (LAO), clinics currently spend an average of about 80% of their revenue on health care services.
+* **Implementation & Waivers:** Tasks the California Attorney General with defining which specific expenditures qualify as health care/program services, and allows the Department of Public Health to grant temporary waivers in exceptional circumstances.
+* **Penalties:** Requires clinics that fall short of the 90% threshold to pay a penalty equal to the shortfall. Clinics can recover the penalty if they come into compliance within five years; otherwise, the state retains the funds for clinic workforce programs.
+
+### Fiscal Impact (Legislative Analyst's Office)
+* **State Enforcement Costs:** Increased state costs in the low tens of millions of dollars annually to monitor and enforce the law, paid for by fees charged to the affected clinics.
+* **Other Uncertain Fiscal Effects:** Depending on how the Attorney General defines qualifying expenses and how clinics respond, state and local governments could face uncertain costs—for instance, increased Medi-Cal spending if clinics expand billable services to meet the threshold, or service disruptions if clinics unable to meet the requirement close.
+
+---
+
+### Arguments for Voting YES
+Supporters—led by Service Employees International Union-United Healthcare Workers West (SEIU-UHW)—argue that a **YES** vote:
+* **Prioritizes Patient Care Over Overhead:** Ensures that taxpayer and charitable healthcare dollars go directly toward medical, dental, mental health, and support services rather than excessive executive compensation, consultants, or administrative overhead.
+* **Increases Accountability and Transparency:** Establishes clear public reporting standards and financial consequences for clinics that spend a disproportionate share of their revenue on non-clinical expenses.
+* **Keeps Penalty Funds in the Healthcare System:** Allows non-compliant clinics up to five years to earn back penalties by meeting the 90% standard, and directs any unrecovered funds toward recruiting, training, and retaining clinic healthcare workers.
+
+---
+
+### Arguments for Voting NO
+Opponents—including the California Primary Care Association, California Medical Association, American Academy of Pediatrics California, Planned Parenthood Affiliates of California, and California School Nurses Organization—argue that a **NO** vote is needed because Prop 44:
+* **Threatens Clinic Closures and Patient Access:** Imposes an inflexible 10% cap on non-program spending that most clinics (averaging ~80% program spending) cannot realistically meet, potentially forcing safety-net clinics to pay steep penalties, cut services, or shut down—especially in rural and underserved areas.
+* **Restricts Essential Operational and Capital Investments:** Could limit spending on vital infrastructure, IT upgrades, facility expansions, equipment, and administrative or wrap-around support staff that do not get classified under the 90% definition.
+* **Duplicates Existing Oversight:** Community health centers are already heavily regulated nonprofits subject to federal and state audits, patient-majority board governance, and strict requirements to reinvest 100% of revenues into their organizations.

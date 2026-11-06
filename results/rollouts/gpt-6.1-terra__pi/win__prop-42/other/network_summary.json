@@ -1,0 +1,62 @@
+{
+  "requests": 59,
+  "requests_per_host": {
+    "openrouter.ai": 50,
+    "escholarship.org": 3,
+    "www.nytimes.com": 1,
+    "kalshi.com": 1,
+    "www.sos.ca.gov": 1,
+    "midterms.nijinn.io": 1,
+    "californiatoday.com": 1,
+    "www.rutlandherald.com": 1
+  },
+  "hosts": [
+    "californiatoday.com",
+    "escholarship.org",
+    "kalshi.com",
+    "midterms.nijinn.io",
+    "openrouter.ai",
+    "www.nytimes.com",
+    "www.rutlandherald.com",
+    "www.sos.ca.gov"
+  ],
+  "status_counts": {
+    "200": 54,
+    "403": 4,
+    "429": 1
+  },
+  "bytes_up": 3589550,
+  "bytes_down": 669400,
+  "wire_bytes": {
+    "harness_to_proxy": 3716693,
+    "proxy_to_harness": 833373,
+    "proxy_to_internet": 3698201,
+    "internet_to_proxy": 980140
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 59,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

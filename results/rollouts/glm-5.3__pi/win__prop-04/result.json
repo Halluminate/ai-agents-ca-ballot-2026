@@ -1,0 +1,98 @@
+{
+  "run_id": "glm__common__win__p4__r1",
+  "model": "glm",
+  "model_id": "z-ai/glm-5.3",
+  "pin": "z-ai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "last_line",
+  "error": "",
+  "started_at": "2026-11-03T10:56:48.540259+00:00",
+  "finished_at": "2026-11-03T10:58:56.095197+00:00",
+  "seconds": 124.6,
+  "input_tokens": 37585,
+  "output_tokens": 5497,
+  "cached_tokens": 91392,
+  "cost_usd": 0.1412,
+  "cost_source": "reported",
+  "billed_usd": 0.14120154663999998,
+  "searches": [
+    "California Proposition 4 voterguide.sos.ca.gov",
+    "California Proposition 4 2026 Ballotpedia public campaign financing repeal Prop 73",
+    "California Proposition 4 2026 public funding of election campaigns polling",
+    "Proposition 4 California poll October 2026 Berkeley IGS Emerson poll public campaign financing",
+    "\"Yes on 4\" California Fair Elections Act 2026 campaign fundraising committee money",
+    "California Proposition 15 2010 public financing results percentage Proposition 73 1988 ban passed",
+    "California propositions 2026 editorial endorsements \"Prop 4\" public financing Chronicle Los Angeles Times oppose",
+    "\"Proposition 4\" California results November 3 2026 election night public funding campaigns"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://escholarship.org/content/qt72722408/qt72722408.pdf",
+    "https://calmatters.org/politics/2026/10/california-proposition-4-explainer/"
+  ],
+  "tool_errors": 1,
+  "warnings": [],
+  "network": {
+    "requests": 16,
+    "requests_per_host": {
+      "openrouter.ai": 15,
+      "escholarship.org": 1
+    },
+    "hosts": [
+      "escholarship.org",
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 15,
+      "403": 1
+    },
+    "bytes_up": 584066,
+    "bytes_down": 1921876,
+    "wire_bytes": {
+      "harness_to_proxy": 618792,
+      "proxy_to_harness": 2061821,
+      "proxy_to_internet": 613480,
+      "internet_to_proxy": 2102252
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 17,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:56:48.540259+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:56:48.540259+00:00",
+      "finished_at": "2026-11-03T10:58:56.095197+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

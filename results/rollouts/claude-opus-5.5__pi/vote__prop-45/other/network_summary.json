@@ -1,0 +1,54 @@
+{
+  "requests": 53,
+  "requests_per_host": {
+    "openrouter.ai": 46,
+    "www.mercurynews.com": 1,
+    "voiceofsandiego.org": 1,
+    "ascent.inc": 1,
+    "www.nytimes.com": 1,
+    "legal-planet.org": 1,
+    "x.com": 1,
+    "www.dailyjournal.com": 1
+  },
+  "hosts": [
+    "ascent.inc",
+    "legal-planet.org",
+    "openrouter.ai",
+    "voiceofsandiego.org",
+    "www.dailyjournal.com",
+    "www.mercurynews.com",
+    "www.nytimes.com",
+    "x.com"
+  ],
+  "status_counts": {
+    "200": 51,
+    "403": 2
+  },
+  "bytes_up": 12947809,
+  "bytes_down": 902551,
+  "wire_bytes": {
+    "harness_to_proxy": 13034512,
+    "proxy_to_harness": 1064411,
+    "proxy_to_internet": 13026772,
+    "internet_to_proxy": 1137400
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 34,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

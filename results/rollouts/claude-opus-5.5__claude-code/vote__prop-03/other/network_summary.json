@@ -1,0 +1,109 @@
+{
+  "requests": 151,
+  "requests_per_host": {
+    "openrouter.ai": 66,
+    "api.anthropic.com": 60,
+    "voterguide.sos.ca.gov": 4,
+    "lao.ca.gov": 3,
+    "vig.cdn.sos.ca.gov": 2,
+    "calmatters.org": 2,
+    "igs.berkeley.edu": 1,
+    "www.spur.org": 1,
+    "growsf.org": 1,
+    "my.lwv.org": 1,
+    "www.aeaweb.org": 1,
+    "www.sfchronicle.com": 1,
+    "laist.com": 1,
+    "www.yahoo.com": 1,
+    "oag.ca.gov": 1,
+    "cavotes.org": 1,
+    "www.decodethevote.com": 1,
+    "www.policyengine.org": 1,
+    "legisus.org": 1,
+    "calbudgetcenter.org": 1
+  },
+  "hosts": [
+    "api.anthropic.com",
+    "calbudgetcenter.org",
+    "calmatters.org",
+    "cavotes.org",
+    "growsf.org",
+    "igs.berkeley.edu",
+    "laist.com",
+    "lao.ca.gov",
+    "legisus.org",
+    "my.lwv.org",
+    "oag.ca.gov",
+    "openrouter.ai",
+    "vig.cdn.sos.ca.gov",
+    "voterguide.sos.ca.gov",
+    "www.aeaweb.org",
+    "www.decodethevote.com",
+    "www.policyengine.org",
+    "www.sfchronicle.com",
+    "www.spur.org",
+    "www.yahoo.com"
+  ],
+  "status_counts": {
+    "200": 149,
+    "403": 1,
+    "429": 1
+  },
+  "bytes_up": 6151407,
+  "bytes_down": 5680850,
+  "wire_bytes": {
+    "harness_to_proxy": 6257422,
+    "proxy_to_harness": 6071668,
+    "proxy_to_internet": 6258150,
+    "internet_to_proxy": 6160367
+  },
+  "byte_counter": true,
+  "errors": 2,
+  "error_details": [
+    {
+      "kind": "connect_error",
+      "host": "www.protectingca.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "www.protectingca.com",
+      "error": null
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "www.protectingca.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 102,
+      "bytes_down": 283,
+      "duration": 0.0185,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "www.protectingca.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 102,
+      "bytes_down": 283,
+      "duration": 0.0072,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 53,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

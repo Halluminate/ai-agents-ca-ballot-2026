@@ -1,0 +1,97 @@
+{
+  "run_id": "luna__native__better__p38__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:06:40.578647+00:00",
+  "finished_at": "2026-11-03T13:09:27.171992+00:00",
+  "seconds": 164.5,
+  "input_tokens": 63,
+  "output_tokens": 12346,
+  "cached_tokens": 1693553,
+  "cost_usd": 0.1346,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 38 2026 immunology research 8.4 billion independent analysis ...",
+    "site:calmatters.org/politics/elections/2026/07/proposition-38-california Prop 38 institute Gary Michelson 4.2 billion ...",
+    "'200,000'",
+    "site:report.nih.gov immunotherapy funding 2019 2025 grant funding NIH California Prop 38 ...",
+    "'primary responsibility'",
+    "site:regents.universityofcalifornia.edu \"three employees\" \"Immunology\" September 2026 ...",
+    "NIH FY2026 enacted budget final appropriations research grants official 2026 California November 2026 ...",
+    "NIH RePORT immunotherapy 2025 2,264 2024 $2,074 million ...",
+    "site:cirm.ca.gov CIRM Prop 71 14 outcomes return to state royalties bond research results 2026 ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/38/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 24,
+    "requests_per_host": {
+      "api.openai.com": 21,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 20,
+      "202": 3
+    },
+    "bytes_up": 1590776,
+    "bytes_down": 3745107,
+    "wire_bytes": {
+      "harness_to_proxy": 1117266,
+      "proxy_to_harness": 2170767,
+      "proxy_to_internet": 1114657,
+      "internet_to_proxy": 2212446
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2087,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 23,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:06:40.578647+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:06:40.578647+00:00",
+      "finished_at": "2026-11-03T13:09:27.171992+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

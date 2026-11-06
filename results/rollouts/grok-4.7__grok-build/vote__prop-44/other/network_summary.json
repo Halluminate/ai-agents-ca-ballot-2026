@@ -1,0 +1,156 @@
+{
+  "requests": 59,
+  "requests_per_host": {
+    "openrouter.ai": 16,
+    "voterguide.sos.ca.gov": 4,
+    "www.sos.ca.gov": 4,
+    "vig.cdn.sos.ca.gov": 4,
+    "ballotpedia.org": 4,
+    "noprop44.com": 3,
+    "www.fppc.ca.gov": 3,
+    "lao.ca.gov": 3,
+    "oag.ca.gov": 3,
+    "yesonprop44.com": 2,
+    "calmatters.org": 2,
+    "www.sfchronicle.com": 2,
+    "fppc.ca.gov": 1,
+    "yesonproposition44.com": 1,
+    "lwvc.org": 1,
+    "www.mercurynews.com": 1,
+    "www.ocregister.com": 1,
+    "cavotes.org": 1,
+    "fresnoland.org": 1,
+    "www.politico.com": 1,
+    "www.latimes.com": 1
+  },
+  "hosts": [
+    "ballotpedia.org",
+    "calmatters.org",
+    "cavotes.org",
+    "fppc.ca.gov",
+    "fresnoland.org",
+    "lao.ca.gov",
+    "lwvc.org",
+    "noprop44.com",
+    "oag.ca.gov",
+    "openrouter.ai",
+    "vig.cdn.sos.ca.gov",
+    "voterguide.sos.ca.gov",
+    "www.fppc.ca.gov",
+    "www.latimes.com",
+    "www.mercurynews.com",
+    "www.ocregister.com",
+    "www.politico.com",
+    "www.sfchronicle.com",
+    "www.sos.ca.gov",
+    "yesonprop44.com",
+    "yesonproposition44.com"
+  ],
+  "status_counts": {
+    "200": 48,
+    "301": 4,
+    "400": 1,
+    "404": 5
+  },
+  "bytes_up": 2324448,
+  "bytes_down": 4298620,
+  "wire_bytes": {
+    "harness_to_proxy": 2384248,
+    "proxy_to_harness": 4460780,
+    "proxy_to_internet": 2380246,
+    "internet_to_proxy": 4561178
+  },
+  "byte_counter": true,
+  "errors": 5,
+  "error_details": [
+    {
+      "kind": "tls_failed_client",
+      "host": "openrouter.ai",
+      "sni": "openrouter.ai",
+      "error": "The client disconnected during the handshake. If this happens consistently for openrouter.ai, this may indicate that the client does not trust the proxy's certificate."
+    },
+    {
+      "kind": "connect_error",
+      "host": "openrouter.ai",
+      "error": null
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "stream reset by client (CANCEL)"
+    },
+    {
+      "kind": "http",
+      "host": "www.sos.ca.gov",
+      "url": "https://www.sos.ca.gov/campaign-lobbying/cal-access-resources/measure-contributions/2026-ballot-measure-contribution-totals",
+      "error": "stream reset by client (CANCEL)"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "stream reset by client (CANCEL)"
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1593,
+      "bytes_down": 2679,
+      "duration": 5.3968,
+      "reason": "The client disconnected during the handshake. If this happens consistently for openrouter.ai, this may indicate that the client does not trust the proxy's certificate."
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 111,
+      "bytes_down": 0,
+      "duration": 0.3757,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "vig.cdn.sos.ca.gov",
+      "port": 443,
+      "sni": "vig.cdn.sos.ca.gov",
+      "bytes_up": 1817,
+      "bytes_down": 3282,
+      "duration": 0.4779,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "voterguide.sos.ca.gov",
+      "port": 443,
+      "sni": "voterguide.sos.ca.gov",
+      "bytes_up": 1569,
+      "bytes_down": 39,
+      "duration": 368.5499,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [
+    {
+      "process": "grok-1.0.70",
+      "operation": "network-outbound",
+      "target": null,
+      "attempts": 106
+    }
+  ],
+  "blocked_attempts": 106,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 36,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "allowed, not recorded"
+}

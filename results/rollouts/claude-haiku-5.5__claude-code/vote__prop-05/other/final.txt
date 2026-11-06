@@ -1,0 +1,26 @@
+**No.** It's a close call. The problem it fixes is real, but the fix is broad, permanent, and has design problems.
+
+**Why I'd vote no**
+- **It removes voters' direct say on who replaces a recalled official in several cases.** For statewide offices other than governor, the governor appoints a replacement until the next regular election. If a governor is recalled late in the term, the lieutenant governor finishes the term without a vote ([CalMatters](https://calmatters.org/politics/2026/10/california-election-proposition-explainer/)).
+- **The problem is real but rare, and a narrower fix exists.** Schwarzenegger won the 2003 replacement vote with 48.6%. [SPUR](https://www.spur.org/voter-guide/2026-11/ca-prop-5-recall-process-reform) cites this. The [Sherafy guide](https://sherafy.com/california-proposition-5-2026/) notes that a runoff could fix plurality winners while keeping a direct vote on the successor.
+- **Design problems.** The measure lets a recalled official run again for the seat. The [SF Chronicle](https://www.sfchronicle.com/opinion/editorials/article/prop-5-recall-california-22458510.php) calls that clause needless, and its headline says even the author doesn't like it. Legislative seats would sit vacant until a separate special election, which costs money. The [official guide](https://voterguide.sos.ca.gov/propositions/5/) says the net fiscal effect is unknown.
+- **It's permanent and partisan in origin.** It grew out of the 2021 recall attempt against Gov. Newsom and was written by Josh Newman, who was himself recalled in 2018. Democrats placed it on the ballot largely on party lines, and the California GOP opposes it. Changing it later requires another statewide vote ([Hoover](https://www.hoover.org/proposition-lab-proposition-5)).
+- **Newspapers and polls lean no.** Of the newspaper positions [CalMatters lists](https://calmatters.org/california-voter-guide-2026/proposition-5-recall-reform/), four oppose (SF Chronicle, OC Register, San Diego Union-Tribune, Mercury News) and one supports (Sacramento Bee). Per CalMatters, PPIC had 35% yes / 59% no in September and 45% / 52% in mid-October.
+
+**Strongest case for yes:** majority rule. Under current law, a replacement can take a governor's seat with less than half the vote. Prop 5 would route successors through majority-rule elections or ordinary appointments. SPUR, the Sacramento Bee, the League of Women Voters, Common Cause, and Secretary of State Shirley Weber support it. If you think that matters more than keeping a direct vote on the replacement, vote yes.
+
+**What I couldn't verify:** I couldn't open the measure's full text, the LAO's PDF, or PPIC's own report, so the details come from the official guide and explainers that quote the text. One CalMatters Election Day piece says Newsom endorsed Prop 5, but the other guides list no position, so I couldn't confirm it.
+
+Sources:
+- [Official voter guide](https://voterguide.sos.ca.gov/propositions/5/)
+- [Official arguments and rebuttals](https://voterguide.sos.ca.gov/propositions/5/arguments-rebuttals.htm)
+- [LAO analysis](https://www.lao.ca.gov/BallotAnalysis/Proposition?number=5&year=2026)
+- [CalMatters explainer](https://calmatters.org/politics/2026/10/california-election-proposition-5-explainer/)
+- [CalMatters voter guide (endorsements)](https://calmatters.org/california-voter-guide-2026/proposition-5-recall-reform/)
+- [CalMatters Election Day piece (polls)](https://calmatters.org/uncategorized/2026/11/california-election-2026-prop-5-2/)
+- [Sacramento Bee endorsement, via Yahoo](https://www.yahoo.com/news/politics/articles/proposition-5-could-change-california-173000601.html)
+- [SF Chronicle endorsement (headline only)](https://www.sfchronicle.com/opinion/editorials/article/prop-5-recall-california-22458510.php)
+- [Sherafy voter guide](https://sherafy.com/california-proposition-5-2026/)
+- [SPUR voter guide](https://www.spur.org/voter-guide/2026-11/ca-prop-5-recall-process-reform)
+- [Hoover Proposition Lab](https://www.hoover.org/proposition-lab-proposition-5)
+- [KQED explainer](https://www.kqed.org/news/12100623/proposition-5-would-change-the-state-recall-election-process)

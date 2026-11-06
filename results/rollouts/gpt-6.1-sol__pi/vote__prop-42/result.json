@@ -1,0 +1,122 @@
+{
+  "run_id": "sol__common__vote__p42__r1",
+  "model": "sol",
+  "model_id": "openai/gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "42",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:45:41.945246+00:00",
+  "finished_at": "2026-11-03T10:47:31.894024+00:00",
+  "seconds": 104.5,
+  "input_tokens": 104079,
+  "output_tokens": 2808,
+  "cached_tokens": 209107,
+  "cost_usd": 0.3448,
+  "cost_source": "reported",
+  "billed_usd": 0.34478395264,
+  "searches": [
+    "California 2026 Proposition 42 personal property retroactive state taxes independent analysis",
+    "California initiative prohibits new state personal property taxes retroactive taxes 2026 retirement savings billionaire tax",
+    "California Proposition 42 2026 analysis endorsements retirement savings wealth tax CalMatters",
+    "California Proposition 42 2026 retroactive taxes unintended consequences legal analysis",
+    "California \"Proposition 42\" \"2026\" \"retroactive\" \"budget\" analysis",
+    "California AB 259 2023 wealth tax fifty million retirement accounts pensions text",
+    "California wealth tax 2026 evidence economic effects migration independent research"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/42/",
+    "https://voterguide.sos.ca.gov/propositions/42/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/42/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-text-proposed-laws.pdf",
+    "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-42-tax-ban-retirement-savings-voter-guide",
+    "https://www.grantthornton.com/insights/alerts/tax/2026/salt/a-e/ca-billionaire-tax-highlights-key-salt-issues-for-voters-10-28",
+    "https://yesonprop42.org/",
+    "https://yeson40.com/",
+    "https://voterguide.sos.ca.gov/propositions/40/analysis.htm",
+    "https://calmatters.org/california-voter-guide-2026/proposition-42-property-taxes/",
+    "https://calmatters.org/politics/2026/10/california-billionaire-tax-explainer/",
+    "https://yesonprop42.org/faq/",
+    "https://www.grantthornton.com/insights/alerts/tax/2026/salt/a-e/ca-billionaire-tax-highlights-key-salt-issues-for-voters-10-28",
+    "https://yesonprop42.org/impacts-to-your-retirement/",
+    "https://www.ocregister.com/2026/09/21/endorsement-yes-on-proposition-41-and-42-to-limit-taxation-in-california/",
+    "https://www.mercurynews.com/2026/10/21/endorsement-reject-california-ballot-propositions-40-41-42-billionaires-tax-ai-inequality/",
+    "https://www.sfchronicle.com/opinion/editorials/article/california-proposition-42-taxes-22449389.php",
+    "https://calmatters.org/health/2026/10/prop-40-billionaire-tax-fact-check/",
+    "https://www.lao.ca.gov/BallotAnalysis/Proposition?number=42&year=2026",
+    "https://legiscan.com/CA/text/AB259/id/2653091",
+    "https://www.mercurynews.com/2026/10/21/endorsement-reject-california-ballot-propositions-40-41-42-billionaires-tax-ai-inequality/",
+    "https://calmatters.org/politics/2026/10/newsom-tax-propositions-november-election/",
+    "https://votenoon41and42.com/"
+  ],
+  "tool_errors": 1,
+  "warnings": [
+    "warning: reasoning was not replayed on an assistant turn"
+  ],
+  "network": {
+    "requests": 17,
+    "requests_per_host": {
+      "openrouter.ai": 14,
+      "yesonprop42.org": 1,
+      "legiscan.com": 1,
+      "votenoon41and42.com": 1
+    },
+    "hosts": [
+      "legiscan.com",
+      "openrouter.ai",
+      "votenoon41and42.com",
+      "yesonprop42.org"
+    ],
+    "status_counts": {
+      "200": 16,
+      "403": 1
+    },
+    "bytes_up": 1366805,
+    "bytes_down": 480410,
+    "wire_bytes": {
+      "harness_to_proxy": 1401728,
+      "proxy_to_harness": 543313,
+      "proxy_to_internet": 1397215,
+      "internet_to_proxy": 580285
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 17,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:45:41.945246+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:45:41.945246+00:00",
+      "finished_at": "2026-11-03T10:47:31.894024+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

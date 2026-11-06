@@ -1,0 +1,48 @@
+{
+  "requests": 12,
+  "requests_per_host": {
+    "openrouter.ai": 11,
+    "www.santacruzsentinel.com": 1
+  },
+  "hosts": [
+    "openrouter.ai",
+    "www.santacruzsentinel.com"
+  ],
+  "status_counts": {
+    "200": 12
+  },
+  "bytes_up": 544266,
+  "bytes_down": 674055,
+  "wire_bytes": {
+    "harness_to_proxy": 570230,
+    "proxy_to_harness": 732814,
+    "proxy_to_internet": 566488,
+    "internet_to_proxy": 761751
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 13,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

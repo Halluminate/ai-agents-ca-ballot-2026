@@ -1,0 +1,56 @@
+{
+  "requests": 27,
+  "requests_per_host": {
+    "openrouter.ai": 21,
+    "inewsource.org": 2,
+    "www.mercurynews.com": 2,
+    "www.dailyjournal.com": 1,
+    "cms.hoover.org": 1
+  },
+  "hosts": [
+    "cms.hoover.org",
+    "inewsource.org",
+    "openrouter.ai",
+    "www.dailyjournal.com",
+    "www.mercurynews.com"
+  ],
+  "status_counts": {
+    "200": 24,
+    "301": 2,
+    "403": 1
+  },
+  "bytes_up": 2050608,
+  "bytes_down": 1236196,
+  "wire_bytes": {
+    "harness_to_proxy": 2108203,
+    "proxy_to_harness": 1352478,
+    "proxy_to_internet": 2099793,
+    "internet_to_proxy": 1422282
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 27,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

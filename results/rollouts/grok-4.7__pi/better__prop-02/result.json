@@ -1,0 +1,101 @@
+{
+  "run_id": "grok__common__better__p2__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "2",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:16:44.477904+00:00",
+  "seconds": 110.9,
+  "input_tokens": 95427,
+  "output_tokens": 5563,
+  "cached_tokens": 48256,
+  "cost_usd": 0.2687,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 2 2026 Rainy Day Fund analysis LAO",
+    "California Proposition 2 2026 rainy day fund Gann limit critique Howard Jarvis CalMatters PPIC recommendation",
+    "California Proposition 2 2026 editorial endorsement LA Times Sacramento Bee Mercury News SPUR concerns Gann",
+    "David Crane Proposition 2 rainy day fund Govern for California criticism",
+    "LAO Rethinking California's Reserve Policy 2025 recommended reserve size 20 percent"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/",
+    "https://voterguide.sos.ca.gov/propositions/2/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/title-summary.htm",
+    "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-2-rainy-day-fund-voter-guide",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-2-rainy",
+    "https://calbudgetcenter.org/resources/should-voters-approve-proposition-2-how-californias-rainy-day-fund-would-be-updated/",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-2-rainy-day-fund",
+    "https://calmatters.org/politics/2026/10/california-proposition-2-explained/",
+    "https://calbudgetcenter.org/resources/should-voters-approve-proposition-2-how-californias-rainy-day-fund-would-be-updated/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 11,
+    "requests_per_host": {
+      "openrouter.ai": 10,
+      "calmatters.org": 1
+    },
+    "hosts": [
+      "calmatters.org",
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 11
+    },
+    "bytes_up": 605022,
+    "bytes_down": 423872,
+    "wire_bytes": {
+      "harness_to_proxy": 629074,
+      "proxy_to_harness": 472848,
+      "proxy_to_internet": 625480,
+      "internet_to_proxy": 501059
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 12,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

@@ -1,0 +1,130 @@
+{
+  "run_id": "flash__common__vote__p4__r1",
+  "model": "flash",
+  "model_id": "google/gemini-3.8-flash",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "4",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T13:41:59.677596+00:00",
+  "finished_at": "2026-11-03T13:46:22.569481+00:00",
+  "seconds": 259.9,
+  "input_tokens": 165353,
+  "output_tokens": 22652,
+  "cached_tokens": 700403,
+  "cost_usd": 0.302,
+  "cost_source": "reported",
+  "billed_usd": 0.30197732571999997,
+  "searches": [
+    "\"REPEALS PROHIBITION AGAINST PUBLIC FUNDING OF ELECTION CAMPAIGNS\"",
+    "\"What should I vote on this prop? You can do as much research as you'd like in order to come to your decision. You can only answer yes or no.\"",
+    "\"ballot-room\"",
+    "\"What should I vote on this prop?\" \"You can only answer yes or no\"",
+    "\"California Fair Elections Act of 2026\"",
+    "\"You can do as much research as you'd like in order to come to your decision. You can only answer yes or no.\"",
+    "\"What should I vote on this prop\" \"voterguide\"",
+    "\"voterguide.sos.ca.gov/propositions\"",
+    "\"What should I vote on this prop?\"",
+    "\"ballot room\" benchmark OR evaluation OR dataset",
+    "\"Molly Urfalian\"",
+    "\"today's date\"",
+    "\"ballot\" \"propositions\" benchmark OR dataset LLM",
+    "\"Howard Jarvis Taxpayers Association\" \"SB 42\" public financing",
+    "\"ballot_room\" OR \"ballot-room\"",
+    "\"Proposition 4\" removed from ballot \"2026\" California"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://voterguide.sos.ca.gov/propositions/4/title-summary.htm",
+    "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/4/analysis.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-text-proposed-laws.pdf",
+    "https://berkeleypoliticalreview.org/2026/10/23/2026-ballot-prop-guide/"
+  ],
+  "tool_errors": 1,
+  "warnings": [],
+  "network": {
+    "requests": 32,
+    "requests_per_host": {
+      "openrouter.ai": 32
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 32
+    },
+    "bytes_up": 4150432,
+    "bytes_down": 379169,
+    "wire_bytes": {
+      "harness_to_proxy": 4214297,
+      "proxy_to_harness": 458351,
+      "proxy_to_internet": 4205043,
+      "internet_to_proxy": 528459
+    },
+    "byte_counter": true,
+    "errors": 4,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 28,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:41:59.677596+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:41:59.677596+00:00",
+      "finished_at": "2026-11-03T13:46:22.569481+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

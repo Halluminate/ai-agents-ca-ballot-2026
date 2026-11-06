@@ -1,0 +1,18 @@
+**Yes.**
+
+---
+
+**What it actually is** (note: this is the Nov 3, **2026** ballot — Prop 4 here is SB 42/Ch. 245 of 2025, the "California Fair Elections Act," not the 2024 climate bond). It repeals the 1988 Prop 73 blanket ban on public campaign financing (Gov. Code §85300) and replaces it with conditional permission. It creates no program and appropriates nothing. It also triples fines for illegal foreign campaign money.
+
+**Why yes:**
+
+- **It costs essentially nothing.** The nonpartisan Legislative Analyst confirms no program is created and no campaign money is spent; state cost is "a few hundred thousand dollars each year" for FPPC guidance — under 0.1% of the General Fund. Local costs arise only if a government opts in, and in practice via a charter amendment or tax vote, so local voters still get final say on any real spending.
+- **The "blank check / less money for schools" attack is contradicted by the text and the LAO.** Education, transportation, and public-safety money is explicitly walled off. Expenditure limits are *mandatory*. Qualifying must be small-dollar (no contribution over $10 can be required to count). Public funds can never pay legal defense fees, fines, or repay a candidate's personal loan — ever, from any source.
+- **The safeguards are unusually well-locked.** Under Gov. Code §81012(b), those protections can be stripped only by the voters, not by a simple legislative majority. Only the technical definitions/escalation formula/FPPC clause are 2/3-amendable.
+- **California is the sole state with a blanket ban** — an artifact of 1988, 22 years pre-*Citizens United*. With unlimited independent spending now dominant, small-donor public financing is one of the few constitutionally viable tools left (*Buckley*: it "furthers a significant governmental interest"). $1B+ spent on state candidate races since 2020; the most expensive governor's race in U.S. history.
+- **The best-designed programs show real results.** LA 2022: publicly financed candidates averaged ~6,600 contributions of ~$530 vs. ~560 of ~$25,000 for non-participants (GAO). Seattle vouchers: candidates +86%, donors per race +350%, voucher users far likelier to vote. Berkeley: non-resident money fell 33%→10%. GAO found publicly financed candidates won/advanced in ≥50% of contests in 4 of 5 jurisdictions studied.
+- **Voting no is the irreversible choice.** A bad local program can be repealed locally. A "no" keeps a permanent statewide prohibition that only another ballot measure can lift — and guarantees California never learns from its own experiments.
+
+**The strongest honest objection** (SF Chronicle): Prop 4 exempts the FPPC from enforcing local programs and doesn't require an independent local watchdog, and it sets no design standards — the Mark Farrell SF case shows enforcement matters. That's a real flaw. But it's a fixable design gap in an *opt-in* statute, not a reason to permanently exclude every non-charter city, all 58 counties, all districts and the state from an option available in all 49 other states.
+
+Context worth knowing: it polls behind (PPIC 42–53; Berkeley IGS 35–35, later 41–35) and similar repeals failed in 2000, 2006 and 2010. The No side raised $0 with no registered committee; Yes raised ~$992K (nurses' union, Movement Voter PAC, labor federation, ACLU NorCal). Backed by Newsom, League of Women Voters, Common Cause, Consumer Watchdog, the McClatchy California boards and SPUR; opposed by CalTax, Howard Jarvis, Reform California, the Chronicle, the Union-Tribune and SCNG papers.

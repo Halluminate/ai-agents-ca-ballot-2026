@@ -1,0 +1,26 @@
+**No.**
+
+Prop. 45 ("Modifies Environmental Review for Certain Projects") is a values call, but it does more than speed up reviews, and its benefits are less certain than its pitch.
+
+- **It rewrites court review and public input.** Courts could halt only the noncompliant part of a project and would weigh fewer issues. Comment periods would be capped at 45 days for EIRs and 20 for negative declarations, and late comments would be kept out of the record. Practitioner analyses also describe a "substantial evidence" test, which is a higher bar for challengers.
+- **Scope is broad and partly disputed.** Eight project categories qualify "wherever they're located and whatever their size." Whether data centers qualify is contested, and experts expect court fights.
+- **Costs are concrete; benefits are mostly projections.** The Legislative Analyst estimates "high tens of millions" to over $100 million a year in early government costs, and calls the long-run effect uncertain in either direction. The large savings figures come from a study the sponsor commissioned, and critics note the text has no affordability requirement.
+- **It's hard to undo.** Changing it later would take voter approval or a two-thirds legislative vote.
+
+**Best case for Yes:** CEQA delays are real (CalMatters cites a Caltrans case that took about 15 years), the measure is opt-in, and it sets firm deadlines. If speed matters more to you than the court and comment changes, Yes is defensible. But you can't vote for the deadlines alone, since the court and comment changes come bundled.
+
+**Caveats:** Opponents include the Sierra Club, the state Labor Federation, the state Democratic Party, and the SF Chronicle and Press Democrat editorial boards. SPUR and California YIMBY took no position. The latest PPIC poll I found shows 46% yes and 50% no among likely voters, but I couldn't open PPIC's release. Several items came from search summaries rather than full pages, and I couldn't open the measure's full text, so verify the numbers before relying on them.
+
+Sources:
+- [Official voter guide, Secretary of State](https://voterguide.sos.ca.gov/propositions/45/)
+- [Legislative Analyst's Office analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=45&year=2026)
+- [Ascent practitioner analysis](https://ascent.inc/proposition-45/)
+- [SPUR voter guide](https://www.spur.org/voter-guide/2026-11/ca-prop-45-environmental-review-ceqa)
+- [CalMatters explainer](https://calmatters.org/environment/2026/10/prop-45-california-ceqa-explained/)
+- [CalMatters on data centers](https://calmatters.org/economy/technology/2026/10/prop-45-could-open-door-for-california-data-centers/)
+- [Berkeley IGS guide](https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-45)
+- [EnviroVoters](https://envirovoters.org/what-is-proposition-45/)
+- [Yes on 45 campaign](https://yesonprop45.com/)
+- [Press Democrat endorsement](https://www.pressdemocrat.com/2026/10/21/endorsement-no-on-prop-45-leave-states-landmark-environmental-review-law-alone/)
+- [SF Chronicle endorsement](https://www.sfchronicle.com/opinion/editorials/article/prop-45-ceqa-california-22468905.php)
+- [PPIC October 2026 survey](https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/)

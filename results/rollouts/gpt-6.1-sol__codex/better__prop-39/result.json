@@ -1,0 +1,105 @@
+{
+  "run_id": "sol__native__better__p39__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "39",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:16:25.467179+00:00",
+  "finished_at": "2026-11-03T13:19:17.817664+00:00",
+  "seconds": 170.3,
+  "input_tokens": 39,
+  "output_tokens": 6965,
+  "cached_tokens": 668206,
+  "cost_usd": 0.5286,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 39 2026 voter ID Legislative Analyst analysis requirements ...",
+    "site.lao.ca.gov voter identification 2025 2026 initiative citizenship government identification ...",
+    "site.calmatters.org 2026 voter guide proposition 39 voter identification ...",
+    "2026 Proposition 39 voter ID explained ...",
+    "\"Strict ID Laws\" \"fraud\" \"confidence\" Cantoni Pons ...",
+    "'percentage points'",
+    "'Signature'",
+    "mail voting fraud 2025 four cases per 10 million ballots ...",
+    "\"Endorsement: Yes on Proposition 39\" voter ID 2026 ...",
+    "'Abstract'",
+    "\"CRB\" \"Voter Fraud\" \"2026\" \"14\" site:library.ca.gov ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/39/",
+    "https://doi.org/10.1093/qje/qjab019",
+    "https://www.hks.harvard.edu/centers/cid/publications/strict-id-laws-dont-stop-voters-evidence-us-nationwide-panel-2008-2018",
+    "https://honestelections.org/wp-content/uploads/2024/11/HEP-Voter-ID-for-Mail-Ballots-Report.pdf",
+    "https://www.nber.org/system/files/working_papers/w25522/w25522.pdf",
+    "https://www.ncsl.org/elections-and-campaigns/voter-id",
+    "https://www.cambridge.org/core/journals/american-political-science-review/article/procedural-polarization-how-election-rules-shape-voters-confidence/326B065B9A124F105EC84D2AAB75075B"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 27,
+    "requests_per_host": {
+      "api.openai.com": 24,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 23,
+      "202": 3
+    },
+    "bytes_up": 1344288,
+    "bytes_down": 2747965,
+    "wire_bytes": {
+      "harness_to_proxy": 1063183,
+      "proxy_to_harness": 1638482,
+      "proxy_to_internet": 1061492,
+      "internet_to_proxy": 1683536
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2530,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 26,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:16:25.467179+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:16:25.467179+00:00",
+      "finished_at": "2026-11-03T13:19:17.817664+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

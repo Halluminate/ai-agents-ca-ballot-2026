@@ -1,0 +1,97 @@
+{
+  "run_id": "kimi__common__vote__p39__r1",
+  "model": "kimi",
+  "model_id": "moonshotai/kimi-k3",
+  "pin": "moonshotai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "39",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "last_line",
+  "error": "",
+  "started_at": "2026-11-03T11:06:41.950698+00:00",
+  "finished_at": "2026-11-03T11:10:21.675993+00:00",
+  "seconds": 215.5,
+  "input_tokens": 46680,
+  "output_tokens": 6285,
+  "cached_tokens": 128000,
+  "cost_usd": 0.3185,
+  "cost_source": "reported",
+  "billed_usd": 0.31846034856,
+  "searches": [
+    "California Proposition 39 ballot measure",
+    "CalMatters Proposition 39 voter ID 2026 California guide",
+    "Proposition 39 California voter ID campaign funding DeMaio donors 2026",
+    "voter ID laws effect on turnout research study strict identification",
+    "Proposition 39 California poll voter ID November 2026 support opposition",
+    "editorial board \"Proposition 39\" voter ID California recommend no Los Angeles Times Chronicle",
+    "California voter fraud cases rare evidence noncitizen voting prosecuted",
+    "Texas mail ballot rejection rate ID number requirement SB1 2022 primary percent",
+    "\"Proposition 39\" California 2026 signature verification mail ballot replace cure process analysis"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/39/",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=39&year=2026",
+    "https://voterguide.sos.ca.gov/propositions/39/arguments-rebuttals.htm",
+    "https://calmatters.org/california-voter-guide-2026/proposition-39-voter-id/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-text-proposed-laws.pdf"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 17,
+    "requests_per_host": {
+      "openrouter.ai": 17
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 17
+    },
+    "bytes_up": 798374,
+    "bytes_down": 995255,
+    "wire_bytes": {
+      "harness_to_proxy": 833821,
+      "proxy_to_harness": 1081666,
+      "proxy_to_internet": 828282,
+      "internet_to_proxy": 1123023
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 17,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:06:41.950698+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:06:41.950698+00:00",
+      "finished_at": "2026-11-03T11:10:21.675993+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

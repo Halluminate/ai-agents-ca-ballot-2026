@@ -1,0 +1,98 @@
+{
+  "run_id": "sol__native__vote__p1__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "1",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:15:27.983469+00:00",
+  "finished_at": "2026-11-03T13:18:49.023485+00:00",
+  "seconds": 198.9,
+  "input_tokens": 60,
+  "output_tokens": 8080,
+  "cached_tokens": 1573196,
+  "cost_usd": 0.7204,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California November 2026 Proposition 1 $11.25 billion housing bonds analysis arguments opposition ...",
+    "\"2026\" \"Proposition 1\" housing opposition bond editorial ...",
+    "site.auditor.ca.gov affordable housing California 2026 costs multifamily housing program audit ...",
+    "site.hjta.org \"Proposition 1\" \"2026\" housing bond ...",
+    "site.hjta.org \"Proposition 1\" \"2026\" housing bond ...",
+    "2026 Proposition 1 voting guide bonds",
+    "\"Proposition 1\" \"22,735\" housing HCD ...",
+    "California 2026 \"one-stop\" housing \"179\" financing law ...",
+    "\"PMC8863642\" housing cost benefit economic review ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/1/",
+    "https://www.lao.ca.gov/Publications/Report/5154"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 27,
+    "requests_per_host": {
+      "api.openai.com": 24,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 23,
+      "202": 3
+    },
+    "bytes_up": 996983,
+    "bytes_down": 3712908,
+    "wire_bytes": {
+      "harness_to_proxy": 573367,
+      "proxy_to_harness": 2202726,
+      "proxy_to_internet": 570289,
+      "internet_to_proxy": 2249253
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2391,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 26,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:15:27.983469+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:15:27.983469+00:00",
+      "finished_at": "2026-11-03T13:18:49.023485+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

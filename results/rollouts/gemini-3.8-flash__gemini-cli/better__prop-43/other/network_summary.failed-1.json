@@ -1,0 +1,206 @@
+{
+  "requests": 55,
+  "requests_per_host": {
+    "generativelanguage.googleapis.com": 55
+  },
+  "hosts": [
+    "generativelanguage.googleapis.com"
+  ],
+  "status_counts": {
+    "200": 6,
+    "500": 48
+  },
+  "bytes_up": 1570161,
+  "bytes_down": 53235,
+  "wire_bytes": {
+    "harness_to_proxy": 1680849,
+    "proxy_to_harness": 153401,
+    "proxy_to_internet": 1660636,
+    "internet_to_proxy": 287519
+  },
+  "byte_counter": true,
+  "errors": 11,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "generativelanguage.googleapis.com",
+      "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "connect_error",
+      "host": "generativelanguage.googleapis.com",
+      "error": null
+    },
+    {
+      "kind": "tls_failed_server",
+      "host": "generativelanguage.googleapis.com",
+      "sni": "generativelanguage.googleapis.com",
+      "error": "connection closed"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "generativelanguage.googleapis.com",
+      "sni": "generativelanguage.googleapis.com",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "connect_error",
+      "host": "generativelanguage.googleapis.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "generativelanguage.googleapis.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "generativelanguage.googleapis.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "generativelanguage.googleapis.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "generativelanguage.googleapis.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "generativelanguage.googleapis.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "generativelanguage.googleapis.com",
+      "error": null
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "generativelanguage.googleapis.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 118,
+      "bytes_down": 0,
+      "duration": 301.1634,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "generativelanguage.googleapis.com",
+      "port": 443,
+      "sni": "generativelanguage.googleapis.com",
+      "bytes_up": 2012,
+      "bytes_down": 39,
+      "duration": 21.3465,
+      "reason": "connection closed early"
+    },
+    {
+      "host": "generativelanguage.googleapis.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 118,
+      "bytes_down": 0,
+      "duration": 301.4509,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "generativelanguage.googleapis.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 118,
+      "bytes_down": 296,
+      "duration": 30.0369,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "generativelanguage.googleapis.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 118,
+      "bytes_down": 296,
+      "duration": 30.0216,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "generativelanguage.googleapis.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 118,
+      "bytes_down": 296,
+      "duration": 30.0265,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "generativelanguage.googleapis.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 118,
+      "bytes_down": 296,
+      "duration": 30.022,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "generativelanguage.googleapis.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 118,
+      "bytes_down": 296,
+      "duration": 30.0269,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "generativelanguage.googleapis.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 118,
+      "bytes_down": 296,
+      "duration": 30.0269,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "generativelanguage.googleapis.com",
+      "port": 443,
+      "sni": "generativelanguage.googleapis.com",
+      "bytes_up": 2012,
+      "bytes_down": 39,
+      "duration": 841.2178,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "generativelanguage.googleapis.com",
+      "port": 443,
+      "sni": "generativelanguage.googleapis.com",
+      "bytes_up": 2012,
+      "bytes_down": 39,
+      "duration": 784.0271,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [
+    {
+      "process": "node",
+      "operation": "network-outbound",
+      "target": null,
+      "attempts": 1
+    }
+  ],
+  "blocked_attempts": 1,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 58,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "allowed, not recorded"
+}

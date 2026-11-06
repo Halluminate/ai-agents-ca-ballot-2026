@@ -1,0 +1,25 @@
+## YES
+
+**What's actually on the ballot:** Prop 3 deletes the sunset date from the Prop 30/Prop 55 income-tax surcharges on the top ~2% of filers (10.3%–12.3% on income above ~$371,479 single / $742,958 joint, inflation-indexed; 13.3% with the separate millionaire mental-health tax). Per the LAO, it maintains **$5–15 billion/year**. Nothing changes on anyone's tax bill until the 2031 tax year.
+
+**Why I'm voting yes:**
+
+1. **The revenue is real and the state needs it.** The LAO projects operating deficits of ~$10B/year *through 2029–30 even during the current stock-market boom*, and California is absorbing roughly $30B/year in federal Medicaid cuts. Letting $5–15B lapse in 2031 lands directly on schools, Medi-Cal, IHSS and UC/CSU.
+
+2. **The burden is narrow and modest.** A single filer at $400K pays $285 more; at $1M, $14,398 (1.4% of income); at $5M, $134,398 (2.7%). A couple at $1M pays $3,655. Median California family income is ~$100K — 98% of filers are untouched. Brackets are inflation-indexed, so it can't creep down the income scale over time.
+
+3. **The people paying it aren't fighting it.** Building a Better California — Sergey Brin's billionaire-funded operation spending $300M+ to kill the Prop 40 wealth tax — *endorsed Prop 3*. Opposition raised **$5,500** against ~$60M in support. If 13.3% were driving mass capital flight, this is where you'd see the resistance.
+
+4. **The "keep the sunset as leverage" argument has a poor track record.** Voters approved these rates 55.4% in 2012 and 63.3% in 2016. A no vote doesn't end the tax or force reform — the CTA says openly it "will have two more chances," meaning another $60M campaign in 2028/2030 and years of budget uncertainty for districts.
+
+5. **Even accounting for behavioral response, it nets out.** The best critical evidence (Rauh & Shyu, *AEJ: Policy* 2024) found Prop 30 eroded 45–61% of expected windfall revenue — but California still collected ~$10B/year and ~$120B cumulatively. The "money loser" claim isn't supported by actual collections.
+
+**Where the Yes campaign oversold it — you should know this going in:**
+
+- The "15% school budget cut / 1 in 6 educators laid off" claim is inflated ~3–10x. The LAO says only **~40%** of the revenue is net-new to schools (the rest backfills the General Fund, since Education Protection Account dollars count toward the Prop 98 guarantee). That's $2–6B against a **$128.1B** Prop 98 budget — roughly 2–5% — while enrollment is projected to fall another 710,500 students by 2036.
+- The touted "strict new accountability and audits" are **not new**. They're carried over verbatim from Prop 55 (2016). Prop 3's only substantive change is deleting dates.
+- Much of past school money went to pensions (district contributions nearly tripled 2015–2023), and its conflicting-measures clause ("any other measure that affects the tax rates for personal income… shall be null and void") is sloppily broad.
+
+**Bottom line:** Those are demerits against the *campaign*, not the *policy*. The policy choice is between continuing a progressive, inflation-indexed surcharge on the top 2% or handing the top 1% a $5–15B/year tax cut in 2031 with no offsetting plan attached. The no side offers "fix spending first" — but a no vote fixes no spending; it just schedules a hole.
+
+**Vote YES.**

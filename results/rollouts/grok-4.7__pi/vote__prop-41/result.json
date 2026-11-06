@@ -1,0 +1,93 @@
+{
+  "run_id": "grok__common__vote__p41__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "41",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:22:16.883202+00:00",
+  "seconds": 110.4,
+  "input_tokens": 65333,
+  "output_tokens": 5915,
+  "cached_tokens": 78592,
+  "cost_usd": 0.236,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 41 ballot measure summary arguments for against",
+    "California Proposition 41 voter guide what is it",
+    "California Proposition 41 2026 editorial endorsement yes or no Gann Limit",
+    "Proposition 41 2026 Sergey Brin funding Building a Better California campaign finance",
+    "League of Women Voters California Proposition 41 2026 recommendation",
+    "Proposition 41 Gann Limit MCO tax hospital quality assurance fee risk analysis"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/41/",
+    "https://voterguide.sos.ca.gov/propositions/41/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/41/title-summary.htm",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-41-audits",
+    "https://lao.ca.gov/ballot/2026/prop41-110326.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+    "https://calbudgetcenter.org/resources/what-would-proposition-41-mean-for-california/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-41-tax-audits/",
+    "https://www.sfchronicle.com/opinion/editorials/article/endorsement-california-prop-41-taxes-22445889.php",
+    "https://www.mercurynews.com/2026/10/21/endorsement-reject-california-ballot-propositions-40-41-42-billionaires-tax-ai-inequality/",
+    "https://calbudgetcenter.org/resources/qa-why-hitting-gann-limit-threatens-ongoing-investments-in-californians/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 13,
+    "requests_per_host": {
+      "openrouter.ai": 11,
+      "lao.ca.gov": 1,
+      "calbudgetcenter.org": 1
+    },
+    "hosts": [
+      "calbudgetcenter.org",
+      "lao.ca.gov",
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 13
+    },
+    "bytes_up": 637704,
+    "bytes_down": 740645,
+    "wire_bytes": {
+      "harness_to_proxy": 665643,
+      "proxy_to_harness": 796590,
+      "proxy_to_internet": 661787,
+      "internet_to_proxy": 827506
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 14,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

@@ -1,0 +1,41 @@
+{
+  "requests": 21,
+  "requests_per_host": {
+    "openrouter.ai": 20,
+    "www.pressenterprise.com": 1
+  },
+  "hosts": [
+    "openrouter.ai",
+    "www.pressenterprise.com"
+  ],
+  "status_counts": {
+    "200": 21
+  },
+  "bytes_up": 2708257,
+  "bytes_down": 855384,
+  "wire_bytes": {
+    "harness_to_proxy": 2747987,
+    "proxy_to_harness": 962975,
+    "proxy_to_internet": 2742894,
+    "internet_to_proxy": 1002446
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 18,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

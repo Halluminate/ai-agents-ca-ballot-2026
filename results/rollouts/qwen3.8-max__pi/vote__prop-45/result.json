@@ -1,0 +1,138 @@
+{
+  "run_id": "qwen-max__common__vote__p45__r1",
+  "model": "qwen-max",
+  "model_id": "qwen/qwen3.8-max-0902",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "45",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:23:43.739645+00:00",
+  "finished_at": "2026-11-03T13:29:48.457783+00:00",
+  "seconds": 361.8,
+  "input_tokens": 136872,
+  "output_tokens": 10053,
+  "cached_tokens": 973440,
+  "cost_usd": 0.6282,
+  "cost_source": "reported",
+  "billed_usd": 0.6282384458400001,
+  "searches": [
+    "California Proposition 45 voterguide.sos.ca.gov",
+    "\"Prop 45\" 2026 California CEQA \"essential projects\" initiative analysis criticism",
+    "California Proposition 45 2026 CEQA reform ballot measure endorsements",
+    "Proposition 45 poll 2026 California survey yes no CEQA",
+    "Los Angeles Times editorial board Proposition 45 CEQA endorsement November 2026",
+    "\"latimes.com\" editorial board \"Proposition 45\" take vote yes no October 2026",
+    "CalMatters voter guide 2026 Proposition 45 recommendation \"No\" environmental review",
+    "Prop 45 lawsuit challenge court ruling 2026 \"conflicting measures\" OR \"null and void\" OR attorney general title summary",
+    "Newsom veto CEQA reform bill 2026 Proposition 45 legislature compromise",
+    "Hernandez 2026 CEQA study Holland Knight litigation delays housing cost \"Prop 45\" $75,000 per home claim",
+    "Prop 45 final week November 2026 news development CEQA measure"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/45/",
+    "https://voterguide.sos.ca.gov/propositions/45/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/45/title-summary.htm",
+    "https://calmatters.org/housing/2026/10/yimby-prop-45-ceqa/",
+    "https://law.stanford.edu/2026-10-04/permitting-reform-legislation-would-take-a-meat-axe-to-environmental-law-when-what-we-need-is-a-surgical-scalpel/",
+    "https://calmatters.org/environment/2026/10/prop-45-california-ceqa-explained/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-45",
+    "https://legal-planet.org/2026-02-27/what-does-baca-do-part-iv/",
+    "https://voterguide.sos.ca.gov/propositions/45/arguments-rebuttals.htm",
+    "https://legal-planet.org/2026-02-25/what-does-the-building-an-affordable-california-act-do/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-45-ceqa-california-22468905.php",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+    "https://insideclimatenews.org/news/28102026/california-prop-45-aims-to-weaken-environmental-law/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-45-environmental-review/",
+    "https://project-voter-guide-2026.interactives.calmatters.org/general/en/campaign-finance/prop/45",
+    "https://cms.hoover.org/proposition-lab-proposition-45",
+    "https://law.stanford.edu/wp-content/uploads/2026/10/Opinion_-Prop.-45-will-take-a-meat-axe-to-California-environmental-protections.pdf",
+    "https://www.sacbee.com/news/politics-government/capitol-alert/article317804297.html",
+    "https://static1.squarespace.com/static/5af07fd050a54f8fc370c748/t/6a987cef022930285017a57c/1788378351305/FINAL+Prop+45+Building+an+Affordable+California+Act.pdf"
+  ],
+  "tool_errors": 1,
+  "warnings": [],
+  "network": {
+    "requests": 34,
+    "requests_per_host": {
+      "openrouter.ai": 28,
+      "legal-planet.org": 4,
+      "law.stanford.edu": 1,
+      "www.sacbee.com": 1
+    },
+    "hosts": [
+      "law.stanford.edu",
+      "legal-planet.org",
+      "openrouter.ai",
+      "www.sacbee.com"
+    ],
+    "status_counts": {
+      "200": 31,
+      "301": 2,
+      "404": 1
+    },
+    "bytes_up": 4749224,
+    "bytes_down": 1379183,
+    "wire_bytes": {
+      "harness_to_proxy": 4821048,
+      "proxy_to_harness": 1537841,
+      "proxy_to_internet": 4811353,
+      "internet_to_proxy": 1616059
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 32,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:23:43.739645+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:23:43.739645+00:00",
+      "finished_at": "2026-11-03T13:29:48.457783+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

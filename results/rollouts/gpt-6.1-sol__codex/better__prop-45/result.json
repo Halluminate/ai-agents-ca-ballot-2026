@@ -1,0 +1,477 @@
+{
+  "run_id": "sol__native__better__p45__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "45",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:08:34.956057+00:00",
+  "finished_at": "2026-11-03T11:35:48.684358+00:00",
+  "seconds": 1630.8,
+  "input_tokens": 42,
+  "output_tokens": 7509,
+  "cached_tokens": 1044530,
+  "cost_usd": 0.5789,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 45 health insurance rates 2014 Legislative Analyst analysis insurance commissioner",
+    "\"2026\" \"Proposition 45\" \"environmental\" ...",
+    "\"Proposition 45\" \"2026\" \"study\" CEQA ...",
+    "site.policyinnovation.org \"Affordable California\" CEQA ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/45/",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-45-environmental-review-ceqa",
+    "https://voterguide.sos.ca.gov/propositions/45/arguments-rebuttals.htm",
+    "https://www.califaep.org/prop_45.php",
+    "https://cayimby.org/blog/proposition-45-2026/",
+    "https://esassoc.com/news-and-ideas/2026/09/proposition-45-explained-how-californias-ballot-measure-could-reshape-ceqa/",
+    "https://advocacy.calchamber.com/wp-content/uploads/2025/12/BACA-Fiscal-Impact-Memo.pdf",
+    "https://www.policyinnovation.org/insights/california-lets-build-good-things-faster",
+    "https://legal-planet.org/2026/03/02/what-does-baca-do-part-x/"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 12 connections were not readable by the proxy (ab.chatgpt.com:443, api.openai.com:443)"
+  ],
+  "network": {
+    "requests": 61,
+    "requests_per_host": {
+      "api.openai.com": 54,
+      "ab.chatgpt.com": 7
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 28,
+      "202": 4,
+      "500": 1
+    },
+    "bytes_up": 2853458,
+    "bytes_down": 3300051,
+    "wire_bytes": {
+      "harness_to_proxy": 5135936,
+      "proxy_to_harness": 2230436,
+      "proxy_to_internet": 2475748,
+      "internet_to_proxy": 2270396
+    },
+    "byte_counter": true,
+    "errors": 46,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "ab.chatgpt.com",
+        "url": "https://ab.chatgpt.com/otlp/v1/metrics",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "ab.chatgpt.com",
+        "url": "https://ab.chatgpt.com/otlp/v1/metrics",
+        "error": "client disconnected"
+      },
+      {
+        "kind": "http",
+        "host": "ab.chatgpt.com",
+        "url": "https://ab.chatgpt.com/otlp/v1/metrics",
+        "error": "client disconnected"
+      },
+      {
+        "kind": "connect_error",
+        "host": "ab.chatgpt.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.openai.com",
+        "sni": "api.openai.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/alpha/search",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.openai.com",
+        "sni": "api.openai.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/alpha/search",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/alpha/search",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/alpha/search",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.openai.com",
+        "sni": "api.openai.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.openai.com",
+        "sni": "api.openai.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/alpha/search",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/alpha/search",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/alpha/search",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/alpha/search",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/alpha/search",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/alpha/search",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/alpha/search",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/alpha/search",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/alpha/search",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/alpha/search",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/alpha/search",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/alpha/search",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/alpha/search",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/alpha/search",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/alpha/search",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/alpha/search",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.openai.com",
+        "sni": "api.openai.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "stream reset by client (CANCEL)"
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 95,
+        "bytes_down": 0,
+        "duration": 14.999,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 95,
+        "bytes_down": 0,
+        "duration": 14.9307,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 95,
+        "bytes_down": 0,
+        "duration": 15.0016,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 95,
+        "bytes_down": 0,
+        "duration": 15.0003,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 95,
+        "bytes_down": 0,
+        "duration": 15.0004,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 65,
+        "bytes_down": 277,
+        "duration": 30.0282,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "ab.chatgpt.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 65,
+        "bytes_down": 0,
+        "duration": 9.9995,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 65,
+        "bytes_down": 277,
+        "duration": 30.0174,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 65,
+        "bytes_down": 277,
+        "duration": 30.0211,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 65,
+        "bytes_down": 277,
+        "duration": 30.0305,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 65,
+        "bytes_down": 277,
+        "duration": 30.0215,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 65,
+        "bytes_down": 277,
+        "duration": 30.0195,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2979,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 49,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:08:34.956057+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:08:34.956057+00:00",
+      "finished_at": "2026-11-03T11:35:48.684358+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

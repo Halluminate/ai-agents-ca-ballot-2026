@@ -1,0 +1,118 @@
+{
+  "run_id": "flash__common__better__p44__r1",
+  "model": "flash",
+  "model_id": "google/gemini-3.8-flash",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "44",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:35:00.757819+00:00",
+  "finished_at": "2026-11-03T13:37:52.721461+00:00",
+  "seconds": 168.7,
+  "input_tokens": 88629,
+  "output_tokens": 7569,
+  "cached_tokens": 738702,
+  "cost_usd": 0.216,
+  "cost_source": "reported",
+  "billed_usd": 0.21600942367999995,
+  "searches": [
+    "\"California General Election\" \"Proposition 44\" \"voterguide.sos.ca.gov\"",
+    "\"Is it better to vote yes or no on this prop\"",
+    "\"Proposition 44\" \"Requires Community Health Clinics Spend 90%\"",
+    "\"Is it better to vote yes or no on this prop? You can do as much research as you'd like in order to come to your decision. Answer with only\"",
+    "\"Proposition 44\" site:berkeleypoliticalreview.org",
+    "\"today's date\" OR \"current year\"",
+    "\"ballot-room\" OR \"ballot room\"",
+    "\"Proposition 44\" California SEIU-UHW",
+    "\"Proposition 44\" endorsement OR \"vote yes\" OR \"vote no\" \"editorial board\"",
+    "\"November 3, 2026\" \"Proposition 44\" result OR passed OR failed",
+    "\"california-election-night-results-2026\" OR \"Proposition 44\" \"results\"",
+    "\"ballot-room\" OR \"ballot_room\" github",
+    "\"come to your decision\" \"Answer with only\"",
+    "\"voterguide.sos.ca.gov/propositions/44\"",
+    "\"Proposition 44\" \"endorse\" OR \"vote yes\" \"editorial\" OR \"newspaper\" OR \"board\"",
+    "\"Clinic Funding Accountability and Transparency Act\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/44/",
+    "https://voterguide.sos.ca.gov/propositions/44/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm",
+    "https://www.kcra.com/article/california-prop-44-election-results-2026/74277418",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026"
+  ],
+  "tool_errors": 1,
+  "warnings": [],
+  "network": {
+    "requests": 37,
+    "requests_per_host": {
+      "openrouter.ai": 37
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 37
+    },
+    "bytes_up": 3528621,
+    "bytes_down": 219896,
+    "wire_bytes": {
+      "harness_to_proxy": 3588218,
+      "proxy_to_harness": 289481,
+      "proxy_to_internet": 3579912,
+      "internet_to_proxy": 353342
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 26,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:35:00.757819+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:35:00.757819+00:00",
+      "finished_at": "2026-11-03T13:37:52.721461+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "run_id": "terra__native__win__p3__r1",
+  "model": "terra",
+  "model_id": "gpt-6.1-terra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "3",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:46:20.817684+00:00",
+  "finished_at": "2026-11-03T10:46:58.298979+00:00",
+  "seconds": 35.0,
+  "input_tokens": 21,
+  "output_tokens": 1791,
+  "cached_tokens": 187944,
+  "cost_usd": 0.1554,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California proposition 3 voter guide 2026 polling November 3 election proposition 3 ...",
+    "2026 California Proposition 3 yes no poll October 2026 voters Berkeley IGS high income tax ...",
+    "\"prop 3\" poll october \"2026\" \"54\" \"37\" ...",
+    "site:ppic.org \"October 2026\" \"Proposition 3\" \"58\" ...",
+    "'Proposition 3'",
+    "\"California Proposition 3\" 2026 \"election results\" income tax november 3 ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 8,
+    "requests_per_host": {
+      "api.openai.com": 7,
+      "ab.chatgpt.com": 1
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 6,
+      "202": 1
+    },
+    "bytes_up": 939656,
+    "bytes_down": 1213543,
+    "wire_bytes": {
+      "harness_to_proxy": 767014,
+      "proxy_to_harness": 663226,
+      "proxy_to_internet": 766828,
+      "internet_to_proxy": 679199
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 967,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 9,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:46:20.817684+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:46:20.817684+00:00",
+      "finished_at": "2026-11-03T10:46:58.298979+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

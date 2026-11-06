@@ -1,0 +1,19 @@
+**No.**
+
+Its most immediate effect is to cancel Prop 40, the billionaire tax, if it gets more yes votes. The rest of the measure has real costs.
+
+- **It's built to void Prop 40.** If Prop 41 gets more yes votes than a conflicting measure, that measure is voided. The Legislative Analyst's Office says this could block Prop 40 even with majority support, if courts find the measures conflict. The polls are close. PPIC's October survey had Prop 41 at 48% yes and Prop 40 at 46%.
+- **It writes a spending-cap rule into the constitution.** It bars any new state tax from being exempt from the 1979 Gann limit. Because it's a constitutional amendment, fixing drafting problems would take another statewide vote. The League of Women Voters of California opposes it on this basis.
+- **The side-effect risks are contested but credible.** Three law professors who oppose the measure argue it could threaten Medi-Cal financing (the MCO tax and hospital fee). They also argue it could be read to reach Prop 3, the high-income tax extension on this ballot, and void it. Defenders would say the hospital charge is a fee, not a tax. Even the California Budget & Policy Center, which opposes Prop 41, says those programs "could potentially be impacted." I found no published answer from the measure's backers on the Prop 3 point.
+- **The audit idea is reasonable, but the design is tilted.** The State Auditor already does performance audits. Prop 41 would require pre-election audits, triggered at 25% of signatures, that must recommend at least 10% annual savings. Summaries would go in the voter guide, and the General Fund would pay if the initiative fails. Backers say the 10% is a factor, not a mandate.
+
+**The best case for Yes:** You think voter-approved taxes should count against the spending cap, and you want audits before new programs are funded. CalChamber, CalTax, CalCPAs, and Hoover's analysis argue for it. The state also has about $27 billion of room under the cap, per the LAO, so the cap isn't binding right now.
+
+**It depends on Prop 40:**
+- **If you support Prop 40:** No on 41, and No on 42.
+- **If you oppose it:** You can defeat Prop 40 with a No on 40. A Yes on 41 would also put its audit and spending-cap rules in place for future taxes, and it would void Prop 40 only if 40 passes and 41 gets more yes votes.
+- **If you're neutral:** No, on the merits.
+
+**Status:** The vote is November 3, 2026, and I found no results yet. Latest polls: PPIC (October) had 41 at 48% yes and 49% no. Berkeley IGS (late October) had 38% yes, 47% no, and 16% undecided.
+
+Sources: [official guide](https://voterguide.sos.ca.gov/propositions/41/) · [full text](https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf) · [LAO analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=41&year=2026) · [legal memo](https://scholarship.law.missouri.edu/facpubs/1384/) · [LWV](https://lwvc.org/ballot-recommendations-nov-3-2026/) · [Hoover](https://www.hoover.org/proposition-lab-proposition-41)

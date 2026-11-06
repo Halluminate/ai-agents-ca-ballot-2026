@@ -1,0 +1,95 @@
+{
+  "run_id": "luna__native__win__p41__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "41",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:05:18.247981+00:00",
+  "finished_at": "2026-11-03T13:06:38.328825+00:00",
+  "seconds": 77.9,
+  "input_tokens": 45,
+  "output_tokens": 5338,
+  "cached_tokens": 704100,
+  "cost_usd": 0.0912,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 41 2026 polling yes no polls November 2026 ...",
+    "\"Proposition 41\" \"October\" 2026 poll California 41% 58% ...",
+    "California Prop 41 election results November 3 2026 returns ...",
+    "'METHODOLOGY'",
+    "site:igs.berkeley.edu California 2026 October survey Proposition 41 38% 47% ...",
+    "\"Release #2026-22\" \"California voters turning against Proposition 40\" ...",
+    "Prop 41 California 2026 ad spending campaigns millions Yes No 2026 ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/41/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 17,
+    "requests_per_host": {
+      "api.openai.com": 15,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 14,
+      "202": 2
+    },
+    "bytes_up": 1157228,
+    "bytes_down": 2188142,
+    "wire_bytes": {
+      "harness_to_proxy": 920748,
+      "proxy_to_harness": 1128436,
+      "proxy_to_internet": 919948,
+      "internet_to_proxy": 1156083
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1252,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 17,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:05:18.247981+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:05:18.247981+00:00",
+      "finished_at": "2026-11-03T13:06:38.328825+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

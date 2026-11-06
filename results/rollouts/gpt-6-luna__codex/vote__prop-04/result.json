@@ -1,0 +1,95 @@
+{
+  "run_id": "luna__native__vote__p4__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:06:21.712997+00:00",
+  "finished_at": "2026-11-03T13:11:33.144065+00:00",
+  "seconds": 309.0,
+  "input_tokens": 54,
+  "output_tokens": 14325,
+  "cached_tokens": 1339612,
+  "cost_usd": 0.1302,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/4 California Proposition 4 official voter guide 2024 ...",
+    "2026 California Proposition 4 public financing campaigns analysis arguments against Prop 4 official opponents ...",
+    "site:ncsl.org public financing of campaigns overview 2026 states models public financing ...",
+    "'I find that the voucher program'",
+    "site:gao.gov \"there was no evidence\" public financing number candidates 2010 GAO campaign financing ...",
+    "California Prop 4 2026 endorsements editorial Yes Prop 4 California Fair Elections Act endorsements ...",
+    "site:sacbee.com/2026/09 Proposition 4 vote yes California public financing ...",
+    "\"Prop. 4\" \"The Sacramento Bee\" \"public financing\" 2026 editorial ...",
+    "site:sacbee.com/opinion/election-endorsements/article California Proposition 4 public funding campaigns editorial 2026 ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 24,
+    "requests_per_host": {
+      "api.openai.com": 18,
+      "ab.chatgpt.com": 6
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 17,
+      "202": 6
+    },
+    "bytes_up": 1682074,
+    "bytes_down": 3509150,
+    "wire_bytes": {
+      "harness_to_proxy": 1258305,
+      "proxy_to_harness": 2105827,
+      "proxy_to_internet": 1256331,
+      "internet_to_proxy": 2141940
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1867,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 20,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:06:21.712997+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:06:21.712997+00:00",
+      "finished_at": "2026-11-03T13:11:33.144065+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

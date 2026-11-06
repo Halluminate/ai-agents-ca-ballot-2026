@@ -1,0 +1,7 @@
+warning: reasoning was not replayed on an assistant turn
+Warning: #instantiateWasm: Error: No image decoder registered for jbig2.wasm: call registerImageDecoders() from unpdf first
+Warning: #getJsModule: Error: No image decoder registered for jbig2_nowasm_fallback.js: call registerImageDecoders() from unpdf first
+Warning: Type3 font resource "g306" is not available.
+Warning: TT: undefined function: 21
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32

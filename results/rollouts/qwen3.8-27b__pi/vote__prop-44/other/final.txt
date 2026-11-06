@@ -1,0 +1,23 @@
+
+
+I've now researched this thoroughly — the official ballot materials, the nonpartisan Legislative Analyst's Office, the financial impact study, court records, campaign finance, endorsements, and polling. Here's my answer and why.
+
+## **No**
+
+**What it is:** Prop 44 (Nov 3, 2026) would force California's ~2,000 nonprofit community health clinics (Federally Qualified Health Centers) to spend at least 90% of total revenue on "program services," capping executive pay, administration, and overhead at 10%. Clinics below the line would owe the state a penalty equal to the shortfall (recoverable only if they hit 90% within 5 years), with criminal penalties for misreporting. It was filed solely by the SEIU-UHW West healthcare union, which raised ~$17M for it.
+
+**Why I'd vote No:**
+
+1. **The math doesn't work.** The nonpartisan Legislative Analyst's Office says clinics *on average* spend only ~80% of revenue on direct care. An independent study using actual IRS Form 990 data for 202 California clinic organizations found **91% don't meet the 90% test**, projecting **$1.7 billion in first-year penalties** and 88% of organizations driven into the red — with up to 97 organizations at risk of closure and ~11.7 million patient encounters displaced (mostly Medi-Cal patients) who'd shift to costlier ER and county settings. The study also flags a structural trap: final revenue figures aren't known for 1–2 years, so penalties could hit even well-intentioned clinics.
+
+2. **The legislature already rejected this.** The identical 90% rule as AB 1113 died in the state legislature in January 2026.
+
+3. **It's opposed by almost everyone with a stake or expertise** — 150+ organizations including the California Primary Care Association, the state medical association, the hospital association, nurses and pediatrician groups, Planned Parenthood, and both the state Democratic and Republican parties. Every newspaper that issued an endorsement (LA Times, SF Chronicle, Sacramento Bee, SD Union-Tribune, McClatchy, Mercury News, and others) voted No. The LA Times editorial board called it "a failed negotiating tactic by the union."
+
+4. **The provenance is troubling.** A federal racketeering lawsuit by the clinic industry alleges the union's leader used this punitive measure as leverage, offering to kill it in exchange for unionizing 25,000 workers (he denies it; the union has a documented pattern of using threatening ballot measures to extract deals). The clinics' lawsuit to block the ballot failed only on procedural grounds (standing/ripeness), not on the merits.
+
+5. **The problem it cites is real, but the remedy is mismatched.** Some clinic executives are overpaid (e.g., one CEO earned ~$1.9M) and waste exists — but FQHCs already face extensive federal grant conditions, federal cost-report audits, state HCAI reporting, public IRS 990s, and patient-board governance. A punitive spending floor on *total revenue* (the federal 90% rule applies only to the HRSA grant slice, not total revenue) risks dismantling the safety net for the poor — the opposite of its stated goal.
+
+6. **Voters already lean the same way.** PPIC polling shows support collapsed from 34% yes/61% no in September to ~25% yes/71% no in October, with heavy opposition across all parties.
+
+**Bottom line:** The accountability concern is legitimate, but this is a poorly drafted, punitively enforced standard that the industry's own data shows most clinics cannot meet — one the legislature rejected, that every major medical group and party opposes, and that nonpartisan analysts warn could shutter clinics serving the most vulnerable Californians. Vote **No**.

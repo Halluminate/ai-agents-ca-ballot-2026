@@ -1,0 +1,55 @@
+I'm going to skip the one-word answer. This is a live election, and Prop 1 comes down to a values call (housing need versus long-term debt) that more research can't settle for you. Here's what I found and where the decision hinges.
+
+**What it does:** It authorizes $11.25B in bonds.
+- $10B goes to affordable-housing programs, repaid from the General Fund.
+- $1.25B goes to veterans' home loans, repaid by the veterans.
+- The Legislative Analyst (LAO) estimates $500–600M a year for about 25 years, roughly 0.25% of the General Fund.
+- It would subsidize up to 40,000 rental units and help up to 40,000 homebuyers.
+- No ballot argument against it was filed.
+
+**Strongest case for**
+- The 2018 housing bond was fully committed by the end of 2023. The main program is oversubscribed about 9 to 1, and about 46,000 approved affordable homes are waiting on the last state funding.
+- Paying cash hasn't been the recent pattern. The 2026 budget has only $200M for that program and $500M for state tax credits.
+- Bonds suit long-lived buildings. The state also recently consolidated its housing finance programs and moved on permitting and fee reforms.
+
+**Strongest case against**
+- It's debt: about $17.4B to repay $10B. That figure is nominal. The LAO puts the premium at about 15% over paying cash, after inflation. It adds to roughly $70–80B of existing bond debt, roughly $38–40B authorized but unsold, and Prop 38's separate bond.
+- Much of the money goes to loans, grants and down-payment aid, not only buildings. The Howard Jarvis Taxpayers Association objects that such programs belong in the annual budget.
+- It doesn't address why affordable housing costs so much to build. The Sacramento Bee endorsed yes but called for per-unit cost data to be published.
+- The bill requires an annual report. I found no independent audit requirement for the housing programs. It also lets the Legislature amend program rules and shift money between programs.
+- "Veterans" is in the title, but they get about 11% of the money, and they repay it themselves.
+
+**Who's where**
+- **For:** Gov. Newsom, the Democratic Party, major unions, the California Apartment Association, SPUR, and the SF Chronicle and Sacramento Bee editorial boards.
+- **Against:** Howard Jarvis, Reform California, some Republican legislators (the Assembly vote was 61–7), and the OC Register and Press Democrat editorial boards.
+- The state GOP is neutral, and there's no funded opposition campaign.
+
+**The crux:** If Prop 1 fails, does this housing get funded some other way?
+- If you expect the Legislature would pay from the General Fund, a No gets you the same housing without the financing premium.
+- If you expect it wouldn't, a No means less affordable housing gets built.
+- The record is mixed. LAist reports about $8B of General Fund housing money since 2019, but the 2026 budget is far smaller.
+
+**How it breaks down**
+- **Yes fits if** you think the shortage justifies borrowing now, accept the interest premium for speed, and trust the state to deliver the units.
+- **No fits if** you'd rather not add long-term debt for program spending, want cost and permitting problems fixed before more subsidy, or want stronger audit controls first.
+
+**Limits of my research:** CalMatters lists the Mercury News and San Diego Union-Tribune as opposed, but I couldn't read either editorial. The official bill PDF wouldn't load, so I read the text through CalMatters' Digital Democracy copy. "No independent audit found" means I didn't find one, not that none exists.
+
+Sources:
+- [CA Secretary of State: Prop 1](https://voterguide.sos.ca.gov/propositions/1/)
+- [SOS: arguments](https://voterguide.sos.ca.gov/propositions/1/arguments-rebuttals.htm)
+- [SOS: LAO analysis](https://voterguide.sos.ca.gov/propositions/1/analysis.htm)
+- [CalMatters voter guide](https://calmatters.org/california-voter-guide-2026/proposition-1-housing-bond/)
+- [CalMatters bond explainer](https://calmatters.org/politics/elections/2026/10/bond-measures-on-california-ballot/)
+- [California Budget & Policy Center](https://calbudgetcenter.org/resources/proposition-1-californias-veterans-and-affordable-housing-bond/)
+- [SPUR](https://www.spur.org/voter-guide/2026-11/ca-prop-1-affordable-housing-bond)
+- [KQED](https://www.kqed.org/news/12100622/proposition-1-authorizes-california-to-issue-a-11-25-billion-bond-to-fund-affordable-housing)
+- [LAist](https://laist.com/news/politics/voter-guides/laist-california-voter-game-plan-proposition-prop-1-november-2026-election-guide)
+- [Press Democrat editorial](https://www.pressdemocrat.com/2026/10/14/endorsement-props-1-and-38-would-only-bring-more-debt-for-california/)
+- [Berkeley IGS guide](https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-1-housing)
+- [Hoover Institution](https://www.hoover.org/proposition-lab-proposition-1)
+- [Terner Center 2026 round-up](https://ternercenter.berkeley.edu/blog/2026-california-legislative-round-up/)
+- [SB 417 text and analyses](https://calmatters.digitaldemocracy.org/bills/ca_202520260sb417)
+- [California Today Prop 1 guide](https://californiatoday.com/guides/elections/2026-california-proposition-1-guide/)
+- [SF Chronicle endorsement](https://www.sfchronicle.com/opinion/editorials/article/prop1-california-housing-vote-22442444.php)
+- [HJTA 2026 voting guide](https://www.hjta.org/2026votingguide/)

@@ -1,0 +1,204 @@
+{
+  "run_id": "gpt__common__win__p41__r1",
+  "model": "gpt",
+  "model_id": "openai/gpt-6-astra",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "41",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T04:57:58.677809+00:00",
+  "seconds": 76.0,
+  "input_tokens": 86737,
+  "output_tokens": 2002,
+  "cached_tokens": 223113,
+  "cost_usd": 1.4525,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 41 2026 audit tax spending limit polling yes no",
+    "California 2026 tax audit initiative spending limit billionaire tax polls transparency accountability",
+    "\"Proposition 41\" \"October\" \"2026\" \"poll\" \"47\"",
+    "site.ppic.org \"October 2026\" \"41\"",
+    "site.igs.berkeley.edu \"2026\" \"41\" \"October\"",
+    "California Proposition 41 November 2026 prediction poll 38 47",
+    "California Proposition 41 2026 Ballotpedia polls campaign finance endorsements",
+    "\"Proposition 41\" \"poll\" \"October 30\" \"2026\"",
+    "\"Prop 41\" \"poll\" \"November\" \"2026\"",
+    "\"Proposition 41\" \"CalMatters\" \"2026\"",
+    "\"Proposition 41\" \"poll\" \"October\" \"2026\" latest"
+  ],
+  "search_errors": 2,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/41/",
+    "https://voterguide.sos.ca.gov/propositions/41/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm",
+    "https://www.nytimes.com/interactive/polls/california-prop-41-tax-audits-polls-2026.html",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://igs.berkeley.edu/research/berkeley-igs-poll",
+    "https://escholarship.org/content/qt1vp9q3f9/qt1vp9q3f9.pdf",
+    "https://www.onpointpolitics.us/forecast/measures/ca/proposition-41",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026",
+    "https://escholarship.org/uc/item/72722408",
+    "https://project-voter-guide-2026.interactives.calmatters.org/general/en/campaign-finance/prop/41",
+    "https://www.yesonprop41.org/",
+    "https://www.mercurynews.com/2026/10/29/california-billionaires-tax-prop-40-berkeley-poll-2026/",
+    "https://www.ppic.org/wp-content/uploads/time-trends-likely-voters-1026.pdf",
+    "https://calmatters.org/california-voter-guide-2026/proposition-41-tax-audits/",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-41-requires-audits-programs-funded-new-state-special-taxes-prohibits-new-state-taxes-are-excluded-existing-voter-app",
+    "https://escholarship.org/content/qt72722408/qt72722408.pdf",
+    "https://www.yesonprop41.org/news"
+  ],
+  "tool_errors": 7,
+  "warnings": [
+    "warning: reasoning was not replayed on an assistant turn",
+    "Warning: TT: undefined function: 21",
+    "capture: 4 connections were not readable by the proxy (escholarship.org:443, openrouter.ai:443, project-voter-guide-2026.interactives.calmatters.org:443)"
+  ],
+  "network": {
+    "requests": 24,
+    "requests_per_host": {
+      "openrouter.ai": 17,
+      "escholarship.org": 2,
+      "www.nytimes.com": 1,
+      "www.onpointpolitics.us": 1,
+      "www.mercurynews.com": 1,
+      "www.ppic.org": 1,
+      "www.yesonprop41.org": 1
+    },
+    "hosts": [
+      "escholarship.org",
+      "openrouter.ai",
+      "www.mercurynews.com",
+      "www.nytimes.com",
+      "www.onpointpolitics.us",
+      "www.ppic.org",
+      "www.yesonprop41.org"
+    ],
+    "status_counts": {
+      "200": 21,
+      "403": 3
+    },
+    "bytes_up": 1299597,
+    "bytes_down": 862277,
+    "wire_bytes": {
+      "harness_to_proxy": 1355840,
+      "proxy_to_harness": 940608,
+      "proxy_to_internet": 1348475,
+      "internet_to_proxy": 994703
+    },
+    "byte_counter": true,
+    "errors": 8,
+    "error_details": [
+      {
+        "kind": "tls_failed_server",
+        "host": "escholarship.org",
+        "sni": "escholarship.org",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "escholarship.org",
+        "sni": "escholarship.org",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "project-voter-guide-2026.interactives.calmatters.org",
+        "sni": "project-voter-guide-2026.interactives.calmatters.org",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "project-voter-guide-2026.interactives.calmatters.org",
+        "sni": "project-voter-guide-2026.interactives.calmatters.org",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed early"
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "escholarship.org",
+        "port": 443,
+        "sni": "escholarship.org",
+        "bytes_up": 1991,
+        "bytes_down": 39,
+        "duration": 18.0048,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "project-voter-guide-2026.interactives.calmatters.org",
+        "port": 443,
+        "sni": "project-voter-guide-2026.interactives.calmatters.org",
+        "bytes_up": 1828,
+        "bytes_down": 39,
+        "duration": 18.0172,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1982,
+        "bytes_down": 39,
+        "duration": 17.9883,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1982,
+        "bytes_down": 39,
+        "duration": 17.9929,
+        "reason": "connection closed early"
+      }
+    ],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 28,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

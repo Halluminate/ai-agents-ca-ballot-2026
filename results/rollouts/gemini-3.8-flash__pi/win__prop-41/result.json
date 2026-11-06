@@ -1,0 +1,103 @@
+{
+  "run_id": "flash__common__win__p41__r1",
+  "model": "flash",
+  "model_id": "google/gemini-3.8-flash",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "41",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:38:14.106032+00:00",
+  "finished_at": "2026-11-03T13:39:43.266607+00:00",
+  "seconds": 86.5,
+  "input_tokens": 60279,
+  "output_tokens": 3853,
+  "cached_tokens": 264445,
+  "cost_usd": 0.1201,
+  "cost_source": "reported",
+  "billed_usd": 0.12014495763999998,
+  "searches": [
+    "\"Proposition 41\" California \"voterguide.sos.ca.gov\"",
+    "\"Proposition 41\" California ballotpedia",
+    "\"Proposition 41\" poll OR polling California",
+    "\"Proposition 41\" California results 2026",
+    "\"Proposition 41\" California \"November 4, 2026\" OR \"November 5, 2026\" OR \"passed\" OR \"failed\"",
+    "\"Proposition 41\" California poll OR PPIC OR Berkeley OR SurveyUSA OR \"likely voters\"",
+    "\"Proposition 41\" \"SurveyUSA\" California 2026",
+    "\"Proposition 41\" California \"November 3, 2026\" OR \"November 4, 2026\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/41/",
+    "https://electcademocrats.com/polls/",
+    "https://electcademocrats.com/polls/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 22,
+    "requests_per_host": {
+      "openrouter.ai": 22
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 22
+    },
+    "bytes_up": 1279036,
+    "bytes_down": 122433,
+    "wire_bytes": {
+      "harness_to_proxy": 1313685,
+      "proxy_to_harness": 163389,
+      "proxy_to_internet": 1308697,
+      "internet_to_proxy": 201514
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 16,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:38:14.106032+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:38:14.106032+00:00",
+      "finished_at": "2026-11-03T13:39:43.266607+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

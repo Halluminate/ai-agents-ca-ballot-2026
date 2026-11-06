@@ -1,0 +1,59 @@
+I did the research, but I won't give you the one-word Yes or No you asked for. Prop 4 is a politically contested measure, and the choice comes down to values the facts can't settle. I'd rather not nudge your vote, so below is what I found and a quick way to decide. Polls are open until 8 p.m. today.
+
+**What your vote does**
+- **Yes:** This repeals California's 1988 ban on public funding of campaigns. The state and local governments could then create programs, not just charter cities such as LA, San Francisco, Oakland, Berkeley and Long Beach.
+- **No:** The ban and the charter-city exception stay.
+- **Cost and scope:** It creates no program and spends nothing itself. The Legislative Analyst's Office (LAO) estimates a few hundred thousand dollars a year in state costs. It says the cost of any future local program "could be significant."
+- **Baseline rules for any program:**
+  - No money earmarked for education, transportation, or public safety.
+  - Candidates must show broad support and accept spending limits.
+  - No public money for legal fees, fines, or repaying a candidate's personal loans.
+  - No favoring a party, incumbent, or challenger.
+- **Rider:** It triples the maximum fine for campaign contributions by foreign entities.
+
+**Strongest case for Yes**
+- It's an option, not a mandate. Each government decides whether to adopt a program.
+- The baseline rules above apply to every program.
+- Studies of Seattle's voucher program found more donors and candidates, and Arizona and Maine studies found more competition.
+- Backers include the California Democratic Party, League of Women Voters, Common Cause, ACLU California Action, labor unions, SPUR, and the Sacramento Bee.
+
+**Strongest case for No**
+- Taxpayer money could fund campaigns, including negative ads. Voters rejected earlier attempts in 2000, 2006 and 2010.
+- Key details are left open. There's no cap on the number of candidates or the amounts, and the "strict criteria" aren't defined. No funding source is named. The state ethics agency (the Fair Political Practices Commission) isn't responsible for enforcing local programs.
+- Private and outside money isn't removed. San Francisco paid a record $8.8 million to 27 candidates in 2024, and outside spending also hit a record of about $19 million.
+- The evidence is mixed. A 2010 federal GAO report found no sign of more candidates in Arizona and Maine. Seattle and Oakland studies found little evidence of diluted big-donor influence. One Stanford study links full public funding to more polarized candidates, though that is disputed.
+- Backers of No include the California Taxpayers Association, Howard Jarvis, the California GOP and Reform California, and former state ethics agency chair Dan Schnur. The SF Chronicle, San Diego Union-Tribune, OC Register and Mercury News also said No.
+- MALDEF supports public financing in principle but opposes this measure over the foreign-contribution rider, which it calls scapegoating of immigrants. Supporters say the rider deters foreign interference.
+
+**What I couldn't verify**
+- **"Only state with a ban":** Supporters claim California is the only state that bans public financing. I found no independent fact-check, and I found no counterexample.
+- **Who the foreign-contribution fine covers:** Bill summaries suggest the ballot version covers foreign governments and "foreign nationals." That means noncitizens other than green-card holders and DACA recipients. I couldn't open the bill text to confirm.
+- **Sources I couldn't read:** The LAO PDF, the full bill text and the Chronicle editorial wouldn't load. I couldn't find the Bee's editorial either. For those, I used the official web guide and CalMatters' roundups.
+
+**Quick way to decide**
+- **Lean Yes if:** You want governments to have the option, you're fine with local officials setting the details under these baseline rules, and you think reducing reliance on big donors is worth the cost.
+- **Lean No if:** You object to taxpayer-funded campaigns on principle or in practice. The same goes if you want caps, defined criteria, and independent enforcement written in before the ban is lifted, if you doubt it would curb special-interest influence, or if the foreign-contribution rider is a dealbreaker.
+
+If you tell me which of these matter most to you, I can tell you which way they point.
+
+Sources:
+- [Official Voter Guide: Prop 4](https://voterguide.sos.ca.gov/propositions/4/)
+- [Official title and summary](https://voterguide.sos.ca.gov/propositions/4/title-summary.htm)
+- [Legislative Analyst's analysis](https://voterguide.sos.ca.gov/propositions/4/analysis.htm)
+- [Arguments and rebuttals](https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm)
+- [CalMatters explainer](https://calmatters.org/politics/2026/10/california-proposition-4-explainer/)
+- [CalMatters voter guide](https://calmatters.org/california-voter-guide-2026/proposition-4-public-fundraising/)
+- [LAist guide](https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-4)
+- [KQED explainer](https://www.kqed.org/news/12101308/prop-4-allows-cities-to-create-public-campaign-financing-programs)
+- [Berkeley IGS guide](https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-4-repeals)
+- [CityHallPass guide](https://cityhallpass.com/election-2026/measures/prop-04)
+- [California Today guide](https://californiatoday.com/guides/elections/2026-california-proposition-4-guide/)
+- [SPUR (Yes)](https://www.spur.org/voter-guide/2026-11/ca-prop-4-campaign-financing)
+- [CalTax (No)](https://caltax.org/prop4/)
+- [MALDEF (No)](https://www.maldef.org/2026/10/maldef-issues-recommendations-on-california-ballot-measures-2/)
+- [GrowSF (No)](https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-4/)
+- [SF Ethics Commission 2024 report](https://sfethics.org/ethics/2025/03/san-francisco-public-campaign-financing-program-report-for-the-november-5-2024-election.html)
+- [SB 42 bill details (Digital Democracy)](https://calmatters.digitaldemocracy.org/bills/ca_202520260sb42)
+- [FPPC: recent changes to the Political Reform Act](https://www.fppc.ca.gov/the-law/recent-changes-to-the-political-reform-act/)
+- [JHU primer on public funding research](https://sgp.jhu.edu/primers/public-funding-of-us-elections/)
+- [Stanford (Hall) on polarization](https://stanforddpl.org/papers/hall_public_funding_2014/hall_public_funding_2014.pdf)

@@ -1,0 +1,108 @@
+{
+  "requests": 32,
+  "requests_per_host": {
+    "openrouter.ai": 14,
+    "voterguide.sos.ca.gov": 4,
+    "vig.cdn.sos.ca.gov": 2,
+    "lao.ca.gov": 2,
+    "www.sos.ca.gov": 2,
+    "calmatters.org": 2,
+    "www.hoover.org": 1,
+    "www.ppic.org": 1,
+    "ballotpedia.org": 1,
+    "oag.ca.gov": 1,
+    "lwvc.org": 1,
+    "www.sfchronicle.com": 1
+  },
+  "hosts": [
+    "ballotpedia.org",
+    "calmatters.org",
+    "lao.ca.gov",
+    "lwvc.org",
+    "oag.ca.gov",
+    "openrouter.ai",
+    "vig.cdn.sos.ca.gov",
+    "voterguide.sos.ca.gov",
+    "www.hoover.org",
+    "www.ppic.org",
+    "www.sfchronicle.com",
+    "www.sos.ca.gov"
+  ],
+  "status_counts": {
+    "200": 29,
+    "301": 1,
+    "404": 1
+  },
+  "bytes_up": 740514,
+  "bytes_down": 4632447,
+  "wire_bytes": {
+    "harness_to_proxy": 778259,
+    "proxy_to_harness": 4751460,
+    "proxy_to_internet": 775559,
+    "internet_to_proxy": 4805367
+  },
+  "byte_counter": true,
+  "errors": 2,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "www.sos.ca.gov",
+      "url": "https://www.sos.ca.gov/campaign-lobbying/cal-access-resources/measure-contributions/2026-ballot-measure-contribution-totals",
+      "error": "stream reset by client (CANCEL)"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "stream reset by client (CANCEL)"
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 2069,
+      "bytes_down": 1718,
+      "duration": 0.1347,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "calmatters.org",
+      "port": 443,
+      "sni": "calmatters.org",
+      "bytes_up": 1805,
+      "bytes_down": 3200,
+      "duration": 0.1209,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [
+    {
+      "process": "grok-1.0.70",
+      "operation": "network-outbound",
+      "target": null,
+      "attempts": 47
+    },
+    {
+      "process": "grok-1.0.70",
+      "operation": "network-outbound",
+      "target": "remote:*:49537",
+      "attempts": 2
+    }
+  ],
+  "blocked_attempts": 49,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 22,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "allowed, not recorded"
+}

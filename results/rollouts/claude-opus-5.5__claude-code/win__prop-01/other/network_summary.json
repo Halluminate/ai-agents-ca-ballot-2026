@@ -1,0 +1,54 @@
+{
+  "requests": 63,
+  "requests_per_host": {
+    "openrouter.ai": 28,
+    "api.anthropic.com": 24,
+    "www.ppic.org": 4,
+    "voterguide.sos.ca.gov": 2,
+    "calmatters.org": 2,
+    "defirate.com": 1,
+    "www.allhomeca.org": 1,
+    "californiatoday.com": 1
+  },
+  "hosts": [
+    "api.anthropic.com",
+    "californiatoday.com",
+    "calmatters.org",
+    "defirate.com",
+    "openrouter.ai",
+    "voterguide.sos.ca.gov",
+    "www.allhomeca.org",
+    "www.ppic.org"
+  ],
+  "status_counts": {
+    "200": 61,
+    "403": 2
+  },
+  "bytes_up": 2113020,
+  "bytes_down": 3098350,
+  "wire_bytes": {
+    "harness_to_proxy": 2156726,
+    "proxy_to_harness": 3229832,
+    "proxy_to_internet": 2157108,
+    "internet_to_proxy": 3267070
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 22,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

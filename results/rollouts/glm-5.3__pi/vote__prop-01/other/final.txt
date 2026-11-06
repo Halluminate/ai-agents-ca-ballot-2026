@@ -1,0 +1,25 @@
+**Yes.**
+
+Here's the reasoning behind that recommendation, based on my research:
+
+## What Prop 1 (Nov 2026) would do
+
+Authorize **$11.25 billion in state bonds**: $10 billion for affordable housing programs (repaid from the General Fund at $500–600M/year for ~25 years) and $1.25 billion for the CalVet veterans home-loan program (repaid by the veterans' own mortgage payments — it has never cost the state money). The $10B breaks down as: $7.2B for multifamily rental housing (up to ~40,000 units, with 55-year affordability covenants), $1.1B for homeownership assistance (~40,000 households), plus farmworker housing ($450M), student housing ($350M), infrastructure ($500M), tribal housing ($200M), and local pilot programs ($200M).
+
+## Why I landed on yes
+
+1. **There's a concrete, documented need.** The 2018 housing bond's $4B was fully committed within five years, the state's flagship Multifamily Housing Program is oversubscribed roughly 9-to-1, and the 2026–27 state budget included almost no new money for affordable housing. Roughly 40,000–46,000 affordable homes are already designed, entitled, and stalled for lack of final financing — this is "shovel-ready" demand, not speculative.
+
+2. **Bonds are the right tool for this purpose.** Housing is a capital asset, and the 55-year affordability requirements mean the asset outlives the debt — the classic justification for general obligation bonds. (This contrasts with, say, Prop 38's research bond on the same ballot.)
+
+3. **The fiscal footprint is small.** $500–600M/year is about 0.25% of the General Fund, and California's overall GO bond debt service is only ~2.6% of state expenditures. Each state dollar also leverages roughly $4 in federal, local, and private funds (notably federal housing tax credits that would otherwise go unused).
+
+4. **The programs are proven.** Funds flow through long-established channels (Multifamily Housing Program, CalHome, Serna farmworker grants, Infill Infrastructure) with decades of track record — not a new bureaucracy.
+
+5. **The opposition is remarkably thin.** No argument against was even submitted for the voter guide, there's no opposition campaign or funding, and the state Republican Party stayed neutral. The main critics (Howard Jarvis Taxpayers Association, a few GOP lawmakers like Sen. Strickland) object to *any* new bond debt, or argue the state should cut regulations instead — a fair philosophical position, but not a flaw specific to this measure, especially since the Legislature has recently passed major streamlining/permitting reforms in parallel.
+
+## The honest counterarguments
+
+California runs chronic budget deficits; the bond costs ~$17.4 billion total with interest; only 11% of it actually goes to veterans despite the name; and it won't fix the root causes of expensive construction. Editorial boards split (Sacramento Bee and SF Chronicle said yes; Mercury News, Union-Tribune, and OC Register said no, mostly on debt grounds). If your top priority is minimizing state debt no matter what, vote no. But if you weigh a modest, well-targeted capital investment against a severe, well-documented shortage — this is a good use of state borrowing, which is why it also leads 60–38 in the latest PPIC poll with support from a broad coalition (Habitat for Humanity, US Vets, teachers, cities and counties, universities).
+
+**My recommendation: vote Yes.**

@@ -1,0 +1,102 @@
+{
+  "run_id": "sol__common__win__p2__r1",
+  "model": "sol",
+  "model_id": "openai/gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "2",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:52:25.190368+00:00",
+  "finished_at": "2026-11-03T10:53:12.753597+00:00",
+  "seconds": 44.8,
+  "input_tokens": 48666,
+  "output_tokens": 1573,
+  "cached_tokens": 48696,
+  "cost_usd": 0.1625,
+  "cost_source": "reported",
+  "billed_usd": 0.16246196072000002,
+  "searches": [
+    "California 2026 Proposition 2 rainy day fund campaign SCA 1",
+    "California Proposition 2 2026 rainy day fund polling support opposition",
+    "\"Proposition 2\" \"2026\" \"poll\" October Berkeley SurveyUSA",
+    "\"Proposition 2\" \"2026\" \"poll\" November rainy fund"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/",
+    "https://voterguide.sos.ca.gov/propositions/2/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-2-rainy",
+    "https://calmatters.org/california-voter-guide-2026/proposition-2-rainy-day-fund/",
+    "https://ballotpedia.org/California_Proposition_2,_Budget_Stabilization_Account_Cap_Increase_and_Gann_Limit_Changes_Amendment_(2026",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-2-aca-20-gabriel-save-californias-future-act-res-ch-130-2026",
+    "https://www.ppic.org/press-release/californians-head-to-polls-in-historically-sour-mood-billionaire-wealth-tax-slips-below-majority-support/",
+    "https://www.ijpr.org/elections/2026-10-26/california-has-more-revenue-than-expected-thanks-to-ai-should-the-state-save-it"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "warning: reasoning was not replayed on an assistant turn"
+  ],
+  "network": {
+    "requests": 10,
+    "requests_per_host": {
+      "openrouter.ai": 9,
+      "www.ijpr.org": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.ijpr.org"
+    ],
+    "status_counts": {
+      "200": 10
+    },
+    "bytes_up": 441147,
+    "bytes_down": 261917,
+    "wire_bytes": {
+      "harness_to_proxy": 460785,
+      "proxy_to_harness": 296660,
+      "proxy_to_internet": 458011,
+      "internet_to_proxy": 318843
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 10,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:52:25.190368+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:52:25.190368+00:00",
+      "finished_at": "2026-11-03T10:53:12.753597+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

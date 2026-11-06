@@ -1,0 +1,66 @@
+{
+  "requests": 25,
+  "requests_per_host": {
+    "openrouter.ai": 15,
+    "calbudgetcenter.org": 2,
+    "www.kpbs.org": 1,
+    "www.mercurynews.com": 1,
+    "www.latimes.com": 1,
+    "www.record-bee.com": 1,
+    "www.sfchronicle.com": 1,
+    "leginfo.legislature.ca.gov": 1,
+    "www.calhfa.ca.gov": 1,
+    "www.consumerfinance.gov": 1
+  },
+  "hosts": [
+    "calbudgetcenter.org",
+    "leginfo.legislature.ca.gov",
+    "openrouter.ai",
+    "www.calhfa.ca.gov",
+    "www.consumerfinance.gov",
+    "www.kpbs.org",
+    "www.latimes.com",
+    "www.mercurynews.com",
+    "www.record-bee.com",
+    "www.sfchronicle.com"
+  ],
+  "status_counts": {
+    "200": 23,
+    "301": 1,
+    "404": 1
+  },
+  "bytes_up": 1996867,
+  "bytes_down": 1179978,
+  "wire_bytes": {
+    "harness_to_proxy": 2050215,
+    "proxy_to_harness": 1280302,
+    "proxy_to_internet": 2043941,
+    "internet_to_proxy": 1334958
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 26,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

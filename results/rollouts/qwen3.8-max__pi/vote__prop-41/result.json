@@ -1,0 +1,130 @@
+{
+  "run_id": "qwen-max__common__vote__p41__r1",
+  "model": "qwen-max",
+  "model_id": "qwen/qwen3.8-max-0902",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "41",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "first_line",
+  "error": "",
+  "started_at": "2026-11-03T12:45:48.709677+00:00",
+  "finished_at": "2026-11-03T12:52:00.284846+00:00",
+  "seconds": 368.3,
+  "input_tokens": 101092,
+  "output_tokens": 9828,
+  "cached_tokens": 579712,
+  "cost_usd": 0.4469,
+  "cost_source": "reported",
+  "billed_usd": 0.44694979000000007,
+  "searches": [
+    "California Proposition 41 voter guide",
+    "Prop 41 California 2026 Sergey Brin funding billionaire tax Gann Limit",
+    "Proposition 41 California November 2026 Sergey Brin $57 million No on 40 billionaire tax spending limit",
+    "\"Prop 41\" California 2026 Gann Limit appropriations limit analysis LAO consequences",
+    "California Prop 41 2026 Sergey Brin funding billionaire tax",
+    "San Francisco Chronicle editorial Prop 41 \"no\" endorsement audits Gann limit 2026",
+    "Prop 41 conflict clause nullify Prop 3 Prop 44 Gann limit exclusion 2026 California ballot interaction",
+    "California State Auditor response Prop 41 workload capacity 2026 \"state auditor\" audits special taxes concerns",
+    "Los Angeles Times editorial board Prop 41 2026 recommendation audits billionaire tax",
+    "League of Women Voters California Prop 41 2026 position opposition",
+    "Prop 41 lawsuit challenge court single subject 2026 California \"Proposition 41\" MCO tax Prop 35 appropriations limit risk",
+    "League of Women Voters California Prop 41 2026 oppose",
+    "LAO California state appropriations limit Gann limit how close 2026 revenue growth",
+    "Proposition 35 2024 MCO tax appropriations limit adjustment Article XIII B Section 4 Medi-Cal Stability Fund Gann"
+  ],
+  "search_errors": 5,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/41/",
+    "https://voterguide.sos.ca.gov/propositions/41/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-41-audits-special-taxes",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-41-audits",
+    "https://calbudgetcenter.org/resources/what-would-proposition-41-mean-for-california/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-41-tax-audits/",
+    "https://eml.berkeley.edu/~saez/GGS26props41-42.pdf",
+    "https://www.hoover.org/proposition-lab-proposition-41",
+    "https://www.sandiegouniontribune.com/2026-09-21/endorsement-yes-on-proposition-41-and-42-to-limit-taxation-in-california/",
+    "https://www.mercurynews.com/2026-11-02/we-asked-the-yes-on-prop-41-campaign-why-voters-should-approve-the-measure/",
+    "https://www.mercurynews.com/2026-11-02/we-asked-the-yes-on-prop-41-campaign-why-voters-should-approve-the-measure/",
+    "https://www.mercurynews.com/2026-11-02/we-asked-the-no-on-prop-41-campaign-why-voters-should-reject-the-measure/"
+  ],
+  "tool_errors": 5,
+  "warnings": [
+    "capture: 2 connection attempts that ignored the proxy were blocked (node remote:*:64990 x2)"
+  ],
+  "network": {
+    "requests": 26,
+    "requests_per_host": {
+      "openrouter.ai": 24,
+      "www.mercurynews.com": 2
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.mercurynews.com"
+    ],
+    "status_counts": {
+      "200": 25,
+      "301": 1
+    },
+    "bytes_up": 2863154,
+    "bytes_down": 1246200,
+    "wire_bytes": {
+      "harness_to_proxy": 2918168,
+      "proxy_to_harness": 1383820,
+      "proxy_to_internet": 2910188,
+      "internet_to_proxy": 1442886
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "node",
+        "operation": "network-outbound",
+        "target": "remote:*:64990",
+        "attempts": 2
+      }
+    ],
+    "blocked_attempts": 2,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 25,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:45:48.709677+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:45:48.709677+00:00",
+      "finished_at": "2026-11-03T12:52:00.284846+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

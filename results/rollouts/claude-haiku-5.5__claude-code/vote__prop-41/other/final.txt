@@ -1,0 +1,27 @@
+**No.**
+
+This is a judgment call. It comes down to one question: should future voters be barred from exempting new taxes from the Gann spending limit? Prop 41 would bar that for taxes enacted after January 1, 2026. My lean is No, for four reasons:
+
+- **The spending-limit clause matters most, and its reach is unclear.** The official summary covers "state taxes" broadly, but the explanatory text focuses on special taxes. The LAO says the state "might not be able to exclude any new special tax spending from its spending limit." A constitutional change with that much ambiguity is a reason to keep the status quo.
+- **The official fiscal analysis says the net effect is unknown.** The audit costs themselves are modest: the LAO estimates low millions a year for the State Auditor, plus a few hundred thousand dollars per initiative to print audit summaries.
+- **The audits partly duplicate existing oversight.** Opponents and the California Budget & Policy Center note that the Legislature and State Auditor already review programs. The 10% savings target isn't binding, but the Budget Center warns it could pressure service cuts and discourage special-tax initiatives. The SF Chronicle calls the target arbitrary.
+- **It's built to override Prop 40.** If Prop 41 gets more yes votes than Prop 40, it could void Prop 40. The ballot title does disclose the spending-limit change, but the supporters' pitch leads with audits. A measure whose real effect depends on a vote-count contest with another measure is hard to judge on its own terms.
+
+**Vote Yes instead if** you think special taxes should count under the Gann limit and you accept the unclear scope, or you think pre-election audits of citizen-initiative taxes are worth the cost. Both are reasonable positions.
+
+**Two things to keep in mind:**
+- A No on 41 is not a vote on the billionaire tax. Prop 41 affects Prop 40 only if Prop 40 passes and Prop 41 gets more yes votes. If you want Prop 40 defeated, the direct route is a No on Prop 40.
+- The race is close. PPIC's late-October poll had Prop 41 at 48% yes and 49% no. Prop 42 is a second counter-measure with the same vote-count trigger.
+
+**Research caveat:** I couldn't open the LAO's analysis directly or read the official guide's PDF. The LAO page was blocked, and the PDF came back as unreadable binary. The LAO figures come from secondary sources that quote it, and I didn't review the full measure text. Polls close at 8 p.m. local time today.
+
+Sources:
+- [Official voter guide: Prop 41](https://voterguide.sos.ca.gov/propositions/41/)
+- [Official voter guide: Prop 40](https://voterguide.sos.ca.gov/propositions/40/)
+- [Berkeley IGS guide to Prop 41](https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-41-audits)
+- [LAist voter guide (summarizes the LAO analysis)](https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-41-tax-audits)
+- [California Budget & Policy Center brief](https://calbudgetcenter.org/resources/what-would-proposition-41-mean-for-california/)
+- [KQED PropFest explainer on Prop 41](https://www.kqed.org/news/12101275/prop-41-requires-new-audits-of-special-tax-programs)
+- [SF Chronicle editorial on Prop 41](https://www.sfchronicle.com/opinion/editorials/article/endorsement-california-prop-41-taxes-22445889.php)
+- [PPIC October 2026 statewide survey](https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/)
+- [KPBS on the governor's position on Prop 42](https://www.kpbs.org/news/politics/2026/10/12/gavin-newsom-backs-measure-to-kill-the-billionaire-tax-and-ban-future-wealth-taxes)

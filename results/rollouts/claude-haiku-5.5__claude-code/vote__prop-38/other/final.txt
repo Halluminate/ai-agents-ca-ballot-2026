@@ -1,0 +1,45 @@
+**No.**
+
+This is a judgment call, and my confidence is moderate. The research is worth funding, but this measure's structure is the problem.
+
+**Why No**
+- **Half the money effectively goes to one institute.** About $4.2 billion would go to a single UC-affiliated nonprofit. CalMatters found the eligibility criteria very likely leave only one qualifier, the California Institute for Immunology and Immunotherapy (CIII). The campaign says the measure wasn't written for CIII, but it has repeatedly declined to say so outright.
+- **The main funder is tied to the beneficiary.** Gary Michelson co-founded and chairs CIII, has given it $120 million or more, and accounts for most of the Yes campaign's money (at least $61.2 million of more than $66 million as of October, per CalMatters).
+- **Weak transparency.** The measure says the institute "shall not be deemed a public agency for any purpose under state law," which would exempt it from the Public Records Act and open-meeting laws.
+- **Not ready.** As of Sept. 16, CIII had three hires against a plan for about 51 by summer 2025. Its research park won't be finished until late 2028 at the earliest.
+- **The cost is real, and "pays for itself" is unproven.** The Legislative Analyst's Office (LAO) estimates $500–600 million a year for about 20 years from the General Fund, roughly $10–12.5 billion total depending on the term. It calls the revenue offset "uncertain but could be significant." The first Prop 71 (2004) royalty check was about $190,000.
+- **A better option is already scheduled.** SB 895, a roughly $7.5 billion research bond that Newsom signed Sept. 30, goes to voters March 7, 2028. It covers broader fields and includes public comment. A No vote doesn't end state research funding; it routes the money through a broader process.
+
+Opponents include the San Francisco Chronicle, five McClatchy papers including the Sacramento Bee, the League of Women Voters, and CalMatters columnist Dan Walters.
+
+**Strongest case for Yes**
+- Immunotherapy research is promising, and federal research funding is unstable.
+- The safeguards are stronger than Prop 71's: a 2% cap on state administrative costs, audits, a 10% revenue share, a 20% California price discount, and no grants to for-profit companies. Hoover's skeptical analysis concedes these are real attempts to fix the stem-cell program's problems.
+- The annual cost is about 0.25% of the General Fund.
+- Support is broad: Newsom, both state parties, and patient groups back it. The UC takes no position.
+
+If you're confident CIII is ready and the revenue returns are credible, or you think immunology research can't wait until 2028, Yes is a defensible vote.
+
+**Caveats**
+- Opponents have asked Attorney General Bonta to review whether the measure violates a constitutional ban on initiatives that name a private corporation to perform a function. No response was reported. A legal challenge could delay the money.
+- I couldn't open PPIC's page or the LAO's PDF. The 57–41 poll figure and some LAO details come from search summaries and secondary reports.
+- The LAO text says "about 20 years," but several commentators use 25.
+- I don't know the result. Polls close at 8 p.m. today.
+
+Sources:
+- [CA Secretary of State voter guide, Prop 38](https://voterguide.sos.ca.gov/propositions/38/)
+- [SOS voter guide, LAO analysis](https://voterguide.sos.ca.gov/propositions/38/analysis.htm)
+- [CalMatters, Oct. 2026: "This institute could get $4 billion... With just three workers, is it ready?"](https://calmatters.org/politics/elections/2026/10/prop-38-california/)
+- [CalMatters, July 2026: who's behind it and the eligibility criteria](https://calmatters.org/politics/elections/2026/07/proposition-38-california/)
+- [CalMatters, Dan Walters column, Oct. 2026](https://calmatters.org/commentary/2026/10/prop-38-california-medical-research-bond/)
+- [Sacramento Bee editorial board, "Proposition 38 is a sleeper on the ballot" (via Yahoo)](https://www.yahoo.com/news/politics/articles/proposition-38-sleeper-ballot-california-170000615.html)
+- [Sacramento Bee, constitutional challenge request (via Yahoo)](https://www.yahoo.com/news/politics/articles/prop-38-unconstitutional-opponents-immunology-120000131.html)
+- [San Francisco Chronicle editorial on Prop 38](https://www.sfchronicle.com/opinion/editorials/article/prop-38-money-california-22453646.php)
+- [Hoover Institution, Proposition Lab: Prop 38](https://www.hoover.org/proposition-lab-proposition-38)
+- [KQED voter guide, Prop 38](https://www.kqed.org/voterguide/california/proposition-38)
+- [PPIC, October 2026 statewide survey](https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/)
+- [Ballotpedia, SB 895 research bond](https://news.ballotpedia.org/2026/10/02/california-voters-to-decide-7-5-billion-science-and-health-research-bond-measure-in-march-2028/)
+- [LAO, Fiscal Outlook (Nov. 2025)](https://lao.ca.gov/Publications/Report/5091)
+- [SF Chronicle, first Prop 71 royalty check](https://www.sfchronicle.com/health/article/State-earns-first-royalty-check-after-investing-12605742.php)
+- [Yes on 38 campaign](https://yeson38.com/)
+- [No on 38 campaign](https://votenoonprop38.org/)

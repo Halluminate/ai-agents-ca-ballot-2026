@@ -1,0 +1,172 @@
+{
+  "run_id": "grok__native__win__p44__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "native",
+  "harness": "grok_build",
+  "effort": "xhigh",
+  "prompt": "win",
+  "prop": "44",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:50:02.812331+00:00",
+  "finished_at": "2026-11-03T12:56:49.538437+00:00",
+  "seconds": 404.3,
+  "input_tokens": 50953,
+  "output_tokens": 5870,
+  "cached_tokens": 118656,
+  "cost_usd": 0.1965,
+  "cost_source": "estimated",
+  "billed_usd": 1.9965860000000002,
+  "searches": [
+    "California Proposition 44 November 2026 ballot polling odds likelihood",
+    "California Proposition 44 2026 voter guide what is it",
+    "Proposition 44 California 2026 poll PPIC yes no campaign finance",
+    "California Prop 44 prediction market Polymarket Kalshi odds pass fail",
+    "site:ppic.org Proposition 44 October 2026",
+    "\"Proposition 44\" \"71%\" OR \"25%\" OR \"likely voters\" 2026",
+    "California ballot measure contribution totals Proposition 44 SEIU 2026",
+    "\"No on Prop 44\" OR \"Yes on Prop 44\" OR \"No on Proposition 44\" poll OR forecast OR odds",
+    "California Democratic Party Republican Party Newsom Proposition 44 oppose support endorsement",
+    "PPIC statewide survey October 2026 PDF proposition 44 \"25 percent\"",
+    "California Proposition 44 election results November 3 2026 yes no votes",
+    "\"Prop 44\" OR \"Proposition 44\" results 2026 California early returns",
+    "site:electionresults.sos.ca.gov Proposition 44",
+    "California election results November 3 2026 proposition 44 live",
+    "\"Proposition 44\" \"percent reporting\" OR \"precincts reporting\" OR \"votes\" 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 0,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/44/",
+    "https://voterguide.sos.ca.gov/propositions/44/analysis.htm",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://ballotpedia.org/California_Proposition_44,_Spending_Requirements_for_Federally_Qualified_Health_Centers_Initiative_(2026",
+    "https://onpointpolitics.us/forecast/measures/ca/proposition-44",
+    "https://electionresults.sos.ca.gov/returns/ballot-measures",
+    "https://www.ppic.org/pdf/ppic-statewide-survey-californians-and-their-government-october-2026.pdf",
+    "https://electionresults.sos.ca.gov/returns/ballot-measures/county"
+  ],
+  "tool_errors": 1,
+  "warnings": [
+    "capture: 23 connection attempts that ignored the proxy were blocked (grok-1.0.70 network-outbound x22, grok-1.0.70 remote:*:49346 x1)",
+    "capture: 2 connections were not readable by the proxy (openrouter.ai:443)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 35,
+    "requests_per_host": {
+      "openrouter.ai": 28,
+      "voterguide.sos.ca.gov": 2,
+      "electionresults.sos.ca.gov": 2,
+      "onpointpolitics.us": 1,
+      "ballotpedia.org": 1,
+      "www.ppic.org": 1
+    },
+    "hosts": [
+      "ballotpedia.org",
+      "electionresults.sos.ca.gov",
+      "onpointpolitics.us",
+      "openrouter.ai",
+      "voterguide.sos.ca.gov",
+      "www.ppic.org"
+    ],
+    "status_counts": {
+      "200": 33,
+      "404": 1
+    },
+    "bytes_up": 695815,
+    "bytes_down": 3699803,
+    "wire_bytes": {
+      "harness_to_proxy": 716571,
+      "proxy_to_harness": 3803980,
+      "proxy_to_internet": 713477,
+      "internet_to_proxy": 3830608
+    },
+    "byte_counter": true,
+    "errors": 3,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 2069,
+        "bytes_down": 1718,
+        "duration": 0.1628,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3189,
+        "duration": 0.2211,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 22
+      },
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": "remote:*:49346",
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 23,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 14,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:50:02.812331+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:50:02.812331+00:00",
+      "finished_at": "2026-11-03T12:56:49.538437+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "run_id": "kimi__common__better__p2__r1",
+  "model": "kimi",
+  "model_id": "moonshotai/kimi-k3",
+  "pin": "moonshotai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "2",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "last_line",
+  "error": "",
+  "started_at": "2026-11-03T12:42:05.742980+00:00",
+  "finished_at": "2026-11-03T12:44:01.129082+00:00",
+  "seconds": 112.6,
+  "input_tokens": 17730,
+  "output_tokens": 3760,
+  "cached_tokens": 17664,
+  "cost_usd": 0.1403,
+  "cost_source": "reported",
+  "billed_usd": 0.14028196624,
+  "searches": [
+    "California Proposition 2 2024 school bond",
+    "California 2026 ballot measure double rainy day fund budget stabilization account",
+    "California Proposition 2 2026 rainy day fund constitutional amendment",
+    "Proposition 2 2026 California rainy day fund endorsement editorial LA Times Howard Jarvis",
+    "ACA 20 \"Save for California's Future Act\" Gabriel analysis Gann Limit unemployment insurance debt"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 9,
+    "requests_per_host": {
+      "openrouter.ai": 9
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 9
+    },
+    "bytes_up": 161631,
+    "bytes_down": 570656,
+    "wire_bytes": {
+      "harness_to_proxy": 178696,
+      "proxy_to_harness": 617073,
+      "proxy_to_internet": 176355,
+      "internet_to_proxy": 635345
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 9,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:42:05.742980+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:42:05.742980+00:00",
+      "finished_at": "2026-11-03T12:44:01.129082+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

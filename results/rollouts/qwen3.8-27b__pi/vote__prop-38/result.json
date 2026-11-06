@@ -1,0 +1,91 @@
+{
+  "run_id": "qwen-27b__common__vote__p38__r1",
+  "model": "qwen-27b",
+  "model_id": "qwen/qwen3.8-27b",
+  "pin": "deepinfra",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "38",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T13:43:48.828542+00:00",
+  "finished_at": "2026-11-03T13:45:42.998156+00:00",
+  "seconds": 111.2,
+  "input_tokens": 30668,
+  "output_tokens": 5339,
+  "cached_tokens": 39200,
+  "cost_usd": 0.0263,
+  "cost_source": "reported",
+  "billed_usd": 0.026254385079999998,
+  "searches": [
+    "California Proposition 38 ballot measure",
+    "California Institute of Immunology and Immunotherapy Gates Zuckerberg prop 38",
+    "California General Fund balance 2026 record surplus bond borrowing prop 38"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/38/",
+    "https://lao.ca.gov/ballot/2026/prop38-110326.pdf",
+    "https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm",
+    "https://www.sfchronicle.com/opinion/emilyhoeven/article/prop-38-california-newsom-22495203.php",
+    "https://calmatters.org/politics/elections/2026/07/proposition-38-california/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 7,
+    "requests_per_host": {
+      "openrouter.ai": 7
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 7
+    },
+    "bytes_up": 294949,
+    "bytes_down": 1889717,
+    "wire_bytes": {
+      "harness_to_proxy": 305714,
+      "proxy_to_harness": 1993361,
+      "proxy_to_internet": 304586,
+      "internet_to_proxy": 2002853
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 6,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:43:48.828542+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:43:48.828542+00:00",
+      "finished_at": "2026-11-03T13:45:42.998156+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+**No.**
+
+Based on my research of Proposition 40 (the one-time 5% billionaire wealth tax), here's what informed my decision:
+
+**The case for it is real:** Federal H.R. 1 cuts could cost California's Medi-Cal program ~$30 billion/year and strip coverage from ~1.3 million Californians; California billionaire wealth has ballooned to ~$2.3 trillion while paying low effective tax rates; and the nonpartisan LAO confirms it would likely raise tens of billions of dollars.
+
+**But the flaws are decisive:**
+- **Structural design problems:** It's ballot-box budgeting locked into the constitution — one-time money for recurring needs (a fiscal cliff), with revenues exempted from both the Prop 98 school funding guarantee and the Gann spending limit, and weak protections against the Legislature substituting the funds for existing health spending or steering them to insurers.
+- **Serious legal and implementation risk:** The retroactive residency rule, worldwide asset reach, and valuation of private companies invite years of litigation before a conservative Supreme Court — and California has no wealth-valuation infrastructure, so money likely wouldn't arrive when the federal cuts actually bite.
+- **Genuine fiscal downside risk:** Several billionaires (Brin, Page, Thiel, Sacks, etc.) already left before the residency cutoff, and California's budget depends heavily on top earners' ongoing income taxes. The LAO itself says revenue is "very hard to predict" and ongoing losses are possible.
+- **The breadth of opposition is telling:** Gov. Newsom, both parties' gubernatorial candidates, the California Teachers Association, California Medical Association, Planned Parenthood Affiliates of CA, Children's Hospital Association, firefighters, and school boards — groups that *share* the goal of protecting health care — concluded this mechanism would do more harm than good. Major editorial boards (LA Times, Sacramento Bee, SF Chronicle) reached the same conclusion.
+
+A real problem, but the wrong instrument.

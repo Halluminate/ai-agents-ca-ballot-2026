@@ -1,0 +1,106 @@
+{
+  "run_id": "gpt__native__better__p37__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "37",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:18:19.126374+00:00",
+  "finished_at": "2026-11-03T12:28:07.243514+00:00",
+  "seconds": 585.9,
+  "input_tokens": 48,
+  "output_tokens": 8951,
+  "cached_tokens": 935602,
+  "cost_usd": 3.0637,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 37 2026 new homes 25 billion mortgages analysis opposition ...",
+    "\"Proposition 37\" 2026 housing analysis CalMatters Budget Policy Center ...",
+    "'Executive Summary'",
+    "California Civil Code \"2924.13\" ...",
+    "site.lwvc.org \"37\" \"2026\" home ...",
+    "\"Proposition 37\" \"McClatchy\" \"2026\" rates ...",
+    "\"League of Women Voters\" \"Proposition 37\" \"2026\" mortgages ...",
+    "'2924.13.'",
+    "Carozzi Hilber Yu Help to Buy housing supply prices new build supply constrained study ...",
+    "site.fanniemae.com 97 percent loan to value 3 percent down payment standard 97 ...",
+    "'Proposition 37'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/37/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 29,
+    "requests_per_host": {
+      "api.openai.com": 22,
+      "ab.chatgpt.com": 7
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 21,
+      "202": 6
+    },
+    "bytes_up": 1599091,
+    "bytes_down": 3607763,
+    "wire_bytes": {
+      "harness_to_proxy": 1286795,
+      "proxy_to_harness": 2168554,
+      "proxy_to_internet": 1284581,
+      "internet_to_proxy": 2217167
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "ab.chatgpt.com",
+        "url": "https://ab.chatgpt.com/otlp/v1/metrics",
+        "error": "stream reset by client (CANCEL)"
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 3367,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 25,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:18:19.126374+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:18:19.126374+00:00",
+      "finished_at": "2026-11-03T12:28:07.243514+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

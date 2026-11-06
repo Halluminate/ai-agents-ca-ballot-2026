@@ -1,0 +1,69 @@
+{
+  "requests": 16,
+  "requests_per_host": {
+    "openrouter.ai": 11,
+    "www.ppic.org": 1,
+    "ballotpedia.org": 1,
+    "quickguidetoprops.sos.ca.gov": 1,
+    "www.yesonprop2.com": 1,
+    "socialecology.uci.edu": 1
+  },
+  "hosts": [
+    "ballotpedia.org",
+    "openrouter.ai",
+    "quickguidetoprops.sos.ca.gov",
+    "socialecology.uci.edu",
+    "www.ppic.org",
+    "www.yesonprop2.com"
+  ],
+  "status_counts": {
+    "200": 15,
+    "202": 1
+  },
+  "bytes_up": 777240,
+  "bytes_down": 2919532,
+  "wire_bytes": {
+    "harness_to_proxy": 808494,
+    "proxy_to_harness": 2978540,
+    "proxy_to_internet": 805071,
+    "internet_to_proxy": 3010816
+  },
+  "byte_counter": true,
+  "errors": 3,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 16,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

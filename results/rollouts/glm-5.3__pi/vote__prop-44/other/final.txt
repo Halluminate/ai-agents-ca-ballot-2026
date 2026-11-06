@@ -1,0 +1,21 @@
+# No.
+
+That's my recommendation on Proposition 44, after reviewing the official voter guide, the Legislative Analyst's analysis, the full text of the proposed law, campaign finance records, polling, and extensive news coverage. Here's the reasoning behind it:
+
+**What it does:** Prop 44 requires California's ~2,000 nonprofit safety-net clinics (Federally Qualified Health Centers) to spend at least 90% of revenue on "program services," with penalties equal to any shortfall, paid upfront and held in state escrow for up to five years. It's funded almost entirely by a single sponsor: SEIU-UHW ($16.9M of the $16.9M raised).
+
+**Why I landed on No:**
+
+1. **The math doesn't work.** The nonpartisan Legislative Analyst's Office reports clinics currently spend an *average* of ~80% of revenue on care. Setting a legal floor of 90% — above the current average — means most clinics, including well-run ones, would be out of compliance on day one. A study of IRS filings found 91% of clinic organizations would fail in year one, owing ~$1.7 billion in penalties, pushing ~88% into operating losses. Even the few organizations that meet the ratio only do so because they're running negative margins.
+
+2. **The formula is structurally flawed.** The ratio is built on IRS Form 990 "program service expenses," which excludes mission-serving costs like community outreach, case management, IT/electronic health records, equipment, and facility expansion. Worse, any year a clinic *reserves* money for a future building or capital project, it gets penalized for the savings — punishing exactly the prudent planning safety-net clinics need, especially with federal cuts looming.
+
+3. **The penalties hit first.** Clinics must pay the shortfall within 30 days, and only recover it after coming into compliance. For nonprofits running 1–3% margins, that's a liquidity shock. The measure also adds a private right of action allowing any patient to sue (with no good-faith defense) and criminal liability for directors who misclassify expenses.
+
+4. **Extraordinarily broad opposition.** Both the California Democratic *and* Republican parties, the California Medical Association, California Primary Care Association, Planned Parenthood, pediatricians, family physicians, school nurses, ER doctors, OB/GYNs, the teachers association, and the Chamber of Commerce all oppose it. Every major editorial board that has weighed in (SF Chronicle, Sacramento Bee, Mercury News, OC Register, and others) recommends No. The only endorsement is the sponsoring union itself.
+
+5. **The context is troubling.** The Legislature rejected similar legislation. SEIU-UHW's president has filed ~50 initiatives since 2009 — including three failed dialysis measures — and clinics have filed a federal racketeering lawsuit alleging the measure was offered as a bargaining chip for unionization concessions (the union denies this). Even the sponsor has barely campaigned for it lately, and PPIC's October poll shows just 25% support vs. 71% opposition — the least popular measure on the ballot.
+
+**The kernel of truth on the other side:** some clinic executives are genuinely overpaid (e.g., AltaMed's CEO at ~$1.9M), and taxpayer accountability matters. But a blunt, unachievable spending ratio enforced by upfront penalties and patient lawsuits is the wrong tool — it risks destabilizing the clinics that 7 million Californians (1 in 4 Medi-Cal patients) rely on, without targeting the actual bad actors.
+
+**Vote No on Prop 44.**

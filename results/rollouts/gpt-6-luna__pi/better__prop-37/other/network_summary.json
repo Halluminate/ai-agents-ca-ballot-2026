@@ -1,0 +1,76 @@
+{
+  "requests": 87,
+  "requests_per_host": {
+    "openrouter.ai": 64,
+    "www.nationalacademies.org": 5,
+    "vigarchive.sos.ca.gov": 3,
+    "www.latimes.com": 3,
+    "www.ams.usda.gov": 2,
+    "lao.ca.gov": 1,
+    "law.ucdavis.edu": 1,
+    "www.pewresearch.org": 1,
+    "giannini.ucop.edu": 1,
+    "pubsonline.informs.org": 1,
+    "www.fda.gov": 1,
+    "www.congress.gov": 1,
+    "docs.house.gov": 1,
+    "pubmed.ncbi.nlm.nih.gov": 1,
+    "advocacy.consumerreports.org": 1
+  },
+  "hosts": [
+    "advocacy.consumerreports.org",
+    "docs.house.gov",
+    "giannini.ucop.edu",
+    "lao.ca.gov",
+    "law.ucdavis.edu",
+    "openrouter.ai",
+    "pubmed.ncbi.nlm.nih.gov",
+    "pubsonline.informs.org",
+    "vigarchive.sos.ca.gov",
+    "www.ams.usda.gov",
+    "www.congress.gov",
+    "www.fda.gov",
+    "www.latimes.com",
+    "www.nationalacademies.org",
+    "www.pewresearch.org"
+  ],
+  "status_counts": {
+    "200": 84,
+    "403": 2,
+    "404": 1
+  },
+  "bytes_up": 4722914,
+  "bytes_down": 9009903,
+  "wire_bytes": {
+    "harness_to_proxy": 4911763,
+    "proxy_to_harness": 9397621,
+    "proxy_to_internet": 4884167,
+    "internet_to_proxy": 9633206
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 88,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

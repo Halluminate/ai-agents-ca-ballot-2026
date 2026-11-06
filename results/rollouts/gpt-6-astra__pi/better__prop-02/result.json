@@ -1,0 +1,157 @@
+{
+  "run_id": "gpt__common__better__p2__r1",
+  "model": "gpt",
+  "model_id": "openai/gpt-6-astra",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "2",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T04:59:09.479618+00:00",
+  "seconds": 108.0,
+  "input_tokens": 110207,
+  "output_tokens": 2415,
+  "cached_tokens": 257307,
+  "cost_usd": 1.7804,
+  "cost_source": "reported",
+  "searches": [
+    "California 2026 Proposition 2 rainy day fund constitutional spending limit ACA 1 analysis",
+    "California Proposition 2 2026 rainy day fund analysis opposition Gann Limit ACA 20",
+    "site.lao.ca.gov 2025 2026 rainy day fund 20 percent reserves Gann limit",
+    "\"Proposition 2\" \"2026\" \"oppose\" \"rainy\"",
+    "site.pew.org California rainy day fund reserves volatility 2025 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/",
+    "https://voterguide.sos.ca.gov/propositions/2/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/title-summary.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop2-text-proposed-laws.pdf",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-2-rainy",
+    "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-2-rainy-day-fund-voter-guide",
+    "https://calbudgetcenter.org/resources/should-voters-approve-proposition-2-how-californias-rainy-day-fund-would-be-updated",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop2-text-proposed-laws.pdf",
+    "https://calbudgetcenter.org/resources/should-voters-approve-proposition-2-how-californias-rainy-day-fund-would-be-updated",
+    "https://calmatters.org/california-voter-guide-2026/proposition-2-rainy-day-fund/",
+    "https://www.ocregister.com/2026/10/07/endorsement-no-on-prop-2-california-needs-fiscal-discipline-not-accounting-tricks/",
+    "https://www.sandiegouniontribune.com/2026/10/02/endorsements-props-2-37-wouldnt-yield-saner-state-budgets-more-housing/",
+    "https://abgt.assembly.ca.gov/system/files/2026-06/aca-20-analysis.pdf",
+    "https://calbudgetcenter.org/resources/should-voters-approve-proposition-2-how-californias-rainy-day-fund-would-be-updated",
+    "https://lao.ca.gov/Publications/Report/5028",
+    "https://lao.ca.gov/Publications/Report/5028",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-2-money-california-22468892.php",
+    "https://www.ijpr.org/elections/2026-10-26/california-has-more-revenue-than-expected-thanks-to-ai-should-the-state-save-it?_amp=true",
+    "https://www.counties.org/wp-content/uploads/2026/10/Aug-20-2026-BoD-Meeting-Packet.pdf",
+    "https://lao.ca.gov/Publications/Report/5028",
+    "https://www.counties.org/wp-content/uploads/2026/10/Aug-20-2026-BoD-Meeting-Packet.pdf",
+    "https://sfstandard.com/opinion/2026/09/14/newsom-rainy-day-fund-prop-2/",
+    "https://www.pew.org/en/research-and-analysis/articles/2025/05/06/what-happens-to-reserves-when-states-hit-rainy-day-fund-caps",
+    "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-2-rainy-day-fund-voter-guide"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "Warning: TT: invalid function id: 136",
+    "Warning: TT: undefined function: 21",
+    "Warning: TT: undefined function: 21",
+    "Warning: TT: undefined function: 21",
+    "Warning: TT: undefined function: 21",
+    "Warning: TT: invalid function id: 136",
+    "Warning: TT: invalid function id: 136",
+    "Warning: TT: undefined function: 21",
+    "Warning: TT: undefined function: 21",
+    "Warning: TT: undefined function: 21",
+    "Warning: TT: invalid function id: 136",
+    "Warning: TT: undefined function: 32",
+    "Warning: TT: invalid function id: 136",
+    "Warning: TT: undefined function: 21",
+    "Warning: TT: undefined function: 21",
+    "Warning: TT: undefined function: 21",
+    "capture: 1 connections were not readable by the proxy (openrouter.ai:443)"
+  ],
+  "network": {
+    "requests": 18,
+    "requests_per_host": {
+      "openrouter.ai": 13,
+      "calbudgetcenter.org": 2,
+      "lao.ca.gov": 1,
+      "www.ijpr.org": 1,
+      "www.counties.org": 1
+    },
+    "hosts": [
+      "calbudgetcenter.org",
+      "lao.ca.gov",
+      "openrouter.ai",
+      "www.counties.org",
+      "www.ijpr.org"
+    ],
+    "status_counts": {
+      "200": 17,
+      "301": 1
+    },
+    "bytes_up": 1686303,
+    "bytes_down": 5353535,
+    "wire_bytes": {
+      "harness_to_proxy": 1725706,
+      "proxy_to_harness": 5420930,
+      "proxy_to_internet": 1720580,
+      "internet_to_proxy": 5462706
+    },
+    "byte_counter": true,
+    "errors": 3,
+    "error_details": [
+      {
+        "kind": "tls_failed_server",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1711,
+        "bytes_down": 39,
+        "duration": 18.0181,
+        "reason": "connection closed early"
+      }
+    ],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 19,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

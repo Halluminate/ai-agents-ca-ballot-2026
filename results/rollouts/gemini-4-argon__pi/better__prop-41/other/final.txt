@@ -1,0 +1,41 @@
+Whether to vote **yes** or **no** on California Proposition 41 (on the November 3, 2026 general election ballot) is a decision that depends on your personal priorities regarding government oversight, state spending limits, and tax policy. Because there is no objective consensus on how voters should weigh these trade-offs, I cannot give a simple "yes" or "no" recommendation, but I can outline what the measure does and the primary arguments on both sides to help you decide.
+
+---
+
+### What Proposition 41 Does
+Proposition 41 is an Initiative Constitutional Amendment with two main components:
+1. **Audits of Programs Funded by New Special Taxes:**
+   * **Pre-Election Audits:** Requires the independent California State Auditor to review any program that would be funded by a new or increased special tax proposed via voter initiative (triggered once proponents collect 25% of the signatures needed to qualify for the ballot). The audit must include ways to reduce the program's annual costs by 10%, and a summary must be printed in the official Voter Information Guide if the initiative qualifies.
+   * **Ongoing Audits:** Requires the State Auditor to audit programs receiving funds from any new or increased special taxes enacted after January 1, 2026, every four years.
+2. **Prohibition on Exempting New Taxes from the State Spending Limit:**
+   * Nullifies any new state taxes enacted after January 1, 2026, that exclude their revenues from California's constitutional state appropriations (spending) limit.
+   * Specifies that if another measure on the same ballot conflicts with Proposition 41, the conflicting measure is void if Proposition 41 receives more "yes" votes.
+
+---
+
+### Fiscal Impact (Legislative Analyst's Office)
+* **Net Fiscal Effect:** Unknown, as it depends on future actions by voters, the Legislature, and policymakers.
+* **Costs:** Increases State Auditor costs—likely in the low millions of dollars annually and growing over time—plus a few hundred thousand dollars per qualified initiative for added pages in the Voter Information Guide. Audit costs for approved taxes would be paid out of the new tax revenues; costs for pre-election audits of measures that fail to qualify or are rejected by voters would come from the state General Fund.
+* **Potential Savings:** Could result in savings or improved program efficiency if policymakers adopt the State Auditor's recommendations.
+
+---
+
+### Arguments for Voting YES
+*Supporters include the California Society of Certified Public Accountants (CalCPAs), the California Taxpayers Association (CalTax), and the CalAsian Chamber of Commerce.*
+* **Greater Transparency and Accountability:** Gives voters objective, nonpartisan information in the Voter Information Guide about how existing programs are managed before they are asked to approve new special taxes to fund them.
+* **Reducing Waste and Inefficiency:** Recurring performance and financial audits every four years help track whether tax dollars are achieving intended outcomes and identify waste, fraud, or mismanagement.
+* **Protecting the State Spending Limit:** Ensures that new tax measures cannot bypass the voter-approved constitutional cap on state spending.
+
+---
+
+### Arguments for Voting NO
+*Opponents include SEIU-United Healthcare Workers West and U.S. Senator Bernie Sanders.*
+* **Effect on Other Tax Measures (Proposition 40):** Opponents argue that Proposition 41 is primarily designed and funded by billionaires to nullify Proposition 40 (a measure on the same ballot proposing a one-time 5% wealth tax on billionaires primarily to fund health care, which exempts its revenues from the state spending limit).
+* **Impact on Public Services:** Because Proposition 41 prohibits new taxes from exempting their revenues from the state spending limit, opponents contend it would block dedicated funding streams needed for health care, education, and other essential services.
+* **Added State Costs:** Pre-election audits must be conducted after an initiative reaches 25% of required signatures—even if the measure never qualifies for the ballot or fails to pass—leaving the General Fund to cover those administrative and printing costs.
+
+---
+
+### Summary of Your Choices
+* **Vote YES** if you want to require pre-election and recurring State Auditor reviews of programs funded by new special taxes and want to prohibit new state taxes from exempting their revenues from the state's constitutional spending limit.
+* **Vote NO** if you want to keep current State Auditor responsibilities and state spending limit rules unchanged, or if you do not want Proposition 41's spending-limit restrictions to block or invalidate new tax measures that exempt their revenues from the limit (such as Proposition 40).

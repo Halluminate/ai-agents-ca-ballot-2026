@@ -1,0 +1,107 @@
+{
+  "run_id": "sol__native__better__p42__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "42",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:15:00.517543+00:00",
+  "finished_at": "2026-11-03T13:18:00.975330+00:00",
+  "seconds": 178.2,
+  "input_tokens": 45,
+  "output_tokens": 7313,
+  "cached_tokens": 914575,
+  "cost_usd": 0.5841,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 42 2026 personal property retroactive taxes independent analysis ...",
+    "site.lao.ca.gov \"25-0041\" ...",
+    "\"Prohibits New State Personal Property Taxes\" \"lao\" ...",
+    "\"25-0041A1\" \"lao.ca.gov\" ...",
+    "site.leginfo.legislature.ca.gov \"AB 259\" \"retirement\" ...",
+    "\"AB 259\" \"2023\" \"wealth\" \"pensions\" ...",
+    "site.ftb.ca.gov \"AB 259\" \"2023\" wealth ...",
+    "'pension'",
+    "site.embed-rech-01.dialog.cm/pacificreview/docs/mcgeorge_school_of_law_california_initiative_revie \"Proposition 42\" \"income\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/42/",
+    "https://voterguide.sos.ca.gov/propositions/42/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-text-proposed-laws.pdf",
+    "https://voterguide.sos.ca.gov/propositions/40/analysis.htm",
+    "https://www.hoover.org/proposition-lab-proposition-42",
+    "https://yesonprop42.org/faq/",
+    "https://embed-rech-01.dialog.cm/pacificreview/docs/mcgeorge_school_of_law_california_initiative_revie",
+    "https://www.sfchronicle.com/opinion/editorials/article/california-proposition-42-taxes-22449389.php",
+    "https://siepr.stanford.edu/news/california-billionaire-tax-proposal-pro-con",
+    "https://www.nber.org/papers/w35899",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 28,
+    "requests_per_host": {
+      "api.openai.com": 25,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 24,
+      "202": 3
+    },
+    "bytes_up": 1378270,
+    "bytes_down": 3483427,
+    "wire_bytes": {
+      "harness_to_proxy": 1066868,
+      "proxy_to_harness": 2146143,
+      "proxy_to_internet": 1064917,
+      "internet_to_proxy": 2195617
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 3269,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 27,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:15:00.517543+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:15:00.517543+00:00",
+      "finished_at": "2026-11-03T13:18:00.975330+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

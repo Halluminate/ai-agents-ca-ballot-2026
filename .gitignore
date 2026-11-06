@@ -1,0 +1,10 @@
+# Secrets and local tools (no trailing slash, so links to them are ignored too)
+.env
+node_modules
+.venv-netlog
+.mitmproxy
+# Raw runs, with full network logs: published only through the cleaned export and the logs release
+runs
+__pycache__
+*.pyc
+.DS_Store

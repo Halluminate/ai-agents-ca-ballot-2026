@@ -1,0 +1,34 @@
+This turns on a values question: should California be able to tax wealth in the future? I won't pick a side on that for you, but here's the yes/no version:
+
+- **Yes** if you want the state permanently barred from new taxes on owning wealth, including taxes aimed only at the very rich, and from most retroactive taxes.
+- **No** if you want to keep those options open, including if you back Prop 40's billionaire tax.
+
+**What it does**
+- Bars new state taxes on owning personal property: financial assets, retirement accounts, pensions, business interests, intellectual property, and personal belongings. It applies at any wealth level. It doesn't change income or capital gains taxes, real estate taxes, or taxes already in place.
+- Bars new retroactive taxes, including taxes based on residency before the tax takes effect. The one exception covers Legislature-passed taxes that reach back no more than 365 days, only during a governor-declared emergency, with revenue limited to that emergency.
+- Because it's a constitutional amendment, only voters could change it later.
+- If it gets more yes votes than Prop 40, Prop 40 is void, even if Prop 40 wins a majority.
+
+**The retirement argument**
+- Supporters say lawmakers keep introducing wealth-tax bills, so the protection belongs in the constitution. Six such proposals have been introduced since 2019, and none got out of its house of origin. The two I checked started at $30 million (AB 2088, 2019) and $50 million (AB 259, 2023) in net worth.
+- I found no active proposal to tax 401(k)s or pensions. Prop 40 exempts most retirement accounts, though it would tax Roth IRA balances over $10 million.
+- "Double taxation" fits after-tax savings best. Traditional 401(k)s and IRAs are generally taxed when withdrawn.
+- The bigger long-run effect is permanence: any future wealth tax would need a new constitutional amendment.
+
+**Trade-offs**
+- The nonpartisan Legislative Analyst says it could make taxes "somewhat harder" to raise and reduce future revenue, by an unclear amount.
+- The California Budget & Policy Center says it would limit options for taxing wealthy households. The SF Chronicle says the retroactivity ban could create legal complications.
+
+**Politics**
+- Backed by Gov. Newsom, the CalChamber, the California Taxpayers Association, firefighters, and building trades, and endorsed by the San Diego Union-Tribune and OC Register. Opposed by SEIU-UHW (Prop 40's sponsor), the state Democratic Party, the state labor federation, and the SF Chronicle, Sacramento Bee, and Mercury News.
+- Most of the roughly $128 million raised for it came from Building a Better California, which is funded largely by Sergey Brin and other billionaires and also opposes Prop 40.
+- Each side's main pitch skips part of the picture. The Yes side's 401(k) message doesn't convey how broad the ban is. The No side's "billionaire trick" message doesn't address whether a permanent ban is good policy.
+- PPIC's October poll: 51% yes, 47% no.
+
+**If Prop 40 is your deciding issue**
+- To keep Prop 40 from being blocked, vote No on 41 and 42.
+- If both 40 and 42 pass and 40 gets more votes, courts would have to sort out the conflict. The Prop 42 campaign says its ban would still cover future wealth taxes.
+
+**Bottom line on the facts:** the retirement rationale is weaker than the ads suggest, and the measure is broader than its title. Whether a permanent ban is worth it is your call.
+
+I checked the measure's full text, the LAO analysis, polling, and coverage from both sides. I found no results yet, so the vote appears to still be pending. Election Day is Nov. 3.

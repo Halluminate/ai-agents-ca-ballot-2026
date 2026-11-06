@@ -1,0 +1,57 @@
+{
+  "requests": 23,
+  "requests_per_host": {
+    "openrouter.ai": 15,
+    "calmatters.org": 2,
+    "www.aeaweb.org": 2,
+    "www.ppic.org": 2,
+    "www.sco.ca.gov": 1,
+    "www.pasadenastarnews.com": 1
+  },
+  "hosts": [
+    "calmatters.org",
+    "openrouter.ai",
+    "www.aeaweb.org",
+    "www.pasadenastarnews.com",
+    "www.ppic.org",
+    "www.sco.ca.gov"
+  ],
+  "status_counts": {
+    "200": 22,
+    "301": 1
+  },
+  "bytes_up": 1450736,
+  "bytes_down": 1510732,
+  "wire_bytes": {
+    "harness_to_proxy": 1499028,
+    "proxy_to_harness": 1591713,
+    "proxy_to_internet": 1493439,
+    "internet_to_proxy": 1643755
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 24,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

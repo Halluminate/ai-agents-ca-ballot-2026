@@ -1,0 +1,293 @@
+{
+  "run_id": "grok__native__vote__p41__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "native",
+  "harness": "grok_build",
+  "effort": "xhigh",
+  "prompt": "vote",
+  "prop": "41",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:03:24.886423+00:00",
+  "finished_at": "2026-11-03T12:16:51.421648+00:00",
+  "seconds": 804.0,
+  "input_tokens": 39563,
+  "output_tokens": 11530,
+  "cached_tokens": 130816,
+  "cost_usd": 0.2137,
+  "cost_source": "estimated",
+  "billed_usd": 1.4195239999999998,
+  "searches": [
+    "California Proposition 41 voter guide 2026",
+    "California Proposition 41 2026 Gann limit Prop 40 billionaire tax campaign finance analysis",
+    "California Gann limit 2025 2026 status room under appropriations limit LAO",
+    "California Proposition 41 analysis flaws Gann limit exemption infrastructure special taxes",
+    "California Proposition 41 Hoover Institution analysis",
+    "California State Auditor workload capacity performance audits special taxes Proposition 41",
+    "Proposition 40 California LAO analysis Gann limit exemption wealth tax 2026",
+    "California Proposition 41 editorial endorsements yes no newspapers 2026",
+    "\"Proposition 41\" \"Hospital Quality Assurance\" OR \"MCO tax\" OR \"10 percent\" auditor independence"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 0,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/41/",
+    "https://voterguide.sos.ca.gov/propositions/41/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=41&year=2026",
+    "https://ballotpedia.org/California_Proposition_41,_Prohibit_Excluding_New_State_Taxes_from_Spending_Limit_and_Require_Special_Tax_Audits_Initiative_(2026",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+    "https://voterguide.sos.ca.gov/propositions/40/",
+    "https://www.sfchronicle.com/opinion/editorials/article/endorsement-california-prop-41-taxes-22445889.php",
+    "https://eml.berkeley.edu/~saez/GGS26props41-42.pdf",
+    "https://www.hoover.org/proposition-lab-proposition-41",
+    "https://lwvc.org/ballot-recommendations/"
+  ],
+  "tool_errors": 1,
+  "warnings": [
+    "capture: 23 connection attempts that ignored the proxy were blocked (grok-1.0.70 network-outbound x23)",
+    "capture: 12 connections were not readable by the proxy (openrouter.ai:443, voterguide.sos.ca.gov:443)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 31,
+    "requests_per_host": {
+      "openrouter.ai": 20,
+      "voterguide.sos.ca.gov": 4,
+      "lao.ca.gov": 1,
+      "ballotpedia.org": 1,
+      "vig.cdn.sos.ca.gov": 1,
+      "www.sfchronicle.com": 1,
+      "eml.berkeley.edu": 1,
+      "www.hoover.org": 1,
+      "lwvc.org": 1
+    },
+    "hosts": [
+      "ballotpedia.org",
+      "eml.berkeley.edu",
+      "lao.ca.gov",
+      "lwvc.org",
+      "openrouter.ai",
+      "vig.cdn.sos.ca.gov",
+      "voterguide.sos.ca.gov",
+      "www.hoover.org",
+      "www.sfchronicle.com"
+    ],
+    "status_counts": {
+      "200": 30,
+      "404": 1
+    },
+    "bytes_up": 942092,
+    "bytes_down": 2539345,
+    "wire_bytes": {
+      "harness_to_proxy": 983967,
+      "proxy_to_harness": 2676601,
+      "proxy_to_internet": 979142,
+      "internet_to_proxy": 2730393
+    },
+    "byte_counter": true,
+    "errors": 10,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "peer closed connection"
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "voterguide.sos.ca.gov",
+        "port": 443,
+        "sni": "voterguide.sos.ca.gov",
+        "bytes_up": 2093,
+        "bytes_down": 1632,
+        "duration": 0.2005,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 2069,
+        "bytes_down": 1718,
+        "duration": 0.2245,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1221,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1257,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 10.0033,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 10.0056,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 10.0016,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 10.0023,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 10.001,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 10.0012,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 10.0035,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 0.0308,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 23
+      }
+    ],
+    "blocked_attempts": 23,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 31,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:03:24.886423+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:03:24.886423+00:00",
+      "finished_at": "2026-11-03T12:16:51.421648+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

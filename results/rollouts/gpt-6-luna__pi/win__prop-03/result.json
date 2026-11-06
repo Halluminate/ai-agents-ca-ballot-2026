@@ -1,0 +1,88 @@
+{
+  "run_id": "luna__common__win__p3__r1",
+  "model": "luna",
+  "model_id": "openai/gpt-6-luna",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "3",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:35:42.089970+00:00",
+  "finished_at": "2026-11-03T11:36:01.311435+00:00",
+  "seconds": 16.5,
+  "input_tokens": 17052,
+  "output_tokens": 622,
+  "cached_tokens": 2629,
+  "cost_usd": 0.0329,
+  "cost_source": "reported",
+  "billed_usd": 0.032875325680000005,
+  "searches": [
+    "California Proposition 3 2024 polling support likely yes vote election forecast poll Proposition 3 marriage equality",
+    "California Proposition 3 support poll 2024 UC Berkeley poll USC same sex marriage amendment",
+    "California Prop 3 polling October 2024 support 67 percent likely voters PPIC marriage rights",
+    "site:sos.ca.gov 2024 California Proposition 3 certified results official yes 2024 general election",
+    "California Proposition 3 2024 ballot endorsements opposition campaign spending status polling early 2024",
+    "2024 California Proposition 3 final results official state canvass 62.6"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 9,
+    "requests_per_host": {
+      "openrouter.ai": 9
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 9
+    },
+    "bytes_up": 90930,
+    "bytes_down": 101016,
+    "wire_bytes": {
+      "harness_to_proxy": 110511,
+      "proxy_to_harness": 124442,
+      "proxy_to_internet": 107209,
+      "internet_to_proxy": 148626
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 10,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:35:42.089970+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:35:42.089970+00:00",
+      "finished_at": "2026-11-03T11:36:01.311435+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

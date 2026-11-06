@@ -1,0 +1,95 @@
+{
+  "run_id": "luna__native__win__p39__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "39",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:00:10.547346+00:00",
+  "finished_at": "2026-11-03T13:02:35.291547+00:00",
+  "seconds": 142.5,
+  "input_tokens": 54,
+  "output_tokens": 9334,
+  "cached_tokens": 1308526,
+  "cost_usd": 0.1269,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/39 California Proposition 39 2026 ...",
+    "California Proposition 39 2026 voter ID poll October 2026 UC Berkeley IGS 37 57 ...",
+    "\"Proposition 39\" \"Yes\" \"No\" \"California\" poll 2026 voter ID survey ...",
+    "SurveyUSA Election Poll #28073 California Proposition 39 October 19 24 2026 results ...",
+    "\"Election Poll #28073\" Prop 39 ...",
+    "\"M3 Strategies\" \"Proposition 39\" California poll October 2026 ...",
+    "California Proposition 39 results November 3 2026 live returns ...",
+    "California Prop 39 voter ID prediction market odds 2026 yes no ...",
+    "\"Dems Remain in Charge in California Governor and US House Races\" \"Proposition 39\" SurveyUSA ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 19,
+    "requests_per_host": {
+      "api.openai.com": 18,
+      "ab.chatgpt.com": 1
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 17,
+      "202": 1
+    },
+    "bytes_up": 743358,
+    "bytes_down": 3121359,
+    "wire_bytes": {
+      "harness_to_proxy": 345509,
+      "proxy_to_harness": 1795958,
+      "proxy_to_internet": 343185,
+      "internet_to_proxy": 1830948
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1684,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 20,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:00:10.547346+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:00:10.547346+00:00",
+      "finished_at": "2026-11-03T13:02:35.291547+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

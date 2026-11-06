@@ -1,0 +1,115 @@
+{
+  "run_id": "gemini__common__win__p39__r1",
+  "model": "gemini",
+  "model_id": "google/gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "39",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:02:58.809621+00:00",
+  "seconds": 62.8,
+  "input_tokens": 84671,
+  "output_tokens": 2491,
+  "cached_tokens": 293361,
+  "cost_usd": 0.2491,
+  "cost_source": "reported",
+  "searches": [
+    "\"voterguide.sos.ca.gov/propositions/39\" OR \"Proposition 39\" California",
+    "\"Proposition 39\" \"Voter ID\" California 2026",
+    "\"Proposition 39\" California 2026 poll OR polling",
+    "\"Californians for Voter ID\" \"Prop 39\" OR \"Proposition 39\"",
+    "\"Prohibits Citizens From Voting Unless They Present Government-Issued Identification\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/39/",
+    "https://voterguide.sos.ca.gov/propositions/39/title-summary.htm",
+    "https://voterguide.sos.ca.gov/propositions/39/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/39/arguments-rebuttals.htm",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-39-establishes-additional-voter-identification-and-citizenship-verification-requirements-initiative-constitutional-a",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_39",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_39",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_39",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_39",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_39",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_39",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_39",
+    "https://ballotpedia.org/California_Proposition_39,_Voter_Identification,_Citizenship_Verification,_and_Registered_Voter_List_Administration_Initiative_(2026"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 17,
+    "requests_per_host": {
+      "openrouter.ai": 14,
+      "www.sos.ca.gov": 1,
+      "en.wikipedia.org": 1,
+      "ballotpedia.org": 1
+    },
+    "hosts": [
+      "ballotpedia.org",
+      "en.wikipedia.org",
+      "openrouter.ai",
+      "www.sos.ca.gov"
+    ],
+    "status_counts": {
+      "200": 16,
+      "202": 1
+    },
+    "bytes_up": 1326417,
+    "bytes_down": 236160,
+    "wire_bytes": {
+      "harness_to_proxy": 1363925,
+      "proxy_to_harness": 283817,
+      "proxy_to_internet": 1358676,
+      "internet_to_proxy": 325637
+    },
+    "byte_counter": true,
+    "errors": 3,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 18,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

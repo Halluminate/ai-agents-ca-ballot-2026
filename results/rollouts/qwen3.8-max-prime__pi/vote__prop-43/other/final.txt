@@ -1,0 +1,45 @@
+# Vote **NO** on Proposition 43
+
+## What it actually is
+Prop 43 (ACA 22, Res. Ch. 132, Statutes of 2026) adds Section 4.5 to Article XIII A of the California Constitution — the article created by Prop 13. Effective **January 1, 2027**, it does two things:
+
+1. **(a)** Any local **special tax** (money earmarked for a specific purpose) proposed by citizen initiative must now win **two-thirds** instead of a simple majority — reversing the *Upland* (2017) line of appellate rulings (SF Prop C 2020, Fresno 2020, *HJTA v. SF* 2021).
+2. **(b)** Permanently **bans** local governments *and voters acting by initiative* from imposing **ad valorem (value-based) property taxes**, except as Art. XIII D allows.
+
+It was placed on the ballot June 25, 2026 (Assembly 68–2, Senate 35–1) as a last-minute trade: the Howard Jarvis Taxpayers Association withdrew its far more damaging "Local Taxpayer Protection Act to Save Prop 13," which would have *retroactively voided* existing taxes and capped transfer taxes (LAO: up to ~$2B/year in local losses), and the Legislature pulled ACA 13 (a "poison pill" requiring supermajority measures to pass by supermajority).
+
+## Why NO
+
+**1. It's a permanent, unfixable restriction on majority rule.** This is a constitutional amendment, so the Legislature can never repair it — only voters can, and Prop 43 makes it harder for voters to act. It writes into the constitution that ~34% of voters can defeat what ~66% want, and it targets specifically the *initiative power*, the one tool designed for when elected officials won't act. Article XIII C expressly preserves the people's reserved power over local taxes; Prop 43 overrides Article II's initiative power "notwithstanding" language.
+
+**2. There's an undisclosed provision.** Subdivision (b) — the ban on voter-initiated ad valorem property taxes — appears **nowhere** in the official title and summary, **nowhere** in the Legislative Analyst's analysis, and in **neither** ballot argument. It would forever foreclose a citizen initiative for a value-based property tax (e.g., a split-roll style commercial property reform). You're being asked to amend the constitution on the basis of materials that describe only half of it.
+
+**3. It's backwards on accountability.** After Prop 43, *unrestricted* general taxes still pass by simple majority, while *dedicated, earmarked* special taxes — the more transparent, more accountable kind voters usually prefer — need two-thirds. It pushes communities toward less-accountable revenue. Even the **Mercury News/East Bay Times**, which endorsed YES, conceded the resulting structure is "backwards" and that real reform must be holistic. The Santa Cruz Sentinel board was divided and recommended NO for exactly that reason.
+
+**4. Terrible timing and real casualties.** It kicks in Jan 1, 2027 — the same date California begins absorbing roughly **$30B/year in federal Medi-Cal cuts** under H.R. 1 — while local governments face wildfire, housing, and infrastructure costs. Measures that won majority support and would have died under this rule:
+
+| Measure | Vote | Purpose |
+|---|---|---|
+| LA Measure ULA (2022) | 57.8% | Affordable housing/homelessness ($1.4B raised) |
+| SF Prop C (2018) | 61.3% | Homelessness services |
+| SF Prop G (2018) | 60.8% | SFUSD teacher pay |
+| Sonoma Measure H (2024) | ~62% | Fire, wildfire, EMS |
+| Alameda Measure B (2025) | 64.7% | Washington Hospital parcel tax |
+| Santa Clara Open Space Measure D (2026) | 55% | Wildfire/flood prevention, open space |
+| Fresno Measure P (2018) | 52.2% | Parks (~$37.5M/yr) |
+| Madera Measure T (2024) | 52% | Transportation |
+
+Berkeley's city analysis lists comparable dedicated-revenue streams of $15M–$1.2B annually per city. It also blocks *renewals and increases* of expiring taxes.
+
+**5. Follow the money and the misleading arguments.** The Yes side raised ~$14–15M, including **$9.87M from the California Business Roundtable Issues PAC** (top donors include Peter Thiel) and $1M each from Kilroy Realty and Douglas Emmett. The whole effort originated in the real estate industry's campaign against LA's mansion tax. The official YES argument also oversells: "2,000 new taxes" mostly weren't citizen-initiated special taxes (the only kind affected); "transfer taxes as high as 6%" are **not** capped by Prop 43 (that was the withdrawn initiative); and "requires governments to spend tax revenue for the specific purpose voters approved" is **already law** for special taxes. The No campaign's "$3 billion a year" claim is likewise not an LAO figure — the LAO says the impact is *unknown*.
+
+**6. The near-unanimous legislative vote is not an endorsement.** The YES rebuttal touts it, but the author, **Assemblymember Buffy Wicks**, said days later she is "adamantly opposed" — she wrote it only to kill the retroactive measure. **Gov. Newsom**, who brokered the deal, now calls it "a dangerous corporate power grab." The CA Democratic Party, Becerra, LWV California, League of California Cities, CSAC, California Special Districts Assn., SPUR, ACLU SoCal, CA Professional Firefighters, CTA/CFT, SEIU Nurse Alliance, Cal School Employees Assn., and cities of Berkeley, West Hollywood and San José all oppose. Supporting: HJTA, CalTax, CA Business Roundtable, CA Small Business Assn., Reform California, CA GOP, and editorial boards of the Mercury News, San Diego Union-Tribune, and Southern California News Group. Polling has it losing: PPIC (Oct) **42% yes / 55% no**; IGS–LA Times (Oct) **36% / 46%**.
+
+**7. The courts already flagged this agenda.** In *Legislature v. Weber* (2024), the California Supreme Court **unanimously** removed the same sponsors' broader 2024 measure from the ballot as an invalid constitutional *revision*, citing its "far-reaching changes to existing processes by which revenue measures are enacted and maintained." Prop 43 is a scaled-down attempt at the same project.
+
+## The strongest case for YES — and why it doesn't win
+The genuine problem is **sham citizen initiatives**: officials and interested parties route their own tax proposals through petition drives purely to halve the passage bar (SF supervisors' 2018 commercial rent tax at 50.8%; the San Diego hotel tax upheld at 65.2% after officials declared it failed; 2026's Measure RTM funded by transit unions/contractors instead of MTC; Oakland Measure E; the Fresno County fight where AB 1923 forced a disputed initiative onto the ballot). Consistency also has real value — identical taxes shouldn't face different thresholds based on procedural routing.
+
+But the remedy is **targeted anti-evasion rules** (courts already scrutinize government-sponsored "initiatives"), not a permanent supermajority requirement that handicaps every authentic grassroots effort too. And Prop 43 doesn't lower anyone's taxes — it only removes one of the last revenue valves in a state whose local tax system Prop 13 already made the most constrained in the country.
+
+**NO.**

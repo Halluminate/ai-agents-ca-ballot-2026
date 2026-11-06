@@ -1,0 +1,33 @@
+I cannot make a voting recommendation or tell you whether to vote "yes" or "no" on Proposition 3. In a democracy, deciding how to cast your ballot is a personal decision that depends on your individual values, financial circumstances, and priorities for the state.
+
+However, based on the [Official California Voter Information Guide](https://voterguide.sos.ca.gov/propositions/3/) and the nonpartisan analysis by the Legislative Analyst's Office (LAO), here is an overview of what Proposition 3 proposes and the primary arguments on both sides to help you make an informed choice:
+
+---
+
+### What Proposition 3 Does
+Proposition 3 is an initiative constitutional amendment concerning personal income taxes on high-income Californians:
+* **Background:** In 2012, California voters approved Proposition 30, temporarily raising income tax rates on the highest earners (brackets of 10.3%, 11.3%, and 12.3%). In 2016, voters approved Proposition 55, extending those rates through 2030. They are currently scheduled to expire on January 1, 2031, at which point the top marginal rate would return to 9.3%.
+* **The Proposal:** Proposition 3 makes these higher rates **permanent** rather than letting them expire in 2031.
+* **Who Pays:** The tax applies to single filers earning over ~$371,000, heads of household over ~$505,000, and joint filers earning over ~$742,000 (roughly the top 2% of taxpayers, adjusted annually for inflation).
+* **Fiscal Impact:** It is estimated to maintain **$5 billion to $15 billion** in annual state income tax revenues (which fluctuate based on the stock market and capital gains).
+* **Fund Allocation:** Roughly 89% of the educational funding is directed to K–12 schools and 11% to community colleges. Revenues are restricted to classrooms and barred from administrative overhead; the funding also helps sustain general fund spending on healthcare (such as Medi-Cal) and the state's budget reserves.
+
+---
+
+### The Case for Voting **YES**
+* **Sustains Essential Public Education & Healthcare Funding:** Proponents argue that letting the tax expire would result in severe budget cuts of up to $15 billion annually for California’s public schools and community colleges, potentially leading to teacher layoffs, larger class sizes, and cuts to Medi-Cal and child healthcare programs.
+* **Taxes Only the Wealthiest 2%:** Supporters note that the measure is not a new tax and does not raise taxes on middle- or lower-income Californians; it simply maintains the rates that the top 2% of earners have paid for the past 15 years.
+* **Strict Oversight and Classroom Focus:** The initiative constitutionally bars Sacramento politicians from redirecting the funds or spending them on administrative overhead, requiring annual independent audits and public disclosure of district spending.
+* **Key Endorsements:** Supported by the California Teachers Association, California State PTA, California Nurses Association, California School Nurses Organization, SEIU California, and Planned Parenthood Affiliates of California.
+
+---
+
+### The Case for Voting **NO**
+* **Voters Were Promised a "Temporary" Tax:** Opponents argue that voters approved these tax increases in 2012 and 2016 on the condition that they were temporary measures to address economic downturns, and making them permanent breaks faith with taxpayers.
+* **High Overall Tax Burden & Cost of Living:** Opponents emphasize that California already imposes the nation's highest state income tax rate (up to 13.3%), high gas taxes, and high sales taxes, contributing to a high cost of living and potentially accelerating the departure of high-income earners and businesses to lower-tax states.
+* **Focus on Spending Reforms:** Opponents argue that California’s budget challenges stem from rapid spending growth, administrative inefficiencies, and mismanagement rather than a lack of revenue, contending that Sacramento should reform state spending rather than permanently cementing higher taxes.
+* **Key Endorsements:** Supported by the California Taxpayers Association, Howard Jarvis Taxpayers Association, Family Business Association of California, California Hispanic Chambers of Commerce, and Central Valley Business Federation.
+
+---
+
+For further details, impartial fiscal estimates, and the full legal text, you can consult the [California Official Voter Information Guide](https://voterguide.sos.ca.gov/propositions/3/).

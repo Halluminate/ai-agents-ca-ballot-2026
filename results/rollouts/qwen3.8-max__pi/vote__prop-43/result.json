@@ -1,0 +1,130 @@
+{
+  "run_id": "qwen-max__common__vote__p43__r1",
+  "model": "qwen-max",
+  "model_id": "qwen/qwen3.8-max-0902",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:54:41.717318+00:00",
+  "finished_at": "2026-11-03T12:59:27.113231+00:00",
+  "seconds": 282.1,
+  "input_tokens": 96635,
+  "output_tokens": 7475,
+  "cached_tokens": 451200,
+  "cost_usd": 0.3763,
+  "cost_source": "reported",
+  "billed_usd": 0.376319984,
+  "searches": [
+    "California Proposition 43 2024 Medi-Cal revenue requirements ballot measure",
+    "ACA 22 Assembly Constitutional Amendment 22 two-thirds local special taxes citizen initiative 2026 California legislature author",
+    "Proposition 43 California 2026 ballot measure who supports opposes news analysis",
+    "ACA 22 California two-thirds vote local special taxes citizen initiative ballot Proposition 43",
+    "Proposition 43 California November 2026 editorial endorsement LA Times SF Chronicle two-thirds special taxes",
+    "\"Prop 43\" California 2026 poll survey support opposition two-thirds local special taxes",
+    "California Proposition 43 poll October 2026 Berkeley IGS two-thirds local special taxes results",
+    "\"Proposition 43\" California election results November 3 2026 two-thirds special taxes passed failed"
+  ],
+  "search_errors": 3,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/",
+    "https://lao.ca.gov/ballotanalysis/propositions",
+    "https://voterguide.sos.ca.gov/propositions/43/analysis.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43-text-proposed-laws.pdf",
+    "https://lao.ca.gov/ballot/2026/prop43-110326.pdf",
+    "https://www.hoover.org/proposition-lab-proposition-43",
+    "https://www.cmc.edu/sites/default/files/Proposition%2043%20Backgrounder%20100526.pdf",
+    "https://www.hjta.org/california-commentary/the-two-thirds-vote-requirement-for-taxes-is-fair/",
+    "https://calbudgetcenter.org/resources/should-california-voters-approve-proposition-43/",
+    "https://calbudgetcenter.org/resources/should-california-voters-approve-proposition-43/",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-43-ballot-california-22477053.php",
+    "https://calmatters.org/housing/2026/06/tax-cut-measure-pulled/",
+    "https://www.sfchronicle.com/politics/article/california-proposition-43-22465350.php",
+    "https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-43-limits",
+    "https://calmatters.org/california-voter-guide-2026/proposition-43-tax-threshold/",
+    "https://laist.com/brief/news/politics/voter-guides/2026-election-california-voting-all-the-tax-hikes-on-the-ballot",
+    "https://calmatters.org/commentary/2026/08/california-constitution-proposition-43-taxes/",
+    "https://calmatters.org/commentary/2026/08/proposition-43-taxes-minority-rule/"
+  ],
+  "tool_errors": 3,
+  "warnings": [
+    "capture: 1 connection attempts that ignored the proxy were blocked (node remote:*:50071 x1)"
+  ],
+  "network": {
+    "requests": 22,
+    "requests_per_host": {
+      "openrouter.ai": 20,
+      "lao.ca.gov": 1,
+      "laist.com": 1
+    },
+    "hosts": [
+      "laist.com",
+      "lao.ca.gov",
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 22
+    },
+    "bytes_up": 2262762,
+    "bytes_down": 1218886,
+    "wire_bytes": {
+      "harness_to_proxy": 2309371,
+      "proxy_to_harness": 1335394,
+      "proxy_to_internet": 2303449,
+      "internet_to_proxy": 1383243
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "node",
+        "operation": "network-outbound",
+        "target": "remote:*:50071",
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 1,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 22,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:54:41.717318+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:54:41.717318+00:00",
+      "finished_at": "2026-11-03T12:59:27.113231+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

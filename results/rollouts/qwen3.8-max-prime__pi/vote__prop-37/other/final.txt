@@ -1,0 +1,23 @@
+I've researched this thoroughly. Here's what I found:
+
+## What Prop 37 does
+Authorizes CalHFA to sell up to **$25 billion in revenue bonds** to fund fixed-rate **second mortgages** covering up to 17% of a newly built home's price, so buyers need only 3% down instead of 20%. Eligibility: CA resident ≥1 year, income ≤200% of area median, primary residence, first purchaser of a new/converted home, price capped ~$1.04M–$1.56M by county. It also creates a voluntary "qualified builder option" trading labor standards for modified construction-defect rules.
+
+## The strongest case FOR
+- **Genuinely no taxpayer cost.** Unlike Props 1 and 38 (general obligation bonds repaid from the General Fund), these are non-recourse revenue bonds. The text states on the face of every bond that it is not "a pledge of the faith and credit of the State of California." The LAO confirms "no direct state or local costs." Even the most skeptical progressive analyst — Chris Hoene of the California Budget & Policy Center — conceded: *"It could still work, and if it doesn't work, the state's not really on the hook."*
+- **Built-in kill switch.** CalHFA has full discretion over how much to issue and when. If investor demand is weak, it issues little or nothing. The program can't run away from itself.
+- **Real consumer protections in the statute:** fixed-rate only, origination fees capped at 0.5%/$290, no prepayment penalties, cash-flow underwriting for thin-file borrowers, hardship deferrals, mandatory buyer representation, homebuyer education, independent annual audits.
+- **Targets supply, not just demand.** Because it only works on newly built/converted homes, it avoids the standard critique that down-payment assistance just bids up existing-home prices — the musical-chairs problem.
+- **Amendable.** As a statute, the Legislature can fix flaws with a 60% vote; it isn't locked in.
+- California has the **nation's lowest homeownership rate**, and the down payment is the binding wall for the "missing middle." PPIC estimates this could reach 113,000–560,000 buyers.
+
+## The strongest case AGAINST (and why it didn't move me)
+- It adds a monthly second-mortgage payment, likely at above-first-mortgage rates; PPIC found under 40% of eligible renters could afford entry-level payments. **But** participation is voluntary, and buyers must independently qualify for a private first mortgage with its own underwriting discipline.
+- The 200% AMI ceiling is generous (up to ~$375,800 for a family of four in Santa Clara) with no first-time-buyer priority. **But** PPIC found eligibility actually ran *higher* among the groups with the lowest ownership rates — 97% of renters without a high school degree, 93% of Black renters, 95% of Latino renters. The barrier is monthly-payment affordability, not who's eligible.
+- The bundled construction-defect tort reform reduces homeowner legal protections. **But** it applies only to voluntary "qualified builder" homes, requires written disclosure before close of escrow, requires completed repairs and homeowner satisfaction before any release, and is paired with prevailing-wage/skilled-workforce standards plus developer liability for subcontractor wage theft. It also targets reviving condo construction, which legislative reform (Wicks' bill) failed to do this year.
+- Heavy Realtor funding ($8M from C.A.R., $3.25M from NAR, $33.6M total) is a legitimate "who benefits" flag.
+
+## My reasoning
+The decisive factor is **asymmetry**. Almost every "no" argument is a *this won't work well enough* argument — uncertain efficacy, generous income cap, speculative below-market rates — rather than a *this will cause harm* argument. The downside is bounded: the state isn't on the hook, participation is voluntary, consumer protections are strong, and CalHFA can decline to issue. The upside is substantial for a state with a severe homeownership deficit. A "no" vote simply preserves a status quo where nothing changes.
+
+# **YES**

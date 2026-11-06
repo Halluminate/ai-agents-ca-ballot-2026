@@ -1,0 +1,11 @@
+Based on extensive research, here's a summary of what I found before giving my answer:
+
+**What Prop 45 (Nov. 2026) does:** A California Chamber of Commerce–sponsored initiative amending CEQA to create an optional fast-track for nine categories of "essential" projects (housing, transportation, water, health, wildfire mitigation, education, broadband, clean energy including carbon capture, public safety). Per the LAO, it sets enforceable deadlines (365 business days for EIRs, 270 days for courts), locks environmental standards to those in place when an application is filed (barring consideration of new information like updated fire-hazard maps), lets the developer propose only a single project alternative, caps public comment periods, restricts tribal consultation to federally recognized tribes, and limits courts' ability to halt or rescind flawed project approvals.
+
+**Key considerations:**
+- *For:* CEQA has genuinely been abused to delay housing and infrastructure; deadlines add predictability; supporters include water agencies, affordable housing groups, and some editorial boards (Bay Area News Group).
+- *Against:* California already enacted major CEQA streamlining in 2025 (AB 130/SB 131) covering infill housing and clean energy; leading CEQA reformers (Sen. Wiener, California YIMBY) notably declined to support it; it sweeps in sprawl development with no affordability requirements; legal experts say its broadband language plausibly covers data centers; it's funded by utilities, developers, tech/data-center interests ($38M+); and as an initiative statute it would be extremely difficult to fix once passed. Over 550 labor, health, and environmental organizations oppose it.
+
+The measure goes well beyond targeted reform, weakens substantive review and accountability in ways that outlast any short-term benefit, and duplicates what the Legislature already did more carefully.
+
+**no**

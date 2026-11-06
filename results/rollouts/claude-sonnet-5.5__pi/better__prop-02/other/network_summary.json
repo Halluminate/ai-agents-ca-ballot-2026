@@ -1,0 +1,41 @@
+{
+  "requests": 21,
+  "requests_per_host": {
+    "openrouter.ai": 20,
+    "www.pasadenastarnews.com": 1
+  },
+  "hosts": [
+    "openrouter.ai",
+    "www.pasadenastarnews.com"
+  ],
+  "status_counts": {
+    "200": 21
+  },
+  "bytes_up": 3318577,
+  "bytes_down": 488042,
+  "wire_bytes": {
+    "harness_to_proxy": 3363244,
+    "proxy_to_harness": 572967,
+    "proxy_to_internet": 3357311,
+    "internet_to_proxy": 618109
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 20,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

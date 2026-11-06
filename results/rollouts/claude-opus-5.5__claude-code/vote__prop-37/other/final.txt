@@ -1,0 +1,62 @@
+# My answer: Yes (narrowly)
+
+This is a close call, not an obvious one. I'm giving you my reading of the evidence; the last section covers when No is the better vote. Election Day is tomorrow, Nov 3.
+
+## What Prop 37 does
+- **The money:** CalHFA, the state housing finance agency, can sell up to $25B in bonds to private investors. It would lend that money as fixed-rate second mortgages covering up to 17% of the price of a newly built or newly converted home.
+- **The buyer's share:** You put 3% down from your own money. A normal 80% first mortgage covers the rest, so you avoid mortgage insurance (PMI).
+- **Who qualifies:**
+  - California resident for at least a year, and you live in the home.
+  - Household income up to twice the area median, which is about $375K–$410K for a family of four in the priciest Bay Area counties.
+  - Home price up to about $1.04M in most counties, or about $1.56M in high-cost ones.
+  - You don't have to be a first-time buyer.
+- **Builders:** They can opt into labor standards in exchange for friendlier construction-defect lawsuit rules.
+
+## Why I land on Yes
+1. **Taxpayers have little at stake.** The nonpartisan Legislative Analyst finds no direct state or local cost, and the bonds are legally not state debt. Even a skeptic, Chris Hoene of the California Budget & Policy Center, says that "if it doesn't work, the state's not really on the hook."
+2. **The design is better than typical down-payment aid.** Ordinary aid lets more buyers bid up the same existing homes. Limiting it to new homes points the extra demand at places where builders can add supply. That's why SPUR and GrowSF, which are usually skeptical of down-payment subsidies, endorse it.
+3. **The defect-lawsuit change could add housing.** Condos were only about 3% of new California apartment-style construction from 2011 to 2021, and defect lawsuits are a commonly cited reason. The Legislature's own fix (AB 1903) passed both houses without a single "no" vote, but died in August when the final vote never happened. YIMBY Action's state director called Prop 37's version "solid."
+4. **It's voluntary and limits itself.** If investors demand high rates, the loans won't beat PMI or FHA insurance, few people will use them, and the program stays small. It includes fixed rates, a 0.5% fee cap, no prepayment penalty, hardship deferrals and annual audits. The Legislature can amend it with a 60% vote.
+
+## Why it's close
+- **Nobody knows the interest rate.** The bonds probably won't be federally tax-exempt, since the program isn't limited to first-time buyers, and the loans get repaid only after the first mortgage. Edward Pinto of the American Enterprise Institute says investors will want "a fair amount more" than 7%. The Public Policy Institute of California (PPIC) found that fewer than 40% of eligible renters could afford the payments on even an entry-level new home.
+- **Lots of debt in risky places.** Buyers would owe 97% of the home's value, mostly on new homes in outlying areas. That's the pattern that collapsed in the Inland Empire and Central Valley in 2008. CalHFA itself had its debt downgraded repeatedly in 2009–11 after its easier-to-qualify loans went bad. Investors legally absorb any losses, but there would be real pressure for a state bailout.
+- **It may raise prices more than it adds homes.** California YIMBY, a pro-housing group, stayed neutral for this reason.
+- **Loose targeting.** High earners and people who already own homes qualify. The League of Women Voters and the Budget Center both flag this.
+- **Provisions that favor its backers:**
+  - Buyers must use a real estate agent, and Realtors supplied most of the roughly $20–30M raised.
+  - The loans are exempt from California's 2025 protections against "zombie" second-mortgage foreclosures.
+  - CalHFA can write the program's rules without the normal state rulemaking process.
+  - Homeowners get weaker defect claims against builders who opt in.
+
+## Who's where
+- **Yes:** Newsom, the California Democratic Party, CalChamber, SPUR, GrowSF, most labor unions, the Realtors, the SF Chronicle and the Sacramento Bee/McClatchy papers.
+- **No:** League of Women Voters, Howard Jarvis Taxpayers Association, the Libertarian, Green and Peace & Freedom parties, the OC Register, SD Union-Tribune and Mercury News/East Bay Times.
+- **Neutral:** the California Republican Party, CalTax and California YIMBY.
+- **Money and polls:** $0 has been raised against it. PPIC's October poll shows 65% yes, 32% no.
+
+## Vote No instead if…
+…you want help aimed at lower-income or first-time buyers, you don't think the state should run a second-mortgage program this big, or you worry more than I do about a 2008-style crash. Those are reasonable positions. To me it's a low-cost experiment with real upside, and that narrowly outweighs the risks of an industry-funded measure.
+
+**Sources:**
+- [Official Voter Guide](https://voterguide.sos.ca.gov/propositions/37/)
+- [LAO analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=37&year=2026)
+- [CalMatters explainer](https://calmatters.org/politics/2026/10/prop-37-explained-homeownership/)
+- [SPUR](https://www.spur.org/voter-guide/2026-11/ca-prop-37-homeowner-loans)
+- [GrowSF](https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-37/)
+- [California YIMBY](https://cayimby.org/blog/proposition-37-2026/)
+- [CA Budget & Policy Center](https://calbudgetcenter.org/resources/will-proposition-37-make-homeownership-more-affordable-its-not-guaranteed/)
+- [PPIC analysis](https://www.ppic.org/blog/how-many-might-actually-use-the-down-payment-assistance-in-proposition-37/)
+- [PPIC October poll](https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/)
+- [Hoover Proposition Lab](https://www.hoover.org/proposition-lab-proposition-37)
+- [McClatchy endorsement](https://www.yahoo.com/news/politics/articles/prop-37-puts-california-homeownership-173000963.html)
+- [SF Chronicle endorsement](https://www.sfchronicle.com/opinion/editorials/article/prop-37-housing-home-loans-22422795.php)
+- [California Today guide](https://californiatoday.com/guides/elections/2026-california-proposition-37-guide/)
+- [IGS Berkeley endorsement table](https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026)
+- [HJTA voting guide](https://www.hjta.org/2026votingguide/)
+- [League of Women Voters recommendations](https://lwvc.org/ballot-recommendations-nov-3-2026/)
+- [KQED funding tracker](https://www.kqed.org/voterguide/california/proposition-37)
+- [CalMatters on AB 1903](https://calmatters.org/housing/2026/09/condo-construction-bill-dies/)
+- [Bond Buyer on CalHFA downgrades](https://www.bondbuyer.com/news/moodys-downgrades-calhfa-debt-again)
+- [State Auditor CalHFA report](https://information.auditor.ca.gov/pdfs/factsheets/2010-123.pdf)
+- [California Current (opposition op-ed)](https://www.californiacurrent.org/p/prop-37-robin-hood-in-reverse)

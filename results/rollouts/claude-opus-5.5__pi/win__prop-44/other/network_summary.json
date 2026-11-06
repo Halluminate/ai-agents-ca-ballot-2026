@@ -1,0 +1,48 @@
+{
+  "requests": 26,
+  "requests_per_host": {
+    "openrouter.ai": 22,
+    "www.sacbee.com": 1,
+    "www.ppic.org": 1,
+    "www.sfelections.org": 1,
+    "escholarship.org": 1
+  },
+  "hosts": [
+    "escholarship.org",
+    "openrouter.ai",
+    "www.ppic.org",
+    "www.sacbee.com",
+    "www.sfelections.org"
+  ],
+  "status_counts": {
+    "200": 24,
+    "403": 2
+  },
+  "bytes_up": 1763403,
+  "bytes_down": 1944403,
+  "wire_bytes": {
+    "harness_to_proxy": 1807742,
+    "proxy_to_harness": 2017635,
+    "proxy_to_internet": 1802213,
+    "internet_to_proxy": 2065456
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 21,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

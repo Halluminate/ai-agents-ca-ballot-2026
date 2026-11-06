@@ -1,0 +1,59 @@
+{
+  "requests": 36,
+  "requests_per_host": {
+    "openrouter.ai": 27,
+    "laist.com": 1,
+    "effectivegov.uchicago.edu": 1,
+    "www.gao.gov": 1,
+    "ideas.repec.org": 1,
+    "sgp.jhu.edu": 1,
+    "www.degruyterbrill.com": 1,
+    "sherafy.com": 1,
+    "www.yahoo.com": 1,
+    "calmatters.digitaldemocracy.org": 1
+  },
+  "hosts": [
+    "calmatters.digitaldemocracy.org",
+    "effectivegov.uchicago.edu",
+    "ideas.repec.org",
+    "laist.com",
+    "openrouter.ai",
+    "sgp.jhu.edu",
+    "sherafy.com",
+    "www.degruyterbrill.com",
+    "www.gao.gov",
+    "www.yahoo.com"
+  ],
+  "status_counts": {
+    "200": 34,
+    "202": 1,
+    "301": 1
+  },
+  "bytes_up": 3155023,
+  "bytes_down": 2661217,
+  "wire_bytes": {
+    "harness_to_proxy": 3230606,
+    "proxy_to_harness": 2779792,
+    "proxy_to_internet": 3221627,
+    "internet_to_proxy": 2862331
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 36,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

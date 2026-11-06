@@ -1,0 +1,46 @@
+I'm not going to give a one-word yes or no on this one. It turns on how you weigh two legitimate concerns: verification and public confidence in mail voting, against access, rejected ballots, and cost. Reasonable people land on both sides, so here's what the research supports and how to decide.
+
+**What each vote does**
+
+| | Yes | No |
+|---|---|---|
+| In-person voting | Government-issued ID required | Generally no ID at the polls (current law) |
+| Mail ballots | Last four digits of a government ID number on the envelope; ballots without matching digits are thrown out | Signature check (current law) |
+| Citizenship | "Best efforts" to verify against government records, with yearly county reports | Sworn statements (current law) |
+| Cost | LAO: tens of millions to low hundreds of millions a year (about 0.25% of the General Fund) | No added cost from this measure |
+
+It's a constitutional amendment, so changing it later would require another statewide vote. Key terms such as "government-issued" and "best efforts" are undefined and would be set by future legislation. The state would issue free ID cards to anyone who asks.
+
+**What the evidence shows**
+
+- **Fraud:** Hoover's analysis, which leans toward the measure, calls polling-place impersonation "the rarest documented form of voter fraud." Supporters mostly argue about verification gaps and trust, not widespread fraud.
+- **Turnout:** Studies disagree. Cantoni and Pons found no detectable drop in turnout overall or for any racial group (2008–2018 data). Hajnal, Lajevardi, and Nielson found lower Latino and multiracial turnout under strict ID laws, and Grimmer et al. challenged that analysis.
+- **Confidence:** Opponents cite studies finding little effect of strict ID laws on voter confidence. I didn't verify those studies.
+- **Rejected ballots:** About 122,000 mail ballots (0.9%) were rejected in November 2024, most for signature problems. The digit rule adds another way to lose a ballot, and I found no estimate of how many.
+- **Access:** Opponents cite a survey finding that 10.8% of voting-age citizens (2.7 million) lack a driver's license. The free ID card is meant to address that.
+- **Cost:** The LAO says any savings "likely would not exceed the costs of the measure."
+- **Court rulings (Aug. 6):** Sacramento Superior Court Judge Shelleyanne Chang reportedly found several yes-side voter-guide claims false or misleading, including that the measure would make voting easier or more secure, add privacy protections, and save money. Reports differ on whether that ruling is final. The copy of the official page I could read still shows the original yes argument with no notice. A separate judge upheld the ballot title.
+- **Polls:** Most October polls show No ahead, e.g., Berkeley IGS (Oct. 19–25): 37% yes, 57% no. Question wording moves the numbers.
+
+**How to decide**
+
+- **Vote yes** if you think the mail-ballot verification gap is worth new checks, even with added cost and some risk to eligible voters, and you're comfortable writing these rules into the constitution before the Legislature defines the terms.
+- **Vote no** if you think the fraud it targets is rare enough that the cost and access risks outweigh the gain, or you don't want a constitutional rule whose key terms are still undefined.
+
+If you're voting today, polls close at 8 p.m. local time.
+
+**Limits:** I couldn't open the full measure text, the LAO's PDF, or the Courthouse News and ABC10 articles (the last two were blocked). The court details, the 2024 rejection figures, and most academic findings come from search summaries rather than full articles. Poll figures come from a compiled table, not the pollsters' own reports.
+
+Sources:
+- [Official voter guide](https://voterguide.sos.ca.gov/propositions/39/)
+- [LAO analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=39&year=2026)
+- [Berkeley IGS guide](https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-39-voter)
+- [CalMatters](https://calmatters.org/california-voter-guide-2026/proposition-39-voter-id/)
+- [Hoover Institution analysis](https://www.hoover.org/proposition-lab-proposition-39)
+- [California Budget & Policy Center (opposes the measure)](https://calbudgetcenter.org/resources/proposition-39-explained-what-voter-id-would-mean-for-california/)
+- [Wikipedia: polls and endorsements](https://en.wikipedia.org/wiki/2026_California_voter_ID_initiative)
+- [Cantoni & Pons, NBER](https://www.nber.org/papers/w25522)
+- [Hajnal, Lajevardi & Nielson (2017)](https://pages.ucsd.edu/~zhajnal/page5/documents/voterIDhajnaletal.pdf)
+- [Press Democrat on 2024 ballot rejections](https://www.pressdemocrat.com/2025/03/20/california-elections-officials-rejected-122000-ballots-in-2024-election-heres-why/)
+- [Democracy Docket: ballot title case](https://www.democracydocket.com/cases/california-proposition-39-ballot-language-challenge/)
+- [Courthouse News: voter-guide ruling (not opened; summarized from search results)](https://www.courthousenews.com/california-judge-rules-voter-id-supporters-must-rewrite-ballot-arguments/)

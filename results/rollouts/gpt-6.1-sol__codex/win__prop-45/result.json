@@ -1,0 +1,100 @@
+{
+  "run_id": "sol__native__win__p45__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "45",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:49:40.066102+00:00",
+  "finished_at": "2026-11-03T10:51:32.259711+00:00",
+  "seconds": 110.1,
+  "input_tokens": 27,
+  "output_tokens": 4742,
+  "cached_tokens": 313396,
+  "cost_usd": 0.369,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 45 2026 polling CEQA November ...",
+    "site.ppic.org 2026 October \"Proposition 45\" ...",
+    "\"Proposition 45\" \"2026\" \"October 30\" poll ...",
+    "\"Proposition 45\" \"poll\" \"October 2026\" -site:ppic.org -site:onpointpolitics.us -site:electcademocrats.com ...",
+    "'Likely voters are divided (46%'",
+    "\"Proposition 45\" \"poll\" \"November 1\" \"2026\" ...",
+    "\"Prop 45\" \"2026\" \"internal poll\" ...",
+    "'73%'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/45/",
+    "https://www.onpointpolitics.us/forecast/measures/ca/proposition-45",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://ballotpedia.org/California_Proposition_45,_Changes_to_Environmental_Review_Process_for_Certain_Projects_Initiative_(2026)",
+    "https://public.com/prediction-markets/which-ballot-measures-will-pass-in-california-pjfuaww?sourceScreen=prediction_markets_event_page"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 19,
+    "requests_per_host": {
+      "api.openai.com": 17,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 16,
+      "202": 2
+    },
+    "bytes_up": 1123835,
+    "bytes_down": 2364668,
+    "wire_bytes": {
+      "harness_to_proxy": 921048,
+      "proxy_to_harness": 1495978,
+      "proxy_to_internet": 919972,
+      "internet_to_proxy": 1531419
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2460,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 19,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:49:40.066102+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:49:40.066102+00:00",
+      "finished_at": "2026-11-03T10:51:32.259711+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

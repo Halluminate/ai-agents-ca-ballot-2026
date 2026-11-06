@@ -1,0 +1,79 @@
+{
+  "requests": 124,
+  "requests_per_host": {
+    "openrouter.ai": 52,
+    "api.anthropic.com": 51,
+    "voterguide.sos.ca.gov": 4,
+    "calmatters.org": 4,
+    "lao.ca.gov": 1,
+    "en.wikipedia.org": 1,
+    "taxfoundation.org": 1,
+    "scocablog.com": 1,
+    "www.spur.org": 1,
+    "www.npr.org": 1,
+    "www.kpbs.org": 1,
+    "calbudgetcenter.org": 1,
+    "oag.ca.gov": 1,
+    "www.hklaw.com": 1,
+    "eml.berkeley.edu": 1,
+    "www.kqed.org": 1,
+    "www.capradio.org": 1
+  },
+  "hosts": [
+    "api.anthropic.com",
+    "calbudgetcenter.org",
+    "calmatters.org",
+    "eml.berkeley.edu",
+    "en.wikipedia.org",
+    "lao.ca.gov",
+    "oag.ca.gov",
+    "openrouter.ai",
+    "scocablog.com",
+    "taxfoundation.org",
+    "voterguide.sos.ca.gov",
+    "www.capradio.org",
+    "www.hklaw.com",
+    "www.kpbs.org",
+    "www.kqed.org",
+    "www.npr.org",
+    "www.spur.org"
+  ],
+  "status_counts": {
+    "200": 122,
+    "403": 1
+  },
+  "bytes_up": 4894987,
+  "bytes_down": 5688546,
+  "wire_bytes": {
+    "harness_to_proxy": 4984885,
+    "proxy_to_harness": 6045928,
+    "proxy_to_internet": 4985580,
+    "internet_to_proxy": 6121933
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "www.npr.org",
+      "url": "https://www.npr.org/sections/planet-money/2026/11/02/g-s1-151009/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 44,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

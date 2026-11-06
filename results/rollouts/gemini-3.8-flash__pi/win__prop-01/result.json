@@ -1,0 +1,88 @@
+{
+  "run_id": "flash__common__win__p1__r1",
+  "model": "flash",
+  "model_id": "google/gemini-3.8-flash",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "1",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:42:06.310450+00:00",
+  "finished_at": "2026-11-03T11:42:54.319484+00:00",
+  "seconds": 41.7,
+  "input_tokens": 17473,
+  "output_tokens": 1170,
+  "cached_tokens": 24894,
+  "cost_usd": 0.0345,
+  "cost_source": "reported",
+  "billed_usd": 0.034548066,
+  "searches": [
+    "\"Authorizes $11.25 billion in state general obligation bonds for housing affordability programs\"",
+    "\"California General Election November 3, 2026\" \"voterguide.sos.ca.gov\"",
+    "what is today's date",
+    "\"Proposition 1\" \"2026\" California poll OR polling"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/1/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 9,
+    "requests_per_host": {
+      "openrouter.ai": 9
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 9
+    },
+    "bytes_up": 177859,
+    "bytes_down": 45140,
+    "wire_bytes": {
+      "harness_to_proxy": 192862,
+      "proxy_to_harness": 65887,
+      "proxy_to_internet": 190940,
+      "internet_to_proxy": 81123
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 8,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:42:06.310450+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:42:06.310450+00:00",
+      "finished_at": "2026-11-03T11:42:54.319484+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

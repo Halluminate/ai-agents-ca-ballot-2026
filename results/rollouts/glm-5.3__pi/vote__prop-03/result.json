@@ -1,0 +1,104 @@
+{
+  "run_id": "glm__common__vote__p3__r1",
+  "model": "glm",
+  "model_id": "z-ai/glm-5.3",
+  "pin": "z-ai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "3",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "first_line",
+  "error": "",
+  "started_at": "2026-11-03T11:03:15.742049+00:00",
+  "finished_at": "2026-11-03T11:04:43.538732+00:00",
+  "seconds": 85.0,
+  "input_tokens": 39321,
+  "output_tokens": 3811,
+  "cached_tokens": 53440,
+  "cost_usd": 0.1215,
+  "cost_source": "reported",
+  "billed_usd": 0.12150707999999999,
+  "searches": [
+    "California Proposition 3 2024 marriage equality analysis",
+    "Proposition 3 2026 California millionaire tax permanent schools Newsom",
+    "\"No on Prop 3\" California 2026 taxes schools criticism CalMatters",
+    "Proposition 3 California 2026 editorial endorsement oppose Los Angeles Times San Francisco Chronicle",
+    "Gavin Newsom position Proposition 3 2026 high income tax extension",
+    "California millionaire tax migration wealthy leaving state studies Prop 30 revenue volatility",
+    "Prop 3 2026 fact check \"every dollar goes to local schools\" claim misleading Prop 98"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/3/",
+    "https://voterguide.sos.ca.gov/propositions/3/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+    "https://calmatters.org/california-voter-guide-2026/proposition-3-high-income-tax/",
+    "https://calmatters.org/politics/2026/10/prop-3-california/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 13,
+    "requests_per_host": {
+      "openrouter.ai": 12,
+      "calmatters.org": 1
+    },
+    "hosts": [
+      "calmatters.org",
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 13
+    },
+    "bytes_up": 419298,
+    "bytes_down": 1333169,
+    "wire_bytes": {
+      "harness_to_proxy": 447212,
+      "proxy_to_harness": 1421735,
+      "proxy_to_internet": 443095,
+      "internet_to_proxy": 1454430
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 14,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:03:15.742049+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:03:15.742049+00:00",
+      "finished_at": "2026-11-03T11:04:43.538732+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "run_id": "gemini__native__vote__p40__r1",
+  "model": "gemini",
+  "model_id": "gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "native",
+  "harness": "gemini_cli",
+  "effort": "high",
+  "prompt": "vote",
+  "prop": "40",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T10:55:46.934555+00:00",
+  "finished_at": "2026-11-03T10:56:15.019777+00:00",
+  "seconds": 26.0,
+  "input_tokens": 12028,
+  "output_tokens": 7934,
+  "cached_tokens": 11868,
+  "cost_usd": 0.0625,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "\"Proposition 40\" California voterguide sos ca gov"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/40/"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.",
+    "capture: 1 connection attempts that ignored the proxy were blocked (node network-outbound x1)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 4,
+    "requests_per_host": {
+      "generativelanguage.googleapis.com": 4
+    },
+    "hosts": [
+      "generativelanguage.googleapis.com"
+    ],
+    "status_counts": {
+      "200": 4
+    },
+    "bytes_up": 103486,
+    "bytes_down": 24375,
+    "wire_bytes": {
+      "harness_to_proxy": 110101,
+      "proxy_to_harness": 32407,
+      "proxy_to_internet": 109173,
+      "internet_to_proxy": 40132
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "node",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 1,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 4,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:55:46.934555+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:55:46.934555+00:00",
+      "finished_at": "2026-11-03T10:56:15.019777+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

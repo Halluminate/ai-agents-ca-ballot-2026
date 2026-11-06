@@ -1,0 +1,27 @@
+# My answer: **No**
+
+Here's how I got there, based on extensive research into the measure itself, the Legislative Analyst's analysis, the academic literature, and real-world evidence from states that have tried this.
+
+## What Prop 39 actually does
+
+It's a constitutional amendment that would require government ID for in-person voting, and — critically — would require the last four digits of a government ID number (matching the one on your registration) on every mail ballot envelope, or the ballot doesn't get counted. It also adds citizenship-verification "best efforts," a free state voter ID card, and audits.
+
+## Why the evidence points to No
+
+**1. The fraud it targets is vanishingly rare.** In-person voter impersonation — the thing voter ID prevents — is the rarest documented form of fraud. Even the Heritage Foundation's own database (the strongest pro-ID source) documents only about 0.02–0.08 cases per 100,000 people per year, and most rigorous studies find no detectable effect of ID laws on fraud. Even the Hoover Institution's sympathetic analysis concedes there's "no credible proof of widespread or systematic election fraud in California."
+
+**2. The mail-ballot provision has a documented track record of failure — in a state that votes overwhelmingly by mail.** ~85% of California ballots are cast by mail, so this provision is the measure's real core. Texas passed a nearly identical rule (ID number must match your registration record on the envelope). The result in the first election: mail ballot rejections jumped from ~1% to **12.4%**, roughly 30,000 voters had applications or ballots rejected, ~90% never ended up participating, and Black, Latino, and Asian voters were rejected at significantly higher rates than white voters. That's orders of magnitude more eligible voters disenfranchised than fraudulent votes prevented.
+
+**3. The core rationale — "increasing trust in elections" — is empirically unsupported.** This is the striking part: multiple peer-reviewed studies (Cantoni & Pons, Ansolabehere & Persily, Stewart et al., Bowler et al.) consistently find that voter ID laws do **not** increase voter confidence or reduce perceived fraud. If anything, the polarized fight over them seems to reduce trust. So the main claimed benefit doesn't materialize, while the rejection costs do.
+
+**4. Real costs and implementation risk.** The Legislative Analyst estimates tens of millions to low hundreds of millions of dollars per year — and notes savings would partly come from *fewer registered voters, including eligible voters lacking ID*. Notably, the amendment itself contains **no cure process** for mismatched or missing ID digits (unlike California's current 22-day signature cure window); it leaves those details to implementing legislation in a Legislature whose leadership opposes the measure — a recipe for a botched rollout.
+
+## The strongest Yes arguments (which I took seriously)
+
+- Standard polling-place ID laws have shown little to no measurable turnout decline in the best recent research (Cantoni & Pons), so the "suppression" charge is weaker than opponents claim.
+- Voter ID polls at 75%+ nationally including majorities of Democrats; most states require some ID.
+- The free voter ID card addresses access concerns, and ID numbers are arguably more reliable than signature matching (though California's signature system rejects only ~0.9% of mail ballots, with a cure process — vs. Texas's 12% under ID matching).
+
+## Bottom line
+
+The trade the measure offers is: spend tens-to-hundreds of millions annually and risk Texas-style ballot rejection rates for 13+ million mail voters, in exchange for deterring a nearly nonexistent form of fraud and a trust boost that research shows doesn't actually materialize. The costs are demonstrated and large; the benefits are hypothetical and empirically unproven. **Vote No.**

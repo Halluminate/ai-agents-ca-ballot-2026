@@ -1,0 +1,146 @@
+{
+  "run_id": "qwen-max-prime__common__vote__p41__r1",
+  "model": "qwen-max-prime",
+  "model_id": "qwen/qwen3.8-max-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "41",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "first_line",
+  "error": "",
+  "started_at": "2026-11-03T11:31:59.848669+00:00",
+  "finished_at": "2026-11-03T11:36:02.164390+00:00",
+  "seconds": 238.9,
+  "input_tokens": 75549,
+  "output_tokens": 8728,
+  "cached_tokens": 297600,
+  "cost_usd": 0.6065,
+  "cost_source": "reported",
+  "billed_usd": 0.6065221731199999,
+  "searches": [
+    "California Proposition 41 voterguide.sos.ca.gov",
+    "Proposition 41 California 2026 Sergey Brin billionaire tax spending limit",
+    "\"Proposition 41\" 2026 Gann limit appropriations limit implications Legislative Analyst",
+    "Proposition 41 California 2026 editorial endorsement yes no ballot measure",
+    "California Proposition 40 41 42 poll November 2026 survey support oppose",
+    "\"Prop 41\" California 2026 court challenge lawsuit single subject ballot",
+    "Los Angeles Times editorial endorsement Proposition 41 42 2026 ballot",
+    "\"Yes on 41\" California 2026 arguments support audits transparency Gann limit taxpayers",
+    "\"Yes on 41\" committee contributions Building a Better California top donors Proposition 41 campaign finance",
+    "Proposition 41 2026 could invalidate Proposition 3 education tax conflict \"more votes\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/41/",
+    "https://voterguide.sos.ca.gov/propositions/41/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+    "https://voterguide.sos.ca.gov/propositions/40/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+    "https://eml.berkeley.edu/~saez/GGS26props41-42.pdf",
+    "https://calbudgetcenter.org/resources/what-would-proposition-41-mean-for-california/",
+    "https://lwvc.org/ballot-recommendations/",
+    "https://lwvc.org/ballot-recommendations/"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 1 connections were not readable by the proxy (openrouter.ai:443)"
+  ],
+  "network": {
+    "requests": 22,
+    "requests_per_host": {
+      "openrouter.ai": 22
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 21
+    },
+    "bytes_up": 1589133,
+    "bytes_down": 1068412,
+    "wire_bytes": {
+      "harness_to_proxy": 1636409,
+      "proxy_to_harness": 1169026,
+      "proxy_to_internet": 1629070,
+      "internet_to_proxy": 1221696
+    },
+    "byte_counter": true,
+    "errors": 4,
+    "error_details": [
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "server closed connection"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 108,
+        "bytes_down": 276,
+        "duration": 30.0253,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 23,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 2,
+  "run_started_at": "2026-11-03T11:29:12.497208+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:29:12.497208+00:00",
+      "finished_at": "2026-11-03T11:31:29.845460+00:00",
+      "status": "error",
+      "error": "Connection error."
+    },
+    {
+      "attempt": 2,
+      "started_at": "2026-11-03T11:31:59.848669+00:00",
+      "finished_at": "2026-11-03T11:36:02.164390+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

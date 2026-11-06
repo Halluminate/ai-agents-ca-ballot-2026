@@ -1,0 +1,101 @@
+{
+  "run_id": "gpt__native__better__p38__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:55:06.279102+00:00",
+  "finished_at": "2026-11-03T10:57:50.050344+00:00",
+  "seconds": 161.5,
+  "input_tokens": 45,
+  "output_tokens": 5717,
+  "cached_tokens": 758722,
+  "cost_usd": 2.4666,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 38 2026 immunology immunotherapy bonds $8.4 billion analysis ...",
+    "'130360'",
+    "site.lao.ca.gov \"25-0026\" immunology ...",
+    "Proposition 38 2026 League Women Voters California oppose ...",
+    "site.cirm.ca.gov royalties state General Fund 2026 2025 203 ...",
+    "CIRM royalties revenue California state treasury 2026 2025 ...",
+    "site.cirm.ca.gov \"First therapy funded by California taxpayer\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/38/",
+    "https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm",
+    "https://calmatters.org/politics/elections/2026/10/prop-38-california/",
+    "https://yeson38.com",
+    "https://lao.ca.gov/BallotAnalysis/Initiative/2025-026",
+    "https://votenoonprop38.org/",
+    "https://www.cirm.ca.gov/about-cirm/cirm-faq/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 22,
+    "requests_per_host": {
+      "api.openai.com": 19,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 18,
+      "202": 3
+    },
+    "bytes_up": 1335876,
+    "bytes_down": 2870322,
+    "wire_bytes": {
+      "harness_to_proxy": 1056391,
+      "proxy_to_harness": 1655512,
+      "proxy_to_internet": 1054597,
+      "internet_to_proxy": 1694251
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2367,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 21,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:55:06.279102+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:55:06.279102+00:00",
+      "finished_at": "2026-11-03T10:57:50.050344+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

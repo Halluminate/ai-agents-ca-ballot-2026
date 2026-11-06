@@ -1,0 +1,98 @@
+{
+  "run_id": "gpt__native__better__p44__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "44",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:02:53.609078+00:00",
+  "finished_at": "2026-11-03T11:05:19.542253+00:00",
+  "seconds": 143.1,
+  "input_tokens": 33,
+  "output_tokens": 5828,
+  "cached_tokens": 532330,
+  "cost_usd": 2.2321,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 44 2026 community health clinics 90 percent revenue analysis SEIU UHW ...",
+    "site.bphc.hrsa.gov compliance manual financial management non grant funds health centers board 51 percent patients ...",
+    "site.irs.gov instructions form 990 Part IX program services management general expenses allocations occupancy 2025 ...",
+    "'margin'",
+    "AB 1113 2025 clinic 90 percent analysis site.leginfo.legislature.ca.gov ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/44/",
+    "https://lao.ca.gov/ballot/2025/250392.pdf",
+    "https://www.seiu-uhw.org/press/clinic-workers-file-ballot-initiative-to-improve-quality-of-care-at-community-health-clinics/",
+    "https://trackbill.com/s3/bills/CA/2025/AB/1113/analyses/assembly-health.pdf",
+    "https://geigergibson.publichealth.gwu.edu/76-public-insurance-funding-helped-sustain-community-health-centers-2025-health-centers-are-high",
+    "https://www.irs.gov/instructions/i990"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 23,
+    "requests_per_host": {
+      "api.openai.com": 20,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 19,
+      "202": 3
+    },
+    "bytes_up": 1326287,
+    "bytes_down": 2595003,
+    "wire_bytes": {
+      "harness_to_proxy": 1053667,
+      "proxy_to_harness": 1566475,
+      "proxy_to_internet": 1052018,
+      "internet_to_proxy": 1605576
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2721,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 22,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:02:53.609078+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:02:53.609078+00:00",
+      "finished_at": "2026-11-03T11:05:19.542253+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

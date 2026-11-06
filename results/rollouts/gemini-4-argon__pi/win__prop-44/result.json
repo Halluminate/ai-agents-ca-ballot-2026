@@ -1,0 +1,108 @@
+{
+  "run_id": "gemini__common__win__p44__r1",
+  "model": "gemini",
+  "model_id": "google/gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "44",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T04:57:31.737437+00:00",
+  "seconds": 51.5,
+  "input_tokens": 45763,
+  "output_tokens": 1807,
+  "cached_tokens": 62113,
+  "cost_usd": 0.131,
+  "cost_source": "reported",
+  "searches": [
+    "\"voterguide.sos.ca.gov/propositions/44\" OR \"Proposition 44\" California",
+    "\"Proposition 44\" \"community health clinics\" OR \"SEIU-UHW\" 2026",
+    "\"Proposition 44\" OR \"Prop 44\" poll OR survey PPIC OR \"Berkeley IGS\" OR Emerson 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/44/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-44",
+    "https://quickguidetoprops.sos.ca.gov/propositions/2026-11-03/44",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-44-requires-community-health-clinics-spend-90-percent-revenue-program-services-initiative-statute",
+    "https://calmatters.org/california-voter-guide-2026/proposition-44-clinic-funding/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026",
+    "https://ballotpedia.org/California_Proposition_44,_Spending_Requirements_for_Federally_Qualified_Health_Centers_Initiative_(2026",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 11,
+    "requests_per_host": {
+      "openrouter.ai": 8,
+      "quickguidetoprops.sos.ca.gov": 1,
+      "www.sos.ca.gov": 1,
+      "ballotpedia.org": 1
+    },
+    "hosts": [
+      "ballotpedia.org",
+      "openrouter.ai",
+      "quickguidetoprops.sos.ca.gov",
+      "www.sos.ca.gov"
+    ],
+    "status_counts": {
+      "200": 10,
+      "202": 1
+    },
+    "bytes_up": 374212,
+    "bytes_down": 87594,
+    "wire_bytes": {
+      "harness_to_proxy": 397585,
+      "proxy_to_harness": 119911,
+      "proxy_to_internet": 394423,
+      "internet_to_proxy": 148012
+    },
+    "byte_counter": true,
+    "errors": 3,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 12,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

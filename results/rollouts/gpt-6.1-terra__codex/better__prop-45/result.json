@@ -1,0 +1,94 @@
+{
+  "run_id": "terra__native__better__p45__r1",
+  "model": "terra",
+  "model_id": "gpt-6.1-terra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "45",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:35:18.871990+00:00",
+  "finished_at": "2026-11-03T12:36:26.928604+00:00",
+  "seconds": 65.8,
+  "input_tokens": 33,
+  "output_tokens": 3390,
+  "cached_tokens": 488460,
+  "cost_usd": 0.2424,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California proposition 45 November 3 2026 ballot initiative proposition 45 voter guide ...",
+    "2026 proposition 45 CEQA analysis court remedies essential projects high speed rail data center exception ...",
+    "\"proposition 45\" \"2026\" CEQA risks legislative counsel high speed rail project criticism ...",
+    "\"proposition 45\" 2026 \"tribal\" consultation 365 no project alternative law text ...",
+    "'federally recognized'",
+    "California proposition 45 2026 CEQA vote no fact sheet alternatives standards time public tribes ...",
+    "\"Proposition 45\" \"2026\" environmental climate \"CEQA\" law school analysis ...",
+    "'17%'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 13,
+    "requests_per_host": {
+      "api.openai.com": 11,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 10,
+      "202": 2
+    },
+    "bytes_up": 1206835,
+    "bytes_down": 2076473,
+    "wire_bytes": {
+      "harness_to_proxy": 929580,
+      "proxy_to_harness": 1163353,
+      "proxy_to_internet": 928741,
+      "internet_to_proxy": 1187367
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1846,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 13,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:35:18.871990+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:35:18.871990+00:00",
+      "finished_at": "2026-11-03T12:36:26.928604+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

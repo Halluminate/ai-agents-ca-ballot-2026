@@ -1,0 +1,103 @@
+{
+  "run_id": "glm__common__vote__p45__r1",
+  "model": "glm",
+  "model_id": "z-ai/glm-5.3",
+  "pin": "z-ai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "45",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T13:22:09.274725+00:00",
+  "finished_at": "2026-11-03T13:24:41.254982+00:00",
+  "seconds": 149.2,
+  "input_tokens": 45930,
+  "output_tokens": 7688,
+  "cached_tokens": 122240,
+  "cost_usd": 0.1655,
+  "cost_source": "reported",
+  "billed_usd": 0.278760406,
+  "searches": [
+    "Proposition 45 CEQA reform California 2026 ballot initiative news",
+    "Proposition 45 California funding Cal Chamber utilities donors 2026",
+    "Prop 45 CEQA endorsements Newsom Democratic Party newspapers 2026",
+    "Prop 45 California polling October 2026 likely voters poll results",
+    "AB 130 2025 CEQA reform Newsom infill housing exemption \"biggest\" Sacramento",
+    "Sacramento Bee endorsement Prop 45 yes CEQA McClatchy \"essential projects\"",
+    "\"Prop 45\" Los Angeles Times editorial board endorsement vote no 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/45/",
+    "https://voterguide.sos.ca.gov/propositions/45/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/45/arguments-rebuttals.htm",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-45-ceqa-california-22468905.php",
+    "https://insideclimatenews.org/news/28102026/california-prop-45-aims-to-weaken-environmental-law/",
+    "https://reason.com/2026/10/30/california-voters-have-a-chance-to-fix-the-states-broken-environmental-regulations/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 15,
+    "requests_per_host": {
+      "openrouter.ai": 15
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 15
+    },
+    "bytes_up": 762893,
+    "bytes_down": 2674754,
+    "wire_bytes": {
+      "harness_to_proxy": 795695,
+      "proxy_to_harness": 2833487,
+      "proxy_to_internet": 790824,
+      "internet_to_proxy": 2870493
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 16,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:22:09.274725+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:22:09.274725+00:00",
+      "finished_at": "2026-11-03T13:24:41.254982+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

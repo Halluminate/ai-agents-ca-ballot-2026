@@ -1,0 +1,109 @@
+{
+  "run_id": "terra__common__win__p2__r1",
+  "model": "terra",
+  "model_id": "openai/gpt-6.1-terra",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "2",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:53:50.311302+00:00",
+  "finished_at": "2026-11-03T10:54:22.396023+00:00",
+  "seconds": 28.5,
+  "input_tokens": 69815,
+  "output_tokens": 1141,
+  "cached_tokens": 39296,
+  "cost_usd": 0.1557,
+  "cost_source": "reported",
+  "billed_usd": 0.15567898764,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/2/ proposition 2 school 2024",
+    "California Proposition 2 2024 result vote certified yes no secretary of state",
+    "\"voterguide.sos.ca.gov/propositions/2/\" California proposition",
+    "California 2026 \"prop 2\" rainy day fund polls support opposition 2026",
+    "California \"Proposition 2\" \"2026\" \"poll\" budget reserves",
+    "\"Proposition 2\" \"2026\" California \"rainy day\" poll",
+    "2026 California proposition 2 rainy day fund poll yes no ballot election november 2026 polling",
+    "2026 California Proposition 2 rainy day fund election forecast odds polls yes no",
+    "2026 California Proposition 2 2014 rainy day fund 69 percent election results voter support",
+    "California proposition 2 rainy day fund 2026 polling October 2026 survey yes 61 no 38 election",
+    "2026 California proposition 2 rainy day fund betting odds election results November 2026 yes no polling political markets",
+    "site:ballotpedia.org California Proposition 2 2026 budget rainy day fund polls ballot measures support opposition"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/",
+    "https://voterguide.sos.ca.gov/propositions/2/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/title-summary.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-2-rainy",
+    "https://www.politico.com/newsletters/california-playbook-pm/2026/10/05/californias-orphaned-ballot-measures-01107257",
+    "https://quickguidetoprops.sos.ca.gov/propositions/2026-11-03/2",
+    "https://www.onpointpolitics.us/forecast/measures/ca/proposition-2",
+    "https://cityhallpass.com/election-2026/measures/prop-02"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 18,
+    "requests_per_host": {
+      "openrouter.ai": 16,
+      "www.onpointpolitics.us": 1,
+      "cityhallpass.com": 1
+    },
+    "hosts": [
+      "cityhallpass.com",
+      "openrouter.ai",
+      "www.onpointpolitics.us"
+    ],
+    "status_counts": {
+      "200": 18
+    },
+    "bytes_up": 489037,
+    "bytes_down": 271237,
+    "wire_bytes": {
+      "harness_to_proxy": 527467,
+      "proxy_to_harness": 323268,
+      "proxy_to_internet": 521863,
+      "internet_to_proxy": 368076
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 19,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:53:50.311302+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:53:50.311302+00:00",
+      "finished_at": "2026-11-03T10:54:22.396023+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

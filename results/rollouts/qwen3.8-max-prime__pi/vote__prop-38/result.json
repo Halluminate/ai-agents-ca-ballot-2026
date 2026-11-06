@@ -1,0 +1,144 @@
+{
+  "run_id": "qwen-max-prime__common__vote__p38__r1",
+  "model": "qwen-max-prime",
+  "model_id": "qwen/qwen3.8-max-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:10:18.681724+00:00",
+  "finished_at": "2026-11-03T13:13:25.878312+00:00",
+  "seconds": 184.1,
+  "input_tokens": 103223,
+  "output_tokens": 6568,
+  "cached_tokens": 555392,
+  "cost_usd": 0.8254,
+  "cost_source": "reported",
+  "billed_usd": 0.82539224136,
+  "searches": [
+    "California Proposition 38 ballot",
+    "Proposition 38 2026 California endorsements support oppose immunology research bond poll",
+    "CalMatters Prop 38 2026 immunology bond Michelson conflict of interest CIII UCLA",
+    "Prop 38 2026 lawsuit attorney general opinion special legislation unconstitutional immunology bond",
+    "California state budget 2026-27 deficit General Fund bond debt LAO overview state bond debt outstanding",
+    "California March 2028 biomedical research bond legislature $8 billion measure Newsom proposal research funding",
+    "\"Prop 38\" former Legislative Analyst's Office employees letter oppose transparency \"steer public funds\"",
+    "Prop 38 bond proceeds used for construction facilities institute capital costs \"130\" immunology measure text",
+    "CIRM Proposition 71 revenue sharing returns to state \"few hundred thousand\" stem cell bond repayment state share licensing",
+    "LA Times editorial board Proposition 38 2026 recommendation immunology bond",
+    "\"Prop 38\" defense scientists support immunotherapy bond \"yes\" argument UC Berkeley immunologist 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/38/",
+    "https://www.lao.ca.gov/BallotAnalysis/Proposition?number=38&year=2026",
+    "https://www.science.org/content/article/california-vote-spending-16-billion-boost-research-after-trump-cuts",
+    "https://calmatters.org/california-voter-guide-2026/proposition-38-research-bond/",
+    "https://calmatters.org/politics/elections/2026/10/prop-38-california/",
+    "https://calmatters.org/politics/elections/2026/07/proposition-38-california/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-38",
+    "https://www.statnews.com/2026-10-19/california-prop-38-immunology-research-bond-oddly-specific-earmark/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38-text-proposed-laws.pdf",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-38-money-california-22453646.php",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38-text-proposed-laws.pdf",
+    "https://www.hoover.org/proposition-lab-proposition-38",
+    "https://davisvanguard.org/2026/10/oppose-proposition-38-medical-research/",
+    "https://lao.ca.gov/BallotAnalysis/Initiative/2025-026"
+  ],
+  "tool_errors": 2,
+  "warnings": [],
+  "network": {
+    "requests": 30,
+    "requests_per_host": {
+      "openrouter.ai": 25,
+      "www.statnews.com": 2,
+      "www.science.org": 1,
+      "davisvanguard.org": 1,
+      "lao.ca.gov": 1
+    },
+    "hosts": [
+      "davisvanguard.org",
+      "lao.ca.gov",
+      "openrouter.ai",
+      "www.science.org",
+      "www.statnews.com"
+    ],
+    "status_counts": {
+      "200": 27,
+      "301": 1,
+      "403": 2
+    },
+    "bytes_up": 2721209,
+    "bytes_down": 916411,
+    "wire_bytes": {
+      "harness_to_proxy": 2783630,
+      "proxy_to_harness": 1024793,
+      "proxy_to_internet": 2775118,
+      "internet_to_proxy": 1090211
+    },
+    "byte_counter": true,
+    "errors": 4,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 29,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:10:18.681724+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:10:18.681724+00:00",
+      "finished_at": "2026-11-03T13:13:25.878312+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

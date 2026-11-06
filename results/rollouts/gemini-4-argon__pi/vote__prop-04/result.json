@@ -1,0 +1,79 @@
+{
+  "run_id": "gemini__common__vote__p4__r1",
+  "model": "gemini",
+  "model_id": "google/gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "4",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "finished_at": "2026-11-03T04:49:50.139179+00:00",
+  "seconds": 49.5,
+  "input_tokens": 15424,
+  "output_tokens": 2711,
+  "cached_tokens": 12711,
+  "cost_usd": 0.0592,
+  "cost_source": "reported",
+  "searches": [],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://voterguide.sos.ca.gov/propositions/4/title-summary.htm",
+    "https://voterguide.sos.ca.gov/propositions/4/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-text-proposed-laws.pdf"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 8,
+    "requests_per_host": {
+      "openrouter.ai": 4,
+      "voterguide.sos.ca.gov": 3,
+      "vig.cdn.sos.ca.gov": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "vig.cdn.sos.ca.gov",
+      "voterguide.sos.ca.gov"
+    ],
+    "status_counts": {
+      "200": 8
+    },
+    "bytes_up": 118862,
+    "bytes_down": 136594,
+    "wire_bytes": {
+      "harness_to_proxy": 135038,
+      "proxy_to_harness": 163327,
+      "proxy_to_internet": 133007,
+      "internet_to_proxy": 183613
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 9,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

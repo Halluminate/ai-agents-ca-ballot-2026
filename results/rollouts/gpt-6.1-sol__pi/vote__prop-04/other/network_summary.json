@@ -1,0 +1,60 @@
+{
+  "requests": 33,
+  "requests_per_host": {
+    "openrouter.ai": 17,
+    "www.sciencedirect.com": 4,
+    "effectivegov.uchicago.edu": 2,
+    "sgp.jhu.edu": 2,
+    "www.seattle.gov": 2,
+    "id.elsevier.com": 2,
+    "www.gao.gov": 2,
+    "scholars.org": 1,
+    "www.ncsl.org": 1
+  },
+  "hosts": [
+    "effectivegov.uchicago.edu",
+    "id.elsevier.com",
+    "openrouter.ai",
+    "scholars.org",
+    "sgp.jhu.edu",
+    "www.gao.gov",
+    "www.ncsl.org",
+    "www.sciencedirect.com",
+    "www.seattle.gov"
+  ],
+  "status_counts": {
+    "200": 23,
+    "301": 3,
+    "302": 3,
+    "307": 1,
+    "400": 1,
+    "403": 2
+  },
+  "bytes_up": 2189155,
+  "bytes_down": 2062151,
+  "wire_bytes": {
+    "harness_to_proxy": 2253008,
+    "proxy_to_harness": 2171491,
+    "proxy_to_internet": 2246096,
+    "internet_to_proxy": 2237487
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 31,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

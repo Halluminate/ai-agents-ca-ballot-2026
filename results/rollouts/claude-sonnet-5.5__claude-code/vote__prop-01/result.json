@@ -1,0 +1,368 @@
+{
+  "run_id": "sonnet__native__vote__p1__r1",
+  "model": "sonnet",
+  "model_id": "anthropic/claude-sonnet-5.5",
+  "pin": "anthropic",
+  "arm": "native",
+  "harness": "claude_code",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "1",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T12:06:28.001840+00:00",
+  "finished_at": "2026-11-03T12:25:38.345271+00:00",
+  "seconds": 1147.8,
+  "input_tokens": 93785,
+  "output_tokens": 43241,
+  "cached_tokens": 516885,
+  "cost_usd": 1.837,
+  "cost_source": "reported",
+  "billed_usd": 1.8310105000000003,
+  "searches": [
+    "California Proposition 1 November 2026 ballot",
+    "Orange County Register editorial oppose Proposition 1 housing bond $11.25 billion",
+    "San Diego Union-Tribune editorial Proposition 1 housing bond vote no 2026",
+    "San Francisco Chronicle editorial Prop 1 housing bond endorsement 2026",
+    "Los Angeles Times editorial Proposition 1 housing bond 2026 endorse",
+    "Mercury News editorial \"Prop. 1\" housing bond no vote more debt California 2026",
+    "ocregister.com editorial Prop. 1 $10 billion housing bond veterans Republicans oppose",
+    "2018 Proposition 1 housing bond results how many units funded audit Multifamily Housing Program Veterans Housing and Homelessness Prevention outcomes",
+    "Terner Center cost to build affordable housing California per unit 2025 2026 subsidy",
+    "PPIC statewide survey October 2026 Proposition 1 housing bond likely voters percent yes",
+    "Howard Jarvis Taxpayers Association Proposition 1 2026 housing bond oppose",
+    "SB 417 2026 Veterans and Affordable Housing Bond Act text audit annual report accountability leginfo",
+    "CalMatters June 2026 Legislature housing bond Veterans and Affordable Housing Bond Act vote Wicks Republicans DeMaio veterans misleading",
+    "Sacramento Bee editorial board Prop 1 housing bond November 2026 recommendation",
+    "\"Prop. 1\" editorial \"housing bond\" \"vote no\" OR \"reject\" Union-Tribune OR \"Orange County Register\" OR \"Mercury News\" California 2026 debt borrowing"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 14,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/1/",
+    "https://voterguide.sos.ca.gov/propositions/1/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/1/analysis.htm",
+    "https://calmatters.org/california-voter-guide-2026/proposition-1-housing-bond/",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop1-california-housing-vote-22442444.php",
+    "https://www.pressdemocrat.com/2026/10/14/endorsement-props-1-and-38-would-only-bring-more-debt-for-california/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-1-housing",
+    "https://calmatters.org/politics/elections/2026/10/bond-measures-on-california-ballot/",
+    "https://calbudgetcenter.org/resources/proposition-1-californias-veterans-and-affordable-housing-bond/",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-1-affordable-housing-bond",
+    "https://www.kqed.org/news/12100622/proposition-1-authorizes-california-to-issue-a-11-25-billion-bond-to-fund-affordable-housing",
+    "https://laist.com/news/politics/voter-guides/laist-california-voter-game-plan-proposition-prop-1-november-2026-election-guide",
+    "https://ternercenter.berkeley.edu/blog/2026-california-legislative-round-up/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop1.pdf",
+    "https://voterguide.sos.ca.gov/propositions/1/text-of-proposed-laws.htm",
+    "https://www.hoover.org/proposition-lab-proposition-1",
+    "https://legiscan.com/CA/text/SB417/id/3450884",
+    "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB417",
+    "https://billtexts.s3.amazonaws.com/ca/ca-analysishttps-leginfo-legislature-ca-gov-faces-billAnalysisClient-xhtml-bill-id-202520260SB417-ca-analysis-394075.pdf",
+    "https://calmatters.digitaldemocracy.org/bills/ca_202520260sb417",
+    "https://calmatters.digitaldemocracy.org/bills/ca_202520260sb417",
+    "https://calmatters.digitaldemocracy.org/bills/ca_202520260sb417",
+    "https://calmatters.digitaldemocracy.org/bills/ca_202520260sb417",
+    "https://ternercenter.berkeley.edu/wp-content/uploads/2026/01/LIHTCImpactFees2026.pdf",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.housingfinance.com/data-trends/impact-fees-drive-affordable-housing-costs-california",
+    "https://davisvanguard.org/2026/10/sf-chronicle-endorses-prop-1/"
+  ],
+  "tool_errors": 1,
+  "warnings": [
+    "capture: 13 connections were not readable by the proxy (api.anthropic.com:443)"
+  ],
+  "network": {
+    "requests": 128,
+    "requests_per_host": {
+      "api.anthropic.com": 53,
+      "openrouter.ai": 52,
+      "voterguide.sos.ca.gov": 4,
+      "calmatters.org": 2,
+      "ternercenter.berkeley.edu": 2,
+      "www.sfchronicle.com": 1,
+      "www.pressdemocrat.com": 1,
+      "igs.berkeley.edu": 1,
+      "calbudgetcenter.org": 1,
+      "www.spur.org": 1,
+      "www.kqed.org": 1,
+      "laist.com": 1,
+      "vig.cdn.sos.ca.gov": 1,
+      "www.hoover.org": 1,
+      "legiscan.com": 1,
+      "leginfo.legislature.ca.gov": 1,
+      "billtexts.s3.amazonaws.com": 1,
+      "calmatters.digitaldemocracy.org": 1,
+      "www.housingfinance.com": 1,
+      "davisvanguard.org": 1
+    },
+    "hosts": [
+      "api.anthropic.com",
+      "billtexts.s3.amazonaws.com",
+      "calbudgetcenter.org",
+      "calmatters.digitaldemocracy.org",
+      "calmatters.org",
+      "davisvanguard.org",
+      "igs.berkeley.edu",
+      "laist.com",
+      "leginfo.legislature.ca.gov",
+      "legiscan.com",
+      "openrouter.ai",
+      "ternercenter.berkeley.edu",
+      "vig.cdn.sos.ca.gov",
+      "voterguide.sos.ca.gov",
+      "www.hoover.org",
+      "www.housingfinance.com",
+      "www.kqed.org",
+      "www.pressdemocrat.com",
+      "www.sfchronicle.com",
+      "www.spur.org"
+    ],
+    "status_counts": {
+      "200": 121,
+      "403": 5
+    },
+    "bytes_up": 4902249,
+    "bytes_down": 5680625,
+    "wire_bytes": {
+      "harness_to_proxy": 5009103,
+      "proxy_to_harness": 6059815,
+      "proxy_to_internet": 5007904,
+      "internet_to_proxy": 6149173
+    },
+    "byte_counter": true,
+    "errors": 16,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0142,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0035,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0041,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.002,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0098,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0049,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.001,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0024,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0136,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0004,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0043,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.003,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0139,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 66,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:06:28.001840+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:06:28.001840+00:00",
+      "finished_at": "2026-11-03T12:25:38.345271+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

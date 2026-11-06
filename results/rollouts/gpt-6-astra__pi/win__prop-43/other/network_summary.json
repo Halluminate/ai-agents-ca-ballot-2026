@@ -1,0 +1,44 @@
+{
+  "requests": 14,
+  "requests_per_host": {
+    "openrouter.ai": 11,
+    "escholarship.org": 2,
+    "www.onpointpolitics.us": 1
+  },
+  "hosts": [
+    "escholarship.org",
+    "openrouter.ai",
+    "www.onpointpolitics.us"
+  ],
+  "status_counts": {
+    "200": 12,
+    "403": 2
+  },
+  "bytes_up": 723160,
+  "bytes_down": 260155,
+  "wire_bytes": {
+    "harness_to_proxy": 753569,
+    "proxy_to_harness": 302034,
+    "proxy_to_internet": 748951,
+    "internet_to_proxy": 339938
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 15,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

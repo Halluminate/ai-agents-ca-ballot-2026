@@ -1,0 +1,113 @@
+{
+  "run_id": "glm-prime__common__better__p37__r1",
+  "model": "glm-prime",
+  "model_id": "z-ai/glm-5.3-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "37",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:00:26.969305+00:00",
+  "finished_at": "2026-11-03T11:01:30.378380+00:00",
+  "seconds": 60.5,
+  "input_tokens": 47605,
+  "output_tokens": 3374,
+  "cached_tokens": 124672,
+  "cost_usd": 0.2531,
+  "cost_source": "reported",
+  "billed_usd": 0.2531085316,
+  "searches": [
+    "California Proposition 37 2024 election analysis",
+    "Prop 37 California 2026 down payment assistance criticism opponents concerns",
+    "CalMatters Proposition 37 2026 homebuying assistance pros cons",
+    "PPIC October 2026 survey Proposition 37 poll results support oppose"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/37/",
+    "https://voterguide.sos.ca.gov/propositions/37/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/37/arguments-rebuttals.htm",
+    "https://calmatters.org/politics/2026/10/prop-37-explained-homeownership/",
+    "https://www.latimes.com/california/story/2026-10-24/prop-37-california-down-payment-assistance-explained/",
+    "https://www.latimes.com/california/story/2026-10-24/prop-37-california-down-payment-assistance-explained/",
+    "https://www.ppic.org/blog/how-many-might-actually-use-the-down-payment-assistance-in-proposition-37/",
+    "https://www.sacbee.com/opinion/us-viewpoints/article317313609.html",
+    "https://lwvc.org/ballot-recommendations/",
+    "https://www.sandiegouniontribune.com/2026/10/02/endorsements-props-2-37-wouldnt-yield-saner-state-budgets-more-housing/"
+  ],
+  "tool_errors": 1,
+  "warnings": [],
+  "network": {
+    "requests": 13,
+    "requests_per_host": {
+      "openrouter.ai": 12,
+      "www.sacbee.com": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.sacbee.com"
+    ],
+    "status_counts": {
+      "200": 12,
+      "404": 1
+    },
+    "bytes_up": 745518,
+    "bytes_down": 807995,
+    "wire_bytes": {
+      "harness_to_proxy": 770005,
+      "proxy_to_harness": 873141,
+      "proxy_to_internet": 766471,
+      "internet_to_proxy": 900985
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 12,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:00:26.969305+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:00:26.969305+00:00",
+      "finished_at": "2026-11-03T11:01:30.378380+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

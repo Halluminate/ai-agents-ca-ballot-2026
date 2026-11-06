@@ -1,0 +1,99 @@
+{
+  "run_id": "sol__native__win__p2__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "2",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:03:36.010953+00:00",
+  "finished_at": "2026-11-03T11:05:16.548131+00:00",
+  "seconds": 98.4,
+  "input_tokens": 33,
+  "output_tokens": 3913,
+  "cached_tokens": 489933,
+  "cost_usd": 0.4085,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 2 2026 rainy day fund polling November 3 2026 ...",
+    "'Proposition 2'",
+    "\"Proposition 2\" \"2026\" \"poll\" \"Berkeley\" ...",
+    "'Q20.'",
+    "\"Proposition 2\" \"2026\" rainy fund campaign spending opposition latest ...",
+    "'42%'",
+    "\"Proposition 2\" \"2026\" \"rainy\" \"October 30\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://ballotpedia.org/California_Proposition_2%2C_Budget_Stabilization_Account_Cap_Increase_and_Gann_Limit_Changes_Amendment_%282026%29",
+    "https://quickguidetoprops.sos.ca.gov/propositions/2026-11-03/2",
+    "https://semblen.com/races/measures/ca/ca-proposition-2"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 18,
+    "requests_per_host": {
+      "api.openai.com": 16,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 15,
+      "202": 2
+    },
+    "bytes_up": 1162656,
+    "bytes_down": 2138917,
+    "wire_bytes": {
+      "harness_to_proxy": 921394,
+      "proxy_to_harness": 1219281,
+      "proxy_to_internet": 919879,
+      "internet_to_proxy": 1251340
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2006,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 18,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:03:36.010953+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:03:36.010953+00:00",
+      "finished_at": "2026-11-03T11:05:16.548131+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

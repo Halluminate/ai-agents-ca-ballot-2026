@@ -1,0 +1,96 @@
+{
+  "run_id": "luna__native__win__p42__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "42",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:05:36.295145+00:00",
+  "finished_at": "2026-11-03T13:08:25.618795+00:00",
+  "seconds": 167.2,
+  "input_tokens": 48,
+  "output_tokens": 11707,
+  "cached_tokens": 1050587,
+  "cost_usd": 0.1139,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/42 California Proposition 42 2014 official results ...",
+    "California Proposition 42 polling October 2026 Yes No latest poll ...",
+    "\"Proposition 42\" \"October 19\u201325\" California poll 2026 ...",
+    "'Proposition 42'",
+    "site:escholarship.org/uc/item/72722408 Proposition 42 43% 45% ...",
+    "\"California voters turning against Proposition 40, the Billionaires Tax\" IGS Prop 42 2026 43 ...",
+    "California Proposition 42 poll October 30 2026 final poll Yes No ...",
+    "site:sos.ca.gov/elections/statewide-election-results 2026 general election California results Proposition 42 ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/42/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 19,
+    "requests_per_host": {
+      "api.openai.com": 16,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 15,
+      "202": 3
+    },
+    "bytes_up": 1400412,
+    "bytes_down": 2937174,
+    "wire_bytes": {
+      "harness_to_proxy": 1037402,
+      "proxy_to_harness": 1706935,
+      "proxy_to_internet": 1035746,
+      "internet_to_proxy": 1738031
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1712,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 18,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:05:36.295145+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:05:36.295145+00:00",
+      "finished_at": "2026-11-03T13:08:25.618795+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

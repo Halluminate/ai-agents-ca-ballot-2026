@@ -1,0 +1,13 @@
+
+
+Based on my research of the official Voter Information Guide analysis, legislative analysis, campaign arguments, and extensive news coverage (AP, NYT, LA Times, Inside Climate News, San Diego Union-Tribune, KPBS), here is my assessment of **Proposition 45 (California, November 2026)**, which would amend CEQA to fast-track environmental review for "essential" projects:
+
+**Key findings:**
+- **What it does:** Imposes strict deadlines (365 business days for environmental review, 270 days for court rulings), limits public comment to as little as 20–45 days, requires agencies to lock in review standards at application, lets applicants propose only *one* project alternative, limits tribal consultation to federally recognized tribes, and prevents courts from halting an entire project if review was flawed.
+- **Who's behind it:** Sponsored by the California Chamber of Commerce and funded largely by corporate money — PG&E and Edison ($6.5M), data center companies (Prologis), the state's largest oil and gas producer (California Resources Corp), and tech billionaire PACs ($10M from Brin/Doerr-funded groups).
+- **Who opposes it:** A broad coalition of 550+ labor, environmental, and public health groups (National Wildlife Federation, Clean Water Action, Physicians for Social Responsibility, American Nurses Association), funded in part by Wendy Schmidt ($10M). Critically, **the California Democratic Party opposes it**, and even prominent CEQA reformers who spent years passing legislative housing-reform laws — Senator Scott Wiener, Tom Steyer, California YIMBY, SPUR — are neutral or opposed, calling it a more aggressive rewrite than the legislatively-vetted reforms already enacted.
+- **Major concerns raised by nonpartisan and expert analysts:** It shifts who controls the scope of environmental review from public agencies to developers; critics (NYT, LA Times, SF Chronicle) say it primarily benefits sprawling, polluting projects — data centers, CO2 pipelines, landfill gas facilities — under the "essential" label, while offering no requirement that it actually lower housing or utility costs. The nonpartisan Legislative Analyst flags potential "unintended negative environmental impacts" with uncertain, potentially large fiscal effects.
+
+The corporate-driven nature, the fact that even pro-housing reform experts balk, the broad environmental/public-health opposition, and the documented risk of fast-tracking pollution projects outweigh the benefits of faster permits.
+
+no

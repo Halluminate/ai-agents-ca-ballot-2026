@@ -1,0 +1,390 @@
+{
+  "run_id": "haiku__native__vote__p40__r1",
+  "model": "haiku",
+  "model_id": "anthropic/claude-haiku-5.5",
+  "pin": "anthropic",
+  "arm": "native",
+  "harness": "claude_code",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "40",
+  "repeat": 1,
+  "status": "timeout",
+  "answer": null,
+  "answer_form": "empty",
+  "error": "",
+  "started_at": "2026-11-03T11:54:44.607108+00:00",
+  "finished_at": "2026-11-03T13:24:53.018318+00:00",
+  "seconds": 5400.5,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "cached_tokens": 0,
+  "cost_usd": 0.0,
+  "cost_source": "estimated",
+  "billed_usd": 1.185277515,
+  "searches": [
+    "California Proposition 40 billionaire tax 2026 Legislative Analyst's Office analysis",
+    "Prop 40 California billionaire tax official title and summary",
+    "California billionaire tax November 2026 ballot poll",
+    "California billionaire tax Prop 40 economists criticism revenue estimate",
+    "LAO fiscal analysis 2026 billionaire tax initiative one-time 5% wealth tax revenue \"tens of billions\" lao.ca.gov",
+    "SEIU-UHW billionaire tax extortion allegations Prop 40",
+    "Prop 40 billionaire tax text retirement accounts pensions exempt home equity Legislature amend without voter approval",
+    "Newsom opposes Prop 40 billionaire tax position",
+    "\"One-Time Wealth Tax for State-Funded Health Care Programs\" initiative text section amendment Legislature 2/3 vote",
+    "PPIC survey October 2026 Proposition 40 billionaire tax likely voters",
+    "Rauh Jaros billionaire tax $39 billion $25 billion Hoover estimate updated Stanford study Prop 40",
+    "Prop 40 billionaire tax campaign spending millions yes no committees Brin SEIU-UHW most expensive 2026",
+    "Jaros Rauh NBER working paper California billionaire wealth tax net present value 2026",
+    "LAO estimate federal H.R. 1 Medi-Cal coverage loss California million people billions cut health care 2026",
+    "Proposition 41 Proposition 42 2026 California ballot explained Brin spending caps audits retroactive tax ban LAO",
+    "Prop 40 billionaire tax poll October 2026 52% oppose 46% support SF Standard PPIC Baldassare",
+    "Proposition 40 2026 \"text of proposed law\" billionaire tax voterguide.sos.ca.gov pdf",
+    "Wall Street Journal billionaire tax California Legislature amend broaden who is taxed editorial 2026",
+    "editorial board endorsement Proposition 40 billionaire tax 2026 recommends no yes Los Angeles Times Sacramento Bee San Jose Mercury",
+    "Prop 40 billionaire tax Legislature two-thirds vote amend constitutional amendment statute what the measure allows"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/40/",
+    "https://voterguide.sos.ca.gov/propositions/40/arguments-rebuttals.htm",
+    "https://lao.ca.gov/Ballot-Measures/2026-Billionaire-Tax",
+    "https://en.wikipedia.org/wiki/2026_California_billionaire_tax_initiative",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=40&year=2026",
+    "https://calmatters.org/politics/2026/10/newsom-tax-propositions-november-election/",
+    "https://www.sfchronicle.com/politics/article/dave-regan-allegations-prop-40-22433169.php",
+    "https://www.npr.org/sections/planet-money/2026/11/02/g-s1-151009/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions",
+    "https://www.yahoo.com/news/politics/articles/architect-billionaire-tax-tried-extort-163621964.html",
+    "https://oag.ca.gov/system/files/initiatives/pdfs/25-0024A1%20(Billionaire%20Tax%20",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-40",
+    "https://www.opb.org/article/2026/11/02/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions/",
+    "https://ballotpedia.org/California_One-Time_Wealth_Tax_for_State-Funded_Health_Care_Programs_Initiative_(2026",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-40-tax-billionaire-california-22477038.php",
+    "https://www.ppic.org/press-release/californians-head-to-polls-in-historically-sour-mood-billionaire-wealth-tax-slips-below-majority-support/",
+    "https://oag.ca.gov/system/files/initiatives/pdfs/25-0024%20%28Billionaire%20Tax%20%29.pdf",
+    "https://calmatters.org/politics/2026/10/tax-propositions-ballot-measures/",
+    "https://www.forbes.com/sites/nathangoldman/2026/10/21/everything-you-need-to-know-about-the-california-billionaire-tax-vote/",
+    "https://ballotpedia.org/California_One-Time_Wealth_Tax_for_State-Funded_Health_Care_Programs_Initiative_(2026",
+    "https://californiapolicycenter.org/californias-wealth-tax-is-coming-for-everyone/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+    "https://ridleylawoffices.com/california-billionaire-tax-prop-40/",
+    "https://en.wikipedia.org/wiki/2026_California_billionaire_tax_initiative",
+    "https://ridleylawoffices.com/california-billionaire-tax-prop-40/",
+    "https://calmatters.org/health/2026/10/prop-40-billionaire-tax-fact-check/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-40-billionaire-tax/",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-40-tax-billionaire-california-22477038.php",
+    "https://lao.ca.gov/Publications/Report/5146",
+    "https://calbudgetcenter.org/resources/timeline-of-funding-cuts-to-medi-cal-and-calfresh-in-california/"
+  ],
+  "tool_errors": 4,
+  "warnings": [
+    "capture: 9 connections were not readable by the proxy (api.anthropic.com:443)"
+  ],
+  "network": {
+    "requests": 187,
+    "requests_per_host": {
+      "api.anthropic.com": 98,
+      "openrouter.ai": 62,
+      "lao.ca.gov": 4,
+      "calmatters.org": 4,
+      "www.sfchronicle.com": 3,
+      "voterguide.sos.ca.gov": 2,
+      "en.wikipedia.org": 2,
+      "oag.ca.gov": 2,
+      "www.yahoo.com": 1,
+      "www.npr.org": 1,
+      "igs.berkeley.edu": 1,
+      "www.opb.org": 1,
+      "ballotpedia.org": 1,
+      "www.ppic.org": 1,
+      "www.forbes.com": 1,
+      "vig.cdn.sos.ca.gov": 1,
+      "ridleylawoffices.com": 1,
+      "calbudgetcenter.org": 1
+    },
+    "hosts": [
+      "api.anthropic.com",
+      "ballotpedia.org",
+      "calbudgetcenter.org",
+      "calmatters.org",
+      "en.wikipedia.org",
+      "igs.berkeley.edu",
+      "lao.ca.gov",
+      "oag.ca.gov",
+      "openrouter.ai",
+      "ridleylawoffices.com",
+      "vig.cdn.sos.ca.gov",
+      "voterguide.sos.ca.gov",
+      "www.forbes.com",
+      "www.npr.org",
+      "www.opb.org",
+      "www.ppic.org",
+      "www.sfchronicle.com",
+      "www.yahoo.com"
+    ],
+    "status_counts": {
+      "200": 175,
+      "202": 1,
+      "302": 1,
+      "403": 3
+    },
+    "bytes_up": 6014846,
+    "bytes_down": 11513435,
+    "wire_bytes": {
+      "harness_to_proxy": 6424989,
+      "proxy_to_harness": 11959492,
+      "proxy_to_internet": 6176099,
+      "internet_to_proxy": 12086829
+    },
+    "byte_counter": true,
+    "errors": 24,
+    "error_details": [
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "www.npr.org",
+        "url": "https://www.npr.org/sections/planet-money/2026/11/02/g-s1-151009/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 10.6562,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.001,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0025,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0035,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 9.9995,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0031,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 9.9954,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0054,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0026,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 91,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:54:44.607108+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:54:44.607108+00:00",
+      "finished_at": "2026-11-03T13:24:53.018318+00:00",
+      "status": "timeout",
+      "error": ""
+    }
+  ]
+}

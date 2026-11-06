@@ -1,0 +1,90 @@
+{
+  "run_id": "terra__native__vote__p43__r1",
+  "model": "terra",
+  "model_id": "gpt-6.1-terra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:42:45.188462+00:00",
+  "finished_at": "2026-11-03T11:43:42.044639+00:00",
+  "seconds": 54.8,
+  "input_tokens": 24,
+  "output_tokens": 2834,
+  "cached_tokens": 254804,
+  "cost_usd": 0.1559,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/43 California proposition 43 2026 ...",
+    "proposition 43 November 2026 California local tax measure fiscal impact arguments two thirds special taxes examples ...",
+    "2026 proposition 43 California number special taxes local initiatives passed majority supermajority 2017 data ...",
+    "\"proposition 43\" \"endorsement\" \"yes\" 2026 local taxes editorial special interest unions voter-initiated ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 9,
+    "requests_per_host": {
+      "api.openai.com": 8,
+      "ab.chatgpt.com": 1
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 7,
+      "202": 1
+    },
+    "bytes_up": 986857,
+    "bytes_down": 1449889,
+    "wire_bytes": {
+      "harness_to_proxy": 788858,
+      "proxy_to_harness": 816187,
+      "proxy_to_internet": 788333,
+      "internet_to_proxy": 834072
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1148,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 10,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:42:45.188462+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:42:45.188462+00:00",
+      "finished_at": "2026-11-03T11:43:42.044639+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

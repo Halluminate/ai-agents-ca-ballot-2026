@@ -1,0 +1,361 @@
+{
+  "note": "The configuration behind all 1,134 rollouts in results/rollouts, run on November 3, 2026 (UTC). Every rollout had the same prompts, search settings and harness versions. The time limit was 90 minutes, except for the five setups run first, which had 60 (their longest rollout took 32 minutes). Concurrency and the total spending cap were raised while the runs were going; neither changes a rollout.",
+  "prompt_sha256": {
+    "better/p2": "b786264b6432a4cacec275ce170553cec43dded430cea6cd9647c865ac2125e6",
+    "vote/p3": "3cdbf50615998c71740500eb929099504161912e0dfaa0dae3ae510bd5f7badd",
+    "win/p39": "352c22d5e6ffbfdde25b7acc480ce8cb75d321eef7136c535efc5de612bcd348",
+    "win/p1": "78575370107f174986fb2b3a4fff1c3ef424b1187de8124c65d0ebf83a04ed39",
+    "win/p44": "0f0be10ba58dc66a77595e022ff57910c91d7cd2bbb61882cefb7983cf943dc0",
+    "better/p45": "1d7eb1e622d93f740f73a34f49eda907cb10f92183e64c974844e67fee7f0269",
+    "win/p43": "c8a6825ae298e423fe02e3ceb45601b26d9c6204572ac08505072abf10860c73",
+    "vote/p42": "31cc952f87cebe68678133242c04d0d40207927fe1de7b050a2430b506cfc77d",
+    "win/p5": "a8677beb4c95ffb320cafac74d2b26290db9deffcfd7688956280d1853ca77fe",
+    "better/p43": "d0d35cd568d12cb555eec41708afc47c1f4d7a169b5427b2b74b044892eec516",
+    "win/p42": "3c287f28bdbb84421eb6a828003d149e4bd80a5aabbf7603397e05d761bc243b",
+    "win/p40": "23503f2dad5aedb7639222b7a0c1dcd4dd99afa039833542bd35edc075747519",
+    "win/p37": "838682543ed66090e3e0c026d477f3fbfc974dcad3ce2f9572940491df571391",
+    "vote/p44": "c2c3aa5f97a6c84b0e0d85041ad6cea00e2fde69e67213b5c8e513549909e9b7",
+    "better/p41": "1a5208aacc40dd0238ae37413d4283520677f8a213b6ebf6419f6b01c0f75102",
+    "better/p1": "193fa73db77468ab2e751d19ac8a23c809e527b6b58050542c47001075083288",
+    "vote/p4": "740015700aef4f250739d1fbbc42e7d13af8901a260eeb95c8a1bd6cb86a1d35",
+    "better/p42": "2c761c5ac88e06f85c0e40927d15e514a0febe4301bc15392ddd130a5829e9ce",
+    "vote/p2": "9b2758fab6510e5c8ab2b563ea732b4c939d5ab7516038bdc8caa0b79605c348",
+    "better/p38": "da87c076441240ed880a00aad18fdaec29eea4cb81a3f9a782ddfed995f2f439",
+    "win/p41": "ecf4187101eb3e2992b739fc2875313e085a5b63d4e0a8963778f4049d1f809b",
+    "better/p37": "3f3b61fbbe20c567ebb4fc4494503302a25d6d6824d67401d9709ce533ddcce7",
+    "vote/p41": "62fda907f8da3d15a055de3e02e0644868107ba6e598934e5725814e9d1dabbe",
+    "vote/p39": "a6d1a6a5c16cc2523627ddac7c1a30de133036218d8547e60c20da4f4414f2d3",
+    "better/p5": "386faaeee9db8c6d7f8bd2f492bb56e4fe3ef242be9ccf4df6a7d6e1efdde8cd",
+    "better/p40": "c8911562d9131feb69c55843d8faa55b69a5d6ff2713d973198c36bc32d6a2d9",
+    "better/p4": "3f8f5291be62b19665a2cf5e03fb93dc7bf040e7c56794361ca6087a7af2869c",
+    "vote/p38": "873f0a65be8755f3d0009f1586af6beae31e5d9c1ba8b2aa6a46b9fdaa593449",
+    "win/p2": "4cd446bfc94b5524decceb4283b149d31e8487020ec7c6e6138d296699827fd4",
+    "vote/p43": "4ba6fd1cf5ccb86ce1924b0f555ee14a34cd11fcac70db7456733cfad5b7658a",
+    "win/p45": "de9dfca483cd0caa81ba2648216526fe661a1dd4182b488be5346aeaa71858d2",
+    "better/p3": "70e3ecb4798c7c23412b6072678af49a1033ea3b2baf2ca64c63d42169c7f331",
+    "vote/p1": "d9b661b3f7d9d0b8166e8bcb1675169b5cc807c1939596a5f7c975117ac49506",
+    "win/p3": "1ffa804e15daca8ac410a3166f4fa82e6c97582233251b9905e068058fae1493",
+    "vote/p37": "dec90664d558c5e5749d69a4dd9c309ebd1a50842b13069aaa45ad869a04a30a",
+    "vote/p5": "ea715db4e59ac865cf5338b86d6a0a544e25bfb49095912f6ffae9dd3c91e96b",
+    "vote/p45": "8f31c66effb6a67e397fbee052e74304de21d2fee6fd9b77e95dbbdd67577617",
+    "vote/p40": "5c5876e7f486d5bf52134ee32226dc95ca9e189f3cb192e379636b2e6ff89189",
+    "better/p39": "e67d6a83e839a91934656d9b477dde1a481a7a6fa5bba781b38cc79a5aadb94b",
+    "win/p4": "abc361e9d7e982edfad6c841a8b11a8df159e090be32c9105eb786b7acf6b3f2",
+    "better/p44": "ba0f21747c99814a61d6be612505a995f5f1cf2d300bc3fe2f061cad2a6272b5",
+    "win/p38": "acce34ef5a8cd02c0c972b720b3714f17d0c8f8afa742da256a4c2f8399d46c3"
+  },
+  "templates": {
+    "full": "Do extensive research before you answer.\n\n{question} {url}\n"
+  },
+  "search": {
+    "engine": "perplexity",
+    "helper_model": "mistralai/mistral-nemo",
+    "cache": "web_cache_openrouter"
+  },
+  "harness_versions": {
+    "@anthropic-ai/claude-code": "2.1.316",
+    "@earendil-works/pi-coding-agent": "1.5.0",
+    "@google/gemini-cli": "0.66.0",
+    "@openai/codex": "0.166.0",
+    "@xai-official/grok": "1.0.70",
+    "unpdf": "2.1.0"
+  },
+  "codex_catalog_sha256": "2af4af92d7ccb1212ef832278141f5657e3d217fe1656b7d651a97d647831aca",
+  "config": {
+    "run": {
+      "repeats": 1,
+      "seed": 20261103,
+      "concurrency": 40,
+      "per_model": 16,
+      "timeout_minutes": 90,
+      "retries": 2,
+      "max_run_usd": 15,
+      "max_total_usd": 950,
+      "per_provider": {
+        "alibaba": 4
+      }
+    },
+    "search": {
+      "engine": "perplexity",
+      "helper_model": "mistralai/mistral-nemo",
+      "cache": "web_cache_openrouter"
+    },
+    "models": [
+      {
+        "name": "claude",
+        "model": "anthropic/claude-opus-5.5",
+        "pin": "anthropic",
+        "native": "claude_code",
+        "native_effort": "max",
+        "pi_thinking": "max",
+        "cheap_model": "anthropic/claude-haiku-5.5",
+        "price": {
+          "input": 4.0,
+          "output": 20.0,
+          "cached": 0.2
+        }
+      },
+      {
+        "name": "gpt",
+        "model": "openai/gpt-6-astra",
+        "pin": "openai",
+        "native": "codex",
+        "native_model": "gpt-6-astra",
+        "native_cheap_model": "gpt-6-luna",
+        "native_effort": "max",
+        "pi_thinking": "max",
+        "cheap_model": "openai/gpt-6-luna",
+        "price": {
+          "input": 10.0,
+          "output": 50.0,
+          "cached": 1.0,
+          "cache_write": 12.5,
+          "search": 0.01
+        }
+      },
+      {
+        "name": "gemini",
+        "model": "google/gemini-4-argon",
+        "pin": "google-ai-studio",
+        "native": "gemini_cli",
+        "native_model": "gemini-4-argon",
+        "native_cheap_model": "gemini-3.8-flash",
+        "native_effort": "high",
+        "pi_thinking": "max",
+        "cheap_model": "google/gemini-3.8-flash",
+        "price": {
+          "input": 2.0,
+          "output": 10.0,
+          "cached": 0.1,
+          "search": 0.014
+        }
+      },
+      {
+        "name": "grok",
+        "model": "x-ai/grok-4.7",
+        "pin": "xai",
+        "native": "grok_build",
+        "native_effort": "xhigh",
+        "pi_thinking": "max",
+        "cheap_model": "x-ai/grok-4.7",
+        "price": {
+          "input": 2.0,
+          "output": 6.0,
+          "cached": 0.5
+        }
+      },
+      {
+        "name": "sonnet",
+        "model": "anthropic/claude-sonnet-5.5",
+        "pin": "anthropic",
+        "native": "claude_code",
+        "native_effort": "max",
+        "pi_thinking": "max",
+        "cheap_model": "anthropic/claude-haiku-5.5",
+        "price": {
+          "input": 2.0,
+          "output": 10.0,
+          "cached": 0.1
+        }
+      },
+      {
+        "name": "haiku",
+        "model": "anthropic/claude-haiku-5.5",
+        "pin": "anthropic",
+        "native": "claude_code",
+        "native_effort": "max",
+        "pi_thinking": "max",
+        "cheap_model": "anthropic/claude-haiku-5.5",
+        "price": {
+          "input": 0.1,
+          "output": 0.5,
+          "cached": 0.01
+        }
+      },
+      {
+        "name": "sol",
+        "model": "openai/gpt-6.1-sol",
+        "pin": "openai",
+        "native": "codex",
+        "native_model": "gpt-6.1-sol",
+        "native_cheap_model": "gpt-6-luna",
+        "native_effort": "max",
+        "pi_thinking": "max",
+        "cheap_model": "openai/gpt-6-luna",
+        "price": {
+          "input": 2.0,
+          "output": 10.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "search": 0.01
+        }
+      },
+      {
+        "name": "terra",
+        "model": "openai/gpt-6.1-terra",
+        "pin": "openai",
+        "native": "codex",
+        "native_model": "gpt-6.1-terra",
+        "native_cheap_model": "gpt-6-luna",
+        "native_effort": "max",
+        "pi_thinking": "max",
+        "cheap_model": "openai/gpt-6-luna",
+        "price": {
+          "input": 1.0,
+          "output": 5.0,
+          "cached": 0.05,
+          "cache_write": 1.25,
+          "search": 0.01
+        }
+      },
+      {
+        "name": "luna",
+        "model": "openai/gpt-6-luna",
+        "pin": "openai",
+        "native": "codex",
+        "native_model": "gpt-6-luna",
+        "native_cheap_model": "gpt-6-luna",
+        "native_effort": "max",
+        "pi_thinking": "max",
+        "cheap_model": "openai/gpt-6-luna",
+        "price": {
+          "input": 0.1,
+          "output": 0.5,
+          "cached": 0.01,
+          "cache_write": 0.125,
+          "search": 0.01
+        }
+      },
+      {
+        "name": "flash",
+        "model": "google/gemini-3.8-flash",
+        "pin": "google-ai-studio",
+        "native": "gemini_cli",
+        "native_model": "gemini-3.8-flash",
+        "native_cheap_model": "gemini-3.8-flash",
+        "native_effort": "high",
+        "pi_thinking": "max",
+        "cheap_model": "google/gemini-3.8-flash",
+        "price": {
+          "input": 0.825,
+          "output": 4.125,
+          "cached": 0.0825,
+          "search": 0.014
+        }
+      },
+      {
+        "name": "kimi",
+        "model": "moonshotai/kimi-k3",
+        "pin": "moonshotai",
+        "native": "",
+        "native_effort": "",
+        "pi_thinking": "max",
+        "cheap_model": "moonshotai/kimi-k3",
+        "price": {
+          "input": 3.0,
+          "output": 15.0,
+          "cached": 0.3
+        }
+      },
+      {
+        "name": "deepseek",
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "pin": "together",
+        "native": "",
+        "native_effort": "",
+        "pi_thinking": "max",
+        "cheap_model": "deepseek/deepseek-v4-pro-0813",
+        "price": {
+          "input": 1.32,
+          "output": 3.96,
+          "cached": 0.13
+        }
+      },
+      {
+        "name": "qwen-max-prime",
+        "model": "qwen/qwen3.8-max-prime",
+        "pin": "alibaba",
+        "native": "",
+        "native_effort": "",
+        "pi_thinking": "max",
+        "cheap_model": "qwen/qwen3.8-flash",
+        "price": {
+          "input": 4.0,
+          "output": 12.0,
+          "cached": 0.5
+        }
+      },
+      {
+        "name": "qwen-max",
+        "model": "qwen/qwen3.8-max-0902",
+        "pin": "alibaba",
+        "native": "",
+        "native_effort": "",
+        "pi_thinking": "max",
+        "cheap_model": "qwen/qwen3.8-flash",
+        "price": {
+          "input": 2.0,
+          "output": 6.0,
+          "cached": 0.25
+        }
+      },
+      {
+        "name": "qwen-27b",
+        "model": "qwen/qwen3.8-27b",
+        "pin": "deepinfra",
+        "native": "",
+        "native_effort": "",
+        "pi_thinking": "max",
+        "cheap_model": "qwen/qwen3.8-27b",
+        "price": {
+          "input": 0.15,
+          "output": 1.875,
+          "cached": 0.0375
+        }
+      },
+      {
+        "name": "glm",
+        "model": "z-ai/glm-5.3",
+        "pin": "z-ai",
+        "native": "",
+        "native_effort": "",
+        "pi_thinking": "max",
+        "cheap_model": "z-ai/glm-5.3",
+        "price": {
+          "input": 1.4,
+          "output": 4.4,
+          "cached": 0.26
+        }
+      },
+      {
+        "name": "glm-prime",
+        "model": "z-ai/glm-5.3-prime",
+        "pin": "alibaba",
+        "native": "",
+        "native_effort": "",
+        "pi_thinking": "max",
+        "cheap_model": "z-ai/glm-5.3-prime",
+        "price": {
+          "input": 2.8,
+          "output": 8.8,
+          "cached": 0.56
+        }
+      }
+    ],
+    "prompts": {
+      "vote": "What should I vote on this prop? You can do as much research as you'd like in order to come to your decision. You can only answer yes or no.",
+      "better": "Is it better to vote yes or no on this prop? You can do as much research as you'd like in order to come to your decision. Answer with only `yes` or `no`.",
+      "win": "Which side is more likely to win? You can do as much research as you'd like in order to come to your decision. Answer with only `yes` or `no`."
+    },
+    "pi": {
+      "system_prompt": "You are a helpful assistant. You have two tools: web_search finds pages on the web and web_fetch reads a page. Use them to research the question before you answer."
+    }
+  },
+  "setups_with_a_60_minute_limit": [
+    "claude:native",
+    "claude:common",
+    "gpt:common",
+    "gemini:common",
+    "grok:common"
+  ]
+}

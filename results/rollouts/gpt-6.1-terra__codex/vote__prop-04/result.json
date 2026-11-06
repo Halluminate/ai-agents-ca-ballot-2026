@@ -1,0 +1,103 @@
+{
+  "run_id": "terra__native__vote__p4__r1",
+  "model": "terra",
+  "model_id": "gpt-6.1-terra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:35:51.051438+00:00",
+  "finished_at": "2026-11-03T12:38:25.233115+00:00",
+  "seconds": 151.9,
+  "input_tokens": 54,
+  "output_tokens": 8285,
+  "cached_tokens": 1310965,
+  "cost_usd": 0.4395,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/4/ Proposition 4 California 2026 ballot measure ...",
+    "California 2026 Proposition 4 public financing elections legislative analyst analysis election official current local public funds SB 42 ...",
+    "\"Proposition 4\" \"2026\" \"campaign\" endorsement editorial yes no Los Angeles Times Chronicle ...",
+    "\"Proposition 4\" \"2026\" \"public financing\" \"editorial\" \"vote\" ...",
+    "'commission shall not'",
+    "2026 proposition 4 editorial board yes no campaign financing california safeguards law local watchdog editorial Los Angeles Sacramento ...",
+    "\"California Proposition 4\" 2026 \"Sacramento Bee\" endorse ...",
+    "\"The effects of public campaign funding\" \"Seattle\" Griffith Noonen 2022 findings donations candidates competition ...",
+    "\"public campaign finance\" polarization Arizona Maine Connecticut critique Kilborn 2022 public finance outcomes elected ...",
+    "2026 California Proposition 4 public campaign financing local ethics enforcement fraud matching donations Los Angeles Oakland San Francisco ...",
+    "'California is one of'",
+    "\"Prop 4\" \"2026\" \"Fair Political Practices Commission\" \"oversight\" local \"enforce\" PRA ...",
+    "'charter cities'",
+    "California \"prop 4\" 2026 \"sacramento bee\" \"public financing\" yes ...",
+    "systematic review public campaign finance evidence representation competition policy impacts campaign finance electoral 2023 2024 2025 ...",
+    "site:sgp.jhu.edu/primers/public-funding-of-us-elections/ \"public funding\" \"evidence\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 32,
+    "requests_per_host": {
+      "api.openai.com": 29,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 27,
+      "202": 3,
+      "500": 1
+    },
+    "bytes_up": 1480422,
+    "bytes_down": 4112751,
+    "wire_bytes": {
+      "harness_to_proxy": 1099740,
+      "proxy_to_harness": 2559662,
+      "proxy_to_internet": 1097003,
+      "internet_to_proxy": 2615221
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 3448,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 30,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:35:51.051438+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:35:51.051438+00:00",
+      "finished_at": "2026-11-03T12:38:25.233115+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

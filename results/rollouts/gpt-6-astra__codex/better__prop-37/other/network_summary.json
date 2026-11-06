@@ -1,0 +1,50 @@
+{
+  "requests": 29,
+  "requests_per_host": {
+    "api.openai.com": 22,
+    "ab.chatgpt.com": 7
+  },
+  "hosts": [
+    "ab.chatgpt.com",
+    "api.openai.com"
+  ],
+  "status_counts": {
+    "101": 1,
+    "200": 21,
+    "202": 6
+  },
+  "bytes_up": 1599091,
+  "bytes_down": 3607763,
+  "wire_bytes": {
+    "harness_to_proxy": 1286795,
+    "proxy_to_harness": 2168554,
+    "proxy_to_internet": 1284581,
+    "internet_to_proxy": 2217167
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "ab.chatgpt.com",
+      "url": "https://ab.chatgpt.com/otlp/v1/metrics",
+      "error": "stream reset by client (CANCEL)"
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 3367,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 25,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

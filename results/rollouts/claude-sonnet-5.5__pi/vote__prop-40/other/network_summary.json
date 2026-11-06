@@ -1,0 +1,43 @@
+{
+  "requests": 25,
+  "requests_per_host": {
+    "openrouter.ai": 23,
+    "www.kvpr.org": 1,
+    "www.ijpr.org": 1
+  },
+  "hosts": [
+    "openrouter.ai",
+    "www.ijpr.org",
+    "www.kvpr.org"
+  ],
+  "status_counts": {
+    "200": 25
+  },
+  "bytes_up": 6196488,
+  "bytes_down": 776816,
+  "wire_bytes": {
+    "harness_to_proxy": 6246719,
+    "proxy_to_harness": 895227,
+    "proxy_to_internet": 6241256,
+    "internet_to_proxy": 940509
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 21,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

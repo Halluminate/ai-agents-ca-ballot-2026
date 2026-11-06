@@ -1,0 +1,242 @@
+# Everything you would want to change lives here. The keys live in .env: OpenRouter's for
+# everything, plus OpenAI's for Codex and Google's for Gemini CLI.
+
+[run]
+repeats = 1            # runs per model x harness x prompt x proposition
+seed = 20261103        # shuffles run order so time drift is not tied to one condition
+concurrency = 14       # runs at once in total
+per_model = 5          # runs at once for one model, across both harnesses
+timeout_minutes = 90   # per run, on every harness. Haiku in Claude Code took up to 57 minutes in the test
+retries = 2            # infrastructure failures only, never refusals or hedged answers
+max_run_usd = 15       # per-run cap, enforced by Claude Code only
+max_total_usd = 950    # no new runs start after spend passes this
+# Providers that rate-limit get a cap across all their models: Alibaba lets about 3 runs at
+# a time through.
+per_provider = { alibaba = 4 }
+
+[search]
+# The shared harness's web_search runs on the OpenRouter key: one helper call with the
+# web plugin and a fixed engine, whose results come back verbatim as citations. The
+# helper's own text is thrown away, so no model chooses or summarizes the results.
+engine = "perplexity"
+helper_model = "mistralai/mistral-nemo"
+# Search results and pages the shared harness has read are kept here, under runs/, for
+# every run that uses this name, so models that make the same search read the same text.
+# A new name starts with nothing saved.
+cache = "web_cache_openrouter"
+
+# Model ids are OpenRouter ids. pin is the OpenRouter provider every request is pinned
+# to, with no fallback, where the harness allows it (Pi and Claude Code do; Grok Build
+# cannot add the field, so its routing is recorded instead).
+# native is the model's own agent harness, or "" where none runs here. Codex and Gemini CLI
+# run on their vendor's own key, so they take the vendor's model id from native_model.
+# Prices are USD per million tokens, each maker's own price. They are only used when a
+# harness does not report its own cost. search is a vendor's fee per search, and
+# cache_write its price per million tokens written to its cache.
+
+[[models]]
+name = "claude"
+model = "anthropic/claude-opus-5.5"
+pin = "anthropic"
+native = "claude_code"
+native_effort = "max"
+pi_thinking = "max"
+cheap_model = "anthropic/claude-haiku-5.5"
+price = { input = 4.0, output = 20.0, cached = 0.20 }
+
+[[models]]
+name = "gpt"
+model = "openai/gpt-6-astra"
+pin = "openai"
+native = "codex"
+native_model = "gpt-6-astra"
+native_cheap_model = "gpt-6-luna"
+native_effort = "max"
+pi_thinking = "max"
+cheap_model = "openai/gpt-6-luna"
+price = { input = 10.0, output = 50.0, cached = 1.0, cache_write = 12.5, search = 0.01 }
+
+[[models]]
+name = "gemini"
+model = "google/gemini-4-argon"
+pin = "google-ai-studio"
+native = "gemini_cli"
+native_model = "gemini-4-argon"
+native_cheap_model = "gemini-3.8-flash"
+native_effort = "high" # Gemini CLI has no effort setting: it always thinks at Gemini's highest level
+pi_thinking = "max"    # Pi sends this to Gemini as "high", its highest level
+cheap_model = "google/gemini-3.8-flash"
+price = { input = 2.0, output = 10.0, cached = 0.10, search = 0.014 }
+
+[[models]]
+name = "grok"
+model = "x-ai/grok-4.7"
+pin = "xai"
+native = "grok_build"
+native_effort = "xhigh"
+pi_thinking = "max"    # Pi sends this to Grok as "xhigh", its highest level
+cheap_model = "x-ai/grok-4.7"
+price = { input = 2.0, output = 6.0, cached = 0.50 }
+
+# Kimi, DeepSeek, Qwen and GLM have no native harness here, so they run in the shared
+# harness only.
+
+[[models]]
+name = "sonnet"
+model = "anthropic/claude-sonnet-5.5"
+pin = "anthropic"
+native = "claude_code"
+native_effort = "max"
+pi_thinking = "max"
+cheap_model = "anthropic/claude-haiku-5.5"
+price = { input = 2.0, output = 10.0, cached = 0.10 }
+
+[[models]]
+name = "haiku"
+model = "anthropic/claude-haiku-5.5"
+pin = "anthropic"
+native = "claude_code"
+native_effort = "max"
+pi_thinking = "max"
+cheap_model = "anthropic/claude-haiku-5.5"
+price = { input = 0.10, output = 0.50, cached = 0.01 }
+
+[[models]]
+name = "sol"
+model = "openai/gpt-6.1-sol"
+pin = "openai"
+native = "codex"
+native_model = "gpt-6.1-sol"
+native_cheap_model = "gpt-6-luna"
+native_effort = "max"
+pi_thinking = "max"
+cheap_model = "openai/gpt-6-luna"
+price = { input = 2.0, output = 10.0, cached = 0.10, cache_write = 2.5, search = 0.01 }
+
+[[models]]
+name = "terra"
+model = "openai/gpt-6.1-terra"
+pin = "openai"
+native = "codex"
+native_model = "gpt-6.1-terra"
+native_cheap_model = "gpt-6-luna"
+native_effort = "max"
+pi_thinking = "max"
+cheap_model = "openai/gpt-6-luna"
+price = { input = 1.0, output = 5.0, cached = 0.05, cache_write = 1.25, search = 0.01 }
+
+[[models]]
+name = "luna"
+model = "openai/gpt-6-luna"
+pin = "openai"
+native = "codex"
+native_model = "gpt-6-luna"
+native_cheap_model = "gpt-6-luna"
+native_effort = "max"
+pi_thinking = "max"
+cheap_model = "openai/gpt-6-luna"
+price = { input = 0.10, output = 0.50, cached = 0.01, cache_write = 0.125, search = 0.01 }
+
+[[models]]
+name = "flash"
+model = "google/gemini-3.8-flash"
+pin = "google-ai-studio"
+native = "gemini_cli"
+native_model = "gemini-3.8-flash"
+native_cheap_model = "gemini-3.8-flash"
+native_effort = "high"
+pi_thinking = "max"
+cheap_model = "google/gemini-3.8-flash"
+price = { input = 0.825, output = 4.125, cached = 0.0825, search = 0.014 }
+
+[[models]]
+name = "kimi"
+model = "moonshotai/kimi-k3"
+pin = "moonshotai"
+native = ""
+native_effort = ""
+pi_thinking = "max"
+cheap_model = "moonshotai/kimi-k3"
+price = { input = 3.0, output = 15.0, cached = 0.30 }
+
+[[models]]
+name = "deepseek"
+model = "deepseek/deepseek-v4-pro-0813"
+pin = "together"       # DeepSeek's own servers are refused by this account's data policy (and were mostly down
+                       # on Nov 3). Together serves the same model at DeepSeek's price, at its original precision.
+native = ""
+native_effort = ""
+pi_thinking = "max"
+cheap_model = "deepseek/deepseek-v4-pro-0813"
+price = { input = 1.32, output = 3.96, cached = 0.13 }
+
+[[models]]
+name = "qwen-max-prime"
+model = "qwen/qwen3.8-max-prime"
+pin = "alibaba"
+native = ""
+native_effort = ""
+pi_thinking = "max"
+cheap_model = "qwen/qwen3.8-flash"
+price = { input = 4.0, output = 12.0, cached = 0.50 }
+
+[[models]]
+name = "qwen-max"
+model = "qwen/qwen3.8-max-0902"
+pin = "alibaba"
+native = ""
+native_effort = ""
+pi_thinking = "max"
+cheap_model = "qwen/qwen3.8-flash"
+price = { input = 2.0, output = 6.0, cached = 0.25 }
+
+# Qwen3.8 Flash was the small Qwen until Nov 3: only Alibaba serves it, and Alibaba refused
+# every test run with "temporarily rate-limited upstream". Qwen3.8 27B is the newest small Qwen
+# that other companies host; DeepInfra serves it at full precision.
+[[models]]
+name = "qwen-27b"
+model = "qwen/qwen3.8-27b"
+pin = "deepinfra"
+native = ""
+native_effort = ""
+pi_thinking = "max"
+cheap_model = "qwen/qwen3.8-27b"
+price = { input = 0.15, output = 1.875, cached = 0.0375 }
+
+[[models]]
+name = "glm"
+model = "z-ai/glm-5.3"
+pin = "z-ai"
+native = ""
+native_effort = ""
+pi_thinking = "max"
+cheap_model = "z-ai/glm-5.3"
+price = { input = 1.4, output = 4.4, cached = 0.26 }
+
+[[models]]
+name = "glm-prime"
+model = "z-ai/glm-5.3-prime"
+pin = "alibaba"        # Z.ai doesn't serve Prime itself: Alibaba is its only host on OpenRouter
+native = ""
+native_effort = ""
+pi_thinking = "max"
+cheap_model = "z-ai/glm-5.3-prime"
+price = { input = 2.8, output = 8.8, cached = 0.56 }
+
+[prompts]
+vote = "What should I vote on this prop? You can do as much research as you'd like in order to come to your decision. You can only answer yes or no."
+better = "Is it better to vote yes or no on this prop? You can do as much research as you'd like in order to come to your decision. Answer with only `yes` or `no`."
+win = "Which side is more likely to win? You can do as much research as you'd like in order to come to your decision. Answer with only `yes` or `no`."
+
+[templates]
+# One run asks about one proposition. {question} and {url} are filled in by run.py,
+# and {url} is that proposition's page in the official voter guide.
+full = '''
+Do extensive research before you answer.
+
+{question} {url}
+'''
+
+[pi]
+# The shared harness gives every model this exact system prompt and these exact tools.
+system_prompt = "You are a helpful assistant. You have two tools: web_search finds pages on the web and web_fetch reads a page. Use them to research the question before you answer."

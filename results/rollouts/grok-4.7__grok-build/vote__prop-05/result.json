@@ -1,0 +1,296 @@
+{
+  "run_id": "grok__native__vote__p5__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "native",
+  "harness": "grok_build",
+  "effort": "xhigh",
+  "prompt": "vote",
+  "prop": "5",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:54:44.689712+00:00",
+  "finished_at": "2026-11-03T12:05:35.528106+00:00",
+  "seconds": 641.5,
+  "input_tokens": 157173,
+  "output_tokens": 24165,
+  "cached_tokens": 314496,
+  "cost_usd": 0.6166,
+  "cost_source": "estimated",
+  "billed_usd": 0.619292,
+  "searches": [],
+  "search_errors": 0,
+  "web_search_requests": 0,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/5/",
+    "https://voterguide.sos.ca.gov/propositions/5/",
+    "https://voterguide.sos.ca.gov/propositions/5/index.htm",
+    "https://www.sos.ca.gov/elections/ballot-measures",
+    "https://voterguide.sos.ca.gov/propositions/5/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/5/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/5/title-summary.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop5-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop5.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop5-text-proposed-laws.pdf",
+    "https://ballotpedia.org/California_Proposition_5,_Changes_to_Recall_Process_Amendment_(2026",
+    "https://calmatters.org/california-voter-guide-2026/propositions/proposition-5-recall-elections/",
+    "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+    "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SCA1",
+    "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SCA1",
+    "https://ballotpedia.org/California_2026_ballot_propositions",
+    "https://www.sos.ca.gov/campaign-lobbying/cal-access-resources/measure-contributions/2026-ballot-measure-contribution-totals",
+    "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SCA1",
+    "https://www.ppic.org/blog/how-would-changes-to-the-recall-affect-california-voters/",
+    "https://calmatters.org/politics/2024/09/california-recall-reform-ballot/",
+    "https://www.latimes.com/california/story/2024-09-03/california-recall-reform-ballot-measure",
+    "https://ballotpedia.org/Laws_governing_recall_in_California",
+    "https://lhc.ca.gov/report/recall-process/",
+    "https://www.ppic.org/blog/recall-reform-is-on-the-ballot/",
+    "https://calmatters.org/politics/2024/08/california-governor-recall-reform/",
+    "https://www.sacbee.com/news/politics-government/capitol-alert/article291678000.html",
+    "https://lhc.ca.gov/report/the-recall-process/",
+    "https://lhc.ca.gov/sites/lhc.ca.gov/files/Reports/270/Report270.pdf",
+    "https://www.ppic.org/publication/californias-recall-process/",
+    "https://ballotpedia.org/Recall_of_state_officials",
+    "https://lhc.ca.gov/sites/lhc.ca.gov/files/Reports/266/Report266.pdf",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=5&year=2026",
+    "https://www.ncsl.org/elections-and-campaigns/recall-of-state-officials",
+    "https://www.ppic.org/blog/what-californians-think-about-the-recall/",
+    "https://www.ncsl.org/elections-and-campaigns/recall-of-state-officials",
+    "https://leginfo.legislature.ca.gov/faces/billVotesClient.xhtml?bill_id=202320240SCA1",
+    "https://elections.cdn.sos.ca.gov/sov/2021-recall/sov/complete-sov.pdf",
+    "https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/2003-statewide-special-election",
+    "https://leginfo.legislature.ca.gov/faces/billAnalysisClient.xhtml?bill_id=202320240SCA1",
+    "https://elections.cdn.sos.ca.gov/sov/2003-special/sum.pdf",
+    "https://www.ncsl.org/elections-and-campaigns/recall-of-state-officials#process",
+    "https://ballotpedia.org/Laws_governing_recall",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=1770.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CONS&sectionNum=5.&article=V",
+    "https://leginfo.legislature.ca.gov/faces/billAnalysisClient.xhtml?bill_id=202320240SCA1",
+    "https://www.sos.ca.gov/administration/news-releases-and-advisories/2021-news-releases-and-advisories/ap2134",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=1775.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CONS&article=V",
+    "https://elections.cdn.sos.ca.gov/sov/2021-recall/sov/03-governor-recall.pdf",
+    "https://www.ppic.org/blog/californias-recall-is-not-the-norm/"
+  ],
+  "tool_errors": 5,
+  "warnings": [
+    "capture: 154 connection attempts that ignored the proxy were blocked (grok-1.0.70 network-outbound x154)",
+    "capture: 7 connections were not readable by the proxy (ballotpedia.org:443, leginfo.legislature.ca.gov:443, openrouter.ai:443, vig.cdn.sos.ca.gov:443, www.sos.ca.gov:443)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 66,
+    "requests_per_host": {
+      "openrouter.ai": 21,
+      "leginfo.legislature.ca.gov": 7,
+      "lhc.ca.gov": 6,
+      "voterguide.sos.ca.gov": 5,
+      "www.ppic.org": 5,
+      "ballotpedia.org": 4,
+      "www.sos.ca.gov": 3,
+      "vig.cdn.sos.ca.gov": 3,
+      "calmatters.org": 3,
+      "elections.cdn.sos.ca.gov": 3,
+      "lao.ca.gov": 2,
+      "www.ncsl.org": 2,
+      "www.latimes.com": 1,
+      "www.sacbee.com": 1
+    },
+    "hosts": [
+      "ballotpedia.org",
+      "calmatters.org",
+      "elections.cdn.sos.ca.gov",
+      "lao.ca.gov",
+      "leginfo.legislature.ca.gov",
+      "lhc.ca.gov",
+      "openrouter.ai",
+      "vig.cdn.sos.ca.gov",
+      "voterguide.sos.ca.gov",
+      "www.latimes.com",
+      "www.ncsl.org",
+      "www.ppic.org",
+      "www.sacbee.com",
+      "www.sos.ca.gov"
+    ],
+    "status_counts": {
+      "200": 43,
+      "301": 2,
+      "403": 1,
+      "404": 15
+    },
+    "bytes_up": 1916611,
+    "bytes_down": 6086498,
+    "wire_bytes": {
+      "harness_to_proxy": 2136778,
+      "proxy_to_harness": 6301994,
+      "proxy_to_internet": 1980869,
+      "internet_to_proxy": 6407645
+    },
+    "byte_counter": true,
+    "errors": 10,
+    "error_details": [
+      {
+        "kind": "tls_failed_client",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "voterguide.sos.ca.gov",
+        "url": "https://voterguide.sos.ca.gov/propositions/5/",
+        "error": "peer closed connection"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "www.sacbee.com",
+        "url": "https://www.sacbee.com/news/politics-government/capitol-alert/article291678000.html",
+        "error": "stream reset by client (INTERNAL_ERROR)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1593,
+        "bytes_down": 39,
+        "duration": 6.2817,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 111,
+        "bytes_down": 0,
+        "duration": 0.4105,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "vig.cdn.sos.ca.gov",
+        "port": 443,
+        "sni": "vig.cdn.sos.ca.gov",
+        "bytes_up": 1817,
+        "bytes_down": 3282,
+        "duration": 1.4626,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "ballotpedia.org",
+        "port": 443,
+        "sni": "ballotpedia.org",
+        "bytes_up": 1818,
+        "bytes_down": 39,
+        "duration": 409.3712,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "www.sos.ca.gov",
+        "port": 443,
+        "sni": "www.sos.ca.gov",
+        "bytes_up": 1815,
+        "bytes_down": 39,
+        "duration": 409.3667,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "leginfo.legislature.ca.gov",
+        "port": 443,
+        "sni": "leginfo.legislature.ca.gov",
+        "bytes_up": 1584,
+        "bytes_down": 39,
+        "duration": 406.5464,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "leginfo.legislature.ca.gov",
+        "port": 443,
+        "sni": "leginfo.legislature.ca.gov",
+        "bytes_up": 1584,
+        "bytes_down": 39,
+        "duration": 406.5449,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 154
+      }
+    ],
+    "blocked_attempts": 154,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 43,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:54:44.689712+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:54:44.689712+00:00",
+      "finished_at": "2026-11-03T12:05:35.528106+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "requests": 33,
+  "requests_per_host": {
+    "openrouter.ai": 31,
+    "noprop44.com": 1,
+    "www.desertsun.com": 1
+  },
+  "hosts": [
+    "noprop44.com",
+    "openrouter.ai",
+    "www.desertsun.com"
+  ],
+  "status_counts": {
+    "200": 32,
+    "402": 1
+  },
+  "bytes_up": 7833428,
+  "bytes_down": 1218900,
+  "wire_bytes": {
+    "harness_to_proxy": 7892920,
+    "proxy_to_harness": 1356739,
+    "proxy_to_internet": 7886366,
+    "internet_to_proxy": 1411445
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 24,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

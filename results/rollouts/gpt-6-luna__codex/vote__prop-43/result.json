@@ -1,0 +1,102 @@
+{
+  "run_id": "luna__native__vote__p43__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:04:33.623089+00:00",
+  "finished_at": "2026-11-03T13:07:57.391557+00:00",
+  "seconds": 201.6,
+  "input_tokens": 54,
+  "output_tokens": 17748,
+  "cached_tokens": 1253971,
+  "cost_usd": 0.1809,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 43 2026 local special taxes analysis Proposition 13 vote threshold background ...",
+    "site:ca.gov \"California Cannabis Coalition v. City of Upland\" 2017 opinion PDF ...",
+    "\"Proposition 43\" \"real estate transfer taxes\" California 2026 analysis ...",
+    "\"In charter cities\" \"Proposition 43\" 2026 California ...",
+    "site:leginfo.legislature.ca.gov California Constitution Article XIII D Section 3 text local property taxes ...",
+    "California Cannabis Coalition v City of Upland 2017 Supreme Court majority vote threshold special tax initiative opinion ruling exact ...",
+    "site:calmatters.org 2026 Prop 43 number local initiative special taxes voter initiated since Upland 28 ...",
+    "Fresno Building Healthy Communities v City of Fresno 58 Cal.App.5th 884 opinion voter initiative two-thirds text ...",
+    "'two-thirds'",
+    "California Prop 43 2026 editorial board endorsement vote yes or no Proposition 43 ...",
+    "'Vote'",
+    "site:latimes.com/opinion/editorials Proposition 43 2026 endorsement California ...",
+    "ACA 22 2026 text Section 4.5 California local property ad valorem taxes Section XIII A official bill ...",
+    "California 2026 court ruling citizen initiative special taxes two-thirds vote Prop 43 latest Fresno Measure P case October 2026 ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 22,
+    "requests_per_host": {
+      "api.openai.com": 18,
+      "ab.chatgpt.com": 4
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 17,
+      "202": 4
+    },
+    "bytes_up": 1560491,
+    "bytes_down": 3837607,
+    "wire_bytes": {
+      "harness_to_proxy": 1121022,
+      "proxy_to_harness": 2203786,
+      "proxy_to_internet": 1119135,
+      "internet_to_proxy": 2234348
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 3230,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 20,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:04:33.623089+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:04:33.623089+00:00",
+      "finished_at": "2026-11-03T13:07:57.391557+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

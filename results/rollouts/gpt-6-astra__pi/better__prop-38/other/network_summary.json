@@ -1,0 +1,74 @@
+{
+  "requests": 31,
+  "requests_per_host": {
+    "openrouter.ai": 20,
+    "www.kpbs.org": 1,
+    "igs.berkeley.edu": 1,
+    "www.cbsnews.com": 1,
+    "votenoonprop38.org": 1,
+    "www.uclahealth.org": 1,
+    "news.aai.org": 1,
+    "www.nih.gov": 1,
+    "calmatters.org": 1,
+    "yeson38.com": 1,
+    "regents.universityofcalifornia.edu": 1,
+    "www.mercurynews.com": 1
+  },
+  "hosts": [
+    "calmatters.org",
+    "igs.berkeley.edu",
+    "news.aai.org",
+    "openrouter.ai",
+    "regents.universityofcalifornia.edu",
+    "votenoonprop38.org",
+    "www.cbsnews.com",
+    "www.kpbs.org",
+    "www.mercurynews.com",
+    "www.nih.gov",
+    "www.uclahealth.org",
+    "yeson38.com"
+  ],
+  "status_counts": {
+    "200": 31
+  },
+  "bytes_up": 2201784,
+  "bytes_down": 1249118,
+  "wire_bytes": {
+    "harness_to_proxy": 2265554,
+    "proxy_to_harness": 1354128,
+    "proxy_to_internet": 2258116,
+    "internet_to_proxy": 1425727
+  },
+  "byte_counter": true,
+  "errors": 2,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 31,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

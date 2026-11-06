@@ -1,0 +1,104 @@
+{
+  "run_id": "gpt__native__win__p42__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "42",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:00:38.154828+00:00",
+  "finished_at": "2026-11-03T11:02:53.806210+00:00",
+  "seconds": 133.2,
+  "input_tokens": 42,
+  "output_tokens": 4818,
+  "cached_tokens": 892739,
+  "cost_usd": 2.9763,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 42 2026 polling November personal property tax ...",
+    "site.igs.berkeley.edu \"2026-22\" \"42\" ...",
+    "'Proposition 42'",
+    "\"Proposition 42\" \"2026\" \"poll\" October 29 November 2 ...",
+    "\"Proposition 42\" \"November 2, 2026\" campaign spending ...",
+    "'Q29.'",
+    "\"Proposition 42\" \"forecast\" \"2026\" -site:onpointpolitics.us -site:tpsielections.com -site:reddit.com ...",
+    "site:callthemap.com \"Proposition 42\" ...",
+    "\"Proposition 42\" \"2026\" \"favored\" -site:reddit.com ...",
+    "'Proposition 42'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/42/",
+    "https://www.onpointpolitics.us/forecast/measures/ca/proposition-42",
+    "https://escholarship.org/uc/item/1vp9q3f9",
+    "https://escholarship.org/content/qt72722408/qt72722408.pdf",
+    "https://kalshi.com/markets/kxcaballotmeasures/-/kxcaballotmeasures-26nov03",
+    "https://blog.fiftyplusone.news/p/where-do-voters-stand-on-this-years",
+    "https://calmatters.org/politics/2026/10/newsom-tax-propositions-november-election/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 27,
+    "requests_per_host": {
+      "api.openai.com": 24,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 23,
+      "202": 3
+    },
+    "bytes_up": 1357938,
+    "bytes_down": 2869336,
+    "wire_bytes": {
+      "harness_to_proxy": 1044788,
+      "proxy_to_harness": 1713634,
+      "proxy_to_internet": 1042344,
+      "internet_to_proxy": 1759210
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2516,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 26,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:00:38.154828+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:00:38.154828+00:00",
+      "finished_at": "2026-11-03T11:02:53.806210+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "run_id": "flash__common__vote__p2__r1",
+  "model": "flash",
+  "model_id": "google/gemini-3.8-flash",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "2",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T13:35:09.939250+00:00",
+  "finished_at": "2026-11-03T13:37:24.855655+00:00",
+  "seconds": 132.1,
+  "input_tokens": 41618,
+  "output_tokens": 9165,
+  "cached_tokens": 206541,
+  "cost_usd": 0.1064,
+  "cost_source": "reported",
+  "billed_usd": 0.10637212251999997,
+  "searches": [
+    "\"California Proposition 2\" 2024 2026",
+    "\"What should I vote on this prop?\" \"You can only answer yes or no\"",
+    "\"What should I vote on\" \"You can only answer yes or no\"",
+    "\"You can do as much research as you'd like in order to come to your decision. You can only answer yes or no.\"",
+    "\"What should I vote on this prop\"",
+    "\"Save for California's Future Act\" Proposition 2",
+    "\"What should I vote on this prop\" \"You can only answer yes or no\"",
+    "what is today's date",
+    "\"Proposition 2\" California 2026 struck down removed court"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/",
+    "https://voterguide.sos.ca.gov/propositions/2/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 18,
+    "requests_per_host": {
+      "openrouter.ai": 18
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 18
+    },
+    "bytes_up": 1162774,
+    "bytes_down": 181373,
+    "wire_bytes": {
+      "harness_to_proxy": 1200857,
+      "proxy_to_harness": 228057,
+      "proxy_to_internet": 1194921,
+      "internet_to_proxy": 272346
+    },
+    "byte_counter": true,
+    "errors": 3,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 18,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:35:09.939250+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:35:09.939250+00:00",
+      "finished_at": "2026-11-03T13:37:24.855655+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

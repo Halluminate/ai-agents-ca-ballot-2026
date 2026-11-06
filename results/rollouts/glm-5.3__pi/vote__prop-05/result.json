@@ -1,0 +1,108 @@
+{
+  "run_id": "glm__common__vote__p5__r1",
+  "model": "glm",
+  "model_id": "z-ai/glm-5.3",
+  "pin": "z-ai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "5",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "first_line",
+  "error": "",
+  "started_at": "2026-11-03T10:49:22.604665+00:00",
+  "finished_at": "2026-11-03T10:52:28.782932+00:00",
+  "seconds": 183.3,
+  "input_tokens": 49889,
+  "output_tokens": 8360,
+  "cached_tokens": 136128,
+  "cost_usd": 0.1725,
+  "cost_source": "reported",
+  "billed_usd": 0.17253079728,
+  "searches": [
+    "California Proposition 5 2024 voter guide what it does",
+    "California recall election ballot measure 2026 remove replacement question Proposition 5 Josh Newman",
+    "\"Proposition 5\" 2026 California recall vote November 2026 news",
+    "CalMatters Proposition 5 recall voter guide 2026 pros cons",
+    "Los Angeles Times endorsement Proposition 5 recall 2026",
+    "Modesto Bee endorsement \"Proposition 5\" recall California opinion"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/5/",
+    "https://voterguide.sos.ca.gov/propositions/5/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/5/arguments-rebuttals.htm",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-5-recall-california-22458510.php",
+    "https://www.paloaltoonline.com/calmatters/2026/10/05/democrats-want-to-change-the-rules-for-recall-elections-voters-get-their-say-with-prop-5/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-5-recall-reform/",
+    "https://www.mercurynews.com/2026/10/20/endorsement-no-on-prop-5-a-bad-idea-that-protects-the-status-quo-and-silences-independent-minded-challengers/",
+    "https://www.modbee.com/opinion/editorials/article316911387.html"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 16,
+    "requests_per_host": {
+      "openrouter.ai": 14,
+      "www.paloaltoonline.com": 1,
+      "www.modbee.com": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.modbee.com",
+      "www.paloaltoonline.com"
+    ],
+    "status_counts": {
+      "200": 16
+    },
+    "bytes_up": 841295,
+    "bytes_down": 3021074,
+    "wire_bytes": {
+      "harness_to_proxy": 873792,
+      "proxy_to_harness": 3218569,
+      "proxy_to_internet": 869405,
+      "internet_to_proxy": 3255047
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 16,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:49:22.604665+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:49:22.604665+00:00",
+      "finished_at": "2026-11-03T10:52:28.782932+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "run_id": "terra__native__win__p4__r1",
+  "model": "terra",
+  "model_id": "gpt-6.1-terra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:05:15.340356+00:00",
+  "finished_at": "2026-11-03T11:05:59.608899+00:00",
+  "seconds": 42.1,
+  "input_tokens": 21,
+  "output_tokens": 2505,
+  "cached_tokens": 189873,
+  "cost_usd": 0.1597,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/4 California proposition 4 November 2026 voter guide ...",
+    "California Proposition 4 public campaign funding 2026 November poll yes no October Berkeley IGS ...",
+    "'Every public poll'",
+    "\"proposition 4\" \"2026\" \"41%\" \"41%\" October 19 25 Berkeley ...",
+    "\"Proposition 4\" \"2026\" \"election\" \"results\" public funding of campaigns November ...",
+    "'How we got here'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 8,
+    "requests_per_host": {
+      "api.openai.com": 7,
+      "ab.chatgpt.com": 1
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 6,
+      "202": 1
+    },
+    "bytes_up": 927000,
+    "bytes_down": 1237972,
+    "wire_bytes": {
+      "harness_to_proxy": 760757,
+      "proxy_to_harness": 663976,
+      "proxy_to_internet": 760161,
+      "internet_to_proxy": 679837
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1133,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 9,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:05:15.340356+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:05:15.340356+00:00",
+      "finished_at": "2026-11-03T11:05:59.608899+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

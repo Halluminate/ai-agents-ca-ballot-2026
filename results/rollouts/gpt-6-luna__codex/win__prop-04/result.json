@@ -1,0 +1,101 @@
+{
+  "run_id": "luna__native__win__p4__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:01:45.488602+00:00",
+  "finished_at": "2026-11-03T13:05:56.144760+00:00",
+  "seconds": 248.4,
+  "input_tokens": 54,
+  "output_tokens": 23405,
+  "cached_tokens": 1276524,
+  "cost_usd": 0.1726,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:sos.ca.gov Proposition 4 2024 election results yes no ...",
+    "California Proposition 4 2026 polling Yes No election ...",
+    "\"Proposition 4\" \"public campaign financing\" poll California 2026 voters ...",
+    "'Proposition 4'",
+    "\"Prop. 4\" California \"53%\" oppose \"public funding\" 2026 polling ...",
+    "'Proposition 4'",
+    "UC Berkeley IGS poll October 2026 Proposition 4 public campaign financing 41% 41% 18% ...",
+    "site:igs.berkeley.edu \"Proposition 4\" \"October\" \"2026\" \"public funding\" ...",
+    "California 2026 Proposition 4 forecast model On Point Politics methodology source ...",
+    "site:igs.berkeley.edu/news \"2026-22\" California propositions October 2026 IGS poll ...",
+    "'ballot'",
+    "site:sos.ca.gov/elections/prior-elections/statewide-election-results 2026 general election Proposition 4 result ...",
+    "\"Proposition 4\" \"Yes\" \"No\" 2026 California forecast ballot financing ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://electionresults.sos.ca.gov/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 22,
+    "requests_per_host": {
+      "api.openai.com": 17,
+      "ab.chatgpt.com": 5
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 16,
+      "202": 5
+    },
+    "bytes_up": 1502136,
+    "bytes_down": 3648116,
+    "wire_bytes": {
+      "harness_to_proxy": 1134251,
+      "proxy_to_harness": 2082783,
+      "proxy_to_internet": 1132762,
+      "internet_to_proxy": 2114100
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2416,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 19,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:01:45.488602+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:01:45.488602+00:00",
+      "finished_at": "2026-11-03T13:05:56.144760+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

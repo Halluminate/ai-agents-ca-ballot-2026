@@ -1,0 +1,57 @@
+{
+  "requests": 23,
+  "requests_per_host": {
+    "openrouter.ai": 18,
+    "www.santacruzsentinel.com": 1,
+    "www.mercurynews.com": 1,
+    "www.sacbee.com": 1,
+    "laist.com": 1,
+    "oag.ca.gov": 1
+  },
+  "hosts": [
+    "laist.com",
+    "oag.ca.gov",
+    "openrouter.ai",
+    "www.mercurynews.com",
+    "www.sacbee.com",
+    "www.santacruzsentinel.com"
+  ],
+  "status_counts": {
+    "200": 22,
+    "404": 1
+  },
+  "bytes_up": 1481676,
+  "bytes_down": 803393,
+  "wire_bytes": {
+    "harness_to_proxy": 1530312,
+    "proxy_to_harness": 869187,
+    "proxy_to_internet": 1523097,
+    "internet_to_proxy": 925261
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 23,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

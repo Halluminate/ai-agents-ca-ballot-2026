@@ -1,0 +1,92 @@
+{
+  "run_id": "qwen-27b__common__better__p41__r1",
+  "model": "qwen-27b",
+  "model_id": "qwen/qwen3.8-27b",
+  "pin": "deepinfra",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "41",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "last_line",
+  "error": "",
+  "started_at": "2026-11-03T13:33:56.851388+00:00",
+  "finished_at": "2026-11-03T13:36:26.810895+00:00",
+  "seconds": 147.2,
+  "input_tokens": 31265,
+  "output_tokens": 7141,
+  "cached_tokens": 51744,
+  "cost_usd": 0.0251,
+  "cost_source": "reported",
+  "billed_usd": 0.025101038359999998,
+  "searches": [
+    "California Proposition 41 2026 state spending limit special tax billionaire tax Prop 40"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/41/",
+    "https://voterguide.sos.ca.gov/propositions/41/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/40/",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=41&year=2026",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=40&year=2026",
+    "https://www.sacbee.com/opinion/election-endorsements/article317789904.html"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 7,
+    "requests_per_host": {
+      "openrouter.ai": 7
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 7
+    },
+    "bytes_up": 344266,
+    "bytes_down": 2602926,
+    "wire_bytes": {
+      "harness_to_proxy": 358701,
+      "proxy_to_harness": 2737281,
+      "proxy_to_internet": 357277,
+      "internet_to_proxy": 2749289
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 8,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:33:56.851388+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:33:56.851388+00:00",
+      "finished_at": "2026-11-03T13:36:26.810895+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+I cannot tell you to vote "yes" or "no" on Proposition 38. How you should vote depends on how you weigh competing priorities—specifically, whether you believe California should issue long-term state debt to guarantee major funding for immunology research, or whether you believe state borrowing and ballot-box earmarks are the wrong way to fund and prioritize scientific research.
+
+Below is a summary of the measure, its fiscal impact, and the arguments for and against it from California’s Official Voter Information Guide to help you make your decision.
+
+---
+
+### What Proposition 38 Does
+Proposition 38 (the *California Immunology Research and Cures Initiative*) is an initiative statute on the November 2026 ballot that authorizes **$8.4 billion in state general obligation bonds** to fund immunology and immunotherapy research in California:
+* **Allocation of Funds:** 
+  * **50% (~$4.2 billion)** is allocated to a single University of California–affiliated nonprofit medical research institute specializing in immunology and immunotherapy that meets specific statutory criteria (including facility size, clinical trial volume, and existing philanthropic commitments).
+  * **50% (~$4.2 billion)** is allocated for competitive research grants to California public and nonprofit universities and nonprofit research institutions, overseen by a new Advisory and Accountability Research Council made up of representatives from seven UC campuses and 10 to 15 other California nonprofit research institutions.
+* **Disease Focus:** At least half of the total bond funds ($4.2 billion) must be dedicated to research on preventing, treating, and curing **cancer, heart disease, and Alzheimer’s disease**. For-profit corporations are ineligible for grant funding.
+* **State Royalties:** Funding recipients must pay the state **10% of all revenues** derived from licensing or commercializing intellectual property resulting from the funded research. These payments go to the state General Fund until the bond principal and interest are repaid, and thereafter go toward additional immunology research.
+* **California Price Discount:** Any drug or therapy developed with Proposition 38 funds must be made available to California patients, hospitals, and insurers (including Medi-Cal) at a price at least **20% below the national average price** (excluding California).
+* **Administrative Caps & Oversight:** Caps state administrative costs at 2% of bond funds, limits university indirect grant costs to 20%, requires annual public reports and independent financial audits, and encourages grant recipients to purchase at least 50% of goods and services from California suppliers.
+
+---
+
+### Fiscal Impact (Legislative Analyst’s Estimate)
+* **State Debt Repayment:** Increased state General Fund costs of **$500 million to $600 million annually for about 20 years** to repay the bonds (roughly 0.25% of the state’s total General Fund budget). Because of interest, borrowing costs about 10% more (adjusted for inflation) than paying up front.
+* **Potential Offsets:** The state could recover part or all of the bond costs over subsequent decades through the 10% share of licensing revenues, though the Legislative Analyst notes that the amount and timing of any commercial returns are highly uncertain.
+
+---
+
+### The Case for Voting YES
+Supporters—including the **Alzheimer’s Association**, **The Michael J. Fox Foundation for Parkinson’s Research**, **ALS Association**, **American Nurses Association California**, **National Multiple Sclerosis Society**, and **Prostate Cancer Foundation**—argue that:
+* **Accelerates Life-Saving Cures:** Immunotherapy harnesses the body's immune system to fight disease and has already produced breakthroughs in cancers like melanoma, lung cancer, and leukemia. Dedicated funding could accelerate treatments and cures for Alzheimer’s, heart disease, Parkinson’s, diabetes, and ALS.
+* **Offsets Federal Funding Cuts:** With federal biomedical research funding facing cuts and uncertainty, Proposition 38 establishes a stable, dedicated funding source for California’s nonprofit research institutions and universities.
+* **Lowers Healthcare Costs for Californians:** Mandating a 20% discount in California on therapies developed through the measure directly benefits patients and state health programs, while preventing and curing chronic diseases can save billions in long-term medical expenses.
+* **Built-In Taxpayer Protections:** The measure requires 10% of licensing royalties to go back to the state to help repay the bonds, caps state administrative overhead at 2%, mandates independent audits, and keeps funds within California nonprofits to support jobs and biotech innovation.
+
+---
+
+### The Case for Voting NO
+Opponents—represented in the official voter guide by **Dr. Robert M. Kaplan** of the Stanford University School of Medicine’s Clinical Excellence Research Center—argue that:
+* **Locks Taxpayers into Decades of Debt:** California faces ongoing structural budget deficits. Committing $500 million to $600 million per year in General Fund debt payments for 20 to 25 years reduces the state’s fiscal flexibility to respond to other urgent public health and budget needs.
+* **Flawed "Ballot-Box Science" Approach:** Earmarking billions of borrowed dollars for a single scientific specialty (and directing half to a single institute) bypasses comprehensive scientific and legislative planning. Other critical needs—such as mental illness, kidney disease, infectious disease surveillance, and community public health infrastructure—must compete for limited resources without dedicated bond measures.
+* **Repayment Claims Are Speculative:** Most basic academic research takes decades to affect patient care and rarely generates direct commercial profits for universities, as private pharmaceutical companies typically fund the costly late-stage clinical trials that capture commercial returns.
+* **Potential Unintended Consequences of Price Controls:** Requiring a 20% discount in California could discourage private companies from licensing Proposition 38 research or incentivize them to prioritize selling new therapies in other states where prices are not capped.
+
+---
+
+### Summary
+* **Vote YES** if you believe California should issue $8.4 billion in bonds to guarantee dedicated funding for immunology and immunotherapy research, with half going to a UC-affiliated research institute and half to nonprofit research grants, alongside a 10% royalty payback requirement and a 20% California drug discount.
+* **Vote NO** if you believe California should not take on $500 million to $600 million in annual bond debt for roughly 20 years to earmark funds for a single medical research field outside the normal state budget and scientific review process.

@@ -1,0 +1,25 @@
+# My recommendation: **YES** on Prop 4
+
+(Quick note: this is the November 2026 Prop 4 — the public campaign financing measure — not the 2024 climate bond, which also carried the number 4.)
+
+## What it actually does
+
+Prop 4 (SB 42, the "California Fair Elections Act") would repeal California's 1988 ban on using public funds for candidates' campaigns. It's important to understand what it does **not** do: it creates no program, funds no campaign, and appropriates essentially nothing (the Legislative Analyst puts the direct cost at a few hundred thousand dollars a year, for FPPC guidance). It simply gives state and local governments the *option* to adopt programs later, under rules written into the measure.
+
+## Why I land on yes
+
+**1. California is the outlier, not the norm.** We're the only state that outright bans this. Fourteen states, D.C., and dozens of cities use public financing — and California's own charter cities (San Francisco, LA, Berkeley, Oakland, Long Beach, Sacramento, Richmond) have run such programs for years. The 1988 ban mostly just prevents counties and smaller general-law cities from even having the choice.
+
+**2. The guardrails are real, and the opposition's "blank check" claim is overstated.** Reading the actual text: participating candidates must abide by spending limits and meet "strict criteria" — broad-based support demonstrated via small-dollar contributions or vouchers (max $10 to count toward qualification). Funds earmarked for education, transportation, or public safety are excluded. No public money for legal defense, fines, or repaying personal loans. No favoring incumbents or parties. The claim that there's "NO LIMIT" ignores that the measure *requires* limits in any future program.
+
+**3. The evidence leans positive.** Research on NYC's matching funds, Seattle's democracy vouchers, and Arizona/Maine's clean elections systems (67 studies reviewed by the Campaign Legal Center) consistently shows these programs increase small donors, reduce dependence on large donors, broaden participation geographically and demographically, and often increase competition and turnout (Seattle: +4.9 points turnout, +86% candidates). The skeptical studies (e.g., GAO 2010) find no big benefits — but don't find harms.
+
+**4. The problem it targets is severe and getting worse.** Over $1 billion has flooded California state races since 2020; the 2026 governor's race (Steyer's $213M self-funding) was the most expensive in U.S. history; lobbying hit $500M. The status quo doesn't keep money out of politics — it just guarantees the money is all private.
+
+**5. History cuts less against it than it seems.** Voters rejected similar measures in 2000, 2006, and 2010 — but each of those bundled the repeal with a *specific new program* (and taxes/fees to fund it). This one is purely enabling; every future program would still have to win approval in a public process you can weigh in on.
+
+## The honest case for no
+
+It's not frivolous: taxpayer dollars going to candidates you may oppose is a legitimate philosophical objection; the measure leaves program design to future politicians; it doesn't ban special-interest money; FPPC isn't required to enforce local programs; and most editorial boards (SF Chronicle, Mercury News, San Diego U-T, OC Register, Press Democrat) oppose it, largely on these "not enough guardrails" grounds. If your core view is "zero tax dollars should ever touch campaigns," vote no on principle.
+
+But weighing everything: this is a low-risk, local-control, opt-in measure with mandatory structural safeguards, backed by the League of Women Voters, Common Cause, ACLU California Action, and Brennan Center, addressing a genuine problem with a tool that's worked elsewhere for decades. **Vote YES.**

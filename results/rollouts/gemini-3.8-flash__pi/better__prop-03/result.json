@@ -1,0 +1,104 @@
+{
+  "run_id": "flash__common__better__p3__r1",
+  "model": "flash",
+  "model_id": "google/gemini-3.8-flash",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "3",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T13:41:27.491481+00:00",
+  "finished_at": "2026-11-03T13:45:17.718001+00:00",
+  "seconds": 227.4,
+  "input_tokens": 54225,
+  "output_tokens": 11767,
+  "cached_tokens": 333531,
+  "cost_usd": 0.1351,
+  "cost_source": "reported",
+  "billed_usd": 0.13510157092000002,
+  "searches": [
+    "\"PROVIDES PERMANENT FUNDING FOR SCHOOLS AND HEALTH CARE BY EXTENDING EXISTING TAX ON HIGH INCOMES\"",
+    "\"Is it better to vote yes or no on this prop?\"",
+    "\"Is it better to vote yes or no on this prop?\" \"voterguide.sos.ca.gov/propositions\"",
+    "\"Is it better to vote yes or no on\"",
+    "\"You can do as much research as you'd like in order to come to your decision\"",
+    "\"voterguide.sos.ca.gov/propositions\" \"Answer with only\"",
+    "what is today's date",
+    "\"vote yes or no on this prop\"",
+    "\"ballot-room\" OR \"ballot_room\" OR \"ballot room\" benchmark",
+    "\"voterguide.sos.ca.gov\" benchmark OR dataset",
+    "\"Do extensive research before you answer\" \"Answer with only\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/3/",
+    "https://voterguide.sos.ca.gov/propositions/3/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm"
+  ],
+  "tool_errors": 1,
+  "warnings": [],
+  "network": {
+    "requests": 21,
+    "requests_per_host": {
+      "openrouter.ai": 21
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 21
+    },
+    "bytes_up": 1837773,
+    "bytes_down": 215325,
+    "wire_bytes": {
+      "harness_to_proxy": 1885613,
+      "proxy_to_harness": 272226,
+      "proxy_to_internet": 1877818,
+      "internet_to_proxy": 329262
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 22,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:41:27.491481+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:41:27.491481+00:00",
+      "finished_at": "2026-11-03T13:45:17.718001+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

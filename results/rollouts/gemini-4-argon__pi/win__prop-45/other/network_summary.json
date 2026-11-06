@@ -1,0 +1,51 @@
+{
+  "requests": 29,
+  "requests_per_host": {
+    "openrouter.ai": 24,
+    "ballotpedia.org": 1,
+    "igs.berkeley.edu": 1,
+    "californiatoday.com": 1,
+    "escholarship.org": 1,
+    "www.hoover.org": 1
+  },
+  "hosts": [
+    "ballotpedia.org",
+    "californiatoday.com",
+    "escholarship.org",
+    "igs.berkeley.edu",
+    "openrouter.ai",
+    "www.hoover.org"
+  ],
+  "status_counts": {
+    "200": 27,
+    "202": 1,
+    "403": 1
+  },
+  "bytes_up": 3170237,
+  "bytes_down": 294172,
+  "wire_bytes": {
+    "harness_to_proxy": 3235227,
+    "proxy_to_harness": 373008,
+    "proxy_to_internet": 3226220,
+    "internet_to_proxy": 445837
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 30,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

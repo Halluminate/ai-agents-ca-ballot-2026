@@ -1,0 +1,56 @@
+{
+  "requests": 39,
+  "requests_per_host": {
+    "openrouter.ai": 31,
+    "vig.cdn.sos.ca.gov": 1,
+    "sdvoice.info": 1,
+    "www.sanjoseca.gov": 1,
+    "indivisibleventura.org": 1,
+    "cayimby.org": 1,
+    "static1.squarespace.com": 1,
+    "ballotpedia.org": 1,
+    "www.dailynews.com": 1
+  },
+  "hosts": [
+    "ballotpedia.org",
+    "cayimby.org",
+    "indivisibleventura.org",
+    "openrouter.ai",
+    "sdvoice.info",
+    "static1.squarespace.com",
+    "vig.cdn.sos.ca.gov",
+    "www.dailynews.com",
+    "www.sanjoseca.gov"
+  ],
+  "status_counts": {
+    "200": 38,
+    "202": 1
+  },
+  "bytes_up": 5432309,
+  "bytes_down": 1218938,
+  "wire_bytes": {
+    "harness_to_proxy": 5500398,
+    "proxy_to_harness": 1347232,
+    "proxy_to_internet": 5492549,
+    "internet_to_proxy": 1418629
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 30,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

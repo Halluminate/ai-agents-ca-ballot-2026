@@ -1,0 +1,58 @@
+{
+  "requests": 74,
+  "requests_per_host": {
+    "openrouter.ai": 34,
+    "api.anthropic.com": 27,
+    "voterguide.sos.ca.gov": 3,
+    "www.ppic.org": 3,
+    "calmatters.org": 2,
+    "www.onpointpolitics.us": 1,
+    "defirate.com": 1,
+    "sfinquirer.com": 1,
+    "www.kqed.org": 1,
+    "quickguidetoprops.sos.ca.gov": 1
+  },
+  "hosts": [
+    "api.anthropic.com",
+    "calmatters.org",
+    "defirate.com",
+    "openrouter.ai",
+    "quickguidetoprops.sos.ca.gov",
+    "sfinquirer.com",
+    "voterguide.sos.ca.gov",
+    "www.kqed.org",
+    "www.onpointpolitics.us",
+    "www.ppic.org"
+  ],
+  "status_counts": {
+    "200": 73,
+    "403": 1
+  },
+  "bytes_up": 2382406,
+  "bytes_down": 3452274,
+  "wire_bytes": {
+    "harness_to_proxy": 2435995,
+    "proxy_to_harness": 3627312,
+    "proxy_to_internet": 2436277,
+    "internet_to_proxy": 3677590
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 27,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

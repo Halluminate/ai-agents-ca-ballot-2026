@@ -1,0 +1,27 @@
+Whether to vote **yes** or **no** on California Proposition 37—the *California Middle-Class Home Ownership and Family Home Construction Act of 2026*—is a policy choice that depends on your priorities regarding housing affordability, state financing, and land-use policy. Because there is no objective right or wrong vote, I cannot answer with a simple "yes" or "no," but here is a breakdown of the measure and the main arguments on both sides to help you decide.
+
+---
+
+### What Proposition 37 Would Do
+* **Down-Payment Assistance via Second Mortgages:** Authorizes the California Housing Finance Agency (CalHFA) to issue up to **$25 billion in revenue bonds** to offer fixed-rate second mortgages covering up to **17%** of the purchase price of a newly built home (or a nonresidential building newly converted to housing).
+* **Buyer & Home Eligibility:** Borrowers must put down at least **3%** of their own funds (combining with the 17% loan to reach a 20% down payment and avoid private mortgage insurance), have lived in California for at least one year, occupy the home as their primary residence, and earn no more than **200% of the Area Median Income (AMI)**. Eligible homes must be newly constructed/converted (first-time sale) and priced below 125% of the county's federal conforming loan limit (roughly $1 million to $1.5 million, depending on the county).
+* **Qualified Builder Option:** Developers can voluntarily opt into higher labor and workforce standards in exchange for modified pre-litigation construction-defect procedures.
+* **Fiscal Impact:** According to the Legislative Analyst's Office (LAO), the measure has **no direct state or local taxpayer costs** because the revenue bonds are repaid through participating homeowners' monthly mortgage payments rather than the state General Fund.
+
+---
+
+### Arguments for Voting YES
+* **Reduces the Down-Payment Barrier:** With California's median home prices requiring substantial upfront savings for a traditional 20% down payment, proponents argue the program helps middle-income households—such as teachers, nurses, firefighters, and veterans—who can afford monthly payments but cannot save enough cash up front.
+* **No Direct Cost to Taxpayers:** Unlike general obligation bonds repaid from state tax revenues, Proposition 37 uses revenue bonds funded by private investors and repaid by the borrowers who receive the loans.
+* **Encourages New Housing Supply:** By restricting loans to newly constructed or newly converted homes and offering streamlined defect-dispute rules for qualifying builders, supporters contend the program acts as a supply incentive that will spur homebuilding and create construction jobs.
+* **Built-In Consumer Protections:** The measure mandates fixed-rate loans, caps lender origination fees, prohibits prepayment penalties, and allows alternative "cashflow underwriting" for applicants with lower credit scores.
+* **Notable Supporters:** California Democratic Party, California Chamber of Commerce, California Association of Realtors, California Conference of Carpenters, California Teachers Association, United Nurses Associations of California, State Treasurer Fiona Ma, SPUR, and the editorial boards of the *San Francisco Chronicle* and *Sacramento Bee*.
+
+---
+
+### Arguments and Concerns for Voting NO
+* **Higher Monthly Costs and Uncertain Interest Rates:** Unlike existing CalHFA down-payment programs (such as *MyHome* or *Dream for All*) that defer payments until a home is sold or refinanced, Proposition 37 requires ongoing monthly payments on the second mortgage to repay bondholders. Analysts at the California Budget and Policy Center note that because second mortgages carry higher default risk for investors, interest rates on these loans could end up as high as—or higher than—conventional mortgage rates.
+* **Questionable Targeting and Potential Price Inflation:** Setting the income limit at 200% of AMI (which exceeds $250,000 to $375,000 for a family in high-cost counties) and not restricting loans to first-time homebuyers means subsidies may go to relatively affluent buyers. Economists also caution that if local zoning and building constraints prevent a large increase in housing supply, subsidizing demand could simply bid up the prices of new homes.
+* **Risk of Suburban Sprawl and Extra Costs:** Because the loans can only be used for brand-new homes, critics argue the measure could incentivize greenfield sprawl in inland and wildfire-prone areas rather than urban infill, while steering buyers into properties that frequently carry high HOA fees, Mello-Roos special taxes, and high insurance costs.
+* **Contingent Financial and Governance Concerns:** Although the legal text places default losses on bondholders rather than taxpayers, critics warn that a $25 billion state-administered program could create political pressure for a state backstop if defaults surge during a housing downturn. Others argue a revenue-bond program of this type could be enacted and adjusted through the normal legislative process rather than locked in via ballot initiative.
+* **Notable Opponents:** League of Women Voters of California, Howard Jarvis Taxpayers Association, Reform California, the Libertarian, Green, and Peace and Freedom parties of California, and the editorial boards of the *Mercury News* / *East Bay Times*, *Orange County Register*, and *San Diego Union-Tribune*.

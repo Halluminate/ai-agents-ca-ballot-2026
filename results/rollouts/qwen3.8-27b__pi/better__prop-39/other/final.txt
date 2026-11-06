@@ -1,0 +1,23 @@
+
+
+I have now completed extensive research. Here's a synthesis of my findings before giving my answer:
+
+**What Prop. 39 does (2026 California election):**
+- Requires a government ID to vote in person every time
+- Requires the last four digits of a designated government ID number on mail ballot envelopes, which must exactly match the registration record — mismatch means the ballot is not counted, and **the text contains no cure mechanism** for a wrong digit (unlike the current signature-mismatch process, which has an explicit cure window)
+- Requires "best efforts" citizenship verification using government data, with annual county reporting
+- Creates a free state voter ID card; costs "tens of millions to low hundreds of millions" per year (nonpartisan Legislative Analyst)
+- Is vague — which IDs qualify is left to the Legislature; includes a private right of litigation over compliance
+
+**Key evidence:**
+- **The problem it solves is vanishingly small:** Noncitizen voting estimates top out at ~24,000 of 128M votes (0.019%) in a disputed Census report with flawed methodology; voter impersonation fraud is documented at only a handful of cases per cycle.
+- **Direct precedent for its core mechanism:** Texas's near-identical "last four digits on the envelope" requirement caused mail ballot rejections to spike **12× to ~12.4%** in the 2022 primary — 1 in 8 mailed ballots thrown out, mostly over ID mismatches. California is ~80% mail-voting.
+- **Research on strict ID laws** is mixed but, where effects are found (UCSD/UC Berkeley, MIT Election Lab, GAO), they fall disproportionately on voters of color, low-income, elderly, and rural voters — not on fraud prevention.
+- **California already verifies identity**: at registration (DL/ID/SSN last four) and via signature matching with cure procedures for mail ballots.
+- **Who's behind it:** Assemblyman Carl DeMaio (Reform California), funded largely by out-of-state billionaires (Richard Uihlein $17M, Joe Gebbia $8M, Steven Bray, Winklevoss, Shanahan); opposed by ACLU, LWVCA, Common Cause, and the state's establishment (Padilla, Newsom, Pelosi).
+- **Editorial consensus in California:** SF Chronicle, McClatchy (Sacramento Bee et al.), San Diego Union-Tribune, Santa Cruz Sentinel, LA Times ("flat no"), and others all recommend NO; a few (Press-Enterprise, LA Daily News) say Yes.
+- **Polling:** ~6 in 10 likely voters oppose; support "dwindled" once voters heard details; even among independents/no-party, more than half oppose.
+
+The measure adds a new, error-prone rejection pathway to an already-secure, largely mail-based system, at high cost, to fix a fraud problem that research consistently finds to be negligible, while introducing litigation risk and vagueness into a constitutional amendment.
+
+**no**

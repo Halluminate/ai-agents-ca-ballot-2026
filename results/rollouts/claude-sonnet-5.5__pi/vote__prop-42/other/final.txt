@@ -1,0 +1,36 @@
+I'm not going to pick a side in a contested tax fight, because the right vote depends on your values rather than a fact I can look up. It does come down to one question:
+
+**Do you want Prop 40, the one-time 5% billionaire wealth tax, to be able to take effect?**
+- **Yes: vote NO on 42.** A Yes on 42 would void Prop 40 if 42 gets more yes votes than 40, even when 40 wins a majority. Courts would review that, and Prop 41 works the same way.
+- **No, and you want a permanent constitutional ban on new asset taxes and retroactive taxes: vote YES.** The San Diego Union-Tribune and OC Register take this line.
+- **No on 40, but you'd rather not write these limits into the Constitution: vote NO.** The Mercury News takes this line. It opposes 40 but says 42 would "needlessly and recklessly narrow" the state's options.
+
+**What 42 does**
+- It bars new state taxes enacted from Jan. 1, 2026 on owning or controlling personal property. That goes well past retirement accounts to stocks, business interests, intellectual property, digital assets and art. Existing taxes like the vehicle license fee are grandfathered, and real estate isn't covered.
+- It bars new retroactive taxes, including ones tied to past residency. The exception is a Legislature-passed tax tied to a governor-declared emergency, reaching back at most a year, with the revenue limited to that emergency.
+- It's a constitutional amendment, so only another vote of the people could undo it. The Legislative Analyst says it "could make it somewhat harder for the state to raise taxes," with the timing and size unclear.
+
+**Best case for Yes**
+- The Legislature can currently tax personal property by a two-thirds vote, and this closes that door.
+- Hoover argues it's a credible commitment to high earners. The top 1% pay roughly 40–50% of state income tax.
+- Supporters worry a billionaire-only tax could widen later. CalMatters rated that claim "partially true."
+- The Union-Tribune calls Prop 40's look-back to past residency "unseemly."
+
+**Best case for No**
+- The retirement threat it cites isn't live. No active proposal targets 401(k)s, Prop 40 mostly excludes retirement accounts (except Roth IRAs over $10 million), and past wealth-tax bills all died in their house of origin.
+- The rules are broad and hard to reverse. The California Budget & Policy Center says retroactive-to-January-1 tax changes are common and would be blocked.
+- Three tax-law professors who helped design Prop 40 warn of litigation over future vehicle-fee changes and even Prop 3, the high-earner tax extension. Weigh that accordingly. The Yes campaign denies it flatly.
+- It was written and funded to defeat Prop 40. Ballotpedia counts about $138 million raised in support, roughly $102 million of it from Sergey Brin, versus about $34 million against.
+
+**Where each side oversteps**
+- Yes ads stress retirement accounts, but nothing is pending to tax them, and the text covers far more than that.
+- The ballot argument that 42's "only real purpose" is killing Prop 40 fits the reporting on motive. The effects, though, are broader and permanent.
+
+**State of play**
+- **Polls:** PPIC in late October had 42 at 51% yes. Berkeley IGS on Oct. 29 had it at 43% yes and 45% no. Prop 40 polled 42–46% yes, so it may fail on its own. If so, your 42 vote is mostly about the long-term rules, though polls can miss.
+- **Also yes:** Gov. Newsom, firefighter, peace-officer and building-trades unions, Howard Jarvis Taxpayers Association, CalTax and the California Republican Party.
+- **Also no:** the California Democratic Party, SEIU-UHW (Prop 40's sponsor), the California Federation of Labor Unions, Bernie Sanders, the SF Chronicle and the Sacramento Bee.
+
+I found no results yet. Election Day is Nov. 3, with polls open 7 a.m. to 8 p.m. Tell me which of the three describes you and I'll give you the one-word answer.
+
+Sources: [LAO analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=42&year=2026), [official text](https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-text-proposed-laws.pdf), [CalMatters guide](https://calmatters.org/california-voter-guide-2026/proposition-42-property-taxes/), [Hoover](https://www.hoover.org/proposition-lab-proposition-42), [Budget & Policy Center](https://calbudgetcenter.org/resources/what-would-proposition-42-mean-for-california/), [Galle/Gamage/Shanske memo](https://eml.berkeley.edu/~saez/GGS26props41-42.pdf), [CalMatters on the PPIC poll](https://calmatters.org/newsletter/prop-40-poll/).

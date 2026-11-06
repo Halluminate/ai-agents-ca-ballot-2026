@@ -1,0 +1,33 @@
+Whether it is better to vote **yes** or **no** on California Proposition 2 (the *Save for California’s Future Act* / ACA 20) depends on your personal priorities and philosophy regarding state budget management, government spending limits, and fiscal reserves. There is no objective consensus, and as an AI, I cannot advise you on how to cast your ballot. 
+
+Below is an overview of the measure and the primary arguments for both sides based on the California Official Voter Information Guide and independent analyses:
+
+---
+
+### What Proposition 2 Would Do
+* **Increases the Rainy Day Fund Cap:** Raises the maximum balance of the state's Budget Stabilization Account (BSA) from 10% to 20% of General Fund tax revenues.
+* **Increases Deposits in High-Revenue Years:** Mandates larger deposits during years when revenues from capital gains taxes surge.
+* **Modifies the State Appropriations Limit (Gann Limit):** Excludes deposits into the Rainy Day Fund (and certain temporary surplus holding accounts) from counting toward the constitutional spending cap until the funds are withdrawn and spent.
+* **Extends Debt Repayments:** Extends required annual payments toward state debts from 2030 through 2040 and broadens eligible liabilities to include federal loans to the Unemployment Insurance fund and other obligations.
+
+---
+
+### Arguments for Voting **YES**
+* **Protection Against Boom-and-Bust Cycles:** California’s tax system relies heavily on volatile capital gains revenues from high earners. Proponents argue doubling the reserve cap ensures the state saves during windfall years rather than committing to unsustainable ongoing spending.
+* **Shielding Core Services During Recessions:** A larger reserve cushion helps prevent severe budget cuts to public education (K–12 and community colleges), healthcare programs (Medi-Cal), and public safety during inevitable economic downturns.
+* **Fiscal Responsibility and Debt Reduction:** The measure extends mandatory long-term debt payoff requirements for an additional decade through 2040, including paying down federal unemployment debt.
+* **Key Endorsements:** Supported by Governor Gavin Newsom, legislative leaders, the California Professional Firefighters, healthcare and hospital associations, education groups, and editorial boards including the *San Francisco Chronicle* and *The Sacramento Bee*.
+
+---
+
+### Arguments for Voting **NO**
+* **Undermining Taxpayer Protections and Rebates:** The California Constitution's Gann Limit requires revenues collected in excess of the state spending limit to be returned to taxpayers or allocated to schools. Opponents argue that excluding reserve deposits from this cap creates a loophole that makes taxpayer rebates significantly less likely.
+* **No Direct Funding Guarantees:** Opponents argue the measure does not legally guarantee new funding for schools or healthcare; instead, it leaves future spending decisions in the hands of Sacramento politicians.
+* **Concerns Over Fiscal Discipline:** Critics contend that state government spending has grown too rapidly and that lawmakers should practice greater spending discipline under existing rules rather than altering constitutional limits to manage larger pools of state revenue.
+* **Key Endorsements:** Supported by legislative Republicans, taxpayer advocacy organizations (such as Reform California), and editorial boards including *The San Diego Union-Tribune* and *The Orange County Register*.
+
+---
+
+### Summary
+* A **YES** vote supports raising the reserve cap to 20%, requiring greater savings during strong economic periods, extending debt repayment mandates, and adjusting how reserve deposits are treated under the state spending cap.
+* A **NO** vote maintains existing rules, keeping the rainy day fund ceiling at 10%, retaining the current 2030 sunset on extra debt payments, and preserving existing spending limit rules that may trigger taxpayer rebates during surplus years.

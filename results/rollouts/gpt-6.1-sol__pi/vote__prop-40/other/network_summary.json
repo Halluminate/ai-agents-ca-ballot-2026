@@ -1,0 +1,45 @@
+{
+  "requests": 21,
+  "requests_per_host": {
+    "openrouter.ai": 18,
+    "www.nber.org": 1,
+    "dornsife.usc.edu": 1,
+    "www.dhcs.ca.gov": 1
+  },
+  "hosts": [
+    "dornsife.usc.edu",
+    "openrouter.ai",
+    "www.dhcs.ca.gov",
+    "www.nber.org"
+  ],
+  "status_counts": {
+    "200": 21
+  },
+  "bytes_up": 2631514,
+  "bytes_down": 1665277,
+  "wire_bytes": {
+    "harness_to_proxy": 2676241,
+    "proxy_to_harness": 1741258,
+    "proxy_to_internet": 2670911,
+    "internet_to_proxy": 1792526
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 21,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

@@ -1,0 +1,28 @@
+**No.**
+
+I read the official guide, the LAO analysis, the full text of the measure, CalMatters' reporting, the institute's tax filings, polling, and the arguments on both sides. These points decided it:
+
+- **Half the money ($4.2B) is effectively pre-assigned.** The "single institute" criteria fit only the California Institute for Immunology and Immunotherapy (CIII). They include a UCLA-sized health system (3.5M outpatient visits), 200,000+ square feet, and $50M commitments each for specific vaccine and microbiome programs. UCLA confirmed only CIII qualifies, and the Yes campaign says CIII "very likely" will. CIII was co-founded by Gary Michelson, who has funded most of the roughly $71M raised for Yes. Opponents have raised about $12K.
+- **The recipient is unproven and would be exempt from public-records rules.**
+  - As of September, CIII had three employees and no director.
+  - Its latest tax filing shows about $19M in net assets, though backers cite $250M in pledges.
+  - Its permanent building isn't due until late 2028.
+  - Section 130363 says it "shall not be deemed a public agency for any purpose." That exempts it from the Public Records Act, open-meetings law and the Political Reform Act.
+- **"Pays for itself" is a stretch.**
+  - The LAO says the bond costs $500–600M a year for about 20 years. It says any offsetting revenue is uncertain and could take decades.
+  - The state gets 10% of what recipients earn from licensing. Repaying roughly $10–12B would take on the order of $100B in licensing income (my arithmetic).
+  - The stem-cell bonds this copies had returned about $350K to the state by 2019 (opponents cite roughly $16M now), against $3B borrowed.
+- **It's hard to fix and legally uncertain.**
+  - Amendments need a two-thirds vote and can't change the allocation.
+  - Opponents asked the Attorney General whether it violates the Constitution's ban on initiatives that "name or identify" a private corporation (Art. II §12). Proponents call that a campaign stunt, and I found no ruling.
+- **A No vote doesn't end state research funding.** A $7.5B competitive science bond (SB 895) is slated for the March 2028 ballot.
+
+**The case for Yes:**
+- Immunotherapy is a promising field.
+- The cost is about 0.25% of the General Fund.
+- The other half goes to competitive grants.
+- The Alzheimer's Association, the Michael J. Fox Foundation, both major parties and Newsom back it, and polls show it passing about 57–41.
+
+If you put near-term research dollars well above these process concerns, Yes is defensible. But every editorial board I found opposes it, including the SF Chronicle, Mercury News, Sacramento Bee, San Diego Union-Tribune and OC Register. So do the League of Women Voters and three former LAO analysts. I found none in favor.
+
+Sources: [measure text](https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38-text-proposed-laws.pdf), [LAO analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=38&year=2026), [CalMatters](https://calmatters.org/politics/elections/2026/07/proposition-38-california/), [CalMatters on CIII's readiness](https://laist.com/news/politics/institute-could-get-4-billion-from-ballot-measure).

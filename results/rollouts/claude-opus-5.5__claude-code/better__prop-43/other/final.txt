@@ -1,0 +1,39 @@
+I'm not going to give you a one-word answer on this one. There's no factual "better" choice here. Prop 43 is a values question that splits almost exactly along party lines, and I don't think I should tip your vote on it. Here's the short version so you can decide quickly.
+
+**What it does**
+- Starting January 1, 2027, a local tax set aside for a specific purpose (a "special tax") would need a **two-thirds** vote if **citizens** put it on the ballot by petition. Right now it needs only a simple majority. Taxes that local governments propose already need two-thirds. A 2017 court ruling (*Upland*) created the difference.
+- It also stops citizen petitions from creating new local taxes based on property value.
+- It doesn't repeal any existing tax, so LA's "mansion tax" stays. It doesn't change general taxes and doesn't cap real estate transfer taxes.
+- The Legislative Analyst's Office says local tax revenue may grow more slowly, but the amount is unknown.
+
+**Lean yes if you think:**
+- The same tax should face the same bar no matter who puts it on the ballot. Supporters say interest groups, sometimes working with officials, use petitions to get around the two-thirds rule.
+- Earmarked taxes lock in spending for years, so they should need broad support.
+- The rule should go back to how it worked for decades before the 2017 ruling.
+
+**Lean no if you think:**
+- A minority of about 34% of voters shouldn't be able to block something 66% support.
+- Communities need this route to pay for local services. It matters most for special districts like fire and health districts, where every tax counts as a special tax.
+- The two-thirds rule was meant to limit governments, not citizens gathering signatures.
+
+**Quick test:** LA's mansion tax (Measure ULA, 58%), Sonoma County's 2024 fire tax (62%) and SF's 2018 homelessness tax (61%) all passed with simple majorities. Under Prop 43's rule they would fail. If that seems like the right outcome, vote yes. If not, vote no.
+
+**Background:**
+- **The deal:** Prop 43 is a compromise that got the Howard Jarvis Taxpayers Association to withdraw a much broader initiative, which was going to cap transfer taxes and undo existing taxes like the mansion tax. That initiative is gone however you vote. Buffy Wicks, the legislator who wrote Prop 43, now opposes it.
+- **Supporters:** the Howard Jarvis Taxpayers Association, the California Republican Party, business groups, and the San Diego Union-Tribune and Southern California News Group editorial boards. They've raised about $17.5M, mostly from business and real estate interests.
+- **Opponents:** the California Democratic Party, firefighter, teacher and nurse unions, SPUR, California YIMBY, and the SF Chronicle, Sacramento Bee and Press Democrat editorial boards. They've raised about $11.9M, mostly from unions.
+- **Polling:** PPIC's October survey had it at 42% yes and 55% no.
+
+Sources:
+- [CA Secretary of State – Prop 43 Arguments & Rebuttals](https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm)
+- [LAO Analysis – Prop 43](https://lao.ca.gov/BallotAnalysis/Proposition?number=43&year=2026)
+- [CalMatters – Prop 43 explainer](https://calmatters.org/politics/2026/10/california-prop-43-election-2026/)
+- [Burke, Williams & Sorensen – ACA 22 analysis](https://www.bwslaw.com/insights/2026-california-tax-ballot-measures/)
+- [KQED Voter Guide – Prop 43](https://www.kqed.org/voterguide/california/proposition-43)
+- [PPIC October 2026 Survey](https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/)
+- [HJTA – Vote Yes on 43](https://www.hjta.org/news-events/taxing-times/taxing-times-online-fall-2026-vol-52-issue-3/vote-yes-on-43-to-save-prop-13-proposition-43-closes-the-upland-loophole/)
+- [GrowSF – Prop 43 (Yes)](https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-43/)
+- [SPUR – Prop 43 (No)](https://www.spur.org/voter-guide/2026-11/ca-prop-43-local-tax-threshold)
+- [California YIMBY – Prop 43](https://cayimby.org/blog/proposition-43-2026/)
+- [Press Democrat editorial](https://www.pressdemocrat.com/2026/10/03/endorsement-prop-43-wants-to-fix-a-system-that-isnt-broken/)
+- [California Budget & Policy Center](https://calbudgetcenter.org/resources/should-california-voters-approve-proposition-43/)

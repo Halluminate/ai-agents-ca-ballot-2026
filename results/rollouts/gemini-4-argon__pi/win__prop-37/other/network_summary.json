@@ -1,0 +1,61 @@
+{
+  "requests": 22,
+  "requests_per_host": {
+    "openrouter.ai": 10,
+    "voterguide.sos.ca.gov": 3,
+    "calmatters.org": 3,
+    "www.latimes.com": 2,
+    "www.spur.org": 1,
+    "www.hoover.org": 1,
+    "igs.berkeley.edu": 1,
+    "californiatoday.com": 1
+  },
+  "hosts": [
+    "californiatoday.com",
+    "calmatters.org",
+    "igs.berkeley.edu",
+    "openrouter.ai",
+    "voterguide.sos.ca.gov",
+    "www.hoover.org",
+    "www.latimes.com",
+    "www.spur.org"
+  ],
+  "status_counts": {
+    "200": 21,
+    "301": 1
+  },
+  "bytes_up": 739035,
+  "bytes_down": 502698,
+  "wire_bytes": {
+    "harness_to_proxy": 783878,
+    "proxy_to_harness": 571408,
+    "proxy_to_internet": 778705,
+    "internet_to_proxy": 626435
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 23,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

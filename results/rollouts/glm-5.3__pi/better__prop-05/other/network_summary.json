@@ -1,0 +1,50 @@
+{
+  "requests": 18,
+  "requests_per_host": {
+    "openrouter.ai": 16,
+    "www.presstelegram.com": 1,
+    "www.msn.com": 1
+  },
+  "hosts": [
+    "openrouter.ai",
+    "www.msn.com",
+    "www.presstelegram.com"
+  ],
+  "status_counts": {
+    "200": 18
+  },
+  "bytes_up": 1224128,
+  "bytes_down": 2117005,
+  "wire_bytes": {
+    "harness_to_proxy": 1259208,
+    "proxy_to_harness": 2260611,
+    "proxy_to_internet": 1254725,
+    "internet_to_proxy": 2297551
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 17,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

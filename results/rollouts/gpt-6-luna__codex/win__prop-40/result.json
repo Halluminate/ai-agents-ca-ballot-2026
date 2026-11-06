@@ -1,0 +1,89 @@
+{
+  "run_id": "luna__native__win__p40__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "40",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:04:53.651631+00:00",
+  "finished_at": "2026-11-03T13:05:34.276411+00:00",
+  "seconds": 38.5,
+  "input_tokens": 18,
+  "output_tokens": 2648,
+  "cached_tokens": 130897,
+  "cost_usd": 0.0391,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 40 2012 polls yes no likely result redistricting referendum ...",
+    "California 2026 Proposition 40 wealth tax latest poll November 2026 yes no ...",
+    "site:ppic.org October 2026 Proposition 40 46 52 likely voters poll October 2026 billionaire tax ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 7,
+    "requests_per_host": {
+      "api.openai.com": 6,
+      "ab.chatgpt.com": 1
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 5,
+      "202": 1
+    },
+    "bytes_up": 892566,
+    "bytes_down": 1005429,
+    "wire_bytes": {
+      "harness_to_proxy": 751004,
+      "proxy_to_harness": 578258,
+      "proxy_to_internet": 750720,
+      "internet_to_proxy": 592141
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 536,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 8,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:04:53.651631+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:04:53.651631+00:00",
+      "finished_at": "2026-11-03T13:05:34.276411+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

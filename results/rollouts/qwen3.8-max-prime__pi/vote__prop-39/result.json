@@ -1,0 +1,123 @@
+{
+  "run_id": "qwen-max-prime__common__vote__p39__r1",
+  "model": "qwen-max-prime",
+  "model_id": "qwen/qwen3.8-max-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "39",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "first_line",
+  "error": "",
+  "started_at": "2026-11-03T13:45:45.036384+00:00",
+  "finished_at": "2026-11-03T13:49:33.028459+00:00",
+  "seconds": 224.9,
+  "input_tokens": 133464,
+  "output_tokens": 13284,
+  "cached_tokens": 699904,
+  "cost_usd": 1.0839,
+  "cost_source": "reported",
+  "billed_usd": 1.083901302,
+  "searches": [
+    "voterguide.sos.ca.gov propositions 39 California",
+    "California Proposition 39 2026 voter ID polls",
+    "Prop 39 California 2026 lawsuit challenge ballot",
+    "Carl DeMaio Prop 39 signature gatherers misleading \"voter ID\" California",
+    "\"Prop 39\" California 2026 editorial board endorsement LA Times SF Chronicle",
+    "Prop 39 California ballot envelope \"public records\" last four digits Social Security privacy identity theft",
+    "Prop 39 California fact check \"signature mismatch\" ballots rejected claim false Rivas Lim\u00f3n ruling Chang",
+    "California 2024 general election statewide mail ballot rejections signature mismatch number Secretary of State data"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/39/",
+    "https://voterguide.sos.ca.gov/propositions/39/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/39/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-text-proposed-laws.pdf",
+    "https://voterguide.sos.ca.gov/propositions/39/title-summary.htm",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-39-establishes-additional-voter-identification-and-citizenship-verification-requirements-initiative-constitutional-a",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_39",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-39-voter",
+    "https://www.sfchronicle.com/opinion/editorials/article/endorsement-proposition-39-voter-fraud-california-22463918.php",
+    "https://calmatters.org/california-voter-guide-2026/proposition-39-voter-id/",
+    "https://calbudgetcenter.org/resources/proposition-39-explained-what-voter-id-would-mean-for-california/",
+    "https://calmatters.org/commentary/2026/08/voter-identification-proposition-39-elections/",
+    "https://www.ocregister.com/2026-10-15/endorsement-yes-on-proposition-39/",
+    "https://www.sandiegouniontribune.com/2026-10-02/endorsement-vote-no-on-prop-39-and-its-unworkable-voter-registration-rule/",
+    "https://www.latimes.com/california/story/2026-08-07/judge-rejects-challenge-to-california-attorney-generals-description-of-voter-id-measure",
+    "https://cityhallpass.com/election-2026/measures/prop-39",
+    "https://cityhallpass.com/election-2026/measures/prop-39",
+    "https://californiatoday.com/guides/elections/yes-voter-id-laws-are-on-the-california-ballot-proposition-39s-rules-costs-and-court-fights/",
+    "https://www.sfchronicle.com/politics/article/prop-39-vote-counting-22468723.php",
+    "https://www.mercurynews.com/2026-10-15/endorsement-reject-proposition-39-voter-id-fraud-ballot-measure/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 26,
+    "requests_per_host": {
+      "openrouter.ai": 23,
+      "www.mercurynews.com": 2,
+      "www.latimes.com": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.latimes.com",
+      "www.mercurynews.com"
+    ],
+    "status_counts": {
+      "200": 25,
+      "301": 1
+    },
+    "bytes_up": 3308570,
+    "bytes_down": 1688287,
+    "wire_bytes": {
+      "harness_to_proxy": 3363667,
+      "proxy_to_harness": 1817063,
+      "proxy_to_internet": 3356209,
+      "internet_to_proxy": 1875212
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 25,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:45:45.036384+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:45:45.036384+00:00",
+      "finished_at": "2026-11-03T13:49:33.028459+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

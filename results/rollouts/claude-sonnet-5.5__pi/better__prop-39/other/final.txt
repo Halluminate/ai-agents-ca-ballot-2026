@@ -1,0 +1,18 @@
+I'm not going to give a bare yes or no. Prop 39 is a contested political question, and the right vote depends on how you weigh ballot access, added verification, cost, and trust in elections. That's your judgment to make. Here is what the research shows.
+
+**What it does** (Yes adopts it; No keeps today's signature-based verification)
+- **ID requirement:** In person, you show government ID. By mail, you write the last four digits of a pre-designated ID number on the envelope, and it must match your registration. The state issues a free voter ID card on request.
+- **Citizenship checks:** Officials must use "best efforts" and "government data" to verify voters' citizenship and report the results by county. The State Auditor reviews compliance every odd-numbered year, and citizens can sue over compliance.
+- **Details left open:** It's a constitutional amendment, so the Legislature would define key details, such as which IDs count and what "best efforts" means. The text doesn't say whether or how a mismatched ballot could be corrected.
+- **Cost:** The nonpartisan Legislative Analyst estimates tens of millions to low hundreds of millions of dollars a year.
+
+**What the evidence shows**
+- **Fraud:** Reviews by the Brennan Center and the Cato Institute find documented in-person impersonation and noncitizen voting too rare to affect outcomes. Supporters say the aim is deterrence and public confidence.
+- **Turnout and rejections:** Studies of polling-place ID laws mostly find small turnout effects, and a prominent 2021 study found none. Mail ballots are less settled. In its first statewide election under a similar ID-number rule, Texas rejected 12.4% of mail ballots (March 2022 primary), versus 0.8% in 2020. Prop 39 differs in some ways, such as requiring the chosen ID type to be noted on the envelope, so California's results would depend on implementation. California rejected about 0.9% of mail ballots in 2024, roughly 71,000 of them for signature mismatches, which supporters cite as a flaw in the current system.
+- **Citizenship data:** No comprehensive citizenship database exists. ProPublica and the Texas Tribune found that the federal SAVE tool has wrongly flagged some naturalized citizens. The measure doesn't say what data would be used.
+
+**Who's where**
+- **Yes:** The California Republican Party, Howard Jarvis Taxpayers Association, the OC Register editorial board, and former Secretary of State Bill Jones. Their case is that ID is routine (36 states ask for it), the card is free, and signature matching is a flawed check.
+- **No:** The California Democratic Party, ACLU, Common Cause, the League of Women Voters, and the Sacramento Bee, SF Chronicle, Mercury News and San Diego Union-Tribune editorial boards. Their case is that it targets a rare problem, risks rejecting valid ballots, and adds cost and privacy risk. The Union-Tribune said the ID rule itself isn't clearly onerous but objected to the citizenship mandate.
+
+The arguments in the official guide aren't fact-checked, and proponents challenged the ballot title as misleading (a judge upheld it). If you tell me what matters most to you, I can show how Prop 39 lines up with it. I can also make the strongest case for either side.

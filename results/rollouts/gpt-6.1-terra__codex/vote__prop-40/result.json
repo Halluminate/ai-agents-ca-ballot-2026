@@ -1,0 +1,93 @@
+{
+  "run_id": "terra__native__vote__p40__r1",
+  "model": "terra",
+  "model_id": "gpt-6.1-terra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "40",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:33:55.975273+00:00",
+  "finished_at": "2026-11-03T12:35:26.233584+00:00",
+  "seconds": 88.2,
+  "input_tokens": 30,
+  "output_tokens": 5010,
+  "cached_tokens": 403344,
+  "cost_usd": 0.2275,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 40 2026 ballot voter guide 40 ...",
+    "California 2026 prop 40 wealth tax analysis independent budget economist migration Medi-Cal assessment ...",
+    "California Proposition 40 Hoover research critiques flawed analysis Saez Zucman 2026 tax migration departures revenue ...",
+    "2026 prop 40 Jaros Rauh NBER study october 2026 dynamic billionaire tax effect ...",
+    "\"Proposition 40\" \"score\" \"migration\" \"counterfactual\" wealth tax 2026 ...",
+    "'counterfactual'",
+    "\"proposition 40\" \"endorsement\" \"yes\" california 2026 editorial healthcare funding wealth ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 12,
+    "requests_per_host": {
+      "api.openai.com": 10,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 9,
+      "202": 2
+    },
+    "bytes_up": 1165105,
+    "bytes_down": 1950905,
+    "wire_bytes": {
+      "harness_to_proxy": 916422,
+      "proxy_to_harness": 1098966,
+      "proxy_to_internet": 915930,
+      "internet_to_proxy": 1120751
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1710,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 12,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:33:55.975273+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:33:55.975273+00:00",
+      "finished_at": "2026-11-03T12:35:26.233584+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

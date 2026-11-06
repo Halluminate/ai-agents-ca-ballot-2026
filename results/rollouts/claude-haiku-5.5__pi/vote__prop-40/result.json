@@ -1,0 +1,128 @@
+{
+  "run_id": "haiku__common__vote__p40__r1",
+  "model": "haiku",
+  "model_id": "anthropic/claude-haiku-5.5",
+  "pin": "anthropic",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "40",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "first_line",
+  "error": "",
+  "started_at": "2026-11-03T14:09:29.221440+00:00",
+  "finished_at": "2026-11-03T14:16:55.818713+00:00",
+  "seconds": 443.2,
+  "input_tokens": 227413,
+  "output_tokens": 80275,
+  "cached_tokens": 1556841,
+  "cost_usd": 0.38,
+  "cost_source": "reported",
+  "billed_usd": 0.379974619,
+  "searches": [
+    "Prop 40 billionaire tax California 2026 analysis",
+    "California billionaire tax initiative Newsom opposes SEIU-UHW",
+    "Stanford economists billionaire tax California $25 billion lost revenue study",
+    "PPIC survey October 2026 Proposition 40 billionaire tax likely voters",
+    "Legislative Analyst's Office billionaire tax Proposition 40 fiscal estimate income tax departures wealth tax analysis",
+    "Zucman Boll Saez California billionaire tax NBER w35218 $100 billion estimate",
+    "PPIC statewide survey October 2026 Prop 40 billionaire tax support oppose",
+    "Prop 40 billionaire tax Proposition 98 schools $3 billion annually exempt school funding guarantee analysis",
+    "Br\u00fclhart Switzerland wealth tax migration wealthy semi-elasticity study evidence top wealth holders",
+    "LAO fiscal outlook California structural deficit 2026-27 federal Medi-Cal cuts budget shortfall",
+    "Blue Sky Consulting Proposition 40 revenue estimate $116 billion billionaire tax",
+    "Prop 40 billionaire tax constitutional challenge due process retroactive residency Supreme Court legal experts risk",
+    "Prop 40 billionaire tax news this week lawsuit court ruling ballot November 2026"
+  ],
+  "search_errors": 2,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/40/",
+    "https://voterguide.sos.ca.gov/propositions/40/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/40/title-summary.htm",
+    "https://voterguide.sos.ca.gov/propositions/40/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+    "https://calmatters.org/health/2026/11/california-election-2026-prop-40-41-42/",
+    "https://lao.ca.gov/ballot/2026/prop40-110326.pdf",
+    "https://calmatters.org/health/2026/10/prop-40-billionaire-tax-fact-check/",
+    "https://www.npr.org/sections/planet-money/2026/11/02/g-s1-151009/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions",
+    "https://www.npr.org/sections/planet-money/2026/11/02/g-s1-151009/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions",
+    "https://www.nber.org/papers/w35899",
+    "https://calmatters.org/health/2026/09/california-wealth-tax-prop-40-41-42/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://voterguide.sos.ca.gov/propositions/42/",
+    "https://voterguide.sos.ca.gov/propositions/41/",
+    "https://calbudgetcenter.org/news/new-analysis-proposition-40-could-raise-billions-but-poses-serious-tradeoffs/",
+    "https://eml.berkeley.edu//~saez/CBTA-bluesky.pdf",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-40-billionaire-tax"
+  ],
+  "tool_errors": 2,
+  "warnings": [
+    "capture: 3 connection attempts that ignored the proxy were blocked (node remote:*:54445 x3)"
+  ],
+  "network": {
+    "requests": 30,
+    "requests_per_host": {
+      "openrouter.ai": 30
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 30
+    },
+    "bytes_up": 5771869,
+    "bytes_down": 1547613,
+    "wire_bytes": {
+      "harness_to_proxy": 5820079,
+      "proxy_to_harness": 1720492,
+      "proxy_to_internet": 5815217,
+      "internet_to_proxy": 1760706
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "node",
+        "operation": "network-outbound",
+        "target": "remote:*:54445",
+        "attempts": 3
+      }
+    ],
+    "blocked_attempts": 3,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 20,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T14:09:29.221440+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T14:09:29.221440+00:00",
+      "finished_at": "2026-11-03T14:16:55.818713+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

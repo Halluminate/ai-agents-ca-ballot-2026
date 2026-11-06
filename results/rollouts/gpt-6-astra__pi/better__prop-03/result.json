@@ -1,0 +1,129 @@
+{
+  "run_id": "gpt__common__better__p3__r1",
+  "model": "gpt",
+  "model_id": "openai/gpt-6-astra",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "3",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:09:44.324177+00:00",
+  "seconds": 117.6,
+  "input_tokens": 98199,
+  "output_tokens": 2975,
+  "cached_tokens": 189733,
+  "cost_usd": 1.6162,
+  "cost_source": "reported",
+  "searches": [
+    "California voter guide Proposition 3 right to marry 2024 analysis arguments yes no",
+    "California 2026 permanent high income tax extension Proposition 55 2031 5 billion 15 billion initiative",
+    "California 2026 Proposition 3 permanent income tax nonpartisan analysis tax migration revenue education",
+    "Rauh Shyu California Proposition 30 behavioral responses 2012 60.9 percent tax revenue millionaire migration paper criticism",
+    "California Proposition 30 tax millionaire migration Young Varner 2024 2025 study income tax",
+    "site.calmatters.org 2026 proposition 3 income tax school education",
+    "Young Lurie 2025 Taxing the Rich incentives embeddedness millionaire tax flight findings 2017 pandemic",
+    "site.lao.ca.gov 2026 budget outlook structural deficit income tax volatility education spending",
+    "California school spending LCFF causal student achievement graduation spending increases study PPIC 2024 2025",
+    "Proposition 3 2026 editorial vote no yes permanent tax California tax revenue Rauh Kearney"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/3/",
+    "https://voterguide.sos.ca.gov/propositions/3/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/3/title-summary.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf",
+    "https://lao.ca.gov/BallotAnalysis/Initiative/2025-016",
+    "https://www.yesprop3ca.com/",
+    "https://votenoprop3.com/",
+    "https://www.hoover.org/prop-3-permanent-high-income-tax-initiative",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-3",
+    "https://calbudgetcenter.org/resources/should-voters-approve-prop-3-how-top-tax-rates-have-helped-californians/",
+    "https://calmatters.org/politics/elections/2026/10/prop-3-california/",
+    "https://www.aeaweb.org/articles?id=10.1257/pol.20200500",
+    "https://calbudgetcenter.org/resources/should-voters-approve-prop-3-how-top-tax-rates-have-helped-californians/",
+    "https://www.lao.ca.gov/Publications/Report/5197",
+    "https://lao.ca.gov/Publications/Report/5176",
+    "https://www.ppic.org/publication/targeted-k-12-funding-and-student-outcomes/",
+    "https://news.cornell.edu/stories/2025/09/sense-place-trumps-tax-breaks-choosing-where-live",
+    "https://gwern.net/doc/economics/2024-rauh.pdf"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 21,
+    "requests_per_host": {
+      "openrouter.ai": 17,
+      "www.hoover.org": 1,
+      "www.ppic.org": 1,
+      "gwern.net": 1,
+      "news.cornell.edu": 1
+    },
+    "hosts": [
+      "gwern.net",
+      "news.cornell.edu",
+      "openrouter.ai",
+      "www.hoover.org",
+      "www.ppic.org"
+    ],
+    "status_counts": {
+      "200": 21
+    },
+    "bytes_up": 1378974,
+    "bytes_down": 1327050,
+    "wire_bytes": {
+      "harness_to_proxy": 1424493,
+      "proxy_to_harness": 1395550,
+      "proxy_to_internet": 1418206,
+      "internet_to_proxy": 1447885
+    },
+    "byte_counter": true,
+    "errors": 3,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 22,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

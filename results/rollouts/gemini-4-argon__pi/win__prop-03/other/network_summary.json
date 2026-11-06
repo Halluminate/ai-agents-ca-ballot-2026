@@ -1,0 +1,59 @@
+{
+  "requests": 15,
+  "requests_per_host": {
+    "openrouter.ai": 9,
+    "voterguide.sos.ca.gov": 1,
+    "www.sos.ca.gov": 1,
+    "www.kpbs.org": 1,
+    "calmatters.org": 1,
+    "escholarship.org": 1,
+    "www.sfgate.com": 1
+  },
+  "hosts": [
+    "calmatters.org",
+    "escholarship.org",
+    "openrouter.ai",
+    "voterguide.sos.ca.gov",
+    "www.kpbs.org",
+    "www.sfgate.com",
+    "www.sos.ca.gov"
+  ],
+  "status_counts": {
+    "200": 14,
+    "403": 1
+  },
+  "bytes_up": 385222,
+  "bytes_down": 288391,
+  "wire_bytes": {
+    "harness_to_proxy": 416166,
+    "proxy_to_harness": 336911,
+    "proxy_to_internet": 412396,
+    "internet_to_proxy": 375512
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 16,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

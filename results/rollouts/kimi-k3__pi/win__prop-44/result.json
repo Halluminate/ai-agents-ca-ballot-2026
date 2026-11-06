@@ -1,0 +1,102 @@
+{
+  "run_id": "kimi__common__win__p44__r1",
+  "model": "kimi",
+  "model_id": "moonshotai/kimi-k3",
+  "pin": "moonshotai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "44",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "last_line",
+  "error": "",
+  "started_at": "2026-11-03T11:34:17.027822+00:00",
+  "finished_at": "2026-11-03T11:36:20.554063+00:00",
+  "seconds": 120.8,
+  "input_tokens": 13270,
+  "output_tokens": 2457,
+  "cached_tokens": 14592,
+  "cost_usd": 0.0962,
+  "cost_source": "reported",
+  "billed_usd": 0.096205698,
+  "searches": [
+    "California Proposition 44 voter guide sos.ca.gov",
+    "California Proposition 44 2026 community health clinics SEIU-UHW polling",
+    "PPIC October 2026 poll Proposition 44 likely voters percent support"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/44/",
+    "https://voterguide.sos.ca.gov/propositions/44/analysis.htm"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 7,
+    "requests_per_host": {
+      "openrouter.ai": 7
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 7
+    },
+    "bytes_up": 124312,
+    "bytes_down": 868034,
+    "wire_bytes": {
+      "harness_to_proxy": 139274,
+      "proxy_to_harness": 932283,
+      "proxy_to_internet": 137037,
+      "internet_to_proxy": 948999
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 8,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 3,
+  "run_started_at": "2026-11-03T11:28:10.674257+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:28:10.674257+00:00",
+      "finished_at": "2026-11-03T11:30:27.934216+00:00",
+      "status": "error",
+      "error": "Connection error."
+    },
+    {
+      "attempt": 2,
+      "started_at": "2026-11-03T11:30:57.937226+00:00",
+      "finished_at": "2026-11-03T11:33:17.024087+00:00",
+      "status": "error",
+      "error": "502 <html>\n<head>\n    <title>502 Bad Gateway</title>\n</head>\n<body>\n    <h1>502 Bad Gateway</h1>\n    <p>server closed connection</p>\n</body>\n</html>"
+    },
+    {
+      "attempt": 3,
+      "started_at": "2026-11-03T11:34:17.027822+00:00",
+      "finished_at": "2026-11-03T11:36:20.554063+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

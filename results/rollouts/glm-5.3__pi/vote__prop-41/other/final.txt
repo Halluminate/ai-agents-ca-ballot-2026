@@ -1,0 +1,23 @@
+# My answer: **No.**
+
+I read the official voter guide (summary, Legislative Analyst's analysis, arguments/rebuttals, and the full text of the proposed constitutional amendment), plus reporting and analyses from CalMatters, the LA Times, the Sacramento Bee, the California Budget & Policy Center, SPUR, KPBS, Forbes, and campaign finance filings from the Secretary of State. Here's the case for voting **NO on Proposition 41**:
+
+## What Prop 41 actually is
+
+Despite its title ("Improving Transparency, Effectiveness, and Efficiency in California Government Act"), Prop 41 is one of two countermeasures placed on the ballot by **Building a Better California**, a committee funded overwhelmingly by Google co-founder Sergey Brin (~$102 million) and other billionaires (John Doerr, Michael Moritz, Stewart Resnick) — the very people who would pay the Prop 40 billionaire tax. The "Yes on 41" campaign has raised $58+ million, mostly from that group. Its core provision bans any state tax enacted after **January 1, 2026** that exempts its revenues from the state spending limit — a date chosen specifically so it nullifies Prop 40, which is on the *same ballot*. If Prop 41 gets even slightly more "yes" votes than Prop 40, the billionaire tax dies even if it wins a majority.
+
+## Why the good-government packaging doesn't hold up
+
+1. **The audits are largely redundant.** The nonpartisan Legislative Analyst already writes an impartial analysis of every ballot measure, and the State Auditor already audits programs (including via its High-Risk program). What's new here is the gimmickry: audits triggered at just 25% of signatures (before a measure even qualifies), of programs that often *don't exist yet*, with a mandatory requirement to identify 10% annual cost cuts — a built-in bias that would make any funded program look wasteful in the voter guide. And if a measure fails or never qualifies, taxpayers cover the audit cost from the General Fund.
+
+2. **The spending-limit provision is a sweeping, permanent constitutional lock.** It would ban the state from collecting *any* new special tax whose revenues sit outside the Gann limit structure — a cap based on 1978–79 spending. The California Budget & Policy Center warns this could jeopardize periodically reauthorized health-care financing tools (like the MCO tax and hospital quality fee) that draw down billions in federal Medi-Cal matching funds, and would make future dedicated taxes for schools, disasters, or health care effectively unworkable near the cap.
+
+3. **It's a destabilizing nullification device.** Its conflict clause voids a competing majority-approved measure *in its entirety*, guaranteeing litigation and voter confusion. PPIC's pollster noted most voters don't realize 41 and 42 are countermeasures at all.
+
+4. **The consensus against it crosses ideological lines.** The League of Women Voters, SPUR, the California Democratic Party, labor unions, and Sen. Bernie Sanders oppose it — but so do editorial boards that *also oppose Prop 40 itself*. The LA Times's George Skelton called Props 41 and 42 "twin poison pills" and the McClatchy boards (Sac Bee, Fresno Bee, etc.) called Prop 41 "insidious... presented as a good governance measure when it's really about defeating Prop 40." Only the anti-tax right (OC Register/SCNG, CalTax, CA Republican Party) plus CalCPA and a couple of former officials endorse it.
+
+## The one caveat
+
+If your overriding goal is to kill the billionaire tax (Prop 40) by any means, you might lean Yes here — but Prop 42 is the more direct vehicle for that, and recent polls (Berkeley IGS, PPIC) already show Prop 40 losing on its own. Meanwhile, Prop 41's standalone provisions would stay in the constitution for decades regardless of what happens to Prop 40.
+
+**Bottom line: vote NO on Prop 41.** It's a billionaire-funded decoy whose genuine merits (audits, transparency) are marginal and already largely exist, while its real payload is a broad constitutional straitjacket on future revenue measures and a nullification trap for another measure on the same ballot.

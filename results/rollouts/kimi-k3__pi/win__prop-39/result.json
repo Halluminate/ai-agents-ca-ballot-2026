@@ -1,0 +1,100 @@
+{
+  "run_id": "kimi__common__win__p39__r1",
+  "model": "kimi",
+  "model_id": "moonshotai/kimi-k3",
+  "pin": "moonshotai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "39",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:41:35.512532+00:00",
+  "finished_at": "2026-11-03T12:42:52.895315+00:00",
+  "seconds": 74.5,
+  "input_tokens": 28242,
+  "output_tokens": 2310,
+  "cached_tokens": 8192,
+  "cost_usd": 0.1472,
+  "cost_source": "reported",
+  "billed_usd": 0.15221007,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/39 Proposition 39 title summary California",
+    "California Proposition 39 election results yes no percentage passed",
+    "California Proposition 39 voterguide.sos.ca.gov propositions 39 yes no result passed",
+    "Ballotpedia California Proposition 39 voter identification 2026 polls campaign finance",
+    "2026 California Proposition 39 voter ID campaign contributions yes no fundraising",
+    "California Proposition 39 voter ID 2026 polling PPIC IGS yes no"
+  ],
+  "search_errors": 1,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/39/",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-39-establishes-additional-voter-identification-and-citizenship-verification-requirements-initiative-constitutional-a",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=39&year=2026",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-39-voter"
+  ],
+  "tool_errors": 1,
+  "warnings": [],
+  "network": {
+    "requests": 9,
+    "requests_per_host": {
+      "openrouter.ai": 9
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 9
+    },
+    "bytes_up": 151980,
+    "bytes_down": 387372,
+    "wire_bytes": {
+      "harness_to_proxy": 171107,
+      "proxy_to_harness": 428799,
+      "proxy_to_internet": 168347,
+      "internet_to_proxy": 449998
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 10,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:41:35.512532+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:41:35.512532+00:00",
+      "finished_at": "2026-11-03T12:42:52.895315+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.
+YOLO mode is enabled. All tool calls will be automatically approved.
+YOLO mode is enabled. All tool calls will be automatically approved.
+Ripgrep is not available. Falling back to GrepTool.
+[WebFetchTool] Primary fetch failed, falling back: Primary fetch returned no content
+Attempt 1 failed. Retrying with backoff... Error: exception TypeError: fetch failed sending request
+    at file://<project>/node_modules/@google/gemini-cli/bundle/chunk-RZ3ZVTZB.js:267760:13
+    at async Models.generateContent (file://<project>/node_modules/@google/gemini-cli/bundle/chunk-RZ3ZVTZB.js:268732:16)
+    at async file://<project>/node_modules/@google/gemini-cli/bundle/chunk-RZ3ZVTZB.js:312846:26
+    at async file://<project>/node_modules/@google/gemini-cli/bundle/chunk-RZ3ZVTZB.js:289124:23
+    at async retryWithBackoff (file://<project>/node_modules/@google/gemini-cli/bundle/chunk-RZ3ZVTZB.js:309277:23)
+    at async GeminiClient.generateContent (file://<project>/node_modules/@google/gemini-cli/bundle/chunk-RZ3ZVTZB.js:349321:23)
+    at async WebFetchToolInvocation.execute (file://<project>/node_modules/@google/gemini-cli/bundle/chunk-RZ3ZVTZB.js:332881:24)
+    at async executeToolWithHooks (file://<project>/node_modules/@google/gemini-cli/bundle/chunk-RZ3ZVTZB.js:344435:22)
+    at async file://<project>/node_modules/@google/gemini-cli/bundle/chunk-RZ3ZVTZB.js:349605:28
+    at async file://<project>/node_modules/@google/gemini-cli/bundle/chunk-RZ3ZVTZB.js:289124:23
+Attempt 1 failed. Retrying with backoff... Error: exception TypeError: fetch failed sending request
+    at file://<project>/node_modules/@google/gemini-cli/bundle/chunk-RZ3ZVTZB.js:267760:13
+    at async Models.generateContent (file://<project>/node_modules/@google/gemini-cli/bundle/chunk-RZ3ZVTZB.js:268732:16)
+    at async file://<project>/node_modules/@google/gemini-cli/bundle/chunk-RZ3ZVTZB.js:312846:26
+    at async file://<project>/node_modules/@google/gemini-cli/bundle/chunk-RZ3ZVTZB.js:289124:23
+    at async retryWithBackoff (file://<project>/node_modules/@google/gemini-cli/bundle/chunk-RZ3ZVTZB.js:309277:23)
+    at async GeminiClient.generateContent (file://<project>/node_modules/@google/gemini-cli/bundle/chunk-RZ3ZVTZB.js:349321:23)
+    at async WebFetchToolInvocation.execute (file://<project>/node_modules/@google/gemini-cli/bundle/chunk-RZ3ZVTZB.js:332881:24)
+    at async executeToolWithHooks (file://<project>/node_modules/@google/gemini-cli/bundle/chunk-RZ3ZVTZB.js:344435:22)
+    at async file://<project>/node_modules/@google/gemini-cli/bundle/chunk-RZ3ZVTZB.js:349605:28
+    at async file://<project>/node_modules/@google/gemini-cli/bundle/chunk-RZ3ZVTZB.js:289124:23
+[WebFetchTool] Rate limit exceeded for host: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8FYPIKRLrSdRh7UyuIeFISE0retbPOgeo_CCU9_1pldeYWJJB_zf6Vc_fO7z69xjIFekWCS-fNbwXWpl-MBQxW8HK2vYmB9BL_yDJ1JONKEEQ5SjXIHXyjE-xZjhzg2WeldZd4-52xB40IMwwzc_V1FqWKloMMucDHFtwJfPmWIIiJT5fi27VBCR3hTsA2Ni4YrX0qiLqnF2ubatmBA==
+[WebFetchTool] Rate limit exceeded for host: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnpwZaT_KwC_9784BRdSvPey4uEy7HrqSN1jOF2_-Msq1zA_Mbrmphkm_2bC6VW9FRcn8qgzTdDNG_r5sKN9Ijhr8vnEm7JKaRHvq5mTWgb-_aN9gyL2yPI8PQpgnvjNbrkmCWMinxptmrm2Xt9xC4wRTyPBjruf0-aLHXbDW1bBbsZnJUV00NwK_6rSxiNTbk4ZM7HvFLt3Sp9ws=
+[WebFetchTool] Rate limit exceeded for host: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGQ2wpoT3wmx5e3wtOylCLZZsoaTOdlGi80SuYFhiOKhZ0jkUTCyfMwlD9zutzZ8w1boxaAfOmNOvNYh2lhAKla7MMBug0NZEqqSOAVAseJY_BohG9a4Tqx5VA_VjEduJOfaxEzQ==
+[WebFetchTool] Rate limit exceeded for host: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1kMhxgJZIydfJ9gD_3I5BH_nKW1dbliboLhnSaMXqGtag5R-7D1bwK22msIAmBn8EVtVFiQY9p2hmSduhhI7dB-tMZdy4oUulTnYb5hdf5Vsfd1oleKt0FrE8MxHqE9eJGROd3PUlfmgp7WEVZcQXEXEDdEIvnz0IzZjo7fQ_EoLmq17khxpaW-e6fDFoadLkSHzYgcZHBU7Q1lWqxTzjhmw=
+[WebFetchTool] All requested URLs were skipped: [Rate limit exceeded] https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8FYPIKRLrSdRh7UyuIeFISE0retbPOgeo_CCU9_1pldeYWJJB_zf6Vc_fO7z69xjIFekWCS-fNbwXWpl-MBQxW8HK2vYmB9BL_yDJ1JONKEEQ5SjXIHXyjE-xZjhzg2WeldZd4-52xB40IMwwzc_V1FqWKloMMucDHFtwJfPmWIIiJT5fi27VBCR3hTsA2Ni4YrX0qiLqnF2ubatmBA==, [Rate limit exceeded] https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnpwZaT_KwC_9784BRdSvPey4uEy7HrqSN1jOF2_-Msq1zA_Mbrmphkm_2bC6VW9FRcn8qgzTdDNG_r5sKN9Ijhr8vnEm7JKaRHvq5mTWgb-_aN9gyL2yPI8PQpgnvjNbrkmCWMinxptmrm2Xt9xC4wRTyPBjruf0-aLHXbDW1bBbsZnJUV00NwK_6rSxiNTbk4ZM7HvFLt3Sp9ws=, [Rate limit exceeded] https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGQ2wpoT3wmx5e3wtOylCLZZsoaTOdlGi80SuYFhiOKhZ0jkUTCyfMwlD9zutzZ8w1boxaAfOmNOvNYh2lhAKla7MMBug0NZEqqSOAVAseJY_BohG9a4Tqx5VA_VjEduJOfaxEzQ==, [Rate limit exceeded] https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1kMhxgJZIydfJ9gD_3I5BH_nKW1dbliboLhnSaMXqGtag5R-7D1bwK22msIAmBn8EVtVFiQY9p2hmSduhhI7dB-tMZdy4oUulTnYb5hdf5Vsfd1oleKt0FrE8MxHqE9eJGROd3PUlfmgp7WEVZcQXEXEDdEIvnz0IzZjo7fQ_EoLmq17khxpaW-e6fDFoadLkSHzYgcZHBU7Q1lWqxTzjhmw=
+Error executing tool web_fetch: Error: All requested URLs were skipped: [Rate limit exceeded] https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8FYPIKRLrSdRh7UyuIeFISE0retbPOgeo_CCU9_1pldeYWJJB_zf6Vc_fO7z69xjIFekWCS-fNbwXWpl-MBQxW8HK2vYmB9BL_yDJ1JONKEEQ5SjXIHXyjE-xZjhzg2WeldZd4-52xB40IMwwzc_V1FqWKloMMucDHFtwJfPmWIIiJT5fi27VBCR3hTsA2Ni4YrX0qiLqnF2ubatmBA==, [Rate limit exceeded] https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnpwZaT_KwC_9784BRdSvPey4uEy7HrqSN1jOF2_-Msq1zA_Mbrmphkm_2bC6VW9FRcn8qgzTdDNG_r5sKN9Ijhr8vnEm7JKaRHvq5mTWgb-_aN9gyL2yPI8PQpgnvjNbrkmCWMinxptmrm2Xt9xC4wRTyPBjruf0-aLHXbDW1bBbsZnJUV00NwK_6rSxiNTbk4ZM7HvFLt3Sp9ws=, [Rate limit exceeded] https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGQ2wpoT3wmx5e3wtOylCLZZsoaTOdlGi80SuYFhiOKhZ0jkUTCyfMwlD9zutzZ8w1boxaAfOmNOvNYh2lhAKla7MMBug0NZEqqSOAVAseJY_BohG9a4Tqx5VA_VjEduJOfaxEzQ==, [Rate limit exceeded] https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1kMhxgJZIydfJ9gD_3I5BH_nKW1dbliboLhnSaMXqGtag5R-7D1bwK22msIAmBn8EVtVFiQY9p2hmSduhhI7dB-tMZdy4oUulTnYb5hdf5Vsfd1oleKt0FrE8MxHqE9eJGROd3PUlfmgp7WEVZcQXEXEDdEIvnz0IzZjo7fQ_EoLmq17khxpaW-e6fDFoadLkSHzYgcZHBU7Q1lWqxTzjhmw=

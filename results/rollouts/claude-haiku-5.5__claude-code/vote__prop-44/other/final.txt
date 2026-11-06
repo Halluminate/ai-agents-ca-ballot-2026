@@ -1,0 +1,45 @@
+**No.**
+
+I read this as a recommendation on the measure as written, not a forecast of the result. Polls close at 8 p.m. today ([official guide](https://voterguide.sos.ca.gov/propositions/44/)).
+
+**Why I'd vote no**
+
+- **Blunt penalty, no cap.** Clinics must put 90% of total revenue into "program services," and the penalty equals the shortfall. There is no cap and no need to show patient harm. Nixon Peabody's example: a clinic with $50M in revenue and $40M in program spending owes a $5M penalty ([Nixon Peabody](https://www.nixonpeabody.com/insights/alerts/2026/10/29/californias-proposition-44-potential-big-impacts-for-community-health-centers)). The LAO says clinics average about 80% ([LAO analysis](https://voterguide.sos.ca.gov/propositions/44/analysis.htm)), so a typical clinic would owe roughly 10% of revenue if the two measures line up.
+- **Reserves are effectively capped.** Because the denominator is total revenue, any surplus counts against the ratio. The measure's own findings cite surpluses "as much as 20 percent" ([GrowSF legal text](https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-44/legal-text/)). Hoover's critique is that this penalizes prudent reserves even when spending is sound ([Hoover](https://www.hoover.org/proposition-lab-proposition-44)). The arithmetic is mine, from the text.
+- **The key term gets defined after the vote.** "Mission-directed" spending is never defined. The Attorney General sets the rules and can issue binding guidance by bulletin, bypassing normal rulemaking ([GrowSF legal text](https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-44/legal-text/)). Opponents say this could exclude translation, IT, and facilities; supporters say those are covered. The text doesn't settle it ([official arguments](https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm)).
+- **No executive-pay cap.** The campaign's core pitch is executive pay, but no operative provision caps it. Pay appears only in the findings ([GrowSF legal text](https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-44/legal-text/)). The union says CEOs are paid "in the millions." I found no verified California example. A national FQHC database puts average total compensation near $281K, though the page looks several years old ([ElementOne](https://elementoneconsulting.com/fqhc-form990-survey)).
+- **Costs are uncertain, and closures are possible.** The LAO estimates only "low tens of millions" a year in state enforcement costs, paid by fees. It calls other state and local costs uncertain and says some clinics might close ([LAO analysis](https://voterguide.sos.ca.gov/propositions/44/analysis.htm)). The $1.7 billion first-year figure comes from a study paid for by the California Primary Care Association ([CalMatters](https://calmatters.org/health/2026/10/union-billionaire-prop-44-clinic/)). I could not examine its methods.
+- **Broad opposition, narrow support.** Opponents include the California Medical Association, the Primary Care Association, the Hospital Association, AAP-California, Planned Parenthood Affiliates, and the Democratic, Republican, and Working Families parties. Five major newspapers oppose it. SEIU-UHW is the only listed endorser ([CalMatters voter guide](https://calmatters.org/california-voter-guide-2026/proposition-44-clinic-funding/)). Opponents have raised about $37.6M against SEIU-UHW's roughly $17M.
+- **Sponsor leverage.** In September, the Primary Care Association and clinics filed a federal suit alleging SEIU-UHW offered to drop this measure in exchange for concessions. SEIU-UHW calls the allegations "categorically false" ([CalMatters](https://calmatters.org/health/2026/10/union-billionaire-prop-44-clinic/)). That's unproven, but it means the measure is entangled in a labor fight.
+
+**The case for yes**
+
+- The gap is real: 80% on average against a 90% floor.
+- The scope is narrow. It covers nonprofit FQHCs and look-alikes, not hospitals or private practices.
+- The Attorney General would publish each clinic's ratio. The inputs are already on public Form 990s, so the gain is mostly a standardized, enforced scorecard.
+- Supporters say clinics that comply keep all their funds. Penalties are refundable within five years, and unclaimed money goes to health-worker programs.
+- The Legislature can amend it by statute, but only "to further the purposes of this Act" ([GrowSF legal text](https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-44/legal-text/)).
+
+I still come down on no. The formula is strict, the central definition is set later, the penalties are large and uncapped, and the pay rationale isn't in the text.
+
+**Caveats**
+
+- **Polling:** PPIC's September poll had 34% yes and 61% no. The October poll reportedly had 25% yes and 71% no. I couldn't open PPIC directly, and one garbled excerpt showed 45%. Both polls show majority opposition ([PPIC](https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/)).
+- **Closure numbers:** I found no independent closure estimate. Opposition materials conflict: nearly half of clinics in CalMatters' account, two-thirds in the BRG release ([BRG release, opponent-hosted](https://noprop44.com/2025/11/18/new-study-misguided-ballot-initiative-will-strip-billions-from-community-health-clinics-resulting-in-clinic-closures-and-reduced-care-for-millions-of-patients/)).
+- **Legal reading:** Several official PDFs came back as unreadable binary. My reading of the statute comes from annotated text and a law-firm alert. I'm not a lawyer.
+- **If your concern is one clinic's pay,** check that clinic's public Form 990 (Part VII) rather than relying on this measure.
+
+**Sources**
+
+- [Official voter guide, Prop 44](https://voterguide.sos.ca.gov/propositions/44/)
+- [LAO analysis (official voter guide)](https://voterguide.sos.ca.gov/propositions/44/analysis.htm)
+- [Official arguments and rebuttals](https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm)
+- [Official title and summary](https://voterguide.sos.ca.gov/propositions/44/title-summary.htm)
+- [GrowSF annotated legal text](https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-44/legal-text/)
+- [Nixon Peabody alert](https://www.nixonpeabody.com/insights/alerts/2026/10/29/californias-proposition-44-potential-big-impacts-for-community-health-centers)
+- [Hoover Institution Proposition Lab](https://www.hoover.org/proposition-lab-proposition-44)
+- [CalMatters: the union behind Prop 44](https://calmatters.org/health/2026/10/union-billionaire-prop-44-clinic/)
+- [CalMatters voter guide](https://calmatters.org/california-voter-guide-2026/proposition-44-clinic-funding/)
+- [BRG study release (opponent-hosted)](https://noprop44.com/2025/11/18/new-study-misguided-ballot-initiative-will-strip-billions-from-community-health-clinics-resulting-in-clinic-closures-and-reduced-care-for-millions-of-patients/)
+- [ElementOne FQHC Form 990 survey](https://elementoneconsulting.com/fqhc-form990-survey)
+- [PPIC October 2026 survey page](https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/)

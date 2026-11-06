@@ -1,0 +1,97 @@
+{
+  "run_id": "gpt__native__better__p1__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "1",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:30:17.994860+00:00",
+  "finished_at": "2026-11-03T12:33:04.164863+00:00",
+  "seconds": 163.8,
+  "input_tokens": 39,
+  "output_tokens": 6375,
+  "cached_tokens": 665159,
+  "cost_usd": 2.4414,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 1 2026 housing $11.25 billion analysis opposition ...",
+    "\"Proposition 1\" \"2026\" \"housing\" opposition ...",
+    "\"Proposition 1\" \"2026\" \"Vote no\" \"housing\" ...",
+    "\"Proposition 1\" \"2026\" \"squanders\" ...",
+    "\"2026-27\" \"Spending Plan\" \"Overview\" \"deficits\" ...",
+    "\"Multifamily Housing Program\" \"2025\" \"2018\" \"units\" ...",
+    "site:hcd.ca.gov annual report 2024 2025 Multifamily Housing Program Proposition 1 homes funding ...",
+    "'deficits'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/1/",
+    "https://voterguide.sos.ca.gov/propositions/overview-state-bond-debt.htm"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 22,
+    "requests_per_host": {
+      "api.openai.com": 19,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 18,
+      "202": 3
+    },
+    "bytes_up": 1339191,
+    "bytes_down": 2818077,
+    "wire_bytes": {
+      "harness_to_proxy": 1056100,
+      "proxy_to_harness": 1737189,
+      "proxy_to_internet": 1054553,
+      "internet_to_proxy": 1775612
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2258,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 21,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:30:17.994860+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:30:17.994860+00:00",
+      "finished_at": "2026-11-03T12:33:04.164863+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

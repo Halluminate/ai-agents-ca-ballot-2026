@@ -1,0 +1,32 @@
+I'm not going to give you a one-word yes or no on this one. Voter ID is one of the most partisan election fights in the country, and the right vote depends on how you weigh things people reasonably disagree about. Here's what my research found, so you can decide quickly.
+
+**What Prop 39 does**
+- It amends the state constitution, so changing it later would take another ballot measure.
+- To vote in person, you'd show a government ID.
+- To vote by mail, you'd write the last 4 digits of an ID number on the envelope. It must match your registration record, and it's checked in addition to your signature. Ballots without it don't count.
+- The state would give a free voter ID card to anyone who asks.
+- Officials would have to try to verify voters' citizenship using government records. The State Auditor would check how well the state and counties follow the rules every two years, and any citizen could sue if they don't.
+- The Legislature would fill in key details later, including which IDs count.
+- The nonpartisan Legislative Analyst's Office estimates it would cost tens of millions to low hundreds of millions of dollars a year.
+
+**What the evidence shows**
+- **Fraud is rare.** Even supporters, like former Republican Secretary of State Bill Jones and the Hoover Institution, don't claim it's widespread in California.
+- **Turnout and trust:** The largest study of strict ID laws (Cantoni & Pons, 2021) found no measurable effect on turnout. It also found no effect on actual fraud or on how much fraud people believe happens. Other studies find little effect on voter confidence.
+- **Mail ballots:** Requiring ID numbers on mail ballots has increased rejections elsewhere. In Texas, rejections went from 0.9% in 2020 to about 12% in its first election under the rule, then settled around 3.5%. California rejected 0.9% in 2024. California gives voters more time to fix ballot problems, but how that would work here is up to the Legislature.
+- **Court rulings:** A judge tentatively found that the Yes campaign's claims that Prop 39 would make voting easier, protect privacy, and save money were false or misleading, and the campaign removed them. The Yes side also lost its challenge to the official ballot title, which it calls biased.
+
+**You'd likely lean yes if** you see an ID check as a reasonable baseline (36 states require some form) and value building trust more than the cost. You'd also have to be comfortable putting it in the constitution with the details left for later.
+
+**You'd likely lean no if** you put more weight on how rare fraud is, the cost, the risk of valid mail ballots being rejected, and the privacy concern about ID digits on envelopes. You might also object to locking undefined rules into the constitution.
+
+**Who's on each side**
+- **Yes:** California Republican Party, Assemblymember Carl DeMaio, Howard Jarvis Taxpayers Association, Orange County Register.
+- **No:** California Democratic Party, Gov. Newsom, ACLU, League of Women Voters, and the San Francisco Chronicle, Sacramento Bee, San Diego Union-Tribune, and Mercury News editorial boards.
+
+Sources:
+- [CA Voter Guide: Prop 39](https://voterguide.sos.ca.gov/propositions/39/), [LAO analysis](https://voterguide.sos.ca.gov/propositions/39/analysis.htm), [Arguments and rebuttals](https://voterguide.sos.ca.gov/propositions/39/arguments-rebuttals.htm)
+- [CalMatters guide](https://calmatters.org/california-voter-guide-2026/proposition-39-voter-id/), [Bill Jones op-ed (yes)](https://calmatters.org/commentary/2026/08/voter-identification-proposition-39-elections/)
+- [Hoover Proposition Lab](https://www.hoover.org/proposition-lab-proposition-39), [SPUR](https://www.spur.org/voter-guide/2026-11/ca-prop-39-california-voter-id), [CA Budget & Policy Center](https://calbudgetcenter.org/resources/proposition-39-explained-what-voter-id-would-mean-for-california/)
+- [Cantoni & Pons study (NBER)](https://www.nber.org/papers/w25522)
+- [Colorado Sun on other states' rejection rates](https://coloradosun.com/2026/10/21/amendment-84-other-states-ballot-rejections/), [CA 2024 ballot rejections](https://www.pressdemocrat.com/2025/03/20/california-elections-officials-rejected-122000-ballots-in-2024-election-heres-why/)
+- [SF Chronicle on the ballot-argument ruling](https://www.sfchronicle.com/politics/article/prop-39-ballot-language-hearing-22377628.php), [Wikipedia: endorsements and polls](https://en.wikipedia.org/wiki/2026_California_Proposition_39)

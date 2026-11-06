@@ -1,0 +1,102 @@
+{
+  "run_id": "sol__native__win__p39__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "39",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:21:35.161381+00:00",
+  "finished_at": "2026-11-03T13:23:42.731703+00:00",
+  "seconds": 125.5,
+  "input_tokens": 36,
+  "output_tokens": 4744,
+  "cached_tokens": 561223,
+  "cost_usd": 0.4327,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 39 2026 voter ID November poll yes no October 2026 ...",
+    "Berkeley IGS October 29 2026 Proposition 39 58 2026-22 poll ...",
+    "site.surveyusa.com 2026 October 49 42 \"Proposition 39\" ...",
+    "'Proposition 39'",
+    "\"SurveyUSA\" \"October\" \"2026\" \"Voter ID\" \"49\" ...",
+    "'California Proposition 39, Voter Identification'",
+    "'probability-based'",
+    "site.news.berkeley.edu \"October 29, 2026\" \"39\" ...",
+    "\"Dems Remain in Charge in California\" \"2026\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/39/",
+    "https://www.onpointpolitics.us/forecast/measures/ca/proposition-39",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://escholarship.org/content/qt72722408/qt72722408.pdf",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_39",
+    "https://electionresults.sos.ca.gov/returns/ballot-measures"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 23,
+    "requests_per_host": {
+      "api.openai.com": 20,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 19,
+      "202": 3
+    },
+    "bytes_up": 1182805,
+    "bytes_down": 2690646,
+    "wire_bytes": {
+      "harness_to_proxy": 957245,
+      "proxy_to_harness": 1652301,
+      "proxy_to_internet": 956232,
+      "internet_to_proxy": 1692112
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2482,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 22,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:21:35.161381+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:21:35.161381+00:00",
+      "finished_at": "2026-11-03T13:23:42.731703+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "run_id": "luna__native__win__p44__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "44",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:07:59.680824+00:00",
+  "finished_at": "2026-11-03T11:08:46.589291+00:00",
+  "seconds": 44.8,
+  "input_tokens": 30,
+  "output_tokens": 4133,
+  "cached_tokens": 329313,
+  "cost_usd": 0.0744,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 44 2026 poll Yes No polling ...",
+    "\"Proposition 44\" \"25%\" \"71%\" October 2026 PPIC ...",
+    "'Just one in four'",
+    "California Proposition 44 no campaign endorsers 2026 Republicans Democrats Planned Parenthood medical association editorials ...",
+    "'Prop 44'",
+    "California Proposition 44 results November 3 2026 latest vote count ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/44/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 11,
+    "requests_per_host": {
+      "api.openai.com": 10,
+      "ab.chatgpt.com": 1
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 9,
+      "202": 1
+    },
+    "bytes_up": 977621,
+    "bytes_down": 1581873,
+    "wire_bytes": {
+      "harness_to_proxy": 786322,
+      "proxy_to_harness": 847568,
+      "proxy_to_internet": 786424,
+      "internet_to_proxy": 868332
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 946,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 12,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:07:59.680824+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:07:59.680824+00:00",
+      "finished_at": "2026-11-03T11:08:46.589291+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

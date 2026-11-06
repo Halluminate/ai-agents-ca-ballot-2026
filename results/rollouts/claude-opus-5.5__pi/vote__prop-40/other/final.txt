@@ -1,0 +1,44 @@
+I'm going to break your yes-or-no rule on this one. There are two reasons.
+
+**First, I have a conflict of interest.** I'm made by Anthropic, and Prop 40 would hit Anthropic's seven co-founders directly. Forbes estimates Dario and Daniela Amodei would owe about $680 million each, and possibly more than $1 billion after the company's IPO. Dario, Anthropic's CEO, has also publicly called the measure "poorly designed." I shouldn't be the one telling you how to vote on a tax my maker's leadership would pay. **Second, the research doesn't settle it.** The answer turns on your values and on predictions nobody can check yet. Here's what I found.
+
+**What it does**
+- It's a one-time 5% tax on the total net worth of the roughly 200–250 people worth $1 billion or more who lived in California on **January 1, 2026**. That date is before the vote, which is the main legal issue.
+- They could pay over five years, with an extra 7.5% charge each year on the unpaid balance.
+- Directly owned real estate and most retirement accounts aren't counted.
+- 90% of the money goes to health care and 10% to K–14 schools and food aid. Lawmakers decide the details.
+- The money doesn't count toward the school-funding guarantee (Prop 98) or the state spending limit.
+
+**What the evidence says on the key questions**
+- **How much money?** The Legislative Analyst's Office (the state's nonpartisan fiscal advisor) says "tens of billions" over several years. The measure's authors say about $100 billion. Hoover Institution economists at Stanford say about $30 billion.
+  - The gap mostly comes down to whether Larry Page, Sergey Brin, Peter Thiel and a few others legally left before January 1. Together they hold about 30% of the taxable wealth.
+  - That's disputed, since several still own homes here or work here part of the time.
+- **Long-term cost?** The Analyst's Office expects possibly under $1 billion a year in lost income tax, as some billionaires leave.
+  - The Hoover economists project about −$39 billion net over the long run.
+  - The authors say that math counts future losses forever but counts the revenue only once.
+  - With the Analyst's Office numbers, the state comes out well ahead. With Hoover's, it loses money.
+- **Will it survive court?** Unknown. Lawsuits are almost certain, mainly over taxing people based on where they lived before the vote. The Tax Foundation calls that date "fatally flawed." The proponents' constitutional scholars say current Supreme Court precedent supports it.
+- **Funding cliff:** The money arrives over about five years. The federal Medi-Cal cuts it's meant to cover are permanent (the measure cites up to $19 billion a year).
+- **Fact-checks on the No side's claims:**
+  - "Lawmakers could expand it to everyone" is only partly true, per CalMatters. Experts think lowering the $1 billion threshold would likely need another public vote.
+  - "Taxes retirement accounts" applies only to billionaires' Roth IRA balances over $10 million.
+  - "Shortchanges schools $3 billion" doesn't mean cuts to current school budgets. It means the new money is exempt from Prop 98's school share.
+
+**Who's on each side**
+- **Yes:** the sponsoring health-care union (SEIU-UHW), the California Democratic Party, the state Labor Federation, Bernie Sanders, Rep. Ro Khanna, Nobel-winning economists including Paul Krugman and Joseph Stiglitz, and the Sacramento Bee. Nvidia CEO Jensen Huang said he's "perfectly fine" paying it.
+- **No:** Gov. Newsom, both candidates for governor, the California Teachers Association, the California Medical Association, Planned Parenthood Affiliates of California, firefighter and construction unions, the LA Times, the SF Chronicle and the Mercury News.
+- **Money:** more than $300 million has been raised against it, mostly from tech billionaires, versus about $35 million for it.
+
+**Watch out for Props 41 and 42.** They were written to block Prop 40. If either gets more yes votes than 40, it can cancel 40. So voting yes on 40 and also yes on 41 or 42 works against itself.
+
+**Your answer is probably YES if:**
+- covering the federal health cuts now is worth some legal and budget risk;
+- you think billionaires are undertaxed relative to their wealth;
+- you trust the Analyst's Office estimate over Hoover's.
+
+**Your answer is probably NO if:**
+- temporary money for permanent needs, plus years of lawsuits, seems like a bad bet;
+- you worry about driving out the top earners California's budget depends on;
+- you'd rather fund health care with permanent revenue, like Prop 3 or a national wealth tax.
+
+Tell me which of these matters most to you, and I'll dig into the evidence on that point.

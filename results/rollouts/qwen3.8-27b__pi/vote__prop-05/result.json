@@ -1,0 +1,109 @@
+{
+  "run_id": "qwen-27b__common__vote__p5__r1",
+  "model": "qwen-27b",
+  "model_id": "qwen/qwen3.8-27b",
+  "pin": "deepinfra",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "5",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "first_line",
+  "error": "",
+  "started_at": "2026-11-03T13:43:35.362713+00:00",
+  "finished_at": "2026-11-03T14:01:13.801657+00:00",
+  "seconds": 1055.4,
+  "input_tokens": 149107,
+  "output_tokens": 30753,
+  "cached_tokens": 86240,
+  "cost_usd": 0.1188,
+  "cost_source": "reported",
+  "billed_usd": 0.11876647843999999,
+  "searches": [
+    "California Proposition 5 voterguide.sos.ca.gov what is it",
+    "California 2026 Proposition 5 recall election special election appointment analysis",
+    "California Constitution Article II section 15 recall \"subject of the recall\" cannot run special election",
+    "Proposition 5 2026 California \"Californians for a Prosperous Golden State\" committee contributions",
+    "2021 Newsom recall \"may not be a candidate\" successor candidate constitution Article II 15",
+    "2021 California recall results question 2 Newsom \"Gavin Newsom\" candidate successor votes",
+    "California Elections Code 11381(c) recall \"may not be a candidate\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/5/",
+    "https://voterguide.sos.ca.gov/propositions/5/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/5/arguments-rebuttals.htm",
+    "https://calmatters.org/politics/2026/10/california-election-proposition-5-explainer/",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-5-recall-california-22458510.php",
+    "https://www.mercurynews.com/2026/11/02/we-asked-the-yes-on-prop-5-campaign-why-voters-should-approve-the-measure/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop5-text-proposed-laws.pdf",
+    "https://www.mercurynews.com/2026/11/02/we-asked-the-no-on-prop-5-campaign-why-voters-should-reject-the-measure/",
+    "https://www.mercurynews.com/2026/11/02/we-asked-the-yes-on-prop-5-campaign-why-voters-should-approve-the-measure/?page=2"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 16,
+    "requests_per_host": {
+      "openrouter.ai": 14,
+      "www.mercurynews.com": 2
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.mercurynews.com"
+    ],
+    "status_counts": {
+      "200": 15,
+      "301": 1
+    },
+    "bytes_up": 961546,
+    "bytes_down": 11608225,
+    "wire_bytes": {
+      "harness_to_proxy": 993709,
+      "proxy_to_harness": 12264402,
+      "proxy_to_internet": 989844,
+      "internet_to_proxy": 12294804
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 16,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:43:35.362713+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:43:35.362713+00:00",
+      "finished_at": "2026-11-03T14:01:13.801657+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

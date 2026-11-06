@@ -1,0 +1,126 @@
+{
+  "run_id": "qwen-max-prime__common__win__p42__r1",
+  "model": "qwen-max-prime",
+  "model_id": "qwen/qwen3.8-max-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "42",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "last_line",
+  "error": "",
+  "started_at": "2026-11-03T13:35:35.486118+00:00",
+  "finished_at": "2026-11-03T13:41:21.972451+00:00",
+  "seconds": 343.4,
+  "input_tokens": 113379,
+  "output_tokens": 17773,
+  "cached_tokens": 694272,
+  "cost_usd": 1.1003,
+  "cost_source": "reported",
+  "billed_usd": 1.10029838612,
+  "searches": [
+    "California Proposition 42 2014 local government public records open meetings result percentage",
+    "Prop 42 California 2026 billionaire tax initiative constitutional amendment campaign fundraising",
+    "California Proposition 42 2026 poll billionaire tax personal property tax survey",
+    "\"Proposition 42\" California November 2026 election results passed failed",
+    "PPIC October 2026 statewide survey Proposition 42 51% yes oppose likely voters",
+    "Berkeley IGS poll October 29 2026 Proposition 41 Proposition 42 likely voters 43% 45% undecided",
+    "California Prop 42 poll late October November 2026 yes no survey likely voters",
+    "Emerson College October 2026 California ballot measures poll Proposition 40 41 42",
+    "Citrin POLITICO poll October 19 2026 California Proposition 42 Proposition 41",
+    "Kalshi Polymarket Proposition 42 California 2026 prediction market odds",
+    "\"Prop 42\" California analysis \"likely to pass\" OR \"on track\" November 2026 retirement savings ballot measure experts",
+    "AIMSA survey second wave October 2026 California Proposition 40 41 42 results likely voters",
+    "California ballot measures November 2026 final week \"Prop 42\" ads spending last-minute voter guide",
+    "\"Prop 42\" California November 2 2026 Newsom Brin final ads campaign \"retirement savings\" mailers",
+    "SurveyUSA October 2026 California propositions results KGTV Union-Tribune Prop 41 Prop 42",
+    "California Proposition 42 November 3 2026 election day expected to pass analysis wealth tax countermeasure",
+    "editorial board endorsement California Proposition 42 2026 LA Times SF Chronicle Mercury News oppose recommend"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/42/",
+    "https://calmatters.org/health/2026/11/california-election-2026-prop-40-41-42/",
+    "https://escholarship.org/content/qt72722408/qt72722408.pdf",
+    "https://electcademocrats.com/polls/",
+    "https://cityhallpass.com/election-2026/measures/prop-42",
+    "https://escholarship.org/content/qt1vp9q3f9/qt1vp9q3f9.pdf",
+    "https://defirate.com/odds/california-props/",
+    "https://www.politico.com/f/?id=000001a1-569f-d4d9-adbd-f7dfeaa00000",
+    "https://californiatoday.com/guides/elections/2026-california-proposition-42-guide/",
+    "https://midterms.nijinn.io/ballot-measures/california-proposition-42-retroactive-tax-prohibition/"
+  ],
+  "tool_errors": 2,
+  "warnings": [],
+  "network": {
+    "requests": 34,
+    "requests_per_host": {
+      "openrouter.ai": 32,
+      "escholarship.org": 2
+    },
+    "hosts": [
+      "escholarship.org",
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 32,
+      "403": 2
+    },
+    "bytes_up": 3035849,
+    "bytes_down": 2158543,
+    "wire_bytes": {
+      "harness_to_proxy": 3108033,
+      "proxy_to_harness": 2321729,
+      "proxy_to_internet": 3097453,
+      "internet_to_proxy": 2404311
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 33,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:35:35.486118+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:35:35.486118+00:00",
+      "finished_at": "2026-11-03T13:41:21.972451+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

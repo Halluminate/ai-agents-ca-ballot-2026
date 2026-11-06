@@ -1,0 +1,63 @@
+{
+  "requests": 66,
+  "requests_per_host": {
+    "openrouter.ai": 59,
+    "voterguide.sos.ca.gov": 1,
+    "www.kqed.org": 1,
+    "fppc.ca.gov": 1,
+    "www.fppc.ca.gov": 1,
+    "www.eastbaytimes.com": 1,
+    "www.auditor.ca.gov": 1,
+    "information.auditor.ca.gov": 1
+  },
+  "hosts": [
+    "fppc.ca.gov",
+    "information.auditor.ca.gov",
+    "openrouter.ai",
+    "voterguide.sos.ca.gov",
+    "www.auditor.ca.gov",
+    "www.eastbaytimes.com",
+    "www.fppc.ca.gov",
+    "www.kqed.org"
+  ],
+  "status_counts": {
+    "200": 62,
+    "301": 2,
+    "403": 1,
+    "404": 1
+  },
+  "bytes_up": 9501476,
+  "bytes_down": 3916338,
+  "wire_bytes": {
+    "harness_to_proxy": 9647723,
+    "proxy_to_harness": 4229447,
+    "proxy_to_internet": 9627390,
+    "internet_to_proxy": 4389128
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 64,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

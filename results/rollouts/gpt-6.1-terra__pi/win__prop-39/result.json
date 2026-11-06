@@ -1,0 +1,111 @@
+{
+  "run_id": "terra__common__win__p39__r1",
+  "model": "terra",
+  "model_id": "openai/gpt-6.1-terra",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "39",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:53:10.360598+00:00",
+  "finished_at": "2026-11-03T10:53:50.305078+00:00",
+  "seconds": 36.7,
+  "input_tokens": 71159,
+  "output_tokens": 1247,
+  "cached_tokens": 47030,
+  "cost_usd": 0.1738,
+  "cost_source": "reported",
+  "billed_usd": 0.17375627376,
+  "searches": [
+    "\"voterguide.sos.ca.gov/propositions/39/\"",
+    "California Proposition 39 election 2026 2025 2024 voter guide yes no",
+    "\"2026\" \"Proposition 39\" voter ID polling October 2026 UC Berkeley PPIC survey",
+    "\"prop 39\" \"voter id\" california 2026 election poll November",
+    "California 2026 voter ID Prop 39 polls november 2 forecast election",
+    "\"Prop 39\" california \"poll\" 2026 voter identification majority",
+    "\"Proposition 39\" \"poll\" california voter id 2026 election October",
+    "California 2026 \"prop 39\" polling \"yes\" \"no\" October November 2026",
+    "\"proposition 39\" \"voter id\" 2026 odds california election prediction market",
+    "\"Proposition 39\" \"2026\" \"poll\" voter ID California November",
+    "California \"proposition 39\" 2026 polling yes no 2026 poll voter identification",
+    "California voter ID proposition 39 polls 2026 election Yes No 39 polling support",
+    "\"Proposition 39\" California voter identification \"2026\" forecast Kalshi polls \"November 2\"",
+    "\"Proposition 39\" California \"voter ID\" prediction election November 3 2026 polling averages odds",
+    "\"Proposition 39\" california polls november 3 2026 yes no likely election result"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/39/",
+    "https://www.onpointpolitics.us/forecast/measures/ca/proposition-39",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://defirate.com/odds/california-props/",
+    "https://apnews.com/projects/elections-2026/california-proposition-39-results/",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-39-establishes-additional-voter-identification-and-citizenship-verification-requirements-initiative-constitutional-a",
+    "https://escholarship.org/content/qt72722408/qt72722408.pdf",
+    "https://www.nytimes.com/interactive/polls/california-prop-39-voter-id-polls-2026.html"
+  ],
+  "tool_errors": 2,
+  "warnings": [],
+  "network": {
+    "requests": 21,
+    "requests_per_host": {
+      "openrouter.ai": 19,
+      "escholarship.org": 1,
+      "www.nytimes.com": 1
+    },
+    "hosts": [
+      "escholarship.org",
+      "openrouter.ai",
+      "www.nytimes.com"
+    ],
+    "status_counts": {
+      "200": 19,
+      "403": 2
+    },
+    "bytes_up": 532300,
+    "bytes_down": 225055,
+    "wire_bytes": {
+      "harness_to_proxy": 577642,
+      "proxy_to_harness": 284283,
+      "proxy_to_internet": 570574,
+      "internet_to_proxy": 337902
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 22,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:53:10.360598+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:53:10.360598+00:00",
+      "finished_at": "2026-11-03T10:53:50.305078+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

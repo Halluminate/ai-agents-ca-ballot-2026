@@ -1,0 +1,27 @@
+# Yes.
+
+## What Prop 5 (Nov. 3, 2026) actually does
+
+Today, a California recall ballot asks two questions at once: (1) Should this official be removed? and (2) Who should replace them? — where the replacement who gets a *plurality* (not a majority) immediately takes office. Prop 5 keeps question 1 fully intact and drops question 2, filling the vacancy the same way we fill vacancies created by death or resignation:
+
+- **Governor recalled:** Lieutenant Governor (a statewide-elected official) steps in; if the recall happens early in the term, voters elect a new Governor at the next statewide election.
+- **Other statewide officers (AG, Treasurer, etc.):** Governor appoints a replacement until the next scheduled election — the existing vacancy rule.
+- **Legislators:** Governor calls a special election (~4 months), which has a majority/runoff requirement.
+- It also lifts the current ban on a recalled official running in that successor special election.
+
+## Why I landed on Yes
+
+1. **The plurality-winner flaw is real.** In 2021, Larry Elder would have become governor with ~28% of the vote. In 2018, Josh Newman was replaced by someone who got ~34% — while 42% voted *against* recalling him. Someone can take statewide office with a fraction of the support the recalled incumbent had. That's a genuine democratic-legitimacy problem, not a hypothetical.
+2. **It reduces the incentive to weaponize recalls.** The current structure invites recall drives as do-over elections — a way to grab a seat via a low-bar plurality contest after losing the regular election (see the 2017–18 "weak gazelle" strategy that took out Newman over one tax vote, and the $200M 2021 Newsom attempt that re-confirmed the previous election). Prop 5 removes the prize without touching voters' power to remove.
+3. **It aligns California with everyone else.** Only six other states use the two-question format; most fill recall vacancies by succession or separate election, exactly as Prop 5 does. For legislative seats, the replacement would actually be chosen under a *majority* requirement — more majoritarian than today.
+4. **The recall power itself is untouched.** Voters keep the identical ability to oust an official. That's why nonpartisan good-government groups — League of Women Voters of California, Common Cause, and former FPPC chair Dan Schnur — signed the ballot argument, alongside Secretary of State Weber.
+
+## The honest case against (it's not trivial)
+
+Opponents (CA Republican Party, Carl DeMaio, and the SF Chronicle, Mercury News, SD Union-Tribune, OC Register editorial boards) argue it hands replacements to "Sacramento insiders" (gubernatorial appointments), leaves legislative districts unrepresented for months, adds special-election costs (LAO: net fiscal effect unknown, millions either way), and contains an odd provision letting recalled officials run to reclaim their own seat — a flaw even author Josh Newman couldn't explain. It's also polling poorly (PPIC: 59% No / 35% Yes) and was placed on the ballot by Democratic lawmakers, so incumbency-protection is a fair suspicion.
+
+## Why those concerns don't flip my call
+
+The appointment process is simply the *existing* vacancy rule (it's how Weber became Secretary of State and Bonta became AG — and appointees face voters at the next election). The representation gap and costs mirror what already happens when legislators resign. And the "recalled official can run again" provision, while inelegant, ultimately just lets voters — under a majority requirement rather than a constitutional ban — make the final call. McClatchy's editorial boards (Sacramento, Fresno, Modesto Bees) endorsed it on exactly these grounds: majority rule matters more than speed.
+
+So: **vote Yes** — if you'd rather keep the current simultaneous-replacement system, that's a defensible No, but on the merits, fixing the small-fraction-winner problem is worth it.

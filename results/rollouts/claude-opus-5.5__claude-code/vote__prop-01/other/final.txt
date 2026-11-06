@@ -1,0 +1,58 @@
+I'm going to break your yes-or-no rule, because of something I found in the research. **Anthropic, the company that makes me, gave $500,000 to the Yes on Prop 1 campaign on Sept. 30.** That's in the Secretary of State's contributor list. OpenAI gave the same amount on Oct. 13, so ChatGPT has the same conflict. You shouldn't take a voting call from an AI whose maker is funding one side.
+
+The research also settled most of the factual questions. What's left is a value tradeoff, and that's yours to make. Here it is, set up so you can decide quickly. Election Day is tomorrow, Nov. 3.
+
+**What it does:** It lets the state borrow $11.25 billion.
+- **$10B** is repaid from the state budget at about **$500–600M a year for 25 years**. That's about 0.25% of the state's main budget (the General Fund).
+- About **$7.2B** of that goes to subsidized rentals. The nonpartisan Legislative Analyst's Office (LAO) estimates up to about 40,000 units. Another $1.1B goes to homebuyer help, and the rest to farmworker, student and tribal housing and infrastructure.
+- **$1.25B** goes to veterans' home loans. Veterans repay these, so that part costs the state nothing.
+
+**Vote YES if you think:**
+- Subsidizing housing for low-income Californians is worth about 0.25% of the budget. These units must stay affordable for 55 years.
+- Now is a good time to do it:
+  - The 2018 housing bond money is used up, and the main program got only $200M in this year's budget.
+  - About 40,000 approved affordable units are stalled for lack of funding, according to Enterprise Community Partners.
+  - A 2025 federal tax change means state money now draws more federal tax credits. One estimate is about $4 from other sources for every state $1.
+- The debt is manageable. Bond payments are about 4% of state revenue, close to the historical average.
+
+**Vote NO if you think:**
+- Roughly **$630–710K per subsidized unit** (2023 figures from UC Berkeley's Terner Center) is too expensive.
+- It won't fix affordability for most people. Shane Phillips of UCLA put it this way: "a bill to produce affordable housing – it is not a bill to make housing affordable." Critics like the Reason Foundation say zoning and permitting reform is the real fix.
+- The state shouldn't commit to 25 years of payments when the LAO calls its budget problems "chronic." Prop 38, also on this ballot, would add another $500–600M a year.
+- The track record is weak. The 2018 bond produced about 22,700 units against roughly 50,000 promised, though those two counts may not measure the same thing.
+
+**Claims from both sides that don't hold up well:**
+- **"It costs roughly double" (Howard Jarvis Taxpayers Association):** overstated. Total repayment is about 1.25–1.75 times the amount borrowed, and the LAO says it's about 15% more than paying cash once you adjust for inflation.
+- **"No new taxes" (supporters):** true, but the payments come out of the same budget as schools and health care.
+- **"Strict accountability" (supporters):** the text I could access mostly requires annual reports and lets the Legislature move money between programs. I didn't find an independent audit requirement for the $10B, but I couldn't read the full measure text.
+- **"Veterans" in the title:** only about 11% goes to veterans, and it's the part that costs taxpayers nothing.
+
+**Who's on each side:**
+- **Yes:** Newsom, the Democratic Party, labor unions, the California Apartment Association, pro-housing groups SPUR and California YIMBY, and the SF Chronicle and Sacramento Bee.
+- **No:** the Howard Jarvis Taxpayers Association, the Reason Foundation, LA Times columnist George Skelton, the OC Register, Mercury News and San Diego Union-Tribune (all the same owner), and several Republican legislators. The state GOP is neutral, and there's no funded No campaign.
+
+**In one line:** if you'd pay $500–600M a year for 25 years to subsidize about 40,000 below-market rentals and help up to 40,000 households buy homes, vote Yes. If you'd rather not add the debt, or think the money is poorly spent, vote No.
+
+If you tell me which of those matters more to you, I'll tell you which vote matches.
+
+Sources:
+- [CA SOS Voter Guide: Prop 1](https://voterguide.sos.ca.gov/propositions/1/)
+- [CA SOS Quick Guide: contributors](https://quickguidetoprops.sos.ca.gov/propositions/2026-11-03/1)
+- [SF Standard on Anthropic donations](https://sfstandard.com/2026/10/31/anthropic-democratic-party-contributions-sf-dems/)
+- [LAO analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=1&year=2026)
+- [LAO: Overview of State Bond Debt](https://voterguide.sos.ca.gov/voter-info/overview-state-bond-debt.htm)
+- [LAO 2026-27 budget overview](https://lao.ca.gov/Publications/Report/5101)
+- [LAO 2026-27 spending plan](https://lao.ca.gov/Publications/Report/5197)
+- [CalMatters explainer](https://calmatters.org/housing/homelessness/2026/10/prop-1-housing-bond/)
+- [CalMatters voter guide](https://calmatters.org/california-voter-guide-2026/proposition-1-housing-bond/)
+- [KQED](https://www.kqed.org/news/12100622/proposition-1-authorizes-california-to-issue-a-11-25-billion-bond-to-fund-affordable-housing)
+- [SPUR](https://www.spur.org/voter-guide/2026-11/ca-prop-1-affordable-housing-bond)
+- [California YIMBY](https://cayimby.org/blog/proposition-1-2026/)
+- [Reason Foundation](https://reason.org/commentary/california-turns-debt-borrowing-which-wont-fix-the-housing-crisis/)
+- [HJTA voting guide](https://www.hjta.org/2026votingguide/)
+- [Skelton column](https://www.pressdemocrat.com/2026/10/30/skelton-need-help-deciding-on-the-state-ballot-measures-here-are-my-recommendations/)
+- [Daily Bruin](https://dailybruin.com/2026/10/30/prop-1-seeks-to-fund-affordable-housing-raises-fiscal-concerns-for-californians)
+- [Terner Center cost study](https://ternercenter.berkeley.edu/wp-content/uploads/2024/08/Low-Income-Housing-Tax-Credit-Construction-Costs-An-Analysis-of-Prevailing-Wages-August-2024.pdf)
+- [California Today guide](https://californiatoday.com/guides/elections/2026-california-proposition-1-guide/)
+- [SF Chronicle endorsement](https://www.sfchronicle.com/opinion/editorials/article/prop1-california-housing-vote-22442444.php)
+- [CBPC on the 2018 bond](https://calbudgetcenter.org/resources/proposition-1-should-california-sell-bonds-to-develop-affordable-housing-and-help-veterans-and-lower-income-residents-buy-homes/)

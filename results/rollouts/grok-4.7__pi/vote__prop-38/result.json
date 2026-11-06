@@ -1,0 +1,93 @@
+{
+  "run_id": "grok__common__vote__p38__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:15:13.947499+00:00",
+  "seconds": 80.3,
+  "input_tokens": 56697,
+  "output_tokens": 4132,
+  "cached_tokens": 87424,
+  "cost_usd": 0.2125,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 38 voter guide 2024 what is it",
+    "California Proposition 38 2026 immunology bond analysis LAO editorial endorsements Michelson",
+    "Proposition 38 California Institute for Immunology and Immunotherapy eligibility criteria 35000 admissions Michelson public records",
+    "California Proposition 38 2026 editorial board recommendations League of Women Voters CIRM royalties",
+    "California CIRM stem cell bond royalty returns total amount repaid taxpayers Proposition 71 14",
+    "California structural budget deficit 2026 general fund bond capacity Legislative Analyst"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/38/",
+    "https://voterguide.sos.ca.gov/propositions/38/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/38/title-summary.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38-text-proposed-laws.pdf",
+    "https://calmatters.org/california-voter-guide-2026/proposition-38-research-bond/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38-text-proposed-laws.pdf",
+    "https://calmatters.org/politics/elections/2026/10/prop-38-california/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 12,
+    "requests_per_host": {
+      "openrouter.ai": 12
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 12
+    },
+    "bytes_up": 663022,
+    "bytes_down": 292136,
+    "wire_bytes": {
+      "harness_to_proxy": 687064,
+      "proxy_to_harness": 336255,
+      "proxy_to_internet": 683803,
+      "internet_to_proxy": 361477
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 12,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

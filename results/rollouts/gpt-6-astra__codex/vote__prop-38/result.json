@@ -1,0 +1,100 @@
+{
+  "run_id": "gpt__native__vote__p38__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:04:18.879208+00:00",
+  "finished_at": "2026-11-03T11:07:25.926644+00:00",
+  "seconds": 184.9,
+  "input_tokens": 45,
+  "output_tokens": 6681,
+  "cached_tokens": 911968,
+  "cost_usd": 3.0815,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 38 2026 immunology 8.4 billion bonds analysis ...",
+    "site.calmatters.org \"immunology\" \"three\" \"2026\" ...",
+    "Proposition 38 institute three employees October 2026 ...",
+    "California Institute Immunology Immunotherapy October 2026 research staff scientists leadership ...",
+    "CIRM \"royalties\" \"2026\" \"million\" ...",
+    "\"CIRM\" \"2025\" \"Licensing Revenues and Royalties\" ...",
+    "SB 895 2026 research bond March 2028 signed ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/38/",
+    "https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm",
+    "https://yeson38.com",
+    "https://calmatters.org/politics/elections/2026/10/prop-38-california/",
+    "https://yeson38.com/myths-vs-facts/",
+    "https://www.cirm.ca.gov/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 26,
+    "requests_per_host": {
+      "api.openai.com": 22,
+      "ab.chatgpt.com": 4
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 21,
+      "202": 4
+    },
+    "bytes_up": 1478148,
+    "bytes_down": 3128711,
+    "wire_bytes": {
+      "harness_to_proxy": 1125135,
+      "proxy_to_harness": 1889745,
+      "proxy_to_internet": 1122850,
+      "internet_to_proxy": 1934116
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2556,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 24,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:04:18.879208+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:04:18.879208+00:00",
+      "finished_at": "2026-11-03T11:07:25.926644+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

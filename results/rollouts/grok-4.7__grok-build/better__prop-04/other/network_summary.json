@@ -1,0 +1,399 @@
+{
+  "requests": 49,
+  "requests_per_host": {
+    "openrouter.ai": 38,
+    "voterguide.sos.ca.gov": 4,
+    "calmatters.org": 1,
+    "leginfo.legislature.ca.gov": 1,
+    "www.hoover.org": 1,
+    "www.sfchronicle.com": 1,
+    "www.ocregister.com": 1,
+    "www.sacbee.com": 1,
+    "www.ppic.org": 1
+  },
+  "hosts": [
+    "calmatters.org",
+    "leginfo.legislature.ca.gov",
+    "openrouter.ai",
+    "voterguide.sos.ca.gov",
+    "www.hoover.org",
+    "www.ocregister.com",
+    "www.ppic.org",
+    "www.sacbee.com",
+    "www.sfchronicle.com"
+  ],
+  "status_counts": {
+    "200": 42
+  },
+  "bytes_up": 1493753,
+  "bytes_down": 3968840,
+  "wire_bytes": {
+    "harness_to_proxy": 1570149,
+    "proxy_to_harness": 4217970,
+    "proxy_to_internet": 1564205,
+    "internet_to_proxy": 4299273
+  },
+  "byte_counter": true,
+  "errors": 23,
+  "error_details": [
+    {
+      "kind": "connect_error",
+      "host": "openrouter.ai",
+      "error": null
+    },
+    {
+      "kind": "tls_failed_server",
+      "host": "openrouter.ai",
+      "sni": "openrouter.ai",
+      "error": "connection closed"
+    },
+    {
+      "kind": "tls_failed_server",
+      "host": "openrouter.ai",
+      "sni": "openrouter.ai",
+      "error": "connection closed"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "openrouter.ai",
+      "sni": "openrouter.ai",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "openrouter.ai",
+      "sni": "openrouter.ai",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/",
+      "error": "stream reset by client (CANCEL)"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "peer closed connection"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "peer closed connection"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "stream reset by client (PROTOCOL_ERROR)"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "server closed connection"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "openrouter.ai",
+      "sni": "openrouter.ai",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "connect_error",
+      "host": "lao.ca.gov",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "vig.cdn.sos.ca.gov",
+      "error": null
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "peer closed connection"
+    },
+    {
+      "kind": "connect_error",
+      "host": "openrouter.ai",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "openrouter.ai",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "openrouter.ai",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "openrouter.ai",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "openrouter.ai",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "openrouter.ai",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "openrouter.ai",
+      "error": null
+    },
+    {
+      "kind": "http",
+      "host": "www.sacbee.com",
+      "url": "https://www.sacbee.com/opinion/election-endorsements/article317765284.html",
+      "error": "stream reset by client (INTERNAL_ERROR)"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "stream reset by client (CANCEL)"
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 111,
+      "bytes_down": 0,
+      "duration": 0.4037,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1545,
+      "bytes_down": 39,
+      "duration": 12.184,
+      "reason": "connection closed early"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1545,
+      "bytes_down": 39,
+      "duration": 12.2206,
+      "reason": "connection closed early"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3275,
+      "duration": 0.6322,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1809,
+      "bytes_down": 39,
+      "duration": 10.1148,
+      "reason": "connection closed early"
+    },
+    {
+      "host": "lao.ca.gov",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 57,
+      "bytes_down": 0,
+      "duration": 10.0032,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "vig.cdn.sos.ca.gov",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 73,
+      "bytes_down": 0,
+      "duration": 10.0083,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 2069,
+      "bytes_down": 1632,
+      "duration": 10.9155,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3189,
+      "duration": 0.194,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3275,
+      "duration": 0.1287,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3275,
+      "duration": 0.1284,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3275,
+      "duration": 0.1941,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3189,
+      "duration": 0.2061,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3275,
+      "duration": 0.1319,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3275,
+      "duration": 0.1358,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3275,
+      "duration": 0.1333,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 63,
+      "bytes_down": 0,
+      "duration": 10.0039,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 63,
+      "bytes_down": 0,
+      "duration": 10.005,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 63,
+      "bytes_down": 0,
+      "duration": 9.9943,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 63,
+      "bytes_down": 0,
+      "duration": 10.006,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 63,
+      "bytes_down": 0,
+      "duration": 10.0047,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 63,
+      "bytes_down": 0,
+      "duration": 10.0017,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 63,
+      "bytes_down": 0,
+      "duration": 10.0018,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [
+    {
+      "process": "grok-1.0.70",
+      "operation": "network-outbound",
+      "target": null,
+      "attempts": 27
+    }
+  ],
+  "blocked_attempts": 27,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 51,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "allowed, not recorded"
+}

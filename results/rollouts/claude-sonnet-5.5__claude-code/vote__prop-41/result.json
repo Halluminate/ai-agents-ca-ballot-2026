@@ -1,0 +1,414 @@
+{
+  "run_id": "sonnet__native__vote__p41__r1",
+  "model": "sonnet",
+  "model_id": "anthropic/claude-sonnet-5.5",
+  "pin": "anthropic",
+  "arm": "native",
+  "harness": "claude_code",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "41",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T11:54:44.613024+00:00",
+  "finished_at": "2026-11-03T12:19:00.813784+00:00",
+  "seconds": 1448.2,
+  "input_tokens": 126114,
+  "output_tokens": 42746,
+  "cached_tokens": 633713,
+  "cost_usd": 2.1472,
+  "cost_source": "reported",
+  "billed_usd": 2.141344,
+  "searches": [
+    "California Proposition 41 November 2026 State Auditor audits special taxes appropriations limit billionaire tax",
+    "Prop 41 California editorial endorsement \"Prop. 41\" audits billionaire tax poison pill",
+    "Prop 41 Prop 40 California poll likely voters billionaire tax audits measure",
+    "editorial board Prop 41 \"vote no\" OR \"vote yes\" California audits measure opposes billionaire tax Prop 40 also oppose",
+    "Los Angeles Times editorial Proposition 41 2026 recommendation",
+    "Yes on Prop 41 Californians for Transparency and Accountability Tom Hayes former state auditor why audit special taxes",
+    "Newsom Prop 41 position endorse oppose audits measure 2026 Prop 42 endorsement",
+    "Howard Jarvis Taxpayers Association Prop 41 2026 position Gann limit special taxes audit",
+    "Prop 41 Gann limit MCO tax hospital quality assurance fee Medi-Cal federal funding risk \"Prop 41\" California 2026",
+    "LAO Prop 41 appropriations limit \"special tax\" exclude spending limit what would change analysis November 2026 ballot",
+    "Prop 41 California \"10 percent\" audit cost cut pre-qualification audit critics State Auditor Grant Parks concerns",
+    "California state appropriations limit Gann limit 2026-27 budget room under the limit LAO",
+    "Prop 41 Prop 40 lawsuit court ballot \"poison pill\" legal analysis what happens if both pass California constitution conflicting measures most votes",
+    "Prop 41 California election night November 3 2026 billionaire tax final poll last-minute",
+    "PPIC Statewide Survey October 2026 Proposition 41 spending limit audits likely voters percent yes no"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 14,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/41/",
+    "https://voterguide.sos.ca.gov/propositions/41/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/41/text-proposed-laws.htm",
+    "https://voterguide.sos.ca.gov/propositions/40/",
+    "https://voterguide.sos.ca.gov/propositions/40/analysis.htm",
+    "https://lao.ca.gov/ballot/2026/prop41-110326.pdf",
+    "https://calmatters.org/california-voter-guide-2026/proposition-41-tax-audits/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-41-audits",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-41-tax-audits",
+    "https://calbudgetcenter.org/resources/what-would-proposition-41-mean-for-california/",
+    "https://californiatoday.com/guides/elections/2026-california-proposition-41-guide/",
+    "https://cavotes.org/ballot-measure/2026-prop-41/",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-41-tax-audits",
+    "https://lao.ca.gov/ballot/2026/prop41-110326.pdf",
+    "https://www.sfchronicle.com/opinion/editorials/article/endorsement-california-prop-41-taxes-22445889.php",
+    "https://www.pressdemocrat.com/2026/10/10/endorsement-if-you-support-the-billionaire-tax-vote-no-on-props-41-and-42/",
+    "https://calmatters.org/health/2026/09/california-wealth-tax-prop-40-41-42/",
+    "https://voterguide.sos.ca.gov/propositions/42/",
+    "https://www.yesonprop41.org/faq",
+    "https://www.yesonprop41.org/about-prop41",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-41-audits-special-taxes",
+    "https://abc7news.com/post/everything-need-know-props-41-42-designed-cancel-californias-billionaire-tax/19938087/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text.pdf",
+    "https://lao.ca.gov/BallotAnalysis/Initiative/2025-040",
+    "https://www.hjta.org/2026votingguide/",
+    "https://www.kqed.org/news/12106950/is-californias-proposed-billionaire-tax-in-trouble-new-polls-find-bad-news",
+    "https://www.cbsnews.com/sanfrancisco/news/california-3-confusing-propositions-billionaire-tax/",
+    "https://www.sfchronicle.com/election/article/prop-40-41-42-california-22476000.php",
+    "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-41/",
+    "https://www.californiachoices.org/proposition-41-2026",
+    "https://calmatters.org/california-voter-guide-2026/proposition-41-tax-audits/",
+    "https://calmatters.org/politics/2026/10/last-minute-voter-guide-propositions/",
+    "https://www.dailycal.org/news/state/californians-to-weigh-first-of-its-kind-billionaire-tax-against-possible-poison-pills-props-41/article_9dcba7af-4b5c-466f-bf7a-43382b1b7103.html",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41.pdf",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=41&year=2026",
+    "https://www.yahoo.com/news/politics/articles/voting-californias-billionaire-tax-surprisingly-120000487.html",
+    "https://lao.ca.gov/Publications/Report/5197",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.ppic.org/pdf/ppic-statewide-survey-californians-and-their-government-october-2026.pdf",
+    "https://www.ppic.org/pdf/ppic-statewide-survey-californians-and-their-government-october-2026.pdf",
+    "https://sfstandard.com/2026/10/27/billionaire-tax-prop-40-ppic-poll-october/"
+  ],
+  "tool_errors": 7,
+  "warnings": [
+    "capture: 1 connection attempts that ignored the proxy were blocked (claude.exe remote:*:49498 x1)",
+    "capture: 7 connections were not readable by the proxy (api.anthropic.com:443, californiatoday.com:443)"
+  ],
+  "network": {
+    "requests": 184,
+    "requests_per_host": {
+      "api.anthropic.com": 83,
+      "openrouter.ai": 66,
+      "voterguide.sos.ca.gov": 7,
+      "lao.ca.gov": 5,
+      "calmatters.org": 3,
+      "www.sfchronicle.com": 2,
+      "www.yesonprop41.org": 2,
+      "vig.cdn.sos.ca.gov": 2,
+      "www.ppic.org": 2,
+      "calbudgetcenter.org": 1,
+      "www.pressdemocrat.com": 1,
+      "www.spur.org": 1,
+      "abc7news.com": 1,
+      "www.hjta.org": 1,
+      "www.kqed.org": 1,
+      "www.cbsnews.com": 1,
+      "growsf.org": 1,
+      "www.californiachoices.org": 1,
+      "www.dailycal.org": 1,
+      "www.yahoo.com": 1,
+      "sfstandard.com": 1
+    },
+    "hosts": [
+      "abc7news.com",
+      "api.anthropic.com",
+      "calbudgetcenter.org",
+      "calmatters.org",
+      "growsf.org",
+      "lao.ca.gov",
+      "openrouter.ai",
+      "sfstandard.com",
+      "vig.cdn.sos.ca.gov",
+      "voterguide.sos.ca.gov",
+      "www.californiachoices.org",
+      "www.cbsnews.com",
+      "www.dailycal.org",
+      "www.hjta.org",
+      "www.kqed.org",
+      "www.ppic.org",
+      "www.pressdemocrat.com",
+      "www.sfchronicle.com",
+      "www.spur.org",
+      "www.yahoo.com",
+      "www.yesonprop41.org"
+    ],
+    "status_counts": {
+      "200": 167,
+      "403": 3
+    },
+    "bytes_up": 6379462,
+    "bytes_down": 6268648,
+    "wire_bytes": {
+      "harness_to_proxy": 6571092,
+      "proxy_to_harness": 6837821,
+      "proxy_to_internet": 6548192,
+      "internet_to_proxy": 6970678
+    },
+    "byte_counter": true,
+    "errors": 27,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "The client disconnected during the handshake. If this happens consistently for api.anthropic.com, this may indicate that the client does not trust the proxy's certificate."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/web/domain_info?domain=calmatters.org",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "lao.ca.gov",
+        "url": "https://lao.ca.gov/ballot/2026/prop41-110326.pdf",
+        "error": "server closed connection"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/web/domain_info?domain=cavotes.org",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "californiatoday.com",
+        "sni": "californiatoday.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "californiatoday.com",
+        "sni": "californiatoday.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 2611,
+        "duration": 10.0833,
+        "reason": "The client disconnected during the handshake. If this happens consistently for api.anthropic.com, this may indicate that the client does not trust the proxy's certificate."
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1578,
+        "bytes_down": 39,
+        "duration": 38.9681,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "californiatoday.com",
+        "port": 443,
+        "sni": "californiatoday.com",
+        "bytes_up": 1584,
+        "bytes_down": 39,
+        "duration": 738.4798,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0028,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0029,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0059,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0008,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "claude.exe",
+        "operation": "network-outbound",
+        "target": "remote:*:49498",
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 1,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 92,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:54:44.613024+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:54:44.613024+00:00",
+      "finished_at": "2026-11-03T12:19:00.813784+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

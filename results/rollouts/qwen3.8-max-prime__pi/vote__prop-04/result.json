@@ -1,0 +1,112 @@
+{
+  "run_id": "qwen-max-prime__common__vote__p4__r1",
+  "model": "qwen-max-prime",
+  "model_id": "qwen/qwen3.8-max-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "first_line",
+  "error": "",
+  "started_at": "2026-11-03T13:12:03.622101+00:00",
+  "finished_at": "2026-11-03T13:15:36.194195+00:00",
+  "seconds": 209.7,
+  "input_tokens": 103014,
+  "output_tokens": 11058,
+  "cached_tokens": 500864,
+  "cost_usd": 0.8461,
+  "cost_source": "reported",
+  "billed_usd": 0.8460647299999999,
+  "searches": [
+    "California Proposition 4 2024 climate bond Safe Drinking Water Wildfire Prevention Forest Resilience",
+    "California Proposition 4 2026 public campaign financing repeal Prop 34 1990 ballot measure",
+    "\"Proposition 4\" 2026 California editorial board recommendation vote",
+    "Proposition 4 2026 California poll support oppose public financing campaigns survey",
+    "San Francisco Chronicle editorial oppose Proposition 4 2026 public campaign financing enforcement",
+    "Proposition 4 2026 SB 42 \"Arizona Free Enterprise\" Bennett matching funds trigger constitutionality expenditure limits",
+    "\"Yes on 4, Californians for Fair Elections\" contributors funding 2026 SB 42 public financing",
+    "California Government Code 81012 amendment Political Reform Act two-thirds vote furthers purposes voter approval",
+    "Proposition 4 2026 California lawsuit challenge controversy Los Angeles Times editorial public financing",
+    "Los Angeles public financing matching funds results diversity candidates small donors effectiveness study"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://voterguide.sos.ca.gov/propositions/4/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-text-proposed-laws.pdf",
+    "https://calmatters.org/politics/2026/10/california-proposition-4-explainer/",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-4-campaign-financing",
+    "https://www.mercurynews.com/2026-10-19/endorsement-reject-prop-4-dont-let-politicians-raid-public-funds-for-their-campaigns/",
+    "https://www.sfchronicle.com/opinion/editorials/article/endorsement-prop-4-public-financing-22426379.php",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals",
+    "https://www.sandiegouniontribune.com/2026-09-04/endorsement-dont-buy-prop-4s-baloney-about-publicly-financed-campaigns/",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-4-sb-42-umberg-political-reform-act-1974-public-campaign-financing-california-fair-elections-act-2026-ch-245-2025",
+    "https://californiatoday.com/guides/elections/2026-california-proposition-4-guide/",
+    "https://californiatoday.com/guides/elections/2026-california-proposition-4-guide/",
+    "https://www.kqed.org/voterguide/california/proposition-4"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 27,
+    "requests_per_host": {
+      "openrouter.ai": 23,
+      "www.mercurynews.com": 2,
+      "www.sandiegouniontribune.com": 2
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.mercurynews.com",
+      "www.sandiegouniontribune.com"
+    ],
+    "status_counts": {
+      "200": 25,
+      "301": 2
+    },
+    "bytes_up": 2471345,
+    "bytes_down": 1443926,
+    "wire_bytes": {
+      "harness_to_proxy": 2526370,
+      "proxy_to_harness": 1563279,
+      "proxy_to_internet": 2518005,
+      "internet_to_proxy": 1625013
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 25,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:12:03.622101+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:12:03.622101+00:00",
+      "finished_at": "2026-11-03T13:15:36.194195+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

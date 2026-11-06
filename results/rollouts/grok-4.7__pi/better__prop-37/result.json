@@ -1,0 +1,102 @@
+{
+  "run_id": "grok__common__better__p37__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "37",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:54:48.975838+00:00",
+  "seconds": 114.8,
+  "input_tokens": 69163,
+  "output_tokens": 5324,
+  "cached_tokens": 113280,
+  "cost_usd": 0.2675,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 37 2026 homebuying loan program analysis criticism",
+    "SPUR California Prop 37 2026 recommendation",
+    "Proposition 37 2026 qualified builder construction defect criticism",
+    "PPIC Proposition 37 2026 analysis homeownership",
+    "League of Women Voters California Proposition 37 2026 opposition",
+    "Proposition 37 2026 attorney fees construction defect bond guarantee state backstop amendment",
+    "California Civil Code 2924.13 mortgage foreclosure",
+    "Ballotpedia California Proposition 37 2026 supporters opponents endorsements"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/37/",
+    "https://voterguide.sos.ca.gov/propositions/37/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/37/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/37/title-summary.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37-text-proposed-laws.pdf",
+    "https://cayimby.org/blog/proposition-37-2026/",
+    "https://www.ppic.org/blog/how-many-might-actually-use-the-down-payment-assistance-in-proposition-37/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37-text-proposed-laws.pdf",
+    "https://calbudgetcenter.org/resources/will-proposition-37-make-homeownership-more-affordable-its-not-guaranteed/",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-37-homeowner-loans"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 15,
+    "requests_per_host": {
+      "openrouter.ai": 15
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 15
+    },
+    "bytes_up": 809878,
+    "bytes_down": 361778,
+    "wire_bytes": {
+      "harness_to_proxy": 838622,
+      "proxy_to_harness": 415303,
+      "proxy_to_internet": 834589,
+      "internet_to_proxy": 446166
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 14,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

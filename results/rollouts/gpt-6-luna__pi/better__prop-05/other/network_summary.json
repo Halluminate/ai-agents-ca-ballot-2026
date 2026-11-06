@@ -1,0 +1,74 @@
+{
+  "requests": 47,
+  "requests_per_host": {
+    "openrouter.ai": 37,
+    "www.ppic.org": 4,
+    "lao.ca.gov": 1,
+    "leginfo.legislature.ca.gov": 1,
+    "www.lwv.org": 1,
+    "calmatters.org": 1,
+    "aelc.assembly.ca.gov": 1,
+    "scocablog.com": 1
+  },
+  "hosts": [
+    "aelc.assembly.ca.gov",
+    "calmatters.org",
+    "lao.ca.gov",
+    "leginfo.legislature.ca.gov",
+    "openrouter.ai",
+    "scocablog.com",
+    "www.lwv.org",
+    "www.ppic.org"
+  ],
+  "status_counts": {
+    "200": 45,
+    "403": 1,
+    "404": 1
+  },
+  "bytes_up": 6618537,
+  "bytes_down": 6486970,
+  "wire_bytes": {
+    "harness_to_proxy": 6723543,
+    "proxy_to_harness": 6829462,
+    "proxy_to_internet": 6709543,
+    "internet_to_proxy": 6941876
+  },
+  "byte_counter": true,
+  "errors": 3,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 48,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

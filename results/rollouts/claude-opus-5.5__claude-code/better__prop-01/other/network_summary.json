@@ -1,0 +1,87 @@
+{
+  "requests": 157,
+  "requests_per_host": {
+    "openrouter.ai": 70,
+    "api.anthropic.com": 65,
+    "voterguide.sos.ca.gov": 4,
+    "calmatters.org": 2,
+    "www.pressdemocrat.com": 2,
+    "www.sfchronicle.com": 2,
+    "laist.com": 1,
+    "www.spur.org": 1,
+    "californiatoday.com": 1,
+    "calbudgetcenter.org": 1,
+    "lao.ca.gov": 1,
+    "www.hjta.org": 1,
+    "gvwire.com": 1,
+    "www.astralcodexten.com": 1,
+    "cayimby.org": 1,
+    "cavotes.org": 1,
+    "www.kqed.org": 1,
+    "sodoesitmatter.com": 1
+  },
+  "hosts": [
+    "api.anthropic.com",
+    "calbudgetcenter.org",
+    "californiatoday.com",
+    "calmatters.org",
+    "cavotes.org",
+    "cayimby.org",
+    "gvwire.com",
+    "laist.com",
+    "lao.ca.gov",
+    "openrouter.ai",
+    "sodoesitmatter.com",
+    "voterguide.sos.ca.gov",
+    "www.astralcodexten.com",
+    "www.hjta.org",
+    "www.kqed.org",
+    "www.pressdemocrat.com",
+    "www.sfchronicle.com",
+    "www.spur.org"
+  ],
+  "status_counts": {
+    "200": 155,
+    "403": 1
+  },
+  "bytes_up": 5819906,
+  "bytes_down": 4075729,
+  "wire_bytes": {
+    "harness_to_proxy": 5920957,
+    "proxy_to_harness": 4481171,
+    "proxy_to_internet": 5921683,
+    "internet_to_proxy": 4559961
+  },
+  "byte_counter": true,
+  "errors": 2,
+  "error_details": [
+    {
+      "kind": "tls_failed_server",
+      "host": "sodoesitmatter.com",
+      "sni": "sodoesitmatter.com",
+      "error": "connection closed"
+    },
+    {
+      "kind": "http",
+      "host": "sodoesitmatter.com",
+      "url": "https://sodoesitmatter.com/p/prop-1-sacramento-wants-another-1125",
+      "error": "connection closed"
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 48,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

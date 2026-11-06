@@ -1,0 +1,80 @@
+{
+  "requests": 24,
+  "requests_per_host": {
+    "openrouter.ai": 18,
+    "voterguide.sos.ca.gov": 2,
+    "en.wikipedia.org": 1,
+    "electionresults.sos.ca.gov": 1,
+    "www.ppic.org": 1,
+    "ballotpedia.org": 1
+  },
+  "hosts": [
+    "ballotpedia.org",
+    "electionresults.sos.ca.gov",
+    "en.wikipedia.org",
+    "openrouter.ai",
+    "voterguide.sos.ca.gov",
+    "www.ppic.org"
+  ],
+  "status_counts": {
+    "200": 22,
+    "404": 1
+  },
+  "bytes_up": 611936,
+  "bytes_down": 1449956,
+  "wire_bytes": {
+    "harness_to_proxy": 630387,
+    "proxy_to_harness": 1516132,
+    "proxy_to_internet": 628627,
+    "internet_to_proxy": 1545378
+  },
+  "byte_counter": true,
+  "errors": 2,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/",
+      "error": "stream reset by client (CANCEL)"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "stream reset by client (CANCEL)"
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1802,
+      "bytes_down": 3189,
+      "duration": 0.1651,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [
+    {
+      "process": "grok-1.0.70",
+      "operation": "network-outbound",
+      "target": null,
+      "attempts": 16
+    }
+  ],
+  "blocked_attempts": 16,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 12,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "allowed, not recorded"
+}

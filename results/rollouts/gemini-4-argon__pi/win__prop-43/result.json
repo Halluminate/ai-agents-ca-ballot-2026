@@ -1,0 +1,121 @@
+{
+  "run_id": "gemini__common__win__p43__r1",
+  "model": "gemini",
+  "model_id": "google/gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:00:09.450148+00:00",
+  "seconds": 89.1,
+  "input_tokens": 76461,
+  "output_tokens": 2669,
+  "cached_tokens": 212085,
+  "cost_usd": 0.2414,
+  "cost_source": "reported",
+  "searches": [
+    "\"voterguide.sos.ca.gov/propositions/43\" OR \"Proposition 43\" California",
+    "\"Limits Voters' Ability to Raise Revenues for Local Government Services\"",
+    "\"ACA 22\" Wicks local taxes California",
+    "\"NoProp43CA\" OR \"No on Prop 43\" OR \"Yes on Prop 43\" California",
+    "\"Proposition 43\" \"Local Taxpayer Protection Act\" OR \"ACA 22\" Wicks",
+    "\"Proposition 43\" endorsements California 2026",
+    "\"Proposition 43\" OR \"Prop 43\" poll PPIC OR Berkeley OR IGS 2026",
+    "\"ppic-statewide-survey-californians-and-their-government-october-2026\" \"Proposition 43\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/",
+    "https://voterguide.sos.ca.gov/propositions/43/title-summary.htm",
+    "https://voterguide.sos.ca.gov/propositions/43/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-43-aca-22-wicks-local-taxes-limitation-res-ch-132-2026",
+    "https://www.noprop43ca.com/news",
+    "https://www.hoover.org/proposition-lab-proposition-43",
+    "https://escholarship.org/content/qt72722408/qt72722408.pdf",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-43-limits",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026",
+    "https://electcademocrats.com/polls/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026"
+  ],
+  "tool_errors": 1,
+  "warnings": [],
+  "network": {
+    "requests": 21,
+    "requests_per_host": {
+      "openrouter.ai": 16,
+      "www.sos.ca.gov": 1,
+      "www.noprop43ca.com": 1,
+      "www.hoover.org": 1,
+      "escholarship.org": 1,
+      "igs.berkeley.edu": 1
+    },
+    "hosts": [
+      "escholarship.org",
+      "igs.berkeley.edu",
+      "openrouter.ai",
+      "www.hoover.org",
+      "www.noprop43ca.com",
+      "www.sos.ca.gov"
+    ],
+    "status_counts": {
+      "200": 20,
+      "403": 1
+    },
+    "bytes_up": 1073675,
+    "bytes_down": 278890,
+    "wire_bytes": {
+      "harness_to_proxy": 1118637,
+      "proxy_to_harness": 339074,
+      "proxy_to_internet": 1112523,
+      "internet_to_proxy": 391863
+    },
+    "byte_counter": true,
+    "errors": 3,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 22,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

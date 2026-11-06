@@ -1,0 +1,102 @@
+{
+  "run_id": "luna__common__win__p38__r1",
+  "model": "luna",
+  "model_id": "openai/gpt-6-luna",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:08:46.603965+00:00",
+  "finished_at": "2026-11-03T11:09:08.600952+00:00",
+  "seconds": 19.0,
+  "input_tokens": 34322,
+  "output_tokens": 649,
+  "cached_tokens": 7963,
+  "cost_usd": 0.0199,
+  "cost_source": "reported",
+  "billed_usd": 0.024876643599999998,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/38 Proposition 38 California 2012 ballot voter guide",
+    "California proposition 38 2012 final results 28.4%",
+    "California Proposition 38 2012 election results official yes no vote results",
+    "Proposition 38 2012 polling support opposition California election forecast"
+  ],
+  "search_errors": 1,
+  "web_search_requests": null,
+  "fetches": [
+    "https://vigarchive.sos.ca.gov/2012/general/propositions/38/",
+    "https://www.ppic.org/press-release/voters-split-on-proposition-30-proposition-31-32-38-lag/",
+    "https://www.californiachoices.org/proposition-38-2012",
+    "https://elections.cdn.sos.ca.gov/sov/2012-general/sov-complete.pdf",
+    "https://www.kpbs.org/news/politics/2012/11/01/browns-tax-initiative-slips-below-majority"
+  ],
+  "tool_errors": 1,
+  "warnings": [],
+  "network": {
+    "requests": 12,
+    "requests_per_host": {
+      "openrouter.ai": 7,
+      "vigarchive.sos.ca.gov": 1,
+      "www.ppic.org": 1,
+      "www.californiachoices.org": 1,
+      "elections.cdn.sos.ca.gov": 1,
+      "www.kpbs.org": 1
+    },
+    "hosts": [
+      "elections.cdn.sos.ca.gov",
+      "openrouter.ai",
+      "vigarchive.sos.ca.gov",
+      "www.californiachoices.org",
+      "www.kpbs.org",
+      "www.ppic.org"
+    ],
+    "status_counts": {
+      "200": 12
+    },
+    "bytes_up": 166425,
+    "bytes_down": 2993658,
+    "wire_bytes": {
+      "harness_to_proxy": 190913,
+      "proxy_to_harness": 3035928,
+      "proxy_to_internet": 187814,
+      "internet_to_proxy": 3071775
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 13,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:08:46.603965+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:08:46.603965+00:00",
+      "finished_at": "2026-11-03T11:09:08.600952+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

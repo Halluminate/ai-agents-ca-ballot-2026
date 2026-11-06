@@ -1,0 +1,99 @@
+{
+  "run_id": "flash__native__win__p45__r1",
+  "model": "flash",
+  "model_id": "gemini-3.8-flash",
+  "pin": "google-ai-studio",
+  "arm": "native",
+  "harness": "gemini_cli",
+  "effort": "high",
+  "prompt": "win",
+  "prop": "45",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:26:16.624619+00:00",
+  "finished_at": "2026-11-03T13:27:18.405004+00:00",
+  "seconds": 59.9,
+  "input_tokens": 38372,
+  "output_tokens": 14168,
+  "cached_tokens": 45244,
+  "cost_usd": 0.1285,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "\"https://voterguide.sos.ca.gov/propositions/45/\" OR \"voterguide.sos.ca.gov\" \"propositions/45\"",
+    "\"Proposition 45\" California 2026 poll OR polling OR \"PPIC\" OR \"Berkeley IGS\"",
+    "\"Proposition 45\" California 2026 election prediction OR poll OR likely to win",
+    "\"Proposition 45\" 2026 California forecast OR poll OR betting OR odds"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/45/"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.",
+    "capture: 1 connection attempts that ignored the proxy were blocked (node network-outbound x1)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 10,
+    "requests_per_host": {
+      "generativelanguage.googleapis.com": 10
+    },
+    "hosts": [
+      "generativelanguage.googleapis.com"
+    ],
+    "status_counts": {
+      "200": 10
+    },
+    "bytes_up": 358125,
+    "bytes_down": 44682,
+    "wire_bytes": {
+      "harness_to_proxy": 369633,
+      "proxy_to_harness": 59985,
+      "proxy_to_internet": 368250,
+      "internet_to_proxy": 71509
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "node",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 1,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 6,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:26:16.624619+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:26:16.624619+00:00",
+      "finished_at": "2026-11-03T13:27:18.405004+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

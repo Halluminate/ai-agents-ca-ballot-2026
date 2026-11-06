@@ -1,0 +1,114 @@
+{
+  "run_id": "flash__common__better__p2__r1",
+  "model": "flash",
+  "model_id": "google/gemini-3.8-flash",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "2",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T13:34:03.339843+00:00",
+  "finished_at": "2026-11-03T13:37:43.890050+00:00",
+  "seconds": 217.7,
+  "input_tokens": 79844,
+  "output_tokens": 15055,
+  "cached_tokens": 722378,
+  "cost_usd": 0.2212,
+  "cost_source": "reported",
+  "billed_usd": 0.22120849848000002,
+  "searches": [
+    "\"Is it better to vote yes or no on this prop\"",
+    "\"ballot-room\"",
+    "\"Is it better to vote yes or no on this prop\"",
+    "\"Proposition 2\" \"Rainy Day Fund\" endorsement",
+    "\"Is it better to vote yes or no\"",
+    "\"RejectProp2@gmail.com\"",
+    "\"Save for California\u2019s Future Act\"",
+    "\"RejectProp2@gmail.com\" benchmark",
+    "\"Budget Stabilization Account Cap Increase and Gann Limit Changes Amendment\"",
+    "\"better to vote yes or no on this prop\"",
+    "benchmark \"vote yes or no on this prop\"",
+    "benchmark \"voterguide.sos.ca.gov\"",
+    "\"ACA 20\" Gabriel California",
+    "today's date news"
+  ],
+  "search_errors": 1,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/",
+    "https://quickguidetoprops.sos.ca.gov/propositions/2026-11-03/",
+    "https://voterguide.sos.ca.gov/propositions/2/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/1/index.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/title-summary.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop2-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop2-text-proposed-laws.pdf"
+  ],
+  "tool_errors": 1,
+  "warnings": [],
+  "network": {
+    "requests": 34,
+    "requests_per_host": {
+      "openrouter.ai": 33,
+      "quickguidetoprops.sos.ca.gov": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "quickguidetoprops.sos.ca.gov"
+    ],
+    "status_counts": {
+      "200": 34
+    },
+    "bytes_up": 3626302,
+    "bytes_down": 306501,
+    "wire_bytes": {
+      "harness_to_proxy": 3695980,
+      "proxy_to_harness": 388037,
+      "proxy_to_internet": 3685445,
+      "internet_to_proxy": 467840
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 31,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:34:03.339843+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:34:03.339843+00:00",
+      "finished_at": "2026-11-03T13:37:43.890050+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

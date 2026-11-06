@@ -1,0 +1,57 @@
+{
+  "requests": 43,
+  "requests_per_host": {
+    "openrouter.ai": 37,
+    "taxprofblog.aals.org": 4,
+    "www.npr.org": 2
+  },
+  "hosts": [
+    "openrouter.ai",
+    "taxprofblog.aals.org",
+    "www.npr.org"
+  ],
+  "status_counts": {
+    "200": 40,
+    "301": 3
+  },
+  "bytes_up": 5518371,
+  "bytes_down": 2210643,
+  "wire_bytes": {
+    "harness_to_proxy": 5611263,
+    "proxy_to_harness": 2443148,
+    "proxy_to_internet": 5597915,
+    "internet_to_proxy": 2554687
+  },
+  "byte_counter": true,
+  "errors": 2,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 41,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

@@ -1,0 +1,45 @@
+I'm not going to give you a one-word yes or no on this one. Whether to require ID every time someone votes is a values tradeoff that people weigh differently, and it splits along party lines, so the call should be yours. I did the research you asked for. Here's what I found.
+
+**What Prop 39 does** (it's a constitutional amendment)
+- **In person:** You show government-issued ID every time.
+- **By mail:** About 13 of the 16 million votes in 2024 were cast by mail. Mail voters write the last four digits of the ID number they designated at registration on the envelope. Officials count the ballot only after verifying identity.
+- **Other requirements:** The state must issue a free voter ID card on request. Officials must make "best efforts" to verify citizenship from government data. The State Auditor reviews compliance every odd-numbered year, and citizens can seek judicial review.
+- **Gaps left to the Legislature:** The measure doesn't say which IDs qualify, what "best efforts" means, or what happens to a ballot with a wrong digit. The text has no cure process and no in-person fallback. Hoover argues today's 22-day signature cure could be extended to this, but the amendment doesn't require it.
+- **Cost:** The Legislative Analyst estimates tens of millions to low hundreds of millions of dollars a year, under 0.25% of the General Fund. Savings likely wouldn't offset it.
+- **Changing it later:** As a constitutional amendment, it generally could only be changed by another statewide vote.
+
+**What the evidence says**
+- **Fraud:** There's no credible evidence of widespread fraud in California. Hoover's analysis, which favors passage, says so. So does supporter Bill Jones, a former Secretary of State. The Yes case rests on confidence and tighter verification, not on fraud counts.
+- **Confidence:** Voter ID is popular in the abstract. In Pew's August 2025 survey, 83% favored photo ID, including 71% of Democrats. Support for this specific measure fell from 56% in April to roughly 40% in fall polls. Research hasn't shown that strict ID laws reliably raise trust.
+- **Turnout:** This is contested. A major study (Cantoni and Pons) found no significant effect, including for minority voters. A GAO report and others found lower turnout. MIT's Election Lab calls it "still open to dispute."
+- **Mail ballots are the riskiest part:** After Texas added a similar ID-number rule, about 12% of mail ballots were rejected in its March 2022 primary, up from about 1% in 2020. Most were rejected over the ID number. By November 2022 the rate was about 2.7%, after redesigns, outreach and a cure process. A Brennan Center-led study found about 90% of voters with rejected applications or ballots in that primary didn't vote another way.
+- **The status quo has errors too:** About 52,000 California mail ballots were rejected for missing or mismatched signatures in the June 2026 primary. UCLA researchers found young and non-White voters are rejected more often. The Yes campaign says over 100,000 ballots are rejected for signature mismatch. That looks high: total rejections run roughly 120,000–150,000, and a substantial share are late ballots.
+- **Who lacks ID:** It depends on the definition. About 1% of voting-age citizens have no government photo ID at all, but about 1 in 5 Californians reportedly lack a current driver's license with up-to-date information (University of Maryland researchers).
+
+**How it maps to a vote**
+- **Yes fits if** you think ID at every vote is worth it as a safeguard even without proven fraud. It also fits if you prefer matching a number to subjective signature checks, and you're comfortable with the Legislature and courts filling the gaps.
+- **No fits if** you think signatures, registration ID and the perjury attestation are enough. It also fits if you worry more about eligible mail ballots being lost to a wrong digit, you don't want a vague rule locked into the constitution, or the cost bothers you.
+- Voting on this measure isn't the same as being for or against voter ID in general. Some people favor ID but dislike this drafting.
+- The Yes side is backed by the California Republican Party and the Howard Jarvis Taxpayers Association. The No side is backed by the California Democratic Party, ACLU, Common Cause and the League of Women Voters.
+
+If you tell me which of those matters most to you, I'll tell you which box that points to.
+
+**Limits of my research:** I couldn't open the amendment's official PDF with my tools. I relied on the Legislative Analyst's summary and the voter guide, plus Hoover and California Today, which quote the operative language. The University of Maryland ID-possession figures come from search summaries of their reports, not the reports themselves.
+
+Sources:
+- [Official Voter Guide, Prop 39](https://voterguide.sos.ca.gov/propositions/39/)
+- [Voter Guide arguments and rebuttals](https://voterguide.sos.ca.gov/propositions/39/arguments-rebuttals.htm)
+- [Legislative Analyst's analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=39&year=2026)
+- [California Today guide](https://californiatoday.com/guides/elections/yes-voter-id-laws-are-on-the-california-ballot-proposition-39s-rules-costs-and-court-fights/)
+- [Hoover Institution Proposition Lab](https://www.hoover.org/proposition-lab-proposition-39)
+- [CalMatters Prop 39 guide](https://calmatters.org/california-voter-guide-2026/proposition-39-voter-id/)
+- [CalMatters commentary, Bill Jones (for)](https://calmatters.org/commentary/2026/08/voter-identification-proposition-39-elections/)
+- [CalMatters commentary, Marisol Ramirez (against)](https://calmatters.org/commentary/2026/08/voter-id-barriers-proposition-39/)
+- [Pew Research, Aug. 2025](https://www.pewresearch.org/politics/2025/08/22/majority-of-americans-continue-to-back-expanded-early-voting-voting-by-mail-voter-id/)
+- [MIT Election Lab on voter ID research](https://electionlab.mit.edu/research/voter-identification)
+- [Votebeat on the Texas SB 1 study](https://www.votebeat.org/texas/2025/05/28/mail-voting-decline-under-senate-bill-1-election-law-id-requirement/)
+- [NPR on Texas mail ballot rejections](https://www.npr.org/2022/11/04/1134435571/texas-mail-ballot-rejections-general-election)
+- [KQED on June 2026 rejected ballots](https://www.kqed.org/news/12092639/california-rejected-150000-mail-ballots-marking-highest-rate-since-2014)
+- [UCLA Voting Rights Project brief](https://vrp.ucla.edu/ucla-study-finds-disparities-in-mail-ballot-rejections-and-evidence-that-racial-cues-may-influence-signature-reviews/)
+- [UMD CDCE national ID report](https://cdce.umd.edu/sites/cdce.umd.edu/files/pubs/Voter%20ID%20survey%20Key%20Results%20June%202024.pdf)
+- [UMD CDCE California report](https://cdce.umd.edu/sites/cdce.umd.edu/files/Who%20Lacks%20ID%20and%20Proof%20of%20Citizenship%20in%20California%20Today%20April%202026.pdf)

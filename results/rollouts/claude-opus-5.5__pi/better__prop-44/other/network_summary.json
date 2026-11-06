@@ -1,0 +1,53 @@
+{
+  "requests": 60,
+  "requests_per_host": {
+    "openrouter.ai": 51,
+    "www.sacbee.com": 3,
+    "www.kqed.org": 2,
+    "kqed.org": 1,
+    "www.independentnews.com": 1,
+    "calaborconvention.org": 1,
+    "www.pressdemocrat.com": 1
+  },
+  "hosts": [
+    "calaborconvention.org",
+    "kqed.org",
+    "openrouter.ai",
+    "www.independentnews.com",
+    "www.kqed.org",
+    "www.pressdemocrat.com",
+    "www.sacbee.com"
+  ],
+  "status_counts": {
+    "200": 58,
+    "301": 1,
+    "308": 1
+  },
+  "bytes_up": 17369719,
+  "bytes_down": 933406,
+  "wire_bytes": {
+    "harness_to_proxy": 17465726,
+    "proxy_to_harness": 1076487,
+    "proxy_to_internet": 17457731,
+    "internet_to_proxy": 1153255
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 36,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

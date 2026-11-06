@@ -1,0 +1,244 @@
+{
+  "run_id": "luna__native__vote__p41__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "41",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:09:08.623318+00:00",
+  "finished_at": "2026-11-03T11:35:42.060871+00:00",
+  "seconds": 1591.3,
+  "input_tokens": 2105,
+  "output_tokens": 7199,
+  "cached_tokens": 434338,
+  "cost_usd": 0.0784,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 41 2026 analysis spending limit Auditor tax text independent analysis ...",
+    "site:lao.ca.gov/ballot/2026 Prop 41 California analysis ...",
+    "Prop 41 2026 California editorial endorse oppose Proposition 41 editorial board ...",
+    "California 2026 Proposition 41 supporter spending limit arguments Yes on Prop 41 website ...",
+    "site:lao.ca.gov/BallotAnalysis/Proposition?number=40&year=2026 \"Fiscal Effects\" Proposition 40 revenues costs ...",
+    "'If any other measure on the same statewide ballot'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/41/"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 7 connections were not readable by the proxy (ab.chatgpt.com:443, api.openai.com:443)"
+  ],
+  "network": {
+    "requests": 21,
+    "requests_per_host": {
+      "api.openai.com": 17,
+      "ab.chatgpt.com": 4
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 11,
+      "202": 3
+    },
+    "bytes_up": 1697731,
+    "bytes_down": 2138364,
+    "wire_bytes": {
+      "harness_to_proxy": 3926544,
+      "proxy_to_harness": 1247729,
+      "proxy_to_internet": 1451210,
+      "internet_to_proxy": 1273011
+    },
+    "byte_counter": true,
+    "errors": 15,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "ab.chatgpt.com",
+        "url": "https://ab.chatgpt.com/otlp/v1/metrics",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "ab.chatgpt.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "ab.chatgpt.com",
+        "error": null
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.openai.com",
+        "sni": "api.openai.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "stream reset by client (CANCEL)"
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 95,
+        "bytes_down": 0,
+        "duration": 15.0083,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 95,
+        "bytes_down": 0,
+        "duration": 15.0021,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 95,
+        "bytes_down": 0,
+        "duration": 15.0033,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "ab.chatgpt.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 65,
+        "bytes_down": 0,
+        "duration": 10.0067,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 95,
+        "bytes_down": 0,
+        "duration": 14.9992,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 95,
+        "bytes_down": 0,
+        "duration": 15.002,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "ab.chatgpt.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 65,
+        "bytes_down": 0,
+        "duration": 10.0,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1668,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 23,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:09:08.623318+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:09:08.623318+00:00",
+      "finished_at": "2026-11-03T11:35:42.060871+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

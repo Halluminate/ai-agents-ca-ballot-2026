@@ -1,0 +1,48 @@
+I'm not going to pick yes or no for you on this one. It turns on a values question: whether a simple majority should be enough to approve a special tax for a specific local purpose. Informed Californians disagree on that, and the research doesn't settle it. The facts are clear enough to decide quickly, though.
+
+**Today is Election Day.** Polls close at 8 p.m. local time. The sources I checked conflict on mail-ballot postmark rules, so if you haven't mailed yours, drop it at a county drop box or vote in person before 8 p.m. Your county elections office can confirm.
+
+## The decision rule
+
+- **Yes** if you think a special tax (one earmarked for a specific purpose) should need two-thirds approval no matter who puts it on the ballot. Cities, counties, and special districts already need two-thirds for their own special taxes. Prop 43 makes citizen-led ones match.
+- **No** if you think a simple majority of voters should be enough to approve a special tax for a specific local purpose, even if a third of voters oppose it.
+
+## What's settled either way
+
+- It starts January 1, 2027, and covers new, increased, or extended special taxes that voters propose. Renewals are included.
+- It isn't retroactive. It doesn't affect existing taxes or measures already on this ballot.
+- It doesn't change the majority rule for general taxes, doesn't cut any tax, and doesn't cap transfer-tax rates. A citizen-initiated earmarked transfer tax like LA's ULA would need two-thirds, though.
+- The Legislature passed it 35-1 in the Senate and 68-2 in the Assembly, as part of a June deal with the Howard Jarvis Taxpayers Association (HJTA). HJTA dropped a broader initiative that also targeted transfer taxes and would have applied retroactively.
+- Its author, Assemblymember Buffy Wicks, now opposes it, calling it "bad policy" even though she wrote the narrower version.
+- The Legislative Analyst says local revenue "could be lower in the future than they otherwise would be," but calls the amount unknown. No official dollar estimate exists.
+- Measures that passed by majority but would have failed at two-thirds include LA's "mansion tax" (ULA, about 58% in 2022) and Sonoma County's 2024 wildfire sales tax (62%).
+
+## The strongest case for each side
+
+- **Yes:** Consistency. Two-thirds applies when government places a special tax on the ballot, but appellate courts have held it doesn't apply to voter-placed ones. A 2025 appellate ruling upheld ULA on a majority vote. Supporters argue that narrow majorities in low-turnout elections shouldn't set earmarked taxes for everyone.
+- **No:** Majority rule and local services. SPUR says the measure would eliminate "one of the few viable ways to raise local revenues." The official opposing argument says, "Even if 66% of voters say yes, Prop. 43 would prevent us from funding desperately needed local services." Opponents include firefighters, teachers, SEIU, the state Democratic Party, the counties' association, SPUR, and the author.
+
+## Polling and money
+
+- Berkeley IGS (September): 31% yes, 40% no, 29% undecided.
+- PPIC (October, as reported): 42% yes, 55% no among likely voters, down from 43% and 51% in September. Support is 68% among Republicans and 28% among Democrats. I couldn't open PPIC's page to verify this directly.
+- Spending: about $15 million for the measure, most of it from the California Business Roundtable's PAC, and about $6 million against.
+
+## What I couldn't verify
+
+- The official argument text and the Tax Policy Center analysis were blocked, so I relied on summaries that quote them.
+- Sources describe the 2017 *Upland* ruling differently. CalMatters says the state Supreme Court didn't settle whether citizen-proposed taxes are covered. The Budget Center says it declined review of the lower-court decisions that found they aren't.
+
+Sources:
+- [Official voter guide, Prop 43](https://voterguide.sos.ca.gov/propositions/43/)
+- [Official arguments and rebuttals](https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm)
+- [Legislative Analyst's Office, Prop 43 analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=43&year=2026)
+- [CalMatters, "Prop. 43 would make special taxes harder to pass"](https://calmatters.org/politics/2026/10/california-prop-43-election-2026/)
+- [KQED, Prop 43 explainer](https://www.kqed.org/news/12102140/prop-43-raises-voter-threshold-for-some-local-tax-measures)
+- [Business Journal, Prop 43 explainer](https://thebusinessjournal.com/prop-43-two-thirds-vote-local-special-taxes/)
+- [LAist, Prop 43 guide](https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-43-local-special-tax)
+- [Court of Appeal, *HJTA v. City of Los Angeles* (2025)](https://caselaw.findlaw.com/court/ca-court-of-appeal/118063638.html)
+- [SPUR voter guide](https://www.spur.org/voter-guide/2026-11/ca-prop-43-local-tax-threshold)
+- [California Budget & Policy Center analysis](https://calbudgetcenter.org/resources/should-california-voters-approve-proposition-43/)
+- [California Today, propositions guide (Berkeley IGS poll figures)](https://californiatoday.com/guides/elections/2026-california-propositions-master-guide/)
+- [PPIC, October 2026 statewide survey (not opened directly)](https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/)

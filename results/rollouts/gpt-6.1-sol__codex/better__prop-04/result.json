@@ -1,0 +1,101 @@
+{
+  "run_id": "sol__native__better__p4__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:01:45.115318+00:00",
+  "finished_at": "2026-11-03T11:04:46.548034+00:00",
+  "seconds": 179.3,
+  "input_tokens": 39,
+  "output_tokens": 6504,
+  "cached_tokens": 662417,
+  "cost_usd": 0.4656,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 4 2026 public campaign financing SB 42 analysis independent ...",
+    "2026 Proposition 4 public financing CalMatters explainer public campaigns ...",
+    "site.sfchronicle.com opinion editorial proposition 4 2026 public financing no independent enforcement ...",
+    "'mixed'",
+    "\"Proposition 4\" \"2026\" \"endorsement\" \"Yes\" public financing ...",
+    "site.lwvc.org \"2026\" \"Proposition 4\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/topl-prop4.pdf",
+    "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB42",
+    "https://www.sciencedirect.com/science/article/pii/S0047272722000780",
+    "https://www.gao.gov/products/gao-25-106650",
+    "https://www.gao.gov/assets/gao-25-106650.pdf",
+    "https://lwvc.org/ballot-recommendations/",
+    "https://sgp.jhu.edu/primers/public-funding-of-us-elections/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 20,
+    "requests_per_host": {
+      "api.openai.com": 17,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 16,
+      "202": 3
+    },
+    "bytes_up": 1349196,
+    "bytes_down": 2599356,
+    "wire_bytes": {
+      "harness_to_proxy": 1055190,
+      "proxy_to_harness": 1508233,
+      "proxy_to_internet": 1053256,
+      "internet_to_proxy": 1542556
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2246,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 19,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:01:45.115318+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:01:45.115318+00:00",
+      "finished_at": "2026-11-03T11:04:46.548034+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

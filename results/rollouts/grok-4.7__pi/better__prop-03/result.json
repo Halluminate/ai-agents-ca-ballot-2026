@@ -1,0 +1,124 @@
+{
+  "run_id": "grok__common__better__p3__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "3",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T04:58:37.682477+00:00",
+  "seconds": 222.4,
+  "input_tokens": 75941,
+  "output_tokens": 10504,
+  "cached_tokens": 166784,
+  "cost_usd": 0.3441,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 3 2024 voter guide yes or no analysis",
+    "California Proposition 3 2026 permanent funding schools health care tax high incomes analysis",
+    "California Proposition 55 30 education funding results did it improve schools LAO evaluation",
+    "California Proposition 3 2026 Prop 30 tax extension education outcomes migration volatility independent analysis",
+    "California high income taxpayer migration elasticity Prop 30 Rauh Varner Young evidence 2024 2025",
+    "California K-12 per pupil spending vs NAEP outcomes 2012 to 2025 Prop 30 pension costs share",
+    "California structural budget deficit 2030 2031 LAO multiyear forecast 2026 Prop 30 expiration",
+    "California November 2026 ballot propositions income tax rates conflicting measures Prop 3 Prop 40 Prop 41",
+    "Proposition 55 Medi-Cal formula never triggered California Budget Policy Center Prop 3 expires health care allocation",
+    "California NAEP 2024 scores ranking spending per pupil cost adjusted PPIC"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/3/",
+    "https://voterguide.sos.ca.gov/propositions/3/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/3/title-summary.htm",
+    "https://lao.ca.gov/ballot/2026/prop3-110326.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf",
+    "https://cms.hoover.org/prop-3-permanent-high-income-tax-initiative",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-3",
+    "https://edsource.org/2026/commentary-vote-no-proposition-3/769223",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf",
+    "https://calbudgetcenter.org/resources/should-voters-approve-prop-3-how-top-tax-rates-have-helped-californians/",
+    "https://www.latimes.com/california/story/2026-10-27/california-prop-3-school-funding-tax-explained"
+  ],
+  "tool_errors": 1,
+  "warnings": [
+    "capture: 1 connections were not readable by the proxy (www.latimes.com:443)"
+  ],
+  "network": {
+    "requests": 19,
+    "requests_per_host": {
+      "openrouter.ai": 16,
+      "cms.hoover.org": 1,
+      "igs.berkeley.edu": 1,
+      "edsource.org": 1
+    },
+    "hosts": [
+      "cms.hoover.org",
+      "edsource.org",
+      "igs.berkeley.edu",
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 19
+    },
+    "bytes_up": 1114870,
+    "bytes_down": 832638,
+    "wire_bytes": {
+      "harness_to_proxy": 1153625,
+      "proxy_to_harness": 922298,
+      "proxy_to_internet": 1148561,
+      "internet_to_proxy": 964448
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "tls_failed_server",
+        "host": "www.latimes.com",
+        "sni": "www.latimes.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "www.latimes.com",
+        "sni": "www.latimes.com",
+        "error": "connection closed early"
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "www.latimes.com",
+        "port": 443,
+        "sni": "www.latimes.com",
+        "bytes_up": 1717,
+        "bytes_down": 39,
+        "duration": 18.0144,
+        "reason": "connection closed early"
+      }
+    ],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 19,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

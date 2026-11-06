@@ -1,0 +1,72 @@
+I know you asked for just yes or no, but I'm not going to pick for you on this one. Voter ID is a values trade-off where people who accept the same facts still disagree, and I don't think I should steer votes on contested political questions. What I can do is make the choice quick.
+
+## How to decide
+
+The question comes down to this: is an ID check on every ballot worth some added cost and a likely rise in rejected mail ballots, given that documented fraud is already rare?
+
+- **Vote YES** if you see an ID check on every ballot as a basic safeguard worth having on principle. Thirty-six states require or ask for some form of voter ID. A Yes vote means you'd accept some cost and rejection risk to get it, along with citizenship checks and audits of the voter rolls.
+- **Vote NO** if you think the current system is enough. Today your ID number is checked when you register, and every mail ballot gets a signature check. A No vote means you'd rather not add a new way for eligible ballots to be rejected, written into the state constitution before the details exist.
+
+## What Prop 39 does
+
+- **In person:** You'd have to show government-issued ID. About 3 million of the 16 million votes in 2024 were cast in person.
+- **By mail (about 13 million voters):** You'd write the last 4 digits of your chosen ID number (driver's license, Social Security, or the new state voter ID) on the envelope. If the number is missing or doesn't match, the ballot doesn't count.
+- **Existing voters:** They'd also have to choose an ID to keep voting by mail. Critics say that amounts to re-registering about 23 million people.
+- **Other provisions:**
+  - A free state voter ID card, on request.
+  - Officials must make "best efforts" to check registered voters' citizenship using government data.
+  - The State Auditor must audit compliance every other year.
+  - Citizens can sue if the state or a county doesn't comply.
+- **Left to the Legislature:** which IDs count, what you'd need to get the free card, and how voters could fix a missing or wrong number.
+- **Cost (Legislative Analyst's Office):** tens of millions to low hundreds of millions of dollars a year, under 0.25% of the state's main budget. The measure includes no new funding.
+
+## What the evidence says
+
+- **Fraud:** Documented fraud is rare. Voters pretending to be someone else, which is what ID checks target, is the rarest kind. Hoover's analysis, which leans toward the measure, agrees. Its authors argue the real risk is fraud nobody detects.
+- **Turnout:** The largest national study, Cantoni & Pons (2021), found strict ID laws had no measurable effect on turnout for any group. It also found no effect on fraud, real or perceived.
+- **Trust:** Most research finds ID laws don't raise overall confidence in elections. Instead they shift it: Republicans become more confident and Democrats less.
+- **Mail-ballot rejections are the biggest unknown.** Texas added a similar ID-number rule in 2021. Rejected mail ballots went from 0.9% in 2020 to 11.6% in the first election under the rule. After Texas redesigned its envelopes the rate fell to 3.4%, and it was 3.5% in 2024, still well above where it started.
+  - Prop 39 has some safeguards: your envelope would show which ID you chose, and your county must tell you on request.
+  - For scale, each extra 1% of rejections in California would mean about 130,000 ballots.
+- **Signature checks stay.** Carl DeMaio, the Assemblymember who led the campaign, has said the 4-digit number would replace signature matching. The measure doesn't say that, and signature checks are required by state law. Unless the Legislature changes that law, mail voters would have to pass both checks.
+- **Citizenship checks:** The federal tool states use for this has wrongly flagged citizens. In Texas, 578 of 2,724 flagged voters turned out to be citizens.
+
+## Claims to discount
+
+- **From the Yes side:**
+  - A judge found the campaign's claims that the measure makes voting "easier" and saves money were false, and the official arguments were rewritten.
+  - "Over 100,000 ballots rejected for signature mismatch" is inflated. About 122,000 mail ballots were rejected in November 2024 for all reasons, and roughly 59% of those were signature problems.
+  - The claim that it raises turnout isn't supported by the research.
+- **From the No side:**
+  - Statistics on who lacks a driver's license overstate the problem. Any government ID or the free card would count, and mail voters can use Social Security digits.
+  - "Hundreds of millions" is the top of the official cost range.
+  - The "Trump agenda" label mostly reflects who's paying for it (mainly national Republican donors). The measure itself is narrower than the federal SAVE Act: it doesn't require proof of citizenship to register, and everyone still gets a mail ballot.
+
+## Who's on each side
+
+- **Yes (about $37M raised, mostly Richard Uihlein at $17M and Joe Gebbia at $8M):** the California Republican Party, Howard Jarvis Taxpayers Association, former Secretary of State Bill Jones, and the Orange County Register and its sister papers.
+- **No (about $35M raised):** the California Democratic Party, Governor Newsom, the ACLU, the League of Women Voters, the Libertarian Party of California, and the SF Chronicle and Sacramento Bee. Reason magazine (libertarian) also opposes it, calling the rules "not overly obtrusive, only unnecessary."
+
+Election Day is tomorrow, Tuesday, November 3. Polls are open 7 a.m. to 8 p.m. Mail ballots must be postmarked by tomorrow or dropped off by 8 p.m.
+
+**Sources:**
+- [CA Secretary of State voter guide – Prop 39](https://voterguide.sos.ca.gov/propositions/39/)
+- [Official arguments and rebuttals](https://voterguide.sos.ca.gov/propositions/39/arguments-rebuttals.htm)
+- [Legislative Analyst's Office analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=39&year=2026)
+- [LAO initiative analysis](https://www.lao.ca.gov/BallotAnalysis/Initiative/2025-007)
+- [CalMatters guide](https://calmatters.org/california-voter-guide-2026/proposition-39-voter-id/)
+- [CalMatters on funding](https://calmatters.org/politics/2026/10/california-election-voter-id-proposition-39/)
+- [KQED funding tracker](https://www.kqed.org/voterguide/california/proposition-39)
+- [Hoover Proposition Lab](https://www.hoover.org/proposition-lab-proposition-39)
+- [SPUR](https://www.spur.org/voter-guide/2026-11/ca-prop-39-california-voter-id)
+- [California Today on rules and court fights](https://californiatoday.com/guides/elections/yes-voter-id-laws-are-on-the-california-ballot-proposition-39s-rules-costs-and-court-fights/)
+- [Courthouse News on the ballot-argument ruling](https://www.courthousenews.com/california-judge-rules-voter-id-supporters-must-rewrite-ballot-arguments/)
+- [Cantoni & Pons (NBER)](https://www.nber.org/papers/w25522)
+- [Stewart, Ansolabehere & Persily, Stanford Law Review](https://review.law.stanford.edu/wp-content/uploads/sites/3/2016/08/6_-_Persily_-_Stan._L._Rev.pdf)
+- [Colorado Sun on ID-number rejection rates](https://coloradosun.com/2026/10/21/amendment-84-other-states-ballot-rejections/)
+- [Votebeat on Texas SB1](https://www.votebeat.org/texas/2025/05/28/mail-voting-decline-under-senate-bill-1-election-law-id-requirement/)
+- [California Voter Foundation on 2024 rejected ballots](https://calvoter.org/content/california-elections-officials-rejected-122000-ballots-2024-election-here%E2%80%99s-why)
+- [Texas Tribune on the federal citizenship tool's errors](https://www.texastribune.org/2026/02/13/save-voter-citizenship-tool-mistakes-confusion/)
+- [Bill Jones op-ed (Yes)](https://calmatters.org/commentary/2026/08/voter-identification-proposition-39-elections/)
+- [Reason (No)](https://reason.com/2026/10/23/california-republicans-pushing-new-voter-id-law-are-motivated-by-trumps-stolen-election-fantasies/)
+- [Wikipedia (endorsements and polls)](https://en.wikipedia.org/wiki/2026_California_Proposition_39)

@@ -1,0 +1,91 @@
+{
+  "run_id": "terra__native__win__p41__r1",
+  "model": "terra",
+  "model_id": "gpt-6.1-terra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "41",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:34:56.824626+00:00",
+  "finished_at": "2026-11-03T12:35:28.089195+00:00",
+  "seconds": 29.2,
+  "input_tokens": 18,
+  "output_tokens": 1533,
+  "cached_tokens": 135552,
+  "cost_usd": 0.1311,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "https://voterguide.sos.ca.gov/propositions/41/ proposition 41 ...",
+    "California proposition 41 latest poll October 2026 yes no 41 poll survey ...",
+    "\"proposition 41\" \"2026\" \"poll\" \"October\" tax yes no ...",
+    "\"Proposition 41\" \"38%\" \"47%\" Berkeley 2026 polling ...",
+    "'Proposition 41'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 7,
+    "requests_per_host": {
+      "api.openai.com": 6,
+      "ab.chatgpt.com": 1
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 5,
+      "202": 1
+    },
+    "bytes_up": 901113,
+    "bytes_down": 1037084,
+    "wire_bytes": {
+      "harness_to_proxy": 750583,
+      "proxy_to_harness": 563462,
+      "proxy_to_internet": 750408,
+      "internet_to_proxy": 577278
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 840,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 8,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:34:56.824626+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:34:56.824626+00:00",
+      "finished_at": "2026-11-03T12:35:28.089195+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

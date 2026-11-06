@@ -1,0 +1,26 @@
+## Yes
+
+**Vote YES on Proposition 2** (Nov 3, 2026 — "Increases State's Rainy Day Fund," ACA 20 / "Save for California's Future Act").
+
+**Note:** the URL you gave now serves the **2026** ballot, not 2024. This Prop 2 is *not* the $10B school facilities bond from 2024 — it's a legislative constitutional amendment changing budget-reserve rules.
+
+### What it actually does
+1. **Doubles the BSA cap** from 10% → 20% of General Fund tax revenues.
+2. **Captures more in boom years**: capital gains revenue above 10% of GF taxes is set aside at 150% (currently 100% above 8%).
+3. **Extends mandatory extra debt payments** from 2030 → 2040, and broadens eligible debts (Prop 98 settle-up, internal "budgetary borrowing," Medi-Cal loans, the ~$20B federal UI loan). These payments still **cannot be suspended even in a budget emergency**.
+4. **Fixes a backwards Gann-limit rule**: reserve deposits stop counting as "spending" when made; they count when *withdrawn*.
+
+### Why yes
+- **It follows the nonpartisan experts — and stops short of them.** The LAO's *Rethinking California's Reserve Policy* (Apr 2025) and its Feb 2026 Senate Budget presentation found current rules cover only **~30%** of funding shortfalls over 50 years; the Prop 2 package covers **~50%**. The LAO recommended going *further* (50% cap by 2055, covering ~75%), starting with "20 percent to take effect immediately after the next statewide election." It called the appropriations-limit change "**reasonable**." Prop 2 is a partial version of the analyst's own recommendation.
+- **The problem is real and documented.** The top 1% pay ~50% of California's income tax; the state swung from a ~$100B surplus to cumulative budget problems of $82B in three years, and faces an **$18.5B structural operating deficit in 2026-27**. LAO notes recession revenue losses can exceed 50% of GF revenues.
+- **Current law actively penalizes saving.** Deposits count against the spending cap while withdrawals don't — so saving in a boom year pushes the state over the Gann limit. Removing that perverse incentive is genuine reform. Even the **Howard Jarvis Taxpayers Association concedes** the reserve/Gann changes "make sense from the perspective of addressing revenue volatility"; its NO is only because it wants *more* Gann restoration — i.e., "not enough," not "harmful."
+- **No new taxes, no bonds, no cost to local government.** Pure budgeting rules. Passed the Assembly **59-8** and Senate **29-2**, with one Republican (Josh Hoover) voting yes.
+- **Broad, substantive coalition**: CA Professional Firefighters, LA Area Chamber of Commerce, CA Hospital Association, CA Primary Care Association, State Board of Education President Linda Darling-Hammond, League of Women Voters, SPUR, Xavier Becerra; SF Chronicle, Sacramento Bee/McClatchy, Mercury News/East Bay Times, Daily Californian all endorse yes. PPIC final poll: **61%–38%**.
+
+### The real objections — and why they don't outweigh it
+- *"Cancels your tax rebate."* The Gann rebate has triggered **once in 45+ years** (1987); Prop 111 (1990) requires excess in **two consecutive years**, split half to schools. The state currently has **$27.3B of room** under the limit, and Prop 2 doesn't exempt the money permanently — withdrawals count. This is largely theoretical.
+- *"They'll just raid it."* Fair: the same Legislature suspended a **$5.4B** BSA true-up while placing this on the ballot, and the BSA sits at $15.1B (~6.7% of GF revenue, below even the current cap). Prop 2 also lets the May Revision serve as the emergency proclamation. But this means the cap raise is **not self-executing** — an argument that Prop 2 is *insufficient*, not that it's damaging. Withdrawal limits (max 50% in year one) and the definition of "budget emergency" are unchanged.
+- *"Debt menu enables more borrowing."* Letting set-asides repay internal loans, Medi-Cal loans and settle-up does relieve General Fund pressure, and using it on the federal UI principal shifts a cost from employers to the state without fixing UI (a valid CalBudgetCenter critique). But these are **real liabilities** on a ~$29B "wall of debt," and the payment stream is constitutionally protected from suspension.
+- *"Doesn't fix the structural deficit."* True — it manages volatility rather than its cause, and in some boom years it takes hundreds of millions to >$1B "off the table" from near-term needs (plus less infrastructure spillover). That's the intended trade-off.
+
+**Bottom line:** the measure is directionally correct, endorsed by the state's own nonpartisan fiscal analyst as a first step toward what it recommends, costs taxpayers nothing new, and improves resilience against California's most severe and well-documented budget weakness. Its flaws are that it doesn't go far enough — which isn't a reason to reject it.

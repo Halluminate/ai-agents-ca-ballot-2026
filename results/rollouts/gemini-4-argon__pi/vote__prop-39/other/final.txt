@@ -1,0 +1,38 @@
+I cannot tell you how to vote or answer with a simple "yes" or "no," as choosing how to vote on a ballot measure depends on your personal priorities and perspective on election policy. However, based on the California Official Voter Information Guide for the November 3, 2026 General Election, here is a breakdown of **Proposition 39** to help you make your own decision.
+
+---
+
+### What Proposition 39 Would Do
+Proposition 39 is an initiative constitutional amendment that would establish new voter identification and citizenship verification requirements in California:
+* **In-Person Voting:** Requires voters casting a ballot in person to present government-issued identification.
+* **Vote-by-Mail:** Requires voters to designate a government-issued ID number on their voter registration and write the last four digits of that matching ID number on their mail-in ballot envelope. Ballots without matching numbers would not be counted.
+* **Free State Voter ID Card:** Requires the state to provide a voter identification card free of charge to any eligible voter who requests one.
+* **Citizenship Verification & Audits:** Requires state and local election officials to make "best efforts" using government data to verify the U.S. citizenship status of registered voters and report verification percentages annually. It also requires the State Auditor to audit state and county compliance every two years.
+
+---
+
+### What Your Vote Means
+* **A "YES" vote** means voters would be required to present government-issued identification when voting in person, or provide the last four digits of a designated government-issued ID number when voting by mail, and election officials would have new citizenship verification and auditing requirements.
+* **A "NO" vote** means current law remains in place, where a voter's identity is established during registration and verified when voting primarily through their signature.
+
+---
+
+### Fiscal Impact
+According to the nonpartisan Legislative Analyst’s Office (LAO):
+* **Estimated Cost:** Increased state and local government costs of between **tens of millions of dollars and low hundreds of millions of dollars each year** (less than 0.25% of the state's General Fund budget) to implement the new requirements, issue free ID cards, and conduct verifications and audits. Exact costs would depend on how the Legislature and election officials implement the measure.
+
+---
+
+### Arguments in Favor (Vote Yes)
+Supporters—including *Californians for Voter ID*, the *Transparency Foundation*, the *Howard Jarvis Taxpayers Association*, the *Latino American Political Association*, and the *California Women's Leadership Association*—argue that:
+* **Increases Trust in Elections:** Requiring voter ID and regular independent audits is a common-sense reform that boosts public confidence in election results across party lines.
+* **Keeps Voting Accessible:** The measure preserves vote-by-mail and early voting conveniences while guaranteeing a free government-issued ID to any voter who needs one.
+* **Reduces Signature Rejection Issues:** Relying on matching the last four digits of an ID number is more reliable than subjective signature verification, which resulted in over 100,000 rejected mail ballots in a recent election.
+* **Maintains Accurate Voter Rolls:** Annual reporting and biennial audits hold officials accountable for keeping voter lists up to date and ensuring only eligible U.S. citizens are registered.
+
+### Arguments Against (Vote No)
+Opponents—including *ACLU California Action*, *Common Cause*, the *League of Women Voters of California*, the *California Nurses Association*, and the *California School Employees Association*—argue that:
+* **Creates Unnecessary Barriers for Eligible Voters:** Voters could have valid mail ballots rejected if they accidentally write digits from a different ID than the one they designated on their registration, make a typo, or fail to update their registration ahead of time.
+* **Hidden Costs for Voters:** Even if the state ID card itself is free, obtaining underlying documents, taking time off work, and arranging transportation disproportionately burden seniors, students, low-income workers, and people who have changed their names.
+* **Privacy and Identity Theft Risks:** Requiring voters to write the last four digits of sensitive identification numbers (such as Social Security or driver's license numbers) on return envelopes creates privacy and identity theft risks.
+* **High Taxpayer Expense:** Spending up to hundreds of millions of dollars annually on new election bureaucracy is wasteful when California already verifies voter eligibility at registration and checks signatures on mail ballots.

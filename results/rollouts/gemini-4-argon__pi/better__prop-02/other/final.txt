@@ -1,0 +1,31 @@
+Whether to vote **yes** or **no** on California Proposition 2 is a value judgment that depends on how you weigh competing fiscal priorities, so it cannot be answered with a simple `yes` or `no`. Below is a summary of what the measure does and the primary arguments on both sides from the Official Voter Information Guide to help you decide.
+
+---
+
+### What Proposition 2 Does
+Placed on the ballot by the Legislature, Proposition 2 amends the California Constitution to change state budgeting, reserve, and debt rules:
+* **Increases the Rainy Day Fund Cap:** Doubles the maximum required balance of the state’s main reserve account (the Budget Stabilization Account) from **10% to 20%** of General Fund tax revenues, and increases required deposits during years with unusually high capital gains tax revenues.
+* **Extends and Expands Debt Payments:** Extends the requirement that the state make extra annual debt payments from **2030 to 2040**, and expands the allowed uses of those funds beyond pension and retiree health liabilities to include required payments to schools and community colleges, repaying borrowing from other state funds, and repaying certain federal loans.
+* **Changes State Spending Limit Calculations:** Excludes deposits into the Rainy Day Fund (as well as deposits up to 10% of General Fund taxes into a revenue-surge set-aside account) from counting toward California's constitutional State Appropriations Limit when deposited. Instead, those funds would count toward the limit when withdrawn and spent.
+
+---
+
+### Reasons to Vote YES
+Supporters—including the California Professional Firefighters, the Los Angeles Area Chamber of Commerce, education and hospital associations, Governor Gavin Newsom, and a bipartisan majority of the Legislature—argue that Proposition 2:
+* **Protects Core Services During Recessions:** Because California relies heavily on volatile income and capital gains taxes, state budgets often swing between large surpluses and deep deficits. Doubling the reserve cap builds a larger cushion to help prevent cuts to schools, Medi-Cal, and public safety during economic downturns.
+* **Curbs Overspending in Boom Years:** Requiring the state to save a larger share of windfall tax revenues prevents lawmakers from committing temporary revenue spikes to new ongoing programs that cannot be sustained when the economy slows.
+* **Fixes a Flaw in the Spending Limit:** Proponents note that counting reserve deposits against the state spending limit penalizes saving during good years, and that the nonpartisan Legislative Analyst’s Office (LAO) has previously recommended increasing reserve levels.
+
+---
+
+### Reasons to Vote NO
+Opponents—including Assemblymember David Tangipa, State Senator Steven Choi, and taxpayer advocacy groups such as Reform California—argue that Proposition 2:
+* **Makes Taxpayer Rebates Less Likely:** Under the California Constitution, revenues collected above the State Appropriations Limit must be split between school funding and taxpayer rebates. Excluding reserve deposits from the spending limit when the money is collected makes it much less likely that the state will exceed the limit and issue rebates to taxpayers.
+* **Does Not Guarantee New Funding for Services:** Critics point out that Proposition 2 does not dedicate new funding to education, healthcare, or public safety, and leaves allocation decisions to the Legislature.
+* **Lacks Strict Spending Discipline:** Opponents argue that lawmakers can still declare a budget emergency to suspend deposits or tap reserves, and contend that the state should live within its existing constitutional spending cap rather than changing how the limit is calculated.
+
+---
+
+### Summary
+* A **YES** vote favors building larger state budget reserves, extending mandatory debt-reduction payments through 2040, and exempting reserve deposits from the state spending limit until the money is withdrawn.
+* A **NO** vote favors keeping current reserve rules (a 10% cap and mandatory extra debt payments ending in 2030) and continuing to count reserve deposits toward the constitutional spending limit when deposited.

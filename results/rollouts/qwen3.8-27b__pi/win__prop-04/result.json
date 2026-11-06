@@ -1,0 +1,107 @@
+{
+  "run_id": "qwen-27b__common__win__p4__r1",
+  "model": "qwen-27b",
+  "model_id": "qwen/qwen3.8-27b",
+  "pin": "deepinfra",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "last_line",
+  "error": "",
+  "started_at": "2026-11-03T13:40:24.147105+00:00",
+  "finished_at": "2026-11-03T13:44:27.924687+00:00",
+  "seconds": 240.1,
+  "input_tokens": 45699,
+  "output_tokens": 11068,
+  "cached_tokens": 122304,
+  "cost_usd": 0.0677,
+  "cost_source": "reported",
+  "billed_usd": 0.06770858,
+  "searches": [
+    "California Proposition 4 2025 ballot measure",
+    "Proposition 4 2026 California public campaign finance poll yes no",
+    "\"Prop 4\" 2026 California \"public campaign financing\" Sacramento Bee recommendation",
+    "California Proposition 4 2026 public campaign finance",
+    "LA Times editorial \"Proposition 4\" public financing campaigns California 2026 vote",
+    "California voters rejected ban public campaign financing ballot measures history 1990 2016",
+    "\"Proposition 4\" 2026 California \"editorial board\" endorsement yes or no public financing",
+    "UC Berkeley Institute of Governmental Studies survey 2026 Proposition 4 35% support",
+    "Proposition 4 2026 poll October \"Prop 4\" California polling voters"
+  ],
+  "search_errors": 2,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://www.sacbee.com/latest-news/article317448027.html",
+    "https://www.almanacnews.com/calmatters/2026/10/15/should-california-taxpayers-chip-in-to-fund-political-campaigns-prop-4-lets-you-decide/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/"
+  ],
+  "tool_errors": 2,
+  "warnings": [],
+  "network": {
+    "requests": 17,
+    "requests_per_host": {
+      "openrouter.ai": 15,
+      "www.sacbee.com": 1,
+      "www.almanacnews.com": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.almanacnews.com",
+      "www.sacbee.com"
+    ],
+    "status_counts": {
+      "200": 17
+    },
+    "bytes_up": 673755,
+    "bytes_down": 4131529,
+    "wire_bytes": {
+      "harness_to_proxy": 709459,
+      "proxy_to_harness": 4367313,
+      "proxy_to_internet": 705075,
+      "internet_to_proxy": 4404499
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 18,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:40:24.147105+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:40:24.147105+00:00",
+      "finished_at": "2026-11-03T13:44:27.924687+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

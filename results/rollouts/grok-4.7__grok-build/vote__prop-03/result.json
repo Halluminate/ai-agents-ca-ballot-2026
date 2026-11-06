@@ -1,0 +1,191 @@
+{
+  "run_id": "grok__native__vote__p3__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "native",
+  "harness": "grok_build",
+  "effort": "xhigh",
+  "prompt": "vote",
+  "prop": "3",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:46:39.104683+00:00",
+  "finished_at": "2026-11-03T12:54:28.001106+00:00",
+  "seconds": 465.9,
+  "input_tokens": 150145,
+  "output_tokens": 6459,
+  "cached_tokens": 187008,
+  "cost_usd": 0.4325,
+  "cost_source": "estimated",
+  "billed_usd": 2.8745900000000004,
+  "searches": [
+    "California Proposition 3 2026 permanent high income tax schools health care analysis",
+    "California Proposition 3 2026 YesProp3 VoteNoProp3 LAO fiscal impact",
+    "California Proposition 3 2026 Hoover Institution analysis high income tax migration revenue elasticity",
+    "California Prop 30 Prop 55 education funding outcomes class size test scores pension costs LAO",
+    "Rauh Shyu 2024 California Proposition 30 behavioral response elasticity of taxable income critique",
+    "California Proposition 55 Medi-Cal allocation Education Protection Account what happens if rates expire 2031",
+    "California Budget and Policy Center should voters approve Prop 3 2026",
+    "PPIC poll California Proposition 3 2026 support opposition editorial recommendations",
+    "pdftotext OR python extract text from PDF site:python.org",
+    "California Proposition 3 2026 ballot text expiration date deletion Article XIII section 36 administrative costs audit penalties",
+    "California NAEP 2024 scores per pupil spending ranking EdSource Proposition 30 outcomes",
+    "Rauh Kearney October 2026 Proposition 3 California revenue loser SALT cap",
+    "California top marginal income tax rate comparison 2026 13.3 percent Tax Foundation",
+    "Young Varner 2016 millionaire migration California tax critique Rauh Shyu",
+    "Proposition 55 Medi-Cal formula never triggered LAO California",
+    "California 2026-27 budget deficit projection LAO structural deficit schools funding cliff Prop 55 expiration"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 0,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/3/",
+    "https://voterguide.sos.ca.gov/propositions/3/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/3/title-summary.htm",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=3&year=2026",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf",
+    "https://calmatters.org/politics/elections/2026/10/prop-3-california/",
+    "https://calmatters.org/politics/elections/2026/10/prop-3-california/",
+    "https://www.hoover.org/prop-3-permanent-high-income-tax-initiative",
+    "https://lao.ca.gov/ballot/2026/prop3-110326.pdf",
+    "https://hoover-s3-website.s3.us-west-2.amazonaws.com/s3fs-public/2026-10/California%20Decides_Proposition%203.pdf",
+    "https://www.yesprop3ca.com/",
+    "https://votenoprop3.com/",
+    "https://calbudgetcenter.org/resources/should-voters-approve-prop-3-how-top-tax-rates-have-helped-californians/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-3/legal-text/",
+    "https://lao.ca.gov/ballot/2026/prop3-fig1.png",
+    "https://edsource.org/2026/california-education-funding-rise/757381"
+  ],
+  "tool_errors": 3,
+  "warnings": [
+    "capture: 38 connection attempts that ignored the proxy were blocked (grok-1.0.70 network-outbound x38)",
+    "capture: 2 connections were not readable by the proxy (openrouter.ai:443)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 48,
+    "requests_per_host": {
+      "openrouter.ai": 31,
+      "voterguide.sos.ca.gov": 4,
+      "lao.ca.gov": 3,
+      "vig.cdn.sos.ca.gov": 1,
+      "calmatters.org": 1,
+      "www.hoover.org": 1,
+      "www.yesprop3ca.com": 1,
+      "votenoprop3.com": 1,
+      "hoover-s3-website.s3.us-west-2.amazonaws.com": 1,
+      "www.ppic.org": 1,
+      "calbudgetcenter.org": 1,
+      "growsf.org": 1,
+      "edsource.org": 1
+    },
+    "hosts": [
+      "calbudgetcenter.org",
+      "calmatters.org",
+      "edsource.org",
+      "growsf.org",
+      "hoover-s3-website.s3.us-west-2.amazonaws.com",
+      "lao.ca.gov",
+      "openrouter.ai",
+      "vig.cdn.sos.ca.gov",
+      "votenoprop3.com",
+      "voterguide.sos.ca.gov",
+      "www.hoover.org",
+      "www.ppic.org",
+      "www.yesprop3ca.com"
+    ],
+    "status_counts": {
+      "200": 46,
+      "404": 1
+    },
+    "bytes_up": 1348507,
+    "bytes_down": 4329853,
+    "wire_bytes": {
+      "harness_to_proxy": 1386323,
+      "proxy_to_harness": 4479175,
+      "proxy_to_internet": 1382240,
+      "internet_to_proxy": 4538913
+    },
+    "byte_counter": true,
+    "errors": 3,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1724,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 2069,
+        "bytes_down": 1718,
+        "duration": 0.1279,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 38
+      }
+    ],
+    "blocked_attempts": 38,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 23,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:46:39.104683+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:46:39.104683+00:00",
+      "finished_at": "2026-11-03T12:54:28.001106+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

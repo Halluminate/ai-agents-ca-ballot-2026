@@ -1,0 +1,93 @@
+{
+  "run_id": "terra__native__vote__p41__r1",
+  "model": "terra",
+  "model_id": "gpt-6.1-terra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "41",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:48:15.442239+00:00",
+  "finished_at": "2026-11-03T10:49:36.271290+00:00",
+  "seconds": 78.7,
+  "input_tokens": 33,
+  "output_tokens": 4181,
+  "cached_tokens": 492849,
+  "cost_usd": 0.2113,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/41 California proposition 41 ballot 2026 ...",
+    "California proposition 41 2026 audit special taxes spending limit pros cons full independent analysis ballot ...",
+    "2026 Proposition 41 2026 no yes endorsements California 41 auditing Gann limit SF chronicle times ...",
+    "\"proposition 41\" \"yes\" 2026 editorial audits spending gann ...",
+    "\"prop 41\" \"hospital\" \"gann\" \"2026\" audit ...",
+    "'Proposition 41 (2026)'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 33,
+    "requests_per_host": {
+      "api.openai.com": 31,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 23,
+      "202": 2,
+      "500": 7
+    },
+    "bytes_up": 1183500,
+    "bytes_down": 2346077,
+    "wire_bytes": {
+      "harness_to_proxy": 963033,
+      "proxy_to_harness": 1472233,
+      "proxy_to_internet": 961223,
+      "internet_to_proxy": 1516307
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1870,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 26,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:48:15.442239+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:48:15.442239+00:00",
+      "finished_at": "2026-11-03T10:49:36.271290+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

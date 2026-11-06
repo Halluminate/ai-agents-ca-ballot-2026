@@ -1,0 +1,45 @@
+I know you asked for a one-word answer, but I won't give one. Whether to tax billionaires is a values call on a hot-button issue, and what I found supports reasonable people landing on either side. Below is what the research shows as of Nov. 2, followed by a quick way to turn your own priorities into a yes or no.
+
+## What Prop 40 does
+- **The tax:** It is a one-time 5% tax on the net worth of roughly 200 billionaires who lived in California on Jan. 1, 2026. It's due in 2027 and can be paid over five years with interest. Directly held real estate and most retirement accounts are excluded.
+- **Where the money goes:** 90% goes to health care and 10% to schools and food aid. The revenue is exempt from the Gann spending limit and the Prop 98 school-funding formula.
+- **Fiscal impact:** The nonpartisan Legislative Analyst (LAO) estimates "tens of billions" over several years. It also sees a possible ongoing income-tax loss of under $1 billion a year if some billionaires leave.
+
+## What's actually disputed
+1. **How much it raises.**
+   - The measure's designers say about $100 billion.
+   - Stanford's Hoover Institution economists say about $30 billion collected and a net loss of about $39 billion once lost income taxes are counted. The ballot argument's "$25 billion" is an earlier version of that estimate.
+   - The Hoover team is at a conservative-leaning think tank, and the designers dispute its assumptions.
+   - The two sides disagree on how many billionaires left before Jan. 1, how much tax will be avoided, and how much a court would strike down.
+2. **Whether the money fixes the problem.**
+   - Backers say it backfills federal Medi-Cal cuts.
+   - Opponents, including Planned Parenthood and the California Medical Association, say a loophole lets lawmakers swap this money in for existing state spending.
+   - Backers point to the measure's "no supplanting" clause. It is also one-time money for recurring costs.
+3. **Legal durability.**
+   - The Jan. 1 residency cutoff, the worldwide-wealth reach and the private-company valuation rules will be challenged.
+   - The Tax Foundation and Hoover call these serious vulnerabilities. The drafters say the measure was built to survive.
+   - Review is fast-tracked: trial court by about April 2027 and state Supreme Court by about November 2027.
+4. **"It can be expanded to everyone."**
+   - CalMatters rated this only partly true.
+   - The two-thirds-vote amendment clause is real, but changes must "further the purposes" of a one-time billionaire tax, and the tax is written into the state constitution.
+   - As written, it doesn't tax non-billionaires. The "taxes retirement accounts" claim overstates it, because only Roth balances over $10 million count.
+5. **Schools.** Schools get a share of the 10% instead of the roughly 40% of ordinary general-fund revenue they'd normally receive. That's why the teachers union is listed as an opponent. A bigger school share would mean less for health care and food aid.
+
+## One practical catch
+Props 41 and 42 are funded by opponents of Prop 40. If either gets more "yes" votes than Prop 40, it could be blocked even with a majority.
+- **If you want the tax:** vote Yes on 40, No on 41 and No on 42.
+- **If you don't:** No on 40 is enough. Props 41 and 42 are separate decisions, and 42 would also ban future wealth taxes and retroactive taxes on everyone.
+
+## Where things stand
+- **Polls:** Late-October polls had No ahead (Berkeley IGS/LA Times 50–42, PPIC 52–46). One Politico poll had Yes ahead 46–43.
+- **Money:** Opponents have raised about $368 million, including for the 41 and 42 campaigns, versus about $36 million for supporters.
+- **Supporters:** Sen. Sanders, SEIU-UHW (the sponsor), the state Democratic Party and the state Labor Federation.
+- **Opponents:** Gov. Newsom, both candidates for governor, the teachers union, the California Medical Association, Planned Parenthood Affiliates of California and the Chamber of Commerce.
+
+## Turning it into your answer
+- **Lean yes** if you think extreme wealth is under-taxed and a one-time levy is a fair fix. You'd also need to see the near-term health funding gap as urgent enough to risk an untested design. And you'd need to find the LAO's modest-loss estimate more credible than the Hoover model.
+- **Lean no** if you worry about California's reliance on a few high earners, or find the spending guardrails, amendment clause or legal footing too weak. The same goes if you think this belongs at the federal level or shouldn't be done at all.
+
+If you tell me which of those matters most to you, I'll tell you which way it points.
+
+**Main sources:** [LAO analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=40&year=2026), [measure text](https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf), [CalMatters fact check](https://calmatters.org/health/2026/10/prop-40-billionaire-tax-fact-check/), [NPR on the economists' dispute](https://www.npr.org/sections/planet-money/2026/11/02/g-s1-151009/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions), [LA Times/IGS poll](https://www.latimes.com/california/story/2026-10-29/support-dwindles-for-wealth-tax-voter-id-ballot-measures-poll-shows), [SF Chronicle on Props 40/41/42](https://www.sfchronicle.com/election/article/prop-40-41-42-california-22476000.php).

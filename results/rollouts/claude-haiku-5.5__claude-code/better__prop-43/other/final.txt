@@ -1,0 +1,33 @@
+I won't give you a one-word yes or no on this one. It's a contested political call that turns on values: how much weight you give majority rule and taxpayer protection versus funding for local services. I don't think I should steer a close statewide vote. Here's what the research shows so you can decide.
+
+**What it does**
+- Starting January 1, 2027, citizen-initiated local special taxes (earmarked for a specific use) would need two-thirds voter approval instead of a simple majority. That covers new, increased, and extended taxes. Special taxes placed on the ballot by local governments already need two-thirds, and general taxes aren't affected.
+- It doesn't cut any existing tax and doesn't reach back to taxes already in place, such as LA's mansion tax.
+- It targets a gap left by the 2017 *Upland* ruling. The court didn't squarely decide whether the two-thirds rule applies to citizen initiatives, and roughly two dozen such taxes have passed with less than two-thirds support since, per CalMatters.
+
+**Effects**
+- The Legislative Analyst's Office says local tax revenue "could be lower in the future than they otherwise would be." It gives no dollar estimate and calls the actual impact "unknown."
+- CalMatters notes that LA's mansion tax (about 58% in 2022) and a Sonoma County wildfire and emergency sales tax (62% in 2024) would both have failed at two-thirds.
+
+**The disagreement**
+- **Yes side** (Howard Jarvis Taxpayers Association, California Taxpayers Association, California Chamber of Commerce, California Republican Party): courts opened a loophole that lets earmarked taxes pass with less than the two-thirds voters originally required, and special interests exploit low-turnout elections.
+- **No side** (California Professional Firefighters, California Democratic Party, SEIU Local 1000, Sacramento Bee editorial board): a one-third minority could block majority-backed funding for fire protection, 911, schools, roads, and housing, and the measure doesn't reduce any tax. The compromise's author, Assemblymember Buffy Wicks, is also opposed.
+
+**Polling:** PPIC's October survey (Oct. 16–22, likely voters) found 42% yes, 55% no, and 3% undecided (margin ±3.8 points). In September it was 43% yes, 51% no.
+
+**How to decide**
+- Lean yes if your bigger concern is that bare-majority votes in low-turnout elections let narrow interests impose special taxes too easily, and you accept that local revenue may grow more slowly.
+- Lean no if your bigger concern is that local services are underfunded and a one-third minority shouldn't be able to block majority-backed taxes.
+
+**Caveats:** The full LAO and PPIC PDFs wouldn't load. The LAO language comes from the Secretary of State's copy of the analysis, and the October poll numbers come from a secondary report of PPIC's survey. The "roughly two dozen" figure comes from CalMatters reporting that I saw only in summaries.
+
+If you haven't voted yet, polls close at 8 p.m. local time today.
+
+Sources:
+- [Official voter guide](https://voterguide.sos.ca.gov/propositions/43/)
+- [LAO analysis](https://voterguide.sos.ca.gov/propositions/43/analysis.htm)
+- [Official arguments and rebuttals](https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm)
+- [CalMatters voter guide](https://calmatters.org/california-voter-guide-2026/proposition-43-tax-threshold/)
+- [CalMatters explainer, Oct. 2026](https://calmatters.org/politics/2026/10/california-prop-43-election-2026/)
+- [Pillsbury on the Upland ruling](https://www.pillsburylaw.com/en/news-and-insights/the-sequel-to-upland-a-calif-supermajority-tax-showdown.html)
+- [WRE News on the October PPIC poll](https://wrenews.com/california-proposition-43-local-special-tax-vote-threshold-real-estate-2026/)

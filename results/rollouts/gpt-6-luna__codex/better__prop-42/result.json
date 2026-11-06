@@ -1,0 +1,94 @@
+{
+  "run_id": "luna__native__better__p42__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "42",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:02:35.318137+00:00",
+  "finished_at": "2026-11-03T13:04:53.619916+00:00",
+  "seconds": 136.2,
+  "input_tokens": 51,
+  "output_tokens": 11342,
+  "cached_tokens": 1049971,
+  "cost_usd": 0.0927,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 42 2026 analysis Prop 40 billionaire tax personal property tax independent analysis ...",
+    "site:sos.ca.gov 2026 Proposition 42 campaign contributions support opposition ...",
+    "California Proposition 42 endorsement editorial vote no Prop 42 2026 ...",
+    "California 2026 billionaire wealth tax NBER Jaros Rauh Prop 40 net revenue analysis paper PDF ...",
+    "California six proposals tax retirement savings accounts proposed tax on retirement California bills wealth tax 2019 2026 ...",
+    "'retirement account'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/42/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 20,
+    "requests_per_host": {
+      "api.openai.com": 17,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 16,
+      "202": 3
+    },
+    "bytes_up": 1337628,
+    "bytes_down": 3005072,
+    "wire_bytes": {
+      "harness_to_proxy": 996647,
+      "proxy_to_harness": 1697409,
+      "proxy_to_internet": 995193,
+      "internet_to_proxy": 1730604
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1793,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 19,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:02:35.318137+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:02:35.318137+00:00",
+      "finished_at": "2026-11-03T13:04:53.619916+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

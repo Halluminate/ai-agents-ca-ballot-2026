@@ -1,0 +1,93 @@
+{
+  "run_id": "terra__native__better__p44__r1",
+  "model": "terra",
+  "model_id": "gpt-6.1-terra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "44",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:34:46.402404+00:00",
+  "finished_at": "2026-11-03T12:35:43.015533+00:00",
+  "seconds": 54.6,
+  "input_tokens": 27,
+  "output_tokens": 2767,
+  "cached_tokens": 322969,
+  "cost_usd": 0.1993,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California proposition 44 2026 voter guide ...",
+    "2026 California Prop 44 healthcare clinic 90 percent clinic spending independent analysis why union yes no ...",
+    "\"Proposition 44\" California clinics SEIU \"yes\" executive 2026 evidence ...",
+    "\"prop 44\" \"yes\" \"clinics\" executive costs supporters 2026 evidence ...",
+    "2026 \"prop 44\" \"yes\" \"clinic\" \"ceo\" program staff 990 ...",
+    "\"Proposition 44\" \"Fulton\" 2026 Berkeley health centers ...",
+    "'million'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 10,
+    "requests_per_host": {
+      "api.openai.com": 9,
+      "ab.chatgpt.com": 1
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 8,
+      "202": 1
+    },
+    "bytes_up": 1038357,
+    "bytes_down": 1663952,
+    "wire_bytes": {
+      "harness_to_proxy": 807565,
+      "proxy_to_harness": 938619,
+      "proxy_to_internet": 806951,
+      "internet_to_proxy": 958257
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1339,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 11,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:34:46.402404+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:34:46.402404+00:00",
+      "finished_at": "2026-11-03T12:35:43.015533+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

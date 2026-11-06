@@ -1,0 +1,101 @@
+{
+  "run_id": "flash__native__better__p43__r1",
+  "model": "flash",
+  "model_id": "gemini-3.8-flash",
+  "pin": "google-ai-studio",
+  "arm": "native",
+  "harness": "gemini_cli",
+  "effort": "high",
+  "prompt": "better",
+  "prop": "43",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T11:32:48.153550+00:00",
+  "finished_at": "2026-11-03T11:34:09.668434+00:00",
+  "seconds": 79.5,
+  "input_tokens": 9711,
+  "output_tokens": 10883,
+  "cached_tokens": 10459,
+  "cost_usd": 0.0452,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.",
+    "capture: 1 connection attempts that ignored the proxy were blocked (node network-outbound x1)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 3,
+    "requests_per_host": {
+      "generativelanguage.googleapis.com": 3
+    },
+    "hosts": [
+      "generativelanguage.googleapis.com"
+    ],
+    "status_counts": {
+      "200": 3
+    },
+    "bytes_up": 94603,
+    "bytes_down": 39534,
+    "wire_bytes": {
+      "harness_to_proxy": 96894,
+      "proxy_to_harness": 44289,
+      "proxy_to_internet": 96802,
+      "internet_to_proxy": 45695
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "node",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 1,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 2,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 2,
+  "run_started_at": "2026-11-03T10:50:21.506634+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:50:21.506634+00:00",
+      "finished_at": "2026-11-03T11:32:18.146282+00:00",
+      "status": "error",
+      "error": "{'type': 'unknown', 'message': '[API Error: exception TypeError: fetch failed sending request]'}"
+    },
+    {
+      "attempt": 2,
+      "started_at": "2026-11-03T11:32:48.153550+00:00",
+      "finished_at": "2026-11-03T11:34:09.668434+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

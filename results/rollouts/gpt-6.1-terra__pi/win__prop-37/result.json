@@ -1,0 +1,128 @@
+{
+  "run_id": "terra__common__win__p37__r1",
+  "model": "terra",
+  "model_id": "openai/gpt-6.1-terra",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "37",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:39:41.970480+00:00",
+  "finished_at": "2026-11-03T12:40:24.328350+00:00",
+  "seconds": 39.7,
+  "input_tokens": 79141,
+  "output_tokens": 1250,
+  "cached_tokens": 99766,
+  "cost_usd": 0.176,
+  "cost_source": "reported",
+  "billed_usd": 0.17604895272,
+  "searches": [
+    "\"voterguide.sos.ca.gov/propositions/37/\" proposition 37",
+    "California proposition 37 2026 2025 proposition 37 ballot poll",
+    "\"Proposition 37\" 2026 \"polling\" home buyers loans percentage",
+    "\"Proposition 37\" 2026 California October poll PPIC Berkeley voters housing loans",
+    "\"California Proposition 37\" 2026 polls  support oppose forecast result homeownership",
+    "\"Prop 37\" California housing initiative 2026 polls 2026 November voters support yes no home loans",
+    "California \"Prop 37\" \"poll\" housing 2026 November election likely voters",
+    "\"prop 37\" \"homeownership\" \"poll\" 2026 yes no",
+    "\"Proposition 37\" \"2026\" \"poll\" homeownership",
+    "\"prop 37\" \"2026\" \"Berkeley\" poll likely voters housing 60%",
+    "\"prop 37\" \"2026\" \"market\" \"polymarket\" california pass",
+    "\"proposition 37\" \"2026\" California voters polling \"Berkeley\" \"percent\" homeownership loan",
+    "\"proposition 37\" \"2026\" \"november 2\" poll predictions yes no down payment"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/37/",
+    "https://quickguidetoprops.sos.ca.gov/propositions/2026-11-03/37",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://onpointpolitics.us/forecast/measures/ca/proposition-37",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-37-creates-loan-program-middle-income-buyers-qualified-new-homes-initiative-statute",
+    "https://californiatoday.com/guides/elections/2026-california-proposition-37-guide/",
+    "https://defirate.com/odds/california-props/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+    "https://finance.yahoo.com/economy/policy/articles/tax-top-fix-housing-back-144800471.html",
+    "https://midterms.nijinn.io/ballot-measures/california-proposition-37-homebuying-loan-program/",
+    "https://polymarket.com/event/california-homebuying-loan-program-proposition"
+  ],
+  "tool_errors": 1,
+  "warnings": [],
+  "network": {
+    "requests": 22,
+    "requests_per_host": {
+      "openrouter.ai": 18,
+      "quickguidetoprops.sos.ca.gov": 1,
+      "finance.yahoo.com": 1,
+      "midterms.nijinn.io": 1,
+      "polymarket.com": 1
+    },
+    "hosts": [
+      "finance.yahoo.com",
+      "midterms.nijinn.io",
+      "openrouter.ai",
+      "polymarket.com",
+      "quickguidetoprops.sos.ca.gov"
+    ],
+    "status_counts": {
+      "200": 22
+    },
+    "bytes_up": 792402,
+    "bytes_down": 552730,
+    "wire_bytes": {
+      "harness_to_proxy": 839735,
+      "proxy_to_harness": 619477,
+      "proxy_to_internet": 832712,
+      "internet_to_proxy": 677649
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/economy/policy/articles/tax-top-fix-housing-back-144800471.html",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 23,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:39:41.970480+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:39:41.970480+00:00",
+      "finished_at": "2026-11-03T12:40:24.328350+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

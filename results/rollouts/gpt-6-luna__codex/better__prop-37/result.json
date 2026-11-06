@@ -1,0 +1,100 @@
+{
+  "run_id": "luna__native__better__p37__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "37",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:54:06.388244+00:00",
+  "finished_at": "2026-11-03T10:59:27.198166+00:00",
+  "seconds": 317.6,
+  "input_tokens": 3830,
+  "output_tokens": 20859,
+  "cached_tokens": 3105939,
+  "cost_usd": 0.2117,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/37 California Proposition 37 official analysis text ...",
+    "California 2026 Proposition 37 housing measure analysis criticism down payment loans ...",
+    "site:lwvc.org Proposition 37 2026 California homebuyer program oppose ...",
+    "empirical study down payment assistance home prices capitalization homebuyer subsidy home prices housing supply ...",
+    "California Civil Code SB 800 construction defect homeowners Proposition 37 qualified builder option legal analysis ...",
+    "site:sacbee.com 2026 editorial yes on Prop 37 down payment California ...",
+    "\"Proposition 37: California Middle-Class Home Ownership\" McGeorge 2026 analysis risk ...",
+    "\"190,000\" Prop. 37 homes analysis California 2026 report ...",
+    "site:hoover.org \"Prop. 37\" California homeownership 2026 ...",
+    "\"Prop. 37 puts California\u2019s homeownership crisis on the ballot\" Sacramento Bee endorsement ...",
+    "\"a risky $25 billion housing experiment\" Proposition 37 Orange County Register ...",
+    "\"No on Proposition 37, a risky $25 billion housing experiment\" full text ...",
+    "\"190,000 homes\" \"Proposition 37\" report California Homes Coalition ...",
+    "\"Every $1 billion in bond capital could support\" California Prop 37 homes methodology ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 34,
+    "requests_per_host": {
+      "api.openai.com": 28,
+      "ab.chatgpt.com": 6
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 27,
+      "202": 6
+    },
+    "bytes_up": 2383515,
+    "bytes_down": 5627808,
+    "wire_bytes": {
+      "harness_to_proxy": 1667362,
+      "proxy_to_harness": 3356220,
+      "proxy_to_internet": 1663260,
+      "internet_to_proxy": 3412518
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 3050,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 30,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:54:06.388244+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:54:06.388244+00:00",
+      "finished_at": "2026-11-03T10:59:27.198166+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

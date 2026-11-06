@@ -1,0 +1,153 @@
+{
+  "run_id": "grok__native__win__p2__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "native",
+  "harness": "grok_build",
+  "effort": "xhigh",
+  "prompt": "win",
+  "prop": "2",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:46:39.099517+00:00",
+  "finished_at": "2026-11-03T12:53:39.078491+00:00",
+  "seconds": 417.1,
+  "input_tokens": 81655,
+  "output_tokens": 7123,
+  "cached_tokens": 147968,
+  "cost_usd": 0.28,
+  "cost_source": "estimated",
+  "billed_usd": 2.4009579999999997,
+  "searches": [
+    "California Proposition 2 2026 voter guide SOS polls likely to pass",
+    "California Proposition 2 November 2026 ballot what is it polling",
+    "California Proposition 2 2026 election results rainy day fund",
+    "\"Proposition 2\" California results November 2026 yes no",
+    "PPIC October 2026 Proposition 2 poll yes percentage",
+    "California Proposition 2 2026 forecast probability pass On Point Politics Kalshi",
+    "site:ppic.org Proposition 2 October 2026 statewide survey",
+    "California Proposition 2 2026 live results election night rainy day",
+    "\"Proposition 2\" \"Yes\" percent California election results November 3 2026",
+    "California Prop 2 2026 \"yes\" votes percent results AP OR SOS",
+    "\"Prop 2\" OR \"Proposition 2\" California \"rainy day\" (leading OR ahead OR trailing OR \"percent yes\") 2026",
+    "electionresults.sos.ca.gov Proposition 2 2026 yes votes",
+    "\"1,549,774\" OR \"1549774\" Proposition California",
+    "California ballot measure results November 3 2026 unofficial \"Proposition 2\"",
+    "California election results November 3 2026 Proposition 2 rainy day fund site:apnews.com OR site:latimes.com OR site:politico.com OR site:calmatters.org OR site:nytimes.com",
+    "\"Proposition 2\" California (passed OR failed OR leading OR \"vote yes\") November 2026",
+    "California ballot measures historical PPIC poll accuracy 60 percent yes pass rate"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 0,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/",
+    "https://ballotpedia.org/California_Proposition_2,_Budget_Stabilization_Account_Cap_Increase_and_Gann_Limit_Changes_Amendment_(2026",
+    "https://electionresults.sos.ca.gov/returns/ballot-measures",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://electionresults.sos.ca.gov/",
+    "https://electionresults.sos.ca.gov/returns/ballot-measures",
+    "https://electionresults.sos.ca.gov/returns/ballot-measures",
+    "https://www.sos.ca.gov/elections/prior-elections/statewide-election-results"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 18 connection attempts that ignored the proxy were blocked (grok-1.0.70 network-outbound x18)",
+    "capture: 1 connections were not readable by the proxy (openrouter.ai:443)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 36,
+    "requests_per_host": {
+      "openrouter.ai": 30,
+      "electionresults.sos.ca.gov": 2,
+      "voterguide.sos.ca.gov": 1,
+      "ballotpedia.org": 1,
+      "www.ppic.org": 1,
+      "www.sos.ca.gov": 1
+    },
+    "hosts": [
+      "ballotpedia.org",
+      "electionresults.sos.ca.gov",
+      "openrouter.ai",
+      "voterguide.sos.ca.gov",
+      "www.ppic.org",
+      "www.sos.ca.gov"
+    ],
+    "status_counts": {
+      "200": 34,
+      "404": 1
+    },
+    "bytes_up": 977879,
+    "bytes_down": 2363230,
+    "wire_bytes": {
+      "harness_to_proxy": 994869,
+      "proxy_to_harness": 2463930,
+      "proxy_to_internet": 992305,
+      "internet_to_proxy": 2487043
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1433,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 18
+      }
+    ],
+    "blocked_attempts": 18,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 12,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:46:39.099517+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:46:39.099517+00:00",
+      "finished_at": "2026-11-03T12:53:39.078491+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

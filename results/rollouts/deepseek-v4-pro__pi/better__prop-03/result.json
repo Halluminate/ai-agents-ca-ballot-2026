@@ -1,0 +1,96 @@
+{
+  "run_id": "deepseek__common__better__p3__r1",
+  "model": "deepseek",
+  "model_id": "deepseek/deepseek-v4-pro-0813",
+  "pin": "together",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "3",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:43:58.255476+00:00",
+  "finished_at": "2026-11-03T12:44:40.322890+00:00",
+  "seconds": 39.4,
+  "input_tokens": 41617,
+  "output_tokens": 3005,
+  "cached_tokens": 107106,
+  "cost_usd": 0.1011,
+  "cost_source": "reported",
+  "billed_usd": 0.10109416399999999,
+  "searches": [
+    "California Proposition 3 2024 right to marry same-sex marriage yes or no",
+    "California Proposition 3 2026 permanent funding schools health care extending tax high incomes",
+    "2026 California Proposition 3 high income tax permanent schools healthcare initiative",
+    "California Proposition 3 2026 editorial endorsement yes no high income tax permanent",
+    "Prop 3 California 2026 LA Times recommendation high income tax permanent"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/3/",
+    "https://lao.ca.gov/ballot/2026/prop3-110326.pdf",
+    "https://calmatters.org/politics/elections/2026/10/prop-3-california/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-3",
+    "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/3/analysis.htm",
+    "https://ballotpedia.org/California_Proposition_3,_Renew_State_Income_Tax_Increase_for_Education_Funding_Initiative_(2026",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 11,
+    "requests_per_host": {
+      "openrouter.ai": 11
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 11
+    },
+    "bytes_up": 628551,
+    "bytes_down": 426676,
+    "wire_bytes": {
+      "harness_to_proxy": 648811,
+      "proxy_to_harness": 465135,
+      "proxy_to_internet": 645824,
+      "internet_to_proxy": 488027
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 10,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:43:58.255476+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:43:58.255476+00:00",
+      "finished_at": "2026-11-03T12:44:40.322890+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

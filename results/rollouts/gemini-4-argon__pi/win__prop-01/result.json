@@ -1,0 +1,82 @@
+{
+  "run_id": "gemini__common__win__p1__r1",
+  "model": "gemini",
+  "model_id": "google/gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "1",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T04:29:29.521251+00:00",
+  "seconds": 44.8,
+  "input_tokens": 32569,
+  "output_tokens": 1238,
+  "cached_tokens": 26938,
+  "cost_usd": 0.1208,
+  "cost_source": "reported",
+  "searches": [
+    "\"voterguide.sos.ca.gov/propositions/1\"",
+    "California Proposition 1 March 2024 OR November 2022 OR November 2024",
+    "\"Authorizes $11.25 billion in state general obligation bonds\"",
+    "\"Proposition 37\" \"Proposition 38\" \"Proposition 39\" \"Proposition 40\" \"Proposition 41\" \"Proposition 42\" \"Proposition 43\" \"Proposition 44\" \"Proposition 45\"",
+    "PPIC poll \"Proposition 1\" 2026 California housing",
+    "\"Proposition 1\" OR \"Prop 1\" poll 2026 California housing bond",
+    "Berkeley IGS poll \"Proposition 1\" 2026 California",
+    "\"YesOnProp1CA\" OR \"SB 417\" \"Proposition 1\" 2026 California"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/1/",
+    "https://voterguide.sos.ca.gov/propositions/1/title-summary.htm",
+    "https://voterguide.sos.ca.gov/propositions/1/arguments-rebuttals.htm"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 12,
+    "requests_per_host": {
+      "openrouter.ai": 12
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 12
+    },
+    "bytes_up": 238592,
+    "bytes_down": 75443,
+    "wire_bytes": {
+      "harness_to_proxy": 264395,
+      "proxy_to_harness": 106328,
+      "proxy_to_internet": 260444,
+      "internet_to_proxy": 135862
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 13,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

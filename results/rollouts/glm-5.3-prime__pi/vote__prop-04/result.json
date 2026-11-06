@@ -1,0 +1,95 @@
+{
+  "run_id": "glm-prime__common__vote__p4__r1",
+  "model": "glm-prime",
+  "model_id": "z-ai/glm-5.3-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "4",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T13:41:22.001683+00:00",
+  "finished_at": "2026-11-03T13:42:40.501608+00:00",
+  "seconds": 75.7,
+  "input_tokens": 40147,
+  "output_tokens": 5534,
+  "cached_tokens": 87040,
+  "cost_usd": 0.2454,
+  "cost_source": "reported",
+  "billed_usd": 0.24541167160000002,
+  "searches": [
+    "California Proposition 4 2024 $10 billion climate bond summary arguments",
+    "SB 1107 Umberg public campaign financing California ballot 2026",
+    "California Proposition 4 2026 public campaign financing repeal ban Proposition 73 1988 history",
+    "public campaign financing effectiveness research small donor matching funds New York City Seattle democracy vouchers evidence",
+    "Proposition 4 California 2026 editorial endorsement Los Angeles Times Mercury News public campaign financing",
+    "California Proposition 15 2010 Proposition 25 2000 public campaign financing voters rejected history",
+    "\"Proposition 4\" 2026 California fact check claims \"no limit\" public financing candidates county central committee"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://voterguide.sos.ca.gov/propositions/4/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-text-proposed-laws.pdf",
+    "https://calmatters.org/politics/2026/10/california-proposition-4-explainer/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 14,
+    "requests_per_host": {
+      "openrouter.ai": 14
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 14
+    },
+    "bytes_up": 597354,
+    "bytes_down": 1145035,
+    "wire_bytes": {
+      "harness_to_proxy": 619492,
+      "proxy_to_harness": 1212944,
+      "proxy_to_internet": 616694,
+      "internet_to_proxy": 1236361
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 11,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:41:22.001683+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:41:22.001683+00:00",
+      "finished_at": "2026-11-03T13:42:40.501608+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

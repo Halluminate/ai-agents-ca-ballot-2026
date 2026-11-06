@@ -1,0 +1,119 @@
+{
+  "run_id": "qwen-max-prime__common__better__p41__r1",
+  "model": "qwen-max-prime",
+  "model_id": "qwen/qwen3.8-max-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "41",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:31:00.746102+00:00",
+  "finished_at": "2026-11-03T13:34:12.216206+00:00",
+  "seconds": 188.5,
+  "input_tokens": 103500,
+  "output_tokens": 8184,
+  "cached_tokens": 563456,
+  "cost_usd": 0.855,
+  "cost_source": "reported",
+  "billed_usd": 0.8549586902800002,
+  "searches": [
+    "California Proposition 41 voterguide.sos.ca.gov",
+    "California Proposition 41 2026 billionaire tax Sergey Brin audits nullify",
+    "Prop 41 California 2026 poll Billionaire Tax Prop 40 conflicting measures",
+    "editorial Prop 41 California 2026 recommendation \"Prop. 41\" Gann limit future taxes consequences",
+    "\"Prop 41\" California 2026 League of Women Voters Common Cause opposition audits redundant State Auditor response",
+    "LA Times editorial Prop 41 42 2026 recommendation billionaire tax poison pill",
+    "Gamage Shanske paper Proposition 41 \"poison pill\" billionaire tax analysis hidden provision",
+    "California election results November 3 2026 Proposition 41 yes no percent",
+    "\"Prop 41\" California 2026 hospital association Medi-Cal MCO tax opposed health care groups",
+    "California State Auditor Kwon response Proposition 41 audit requirements capacity concerns 2026",
+    "California Proposition 3 November 2026 millionaires tax education extension polling IGS PPIC",
+    "\"Yes on 41\" campaign response MCO tax hospital quality assurance fee Prop 35 concern rebuttal 2026",
+    "Lao analysis initiative 25-0040 Proposition 41 fiscal effects Gann limit \"special taxes\" estimate"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/41/",
+    "https://voterguide.sos.ca.gov/propositions/41/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+    "https://www.hoover.org/proposition-lab-proposition-41",
+    "https://eml.berkeley.edu/~saez/GGS26props41-42.pdf",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-41-audits",
+    "https://calbudgetcenter.org/resources/what-would-proposition-41-mean-for-california/",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-41-requires-audits-programs-funded-new-state-special-taxes-prohibits-new-state-taxes-are-excluded-existing-voter-app",
+    "https://calmatters.org/politics/2026/10/tax-propositions-ballot-measures/",
+    "https://www.eastbaytimes.com/2026-11-02/we-asked-the-yes-on-prop-41-campaign-why-voters-should-approve-the-measure/",
+    "https://www.eastbaytimes.com/2026-11-02/we-asked-the-yes-on-prop-41-campaign-why-voters-should-approve-the-measure/",
+    "https://www.mercurynews.com/2026-11-02/we-asked-the-no-on-prop-41-campaign-why-voters-should-reject-the-measure/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 28,
+    "requests_per_host": {
+      "openrouter.ai": 26,
+      "www.eastbaytimes.com": 2
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.eastbaytimes.com"
+    ],
+    "status_counts": {
+      "200": 27,
+      "301": 1
+    },
+    "bytes_up": 2839949,
+    "bytes_down": 1106670,
+    "wire_bytes": {
+      "harness_to_proxy": 2903782,
+      "proxy_to_harness": 1211449,
+      "proxy_to_internet": 2893917,
+      "internet_to_proxy": 1284692
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 29,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:31:00.746102+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:31:00.746102+00:00",
+      "finished_at": "2026-11-03T13:34:12.216206+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

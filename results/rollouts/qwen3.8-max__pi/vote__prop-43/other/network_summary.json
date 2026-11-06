@@ -1,0 +1,57 @@
+{
+  "requests": 22,
+  "requests_per_host": {
+    "openrouter.ai": 20,
+    "lao.ca.gov": 1,
+    "laist.com": 1
+  },
+  "hosts": [
+    "laist.com",
+    "lao.ca.gov",
+    "openrouter.ai"
+  ],
+  "status_counts": {
+    "200": 22
+  },
+  "bytes_up": 2262762,
+  "bytes_down": 1218886,
+  "wire_bytes": {
+    "harness_to_proxy": 2309371,
+    "proxy_to_harness": 1335394,
+    "proxy_to_internet": 2303449,
+    "internet_to_proxy": 1383243
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [
+    {
+      "process": "node",
+      "operation": "network-outbound",
+      "target": "remote:*:50071",
+      "attempts": 1
+    }
+  ],
+  "blocked_attempts": 1,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 22,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

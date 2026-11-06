@@ -1,0 +1,54 @@
+{
+  "requests": 45,
+  "requests_per_host": {
+    "openrouter.ai": 37,
+    "calmatters.org": 2,
+    "emersoncollegepolling.com": 2,
+    "www.kcra.com": 1,
+    "www.azcentral.com": 1,
+    "www.desertsun.com": 1,
+    "www.yahoo.com": 1
+  },
+  "hosts": [
+    "calmatters.org",
+    "emersoncollegepolling.com",
+    "openrouter.ai",
+    "www.azcentral.com",
+    "www.desertsun.com",
+    "www.kcra.com",
+    "www.yahoo.com"
+  ],
+  "status_counts": {
+    "200": 41,
+    "301": 1,
+    "402": 2,
+    "404": 1
+  },
+  "bytes_up": 7260216,
+  "bytes_down": 979198,
+  "wire_bytes": {
+    "harness_to_proxy": 7332540,
+    "proxy_to_harness": 1115241,
+    "proxy_to_internet": 7325500,
+    "internet_to_proxy": 1185776
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 31,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

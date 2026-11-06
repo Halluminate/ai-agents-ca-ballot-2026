@@ -1,0 +1,77 @@
+{
+  "requests": 70,
+  "requests_per_host": {
+    "openrouter.ai": 61,
+    "oag.ca.gov": 2,
+    "voterguide.sos.ca.gov": 1,
+    "www.calmatters.org": 1,
+    "calmatters.org": 1,
+    "www.sacbee.com": 1,
+    "noprop44.com": 1,
+    "growsf.org": 1,
+    "www.desertsun.com": 1
+  },
+  "hosts": [
+    "calmatters.org",
+    "growsf.org",
+    "noprop44.com",
+    "oag.ca.gov",
+    "openrouter.ai",
+    "voterguide.sos.ca.gov",
+    "www.calmatters.org",
+    "www.desertsun.com",
+    "www.sacbee.com"
+  ],
+  "status_counts": {
+    "200": 66,
+    "301": 1,
+    "402": 1,
+    "403": 2
+  },
+  "bytes_up": 13978002,
+  "bytes_down": 4698077,
+  "wire_bytes": {
+    "harness_to_proxy": 14137639,
+    "proxy_to_harness": 5027734,
+    "proxy_to_internet": 14117133,
+    "internet_to_proxy": 5193168
+  },
+  "byte_counter": true,
+  "errors": 3,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 68,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

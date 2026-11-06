@@ -1,0 +1,98 @@
+{
+  "run_id": "sol__native__better__p38__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:56:34.766058+00:00",
+  "finished_at": "2026-11-03T10:58:47.375849+00:00",
+  "seconds": 128.9,
+  "input_tokens": 39,
+  "output_tokens": 4646,
+  "cached_tokens": 675734,
+  "cost_usd": 0.4637,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 38 2026 immunology research 8.4 billion analysis ...",
+    "site.ucla.edu California Institute Immunology Immunotherapy 2026 200000 500 million bond research ...",
+    "site.ucla.edu \"immunology\" \"2026\" \"institute\" \"bond\" ...",
+    "'three employees'",
+    "site.cirm.ca.gov 2026 \"royalties\" \"million\" ...",
+    "CIRM revenue returned California state royalties 2026 2025 330000 ...",
+    "\"2026\" \"Proposition 38\" \"editorial\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/38/",
+    "https://www.statnews.com/2026/10/19/california-prop-38-immunology-research-bond-oddly-specific-earmark/",
+    "https://yeson38.com",
+    "https://www.calimmunology.org/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 20,
+    "requests_per_host": {
+      "api.openai.com": 17,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 16,
+      "202": 3
+    },
+    "bytes_up": 1283098,
+    "bytes_down": 2661071,
+    "wire_bytes": {
+      "harness_to_proxy": 982042,
+      "proxy_to_harness": 1633824,
+      "proxy_to_internet": 980274,
+      "internet_to_proxy": 1669488
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1935,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 19,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:56:34.766058+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:56:34.766058+00:00",
+      "finished_at": "2026-11-03T10:58:47.375849+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

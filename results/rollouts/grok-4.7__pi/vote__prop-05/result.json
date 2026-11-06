@@ -1,0 +1,102 @@
+{
+  "run_id": "grok__common__vote__p5__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "5",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:54:50.328280+00:00",
+  "seconds": 224.1,
+  "input_tokens": 67148,
+  "output_tokens": 10799,
+  "cached_tokens": 140160,
+  "cost_usd": 0.3047,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 5 2026 recall election process analysis League of Women Voters",
+    "Proposition 5 2026 California recall Josh Newman SCA 1 criticism appointment vacancy",
+    "California recall reform Little Hoover Commission plurality replacement best practice states",
+    "California Proposition 5 2026 SCA 1 recall reform editorial recommendation",
+    "California Proposition 5 2026 editorial board yes or no Mercury News Sacramento Bee LA Times",
+    "NCSL recall of state officials replacement election vs succession how many states",
+    "California Constitution Article V Section 5 vacancy appointment term Attorney General confirmation"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/5/",
+    "https://voterguide.sos.ca.gov/propositions/5/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/5/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/5/title-summary.htm",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-5-recall-california-22458510.php",
+    "https://calmatters.org/politics/2026/10/california-election-proposition-5-explainer/",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-5-recall-process-reform",
+    "https://www.hoover.org/proposition-lab-proposition-5",
+    "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SCA1",
+    "https://www.mercurynews.com/2026/10/20/endorsement-no-on-prop-5-a-bad-idea-that-protects-the-status-quo-and-silences-independent-minded-challengers/",
+    "https://aelc.assembly.ca.gov/system/files/2024-06/sca-1-newman-june-26-2024-17192637100576198.pdf"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 17,
+    "requests_per_host": {
+      "openrouter.ai": 14,
+      "www.spur.org": 1,
+      "www.hoover.org": 1,
+      "leginfo.legislature.ca.gov": 1
+    },
+    "hosts": [
+      "leginfo.legislature.ca.gov",
+      "openrouter.ai",
+      "www.hoover.org",
+      "www.spur.org"
+    ],
+    "status_counts": {
+      "200": 17
+    },
+    "bytes_up": 1000661,
+    "bytes_down": 788464,
+    "wire_bytes": {
+      "harness_to_proxy": 1035195,
+      "proxy_to_harness": 874474,
+      "proxy_to_internet": 1030654,
+      "internet_to_proxy": 910956
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 17,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

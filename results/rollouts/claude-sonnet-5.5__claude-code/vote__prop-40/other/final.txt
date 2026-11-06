@@ -1,0 +1,52 @@
+**I'm not going to give you a bare Yes or No on this one.** After going through the research, the decision turns on judgment calls, not on a fact I can verify. Those calls are how you weigh legal and revenue risk against urgent health-care funding, and whether you think a wealth tax is fair. A one-word answer from me would just be my own political view presented as research, on a measure that divides voters, unions, health groups and Democrats themselves. Here is what it turns on, so you can get to your own answer quickly.
+
+**What Prop 40 does:** It's a one-time 5% tax on the net worth of people worth over $1 billion who were California residents on Jan. 1, 2026, roughly 200–250 people. It's due in 2027, with an optional, costlier five-year payment plan. Real estate and retirement accounts are generally excluded. At least 90% must go to public health care, mostly Medi-Cal. The rest goes to education, food aid and administration. The money is exempt from the state spending limit and school-funding minimums.
+
+**The three questions that decide it**
+
+1. **Does it net raise money?**
+   - The nonpartisan Legislative Analyst expects "tens of billions" of one-time revenue and a possible income-tax loss of under $1 billion a year. It gives no net figure.
+   - The backers' economists (Saez, Zucman, Boll) say about $100 billion.
+   - Stanford/Hoover's Rauh and Jaros say about $30 billion collected and a net loss of about $39 billion.
+   - The gap comes down to three assumptions. One is whether billionaires who have since moved (at least seven, reportedly) were still residents on Jan. 1. Another is a 50% legal-risk haircut. The third is whether lost income taxes count as permanent.
+   - Research on wealth-tax flight is mixed. It's usually modest, but larger than for income taxes, and no U.S. state has tried this.
+2. **Will it survive in court?**
+   - It is retroactive to Jan. 1, taxes worldwide wealth, and requires valuing private companies.
+   - Analysts at the Tax Foundation and CalTax, both critics, say it could be struck down in whole or in part. The drafters' own scholars say it's sound.
+   - The California Budget & Policy Center takes no position. It says voters must decide whether "the significant risks of Prop. 40 are worth the gamble."
+3. **Is one-time money the right tool?**
+   - The federal cuts are real: about 1.3 million Californians are projected to lose coverage by 2029–30.
+   - The California Medical Association and the primary-care clinics' association oppose it. They cite broad legislative discretion, no guarantee that it adds to existing health spending, and one-time funding.
+   - The California Teachers Association objects to the school-funding exemption. Other teacher unions and the PTA support the measure.
+   - SPUR's board couldn't reach consensus.
+
+**Pick your box**
+- **Yes** if you think taxing about 200 billionaires' accumulated wealth is fair, and you find Saez and Zucman persuasive (residency was fixed on Jan. 1, so there's little escape and the ongoing loss is small). You'd also need to judge the legal uncertainty and one-time money worth it, given the Medi-Cal cuts.
+- **No** if you think the legal and revenue risk is too high, or that a one-time tax is the wrong fix for a recurring gap. Some opponents prefer Prop 3's extension of the existing high-earner tax, or a federal wealth tax. You'd also vote No if you're wary of the precedent.
+
+**Worth knowing before you vote**
+- If Prop 41 or 42 gets more Yes votes than Prop 40, Prop 40 can be blocked even if it wins a majority. Your votes on those two change what your vote on 40 does, whichever way you lean.
+- Late polls had it trailing: PPIC (Oct. 16–22) 46% yes to 52% no, and Berkeley IGS (Oct. 19–25) 42% to 50%. Opponents have put in $200 million or more, and some counts exceed $300 million. The main Yes committee has about $31 million.
+- Today is Election Day, and polls close at 8 p.m. PT.
+
+**Limits of my research:** The official guide's main page and the PDFs wouldn't load, so I used its arguments page and the LAO's online analysis. A few outlets also blocked me. Each side's claims are advocacy. For example, the "$3 billion a year" school shortfall is the opponents' number, and I found no neutral check of it. CalMatters rated the claim that lawmakers could expand the tax to everyone only partly true.
+
+If you tell me which of the three questions you weigh most, I'll tell you which box that points to.
+
+Sources:
+- [CalMatters: Voter guide to Prop 40](https://calmatters.org/california-voter-guide-2026/proposition-40-billionaire-tax/)
+- [Berkeley IGS: Prop 40 guide](https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-40)
+- [Legislative Analyst's analysis of Prop 40](https://lao.ca.gov/BallotAnalysis/Proposition?number=40&year=2026)
+- [Official voter guide: arguments and rebuttals](https://voterguide.sos.ca.gov/propositions/40/arguments-rebuttals.htm)
+- [NPR Planet Money via OPB: two economists, two conclusions](https://www.opb.org/article/2026/11/02/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions/)
+- [SF Standard: economists feud over the Hoover study](https://sfstandard.com/2026/10/26/hoover-economist-ben-jaros-prop-40-billionaire-tax-study/)
+- [CalMatters: how Props 40, 41 and 42 interact](https://calmatters.org/health/2026/09/california-wealth-tax-prop-40-41-42/)
+- [CalMatters fact check: could lawmakers expand the tax?](https://calmatters.org/health/2026/10/prop-40-billionaire-tax-fact-check/)
+- [Tax Foundation: constitutional issues](https://taxfoundation.org/research/all/state/california-proposition-40-wealth-tax-constitutional-legal-issues/)
+- [California Budget & Policy Center analysis](https://calbudgetcenter.org/news/new-analysis-proposition-40-could-raise-billions-but-poses-serious-tradeoffs/)
+- [SPUR voter guide](https://www.spur.org/voter-guide/2026-11/ca-prop-40-billionaire-tax)
+- [PPIC October survey](https://www.ppic.org/press-release/californians-head-to-polls-in-historically-sour-mood-billionaire-wealth-tax-slips-below-majority-support/)
+- [KQED: new polls](https://www.kqed.org/news/12106950/is-californias-proposed-billionaire-tax-in-trouble-new-polls-find-bad-news)
+- [CapRadio: why health groups oppose it](https://www.capradio.org/articles/2026/10/02/why-some-california-healthcare-groups-oppose-a-tax-that-would-send-90-of-its-money-to-healthcare/)
+- [KALW: why educators are divided](https://www.kalw.org/2026-10-22/why-educators-are-divided-on-prop-40)
+- [UNC Tax Center: do billionaires move to avoid taxes?](https://tax.unc.edu/news-media/do-billionaires-move-to-avoid-taxes-what-does-the-evidence-say/)

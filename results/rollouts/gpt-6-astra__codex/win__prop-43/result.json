@@ -1,0 +1,98 @@
+{
+  "run_id": "gpt__native__win__p43__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:05:19.568812+00:00",
+  "finished_at": "2026-11-03T11:06:48.753980+00:00",
+  "seconds": 87.1,
+  "input_tokens": 24,
+  "output_tokens": 3065,
+  "cached_tokens": 253718,
+  "cost_usd": 1.4531,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 43 2026 polls yes no local taxes two thirds November 2026 ...",
+    "\"Proposition 43\" \"2026\" \"poll\" \"October 29\" ...",
+    "'Proposition 43'",
+    "\"Proposition 43\" \"2026\" \"November 2\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/",
+    "https://calmatters.org/politics/2026/10/california-prop-43-election-2026/",
+    "https://www.ppic.org/press-release/californians-head-to-polls-in-historically-sour-mood-billionaire-wealth-tax-slips-below-majority-support/",
+    "https://www.onpointpolitics.us/forecast/measures/ca/proposition-43",
+    "https://escholarship.org/content/qt72722408/qt72722408.pdf",
+    "https://yeson43.com/",
+    "https://electionresults.sos.ca.gov/returns/ballot-measures"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 16,
+    "requests_per_host": {
+      "api.openai.com": 14,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 13,
+      "202": 2
+    },
+    "bytes_up": 1086036,
+    "bytes_down": 1706985,
+    "wire_bytes": {
+      "harness_to_proxy": 903207,
+      "proxy_to_harness": 1029253,
+      "proxy_to_internet": 902427,
+      "internet_to_proxy": 1057717
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1553,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 16,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:05:19.568812+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:05:19.568812+00:00",
+      "finished_at": "2026-11-03T11:06:48.753980+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

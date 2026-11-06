@@ -1,0 +1,57 @@
+I'm not going to give you a bare yes or no on this one. Whether tax money should pay for campaigns is a values question, people who usually agree are split on it, and it's your vote. The research does make the choice simple, though:
+
+- **Vote YES** if you think cities, counties and the state should be allowed to *try* public campaign financing, and you're comfortable letting them design the details.
+- **Vote NO** if you object to tax money funding campaigns on principle, or you think this measure leaves too much up to the politicians who would benefit from it.
+
+**If you're torn:** Prop 4 mostly just grants permission. Would you trust your city council, county board and the Legislature to build a good program? If so, that points to yes. If not, no.
+
+## What it actually does (Nov 3 ballot)
+- **Repeals the 1988 ban (Prop 73)** on public campaign financing for the state, counties, general-law cities and districts. Charter cities like LA, SF, Oakland, Long Beach and Berkeley are already exempt and already run programs.
+- **Creates no program and spends nothing on campaigns by itself.** Any program would come later, through a law, ordinance or city charter.
+- **Rules any program must follow:**
+  - Candidates must show broad support through small donations or vouchers, and must accept spending limits.
+  - No money set aside for schools, transportation or public safety can be used.
+  - Programs can't favor a party or incumbents.
+  - Public money can't pay legal fees or fines, or repay loans candidates made to their own campaigns.
+- **What it leaves out:** There's no cap on how many candidates get money, how much they get, or what a program costs in total. No independent enforcement is required; the state's ethics watchdog (FPPC) is specifically not responsible for local programs. Candidates don't have to qualify for the ballot before getting money. Local programs could add any of these rules.
+- **Foreign donations:** It raises the maximum fine for illegal foreign contributions from 1x to 3x the amount. These donations are already banned under state and federal law. The ban applies to non-citizens without green cards, and DACA recipients are excluded.
+- **Cost:** The state would spend a few hundred thousand dollars a year on FPPC advice. The nonpartisan Legislative Analyst says actual programs "could be significant." For scale, LA's program costs about $15M per two-year cycle, and SF paid candidates $8.8M in 2024.
+
+## Best case for YES
+- Supporters say California is the only state with a ban like this. I couldn't find an independent check of that claim.
+- The evidence that it brings more people in is fairly good. After Seattle introduced vouchers, donors per race rose about 350% and the number of candidates rose 86%. New York City's matching funds brought in a more diverse donor pool. Arizona and Maine saw more competitive races.
+- Nothing happens unless a community chooses to opt in.
+- **Supporters:** Gov. Newsom, the state Democratic Party, League of Women Voters, Common Cause, ACLU, California Nurses Association, SPUR and the Sacramento Bee.
+
+## Best case for NO
+- Your taxes could fund candidates you oppose, while local budgets are already tight.
+- Critics call it a "blank check": the people who benefit write the rules, and enforcement isn't guaranteed.
+- There's little evidence it reduces the influence of big money (federal GAO, Seattle and Oakland studies). It can't limit super PACs or self-funded candidates. SF's record $8.8M in public funds in 2024 came alongside a record $19M in outside spending.
+- MALDEF, a Latino civil rights group, opposes it because of the foreign-donor fine, which it calls "scapegoating" of immigrants.
+- Voters rejected similar measures in 2000, 2006 and 2010.
+- **Opponents:** The state Republican Party, Howard Jarvis Taxpayers Association, California Taxpayers Association, California Hispanic Chambers of Commerce and a former FPPC chair. Editorial boards against it include the SF Chronicle, Mercury News, San Diego Union-Tribune, OC Register/LA Daily News and Press Democrat.
+
+**What it really comes down to:** Several of the "no" editorials, including the Chronicle's, say public financing isn't a bad idea in itself. Their complaint is that this measure has weak safeguards. So your choice is between approving the idea now and fixing the details locally, or holding out for a better-written measure.
+
+PPIC's late-October poll had it at 45% yes and 52% no. The yes side has raised roughly $0.75–1M, and no committee has formed to oppose it.
+
+If you tell me which of these matters most to you, I'll tell you whether it points to yes or no.
+
+**Sources:**
+- [Official voter guide: arguments and rebuttals](https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm)
+- [Legislative Analyst's Office analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=4&year=2026)
+- [Prop 4 legal text (GrowSF)](https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-4/legal-text/)
+- [CalMatters explainer](https://calmatters.org/politics/2026/10/california-proposition-4-explainer/)
+- [CalMatters voter guide](https://calmatters.org/california-voter-guide-2026/proposition-4-public-fundraising/)
+- [LAist](https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-4)
+- [California Today guide](https://californiatoday.com/guides/elections/2026-california-proposition-4-guide/)
+- [Legisus](https://legisus.org/california-propositions/2026-11-03-prop-4)
+- [KQED](https://www.kqed.org/voterguide/california/proposition-4)
+- [CityHallPass](https://cityhallpass.com/election-2026/measures/prop-04)
+- [SPUR (yes)](https://www.spur.org/voter-guide/2026-11/ca-prop-4-campaign-financing)
+- [SF Chronicle (no)](https://www.sfchronicle.com/opinion/editorials/article/endorsement-prop-4-public-financing-22426379.php)
+- [Press Democrat (no)](https://www.pressdemocrat.com/2026/09/18/pd-endorsement-no-on-prop-4-taxpayer-dollars-should-not-support-campaigns/)
+- [MALDEF (no)](https://www.maldef.org/resources/california-2026-ballot-recommendations/)
+- [PPIC October survey](https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/)
+- [Hall (2014), polarization study](https://stanforddpl.org/papers/hall_public_funding_2014/hall_public_funding_2014.pdf)
+- [Brennan Center](https://www.brennancenter.org/our-work/research-reports/benefits-public-financing-and-myth-polarized-small-donors)

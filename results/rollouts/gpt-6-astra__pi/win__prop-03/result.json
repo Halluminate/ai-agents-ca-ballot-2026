@@ -1,0 +1,115 @@
+{
+  "run_id": "gpt__common__win__p3__r1",
+  "model": "gpt",
+  "model_id": "openai/gpt-6-astra",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "3",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T04:58:36.603766+00:00",
+  "seconds": 62.0,
+  "input_tokens": 76072,
+  "output_tokens": 1713,
+  "cached_tokens": 114654,
+  "cost_usd": 1.181,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 3 right to marry 2024 polling results yes no",
+    "2026 California permanent Proposition 55 income tax extension polling schools health care",
+    "California 2026 Proposition 3 permanent tax high incomes polling YesProp3CA",
+    "California Proposition 3 2026 October poll Berkeley IGS 54 37 campaign spending opposition",
+    "California Proposition 55 2016 results 63.3 2012 Proposition 30 55.4",
+    "\"Proposition 3\" \"2026\" \"poll\" November October 30 31"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/3/",
+    "https://voterguide.sos.ca.gov/propositions/3/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+    "https://www.ppic.org/press-release/californians-head-to-polls-in-historically-sour-mood-billionaire-wealth-tax-slips-below-majority-support/",
+    "https://www.sfgate.com/politics/article/proposition-3-elections-22501511.php",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+    "https://calmatters.org/politics/2026/10/tax-propositions-ballot-measures/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://calmatters.org/politics/elections/2026/10/prop-3-california/",
+    "https://escholarship.org/uc/item/72722408",
+    "https://escholarship.org/content/qt1vp9q3f9/qt1vp9q3f9.pdf",
+    "https://calmatters.org/california-voter-guide-2026/proposition-3-high-income-tax/",
+    "https://www.sos.ca.gov/campaign-lobbying/cal-access-resources/measure-contributions/2026-ballot-measure-contribution-totals",
+    "https://www.ppic.org/wp-content/uploads/crosstabs-likely-voters-1026.pdf",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-3",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-3-provides-permanent-funding-schools-and-healthcare-extending-existing-tax-high-incomes-initiative-constitutional-am",
+    "https://votenoprop3.com/"
+  ],
+  "tool_errors": 2,
+  "warnings": [],
+  "network": {
+    "requests": 18,
+    "requests_per_host": {
+      "openrouter.ai": 12,
+      "calmatters.org": 2,
+      "escholarship.org": 2,
+      "www.sos.ca.gov": 2
+    },
+    "hosts": [
+      "calmatters.org",
+      "escholarship.org",
+      "openrouter.ai",
+      "www.sos.ca.gov"
+    ],
+    "status_counts": {
+      "200": 15,
+      "301": 1,
+      "403": 2
+    },
+    "bytes_up": 833556,
+    "bytes_down": 419646,
+    "wire_bytes": {
+      "harness_to_proxy": 872023,
+      "proxy_to_harness": 479176,
+      "proxy_to_internet": 866526,
+      "internet_to_proxy": 529630
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "www.sos.ca.gov",
+        "url": "https://www.sos.ca.gov/campaign-lobbying/cal-access-resources/measure-contributions/2026-ballot-measure-contribution-totals",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 19,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

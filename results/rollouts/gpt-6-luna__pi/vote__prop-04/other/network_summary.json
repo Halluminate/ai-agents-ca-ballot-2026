@@ -1,0 +1,78 @@
+{
+  "requests": 85,
+  "requests_per_host": {
+    "openrouter.ai": 67,
+    "www.gao.gov": 7,
+    "vigarchive.sos.ca.gov": 2,
+    "lao.ca.gov": 1,
+    "vig.cdn.sos.ca.gov": 1,
+    "www.latimes.com": 1,
+    "www.dailynews.com": 1,
+    "calmatters.org": 1,
+    "voterguide.sos.ca.gov": 1,
+    "leginfo.legislature.ca.gov": 1,
+    "www.campaignlegal.org": 1,
+    "campaignlegal.org": 1
+  },
+  "hosts": [
+    "calmatters.org",
+    "campaignlegal.org",
+    "lao.ca.gov",
+    "leginfo.legislature.ca.gov",
+    "openrouter.ai",
+    "vig.cdn.sos.ca.gov",
+    "vigarchive.sos.ca.gov",
+    "voterguide.sos.ca.gov",
+    "www.campaignlegal.org",
+    "www.dailynews.com",
+    "www.gao.gov",
+    "www.latimes.com"
+  ],
+  "status_counts": {
+    "200": 84,
+    "301": 1
+  },
+  "bytes_up": 4720022,
+  "bytes_down": 50755367,
+  "wire_bytes": {
+    "harness_to_proxy": 4903834,
+    "proxy_to_harness": 51182264,
+    "proxy_to_internet": 4876037,
+    "internet_to_proxy": 51413202
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "connect_error",
+      "host": "ethics.sf.gov",
+      "error": null
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "ethics.sf.gov",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 108,
+      "bytes_down": 276,
+      "duration": 0.0906,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 86,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

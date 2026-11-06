@@ -1,0 +1,111 @@
+{
+  "run_id": "luna__common__vote__p42__r1",
+  "model": "luna",
+  "model_id": "openai/gpt-6-luna",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "42",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:07:49.968692+00:00",
+  "finished_at": "2026-11-03T13:09:04.497363+00:00",
+  "seconds": 71.7,
+  "input_tokens": 83447,
+  "output_tokens": 4570,
+  "cached_tokens": 76684,
+  "cost_usd": 0.1153,
+  "cost_source": "reported",
+  "billed_usd": 0.11534274615999998,
+  "searches": [
+    "California billionaire tax 2026 initiative Proposition 42 wealth tax legislative analysis",
+    "California 2026 Proposition 42 personal property retroactive tax initiative analysis 2026 billionaire tax",
+    "California Prop 42 2026 yes no campaign billionaire wealth tax personal property tax analysis",
+    "California Prop 42 ballot measure sponsors funding billionaire tax 2026",
+    "2026 California Proposition 42 fiscal impact personal property taxes retroactive tax",
+    "California Prop 42 supporters funding Sergey Brin 2026 contributions official campaign donor details",
+    "California 2026 Prop 42 full text Section retroactive tax exceptions emergency personal property exact language",
+    "California Prop 42 analysis retirement accounts taxation state wealth tax retroactive legal expert",
+    "California Prop 42 editorial no yes endorsement 2026 personal property tax ban long-term fiscal effects",
+    "California Proposition 40 2026 official LAO tax 5 percent revenue legal retroactivity estimate",
+    "Prop 42 California bar retroactive tax concerns tax avoidance retroactivity future",
+    "California proposals wealth tax retirement accounts pensions 401k 2021 2022 2023 bills AB 2593 AB",
+    "What is an economic analysis of wealth taxes California Prop 40 LAO billionaire tax revenue estimate Hoover study 2026",
+    "California six proposals tax 401k retirement accounts bills asset tax Prop 42 2026 proposals legislative",
+    "California retroactive tax constitutional law 1993 Supreme Court retroactive taxation US v Carlton legislative justification",
+    "Proposition 42 legal implications emergency tax initiative law retroactive law 2026 California legal scholars",
+    "California tax personal property assets state taxes no wealth tax existing property taxes vehicle business equipment source 2026",
+    "Prop 42 California past bills tax retirement savings bills five proposals details 2026",
+    "Prop 42 California California Democratic Party endorsement no yes 2026 firefighters State Building Construction Trades endorsement",
+    "Prop 40 excludes 401k pensions retirement accounts Roth IRAs 10 million details Proposition 42 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/42/",
+    "https://voterguide.sos.ca.gov/propositions/42/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/42/title-summary.htm",
+    "https://voterguide.sos.ca.gov/propositions/42/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-text-proposed-laws.pdf",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=42&year=2026",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=40&year=2026",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-42-prohibits-new-state-personal-property-taxes-and-certain-retroactive-state-taxes-initiative-constitutional-amendme"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 25,
+    "requests_per_host": {
+      "openrouter.ai": 25
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 25
+    },
+    "bytes_up": 795884,
+    "bytes_down": 722916,
+    "wire_bytes": {
+      "harness_to_proxy": 848650,
+      "proxy_to_harness": 806166,
+      "proxy_to_internet": 840228,
+      "internet_to_proxy": 868944
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 25,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:07:49.968692+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:07:49.968692+00:00",
+      "finished_at": "2026-11-03T13:09:04.497363+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

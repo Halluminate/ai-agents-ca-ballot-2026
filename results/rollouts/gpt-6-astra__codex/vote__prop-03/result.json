@@ -1,0 +1,97 @@
+{
+  "run_id": "gpt__native__vote__p3__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "3",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T10:52:03.736855+00:00",
+  "finished_at": "2026-11-03T10:53:56.386244+00:00",
+  "seconds": 110.4,
+  "input_tokens": 36,
+  "output_tokens": 4104,
+  "cached_tokens": 535156,
+  "cost_usd": 2.0683,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "'PROPOSITION 3'",
+    "California Proposition 3 2026 permanent income tax analysis LAO schools health care ...",
+    "site.caltax.org 2026 Proposition 3 permanent income tax ...",
+    "Cristobal Young Ithai Lurie 2025 millionaires migration state income tax reform pandemic study ...",
+    "site.lao.ca.gov 2026 27 budget structural deficit high income tax revenue risk ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/3/",
+    "https://www.aeaweb.org/articles?id=10.1257/pol.20200500",
+    "https://taxfoundation.org/research/state-tax/2026-state-tax-ballot-measures/",
+    "https://trackprop55.sco.ca.gov/",
+    "https://www.aeaweb.org/articles?id=10.1257/app.20220279"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 18,
+    "requests_per_host": {
+      "api.openai.com": 16,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 15,
+      "202": 2
+    },
+    "bytes_up": 1205270,
+    "bytes_down": 2284499,
+    "wire_bytes": {
+      "harness_to_proxy": 938099,
+      "proxy_to_harness": 1354255,
+      "proxy_to_internet": 936659,
+      "internet_to_proxy": 1386488
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1670,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 18,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:52:03.736855+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:52:03.736855+00:00",
+      "finished_at": "2026-11-03T10:53:56.386244+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

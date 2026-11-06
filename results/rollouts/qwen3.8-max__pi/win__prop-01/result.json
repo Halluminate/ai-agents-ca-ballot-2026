@@ -1,0 +1,106 @@
+{
+  "run_id": "qwen-max__common__win__p1__r1",
+  "model": "qwen-max",
+  "model_id": "qwen/qwen3.8-max-0902",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "1",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:49:19.297233+00:00",
+  "finished_at": "2026-11-03T12:50:34.559507+00:00",
+  "seconds": 72.5,
+  "input_tokens": 28137,
+  "output_tokens": 1403,
+  "cached_tokens": 46976,
+  "cost_usd": 0.1069,
+  "cost_source": "reported",
+  "billed_usd": 0.10690403000000001,
+  "searches": [
+    "California Proposition 1 2024 mental health bond result yes no",
+    "California Proposition 1 November 2026 $11.25 billion housing affordability bond",
+    "California 2026 ballot measures polls housing bond Proposition 1",
+    "\"Proposition 1\" 2026 California housing bond poll survey support opposition",
+    "No on Prop 1 California 2026 housing bond opposition campaign",
+    "California Prop 1 2026 housing bond poll survey support",
+    "opponents of California Proposition 1 2026 Veterans and Affordable Housing Bond",
+    "PPIC October 2026 survey ballot measures Prop 1 60% yes likely voters",
+    "\"Prop 1\" California housing bond November 2026 forecast likely to pass prediction"
+  ],
+  "search_errors": 2,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/1/"
+  ],
+  "tool_errors": 2,
+  "warnings": [],
+  "network": {
+    "requests": 12,
+    "requests_per_host": {
+      "openrouter.ai": 12
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 12
+    },
+    "bytes_up": 306280,
+    "bytes_down": 203362,
+    "wire_bytes": {
+      "harness_to_proxy": 332442,
+      "proxy_to_harness": 242454,
+      "proxy_to_internet": 328198,
+      "internet_to_proxy": 273376
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 13,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:49:19.297233+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:49:19.297233+00:00",
+      "finished_at": "2026-11-03T12:50:34.559507+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "run_id": "qwen-max-prime__common__vote__p45__r1",
+  "model": "qwen-max-prime",
+  "model_id": "qwen/qwen3.8-max-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "45",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "first_line",
+  "error": "",
+  "started_at": "2026-11-03T13:31:06.510795+00:00",
+  "finished_at": "2026-11-03T13:33:50.812530+00:00",
+  "seconds": 161.5,
+  "input_tokens": 126398,
+  "output_tokens": 9031,
+  "cached_tokens": 753536,
+  "cost_usd": 1.0264,
+  "cost_source": "reported",
+  "billed_usd": 1.0263653622,
+  "searches": [
+    "California Proposition 45 voter guide",
+    "Proposition 45 2026 CEQA editorial endorsement recommend vote",
+    "\"Prop 45\" data centers CEQA 2026 \"broadband\" loophole",
+    "Proposition 45 CEQA poll October 2026 support oppose data centers",
+    "League of Women Voters California \"Proposition 45\" oppose position statement 2026",
+    "Los Angeles Times editorial board Proposition 45 November 2026 \"no\" OR \"yes\" opinion",
+    "Public Resources Code 21183.5 skilled and trained workforce prevailing wage project labor agreement requirements",
+    "Yes on Prop 45 response tribes not federally recognized consultation criticism"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/45/",
+    "https://voterguide.sos.ca.gov/propositions/45/analysis.htm",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-45-environmental-review",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+    "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-45-ceqa-housing-data-center-voter-guide",
+    "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-45-ceqa-housing-data-center-voter-guide",
+    "https://project-voter-guide-2026.interactives.calmatters.org/general/en/campaign-finance/prop/45",
+    "https://www.sfchronicle.com/politics/joegarofoli/article/prop-45-ceqa-california-22486002.php",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+    "https://www.latimes.com/california/newsletter/2026-10-19/skelton-monday-politics-newsletter-prop-45-ceqa",
+    "https://www.latimes.com/california/newsletter/2026-10-19/skelton-monday-politics-newsletter-prop-45-ceqa",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-45",
+    "https://calmatters.org/california-voter-guide-2026/proposition-45-environmental-review/",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-45-ceqa-california-22468905.php",
+    "https://calmatters.org/environment/2026/10/prop-45-california-ceqa-explained/",
+    "https://www.sacbee.com/opinion/election-endorsements/article317475362.html",
+    "https://www.sacbee.com/news/politics-government/capitol-alert/article317804297.html",
+    "https://www.latimes.com/environment/story/2026-10-28/prop-45-would-bar-dozens-of-tribes-from-consulting-on-development-projects"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 22,
+    "requests_per_host": {
+      "openrouter.ai": 22
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 22
+    },
+    "bytes_up": 3608962,
+    "bytes_down": 1094195,
+    "wire_bytes": {
+      "harness_to_proxy": 3654419,
+      "proxy_to_harness": 1185099,
+      "proxy_to_internet": 3648297,
+      "internet_to_proxy": 1232483
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 20,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:31:06.510795+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:31:06.510795+00:00",
+      "finished_at": "2026-11-03T13:33:50.812530+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

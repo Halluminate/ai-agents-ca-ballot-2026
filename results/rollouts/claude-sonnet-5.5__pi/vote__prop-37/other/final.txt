@@ -1,0 +1,22 @@
+**Yes.**
+
+This is a close call. I'm choosing yes because the downside is small and mostly correctable, and the upside is real but modest. I'm not confident the program will work.
+
+**Why yes**
+- **Taxpayers have little exposure.** The Legislative Analyst finds "no direct state or local costs," and the measure says the bonds are not a debt of the state. If investors won't buy the bonds or buyers don't want the loans, the likeliest result is that not much happens. The California Budget & Policy Center's director is skeptical of the measure. He still said, "the state's not really on the hook." The real tail risk is political pressure for a bailout in a severe downturn.
+- **It's better designed than most down-payment aid.** The loans work only on new construction, so they target supply instead of just adding bidders for existing homes. The optional builder track also changes construction-defect rules. SPUR, the Terner Center and YIMBY groups have urged changes of that kind, and the Legislature's own condo-defect bill (AB 1903) died this session.
+- **Buyers get some protections.** Loans must be fixed-rate with no prepayment penalty and capped fees, and there's an annual audit. Reaching 20% equity avoids mortgage insurance. The Legislature can amend the measure with a vote of more than 60% in each house, if the change fits the measure's purposes.
+
+**Why it's not a slam dunk**
+- **The interest rate isn't known until after the vote.** Second-mortgage bonds are riskier for investors, so rates could exceed first-mortgage rates. "Below-market" depends on philanthropic investors buying the bonds at about 3%, and the sponsor won't name them. The 190,000-homes estimate comes from a campaign-commissioned analysis, and its author concedes the figure is at the high end.
+- **Its reach is limited at current rates.** The Public Policy Institute of California (PPIC) found that at about 7% mortgage rates, many renters couldn't afford even an entry-level new home. PPIC estimates $25 billion would fund full 17% loans for roughly 113,000 to 560,000 buyers. California has a gap of about 1.35 million owner households.
+- **Targeting is loose.** Incomes up to 200% of area median qualify, and buyers don't have to be first-timers. The League of Women Voters, SPUR and the Budget Center flag equity concerns. If builders don't respond, it could push up new-home prices (the Mercury News/East Bay Times editorial board and California YIMBY both raise this).
+- **Some provisions favor the backers.** The measure caps attorney contingency fees at 30% in defect suits and requires buyers to use a licensed real-estate agent. It also exempts these loans from a 2025 protection for borrowers with dormant second mortgages. The yes side raised about $33–35 million, mostly from Realtors, carpenters' unions and a Sergey Brin-funded PAC. No opposition money has been reported.
+
+**Where others land:**
+- **Yes:** Gov. Newsom, the California Democratic Party, SPUR, the SF Chronicle and the McClatchy papers.
+- **No:** the League of Women Voters, the San Diego Union-Tribune, the OC Register and the Mercury News/East Bay Times.
+- **Neutral:** California YIMBY and the California Republican Party.
+- **Polling:** PPIC's latest poll has it at 65% yes, 32% no.
+
+If you care more about targeting aid to lower-income buyers, limiting borrower debt, or preserving homeowners' legal leverage than about the "little to lose" argument, a no vote is defensible.

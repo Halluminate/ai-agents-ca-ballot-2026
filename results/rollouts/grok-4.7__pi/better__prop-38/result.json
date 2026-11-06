@@ -1,0 +1,101 @@
+{
+  "run_id": "grok__common__better__p38__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T04:56:41.226912+00:00",
+  "seconds": 76.1,
+  "input_tokens": 62143,
+  "output_tokens": 3882,
+  "cached_tokens": 44032,
+  "cost_usd": 0.1951,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 38 voter guide yes or no analysis",
+    "Proposition 38 California 2026 California Institute for Immunology and Immunotherapy billionaire UCLA earmark criticism",
+    "Proposition 38 2026 editorial endorsements yes no Sacramento Bee LA Times CalMatters",
+    "CIRM Proposition 71 14 outcomes revenue return taxpayers criticism governance",
+    "California budget deficit 2026 general fund bond debt capacity Proposition 38 fiscal impact"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/38/",
+    "https://voterguide.sos.ca.gov/propositions/38/analysis.htm",
+    "https://www.lao.ca.gov/BallotAnalysis/Proposition?number=38&year=2026",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38-text-proposed-laws.pdf",
+    "https://calmatters.org/politics/elections/2026/10/prop-38-california/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38-text-proposed-laws.pdf",
+    "https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm",
+    "https://calmatters.org/politics/elections/2026/07/proposition-38-california/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 13,
+    "requests_per_host": {
+      "openrouter.ai": 10,
+      "calmatters.org": 2,
+      "www.lao.ca.gov": 1
+    },
+    "hosts": [
+      "calmatters.org",
+      "openrouter.ai",
+      "www.lao.ca.gov"
+    ],
+    "status_counts": {
+      "200": 13
+    },
+    "bytes_up": 489549,
+    "bytes_down": 419717,
+    "wire_bytes": {
+      "harness_to_proxy": 517479,
+      "proxy_to_harness": 467485,
+      "proxy_to_internet": 513298,
+      "internet_to_proxy": 501766
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 14,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

@@ -1,0 +1,125 @@
+{
+  "run_id": "qwen-max__common__win__p45__r1",
+  "model": "qwen-max",
+  "model_id": "qwen/qwen3.8-max-0902",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "45",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:50:13.805270+00:00",
+  "finished_at": "2026-11-03T10:55:08.671429+00:00",
+  "seconds": 292.1,
+  "input_tokens": 91517,
+  "output_tokens": 6371,
+  "cached_tokens": 486528,
+  "cost_usd": 0.4291,
+  "cost_source": "reported",
+  "billed_usd": 0.42914047456,
+  "searches": [
+    "California Proposition 45 voter guide sos.ca.gov",
+    "Prop 45 November 2026 CEQA reform ballot measure polling",
+    "California Proposition 45 2026 CEQA poll",
+    "\"Prop 45\" poll October 2026 likely voters yes no CEQA latest",
+    "Berkeley IGS poll October 2026 California ballot propositions Prop 45 results",
+    "Probolsky Research \"Yes on Prop 45\" leads thin margin October 2026",
+    "IGS poll October 2026 \"Proposition 45\" likely voters percent DiCamillo environmental review",
+    "\"Prop 45\" endorsements editorial no vote LA Times SF Chronicle November 2026",
+    "Prop 45 CEQA election November 2 2026 forecast likely to pass analysis",
+    "\"Proposition 45\" CEQA poll November 2026 final survey yes no lead",
+    "California Proposition 45 news November 2 2026",
+    "Prop 45 labor unions split State Building and Construction Trades Council California CEQA 2026 position",
+    "Prop 45 campaign finance total raised Yes on 45 No on Prop 45 committees FPPC October 2026 millions",
+    "Politico California Playbook Prop 45 prediction will it pass analysts November 2026 \"too close to call\"",
+    "Citrin POLITICO poll California October 2026 Proposition 45 results likely voters",
+    "California November 2026 ballot measures predictions which will pass Prop 45 analysts lean",
+    "\"Prop 45\" internal poll Yes campaign October 2026 leads CEQA \"internal\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/45/",
+    "https://escholarship.org/content/qt1vp9q3f9/qt1vp9q3f9.pdf",
+    "https://www.probolskyresearch.com/2026-10-27/yes-on-prop-45-leads-by-a-thin-margin/",
+    "https://southbaychronicle.com/2026-11-01/prop-45-final-weekend-polls-ppic-probolsky-bay-area-ceqa/",
+    "https://onpointpolitics.us/forecast/measures/ca/proposition-45",
+    "https://www.pollingforecast.com/us/news/113/voters-face-145-ballot-questions-and-only-25-have-a-poll",
+    "https://www.pollingforecast.com/us/news/113/voters-face-145-ballot-questions-and-only-25-have-a-poll",
+    "https://defirate.com/odds/california-props/"
+  ],
+  "tool_errors": 1,
+  "warnings": [],
+  "network": {
+    "requests": 37,
+    "requests_per_host": {
+      "openrouter.ai": 31,
+      "www.probolskyresearch.com": 2,
+      "southbaychronicle.com": 2,
+      "escholarship.org": 1,
+      "www.pollingforecast.com": 1
+    },
+    "hosts": [
+      "escholarship.org",
+      "openrouter.ai",
+      "southbaychronicle.com",
+      "www.pollingforecast.com",
+      "www.probolskyresearch.com"
+    ],
+    "status_counts": {
+      "200": 34,
+      "301": 2,
+      "403": 1
+    },
+    "bytes_up": 2296361,
+    "bytes_down": 963154,
+    "wire_bytes": {
+      "harness_to_proxy": 2377759,
+      "proxy_to_harness": 1105697,
+      "proxy_to_internet": 2365494,
+      "internet_to_proxy": 1201141
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 38,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:50:13.805270+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:50:13.805270+00:00",
+      "finished_at": "2026-11-03T10:55:08.671429+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

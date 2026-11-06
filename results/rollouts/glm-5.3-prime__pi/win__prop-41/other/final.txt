@@ -1,0 +1,19 @@
+Based on my research, here's what I've found about California Proposition 41 (the November 2026 measure requiring audits of new special taxes and barring new taxes from being exempted from the state spending limit):
+
+**Latest polling (late October 2026):**
+- PPIC (Oct 16–22): **48% Yes / 49% No** — down from 51%–44% *Yes* lead in September
+- UC Berkeley IGS (Oct 19–25): **38% Yes / 47% No** (16% undecided) — down from 37%–33% *Yes* lead in September
+
+Both major pollsters show the measure losing its September lead and now trailing, with clear negative momentum in the final weeks.
+
+**Other factors pointing toward the "No" side:**
+- Only **28% of Democrats** support it (vs. 81% of Republicans) in a California electorate that will be heavily Democratic — Xavier Becerra is winning the governor's race in a ~61–37 landslide, so the turnout composition is unfavorable.
+- Undecided voters (16% in the IGS poll) historically break against ballot measures, especially complex constitutional amendments.
+- Strong institutional opposition: Bernie Sanders, SEIU-UHW, League of Women Voters, LA Times, and McClatchy editorial boards, with the "No" campaign effectively framing it as a "billionaire-funded trick" to undo Prop 40.
+- Prediction markets (Kalshi/Polymarket) put its passage probability below 50% in the final days (~43%), classifying it as "lean fail."
+
+Despite heavy billionaire-funded spending (Sergey Brin, John Doerr), the Yes side's support has eroded below the majority threshold in both final polls, and it trails its companion countermeasure Prop 42.
+
+The "No" side is more likely to win.
+
+**no**

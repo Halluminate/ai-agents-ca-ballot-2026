@@ -1,0 +1,91 @@
+{
+  "run_id": "qwen-max__common__win__p37__r1",
+  "model": "qwen-max",
+  "model_id": "qwen/qwen3.8-max-0902",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "37",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:20:31.242693+00:00",
+  "finished_at": "2026-11-03T13:21:31.401642+00:00",
+  "seconds": 57.5,
+  "input_tokens": 28755,
+  "output_tokens": 1091,
+  "cached_tokens": 34048,
+  "cost_usd": 0.103,
+  "cost_source": "reported",
+  "billed_usd": 0.10299356776,
+  "searches": [
+    "California Proposition 37 2025 poll yes no",
+    "Prop 37 California 2026 homeownership bond opposition campaign funding",
+    "\"Prop 37\" California November 2026 endorsements editorial board middle-income homebuyers",
+    "PPIC October 2026 statewide survey ballot propositions Prop 37 yes no likely voters",
+    "Berkeley IGS poll November 2026 California propositions Prop 37 support likely voters",
+    "\"Proposition 37\" California election 2026 forecast expected to pass November 3"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/37/",
+    "https://cityhallpass.com/election-2026/measures/prop-37"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 11,
+    "requests_per_host": {
+      "openrouter.ai": 11
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 11
+    },
+    "bytes_up": 243851,
+    "bytes_down": 168594,
+    "wire_bytes": {
+      "harness_to_proxy": 267480,
+      "proxy_to_harness": 204687,
+      "proxy_to_internet": 263904,
+      "internet_to_proxy": 231258
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 12,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:20:31.242693+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:20:31.242693+00:00",
+      "finished_at": "2026-11-03T13:21:31.401642+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

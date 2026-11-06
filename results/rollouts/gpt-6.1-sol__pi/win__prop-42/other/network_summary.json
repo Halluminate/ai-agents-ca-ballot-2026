@@ -1,0 +1,77 @@
+{
+  "requests": 28,
+  "requests_per_host": {
+    "openrouter.ai": 21,
+    "escholarship.org": 3,
+    "www.nytimes.com": 1,
+    "kalshi.com": 1,
+    "finance.yahoo.com": 1,
+    "www.coinrithm.com": 1
+  },
+  "hosts": [
+    "escholarship.org",
+    "finance.yahoo.com",
+    "kalshi.com",
+    "openrouter.ai",
+    "www.coinrithm.com",
+    "www.nytimes.com"
+  ],
+  "status_counts": {
+    "200": 23,
+    "403": 4,
+    "429": 1
+  },
+  "bytes_up": 1896492,
+  "bytes_down": 488698,
+  "wire_bytes": {
+    "harness_to_proxy": 1953393,
+    "proxy_to_harness": 575408,
+    "proxy_to_internet": 1945543,
+    "internet_to_proxy": 643131
+  },
+  "byte_counter": true,
+  "errors": 3,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/economy/policy/articles/tax-top-fix-housing-back-144800471.html",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [
+    {
+      "process": "node",
+      "operation": "network-outbound",
+      "target": "remote:*:59407",
+      "attempts": 1
+    }
+  ],
+  "blocked_attempts": 1,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 27,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

@@ -1,0 +1,36 @@
+Whether it is better to vote "yes" or "no" on Proposition 5 is a subjective political decision for voters, not an objective question that can be answered with a simple "yes" or "no." There is no objective consensus, and both sides present significant arguments based on differing principles of governance and democracy.
+
+Here is a summary of the measure and the primary arguments on each side:
+
+---
+
+### What Proposition 5 Does
+Currently, California recall elections for state officers ask two questions on the same ballot:
+1. Should the official be recalled (yes/no)?
+2. Who should replace the official if the recall succeeds?
+
+Under existing rules, if a majority votes to recall the official, the candidate with the highest number of votes in the replacement contest wins—even if they only receive a small plurality in a crowded field.
+
+**Proposition 5** would eliminate the second question from the recall ballot:
+* **Governor:** If recalled, the Lieutenant Governor would assume the governorship for the remainder of the term (or until a special election at the next statewide primary if the recall happens early enough in the term).
+* **Other Statewide Officers:** Vacancies would be filled by gubernatorial appointment under existing succession rules.
+* **State Legislators:** Vacancies would be filled via a subsequent special election.
+
+---
+
+### Arguments in Favor (Vote YES)
+* **Prevents Plurality/Minority Rule:** Under the current system, an official could be recalled narrowly by 50.1% of voters, and a replacement candidate could take office with a small fraction of the vote (e.g., 20–30%) in a crowded field. A "yes" vote ensures that any successor must be chosen through established constitutional succession or win a majority in a subsequent election.
+* **Reduces Partisan Exploitation:** Proponents argue that the current two-question structure encourages political opponents to weaponize recalls as a low-threshold shortcut to gain power without having to win a normal general election.
+* **Separates Removal from Replacement:** Proponents (including the League of Women Voters of California and California Common Cause) argue that recalls should strictly evaluate an incumbent’s conduct or fitness, rather than functioning as an improvised, multi-candidate replacement contest.
+
+---
+
+### Arguments Against (Vote NO)
+* **Limits Voter Choice:** Opponents argue that for over a century, California voters have held the direct power to both remove an official and immediately select their replacement. Prop 5 strips voters of the right to pick a successor on the recall ballot.
+* **Empowers Political Insiders:** For statewide offices, replacements would be determined by politicians (such as gubernatorial appointments or automatic succession by the Lieutenant Governor) rather than directly by voters at the time of the recall.
+* **Delays and Taxpayer Costs:** For legislative offices, leaving the seat vacant until a subsequent special election leaves constituents temporarily unrepresented and requires additional taxpayer-funded election administration.
+* **Candidate Eligibility Concerns:** Opponents (including legislative minority leaders and editorial boards such as the *San Francisco Chronicle* and *The Mercury News*) criticize the provision that allows the recalled official to run again in the subsequent special election to fill the vacancy.
+
+---
+
+Because deciding which of these principles and trade-offs to prioritize is entirely a matter of voter values, neither "yes" nor "no" can be definitively recommended.

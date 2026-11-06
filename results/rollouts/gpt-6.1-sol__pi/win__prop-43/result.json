@@ -1,0 +1,107 @@
+{
+  "run_id": "sol__common__win__p43__r1",
+  "model": "sol",
+  "model_id": "openai/gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:18:21.576971+00:00",
+  "finished_at": "2026-11-03T13:19:09.907944+00:00",
+  "seconds": 44.5,
+  "input_tokens": 62709,
+  "output_tokens": 1218,
+  "cached_tokens": 101321,
+  "cost_usd": 0.2043,
+  "cost_source": "reported",
+  "billed_usd": 0.20430907656,
+  "searches": [
+    "California Proposition 43 2026 polls yes no tax",
+    "California 2026 Proposition 43 two thirds local taxes polling",
+    "California Proposition 43 2026 latest poll November campaign spending support oppose",
+    "site.igs.berkeley.edu \"2026\" \"October\" \"43\" \"36%\"",
+    "\"Proposition 43\" \"2026\" \"poll\" \"support\" \"November 2\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/",
+    "https://voterguide.sos.ca.gov/propositions/43/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.latimes.com/california/story/2026-10-29/support-dwindles-for-wealth-tax-voter-id-ballot-measures-poll-shows",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_43",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.latimes.com/california/story/2026-10-29/support-dwindles-for-wealth-tax-voter-id-ballot-measures-poll-shows",
+    "https://www.fppc.ca.gov/search-filings/top-10-contributors-list/november-2026-general-election/",
+    "https://calmatters.org/politics/2026/10/tax-propositions-ballot-measures/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-43-tax-threshold/",
+    "https://www.hjta.org/saveprop13/",
+    "https://www.noprop43ca.com/",
+    "https://escholarship.org/content/qt72722408/qt72722408.pdf"
+  ],
+  "tool_errors": 1,
+  "warnings": [
+    "warning: reasoning was not replayed on an assistant turn"
+  ],
+  "network": {
+    "requests": 12,
+    "requests_per_host": {
+      "openrouter.ai": 11,
+      "escholarship.org": 1
+    },
+    "hosts": [
+      "escholarship.org",
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 11,
+      "403": 1
+    },
+    "bytes_up": 703390,
+    "bytes_down": 159735,
+    "wire_bytes": {
+      "harness_to_proxy": 727424,
+      "proxy_to_harness": 195869,
+      "proxy_to_internet": 724119,
+      "internet_to_proxy": 222087
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 12,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:18:21.576971+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:18:21.576971+00:00",
+      "finished_at": "2026-11-03T13:19:09.907944+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

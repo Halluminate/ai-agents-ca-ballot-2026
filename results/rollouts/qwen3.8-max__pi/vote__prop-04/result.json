@@ -1,0 +1,116 @@
+{
+  "run_id": "qwen-max__common__vote__p4__r1",
+  "model": "qwen-max",
+  "model_id": "qwen/qwen3.8-max-0902",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:25:27.512739+00:00",
+  "finished_at": "2026-11-03T13:29:37.017474+00:00",
+  "seconds": 246.7,
+  "input_tokens": 85622,
+  "output_tokens": 6516,
+  "cached_tokens": 235776,
+  "cost_usd": 0.3201,
+  "cost_source": "reported",
+  "billed_usd": 0.32010331464,
+  "searches": [
+    "California Proposition 4 2024 climate bond $10 billion arguments for against",
+    "California Proposition 4 2026 public financing of election campaigns repeal ban",
+    "California Proposition 4 2026 poll IGS Berkeley public campaign financing survey",
+    "\"Proposition 4\" 2026 California editorial endorsements public campaign financing yes no",
+    "\"Yes on Proposition 4\" 2026 California Fair Elections Act campaign funding major contributors",
+    "Los Angeles Times editorial board Proposition 4 2026 public campaign financing recommendation",
+    "Prop 4 2026 California opposition incumbents self-interest legislature could create statewide program cost taxpayers",
+    "public campaign financing fraud abuse problems candidates scandals audit matching funds",
+    "GAO report public financing of campaigns 2024 Arizona Los Angeles Minnesota Montgomery County Seattle results",
+    "\"only state\" ban public financing campaigns California accurate claim fact check Prop 4"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://voterguide.sos.ca.gov/propositions/4/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/4/title-summary.htm",
+    "https://calmatters.org/politics/2026/10/california-proposition-4-explainer/",
+    "https://www.hoover.org/proposition-lab-proposition-4",
+    "https://californiatoday.com/guides/elections/2026-california-proposition-4-guide/",
+    "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB42",
+    "https://www.sos.ca.gov/campaign-lobbying/calaccess-resources/measure-contributions/2026-ballot-measure-contribution-totals",
+    "https://californiatoday.com/guides/elections/2026-california-proposition-4-guide/",
+    "https://www.sfchronicle.com/opinion/editorials/article/endorsement-prop-4-public-financing-22426379.php",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-4-campaign-financing",
+    "https://www.brennancenter.org/our-work/analysis-opinion/california-voters-will-choose-whether-allow-public-campaign-financing"
+  ],
+  "tool_errors": 1,
+  "warnings": [],
+  "network": {
+    "requests": 19,
+    "requests_per_host": {
+      "openrouter.ai": 18,
+      "www.sos.ca.gov": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.sos.ca.gov"
+    ],
+    "status_counts": {
+      "200": 18,
+      "404": 1
+    },
+    "bytes_up": 1362850,
+    "bytes_down": 862507,
+    "wire_bytes": {
+      "harness_to_proxy": 1402903,
+      "proxy_to_harness": 960235,
+      "proxy_to_internet": 1397094,
+      "internet_to_proxy": 1005465
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 19,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:25:27.512739+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:25:27.512739+00:00",
+      "finished_at": "2026-11-03T13:29:37.017474+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "requests": 47,
+  "requests_per_host": {
+    "openrouter.ai": 34,
+    "legal-planet.org": 6,
+    "www.sfchronicle.com": 1,
+    "www.californiapeople.org": 1,
+    "calmatters.org": 1,
+    "www.wsj.com": 1,
+    "www.dailyjournal.com": 1,
+    "lookout.co": 1,
+    "static1.squarespace.com": 1
+  },
+  "hosts": [
+    "calmatters.org",
+    "legal-planet.org",
+    "lookout.co",
+    "openrouter.ai",
+    "static1.squarespace.com",
+    "www.californiapeople.org",
+    "www.dailyjournal.com",
+    "www.sfchronicle.com",
+    "www.wsj.com"
+  ],
+  "status_counts": {
+    "200": 42,
+    "301": 3,
+    "401": 1,
+    "403": 1
+  },
+  "bytes_up": 5782060,
+  "bytes_down": 1988066,
+  "wire_bytes": {
+    "harness_to_proxy": 5884970,
+    "proxy_to_harness": 2202096,
+    "proxy_to_internet": 5871672,
+    "internet_to_proxy": 2318659
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 47,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

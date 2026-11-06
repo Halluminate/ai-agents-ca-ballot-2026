@@ -1,0 +1,100 @@
+{
+  "run_id": "grok__common__vote__p39__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "39",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:16:08.092784+00:00",
+  "seconds": 141.2,
+  "input_tokens": 69841,
+  "output_tokens": 6868,
+  "cached_tokens": 103936,
+  "cost_usd": 0.3042,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 39 voter guide sos.ca.gov",
+    "California Proposition 39 2026 voter ID initiative analysis fiscal impact",
+    "Texas mail ballot ID number rejection rate last four digits 2022 2024",
+    "California Proposition 39 2026 voter ID editorial board recommendations",
+    "voter ID laws effect on turnout systematic review academic evidence 2024 2025",
+    "California voter fraud incidence evidence noncitizen voting 2024 2025 studies",
+    "California 2024 election mail ballot signature rejection rate cured ballots statistics",
+    "California Secretary of State how citizenship verified voter registration DMV SAVE current law",
+    "California Proposition 39 2026 funding donors Transparency Foundation Carl DeMaio who is behind voter ID",
+    "Kansas proof of citizenship voter registration Kobach results eligible citizens blocked",
+    "Proposition 39 ballot title lawsuit Judge ruling Bonta misleading 2026",
+    "Heritage Foundation election fraud database California cases count",
+    "Los Angeles Times endorsement Proposition 39 2026 voter ID",
+    "University of Maryland who lacks ID California 2026 2.7 million voter identification study"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/39/",
+    "https://voterguide.sos.ca.gov/propositions/39/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/39/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/39/title-summary.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-text-proposed-laws.pdf",
+    "https://www.sfchronicle.com/opinion/editorials/article/endorsement-proposition-39-voter-fraud-california-22463918.php"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 21,
+    "requests_per_host": {
+      "openrouter.ai": 20,
+      "www.sfchronicle.com": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.sfchronicle.com"
+    ],
+    "status_counts": {
+      "200": 21
+    },
+    "bytes_up": 796523,
+    "bytes_down": 601236,
+    "wire_bytes": {
+      "harness_to_proxy": 839954,
+      "proxy_to_harness": 680412,
+      "proxy_to_internet": 833612,
+      "internet_to_proxy": 731048
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 21,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

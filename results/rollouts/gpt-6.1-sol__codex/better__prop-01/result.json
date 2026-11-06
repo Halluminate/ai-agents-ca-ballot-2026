@@ -1,0 +1,108 @@
+{
+  "run_id": "sol__native__better__p1__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "1",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:58:06.106397+00:00",
+  "finished_at": "2026-11-03T11:02:20.747201+00:00",
+  "seconds": 252.0,
+  "input_tokens": 75,
+  "output_tokens": 7792,
+  "cached_tokens": 2458136,
+  "cost_usd": 0.9548,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California 2026 Proposition 1 $11.25 billion housing bond analysis opposition ...",
+    "California Proposition 1 2026 housing bond CalMatters opposition ...",
+    "site.hjta.org \"2026\" \"Proposition 1\" ...",
+    "2026 proposition 1 housing bond ...",
+    "site.auditor.ca.gov affordable housing construction costs California tax credit 2020 2024 2026 recommendations ...",
+    "site.hcd.ca.gov \"Proposition 1\" \"2018\" \"units\" \"2025\" ...",
+    "California HCD 2024 2025 annual report Proposition 1 bond 2018 multifamily units outcomes ...",
+    "\"Housing and Community Development\" \"Annual Report\" \"2024-25\" ...",
+    "'Proposition 1 authorizes'",
+    "'When used'",
+    "'2026'",
+    "site.ucsf.edu supportive housing randomized trial Santa Clara 2020 2022 homelessness emergency ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/1/",
+    "https://voterguide.sos.ca.gov/propositions/1/arguments-rebuttals.htm",
+    "https://calmatters.org/housing/homelessness/2026/10/prop-1-housing-bond/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop1-text-proposed-laws.pdf",
+    "https://calmatters.digitaldemocracy.org/hearings/279785",
+    "https://www.rand.org/pubs/research_reports/RRA3743-1.html",
+    "https://www.lao.ca.gov/Publications/Report/5197",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7518819/",
+    "https://homelessness.ucsf.edu/news/randomized-trial-permanent-supportive-housing-chronically-homeless-persons-high-use-publicly"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 32,
+    "requests_per_host": {
+      "api.openai.com": 27,
+      "ab.chatgpt.com": 5
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 26,
+      "202": 5
+    },
+    "bytes_up": 1845278,
+    "bytes_down": 4425856,
+    "wire_bytes": {
+      "harness_to_proxy": 1310638,
+      "proxy_to_harness": 2592794,
+      "proxy_to_internet": 1307425,
+      "internet_to_proxy": 2647851
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2626,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 29,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:58:06.106397+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:58:06.106397+00:00",
+      "finished_at": "2026-11-03T11:02:20.747201+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

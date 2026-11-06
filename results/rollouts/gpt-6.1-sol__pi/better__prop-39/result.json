@@ -1,0 +1,124 @@
+{
+  "run_id": "sol__common__better__p39__r1",
+  "model": "sol",
+  "model_id": "openai/gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "39",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:20:22.058421+00:00",
+  "finished_at": "2026-11-03T13:21:45.074217+00:00",
+  "seconds": 77.6,
+  "input_tokens": 95838,
+  "output_tokens": 2251,
+  "cached_tokens": 182917,
+  "cost_usd": 0.3261,
+  "cost_source": "reported",
+  "billed_usd": 0.326119819,
+  "searches": [
+    "voter identification laws turnout fraud study 2024 2025 causal evidence mail ballot identification Texas rejection",
+    "California 2026 Proposition 39 voter identification independent analysis fiscal voter ID initiative",
+    "Cantoni Pons 2021 strict ID laws don't stop voters evidence nationwide panel 2008 2018 fraud confidence",
+    "California 2026 voter ID initiative 25-0007 100000 signature mismatch ballots rejected 2024 analysis",
+    "California voter fraud noncitizen identity voter impersonation 2024 2025 election security audit voter ID evidence",
+    "GAO voter identification costs turnout 2014 Kansas Tennessee 2 percent 3 percent",
+    "California Proposition 39 2026 voter ID editorial yes no signature verification constitutional amendment failsafe",
+    "California 4300 2020 Census Bureau noncitizen voting analysis 2026 study methodology",
+    "site.sos.ca.gov November 2024 vote by mail ballot rejection 71387 13356 122439"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/39/",
+    "https://voterguide.sos.ca.gov/propositions/39/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/39/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-text-proposed-laws.pdf",
+    "https://www.voteridca.org/",
+    "https://noonprop39.com/",
+    "https://www.eastbaytimes.com/2026/11/02/we-asked-the-yes-on-prop-39-campaign-to-explain-their-push-for-voter-id/",
+    "https://www.voteridca.org/faq",
+    "https://www.eastbaytimes.com/2026/11/02/we-asked-the-yes-on-prop-39-campaign-to-explain-their-push-for-voter-id/",
+    "https://calbudgetcenter.org/resources/proposition-39-explained-what-voter-id-would-mean-for-california/",
+    "https://www.nber.org/papers/w25522",
+    "https://selc.senate.ca.gov/system/files/2025-10/e-ca-voter-id-info-hearing-final-summary.pdf",
+    "https://www.texastribune.org/2025/05/28/texas-mail-voting-decline-senate-bill-1-election-law-id-requirement/",
+    "https://calbudgetcenter.org/resources/proposition-39-explained-what-voter-id-would-mean-for-california/",
+    "https://electionlab.mit.edu/research/voter-identification",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-39-voter",
+    "https://www.gao.gov/products/gao-14-634",
+    "https://www.ap.org/news-highlights/elections/2026/noncitizen-voting-claims-animate-trumps-attacks-on-midterms-and-set-up-potential-result-challenges/",
+    "https://www.census.gov/content/dam/Census/library/publications/2026/dir/noncitizen-voting-in-the-2020-election.pdf"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "warning: reasoning was not replayed on an assistant turn"
+  ],
+  "network": {
+    "requests": 18,
+    "requests_per_host": {
+      "openrouter.ai": 16,
+      "www.ap.org": 1,
+      "www.census.gov": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.ap.org",
+      "www.census.gov"
+    ],
+    "status_counts": {
+      "200": 18
+    },
+    "bytes_up": 1311249,
+    "bytes_down": 408949,
+    "wire_bytes": {
+      "harness_to_proxy": 1346455,
+      "proxy_to_harness": 464773,
+      "proxy_to_internet": 1342004,
+      "internet_to_proxy": 503669
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 17,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:20:22.058421+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:20:22.058421+00:00",
+      "finished_at": "2026-11-03T13:21:45.074217+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

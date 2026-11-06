@@ -1,0 +1,58 @@
+{
+  "requests": 25,
+  "requests_per_host": {
+    "openrouter.ai": 15,
+    "calmatters.org": 2,
+    "igs.berkeley.edu": 1,
+    "www.latimes.com": 1,
+    "leginfo.legislature.ca.gov": 1,
+    "www.sfchronicle.com": 1,
+    "www.desertsun.com": 1,
+    "lao.ca.gov": 1,
+    "www.councilofnonprofits.org": 1,
+    "blog.charitywatch.org": 1
+  },
+  "hosts": [
+    "blog.charitywatch.org",
+    "calmatters.org",
+    "igs.berkeley.edu",
+    "lao.ca.gov",
+    "leginfo.legislature.ca.gov",
+    "openrouter.ai",
+    "www.councilofnonprofits.org",
+    "www.desertsun.com",
+    "www.latimes.com",
+    "www.sfchronicle.com"
+  ],
+  "status_counts": {
+    "200": 24,
+    "402": 1
+  },
+  "bytes_up": 1744682,
+  "bytes_down": 889665,
+  "wire_bytes": {
+    "harness_to_proxy": 1795884,
+    "proxy_to_harness": 975168,
+    "proxy_to_internet": 1789758,
+    "internet_to_proxy": 1034866
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 25,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

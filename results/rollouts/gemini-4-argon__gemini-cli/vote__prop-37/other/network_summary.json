@@ -1,0 +1,48 @@
+{
+  "requests": 8,
+  "requests_per_host": {
+    "generativelanguage.googleapis.com": 7,
+    "voterguide.sos.ca.gov": 1
+  },
+  "hosts": [
+    "generativelanguage.googleapis.com",
+    "voterguide.sos.ca.gov"
+  ],
+  "status_counts": {
+    "200": 8
+  },
+  "bytes_up": 181927,
+  "bytes_down": 36067,
+  "wire_bytes": {
+    "harness_to_proxy": 188728,
+    "proxy_to_harness": 47000,
+    "proxy_to_internet": 188145,
+    "internet_to_proxy": 54050
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [
+    {
+      "process": "node",
+      "operation": "network-outbound",
+      "target": null,
+      "attempts": 4
+    }
+  ],
+  "blocked_attempts": 4,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 4,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "allowed, not recorded"
+}

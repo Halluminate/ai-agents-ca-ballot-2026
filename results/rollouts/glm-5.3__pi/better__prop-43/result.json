@@ -1,0 +1,97 @@
+{
+  "run_id": "glm__common__better__p43__r1",
+  "model": "glm",
+  "model_id": "z-ai/glm-5.3",
+  "pin": "z-ai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:22:19.920553+00:00",
+  "finished_at": "2026-11-03T13:27:33.340030+00:00",
+  "seconds": 310.6,
+  "input_tokens": 53954,
+  "output_tokens": 14710,
+  "cached_tokens": 61760,
+  "cost_usd": 0.197,
+  "cost_source": "reported",
+  "billed_usd": 0.19700390552,
+  "searches": [
+    "California Proposition 43 2026 general election",
+    "Proposition 43 California editorial \"vote no\" OR \"vote yes\" recommendation 2026",
+    "\"Proposition 43\" California poll Berkeley IGS 2026",
+    "California Cannabis Coalition v. City of Upland citizen initiative special tax majority vote loophole",
+    "CalMatters Proposition 43 2026 voter guide special tax two-thirds Wicks Howard Jarvis deal",
+    "League of Women Voters California positions November 2026 propositions 43",
+    "PPIC October 2026 survey Proposition 43 local special taxes two-thirds",
+    "LA County Measure A 2024 homelessness sales tax citizen initiative 53% Proposition 43 would have failed two-thirds"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=43&year=2026",
+    "https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm",
+    "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-43-threshold-local-special-tax-voter-guide",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43-text-proposed-laws.pdf",
+    "https://calmatters.org/politics/2026/10/california-prop-43-election-2026/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 13,
+    "requests_per_host": {
+      "openrouter.ai": 13
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 13
+    },
+    "bytes_up": 516396,
+    "bytes_down": 5403042,
+    "wire_bytes": {
+      "harness_to_proxy": 541623,
+      "proxy_to_harness": 5697491,
+      "proxy_to_internet": 538778,
+      "internet_to_proxy": 5720965
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 13,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:22:19.920553+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:22:19.920553+00:00",
+      "finished_at": "2026-11-03T13:27:33.340030+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

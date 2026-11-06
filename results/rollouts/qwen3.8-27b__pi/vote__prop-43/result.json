@@ -1,0 +1,97 @@
+{
+  "run_id": "qwen-27b__common__vote__p43__r1",
+  "model": "qwen-27b",
+  "model_id": "qwen/qwen3.8-27b",
+  "pin": "deepinfra",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "first_line",
+  "error": "",
+  "started_at": "2026-11-03T13:33:39.342260+00:00",
+  "finished_at": "2026-11-03T13:36:29.211079+00:00",
+  "seconds": 167.0,
+  "input_tokens": 56419,
+  "output_tokens": 9702,
+  "cached_tokens": 78400,
+  "cost_usd": 0.0398,
+  "cost_source": "reported",
+  "billed_usd": 0.039809742,
+  "searches": [
+    "California voter guide proposition 43 2025",
+    "2017 California Supreme Court ruling citizen-initiated special tax majority vote instead of two-thirds"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=43&year=2026",
+    "https://igs.berkeley.edu/topics/ballot-guide",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-43-limits",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026",
+    "https://voterguide.sos.ca.gov/propositions/43/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm",
+    "https://calbudgetcenter.org/resources/should-california-voters-approve-proposition-43/",
+    "https://calbudgetcenter.org/resources/should-california-voters-approve-proposition-43/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 9,
+    "requests_per_host": {
+      "openrouter.ai": 8,
+      "igs.berkeley.edu": 1
+    },
+    "hosts": [
+      "igs.berkeley.edu",
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 9
+    },
+    "bytes_up": 494583,
+    "bytes_down": 3546383,
+    "wire_bytes": {
+      "harness_to_proxy": 511458,
+      "proxy_to_harness": 3739383,
+      "proxy_to_internet": 509615,
+      "internet_to_proxy": 3756015
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 9,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:33:39.342260+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:33:39.342260+00:00",
+      "finished_at": "2026-11-03T13:36:29.211079+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

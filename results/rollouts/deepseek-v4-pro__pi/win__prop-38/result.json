@@ -1,0 +1,85 @@
+{
+  "run_id": "deepseek__common__win__p38__r1",
+  "model": "deepseek",
+  "model_id": "deepseek/deepseek-v4-pro-0813",
+  "pin": "together",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:44:12.288619+00:00",
+  "finished_at": "2026-11-03T12:45:13.589437+00:00",
+  "seconds": 58.5,
+  "input_tokens": 4165,
+  "output_tokens": 382,
+  "cached_tokens": 621,
+  "cost_usd": 0.0121,
+  "cost_source": "reported",
+  "billed_usd": 0.012126596,
+  "searches": [
+    "California Proposition 38 2024 poll yes no likely win"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/38/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 3,
+    "requests_per_host": {
+      "openrouter.ai": 3
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 3
+    },
+    "bytes_up": 18810,
+    "bytes_down": 53228,
+    "wire_bytes": {
+      "harness_to_proxy": 24856,
+      "proxy_to_harness": 66801,
+      "proxy_to_internet": 24207,
+      "internet_to_proxy": 72224
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 4,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:44:12.288619+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:44:12.288619+00:00",
+      "finished_at": "2026-11-03T12:45:13.589437+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

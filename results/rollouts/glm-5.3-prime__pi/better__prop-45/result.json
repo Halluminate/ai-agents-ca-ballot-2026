@@ -1,0 +1,110 @@
+{
+  "run_id": "glm-prime__common__better__p45__r1",
+  "model": "glm-prime",
+  "model_id": "z-ai/glm-5.3-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "45",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:18:19.862106+00:00",
+  "finished_at": "2026-11-03T13:20:31.214430+00:00",
+  "seconds": 128.6,
+  "input_tokens": 79827,
+  "output_tokens": 10407,
+  "cached_tokens": 344576,
+  "cost_usd": 0.5334,
+  "cost_source": "reported",
+  "billed_usd": 0.5334127280000001,
+  "searches": [
+    "California Proposition 45 voter guide",
+    "Proposition 45 CEQA editorial board recommendation 2026 \"Prop 45\"",
+    "CalMatters Proposition 45 CEQA 2026 voter guide pros cons",
+    "LA Times editorial board Proposition 45 CEQA endorsement 2026",
+    "SF Chronicle editorial \"CEQA is a mess\" \"Prop 45 is even messier\"",
+    "Proposition 45 poll California October 2026 likely voters support oppose"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/45/",
+    "https://voterguide.sos.ca.gov/propositions/45/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/45/arguments-rebuttals.htm",
+    "https://project-voter-guide-2026.interactives.calmatters.org/general/en/campaign-finance/prop/45",
+    "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-45-ceqa-housing-data-center-voter-guide",
+    "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-45-ceqa-housing-data-center-voter-guide",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-45-environmental-review",
+    "https://calmatters.org/housing/2026/10/yimby-prop-45-ceqa/",
+    "https://www.latimes.com/california/newsletter/2026-10-19/skelton-monday-politics-newsletter-prop-45-ceqa",
+    "https://www.latimes.com/california/newsletter/2026-10-19/skelton-monday-politics-newsletter-prop-45-ceqa",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-45-ceqa-california-22468905.php",
+    "https://calmatters.org/environment/2026/10/prop-45-california-ceqa-explained/",
+    "https://www.latimes.com/environment/story/2026-10-28/prop-45-would-bar-dozens-of-tribes-from-consulting-on-development-projects",
+    "https://www.lao.ca.gov/BallotAnalysis/Proposition?number=45&year=2026"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 16,
+    "requests_per_host": {
+      "openrouter.ai": 16
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 16
+    },
+    "bytes_up": 1866396,
+    "bytes_down": 2185117,
+    "wire_bytes": {
+      "harness_to_proxy": 1900220,
+      "proxy_to_harness": 2325731,
+      "proxy_to_internet": 1895913,
+      "internet_to_proxy": 2359377
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 16,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:18:19.862106+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:18:19.862106+00:00",
+      "finished_at": "2026-11-03T13:20:31.214430+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

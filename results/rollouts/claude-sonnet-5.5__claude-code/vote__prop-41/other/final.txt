@@ -1,0 +1,45 @@
+I can't boil this down to one word without knowing one thing, and that one thing should be your call: **do you want Prop 40, the one-time 5% billionaire tax, to take effect?** Prop 41 conflicts with Prop 40 over the state spending limit, so your vote mostly follows from that. Here's your yes or no in each case:
+
+- **Voting Yes on Prop 40: vote No on 41.** If 41 gets more yes votes than 40, the Legislative Analyst's Office (LAO) says 40 "could be stopped from becoming law even if it gets yes votes from a majority of voters." The same is true of Prop 42.
+- **Voting No on Prop 40: Yes on 41 is the consistent vote.** That assumes you're also comfortable with the audit and spending-limit rules below.
+- **No strong view on 40:** judge those rules on their own merits.
+
+**What it does (per the LAO and the official guide)**
+- **Audits:** The State Auditor would audit the programs a new special-tax *initiative* would fund. This starts once backers reach 25% of signatures, before anyone knows whether the measure qualifies. Each audit must identify ways to cut the program's costs by 10%. Programs funded by special taxes created or raised after Jan. 1, 2026 would be re-audited every four years. The cost is in the low millions a year and growing, and the LAO calls the net fiscal effect "unknown."
+- **Spending limit:** It nullifies state taxes enacted after Jan. 1, 2026 whose revenue is excluded from the Gann spending limit. Prop 40's revenue is exempt from that limit, which is where the conflict comes from. The state has about $27 billion of room under the limit in 2026-27, so the near-term effect is small. The limit did bind during the early-2020s revenue surge.
+
+**Strongest case for Yes**
+- Voters get an independent look at a program before approving a tax for it, and the spending cap shouldn't be avoidable through a carve-out.
+- Supporters include the Howard Jarvis Taxpayers Association, CalTax, CalChamber, CalCPAs, a former state auditor, and the San Diego Union-Tribune and OC Register.
+- UC Berkeley economist Enrico Moretti, who opposes Prop 40, calls it "a common-sense initiative."
+
+**Strongest case for No**
+- The top funder is a committee largely funded by Sergey Brin and other billionaires. CalMatters reported $131 million raised for Props 41 and 42 combined. The Yes campaign's FAQ doesn't mention Prop 40.
+- The 10% savings target applies whether or not there's waste. GrowSF endorses Yes but calls the audit piece "weak machinery."
+- Opponents warn it could eventually complicate health-financing taxes like the hospital fee. That's their argument, and the LAO doesn't quantify it.
+- Opponents include SPUR, the SF Chronicle, the Sacramento Bee, the Mercury News, the Press Democrat, the League of Women Voters, and the California Democratic Party. The Press Democrat said a straight audit measure "would have our support."
+- Both campaigns have a stake in Prop 40. SEIU-UHW, the lead No group, sponsored it.
+
+**Where it stands:** PPIC's Oct. 16–22 poll had Prop 41 at 48% yes and 49% no, essentially tied. Prop 40 was at 46% yes and 52% no.
+
+**Research gap:** I couldn't open the amendment's full legal text because the PDFs wouldn't load. The provisions above come from the LAO's description and the official guide. I read the SF Chronicle editorial only through a search summary.
+
+Sources:
+- [Prop 41, official voter guide](https://voterguide.sos.ca.gov/propositions/41/)
+- [Prop 41 arguments and rebuttals](https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm)
+- [LAO analysis of Prop 41](https://lao.ca.gov/BallotAnalysis/Proposition?number=41&year=2026)
+- [Prop 40, official voter guide](https://voterguide.sos.ca.gov/propositions/40/)
+- [LAO analysis of Prop 40](https://voterguide.sos.ca.gov/propositions/40/analysis.htm)
+- [LAO 2026-27 budget overview (spending-limit room)](https://lao.ca.gov/Publications/Report/5197)
+- [California Budget & Policy Center](https://calbudgetcenter.org/resources/what-would-proposition-41-mean-for-california/)
+- [CalMatters Prop 41 guide](https://calmatters.org/california-voter-guide-2026/proposition-41-tax-audits/)
+- [CalMatters on Props 40, 41 and 42](https://calmatters.org/health/2026/09/california-wealth-tax-prop-40-41-42/)
+- [SPUR](https://www.spur.org/voter-guide/2026-11/ca-prop-41-audits-special-taxes)
+- [GrowSF](https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-41/)
+- [HJTA 2026 voting guide](https://www.hjta.org/2026votingguide/)
+- [Press Democrat editorial](https://www.pressdemocrat.com/2026/10/10/endorsement-if-you-support-the-billionaire-tax-vote-no-on-props-41-and-42/)
+- [SF Chronicle editorial](https://www.sfchronicle.com/opinion/editorials/article/endorsement-california-prop-41-taxes-22445889.php)
+- [Yes on 41 FAQ](https://www.yesonprop41.org/faq)
+- [Daily Californian](https://www.dailycal.org/news/state/californians-to-weigh-first-of-its-kind-billionaire-tax-against-possible-poison-pills-props-41/article_9dcba7af-4b5c-466f-bf7a-43382b1b7103.html)
+- [SF Standard on the PPIC poll](https://sfstandard.com/2026/10/27/billionaire-tax-prop-40-ppic-poll-october/)
+- [KQED on the IGS poll](https://www.kqed.org/news/12106950/is-californias-proposed-billionaire-tax-in-trouble-new-polls-find-bad-news)

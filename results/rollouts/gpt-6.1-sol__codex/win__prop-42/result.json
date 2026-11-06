@@ -1,0 +1,111 @@
+{
+  "run_id": "sol__native__win__p42__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "42",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:17:50.034361+00:00",
+  "finished_at": "2026-11-03T13:20:24.784598+00:00",
+  "seconds": 151.4,
+  "input_tokens": 33,
+  "output_tokens": 6592,
+  "cached_tokens": 501759,
+  "cost_usd": 0.4575,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 42 2026 polling November 3 retirement savings personal property taxes ...",
+    "site.ppic.org October 2026 Proposition 42 51 47 ...",
+    "site.ppic.org \"October\" \"2026\" \"42\" \"51\" \"47\" ...",
+    "'PROP 42'",
+    "\"Proposition 42\" \"2026\" \"poll\" October November 51 43 ...",
+    "site.escholarship.org \"2026-22\" \"42\" ...",
+    "California \"Proposition 42\" \"poll\" \"November 2, 2026\" ...",
+    "\"Proposition 42\" \"2026\" \"expected\" \"pass\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/42/",
+    "https://www.onpointpolitics.us/forecast/measures/ca/proposition-42",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-42",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://ballotpedia.org/2026_ballot_measure_polls",
+    "https://midterms.nijinn.io/ballot-measures/california-proposition-42-retroactive-tax-prohibition/",
+    "https://escholarship.org/content/qt72722408/qt72722408.pdf"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 1 connection attempts that ignored the proxy were blocked (codex remote:*:59337 x1)"
+  ],
+  "network": {
+    "requests": 25,
+    "requests_per_host": {
+      "api.openai.com": 22,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 21,
+      "202": 3
+    },
+    "bytes_up": 1286118,
+    "bytes_down": 2783103,
+    "wire_bytes": {
+      "harness_to_proxy": 1048113,
+      "proxy_to_harness": 1752301,
+      "proxy_to_internet": 1046653,
+      "internet_to_proxy": 1795821
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "codex",
+        "operation": "network-outbound",
+        "target": "remote:*:59337",
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 1,
+    "websocket_messages": 2792,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 24,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:17:50.034361+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:17:50.034361+00:00",
+      "finished_at": "2026-11-03T13:20:24.784598+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

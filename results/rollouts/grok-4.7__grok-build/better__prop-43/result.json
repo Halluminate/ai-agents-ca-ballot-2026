@@ -1,0 +1,318 @@
+{
+  "run_id": "grok__native__better__p43__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "native",
+  "harness": "grok_build",
+  "effort": "xhigh",
+  "prompt": "better",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:54:44.663866+00:00",
+  "finished_at": "2026-11-03T12:02:33.970612+00:00",
+  "seconds": 460.9,
+  "input_tokens": 59668,
+  "output_tokens": 14606,
+  "cached_tokens": 162304,
+  "cost_usd": 0.2881,
+  "cost_source": "estimated",
+  "billed_usd": 0.29268,
+  "searches": [],
+  "search_errors": 0,
+  "web_search_requests": 0,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/",
+    "https://voterguide.sos.ca.gov/propositions/43/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/43/title-summary.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43-text-proposed-laws.pdf",
+    "https://voterguide.sos.ca.gov/propositions/43/index.htm",
+    "https://www.hjta.org/saveprop13/",
+    "https://www.noprop43ca.com/",
+    "https://ballotpedia.org/California_Proposition_43,_Two-Thirds_Vote_Requirement_for_Local_Special_Taxes_Initiative_(2026",
+    "https://yeson43.com/",
+    "https://ballotpedia.org/California_2026_ballot_propositions",
+    "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260ACA22",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=43&year=2026",
+    "https://ballotpedia.org/California_Proposition_43,_Two-Thirds_Vote_Requirement_for_Local_Special_Tax_Initiatives_and_Property_Tax_Initiative_Prohibition_Amendment_(2026",
+    "https://lao.ca.gov/ballot/2026/prop43-110326.pdf",
+    "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260ACA22",
+    "https://ballotpedia.org/California_Proposition_43,_Two-Thirds_Vote_Requirement_for_Local_Special_Tax_Initiatives_and_Property_Tax_Initiative_Prohibition_Amendment_(2026",
+    "https://www.latimes.com/california/story/2026-07-06/2026-california-propositions-voter-guide-billionaires-tax-voter-id-homebuyers-money-tax-hike-limits",
+    "https://calmatters.org/politics/2026/06/california-ballot-measures-november-election/",
+    "https://www.sandiegouniontribune.com/2026/09/04/vote-yes-on-prop-43-to-block-state-supreme-courts-rewrite-of-tax-laws/",
+    "https://calmatters.org/commentary/2026/08/california-constitution-proposition-43-taxes/",
+    "https://www.sacbee.com/opinion/election-endorsements/article316956235.html",
+    "https://www.sfchronicle.com/politics/article/california-proposition-43-22465350.php",
+    "https://lwvc.org/ballot-recommendations/"
+  ],
+  "tool_errors": 7,
+  "warnings": [
+    "capture: 53 connection attempts that ignored the proxy were blocked (grok-1.0.70 network-outbound x52, grok-1.0.70 remote:*:49466 x1)",
+    "capture: 11 connections were not readable by the proxy (ballotpedia.org:443, calmatters.org:443, openrouter.ai:443, vig.cdn.sos.ca.gov:443, www.latimes.com:443)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 33,
+    "requests_per_host": {
+      "openrouter.ai": 14,
+      "voterguide.sos.ca.gov": 5,
+      "ballotpedia.org": 3,
+      "lao.ca.gov": 2,
+      "leginfo.legislature.ca.gov": 2,
+      "www.hjta.org": 1,
+      "yeson43.com": 1,
+      "www.sandiegouniontribune.com": 1,
+      "www.sacbee.com": 1,
+      "calmatters.org": 1,
+      "lwvc.org": 1,
+      "www.sfchronicle.com": 1
+    },
+    "hosts": [
+      "ballotpedia.org",
+      "calmatters.org",
+      "lao.ca.gov",
+      "leginfo.legislature.ca.gov",
+      "lwvc.org",
+      "openrouter.ai",
+      "voterguide.sos.ca.gov",
+      "www.hjta.org",
+      "www.sacbee.com",
+      "www.sandiegouniontribune.com",
+      "www.sfchronicle.com",
+      "yeson43.com"
+    ],
+    "status_counts": {
+      "200": 25,
+      "301": 1,
+      "403": 2,
+      "404": 1
+    },
+    "bytes_up": 1206225,
+    "bytes_down": 1614385,
+    "wire_bytes": {
+      "harness_to_proxy": 1251427,
+      "proxy_to_harness": 1743147,
+      "proxy_to_internet": 1249416,
+      "internet_to_proxy": 1897115
+    },
+    "byte_counter": true,
+    "errors": 12,
+    "error_details": [
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/models",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "vig.cdn.sos.ca.gov",
+        "sni": "vig.cdn.sos.ca.gov",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (PROTOCOL_ERROR)"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "calmatters.org",
+        "sni": "calmatters.org",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (PROTOCOL_ERROR)"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "www.sacbee.com",
+        "url": "https://www.sacbee.com/opinion/election-endorsements/article316956235.html",
+        "error": "stream reset by client (INTERNAL_ERROR)"
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 111,
+        "bytes_down": 0,
+        "duration": 4.9038,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 111,
+        "bytes_down": 0,
+        "duration": 0.4034,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1593,
+        "bytes_down": 39,
+        "duration": 6.0819,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 5.5302,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 5.4809,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "vig.cdn.sos.ca.gov",
+        "port": 443,
+        "sni": "vig.cdn.sos.ca.gov",
+        "bytes_up": 1560,
+        "bytes_down": 39,
+        "duration": 14.1868,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "calmatters.org",
+        "port": 443,
+        "sni": "calmatters.org",
+        "bytes_up": 1548,
+        "bytes_down": 39,
+        "duration": 31.2269,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1809,
+        "bytes_down": 39,
+        "duration": 10.8448,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 0.0663,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "ballotpedia.org",
+        "port": 443,
+        "sni": "ballotpedia.org",
+        "bytes_up": 1818,
+        "bytes_down": 39,
+        "duration": 260.2507,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "www.latimes.com",
+        "port": 443,
+        "sni": "www.latimes.com",
+        "bytes_up": 1551,
+        "bytes_down": 39,
+        "duration": 260.0371,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 52
+      },
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": "remote:*:49466",
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 53,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 30,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:54:44.663866+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:54:44.663866+00:00",
+      "finished_at": "2026-11-03T12:02:33.970612+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "run_id": "sol__native__vote__p2__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "2",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T11:02:02.878911+00:00",
+  "finished_at": "2026-11-03T11:04:55.441507+00:00",
+  "seconds": 170.5,
+  "input_tokens": 39,
+  "output_tokens": 7022,
+  "cached_tokens": 675563,
+  "cost_usd": 0.5325,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 2 2026 rainy day fund analysis Gann limit amendment ...",
+    "2026 Proposition 2 rainy day fund ACA 1 bill California 2040 12.5 percent ...",
+    "site.lao.ca.gov \"reserves\" \"20 percent\" \"2026\" ...",
+    "site.lao.ca.gov \"Rethinking California\" \"Reserve\" ...",
+    "site.reformcalifornia.org \"2026\" \"Prop 2\" ...",
+    "'Proposition 2'",
+    "site.pew.org California rainy day fund revenue volatility reserves 2025 2026 ...",
+    "\"Proposition 2\" \"2026\" \"rainy\" opposition ...",
+    "\"Proposition 2\" \"2026\" \"Unemployment\" \"pension\" ...",
+    "'Ballot Measure Proposes Changes'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/",
+    "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+    "https://calbudgetcenter.org/resources/should-voters-approve-proposition-2-how-californias-rainy-day-fund-would-be-updated/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-2-rainy-day-fund/",
+    "https://lao.ca.gov/handouts/state_admin/2026/Assembly-Overview-of-ACA20-062426.pdf",
+    "https://www.lao.ca.gov/Publications/Report/5028",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-2-rainy-day-fund",
+    "https://www.lao.ca.gov/Publications/Report/5197",
+    "https://www2.pew.org/en/research-and-analysis/articles/2026/10/26/states-rainy-day-fund-capacity-and-with-it-their-fiscal-flexibility-continues-to-decline",
+    "https://www.lao.ca.gov/Publications/Report/5198",
+    "https://www.kqed.org/news/12100604/proposition-2-would-let-california-boost-the-rainy-day-fund"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 31,
+    "requests_per_host": {
+      "api.openai.com": 28,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 26,
+      "202": 3,
+      "500": 1
+    },
+    "bytes_up": 1371728,
+    "bytes_down": 3019151,
+    "wire_bytes": {
+      "harness_to_proxy": 1068753,
+      "proxy_to_harness": 1810335,
+      "proxy_to_internet": 1066432,
+      "internet_to_proxy": 1860398
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 3231,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 29,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:02:02.878911+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:02:02.878911+00:00",
+      "finished_at": "2026-11-03T11:04:55.441507+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

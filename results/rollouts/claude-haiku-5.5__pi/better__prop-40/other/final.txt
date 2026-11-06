@@ -1,0 +1,19 @@
+I won't give a one-word yes or no on this one. It's a contested political question, and the answer turns on values: how much weight to give health-care funding and tax fairness versus the risks of a retroactive wealth tax. The revenue forecasts also differ by roughly a factor of three. I read the official voter guide, the LAO analysis, the measure's text, and coverage and economic analyses from both sides. Here is what they show.
+
+**What it does:** A one-time 5% tax on the net worth of California residents worth $1 billion or more, based on residency as of Jan. 1, 2026. Ninety percent of the money goes to health care and 10% to education or food assistance. Real estate and qualified pensions and IRAs are excluded, and Roth-type accounts are excluded up to $10 million. The revenue is exempt from school-funding rules (Prop. 98) and the state spending limit.
+
+**Where the evidence splits:**
+- **Revenue:** Supporters and economist Gabriel Zucman, a wealth-tax advocate, estimate about $100 billion. The nonpartisan LAO says "tens of billions," with wide uncertainty. Stanford economists Joshua Rauh and Benjamin Jaros (Hoover Institution) estimate about $30 billion after accounting for billionaires who already left and legal risk. They say the state could lose money overall if billionaires leave and income-tax revenue drops.
+- **Legal risk:** Lawsuits are widely expected, and the measure fast-tracks them. Critics call the residency date retroactive, and valuing private companies is a likely battleground.
+- **Future changes:** The Legislature can amend it by two-thirds vote if changes "further the purposes" of the act. Lawyers interviewed by CalMatters think it could make marginal changes but probably couldn't make it recurring or lower the threshold. Opponents say it could be expanded to ordinary Californians.
+- **Schools and spending:** Opponents say schools would lose about $3 billion a year and that the money could replace existing funding. The text bans supplanting, but it also lets the money "restore or address" cuts measured against 2024–25 levels.
+
+**Voting mechanics:** Props. 41 and 42 each void Prop. 40 if they pass with more yes votes than it gets, even if Prop. 40 wins a majority. Supporters urge voters to vote no on both.
+
+**Status:** In late October, polls had Prop. 40 short of a majority (PPIC: 46% yes; Berkeley IGS: 42%). Opponents have spent more than $300 million. Backers have raised roughly $31–33 million, mostly from the sponsoring union. I couldn't find any reported results.
+
+**To decide:**
+- Lean yes if you think a one-time tax on the state's billionaires is a fair way to offset federal health-care cuts, you find the $100 billion projection credible, and you accept the legal and retroactivity risks.
+- Lean no if you find the ~$30 billion projection more credible, you're worried about the retroactive design or future expansion, or you object to exempting this money from school-funding rules.
+
+If you tell me which of these matters most to you, I can dig into it further.

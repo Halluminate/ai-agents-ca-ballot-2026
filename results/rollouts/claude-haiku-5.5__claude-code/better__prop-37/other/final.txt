@@ -1,0 +1,34 @@
+I won't give a one-word pick on this one. It's a contested policy call, and well-informed people weigh these tradeoffs differently, so a yes or no from me would just be my opinion on a live election question. Here's what the research shows so you can decide quickly.
+
+**What it does**
+CalHFA could issue up to $25 billion in revenue bonds to fund second mortgages covering up to 17% of the price of new homes, with price caps of roughly $1–1.5 million depending on county. Buyers need 3% down and income at or below 200% of area median, and borrowers repay the bonds. The official fiscal impact is "No direct state or local costs." A no vote adds no new bond authority, though the Budget Center notes a similar program could still be created by legislation or CalHFA.
+
+**Case for yes**
+- It targets buyers who earn too much for most existing CalHFA programs but can't save a 20% down payment. With the second loan, the total reaches 20%, which avoids private mortgage insurance.
+- Borrowers repay it, not the general fund. Hoover notes fixed rates, capped fees, and no prepayment penalties.
+- Backers include the California Association of Realtors, carpenters, the Democratic Party, and Xavier Becerra. PPIC's likely-voter polls had it at 61–35 in September and 65–32 in October.
+
+**Case for no**
+- The financial outcome is uncertain. The LAO flags investor demand, loan costs compared with other programs, and whether construction actually rises as open questions. The Budget Center says the second-mortgage rate could exceed today's ~6.5% first-mortgage rate.
+- Monthly payments may erode the benefit. The Budget Center notes existing CalHFA programs charge 1% simple interest (MyHome) or take 15–20% of appreciation (Dream for All), while this loan would likely require monthly payments.
+- Subsidized demand can be capitalized into higher prices if supply doesn't respond, and the 200% income cap may skew benefits toward higher earners.
+- The new-construction focus could push development toward fire-prone areas and farmland.
+- Participating builders would get more flexible construction-defect rules. CaVotes lists as a concern that this could make it harder for homeowners to pursue claims.
+- Hoover flags the risk of political pressure for a state bailout if the program got into trouble, though it says the drafting aims to avoid that.
+- The opposition is thin. The official guide printed no argument against it, and opponents (Reform California, League of Women Voters) report no money. That doesn't make the case weak, just less visible.
+
+**How to decide**
+It mostly comes down to whether a borrower-repaid second loan is the right tool for the down-payment gap, and how much bond, price, and sprawl risk you'd accept for a gain that both the LAO and the Budget Center call uncertain. If you think the down payment is the binding constraint and the risks are manageable, the yes case is stronger for you. If you think the risks are underpriced or the money would do more on housing supply, the no case is.
+
+I couldn't open the LAO analysis or CalMatters from here, so the fiscal details come from summaries that quote them. The LAO's full analysis is the best neutral primary source if you read only one thing. Polls close at 8 p.m. today.
+
+Sources:
+- [SOS voter guide](https://voterguide.sos.ca.gov/propositions/37/)
+- [KQED voter guide](https://www.kqed.org/voterguide/california/proposition-37)
+- [KQED explainer](https://www.kqed.org/news/12101434/prop-37-creates-middle-income-homebuying-program)
+- [California Budget & Policy Center](https://calbudgetcenter.org/resources/will-proposition-37-make-homeownership-more-affordable-its-not-guaranteed/)
+- [Hoover Institution Proposition Lab](https://www.hoover.org/proposition-lab-proposition-37)
+- [CaVotes (LWV)](https://cavotes.org/ballot-measure/2026-prop-37/)
+- [Berkeley IGS guide](https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-37-loan)
+- [LAist/CalMatters](https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-37-loan-program-for-buying-homes)
+- [PPIC October 2026 survey](https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/) (poll figures come from search summaries; I couldn't open the page)

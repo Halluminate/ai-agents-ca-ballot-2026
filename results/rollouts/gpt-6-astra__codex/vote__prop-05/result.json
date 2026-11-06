@@ -1,0 +1,104 @@
+{
+  "run_id": "gpt__native__vote__p5__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "5",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:48:42.027158+00:00",
+  "finished_at": "2026-11-03T10:52:50.298631+00:00",
+  "seconds": 246.1,
+  "input_tokens": 45,
+  "output_tokens": 7005,
+  "cached_tokens": 755947,
+  "cost_usd": 2.5427,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California 2026 Proposition 5 recall SCA 1 arguments analysis election reform ...",
+    "California Proposition 5 2026 recall reform SCA 1 -site:reddit.com -site:en.wikipedia.org ...",
+    "site.lhc.ca.gov \"Reforming the Recall\" \"lieutenant\" ...",
+    "\"Proposition 5\" \"recall\" \"2026\" \"Sacramento Bee\" endorse ...",
+    "\"Reforming the Recall\" \"2022\" pdf -site:lhc.ca.gov ...",
+    "\"Proposition 5 could change California\u2019s recall elections\" endorsement ...",
+    "site.leginfo.legislature.ca.gov \"10703\" \"majority\" special election ...",
+    "California Elections Code 10705 special primary majority votes two candidates ...",
+    "California 2018 Senate district 29 recall official results Ling Ling Chang Newman ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/5/",
+    "https://aelc.assembly.ca.gov/system/files/2024-06/sca-1-newman-june-26-2024-17192637100576198.pdf",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-5",
+    "https://lhc.ca.gov/wp-content/uploads/Reports/266/ExecutiveSummary266.pdf",
+    "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SCA1",
+    "https://www.ncsl.org/elections-and-campaigns/recall-of-state-officials",
+    "https://lwvc.org/ballot-recommendations/",
+    "https://www.sos.ca.gov/elections/primary-elections-california"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 28,
+    "requests_per_host": {
+      "api.openai.com": 23,
+      "ab.chatgpt.com": 5
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 22,
+      "202": 5
+    },
+    "bytes_up": 1435963,
+    "bytes_down": 2985948,
+    "wire_bytes": {
+      "harness_to_proxy": 1155759,
+      "proxy_to_harness": 1735013,
+      "proxy_to_internet": 1154191,
+      "internet_to_proxy": 1779128
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2643,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 25,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:48:42.027158+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:48:42.027158+00:00",
+      "finished_at": "2026-11-03T10:52:50.298631+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

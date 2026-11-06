@@ -1,0 +1,69 @@
+{
+  "requests": 19,
+  "requests_per_host": {
+    "openrouter.ai": 13,
+    "www.cambridge.org": 2,
+    "www.spur.org": 1,
+    "www.washington.edu": 1,
+    "resolve.cambridge.org": 1,
+    "www.oaklandca.gov": 1
+  },
+  "hosts": [
+    "openrouter.ai",
+    "resolve.cambridge.org",
+    "www.cambridge.org",
+    "www.oaklandca.gov",
+    "www.spur.org",
+    "www.washington.edu"
+  ],
+  "status_counts": {
+    "200": 17,
+    "301": 1
+  },
+  "bytes_up": 1869841,
+  "bytes_down": 1466755,
+  "wire_bytes": {
+    "harness_to_proxy": 1910116,
+    "proxy_to_harness": 1530928,
+    "proxy_to_internet": 1905040,
+    "internet_to_proxy": 1575061
+  },
+  "byte_counter": true,
+  "errors": 3,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "www.cambridge.org",
+      "url": "https://www.cambridge.org/core/journals/american-political-science-review/article/campaign-finance-vouchers-do-not-expand-the-diversity-of-donors-evidence-from-seattle/BD8E21A4B646DE4EA56BF8787DF0FF81",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 19,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

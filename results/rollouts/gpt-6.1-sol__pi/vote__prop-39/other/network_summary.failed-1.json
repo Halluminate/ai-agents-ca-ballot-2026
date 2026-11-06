@@ -1,0 +1,122 @@
+{
+  "requests": 19,
+  "requests_per_host": {
+    "openrouter.ai": 16,
+    "cdce.umd.edu": 1,
+    "www.gao.gov": 1,
+    "www.ncsl.org": 1
+  },
+  "hosts": [
+    "cdce.umd.edu",
+    "openrouter.ai",
+    "www.gao.gov",
+    "www.ncsl.org"
+  ],
+  "status_counts": {
+    "200": 18
+  },
+  "bytes_up": 845604,
+  "bytes_down": 369544,
+  "wire_bytes": {
+    "harness_to_proxy": 885758,
+    "proxy_to_harness": 434199,
+    "proxy_to_internet": 880112,
+    "internet_to_proxy": 470855
+  },
+  "byte_counter": true,
+  "errors": 7,
+  "error_details": [
+    {
+      "kind": "tls_failed_server",
+      "host": "cdce.umd.edu",
+      "sni": "cdce.umd.edu",
+      "error": "Certificate verify failed: unable to get local issuer certificate"
+    },
+    {
+      "kind": "http",
+      "host": "cdce.umd.edu",
+      "url": "https://cdce.umd.edu/sites/cdce.umd.edu/files/pubs/Voter%20ID%20survey%20Key%20Results%20June%202024.pdf",
+      "error": "Certificate verify failed: unable to get local issuer certificate"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "connect_error",
+      "host": "openrouter.ai",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "openrouter.ai",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "openrouter.ai",
+      "error": null
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 108,
+      "bytes_down": 483,
+      "duration": 300.0391,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 108,
+      "bytes_down": 276,
+      "duration": 30.0196,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 108,
+      "bytes_down": 276,
+      "duration": 30.0147,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1711,
+      "bytes_down": 39,
+      "duration": 194.4836,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 23,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

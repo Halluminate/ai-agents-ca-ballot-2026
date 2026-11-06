@@ -1,0 +1,55 @@
+{
+  "requests": 13,
+  "requests_per_host": {
+    "openrouter.ai": 12,
+    "www.vcstar.com": 1
+  },
+  "hosts": [
+    "openrouter.ai",
+    "www.vcstar.com"
+  ],
+  "status_counts": {
+    "200": 12,
+    "402": 1
+  },
+  "bytes_up": 312385,
+  "bytes_down": 618418,
+  "wire_bytes": {
+    "harness_to_proxy": 338453,
+    "proxy_to_harness": 676087,
+    "proxy_to_internet": 334484,
+    "internet_to_proxy": 707159
+  },
+  "byte_counter": true,
+  "errors": 2,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 13,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

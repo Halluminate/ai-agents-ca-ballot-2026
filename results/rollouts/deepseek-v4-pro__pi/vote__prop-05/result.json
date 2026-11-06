@@ -1,0 +1,97 @@
+{
+  "run_id": "deepseek__common__vote__p5__r1",
+  "model": "deepseek",
+  "model_id": "deepseek/deepseek-v4-pro-0813",
+  "pin": "together",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "5",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:43:16.236035+00:00",
+  "finished_at": "2026-11-03T12:44:14.786648+00:00",
+  "seconds": 55.8,
+  "input_tokens": 47088,
+  "output_tokens": 3763,
+  "cached_tokens": 80006,
+  "cost_usd": 0.123,
+  "cost_source": "reported",
+  "billed_usd": 0.122974024,
+  "searches": [
+    "California Proposition 5 2024 voter guide pros cons",
+    "SCA 1 California recall reform Josh Newman Proposition 5 2026",
+    "California Proposition 5 2026 recall process editorial recommendation",
+    "California Proposition 5 2026 recall election process SCA 1 endorsements",
+    "Sacramento Bee endorsement Proposition 5 2026 recall yes",
+    "Los Angeles Times endorsement Proposition 5 2026 recall",
+    "CalMatters Proposition 5 2026 recall election process"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/5/",
+    "https://voterguide.sos.ca.gov/propositions/5/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/5/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/5/title-summary.htm",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-5-recall-california-22458510.php",
+    "https://www.mercurynews.com/2026/10/20/endorsement-no-on-prop-5-a-bad-idea-that-protects-the-status-quo-and-silences-independent-minded-challengers/",
+    "https://www.latimes.com/california/story/2026-10-30/2026-california-election-proposition-5-recall-elections-last-minute-voter-guide"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 13,
+    "requests_per_host": {
+      "openrouter.ai": 13
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 13
+    },
+    "bytes_up": 545287,
+    "bytes_down": 598421,
+    "wire_bytes": {
+      "harness_to_proxy": 567789,
+      "proxy_to_harness": 644724,
+      "proxy_to_internet": 564427,
+      "internet_to_proxy": 670460
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 11,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:43:16.236035+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:43:16.236035+00:00",
+      "finished_at": "2026-11-03T12:44:14.786648+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

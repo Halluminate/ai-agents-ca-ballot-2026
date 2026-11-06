@@ -1,0 +1,31 @@
+# NO
+
+## What Prop 39 actually does
+It's an **initiative constitutional amendment** (hard to fix later — requires another statewide vote) that would:
+- Require government-issued ID for **all in-person voting**
+- Require mail voters to write the **last four digits of a designated ID number** on the envelope; if it doesn't match their registration record, **the ballot is not counted**
+- Require officials to use "best efforts" with "government data" to **verify every registrant's citizenship** and report verification percentages annually
+- Create a **free state voter ID card**, biennial State Auditor compliance audits, and a **private right of action** letting any citizen sue the state or any county over compliance
+
+Note: it would **not** apply to the Nov. 3, 2026 election (amendments take effect after certification), and it does **not** repeal existing signature verification — it layers on top of it.
+
+## Why I'm voting no
+
+**1. It solves a problem that doesn't exist.** A California State Library review of grand jury investigations across 14 counties (2020–2024) found no evidence of systemic fraud. The **Heritage Foundation's** own fraud database lists just **71 California cases from 1982–2025**. The DOJ's list of "20,000 likely noncitizen voters" was found unreliable by federal judges this fall — in a parallel Nevada matter, 185 of those flagged were citizens.
+
+**2. The promised benefit is empirically unsupported.** The strongest study on this (Cantoni & Pons, *Quarterly Journal of Economics*, 1.6 billion observations) found strict ID laws had **no effect on fraud — actual *or* perceived** — and no effect on citizens' belief that elections were fair. UC Riverside/Western Washington studies found the same. So the core "restore trust" rationale doesn't hold up.
+
+**3. The mail-ballot provision is the real danger, and it has no cure process.** ~80% of Californians vote by mail. Prop 39 provides **no notice-and-cure mechanism** for a wrong or missing digit, unlike the existing 22-day signature-mismatch cure. Texas SB 1 did almost exactly this: mail-ballot rejection jumped from **~1% (2020) to 12.38% (March 2022 primary)**, with 82–90% of rejections attributable to the ID requirement. A peer-reviewed *Journal of Politics* study found **~90% of those rejected voters never found another way to participate**, and Black, Latino and Asian voters were rejected at significantly higher rates. Even the pro-Yes *Pasadena Star-News* conceded "the failure point is real" and assumed "ballots can be cured" — **but the measure contains no such provision.**
+
+**4. The Yes campaign's key factual claims were ruled false by a judge.** Sacramento Superior Court Judge Shelleyanne Chang found the proponents' assertions that Prop 39 would make voting **easier**, **save money**, and contain **privacy protections** to be false and misleading; they were forced to drop them. Their ballot argument's claim that "more than 100,000 ballots were rejected due to signature mismatches" isn't supported by official records — it was **71,387** statewide in Nov. 2024 and **43,976** in the June 2026 primary.
+
+**5. It's badly drafted and constitutionally locked in.** The text never defines which IDs qualify, what "best efforts" means, or what "government data" is (there is no comprehensive federal database of U.S. citizens). Yet it's **"self-executing"** — effective on certification while the Legislature is merely told to "promptly" fill in the blanks. Combine that with an undefined private right of action and election-law scholar Justin Levitt's assessment is apt: a **"generic litigation trap,"** effectively CEQA for elections. There's also serious risk of federal challenge under the Civil Rights Act's Materiality Provision (as in Arizona's *Mi Familia Vota*).
+
+**6. Real cost, real disparate impact.** The nonpartisan LAO projects **tens of millions to low hundreds of millions of dollars annually**. A University of Maryland/VoteRiders survey found ~**2.7 million** Californians (11% of eligible voters) lack a driver's license, **13%** have one that's expired or with an outdated name/address, **24%** lack a passport, and **3+ million** couldn't readily produce citizenship documents — disproportionately people of color, young, disabled, low-income voters, and women who changed their names at marriage. Plus the privacy exposure of writing partial SSN/DL digits on the *outside* of an envelope that circulates through mail and drop boxes.
+
+**7. Follow the money.** Of $36.6M raised for Yes, **$17M came from out-of-state billionaire Richard Uihlein** (Uline) and **$8M from Airbnb co-founder and current White House official Joe Gebbia**. CalMatters reports national GOP donors view California as a **test market for swing states** — this isn't a homegrown California reform.
+
+## The strongest case for Yes — and why it falls short
+Voter ID is genuinely popular in the abstract (a 2025 Berkeley IGS poll found 54% supported the *idea*), 36 states require some form of ID, and roll maintenance + independent audits are reasonable in isolation. But when voters were given full context, support collapsed: **PPIC Oct. 41% yes / 58% no; Berkeley IGS 39/52; Citrin-POLITICO 42/51** — with no-party-preference voters opposing by double digits. The measure's modest, defensible parts (audits, roll accuracy) are bundled with an unworkable, un-cureable mail-ballot rule written into the state Constitution.
+
+The *Sacramento Bee*/McClatchy California boards, *SF Chronicle*, *San Diego Union-Tribune*, *Mercury News/East Bay Times*, *Bakersfield Californian*, *Santa Cruz Sentinel*, *Press Democrat*, and the Secretary of State and county registrars all oppose it. **Vote NO.**

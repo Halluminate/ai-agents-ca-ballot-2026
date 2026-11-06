@@ -1,0 +1,117 @@
+{
+  "run_id": "kimi__common__vote__p2__r1",
+  "model": "kimi",
+  "model_id": "moonshotai/kimi-k3",
+  "pin": "moonshotai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "2",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "last_line",
+  "error": "",
+  "started_at": "2026-11-03T12:42:27.210583+00:00",
+  "finished_at": "2026-11-03T12:46:41.690728+00:00",
+  "seconds": 251.5,
+  "input_tokens": 75813,
+  "output_tokens": 7569,
+  "cached_tokens": 292864,
+  "cost_usd": 0.4543,
+  "cost_source": "reported",
+  "billed_usd": 0.45428733504,
+  "searches": [
+    "California Proposition 2 November 2024 school bond arguments for against",
+    "California Proposition 2 2026 rainy day fund Gann limit constitutional amendment",
+    "LA Times editorial endorsement Proposition 2 2026 rainy day fund yes no",
+    "Prop 2 2026 California \"$5 billion\" suspend deposits budget emergency Tangipa DeMaio",
+    "California Gann Limit history exceeded 1987 rebate 2022 never triggered taxpayer refund"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/",
+    "https://voterguide.sos.ca.gov/propositions/2/title-summary.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+    "https://calmatters.org/california-voter-guide-2026/proposition-2-rainy-day-fund/",
+    "https://calbudgetcenter.org/resources/should-voters-approve-proposition-2-how-californias-rainy-day-fund-would-be-updated",
+    "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-2-rainy-day-fund-voter-guide",
+    "https://calbudgetcenter.org/resources/should-voters-approve-proposition-2-how-californias-rainy-day-fund-would-be-updated",
+    "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-2-rainy-day-fund-voter-guide",
+    "https://calbudgetcenter.org/resources/should-voters-approve-proposition-2-how-californias-rainy-day-fund-would-be-updated",
+    "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-2-rainy-day-fund-voter-guide",
+    "https://calbudgetcenter.org/resources/should-voters-approve-proposition-2-how-californias-rainy-day-fund-would-be-updated",
+    "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-2-rainy-day-fund-voter-guide"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 1 connection attempts that ignored the proxy were blocked (node remote:*:63917 x1)"
+  ],
+  "network": {
+    "requests": 15,
+    "requests_per_host": {
+      "openrouter.ai": 15
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 15
+    },
+    "bytes_up": 1539652,
+    "bytes_down": 1132278,
+    "wire_bytes": {
+      "harness_to_proxy": 1569613,
+      "proxy_to_harness": 1217555,
+      "proxy_to_internet": 1565309,
+      "internet_to_proxy": 1250767
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "node",
+        "operation": "network-outbound",
+        "target": "remote:*:63917",
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 1,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 14,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:42:27.210583+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:42:27.210583+00:00",
+      "finished_at": "2026-11-03T12:46:41.690728+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

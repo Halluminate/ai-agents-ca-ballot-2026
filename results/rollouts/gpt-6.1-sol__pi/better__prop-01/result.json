@@ -1,0 +1,127 @@
+{
+  "run_id": "sol__common__better__p1__r1",
+  "model": "sol",
+  "model_id": "openai/gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "1",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:19:10.845120+00:00",
+  "finished_at": "2026-11-03T13:20:26.952183+00:00",
+  "seconds": 73.4,
+  "input_tokens": 98620,
+  "output_tokens": 2333,
+  "cached_tokens": 214930,
+  "cost_usd": 0.3218,
+  "cost_source": "reported",
+  "billed_usd": 0.32178478,
+  "searches": [
+    "2026 California Proposition 1 11.25 billion housing bond opposition analysis",
+    "California 2026 Proposition 1 SB 417 housing bond evidence cost affordable housing funding 40000 units",
+    "RAND 2025 California affordable housing construction costs 1.5 times prevailing wages engineering fees study",
+    "California 2026 overview state bond debt 2026 80 billion general fund debt ratio",
+    "California housing bond Proposition 1 2018 results units funds allocated audit multifamily housing program cost effectiveness 2026",
+    "California affordable housing bonds 2018 Proposition 1 2025 results 20000 homes annual report",
+    "site.auditor.ca.gov 2025 2026 Department Housing Community Development housing bond funds monitoring CalHome"
+  ],
+  "search_errors": 1,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/1/",
+    "https://voterguide.sos.ca.gov/propositions/1/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/1/title-summary.htm",
+    "https://voterguide.sos.ca.gov/propositions/1/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop1-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop1-text-proposed-laws.pdf",
+    "https://www.ijpr.org/elections/2026-10-17/theres-a-11-25-billion-housing-bond-on-the-ballot-this-november-heres-what-you-should-know",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop1-california-housing-vote-22442444.php",
+    "https://www.sanluisobispo.com/opinion/us-viewpoints/article317790738.html",
+    "https://www.latimes.com/california/newsletter/2026-10-26/skelton-monday-politics-newsletter-ballot-measures",
+    "https://www.ijpr.org/elections/2026-10-17/theres-a-11-25-billion-housing-bond-on-the-ballot-this-november-heres-what-you-should-know",
+    "https://calbudgetcenter.org/resources/proposition-1-californias-veterans-and-affordable-housing-bond/",
+    "https://lao.ca.gov/publications/report/5199",
+    "https://lao.ca.gov/Publications/Report/5101",
+    "https://calmatters.org/housing/2026/03/affordable-housing-bottleneck/",
+    "https://information.auditor.ca.gov/reports/2018-037/sections.html",
+    "https://lao.ca.gov/ballotanalysis/bonds",
+    "https://www.hcd.ca.gov/about-hcd/newsroom/more-housing-faster-governor-newsom-signs-historic-housing-affordability-reforms",
+    "https://leginfo.legislature.ca.gov/faces/billAnalysisClient.xhtml?bill_id=202520260SB417",
+    "https://www.rand.org/pubs/research_reports/RRA3743-1.html",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-1-affordable-housing-bond",
+    "https://laist.com/news/politics/voter-guides/laist-california-voter-game-plan-proposition-prop-1-november-2026-election-guide",
+    "https://www.hcd.ca.gov/about-hcd/newsroom/more-housing-faster-governor-newsom-signs-historic-housing-affordability-reforms",
+    "https://www.enterprisecommunity.org/learning-center/resources/2026-california-affordable-housing-production-pipeline",
+    "https://www.rand.org/content/dam/rand/pubs/research_reports/RRA3700/RRA3743-1/RAND_RRA3743-1.pdf"
+  ],
+  "tool_errors": 3,
+  "warnings": [
+    "warning: reasoning was not replayed on an assistant turn"
+  ],
+  "network": {
+    "requests": 14,
+    "requests_per_host": {
+      "openrouter.ai": 13,
+      "www.rand.org": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.rand.org"
+    ],
+    "status_counts": {
+      "200": 13,
+      "403": 1
+    },
+    "bytes_up": 1423958,
+    "bytes_down": 238814,
+    "wire_bytes": {
+      "harness_to_proxy": 1453592,
+      "proxy_to_harness": 282108,
+      "proxy_to_internet": 1449230,
+      "internet_to_proxy": 315803
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 14,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:19:10.845120+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:19:10.845120+00:00",
+      "finished_at": "2026-11-03T13:20:26.952183+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "run_id": "luna__native__win__p43__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:03:05.627365+00:00",
+  "finished_at": "2026-11-03T13:04:13.949267+00:00",
+  "seconds": 66.2,
+  "input_tokens": 36,
+  "output_tokens": 4577,
+  "cached_tokens": 500998,
+  "cost_usd": 0.0788,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 43 2026 polling yes no poll ...",
+    "\"Proposition 43\" California \"October\" 2026 poll No Yes ...",
+    "site:igs.berkeley.edu \"Proposition 43\" 2026 October likely voters ...",
+    "\"36%\" \"46%\" \"Proposition 43\" California 2026 Berkeley ...",
+    "\"Support dwindles for wealth tax, voter ID ballot measures\" California Times October 29 2026 Prop 43 ...",
+    "California Secretary of State Proposition 43 2026 election results live ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 14,
+    "requests_per_host": {
+      "api.openai.com": 12,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 11,
+      "202": 2
+    },
+    "bytes_up": 1089002,
+    "bytes_down": 1917986,
+    "wire_bytes": {
+      "harness_to_proxy": 853753,
+      "proxy_to_harness": 1050752,
+      "proxy_to_internet": 852812,
+      "internet_to_proxy": 1074761
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1137,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 14,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:03:05.627365+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:03:05.627365+00:00",
+      "finished_at": "2026-11-03T13:04:13.949267+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

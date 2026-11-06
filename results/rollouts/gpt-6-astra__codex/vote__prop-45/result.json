@@ -1,0 +1,106 @@
+{
+  "run_id": "gpt__native__vote__p45__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "45",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:32:10.119321+00:00",
+  "finished_at": "2026-11-03T12:35:49.789011+00:00",
+  "seconds": 217.5,
+  "input_tokens": 51,
+  "output_tokens": 7382,
+  "cached_tokens": 1255111,
+  "cost_usd": 3.6654,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 45 2014 health insurance rate approval independent analysis",
+    "California 2026 Proposition 45 modifies environmental review certain projects initiative statute analysis ...",
+    "\"Proposition 45\" 2026 \"analysis\" \"environmental\" YIMBY ...",
+    "'21016.'",
+    "site.policyinnovation.org \"45\" California ...",
+    "'AB 130'",
+    "site:policyinnovation.org \"Building an Affordable California\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/45/",
+    "https://lao.ca.gov/ballot/2025/250480.pdf",
+    "https://calmatters.org/environment/2026/10/prop-45-california-ceqa-explained/",
+    "https://voterguide.sos.ca.gov/propositions/45/arguments-rebuttals.htm",
+    "https://cayimby.org/blog/proposition-45-2026/",
+    "https://www.noprop45ca.com/",
+    "https://yesonprop45.com/",
+    "https://yesonprop45.com/report-2026-09-25-economic-and-fiscal-impacts-of-proposition-45/",
+    "https://www.circulatesd.org/why_circulate_supports_prop_45",
+    "https://legal-planet.org/2026/09/11/a-warning-to-local-planners-in-california/",
+    "https://www.smwlaw.com/2026/10/06/proposition-45-what-public-agencies-need-to-know/",
+    "https://legal-planet.org/2026/09/14/a-summary-of-baca/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 31,
+    "requests_per_host": {
+      "api.openai.com": 27,
+      "ab.chatgpt.com": 4
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 26,
+      "202": 4
+    },
+    "bytes_up": 1645778,
+    "bytes_down": 3870758,
+    "wire_bytes": {
+      "harness_to_proxy": 1241203,
+      "proxy_to_harness": 2381796,
+      "proxy_to_internet": 1238751,
+      "internet_to_proxy": 2435630
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 3493,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 29,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:32:10.119321+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:32:10.119321+00:00",
+      "finished_at": "2026-11-03T12:35:49.789011+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

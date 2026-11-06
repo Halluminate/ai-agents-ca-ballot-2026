@@ -1,0 +1,178 @@
+{
+  "run_id": "grok__native__vote__p45__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "native",
+  "harness": "grok_build",
+  "effort": "xhigh",
+  "prompt": "vote",
+  "prop": "45",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:51:25.577174+00:00",
+  "finished_at": "2026-11-03T12:57:05.240305+00:00",
+  "seconds": 337.1,
+  "input_tokens": 67253,
+  "output_tokens": 9150,
+  "cached_tokens": 105472,
+  "cost_usd": 0.2421,
+  "cost_source": "estimated",
+  "billed_usd": 0.821814,
+  "searches": [
+    "California Proposition 45 2026 CEQA environmental review analysis",
+    "California Prop 45 2026 vote recommendation independent analysis",
+    "California Proposition 45 2026 CEQA text essential projects data centers analysis site:calmatters.org OR site:lao.ca.gov OR site:ballotpedia.org",
+    "California AB 130 SB 131 2025 CEQA housing exemption what remains covered Proposition 45"
+  ],
+  "search_errors": 1,
+  "web_search_requests": 0,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/45/",
+    "https://voterguide.sos.ca.gov/propositions/45/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/45/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/45/title-summary.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=45&year=2026",
+    "https://calmatters.org/environment/2026/10/prop-45-california-ceqa-explained/",
+    "https://www.hoover.org/proposition-lab-proposition-45",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45.pdf",
+    "https://oag.ca.gov/system/files/initiatives/pdfs/25-0023A1%20%28%26quot%3BEssential%20Projects%26quot%3B%29.pdf",
+    "https://ballotpedia.org/California_Proposition_45,_Changes_to_Environmental_Review_Process_for_Certain_Projects_Initiative_(2026",
+    "https://www.sos.ca.gov/campaign-lobbying/cal-access-resources/measure-contributions/2026-ballot-measure-contribution-totals",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://lao.ca.gov/BallotAnalysis/Initiative/2025-023",
+    "https://calmatters.org/california-voter-guide-2026/proposition-45-environmental-review/",
+    "https://lwvc.org/ballot-recommendations/",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-45-ceqa-california-22468905.php",
+    "https://calmatters.org/economy/technology/2026/10/prop-45-could-open-door-for-california-data-centers/"
+  ],
+  "tool_errors": 3,
+  "warnings": [
+    "capture: 49 connection attempts that ignored the proxy were blocked (grok-1.0.70 network-outbound x47, grok-1.0.70 remote:*:49537 x2)",
+    "capture: 2 connections were not readable by the proxy (calmatters.org:443, openrouter.ai:443)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 32,
+    "requests_per_host": {
+      "openrouter.ai": 14,
+      "voterguide.sos.ca.gov": 4,
+      "vig.cdn.sos.ca.gov": 2,
+      "lao.ca.gov": 2,
+      "www.sos.ca.gov": 2,
+      "calmatters.org": 2,
+      "www.hoover.org": 1,
+      "www.ppic.org": 1,
+      "ballotpedia.org": 1,
+      "oag.ca.gov": 1,
+      "lwvc.org": 1,
+      "www.sfchronicle.com": 1
+    },
+    "hosts": [
+      "ballotpedia.org",
+      "calmatters.org",
+      "lao.ca.gov",
+      "lwvc.org",
+      "oag.ca.gov",
+      "openrouter.ai",
+      "vig.cdn.sos.ca.gov",
+      "voterguide.sos.ca.gov",
+      "www.hoover.org",
+      "www.ppic.org",
+      "www.sfchronicle.com",
+      "www.sos.ca.gov"
+    ],
+    "status_counts": {
+      "200": 29,
+      "301": 1,
+      "404": 1
+    },
+    "bytes_up": 740514,
+    "bytes_down": 4632447,
+    "wire_bytes": {
+      "harness_to_proxy": 778259,
+      "proxy_to_harness": 4751460,
+      "proxy_to_internet": 775559,
+      "internet_to_proxy": 4805367
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "www.sos.ca.gov",
+        "url": "https://www.sos.ca.gov/campaign-lobbying/cal-access-resources/measure-contributions/2026-ballot-measure-contribution-totals",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 2069,
+        "bytes_down": 1718,
+        "duration": 0.1347,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "calmatters.org",
+        "port": 443,
+        "sni": "calmatters.org",
+        "bytes_up": 1805,
+        "bytes_down": 3200,
+        "duration": 0.1209,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 47
+      },
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": "remote:*:49537",
+        "attempts": 2
+      }
+    ],
+    "blocked_attempts": 49,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 22,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:51:25.577174+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:51:25.577174+00:00",
+      "finished_at": "2026-11-03T12:57:05.240305+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

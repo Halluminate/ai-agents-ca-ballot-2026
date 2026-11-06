@@ -1,0 +1,100 @@
+{
+  "run_id": "grok__common__better__p42__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "42",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:18:43.907717+00:00",
+  "seconds": 148.3,
+  "input_tokens": 67507,
+  "output_tokens": 7777,
+  "cached_tokens": 151040,
+  "cost_usd": 0.2928,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 42 voter guide yes or no recommendation",
+    "California Proposition 42 2026 analysis billionaire tax Prop 40 funding Sergey Brin",
+    "California Proposition 40 2026 billionaire tax LAO analysis revenue healthcare exemptions retirement",
+    "Proposition 42 California 2026 overbreadth personal property tax ban legal analysis problems",
+    "California Prop 42 2026 newspaper endorsements League of Women Voters CalMatters recommendation",
+    "California wealth tax bills retirement accounts exemption Alex Lee AB 259 history \"six\" proposals",
+    "San Francisco Chronicle Sacramento Bee endorsement Proposition 42 2026 reason no"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/42/",
+    "https://voterguide.sos.ca.gov/propositions/42/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/42/arguments-rebuttals.htm",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=42&year=2026",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-text-proposed-laws.pdf",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-42",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-42-personal-property-taxes",
+    "https://lao.ca.gov/ballot/2026/prop40-110326.pdf",
+    "https://eml.berkeley.edu/~saez/GGS26props41-42.pdf",
+    "https://lwvc.org/ballot-recommendations/",
+    "https://scholarship.law.missouri.edu/facpubs/1384/",
+    "https://eml.berkeley.edu/~saez/GGS26props41-42.pdf",
+    "https://lwvc.org/ballot-recommendations/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 15,
+    "requests_per_host": {
+      "openrouter.ai": 14,
+      "www.spur.org": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.spur.org"
+    ],
+    "status_counts": {
+      "200": 15
+    },
+    "bytes_up": 1036687,
+    "bytes_down": 538579,
+    "wire_bytes": {
+      "harness_to_proxy": 1067758,
+      "proxy_to_harness": 604498,
+      "proxy_to_internet": 1063286,
+      "internet_to_proxy": 638244
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 15,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

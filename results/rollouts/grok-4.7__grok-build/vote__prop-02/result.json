@@ -1,0 +1,183 @@
+{
+  "run_id": "grok__native__vote__p2__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "native",
+  "harness": "grok_build",
+  "effort": "xhigh",
+  "prompt": "vote",
+  "prop": "2",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:48:35.647154+00:00",
+  "finished_at": "2026-11-03T12:57:12.241560+00:00",
+  "seconds": 514.1,
+  "input_tokens": 44671,
+  "output_tokens": 16674,
+  "cached_tokens": 109696,
+  "cost_usd": 0.2442,
+  "cost_source": "estimated",
+  "billed_usd": 2.1108540000000007,
+  "searches": [
+    "California Proposition 2 2026 Rainy Day Fund analysis Legislative Analyst",
+    "California Proposition 2 2026 increases rainy day fund ACA vote recommendation",
+    "California ACA 20 2026 rainy day fund Gann limit exclusion criticism LAO recommendation 20 percent",
+    "Proposition 2 2026 California rainy day fund Howard Jarvis Taxpayers Association Reason Foundation analysis",
+    "California Proposition 2 2026 editorial endorsement yes no Chronicle Bee Register Union-Tribune SPUR CalTax",
+    "California Gann limit rebates history 2021 2022 Proposition 4 taxpayer refunds rainy day fund deposits",
+    "CalTax oppose Proposition 2 2026 rainy day fund reasons Projected Surplus Temporary Holding Account",
+    "LAO Rethinking California Reserve Policy 2025 BSA cap 20 percent recommendation summary",
+    "San Francisco Chronicle endorsement Proposition 2 2026 rainy day fund Orange County Register no editorial",
+    "California 2026 budget suspend rainy day fund deposits $5 billion ACA 20",
+    "California Projected Surplus Temporary Holding Account Government Code 16418.7 rules withdrawal",
+    "Paul Gann Proposition 72 1988 reserve deposits appropriations limit California",
+    "Pew Charitable Trusts California budget reserves volatility rainy day fund adequacy",
+    "site:lao.ca.gov Proposition 2 2026 rainy day fund Gann appropriations limit fiscal effect"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 0,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/",
+    "https://voterguide.sos.ca.gov/propositions/2/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/title-summary.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop2-text-proposed-laws.pdf",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=2&year=2026",
+    "https://calmatters.org/california-voter-guide-2026/proposition-2-rainy-day-fund/",
+    "https://www.hoover.org/proposition-lab-proposition-2",
+    "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260ACA20",
+    "https://ballotpedia.org/California_Proposition_2,_Budget_Stabilization_Account_Cap_Increase_and_Gann_Limit_Changes_Amendment_(2026",
+    "https://lao.ca.gov/reports/2025/5028/Rethinking-Californias-Reserve-Policy-041025.pdf",
+    "https://calmatters.org/california-voter-guide-2026/proposition-2-rainy-day-fund/"
+  ],
+  "tool_errors": 2,
+  "warnings": [
+    "capture: 29 connection attempts that ignored the proxy were blocked (grok-1.0.70 network-outbound x28, grok-1.0.70 remote:*:65502 x1)",
+    "capture: 4 connections were not readable by the proxy (openrouter.ai:443)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 36,
+    "requests_per_host": {
+      "openrouter.ai": 26,
+      "voterguide.sos.ca.gov": 4,
+      "lao.ca.gov": 2,
+      "vig.cdn.sos.ca.gov": 1,
+      "calmatters.org": 1,
+      "www.hoover.org": 1,
+      "leginfo.legislature.ca.gov": 1
+    },
+    "hosts": [
+      "calmatters.org",
+      "lao.ca.gov",
+      "leginfo.legislature.ca.gov",
+      "openrouter.ai",
+      "vig.cdn.sos.ca.gov",
+      "voterguide.sos.ca.gov",
+      "www.hoover.org"
+    ],
+    "status_counts": {
+      "200": 34,
+      "404": 1
+    },
+    "bytes_up": 654491,
+    "bytes_down": 4547772,
+    "wire_bytes": {
+      "harness_to_proxy": 683300,
+      "proxy_to_harness": 4713071,
+      "proxy_to_internet": 680058,
+      "internet_to_proxy": 4742666
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1502,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 2069,
+        "bytes_down": 1718,
+        "duration": 0.146,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1379,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1487,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 28
+      },
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": "remote:*:65502",
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 29,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 18,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:48:35.647154+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:48:35.647154+00:00",
+      "finished_at": "2026-11-03T12:57:12.241560+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "run_id": "luna__native__better__p4__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:03:03.380626+00:00",
+  "finished_at": "2026-11-03T13:06:49.623228+00:00",
+  "seconds": 224.0,
+  "input_tokens": 90827,
+  "output_tokens": 17868,
+  "cached_tokens": 1383160,
+  "cost_usd": 0.1521,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 4 2026 campaign public financing SB 42 analysis opponents no limits ...",
+    "'broad-based support'",
+    "site:lao.ca.gov California 2026 Proposition 4 public financing campaign LAO analysis ...",
+    "\"The effects of public campaign funding\" \"86%\" Seattle Democracy Voucher study results ...",
+    "Sacramento Bee endorsement Proposition 4 2026 yes public financing elections California Prop 4 ...",
+    "Prop 4 California 2026 public financing county central committee candidates legal analysis ...",
+    "Johns Hopkins public funding US elections evidence effect spending polarization evidence public financing primer ...",
+    "'expenditure'",
+    "\"Prop. 4\" \"Sacramento Bee\" \"Yes\" \"2026\" campaign financing ...",
+    "\"How to vote on California\u2019s Proposition 4: McClatchy Media\u2019s recommendation\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 24,
+    "requests_per_host": {
+      "api.openai.com": 20,
+      "ab.chatgpt.com": 4
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 19,
+      "202": 4
+    },
+    "bytes_up": 1609690,
+    "bytes_down": 3785404,
+    "wire_bytes": {
+      "harness_to_proxy": 1166692,
+      "proxy_to_harness": 2249916,
+      "proxy_to_internet": 1164512,
+      "internet_to_proxy": 2287904
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1823,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 22,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:03:03.380626+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:03:03.380626+00:00",
+      "finished_at": "2026-11-03T13:06:49.623228+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "run_id": "luna__native__better__p5__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "5",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:57:05.294108+00:00",
+  "finished_at": "2026-11-03T13:02:42.234600+00:00",
+  "seconds": 334.7,
+  "input_tokens": 60,
+  "output_tokens": 33784,
+  "cached_tokens": 1487068,
+  "cost_usd": 0.1525,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 5 2026 recall process SCA 1 analysis legislative history opponents editorial ...",
+    "\"SCA 1\" recall election Prop 5 2026 California bill text section 10 California Constitution ...",
+    "site:lhc.ca.gov California recall reform report 2022 replacement process recommendations governor recall 2021 ...",
+    "Prop 5 California recalled official can run special election rationale Josh Newman why allowed to run SCA 1 ...",
+    "'snap special election'",
+    "California Constitution Proposition 5 2026 Article V 10 recalled governor before close nomination period wording ...",
+    "'recalled official may seek'",
+    "Sacramento Bee endorsement Proposition 5 2026 recall reform yes California Prop 5 why ...",
+    "\"Sacramento Bee\" \"Prop. 5\" \"recall\" \"2026\" yes ...",
+    "California Constitution Article V section 5 vacancy Attorney General fill balance of unexpired term special election ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/5/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 25,
+    "requests_per_host": {
+      "api.openai.com": 19,
+      "ab.chatgpt.com": 6
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 18,
+      "202": 6
+    },
+    "bytes_up": 1705879,
+    "bytes_down": 4293375,
+    "wire_bytes": {
+      "harness_to_proxy": 1290733,
+      "proxy_to_harness": 2565386,
+      "proxy_to_internet": 1289552,
+      "internet_to_proxy": 2599685
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2096,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 21,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:57:05.294108+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:57:05.294108+00:00",
+      "finished_at": "2026-11-03T13:02:42.234600+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

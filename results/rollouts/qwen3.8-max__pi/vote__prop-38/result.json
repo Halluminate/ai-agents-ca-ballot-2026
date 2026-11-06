@@ -1,0 +1,112 @@
+{
+  "run_id": "qwen-max__common__vote__p38__r1",
+  "model": "qwen-max",
+  "model_id": "qwen/qwen3.8-max-0902",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "first_line",
+  "error": "",
+  "started_at": "2026-11-03T11:03:14.778482+00:00",
+  "finished_at": "2026-11-03T11:08:10.279804+00:00",
+  "seconds": 291.7,
+  "input_tokens": 86110,
+  "output_tokens": 8326,
+  "cached_tokens": 352512,
+  "cost_usd": 0.3512,
+  "cost_source": "reported",
+  "billed_usd": 0.35115071091999994,
+  "searches": [
+    "California Proposition 38 ballot measure",
+    "Prop 38 California editorial endorsements oppose LA Times Sacramento Bee immunology bond",
+    "Prop 38 California Public Records Act exemption institute immunology transparency criticism",
+    "PPIC poll October 2026 Proposition 38 immunology bond support",
+    "CIRM stem cell bond Proposition 71 Proposition 14 revenue repayment taxpayers track record",
+    "Los Angeles Times editorial board Proposition 38 immunology bond recommendation 2026",
+    "scientists support Proposition 38 immunology immunotherapy defense response criticism peer review",
+    "Prop 38 California news November 2026 latest immunology bond"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/38/",
+    "https://www.sfchronicle.com/opinion/emilyhoeven/article/prop-38-california-newsom-22495203.php",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=38&year=2026",
+    "https://calmatters.org/politics/elections/2026/07/proposition-38-california/",
+    "https://calmatters.org/politics/elections/2026/07/proposition-38-california/",
+    "https://votenoonprop38.org/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38-text-proposed-laws.pdf",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-38-authorizes-bonds-immunology-research-initiative-statut",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38-text-proposed-laws.pdf",
+    "https://www.sacbee.com/news/politics-government/capitol-alert/article317528464.html",
+    "https://laist.com/news/politics/institute-could-get-4-billion-from-ballot-measure"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 20,
+    "requests_per_host": {
+      "openrouter.ai": 19,
+      "lao.ca.gov": 1
+    },
+    "hosts": [
+      "lao.ca.gov",
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 20
+    },
+    "bytes_up": 1836989,
+    "bytes_down": 969008,
+    "wire_bytes": {
+      "harness_to_proxy": 1878020,
+      "proxy_to_harness": 1078048,
+      "proxy_to_internet": 1871986,
+      "internet_to_proxy": 1123147
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 19,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:03:14.778482+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:03:14.778482+00:00",
+      "finished_at": "2026-11-03T11:08:10.279804+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

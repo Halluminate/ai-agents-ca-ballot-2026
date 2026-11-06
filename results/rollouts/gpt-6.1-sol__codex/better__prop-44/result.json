@@ -1,0 +1,113 @@
+{
+  "run_id": "sol__native__better__p44__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "44",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:17:45.636424+00:00",
+  "finished_at": "2026-11-03T13:20:48.493101+00:00",
+  "seconds": 180.6,
+  "input_tokens": 45,
+  "output_tokens": 7342,
+  "cached_tokens": 897666,
+  "cost_usd": 0.5668,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 44 2026 community health clinics 90 percent revenue analysis ...",
+    "\"Proposition 44\" 2026 analysis clinic reserve administrative spending 90 ...",
+    "site.lwvc.org \"Proposition 44\" 2026 ...",
+    "site.lwvc.org \"44\" \"clinics\" 2026 revenue ...",
+    "\"Proposition 44\" \"League of Women Voters\" site:lwvc.org ...",
+    "'National health center net margins'",
+    "'If the prop passes'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/44/",
+    "https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm",
+    "https://yesonprop44.com",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-44",
+    "https://noprop44.com/wp-content/uploads/2025/11/BRG-Report-on-Clinic-Funding-Accountability-Transparency-Act-2025_1117.pdf",
+    "https://www.commonwealthfund.org/blog/2024/community-health-centers-are-serving-more-patients-ever-financial-challenges-loom-large",
+    "https://geigergibson.publichealth.gwu.edu/76-public-insurance-funding-helped-sustain-community-health-centers-2025-health-centers-are-high",
+    "https://www.irs.gov/instructions/i990",
+    "https://leginfo.legislature.ca.gov/faces/billAnalysisClient.xhtml?bill_id=202520260AB1113"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 1 connection attempts that ignored the proxy were blocked (codex remote:*:59147 x1)"
+  ],
+  "network": {
+    "requests": 24,
+    "requests_per_host": {
+      "api.openai.com": 20,
+      "ab.chatgpt.com": 4
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 19,
+      "202": 4
+    },
+    "bytes_up": 1448993,
+    "bytes_down": 3279388,
+    "wire_bytes": {
+      "harness_to_proxy": 1098975,
+      "proxy_to_harness": 1971409,
+      "proxy_to_internet": 1096097,
+      "internet_to_proxy": 2012935
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "codex",
+        "operation": "network-outbound",
+        "target": "remote:*:59147",
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 1,
+    "websocket_messages": 2985,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 22,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:17:45.636424+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:17:45.636424+00:00",
+      "finished_at": "2026-11-03T13:20:48.493101+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

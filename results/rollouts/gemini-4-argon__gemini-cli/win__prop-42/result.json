@@ -1,0 +1,155 @@
+{
+  "run_id": "gemini__native__win__p42__r1",
+  "model": "gemini",
+  "model_id": "gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "native",
+  "harness": "gemini_cli",
+  "effort": "high",
+  "prompt": "win",
+  "prop": "42",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:45:41.977355+00:00",
+  "finished_at": "2026-11-03T10:54:31.717236+00:00",
+  "seconds": 525.2,
+  "input_tokens": 71532,
+  "output_tokens": 330674,
+  "cached_tokens": 432300,
+  "cost_usd": 1.3488,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "\"Proposition 42\" California 2026 personal property retroactive taxes poll OR polling OR endorsements OR campaign finance",
+    "\"Proposition 42\" \"personal property\" California 2026 ballotpedia OR calmatters OR ppic OR berkeley igs",
+    "\"Proposition 42\" \"Berkeley IGS\" OR \"PPIC\" OR \"Emerson\" OR \"USC\" 2026 poll California",
+    "site:ballotpedia.org \"California Proposition 42\" \"Personal Property\" 2026",
+    "\"Prop 42\" \"Prop 40\" California 2026 poll likely voters",
+    "\"Prohibit New Taxes on Retirement Holdings, Personal Assets, and Savings and Limit Retroactive Taxes Initiative\" ballotpedia",
+    "\"Proposition 42\" \"Berkeley IGS\" 2026",
+    "\"Proposition 42\" \"PPIC\" 2026",
+    "site:ballotpedia.org/California_Proposition_42,_Prohibit_New_Taxes_on_Retirement_Holdings,_Personal_Assets,_and_Savings_and_Limit_Retroactive_Taxes_Initiative_(2026) \"Polls\" OR \"Media editorials\" OR \"Footnotes\"",
+    "site:ballotpedia.org \"2026 ballot measure polls\" California",
+    "site:ballotpedia.org \"2026 ballot measure media endorsements\" California"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/42/",
+    "https://voterguide.sos.ca.gov/propositions/42/",
+    "https://voterguide.sos.ca.gov/propositions/42/title-summary.htm,",
+    "https://voterguide.sos.ca.gov/propositions/42/analysis.htm,",
+    "https://voterguide.sos.ca.gov/propositions/42/arguments-rebuttals.htm",
+    "https://ballotpedia.org/California_Proposition_42,_Prohibit_New_Taxes_on_Retirement_Holdings,_Personal_Assets,_and_Savings_and_Limit_Retroactive_Taxes_Initiative_(2026",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGha-dvp4byDGgALTNh_SDiUQqigN_PpgTWmGaOp7dGYs9e8tF6MuwoS_v1UIbL3p_-QF5OVV0IhPs47Cj8kxwF5cuvd4ss6ewRKhcToJxydzl4KLhJByPWmAp9edhzDaaOLA1WN21ClINhkT7B7fSL1N_0i_vt_PiaB53j1PD8wsyQkR4B9yc6wt_vpttlL_N7KZ522xL3Egwk2AAL2TPJO-d8WVz3AcUN4w==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuHMmRIFyu0B-MHSj4cG3cCqhpR3rMhI8Lx0QygW4xeGHEKju-79itj2XDb7a2wX7s-rFhytQEbBcoy5RUsfAC_P7YjhjPS5tJ_8Mryg0-bGYoiTglB2YOZW1d8uosqzpPF0EQcL5NKIX8Tll36LX7Wudvk-ywaPOzLG3m9R2z-yuNo0R4QNmfq3SsDM7vzm_Wptjy-OtuprSuuw2CvMiL5q-UEeWCiUitBZOxz0aZz7s=",
+    "https://sos.ca.gov/campaign-lobbying/cal-access-resources/measure-contributions/2026-ballot-measure-contribution-totals",
+    "https://fppc.ca.gov/transparency/top-contributors.html",
+    "https://ballotpedia.org/California_Proposition_42,_Prohibit_New_Taxes_on_Retirement_Holdings,_Personal_Assets,_and_Savings_and_Limit_Retroactive_Taxes_Initiative_(2026",
+    "https://ballotpedia.org/California_Proposition_42,_Prohibit_New_Taxes_on_Retirement_Holdings,_Personal_Assets,_and_Savings_and_Limit_Retroactive_Taxes_Initiative_(2026",
+    "https://ballotpedia.org/California_Proposition_42,_Prohibit_New_Taxes_on_Retirement_Holdings,_Personal_Assets,_and_Savings_and_Limit_Retroactive_Taxes_Initiative_(2026",
+    "https://ballotpedia.org/California_2026_ballot_measures",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTW9HcFhud17BadFTxiwjcBIL0VQzI62c_xQ6Kv4lZY6Zzb1moRoMku7Y3N4Jt6edrTiXDVszZKgOIFQkUKxXRie0xT7bJ_HciAAnG0kRnqoHgm6BHYOLMKhKppFys8VHN76xDXnvuKGlSvV7zvFDjd5VBxEkLGRmQeHYH7BsFh0TRrVkG5kUI-mDvDXo8zaZEwYB8SEN_u-TfxMhsaVk-bcfpzTfNZoYIEWx8Bw==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGQ2wpoT3wmx5e3wtOylCLZZsoaTOdlGi80SuYFhiOKhZ0jkUTCyfMwlD9zutzZ8w1boxaAfOmNOvNYh2lhAKla7MMBug0NZEqqSOAVAseJY_BohG9a4Tqx5VA_VjEduJOfaxEzQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLuF5ivumX-brpILLVaH_VRTA11uDJySBu0PgOacIHUmadxqOFsL5J3OzmE_r2Oi47BjiOuhscKgw7L0N1Pf-6SLeepf4Kwtb-QxSbAY_jF5au_QHcR_FE65brGR9N77-mT_83FXYUNz1VZQpDfBxaqWpewlyH9vjZ6YQTg5jzPQoHac8qTotqaG600xTsyP6MliZyLSLkTRBWxIY01KkH1_9zo00XFpnHOaQ=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8FYPIKRLrSdRh7UyuIeFISE0retbPOgeo_CCU9_1pldeYWJJB_zf6Vc_fO7z69xjIFekWCS-fNbwXWpl-MBQxW8HK2vYmB9BL_yDJ1JONKEEQ5SjXIHXyjE-xZjhzg2WeldZd4-52xB40IMwwzc_V1FqWKloMMucDHFtwJfPmWIIiJT5fi27VBCR3hTsA2Ni4YrX0qiLqnF2ubatmBA==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnpwZaT_KwC_9784BRdSvPey4uEy7HrqSN1jOF2_-Msq1zA_Mbrmphkm_2bC6VW9FRcn8qgzTdDNG_r5sKN9Ijhr8vnEm7JKaRHvq5mTWgb-_aN9gyL2yPI8PQpgnvjNbrkmCWMinxptmrm2Xt9xC4wRTyPBjruf0-aLHXbDW1bBbsZnJUV00NwK_6rSxiNTbk4ZM7HvFLt3Sp9ws=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKWMr2XQyUDW3weYj4QuJ8X18NkYm6Q6w0hZLP_7ZfUmymAlcObZZSlaF6sUgvkQhS1KxoLRyJ6dH0v4c4T2Gz2XWi_YywQ9v4PBAwYt64KY-P4Em7c8X4Xbwn0g9roAepG0LQBtEqMX_CBb2Ds5c2W7z2w-cC4eE5jT-ZkEJQ2EKsTnP0hQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUILLByvkJywdNf8NAY-KYxBdo3Aue7DSg6JUBuTnCUpr__KbukXH0eoiux6vRkfg6pG9dr3dHeQuPT11WTMZWKx1RGrH4YuGfn7Y3I4Li8cmCjIlTzWsz6HI0tCPfzsy7UlMb5Rhez7Kb3tRjLLgvHV0sK6ORRxJlTXowqat-1xArQZOJuXw=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJIZJZz-waiS27tnjuRj9A5A9YdbGZ22IExso9WuHWaFp8pMh9nkmPKh8jQLz5LqrysQGAB3lM8luK9HtK0c3x3t2oRFiXkezhEjNcJHgZYSh0wp8w8BUqIbC7zfTi6h6nfUH3hG3fYSU4tXBsmK7pLc0=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLwQAzllXBmgfzk3pB-3Q2tUOmU20SW-QqDXYP39v3FoEIKfzlkzAm74gEiIQnYhevTQJfoZEooEd4BiPwoqYXeb3woOe49CPObub4M_pm7eB8h4IVPaH5U7xDGhkeaDuNsvxnlb7gWGiP2ulcbt-LRgvkRx_VUrlK2BIAFAW7",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1kMhxgJZIydfJ9gD_3I5BH_nKW1dbliboLhnSaMXqGtag5R-7D1bwK22msIAmBn8EVtVFiQY9p2hmSduhhI7dB-tMZdy4oUulTnYb5hdf5Vsfd1oleKt0FrE8MxHqE9eJGROd3PUlfmgp7WEVZcQXEXEDdEIvnz0IzZjo7fQ_EoLmq17khxpaW-e6fDFoadLkSHzYgcZHBU7Q1lWqxTzjhmw=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8FYPIKRLrSdRh7UyuIeFISE0retbPOgeo_CCU9_1pldeYWJJB_zf6Vc_fO7z69xjIFekWCS-fNbwXWpl-MBQxW8HK2vYmB9BL_yDJ1JONKEEQ5SjXIHXyjE-xZjhzg2WeldZd4-52xB40IMwwzc_V1FqWKloMMucDHFtwJfPmWIIiJT5fi27VBCR3hTsA2Ni4YrX0qiLqnF2ubatmBA==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnpwZaT_KwC_9784BRdSvPey4uEy7HrqSN1jOF2_-Msq1zA_Mbrmphkm_2bC6VW9FRcn8qgzTdDNG_r5sKN9Ijhr8vnEm7JKaRHvq5mTWgb-_aN9gyL2yPI8PQpgnvjNbrkmCWMinxptmrm2Xt9xC4wRTyPBjruf0-aLHXbDW1bBbsZnJUV00NwK_6rSxiNTbk4ZM7HvFLt3Sp9ws=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGQ2wpoT3wmx5e3wtOylCLZZsoaTOdlGi80SuYFhiOKhZ0jkUTCyfMwlD9zutzZ8w1boxaAfOmNOvNYh2lhAKla7MMBug0NZEqqSOAVAseJY_BohG9a4Tqx5VA_VjEduJOfaxEzQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1kMhxgJZIydfJ9gD_3I5BH_nKW1dbliboLhnSaMXqGtag5R-7D1bwK22msIAmBn8EVtVFiQY9p2hmSduhhI7dB-tMZdy4oUulTnYb5hdf5Vsfd1oleKt0FrE8MxHqE9eJGROd3PUlfmgp7WEVZcQXEXEDdEIvnz0IzZjo7fQ_EoLmq17khxpaW-e6fDFoadLkSHzYgcZHBU7Q1lWqxTzjhmw="
+  ],
+  "tool_errors": 1,
+  "warnings": [
+    "Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.",
+    "capture: 28 connection attempts that ignored the proxy were blocked (node network-outbound x28)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 44,
+    "requests_per_host": {
+      "generativelanguage.googleapis.com": 38,
+      "www.sos.ca.gov": 2,
+      "www.fppc.ca.gov": 2,
+      "sos.ca.gov": 1,
+      "fppc.ca.gov": 1
+    },
+    "hosts": [
+      "fppc.ca.gov",
+      "generativelanguage.googleapis.com",
+      "sos.ca.gov",
+      "www.fppc.ca.gov",
+      "www.sos.ca.gov"
+    ],
+    "status_counts": {
+      "200": 38,
+      "301": 4
+    },
+    "bytes_up": 1793301,
+    "bytes_down": 283516,
+    "wire_bytes": {
+      "harness_to_proxy": 1855860,
+      "proxy_to_harness": 362679,
+      "proxy_to_internet": 1847833,
+      "internet_to_proxy": 437039
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "generativelanguage.googleapis.com",
+        "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "generativelanguage.googleapis.com",
+        "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "node",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 28
+      }
+    ],
+    "blocked_attempts": 28,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 29,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:45:41.977355+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:45:41.977355+00:00",
+      "finished_at": "2026-11-03T10:54:31.717236+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

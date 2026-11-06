@@ -1,0 +1,345 @@
+{
+  "requests": 153,
+  "requests_per_host": {
+    "api.anthropic.com": 75,
+    "openrouter.ai": 53,
+    "calmatters.org": 3,
+    "voterguide.sos.ca.gov": 2,
+    "igs.berkeley.edu": 1,
+    "courthousenews.com": 1,
+    "www.feldesman.com": 1,
+    "www.lao.ca.gov": 1,
+    "www.kpbs.org": 1,
+    "www.hoover.org": 1,
+    "www.nixonpeabody.com": 1,
+    "www.seiu-uhw.org": 1,
+    "laist.com": 1,
+    "americancommunitymedia.org": 1,
+    "oag.ca.gov": 1,
+    "growsf.org": 1,
+    "vig.cdn.sos.ca.gov": 1,
+    "ballotpedia.org": 1,
+    "asamnews.com": 1,
+    "www.independentnews.com": 1,
+    "www.sfexaminer.com": 1,
+    "californiatoday.com": 1,
+    "www.sfchronicle.com": 1,
+    "www.kqed.org": 1
+  },
+  "hosts": [
+    "americancommunitymedia.org",
+    "api.anthropic.com",
+    "asamnews.com",
+    "ballotpedia.org",
+    "californiatoday.com",
+    "calmatters.org",
+    "courthousenews.com",
+    "growsf.org",
+    "igs.berkeley.edu",
+    "laist.com",
+    "oag.ca.gov",
+    "openrouter.ai",
+    "vig.cdn.sos.ca.gov",
+    "voterguide.sos.ca.gov",
+    "www.feldesman.com",
+    "www.hoover.org",
+    "www.independentnews.com",
+    "www.kpbs.org",
+    "www.kqed.org",
+    "www.lao.ca.gov",
+    "www.nixonpeabody.com",
+    "www.seiu-uhw.org",
+    "www.sfchronicle.com",
+    "www.sfexaminer.com"
+  ],
+  "status_counts": {
+    "200": 134,
+    "202": 1,
+    "400": 2,
+    "403": 3,
+    "404": 1
+  },
+  "bytes_up": 5085636,
+  "bytes_down": 3403903,
+  "wire_bytes": {
+    "harness_to_proxy": 5228802,
+    "proxy_to_harness": 3866430,
+    "proxy_to_internet": 5228056,
+    "internet_to_proxy": 3971755
+  },
+  "byte_counter": true,
+  "errors": 27,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/messages?beta=true",
+      "error": "server closed connection"
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "tls_failed_server",
+      "host": "api.anthropic.com",
+      "sni": "api.anthropic.com",
+      "error": "connection closed"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "api.anthropic.com",
+      "sni": "api.anthropic.com",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "tls_failed_server",
+      "host": "api.anthropic.com",
+      "sni": "api.anthropic.com",
+      "error": "connection closed"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "api.anthropic.com",
+      "sni": "api.anthropic.com",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "tls_failed_server",
+      "host": "voterguide.sos.ca.gov",
+      "sni": "voterguide.sos.ca.gov",
+      "error": "connection closed"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "voterguide.sos.ca.gov",
+      "sni": "voterguide.sos.ca.gov",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "tls_failed_server",
+      "host": "voterguide.sos.ca.gov",
+      "sni": "voterguide.sos.ca.gov",
+      "error": "connection closed"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "voterguide.sos.ca.gov",
+      "sni": "voterguide.sos.ca.gov",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/messages?beta=true",
+      "error": "server closed connection"
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0002,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0051,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0012,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": "api.anthropic.com",
+      "bytes_up": 1609,
+      "bytes_down": 39,
+      "duration": 15.2043,
+      "reason": "connection closed early"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0038,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": "api.anthropic.com",
+      "bytes_up": 1609,
+      "bytes_down": 39,
+      "duration": 19.9926,
+      "reason": "connection closed early"
+    },
+    {
+      "host": "voterguide.sos.ca.gov",
+      "port": 443,
+      "sni": "voterguide.sos.ca.gov",
+      "bytes_up": 1590,
+      "bytes_down": 39,
+      "duration": 708.3817,
+      "reason": "connection closed early"
+    },
+    {
+      "host": "voterguide.sos.ca.gov",
+      "port": 443,
+      "sni": "voterguide.sos.ca.gov",
+      "bytes_up": 1590,
+      "bytes_down": 39,
+      "duration": 740.6242,
+      "reason": "connection closed early"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0016,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 9.9989,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 9.9999,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 81,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

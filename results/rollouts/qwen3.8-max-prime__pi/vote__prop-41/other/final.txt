@@ -1,0 +1,28 @@
+# **NO**
+
+**Proposition 41 — "Prohibits New State Taxes That Exclude Revenues From State Spending Limit. Requires Audits for New State Special Taxes." (Nov. 3, 2026)**
+
+---
+
+## What I found
+
+**What it actually does (3 things, only one of which is in the title of the campaign):**
+1. Forces the State Auditor to audit programs a proposed special tax would fund — triggered at only **25% of signatures collected**, before anyone knows if the measure will even qualify. The audit must find ways to cut the program's costs **by at least 10% annually** and compare it to "analogous programs in the nongovernment sector." That summary gets printed in the Voter Information Guide **immediately after the LAO's impartial analysis**.
+2. Requires recurring 4-year audits of programs funded by special taxes enacted on/after Jan. 1, 2026.
+3. **Constitutionally bans any state tax enacted or taking effect on/after Jan. 1, 2026 from being excluded from the Gann Limit** — and says the state "shall not impose, collect, or enforce" such a tax. Plus a poison pill: any competing 2026 initiative with a Gann-exempt tax *or* "different audit rules" is "deemed in conflict," and if 41 gets more votes, **"all the provisions of the other measure shall be null and void."**
+
+**Who wrote it:** 99.96% of the Yes on 41 committee's $58.4M came from Building a Better California — funded by Sergey Brin ($102M), Eric Schmidt ($40M), John Doerr ($40M), Patrick Collison ($33M), Khosla, Larsen, Moritz. The same committee put $118.5M against Prop 40 and $127.8M into Prop 42 — **$300M+ total**. These are precisely the ~200 people who would personally owe 5% of their wealth under Prop 40.
+
+## Why no, even if you also oppose the billionaire tax
+
+- **The collateral damage goes far past Prop 40.** A memo by tax law professors Galle (Berkeley), Gamage (Missouri) and Shanske (Davis) details that the "different audit rules" clause could reach **Proposition 3** — the popular high-earner education tax polling at ~54% — and void it *entirely*, since Prop 3 carries Prop 30's audit rules, not 41's. The Gann Limit ban also threatens **Prop 35's MCO tax** (which explicitly used Art. XIII B §4 to lift the ceiling), the **Hospital Quality Assurance Fee**, and the **SNF fee** — collectively billions in federal Medi-Cal matching money, right as federal health funding is being cut.
+- **It permanently handcuffs fiscal policy.** Excluding dedicated new taxes from the 1979 Gann Limit is the standard tool California has used for decades (Props 10, 56, 30, 35). Banning it in the Constitution means any future revenue measure would have to *also* repeal Prop 41 — inviting single-subject litigation on essentially every future tax initiative. Even the Mercury News/East Bay Times board, which said **No on Prop 40 too**, opposed 41 for this reason: "The state must not surrender its future freedom of action to defeat a single, one-time tax proposal."
+- **The audits aren't neutral.** Mandating a 10% cut target and private-sector comparisons, then printing it in the official guide, turns a respected nonpartisan office into a de facto anti-tax argument. Audits start before qualification; the **General Fund eats the cost** for measures that never make the ballot or lose. LAO: low millions annually, growing, plus ~$300K per initiative in printing/mailing.
+- **It's largely duplicative.** California already has an independent State Auditor with a statutory "high-risk" audit program, whistleblower-triggered audits, and legislative-request audits. Prop 3's revenues are already subject to audit under Art. XIII §36(g).
+- **Sloppy drafting.** Two separate "SEC. 5"s; "state tax" is undefined (putting fees like the HQAF at risk); and it permanently appropriates General Fund money to hire private counsel to defend itself if the Governor and AG won't.
+
+**Endorsements:** NO — SF Chronicle, LA Times (Skelton: "twin poison pills"), Mercury News/East Bay Times, McClatchy/Sacramento Bee, League of Women Voters of California, California Democratic Party. YES — San Diego Union-Tribune, Press-Enterprise, Cal Chamber, CalTax, CalCPA.
+
+**Bottom line:** You don't need Prop 41 to defeat Prop 40 — voting no on Prop 40 does that. Prop 41 is a single-donor constitutional amendment marketed as "audits" that would actually rewire California's tax system, risk voiding Prop 3, and jeopardize billions in federal Medi-Cal funding.
+
+**Vote NO.**

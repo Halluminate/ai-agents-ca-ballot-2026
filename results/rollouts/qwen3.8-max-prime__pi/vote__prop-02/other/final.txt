@@ -1,0 +1,20 @@
+**Yes.**
+
+I researched this thoroughly. Note: your link resolves to the **November 3, 2026** ballot, where Prop 2 is ACA 20, the "Save for California's Future Act" (rainy day fund), *not* the 2024 school bond of the same number.
+
+**What it does:** Doubles the Budget Stabilization Account cap from 10% → 20% of General Fund tax revenues; captures 150% of capital-gains revenue above 10%; extends mandatory extra debt payments from 2030 → 2040; expands eligible debts (Prop 98 settle-ups, internal loans, the ~$20B federal unemployment insurance loan); and stops counting reserve *deposits* against the Gann limit until the money is *withdrawn*. No new taxes, no new spending.
+
+**Why yes — the decisive evidence:**
+
+- **The nonpartisan Legislative Analyst's Office effectively wrote this measure.** Its April 2025 report *Rethinking California's Reserve Policy* ran thousands of 50-year simulations and found current law lets the state cover only ~**30%** of funding shortfalls; the 20%-cap-plus-Gann-fix package covers ~**50%**. The LAO's own recommended phase-in says "**20 percent to take effect immediately after the next statewide election**." It also found California ranks **5th nationally in revenue volatility but 28th in reserve levels**.
+- **The timing argues for it.** In May 2026 — during an AI/capital-gains revenue boom — the LAO warned the state was drawing down $20B in reserves while facing a structural deficit, is "ill-prepared for even a slip up in revenues," and that a dot-com-style bust could open a **$100 billion** hole. It recommended a **$20 billion discretionary BSA deposit** explicitly to advance "the administration's proposal that the state raise BSA reserves to 20 percent."
+- **The Gann-limit change fixes a genuinely backwards rule.** Today deposits *into savings* count as "spending" while withdrawals don't — punishing the state for saving in exactly the boom years when it should. The LAO called the fix "reasonable," and the money still counts when actually spent.
+- **The debt-paydown half cannot be suspended, even in a budget emergency** — a real, enforceable discipline mechanism. Prop 2 extends it ten more years against interest-accruing liabilities.
+
+**The opposition's case, and why it doesn't prevail:** The core argument is that Prop 2 "cancels your tax rebate." But a constitutionally *required* Gann rebate has happened **once in 45 years** (1987, $1.1B). The much-touted 2022 $9.5B refund was *voluntary* — the state finished roughly $11B **under** the limit after budget adjustments, and the refund was itself structured as a Gann-exempt expenditure. The state currently has ~$27B of room, and half of any excess goes to schools anyway.
+
+The more serious critique is hypocrisy: the same Legislature suspended a **$5.4 billion** required BSA deposit in the 2026-27 budget during a boom — which the LAO called "the single largest category of solutions" (~40%). That's damning about lawmakers. But a NO vote keeps the 10% ceiling the LAO deems inadequate *and* lets the non-suspendable debt-paydown requirement lapse in 2030 — it fixes nothing.
+
+**Corroboration:** Passed 59-8 (Assembly), 29-2 (Senate). Supported by CalChamber, LA Chamber, Professional Firefighters, Hospital Association, Primary Care Association, PTA, League of Women Voters, SPUR, and one Republican legislator. Endorsed by the SF Chronicle and Sacramento Bee. Opposed by the San Diego Union-Tribune, OC Register, Reform California, and the Howard Jarvis Taxpayers Association — with **no funded opposition campaign** ("Opponents: None submitted"). PPIC polling: 61% yes.
+
+One caveat worth holding onto: Prop 2 raises the *ceiling* on saving, not a guarantee the money stays there. The Chronicle's framing is right — pass it, then hold lawmakers accountable for using it.

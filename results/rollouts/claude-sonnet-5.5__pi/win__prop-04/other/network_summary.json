@@ -1,0 +1,55 @@
+{
+  "requests": 42,
+  "requests_per_host": {
+    "openrouter.ai": 35,
+    "electionresults.sos.ca.gov": 2,
+    "movement.vote": 1,
+    "www.azcentral.com": 1,
+    "apnews.com": 1,
+    "www.politico.com": 1,
+    "www.cnn.com": 1
+  },
+  "hosts": [
+    "apnews.com",
+    "electionresults.sos.ca.gov",
+    "movement.vote",
+    "openrouter.ai",
+    "www.azcentral.com",
+    "www.cnn.com",
+    "www.politico.com"
+  ],
+  "status_counts": {
+    "200": 37,
+    "402": 1,
+    "403": 2,
+    "404": 1,
+    "429": 1
+  },
+  "bytes_up": 4200046,
+  "bytes_down": 632343,
+  "wire_bytes": {
+    "harness_to_proxy": 4273813,
+    "proxy_to_harness": 751443,
+    "proxy_to_internet": 4264020,
+    "internet_to_proxy": 834067
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 33,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

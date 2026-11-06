@@ -1,0 +1,107 @@
+{
+  "run_id": "gpt__native__win__p45__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "45",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T12:28:07.276977+00:00",
+  "finished_at": "2026-11-03T12:30:16.262250+00:00",
+  "seconds": 126.9,
+  "input_tokens": 36,
+  "output_tokens": 6990,
+  "cached_tokens": 605857,
+  "cost_usd": 2.4323,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 45 health insurance rate changes results polls",
+    "California Proposition 45 2026 CEQA latest poll November October Berkeley IGS ...",
+    "Probolsky Research Proposition 45 October 27 2026 poll yes no methodology ...",
+    "'margin of error'",
+    "\"Proposition 45\" 2026 CalMatters poll campaign November 2 ...",
+    "\"Proposition 45\" \"2026\" \"November 2\" polls ...",
+    "'Polls'",
+    "\"Proposition 45\" \"2026\" \"Kalshi\" ...",
+    "\"Proposition 45\" \"poll\" \"November 3, 2026\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/45/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.onpointpolitics.us/forecast/measures/ca/proposition-45",
+    "https://southbaychronicle.com/2026/11/01/prop-45-final-weekend-polls-ppic-probolsky-bay-area-ceqa/",
+    "https://www.probolskyresearch.com/2026/10/27/yes-on-prop-45-leads-by-a-thin-margin/",
+    "https://www.fppc.ca.gov/search-filings/top-10-contributors-list/november-2026-general-election/",
+    "https://ballotpedia.org/California_Proposition_45%2C_Changes_to_Environmental_Review_Process_for_Certain_Projects_Initiative_%282026%29",
+    "https://www.kqed.org/voterguide/california/proposition-45/",
+    "https://www.probolskyresearch.com/wp-content/uploads/securepdfs/2026/10/Probolsky-Research-California-Omnibus-Proposition-45-Results-Presentation.pdf",
+    "https://www.probolskyresearch.com/wp-content/uploads/2026/10/Screenshot-2026-10-27-at-2.12.22-PM-1.png",
+    "https://kalshi.com/markets/kxcaballotmeasures"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 26,
+    "requests_per_host": {
+      "api.openai.com": 23,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 22,
+      "202": 3
+    },
+    "bytes_up": 1266994,
+    "bytes_down": 2937624,
+    "wire_bytes": {
+      "harness_to_proxy": 1007869,
+      "proxy_to_harness": 1722758,
+      "proxy_to_internet": 1006254,
+      "internet_to_proxy": 1765574
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 3559,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 25,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:28:07.276977+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:28:07.276977+00:00",
+      "finished_at": "2026-11-03T12:30:16.262250+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

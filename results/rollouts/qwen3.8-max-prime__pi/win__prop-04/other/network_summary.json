@@ -1,0 +1,73 @@
+{
+  "requests": 23,
+  "requests_per_host": {
+    "openrouter.ai": 22,
+    "escholarship.org": 1
+  },
+  "hosts": [
+    "escholarship.org",
+    "openrouter.ai"
+  ],
+  "status_counts": {
+    "200": 21,
+    "403": 1
+  },
+  "bytes_up": 1238635,
+  "bytes_down": 730551,
+  "wire_bytes": {
+    "harness_to_proxy": 1291624,
+    "proxy_to_harness": 816942,
+    "proxy_to_internet": 1283000,
+    "internet_to_proxy": 877793
+  },
+  "byte_counter": true,
+  "errors": 2,
+  "error_details": [
+    {
+      "kind": "connect_error",
+      "host": "openrouter.ai",
+      "error": null
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "server closed connection"
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 108,
+      "bytes_down": 276,
+      "duration": 30.014,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "escholarship.org",
+      "port": 443,
+      "sni": "escholarship.org",
+      "bytes_up": 1720,
+      "bytes_down": 39,
+      "duration": 19.1592,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 26,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

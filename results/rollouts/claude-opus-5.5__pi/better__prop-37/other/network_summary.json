@@ -1,0 +1,54 @@
+{
+  "requests": 56,
+  "requests_per_host": {
+    "openrouter.ai": 48,
+    "www.pacific.edu": 2,
+    "www.sandiegouniontribune.com": 1,
+    "www.latimes.com": 1,
+    "www.mercurynews.com": 1,
+    "oag.ca.gov": 1,
+    "voteyeson37.com": 1,
+    "ballotpedia.org": 1
+  },
+  "hosts": [
+    "ballotpedia.org",
+    "oag.ca.gov",
+    "openrouter.ai",
+    "voteyeson37.com",
+    "www.latimes.com",
+    "www.mercurynews.com",
+    "www.pacific.edu",
+    "www.sandiegouniontribune.com"
+  ],
+  "status_counts": {
+    "200": 55,
+    "202": 1
+  },
+  "bytes_up": 17421391,
+  "bytes_down": 4834005,
+  "wire_bytes": {
+    "harness_to_proxy": 17509815,
+    "proxy_to_harness": 5011816,
+    "proxy_to_internet": 17503494,
+    "internet_to_proxy": 5071794
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 32,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

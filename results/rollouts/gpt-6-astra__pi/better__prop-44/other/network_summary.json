@@ -1,0 +1,94 @@
+{
+  "requests": 35,
+  "requests_per_host": {
+    "openrouter.ai": 16,
+    "calmatters.org": 3,
+    "voterguide.sos.ca.gov": 2,
+    "noprop44.com": 2,
+    "yesonprop44.com": 2,
+    "bphc.hrsa.gov": 2,
+    "vig.cdn.sos.ca.gov": 1,
+    "www.latimes.com": 1,
+    "www.kpbs.org": 1,
+    "www.hoover.org": 1,
+    "www.nixonpeabody.com": 1,
+    "www.chcf.org": 1,
+    "lao.ca.gov": 1,
+    "www.kqed.org": 1
+  },
+  "hosts": [
+    "bphc.hrsa.gov",
+    "calmatters.org",
+    "lao.ca.gov",
+    "noprop44.com",
+    "openrouter.ai",
+    "vig.cdn.sos.ca.gov",
+    "voterguide.sos.ca.gov",
+    "www.chcf.org",
+    "www.hoover.org",
+    "www.kpbs.org",
+    "www.kqed.org",
+    "www.latimes.com",
+    "www.nixonpeabody.com",
+    "yesonprop44.com"
+  ],
+  "status_counts": {
+    "200": 35
+  },
+  "bytes_up": 1741855,
+  "bytes_down": 3076926,
+  "wire_bytes": {
+    "harness_to_proxy": 1813429,
+    "proxy_to_harness": 3200028,
+    "proxy_to_internet": 1805639,
+    "internet_to_proxy": 3285854
+  },
+  "byte_counter": true,
+  "errors": 3,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "tls_failed_server",
+      "host": "trackbill.com",
+      "sni": "trackbill.com",
+      "error": "connection closed"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "trackbill.com",
+      "sni": "trackbill.com",
+      "error": "connection closed early"
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "trackbill.com",
+      "port": 443,
+      "sni": "trackbill.com",
+      "bytes_up": 1711,
+      "bytes_down": 39,
+      "duration": 15.3878,
+      "reason": "connection closed early"
+    }
+  ],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 36,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

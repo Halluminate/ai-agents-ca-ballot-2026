@@ -1,0 +1,191 @@
+{
+  "run_id": "grok__native__vote__p43__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "native",
+  "harness": "grok_build",
+  "effort": "xhigh",
+  "prompt": "vote",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:55:56.191776+00:00",
+  "finished_at": "2026-11-03T13:06:39.221918+00:00",
+  "seconds": 640.7,
+  "input_tokens": 116944,
+  "output_tokens": 17113,
+  "cached_tokens": 87040,
+  "cost_usd": 0.3801,
+  "cost_source": "estimated",
+  "billed_usd": 1.9503379999999995,
+  "searches": [
+    "California Proposition 43 2026 voter guide",
+    "California Proposition 43 November 2026 ballot what is it",
+    "California Proposition 43 2026 ACA 22 Upland decision analysis LAO",
+    "Proposition 43 California 2026 independent analysis League of Women Voters PPIC SPUR Ballotpedia",
+    "California citizen initiative special taxes passed majority not two-thirds Upland examples Measure ULA",
+    "Measure ULA economic impact housing development transactions Terner Center UCLA Lewis Center 2024 2025 2026",
+    "how many California local special tax initiatives passed with majority but less than two-thirds since Upland 2018-2026",
+    "California local governments sponsor citizen initiatives to avoid two-thirds tax vote workaround evidence",
+    "CaliforniaCityFinance local revenue measure pass rates two-thirds versus majority 2020-2024 special tax results",
+    "League of Women Voters California Proposition 43 recommendation 2026",
+    "site:lao.ca.gov proposition 43 local special taxes voter initiative two-thirds"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 0,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/",
+    "https://voterguide.sos.ca.gov/propositions/43/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/43/title-summary.htm",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_43",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=43&year=2026",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43-text-proposed-laws.pdf",
+    "https://calmatters.org/politics/2026/10/california-prop-43-election-2026/",
+    "https://ballotpedia.org/California_Proposition_43,_Two-Thirds_Vote_Requirement_for_Local_Special_Tax_Initiatives_and_Property_Tax_Initiative_Prohibition_Amendment_(2026",
+    "https://calmatters.org/politics/2026/10/california-prop-43-election-2026/",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-43-local-tax-threshold",
+    "https://calmatters.org/housing/2026/06/tax-cut-measure-pulled/",
+    "https://www.hoover.org/proposition-lab-proposition-43"
+  ],
+  "tool_errors": 2,
+  "warnings": [
+    "capture: 32 connection attempts that ignored the proxy were blocked (grok-1.0.70 network-outbound x31, grok-1.0.70 remote:*:50238 x1)",
+    "capture: 4 connections were not readable by the proxy (openrouter.ai:443)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 34,
+    "requests_per_host": {
+      "openrouter.ai": 23,
+      "voterguide.sos.ca.gov": 3,
+      "calmatters.org": 2,
+      "en.wikipedia.org": 1,
+      "lao.ca.gov": 1,
+      "vig.cdn.sos.ca.gov": 1,
+      "ballotpedia.org": 1,
+      "www.spur.org": 1,
+      "www.hoover.org": 1
+    },
+    "hosts": [
+      "ballotpedia.org",
+      "calmatters.org",
+      "en.wikipedia.org",
+      "lao.ca.gov",
+      "openrouter.ai",
+      "vig.cdn.sos.ca.gov",
+      "voterguide.sos.ca.gov",
+      "www.hoover.org",
+      "www.spur.org"
+    ],
+    "status_counts": {
+      "200": 32,
+      "404": 1
+    },
+    "bytes_up": 971188,
+    "bytes_down": 2865523,
+    "wire_bytes": {
+      "harness_to_proxy": 1018559,
+      "proxy_to_harness": 3037218,
+      "proxy_to_internet": 1014406,
+      "internet_to_proxy": 3098476
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1337,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 2069,
+        "bytes_down": 1718,
+        "duration": 0.1165,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1439,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1414,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 31
+      },
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": "remote:*:50238",
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 32,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 26,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:55:56.191776+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:55:56.191776+00:00",
+      "finished_at": "2026-11-03T13:06:39.221918+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

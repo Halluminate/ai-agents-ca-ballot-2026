@@ -1,0 +1,99 @@
+{
+  "run_id": "qwen-max-prime__common__win__p45__r1",
+  "model": "qwen-max-prime",
+  "model_id": "qwen/qwen3.8-max-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "45",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:09:01.138338+00:00",
+  "finished_at": "2026-11-03T13:10:18.673357+00:00",
+  "seconds": 74.5,
+  "input_tokens": 56006,
+  "output_tokens": 2610,
+  "cached_tokens": 157824,
+  "cost_usd": 0.3849,
+  "cost_source": "reported",
+  "billed_usd": 0.38490757503999995,
+  "searches": [
+    "California Proposition 45 2025 redistricting poll support",
+    "Prop 45 California 2026 campaign fundraising Yes on 45 vs No on 45 millions",
+    "PPIC poll October 2026 Proposition 45 CEQA 50% oppose 46% support",
+    "Proposition 45 CEQA poll November 2026 likely voters yes no",
+    "\"Prop 45\" California results November 3 2026 CEQA passes fails",
+    "Berkeley IGS poll Proposition 45 CEQA environmental review 2026",
+    "Proposition 45 prediction market odds pass 2026 Kalshi Polymarket",
+    "Prop 45 CEQA latest poll late October 2026 Emerson SurveyUSA data centers",
+    "\"No on Prop 45\" campaign advertising 2026 utility rates data centers attack ads",
+    "Prop 45 poll released November 2 2026 CEQA measure final days forecast",
+    "Kalshi Proposition 45 environmental review yes odds Nov 2 2026"
+  ],
+  "search_errors": 1,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/45/",
+    "https://southbaychronicle.com/2026/11/01/prop-45-final-weekend-polls-ppic-probolsky-bay-area-ceqa/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-45",
+    "https://www.probolskyresearch.com/2026/10/27/yes-on-prop-45-leads-by-a-thin-margin/",
+    "https://www.onpointpolitics.us/forecast/measures/ca/proposition-45"
+  ],
+  "tool_errors": 1,
+  "warnings": [],
+  "network": {
+    "requests": 19,
+    "requests_per_host": {
+      "openrouter.ai": 19
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 19
+    },
+    "bytes_up": 860497,
+    "bytes_down": 375922,
+    "wire_bytes": {
+      "harness_to_proxy": 898362,
+      "proxy_to_harness": 430513,
+      "proxy_to_internet": 892470,
+      "internet_to_proxy": 474677
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 18,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:09:01.138338+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:09:01.138338+00:00",
+      "finished_at": "2026-11-03T13:10:18.673357+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

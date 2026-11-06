@@ -1,0 +1,52 @@
+{
+  "requests": 25,
+  "requests_per_host": {
+    "openrouter.ai": 19,
+    "www.kcra.com": 1,
+    "www.lao.ca.gov": 1,
+    "www.californiachoices.org": 1,
+    "www.irs.gov": 1,
+    "bphc.hrsa.gov": 1,
+    "www.gao.gov": 1
+  },
+  "hosts": [
+    "bphc.hrsa.gov",
+    "openrouter.ai",
+    "www.californiachoices.org",
+    "www.gao.gov",
+    "www.irs.gov",
+    "www.kcra.com",
+    "www.lao.ca.gov"
+  ],
+  "status_counts": {
+    "200": 24,
+    "404": 1
+  },
+  "bytes_up": 1634769,
+  "bytes_down": 586772,
+  "wire_bytes": {
+    "harness_to_proxy": 1686724,
+    "proxy_to_harness": 664372,
+    "proxy_to_internet": 1679748,
+    "internet_to_proxy": 725782
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 25,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

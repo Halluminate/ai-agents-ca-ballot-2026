@@ -1,0 +1,104 @@
+{
+  "run_id": "qwen-27b__common__vote__p40__r1",
+  "model": "qwen-27b",
+  "model_id": "qwen/qwen3.8-27b",
+  "pin": "deepinfra",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "40",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "last_line",
+  "error": "",
+  "started_at": "2026-11-03T13:30:10.488029+00:00",
+  "finished_at": "2026-11-03T13:33:39.318817+00:00",
+  "seconds": 206.0,
+  "input_tokens": 50762,
+  "output_tokens": 8841,
+  "cached_tokens": 130144,
+  "cost_usd": 0.0545,
+  "cost_source": "reported",
+  "billed_usd": 0.054480293799999996,
+  "searches": [
+    "California Proposition 40 ballot measure text what it does",
+    "Proposition 40 billionaire tax poll California support approval September 2026",
+    "Prop 40 California \"legislature\" amend without vote loophole wealth tax legal analysis",
+    "Stanford economists study Prop 40 billionaire tax \"25 billion\" California revenue loss",
+    "One Big Beautiful Bill Act Medicaid cuts California Medi-Cal how much 10 years impact"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/40/",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=40&year=2026",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_40",
+    "https://voterguide.sos.ca.gov/propositions/40/arguments-rebuttals.htm",
+    "https://www.kpbs.org/news/politics/2026/09/23/proposition-40-apply-one-time-tax-to-billionaires-to-fund-healthcare-and-education",
+    "https://www.kpbs.org/news/politics/2026/09/23/proposition-40-apply-one-time-tax-to-billionaires-to-fund-healthcare-and-education",
+    "https://www.sfchronicle.com/election/article/prop-40-41-42-california-22476000.php"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 13,
+    "requests_per_host": {
+      "openrouter.ai": 12,
+      "www.kpbs.org": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.kpbs.org"
+    ],
+    "status_counts": {
+      "200": 13
+    },
+    "bytes_up": 695013,
+    "bytes_down": 3261113,
+    "wire_bytes": {
+      "harness_to_proxy": 722825,
+      "proxy_to_harness": 3446239,
+      "proxy_to_internet": 719254,
+      "internet_to_proxy": 3474980
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 14,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:30:10.488029+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:30:10.488029+00:00",
+      "finished_at": "2026-11-03T13:33:39.318817+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

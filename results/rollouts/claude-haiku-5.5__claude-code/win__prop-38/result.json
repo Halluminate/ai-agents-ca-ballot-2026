@@ -1,0 +1,353 @@
+{
+  "run_id": "haiku__native__win__p38__r1",
+  "model": "haiku",
+  "model_id": "anthropic/claude-haiku-5.5",
+  "pin": "anthropic",
+  "arm": "native",
+  "harness": "claude_code",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:54:44.603045+00:00",
+  "finished_at": "2026-11-03T12:38:48.949264+00:00",
+  "seconds": 2638.6,
+  "input_tokens": 153734,
+  "output_tokens": 20039,
+  "cached_tokens": 198921,
+  "cost_usd": 0.7058,
+  "cost_source": "reported",
+  "billed_usd": 0.7058420600000004,
+  "searches": [
+    "California Proposition 38 November 2026 ballot",
+    "Proposition 38 immunology bond poll California voters",
+    "Prop 38 California immunology results",
+    "PPIC statewide survey October 2026 Proposition 38 likely voters",
+    "Prop 38 poll immunology bond Berkeley IGS OR Emerson OR SurveyUSA 2026",
+    "Prop 38 election results immunology bond passes OR fails",
+    "PPIC poll Prop 38 immunology 57% likely voters margin of error",
+    "\"Prop 38\" poll voters support opposition immunology research bond survey October 2026",
+    "Michelson Prop 38 campaign spending opposition committee No on 38 money raised",
+    "Prop 38 California odds Kalshi OR Polymarket OR prediction market immunology",
+    "Prop 38 editorial endorsement newspaper editorial board immunology bond 2026",
+    "Proposition 38 immunology lawsuit ballot label court ruling 2026",
+    "Prop 38 final days campaign news November 2026 immunology institute Michelson",
+    "2020 California Proposition 14 stem cell research bond passed 51% polls before election",
+    "California November 2026 propositions statewide poll Berkeley IGS likely voters ballot measures results",
+    "Berkeley IGS poll September 2026 release propositions Prop 38 immunology research bond support"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 16,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/38/",
+    "https://calmatters.org/politics/elections/2026/10/prop-38-california/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-38",
+    "https://yeson38.com/2026/10/28/prop-38-ppic-poll/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.ppic.org/pdf/ppic-statewide-survey-californians-and-their-government-october-2026.pdf",
+    "https://www.ppic.org/wp-content/uploads/crosstabs-likely-voters-1026.pdf",
+    "https://www.onpointpolitics.us/forecast/measures/ca/proposition-38",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+    "https://defirate.com/odds/california-props/",
+    "https://www.hoover.org/proposition-lab-proposition-38",
+    "https://calmatters.org/newsletter/prop-40-poll/",
+    "https://escholarship.org/content/qt3w14s99c/qt3w14s99c.pdf",
+    "https://californiatoday.com/guides/elections/2026-california-propositions-master-guide/"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 1 connection attempts that ignored the proxy were blocked (claude.exe remote:*:49449 x1)",
+    "capture: 9 connections were not readable by the proxy (api.anthropic.com:443)"
+  ],
+  "network": {
+    "requests": 123,
+    "requests_per_host": {
+      "api.anthropic.com": 67,
+      "openrouter.ai": 42,
+      "www.ppic.org": 4,
+      "calmatters.org": 2,
+      "voterguide.sos.ca.gov": 1,
+      "igs.berkeley.edu": 1,
+      "yeson38.com": 1,
+      "www.onpointpolitics.us": 1,
+      "defirate.com": 1,
+      "www.hoover.org": 1,
+      "escholarship.org": 1,
+      "californiatoday.com": 1
+    },
+    "hosts": [
+      "api.anthropic.com",
+      "californiatoday.com",
+      "calmatters.org",
+      "defirate.com",
+      "escholarship.org",
+      "igs.berkeley.edu",
+      "openrouter.ai",
+      "voterguide.sos.ca.gov",
+      "www.hoover.org",
+      "www.onpointpolitics.us",
+      "www.ppic.org",
+      "yeson38.com"
+    ],
+    "status_counts": {
+      "200": 110,
+      "403": 2
+    },
+    "bytes_up": 3970043,
+    "bytes_down": 7400478,
+    "wire_bytes": {
+      "harness_to_proxy": 4088106,
+      "proxy_to_harness": 7669174,
+      "proxy_to_internet": 4067896,
+      "internet_to_proxy": 7740591
+    },
+    "byte_counter": true,
+    "errors": 22,
+    "error_details": [
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "server closed connection"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "server closed connection"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 11.2668,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0018,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0044,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.003,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0008,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0014,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0036,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0018,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0008,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "claude.exe",
+        "operation": "network-outbound",
+        "target": "remote:*:49449",
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 1,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 58,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:54:44.603045+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:54:44.603045+00:00",
+      "finished_at": "2026-11-03T12:38:48.949264+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "requests": 81,
+  "requests_per_host": {
+    "openrouter.ai": 73,
+    "voterguide.sos.ca.gov": 3,
+    "www.edsource.org": 1,
+    "edsource.org": 1,
+    "www.sco.ca.gov": 1,
+    "www.cbpp.org": 1,
+    "www.cde.ca.gov": 1
+  },
+  "hosts": [
+    "edsource.org",
+    "openrouter.ai",
+    "voterguide.sos.ca.gov",
+    "www.cbpp.org",
+    "www.cde.ca.gov",
+    "www.edsource.org",
+    "www.sco.ca.gov"
+  ],
+  "status_counts": {
+    "200": 78,
+    "301": 1,
+    "403": 2
+  },
+  "bytes_up": 6274627,
+  "bytes_down": 3808179,
+  "wire_bytes": {
+    "harness_to_proxy": 6454598,
+    "proxy_to_harness": 4136094,
+    "proxy_to_internet": 6427983,
+    "internet_to_proxy": 4343592
+  },
+  "byte_counter": true,
+  "errors": 2,
+  "error_details": [
+    {
+      "kind": "connect_error",
+      "host": "www.californiabudgetcenter.org",
+      "error": null
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "www.californiabudgetcenter.org",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 142,
+      "bytes_down": 293,
+      "duration": 0.1605,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 83,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

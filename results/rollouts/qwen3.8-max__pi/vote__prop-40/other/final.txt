@@ -1,0 +1,27 @@
+**No.**
+
+---
+
+### What I found
+
+**The measure:** A one-time 5% tax on the worldwide net worth of ~200–260 Californians worth ≥$1B, keyed to residency as of **Jan. 1, 2026** (retroactive — 10 months before the vote), valued Dec. 31, 2026. 90% to health care, 10% to education/food assistance. Revenue is exempted from Prop 98, the Gann spending limit, and reserve requirements.
+
+**The case for it is real.** The H.R.1 cuts genuinely threaten ~$100B in California health/food/education funding and ~1.3–3.4M Californians' coverage. Billionaires do pay a lower effective rate than average taxpayers on true economic income. The LAO's official estimate is net-positive ("tens of billions" vs. under $1B/year in lost income tax).
+
+**But the measure fails on execution:**
+
+1. **The base already collapsed.** ~30% of California billionaire wealth (~$540B — Page, Brin, Thiel, Kalanick, Sacks, Spielberg, Hankey) left *before* the Jan. 1 cutoff. One tax attorney says "a third to half" of his clients have gone. The $100B promise is unreachable; independent estimates land near $30B, before legal risk.
+
+2. **Probably fatal constitutional defects.** Tax Foundation documents eight: retroactive "wholly new tax" (struck down twice by SCOTUS); 100% apportionment of worldwide wealth violating Commerce Clause nexus/fair-apportionment/internal-consistency tests; taxing U.S. Treasuries (intergovernmental immunity); right-to-travel problems; revision-vs-amendment; single-subject; uncapped appraiser penalties; dubious private-company valuation. Critically, **California courts have consistently refused to judicially reform tax statutes to cure constitutional violations.** If struck down: the exodus, the startup chill, years of litigation, and $0.
+
+3. **It may be net-negative.** Rauh/Jaros (NBER) find a **–$38.9B** net present value, with 85% of 100,000 simulations producing losses. California gets ~half its income tax from the top 1% — trading *permanent recurring* revenue for a *one-time* levy is structurally reckless.
+
+4. **Fiscal cliff.** Medi-Cal's gap is ~$8.6B/year *permanently* from 2028-29. A five-year windfall doesn't fix that. Hence the striking fact that the groups receiving 90% of the money — **California Medical Association, Children's Hospital Association, Primary Care Association, Planned Parenthood Affiliates** — all *oppose* it, because forward-looking budgets can't be built on uncertain, litigation-delayed, expiring cash.
+
+5. **No guardrails.** Weak anti-supplanting language; per the LA Times, funds could flow to insurers, pharma, and for-profit hospitals with nothing requiring lower costs. It overrides voter-approved Prop 98 and reserve rules — ballot-box budgeting drafted by one union for its own sector.
+
+6. **The opposition isn't just billionaires.** NAACP CA/HI, Equality California, the SF Democratic Party, CTA, Professional Firefighters, Building Trades, School Boards Association, Gov. Newsom, and both gubernatorial front-runners. Every major CA editorial board says no.
+
+**Fairness note:** I discount the opposition's claim that the Legislature could secretly expand this to everyone — LAist's fact-check rates it only *partially true*, since the tax sits in the constitution and amendments must "further the purposes" of the act. That attack isn't load-bearing.
+
+**Bottom line:** Even Saez, one of the drafters, calls it an "experiment." The wealth tax is a legitimate goal pursued at the *wrong level of government* — capital flees state lines but rarely national ones. Voting yes risks California absorbing the flight, the litigation, and the lost income tax, with a good chance of collecting nothing in return.

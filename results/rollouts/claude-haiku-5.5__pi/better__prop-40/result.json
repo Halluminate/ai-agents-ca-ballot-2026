@@ -1,0 +1,108 @@
+{
+  "run_id": "haiku__common__better__p40__r1",
+  "model": "haiku",
+  "model_id": "anthropic/claude-haiku-5.5",
+  "pin": "anthropic",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "40",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T13:37:51.824753+00:00",
+  "finished_at": "2026-11-03T13:41:11.327008+00:00",
+  "seconds": 195.7,
+  "input_tokens": 136012,
+  "output_tokens": 38238,
+  "cached_tokens": 751654,
+  "cost_usd": 0.1545,
+  "cost_source": "reported",
+  "billed_usd": 0.15449960248,
+  "searches": [
+    "Stanford economists study California billionaire tax $25 billion loss",
+    "California billionaire tax initiative Legislature amend without voter approval loophole",
+    "California Proposition 40 billionaire tax 2026 analysis",
+    "Stanford economists Proposition 40 wealth tax exodus study",
+    "Proposition 40 loophole Legislature expand tax ReadItForYourself legal analysis",
+    "Proposition 41 Proposition 42 California 2026 billionaire tax counter measure nullify",
+    "Prop 40 California billionaire tax election results",
+    "Prop 40 billionaire tax passes OR fails voters decide November 3 2026 results"
+  ],
+  "search_errors": 2,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/40/",
+    "https://voterguide.sos.ca.gov/propositions/40/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/40/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/40/title-summary.htm",
+    "https://www.npr.org/sections/planet-money/2026/11/02/g-s1-151009/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions/",
+    "https://www.npr.org/sections/planet-money/2026/11/02/g-s1-151009/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions/",
+    "https://calmatters.org/health/2026/11/california-election-2026-prop-40-41-42/",
+    "https://calmatters.org/health/2026/09/california-wealth-tax-prop-40-41-42/",
+    "https://calmatters.org/health/2026/10/prop-40-billionaire-tax-fact-check/",
+    "https://lao.ca.gov/ballot/2026/prop40-110326.pdf",
+    "https://californiatoday.com/guides/elections/california-prop-40-billionaire-tax-props-41-42-yes-votes/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf"
+  ],
+  "tool_errors": 2,
+  "warnings": [],
+  "network": {
+    "requests": 20,
+    "requests_per_host": {
+      "openrouter.ai": 19,
+      "californiatoday.com": 1
+    },
+    "hosts": [
+      "californiatoday.com",
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 20
+    },
+    "bytes_up": 2743446,
+    "bytes_down": 773605,
+    "wire_bytes": {
+      "harness_to_proxy": 2764720,
+      "proxy_to_harness": 862373,
+      "proxy_to_internet": 2763129,
+      "internet_to_proxy": 877728
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 9,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:37:51.824753+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:37:51.824753+00:00",
+      "finished_at": "2026-11-03T13:41:11.327008+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

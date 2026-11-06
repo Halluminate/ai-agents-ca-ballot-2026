@@ -1,0 +1,369 @@
+{
+  "run_id": "haiku__native__win__p3__r1",
+  "model": "haiku",
+  "model_id": "anthropic/claude-haiku-5.5",
+  "pin": "anthropic",
+  "arm": "native",
+  "harness": "claude_code",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "3",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:54:44.600971+00:00",
+  "finished_at": "2026-11-03T12:48:32.062087+00:00",
+  "seconds": 3221.5,
+  "input_tokens": 91190,
+  "output_tokens": 23053,
+  "cached_tokens": 287433,
+  "cost_usd": 0.7955,
+  "cost_source": "reported",
+  "billed_usd": 0.7954825799999998,
+  "searches": [
+    "California Proposition 3 November 2026 ballot",
+    "Proposition 3 California poll 2026 high-income tax extension likely voters",
+    "Prop 3 California election results November 2026",
+    "Prop 3 millionaire tax campaign spending opposition fundraising 2026 California",
+    "voters approve Prop 3 high-income tax permanent California schools",
+    "PPIC statewide survey October 2026 Proposition 3 likely voters",
+    "PPIC October 2026 statewide survey Prop 3 Prop 40 58% yes likely voters poll",
+    "Berkeley IGS poll 2026 Proposition 3 high income tax support",
+    "PPIC poll October 2022 Proposition 30 electric vehicle tax yes percent likely voters",
+    "Emerson College poll California 2026 propositions Prop 3 Prop 40 support",
+    "Berkeley IGS poll October 2026 propositions Prop 3 Prop 40 likely voters release",
+    "Prop 3 early returns election night California propositions results",
+    "No on Prop 3 campaign 2026 California Taxpayers Association opposition ads spending high-income tax",
+    "2016 Proposition 55 income tax extension pre-election poll PPIC yes percent October 2016",
+    "2012 Proposition 30 income tax poll October 2012 PPIC percent yes likely voters",
+    "UC Berkeley IGS Poll Title Release 2026-22 October 2026 Proposition 3 yes no",
+    "Newsom position Proposition 3 2026 high-income tax extension governor candidates Becerra Prop 3",
+    "Prop 3 California final poll November 2026 high-income tax latest survey",
+    "California Prop 3 income tax election day November 3 2026 what to watch odds"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 19,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/3/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-3-high-income-tax/",
+    "https://edsource.org/updates/majority-of-voters-favor-prop-3-but-oppose-prop-40-s-wealth-tax-poll-says",
+    "https://calmatters.org/politics/elections/2026/10/prop-3-california/",
+    "https://www.ppic.org/pdf/ppic-statewide-survey-californians-and-their-government-september-2026.pdf",
+    "https://www.yahoo.com/news/politics/articles/california-prop-3-tax-top-204145695.html",
+    "https://en.wikipedia.org/wiki/2016_California_Proposition_55",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://escholarship.org/content/qt3w14s99c/qt3w14s99c.pdf",
+    "https://www.ppic.org/blog/voters-are-displeased-by-long-ballots-and-split-on-ballot-propositions/",
+    "https://www.multistate.us/elections/results/california-2026",
+    "https://votes.decisiondeskhq.com/elections/2026-11-03/california",
+    "https://en.wikipedia.org/wiki/2026_California_elections",
+    "https://www.dailycal.org/news/campus/research-and-ideas/proposition-40-stumbles-to-finish-line-as-support-wanes-uc-berkeley-igs-poll-finds/article_c2ff1d9b-8f58-446f-a920-bd5c9fffe453.html",
+    "https://en.wikipedia.org/wiki/2012_California_Proposition_30",
+    "https://en.wikipedia.org/wiki/2022_California_Proposition_30",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-3-income-tax",
+    "https://www.cpapracticeadvisor.com/2026/11/02/while-billionaire-tax-flounders-another-progressive-tax-in-california-is-looking-likely/192974/"
+  ],
+  "tool_errors": 1,
+  "warnings": [
+    "capture: 10 connections were not readable by the proxy (api.anthropic.com:443)"
+  ],
+  "network": {
+    "requests": 138,
+    "requests_per_host": {
+      "api.anthropic.com": 75,
+      "openrouter.ai": 46,
+      "en.wikipedia.org": 4,
+      "calmatters.org": 2,
+      "www.ppic.org": 2,
+      "voterguide.sos.ca.gov": 1,
+      "edsource.org": 1,
+      "www.yahoo.com": 1,
+      "escholarship.org": 1,
+      "www.multistate.us": 1,
+      "votes.decisiondeskhq.com": 1,
+      "www.dailycal.org": 1,
+      "laist.com": 1,
+      "www.cpapracticeadvisor.com": 1
+    },
+    "hosts": [
+      "api.anthropic.com",
+      "calmatters.org",
+      "edsource.org",
+      "en.wikipedia.org",
+      "escholarship.org",
+      "laist.com",
+      "openrouter.ai",
+      "voterguide.sos.ca.gov",
+      "votes.decisiondeskhq.com",
+      "www.cpapracticeadvisor.com",
+      "www.dailycal.org",
+      "www.multistate.us",
+      "www.ppic.org",
+      "www.yahoo.com"
+    ],
+    "status_counts": {
+      "200": 127,
+      "403": 3,
+      "429": 1
+    },
+    "bytes_up": 4073154,
+    "bytes_down": 6331125,
+    "wire_bytes": {
+      "harness_to_proxy": 4186056,
+      "proxy_to_harness": 6629285,
+      "proxy_to_internet": 4186140,
+      "internet_to_proxy": 6706077
+    },
+    "byte_counter": true,
+    "errors": 22,
+    "error_details": [
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "The client disconnected during the handshake. If this happens consistently for api.anthropic.com, this may indicate that the client does not trust the proxy's certificate."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "The client disconnected during the handshake. If this happens consistently for api.anthropic.com, this may indicate that the client does not trust the proxy's certificate."
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "HTTP/1 protocol error: peer closed connection without sending complete message body (incomplete chunked read)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 2611,
+        "duration": 10.1667,
+        "reason": "The client disconnected during the handshake. If this happens consistently for api.anthropic.com, this may indicate that the client does not trust the proxy's certificate."
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 2611,
+        "duration": 11.1861,
+        "reason": "The client disconnected during the handshake. If this happens consistently for api.anthropic.com, this may indicate that the client does not trust the proxy's certificate."
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 10.085,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 12.6434,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 9.9996,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 24.5284,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 9.9989,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0029,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0038,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0021,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 63,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:54:44.600971+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:54:44.600971+00:00",
+      "finished_at": "2026-11-03T12:48:32.062087+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

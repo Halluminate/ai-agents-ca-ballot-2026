@@ -1,0 +1,102 @@
+{
+  "run_id": "sol__native__win__p41__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "41",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:15:49.109301+00:00",
+  "finished_at": "2026-11-03T13:17:50.010369+00:00",
+  "seconds": 117.3,
+  "input_tokens": 33,
+  "output_tokens": 5161,
+  "cached_tokens": 491537,
+  "cost_usd": 0.4167,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 41 2026 poll November audits special taxes spending limit ...",
+    "\"Proposition 41\" \"October\" \"2026\" poll ...",
+    "'Polls'",
+    "site.igs.berkeley.edu \"October 29, 2026\" propositions ...",
+    "\"Proposition 41\" \"2026\" \"Kalshi\" ...",
+    "'Likely voters are divided on Proposition 41'",
+    "California Proposition 41 October 2026 poll audit final support opposition campaign spending ...",
+    "site.escholarship.org \"72722408\" \"41\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/41/",
+    "https://ballotpedia.org/California_Proposition_41%2C_Prohibit_Excluding_New_State_Taxes_from_Spending_Limit_and_Require_Special_Tax_Audits_Initiative_%282026%29",
+    "https://igs.berkeley.edu/research/berkeley-igs-poll",
+    "https://escholarship.org/content/qt72722408/qt72722408.pdf",
+    "https://voterguide.sos.ca.gov/propositions/41/analysis.htm",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-41-requires-audits-programs-funded-new-state-special-taxes-prohibits-new-state-taxes-are-excluded-existing-voter-app",
+    "https://calmatters.org/california-voter-guide-2026/proposition-41-tax-audits/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 21,
+    "requests_per_host": {
+      "api.openai.com": 19,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 18,
+      "202": 2
+    },
+    "bytes_up": 1157265,
+    "bytes_down": 2405614,
+    "wire_bytes": {
+      "harness_to_proxy": 934525,
+      "proxy_to_harness": 1419428,
+      "proxy_to_internet": 933191,
+      "internet_to_proxy": 1455796
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2491,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 21,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:15:49.109301+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:15:49.109301+00:00",
+      "finished_at": "2026-11-03T13:17:50.010369+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "run_id": "gpt__native__better__p40__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "40",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:30:36.392342+00:00",
+  "finished_at": "2026-11-03T12:35:23.680001+00:00",
+  "seconds": 285.0,
+  "input_tokens": 84,
+  "output_tokens": 8851,
+  "cached_tokens": 2724828,
+  "cost_usd": 5.7166,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 40 2026 billionaire tax independent analysis ...",
+    "site.nber.org California Billionaire Tax Act revenue 2026 40 ...",
+    "'amend'",
+    "site.calmatters.org 2026 proposition 40 billionaire tax guide ...",
+    "\"The Net Present Value of the California Billionaire Tax Act\" October 2026 Jaros Rauh pdf",
+    "'one-time tax'",
+    "California H.R.1 Medi-Cal federal funding reductions 2026 30 billion DHCS LAO ...",
+    "\"Jaros\" \"Rauh\" \"2026\" \"pdf\" \"litigation\" ...",
+    "California billionaire tax 2026 constitutional concerns Galle Gamage Shanske rebuttal retroactive ...",
+    "\"Taxing Entrepreneurial Wealth\" Norway Ring 2026 100 wealth migration",
+    "\"Galle v Rauh\" Hoopes California billionaire tax ...",
+    "'eight'",
+    "\"Billionaire Tax Act\" \"Hoopes\" \"2026\" \"October\" \"revenue\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/40/",
+    "https://voterguide.sos.ca.gov/propositions/40/arguments-rebuttals.htm",
+    "https://www.nber.org/papers/w35899",
+    "https://www.nber.org/system/files/working_papers/w35899/w35899.pdf",
+    "https://calmatters.org/politics/2026/10/california-billionaire-tax-explainer/",
+    "https://taxfoundation.org/research/all/state/california-proposition-40-wealth-tax-constitutional-legal-issues/",
+    "https://github.com/bjaros20/wealth_tax",
+    "https://www.kpbs.org/news/economy/2026/11/02/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions",
+    "https://www.nber.org/system/files/chapters/c15504/c15504.pdf",
+    "https://www.lao.ca.gov/Publications/Report/5210",
+    "https://www.policyengine.org/us/california-wealth-tax",
+    "https://taxpolicynetwork.org/galle-v-rauh-comparing-two-revenue-estimates-for-california-billionaire-taxation/",
+    "https://taxpolicynetwork.org/what-do-tax-experts-think-about-californias-billionaire-tax/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 39,
+    "requests_per_host": {
+      "api.openai.com": 34,
+      "ab.chatgpt.com": 5
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 33,
+      "202": 5
+    },
+    "bytes_up": 1849414,
+    "bytes_down": 5335952,
+    "wire_bytes": {
+      "harness_to_proxy": 1363690,
+      "proxy_to_harness": 3098147,
+      "proxy_to_internet": 1360354,
+      "internet_to_proxy": 3165586
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 4166,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 36,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:30:36.392342+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:30:36.392342+00:00",
+      "finished_at": "2026-11-03T12:35:23.680001+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

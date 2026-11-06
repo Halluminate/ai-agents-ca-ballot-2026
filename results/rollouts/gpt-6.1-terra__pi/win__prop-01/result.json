@@ -1,0 +1,117 @@
+{
+  "run_id": "terra__common__win__p1__r1",
+  "model": "terra",
+  "model_id": "openai/gpt-6.1-terra",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "1",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:38:36.952409+00:00",
+  "finished_at": "2026-11-03T12:39:18.810887+00:00",
+  "seconds": 39.1,
+  "input_tokens": 73693,
+  "output_tokens": 1287,
+  "cached_tokens": 40406,
+  "cost_usd": 0.1662,
+  "cost_source": "reported",
+  "billed_usd": 0.16617778392,
+  "searches": [
+    "\"voterguide.sos.ca.gov/propositions/1/\" latest election",
+    "California Proposition 1 election latest polls yes no ballot voter guide 2026 2024 2022",
+    "site:voterguide.sos.ca.gov/propositions/1/ \"Proposition 1\"",
+    "\"2026\" \"Proposition 1\" \"housing\" polling voters survey yes no 60 38",
+    "\"proposition 1\" \"2026\" \"housing\" \"poll\" October yes no California",
+    "California proposition 1 2026 election odds betting market probability housing bond",
+    "California November 2026 Proposition 1 housing bond poll yes no October November 2026 poll IGS Berkeley Emerson",
+    "California proposition 1 November 2026 latest polls votes election result",
+    "California Proposition 1 veterans affordable housing bond 2026 voter support yes no october 2026 poll",
+    "\"2026\" \"prop 1\" \"housing bond\" \"poll\" \"yes\" \"no\" voters latest",
+    "\"proposition 1\" \"2026\" \"housing\" \"poll\" \"54\" \"44\" vote November",
+    "\"California\" \"Proposition 1\" \"2026\" \"AIMSA\" 54% 46 poll October 2026 housing 2000",
+    "\"California\" \"2026\" \"housing bond\" \"Proposition 1\" forecast polls predict betting 2026 october"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/1/",
+    "https://www.ppic.org/pdf/ppic-statewide-survey-californians-and-their-government-october-2026.pdf",
+    "https://quickguidetoprops.sos.ca.gov/propositions/2026-11-03/1",
+    "https://californiatoday.com/guides/elections/2026-california-propositions-master-guide/",
+    "https://cityhallpass.com/election-2026/measures/prop-01",
+    "https://onpointpolitics.us/forecast/measures/ca/proposition-1",
+    "https://defirate.com/odds/california-props/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-1-housing",
+    "https://lasvegassun.com/news/2026/oct/27/tax-the-top-fix-housing-back-becerra-cost-of-livin/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 19,
+    "requests_per_host": {
+      "openrouter.ai": 17,
+      "californiatoday.com": 1,
+      "lasvegassun.com": 1
+    },
+    "hosts": [
+      "californiatoday.com",
+      "lasvegassun.com",
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 19
+    },
+    "bytes_up": 502581,
+    "bytes_down": 207693,
+    "wire_bytes": {
+      "harness_to_proxy": 543551,
+      "proxy_to_harness": 258994,
+      "proxy_to_internet": 537303,
+      "internet_to_proxy": 306069
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 20,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:38:36.952409+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:38:36.952409+00:00",
+      "finished_at": "2026-11-03T12:39:18.810887+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

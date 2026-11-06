@@ -1,0 +1,61 @@
+{
+  "requests": 69,
+  "requests_per_host": {
+    "openrouter.ai": 57,
+    "eml.berkeley.edu": 2,
+    "www.sacbee.com": 1,
+    "www.cnbc.com": 1,
+    "www.hoover.org": 1,
+    "www.stlpr.org": 1,
+    "calmatters.org": 1,
+    "edsource.org": 1,
+    "github.com": 1,
+    "kffhealthnews.org": 1,
+    "fortune.com": 1,
+    "www.fresnobee.com": 1
+  },
+  "hosts": [
+    "calmatters.org",
+    "edsource.org",
+    "eml.berkeley.edu",
+    "fortune.com",
+    "github.com",
+    "kffhealthnews.org",
+    "openrouter.ai",
+    "www.cnbc.com",
+    "www.fresnobee.com",
+    "www.hoover.org",
+    "www.sacbee.com",
+    "www.stlpr.org"
+  ],
+  "status_counts": {
+    "200": 69
+  },
+  "bytes_up": 20627790,
+  "bytes_down": 2173600,
+  "wire_bytes": {
+    "harness_to_proxy": 20747394,
+    "proxy_to_harness": 2377260,
+    "proxy_to_internet": 20737182,
+    "internet_to_proxy": 2470240
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 45,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

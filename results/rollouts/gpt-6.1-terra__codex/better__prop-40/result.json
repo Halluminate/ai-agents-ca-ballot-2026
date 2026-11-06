@@ -1,0 +1,100 @@
+{
+  "run_id": "terra__native__better__p40__r1",
+  "model": "terra",
+  "model_id": "gpt-6.1-terra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "40",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:35:26.254827+00:00",
+  "finished_at": "2026-11-03T12:36:52.918224+00:00",
+  "seconds": 83.9,
+  "input_tokens": 45,
+  "output_tokens": 4089,
+  "cached_tokens": 957824,
+  "cost_usd": 0.3765,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/40/ Proposition 40 California ballot measure ...",
+    "California proposition 40 2026 wealth tax analysis LAO risks revenues legal court one time billionaire federal health ...",
+    "'POTENTIAL'",
+    "\"$24.7 billion\" wealth tax California Hoover analysis study 2026 billionaires ...",
+    "site:ppic.org wealthy residents California tax migration high income research millionaires 2012 Proposition 30 ...",
+    "Joshua Rauh Benjamin Jaros October 2026 wealth tax prop 40 updated study $30 $40 billion ...",
+    "'main flaw'",
+    "\"Rauh\" \"Jaros\" \"October 2026\" \"30\" wealth tax assumptions billionaires california study ...",
+    "\"prop 40\" \"nobel\" economists \"2026\" billionaires tax letter ...",
+    "NBER 35899 \"net present value\" \"discount\" tax wealthy California 2026 Rauh Jaros 2026 ...",
+    "\"Prop 40\" 2026 wealth tax \"health care\" \"hospitals\" independent endorse ...",
+    "\"prop 40\" \"Stanford\" \"Saez\" \"2026\" taxes billionaires December tax board debate 1% revenue ...",
+    "'What the tax actually says'",
+    "'66 of 89'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 21,
+    "requests_per_host": {
+      "api.openai.com": 19,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 18,
+      "202": 2
+    },
+    "bytes_up": 1373513,
+    "bytes_down": 3158847,
+    "wire_bytes": {
+      "harness_to_proxy": 1008708,
+      "proxy_to_harness": 1926116,
+      "proxy_to_internet": 1006962,
+      "internet_to_proxy": 1965816
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2551,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 21,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:35:26.254827+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:35:26.254827+00:00",
+      "finished_at": "2026-11-03T12:36:52.918224+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

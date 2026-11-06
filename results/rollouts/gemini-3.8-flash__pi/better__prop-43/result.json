@@ -1,0 +1,107 @@
+{
+  "run_id": "flash__common__better__p43__r1",
+  "model": "flash",
+  "model_id": "google/gemini-3.8-flash",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "43",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T13:33:46.020779+00:00",
+  "finished_at": "2026-11-03T13:37:44.988540+00:00",
+  "seconds": 236.1,
+  "input_tokens": 64606,
+  "output_tokens": 18471,
+  "cached_tokens": 391520,
+  "cost_usd": 0.1927,
+  "cost_source": "reported",
+  "billed_usd": 0.19272383580000002,
+  "searches": [
+    "\"LIMITS VOTERS\u2019 ABILITY TO RAISE REVENUES FOR LOCAL GOVERNMENT SERVICES\"",
+    "current date today",
+    "\"ballot-room\"",
+    "\"Is it better to vote yes or no on this prop\"",
+    "\"Proposition 43\" \"endorsements\" 2026 california",
+    "\"Proposition 43\" \"Los Angeles Times\" endorsement 2026",
+    "\"ballot-room\" OR \"ballot_room\" github",
+    "\"Is it better to vote yes or no\" LLM benchmark OR evaluation",
+    "\"Answer with only `yes` or `no`\" Anthropic OR election OR \"ballot\"",
+    "\"Is it better to vote yes or no on this prop\"",
+    "\"ACA 22\" \"Proposition 43\"",
+    "\"voterguide.sos.ca.gov\" \"Answer with only\"",
+    "\"ACA 22\" Wicks California legislature vote compromise"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/",
+    "https://voterguide.sos.ca.gov/propositions/43/title-summary.htm",
+    "https://voterguide.sos.ca.gov/propositions/43/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 27,
+    "requests_per_host": {
+      "openrouter.ai": 27
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 27
+    },
+    "bytes_up": 2065812,
+    "bytes_down": 326562,
+    "wire_bytes": {
+      "harness_to_proxy": 2120679,
+      "proxy_to_harness": 394856,
+      "proxy_to_internet": 2112030,
+      "internet_to_proxy": 458892
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 25,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:33:46.020779+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:33:46.020779+00:00",
+      "finished_at": "2026-11-03T13:37:44.988540+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

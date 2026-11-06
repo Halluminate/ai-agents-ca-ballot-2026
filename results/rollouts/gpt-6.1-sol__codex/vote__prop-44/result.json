@@ -1,0 +1,103 @@
+{
+  "run_id": "sol__native__vote__p44__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "44",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:15:51.118710+00:00",
+  "finished_at": "2026-11-03T13:18:15.045729+00:00",
+  "seconds": 141.8,
+  "input_tokens": 39,
+  "output_tokens": 6094,
+  "cached_tokens": 738163,
+  "cost_usd": 0.5045,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/44 Proposition 44 ...",
+    "Proposition 44 California 2026 clinics 90% revenue independent analysis CalMatters ...",
+    "California community clinics spending 90 percent SB 632 2025 analysis ...",
+    "2025 bill California clinics \"90 percent\" \"revenue\" SEIU ...",
+    "site:bphc.hrsa.gov compliance manual financial management retained earnings non-grant revenue reserves ...",
+    "site.lwvc.org proposition 44 2026 ...",
+    "site:assembly.ca.gov \"AB 1113\" \"overhead\" ...",
+    "\"AB 1113\" \"analysis\" \"2025\" \"health\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/44/",
+    "https://www.kqed.org/voterguide/california/proposition-44",
+    "https://yesonprop44.com",
+    "https://cms.hoover.org/proposition-lab-proposition-44",
+    "https://lao.ca.gov/BallotAnalysis/Initiative/2025-008",
+    "https://leginfo.legislature.ca.gov/faces/billAnalysisClient.xhtml?bill_id=202520260AB1113",
+    "https://californiatoday.com/guides/elections/california-proposition-44-2026/",
+    "https://bphc.hrsa.gov/compliance/compliance-manual/chapter15"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 27,
+    "requests_per_host": {
+      "api.openai.com": 24,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 23,
+      "202": 3
+    },
+    "bytes_up": 1347544,
+    "bytes_down": 3118727,
+    "wire_bytes": {
+      "harness_to_proxy": 1060746,
+      "proxy_to_harness": 1989255,
+      "proxy_to_internet": 1059425,
+      "internet_to_proxy": 2036406
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2728,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 26,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:15:51.118710+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:15:51.118710+00:00",
+      "finished_at": "2026-11-03T13:18:15.045729+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "run_id": "flash__common__vote__p41__r1",
+  "model": "flash",
+  "model_id": "google/gemini-3.8-flash",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "41",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T13:39:34.155075+00:00",
+  "finished_at": "2026-11-03T13:40:45.874402+00:00",
+  "seconds": 68.9,
+  "input_tokens": 21783,
+  "output_tokens": 6313,
+  "cached_tokens": 30398,
+  "cost_usd": 0.0474,
+  "cost_source": "reported",
+  "billed_usd": 0.04737981799999999,
+  "searches": [
+    "\"voterguide.sos.ca.gov/propositions/41\"",
+    "\"Proposition 41\" \"2026\" california"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/41/",
+    "https://voterguide.sos.ca.gov/propositions/41/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 7,
+    "requests_per_host": {
+      "openrouter.ai": 7
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 7
+    },
+    "bytes_up": 263486,
+    "bytes_down": 105291,
+    "wire_bytes": {
+      "harness_to_proxy": 278602,
+      "proxy_to_harness": 127082,
+      "proxy_to_internet": 276365,
+      "internet_to_proxy": 144223
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 8,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:39:34.155075+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:39:34.155075+00:00",
+      "finished_at": "2026-11-03T13:40:45.874402+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

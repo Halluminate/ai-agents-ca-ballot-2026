@@ -1,0 +1,67 @@
+{
+  "requests": 34,
+  "requests_per_host": {
+    "openrouter.ai": 22,
+    "growsf.org": 2,
+    "www.calhfa.ca.gov": 2,
+    "www.sacbee.com": 1,
+    "voteyeson37.com": 1,
+    "leginfo.legislature.ca.gov": 1,
+    "shou.senate.ca.gov": 1,
+    "researchonline.lse.ac.uk": 1,
+    "information.auditor.ca.gov": 1,
+    "www.gov.uk": 1,
+    "ternercenter.berkeley.edu": 1
+  },
+  "hosts": [
+    "growsf.org",
+    "information.auditor.ca.gov",
+    "leginfo.legislature.ca.gov",
+    "openrouter.ai",
+    "researchonline.lse.ac.uk",
+    "shou.senate.ca.gov",
+    "ternercenter.berkeley.edu",
+    "voteyeson37.com",
+    "www.calhfa.ca.gov",
+    "www.gov.uk",
+    "www.sacbee.com"
+  ],
+  "status_counts": {
+    "200": 33,
+    "404": 1
+  },
+  "bytes_up": 3290460,
+  "bytes_down": 14489299,
+  "wire_bytes": {
+    "harness_to_proxy": 3360956,
+    "proxy_to_harness": 14633812,
+    "proxy_to_internet": 3353670,
+    "internet_to_proxy": 14703881
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 34,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

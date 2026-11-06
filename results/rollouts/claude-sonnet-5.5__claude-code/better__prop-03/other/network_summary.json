@@ -1,0 +1,186 @@
+{
+  "requests": 107,
+  "requests_per_host": {
+    "api.anthropic.com": 44,
+    "openrouter.ai": 41,
+    "voterguide.sos.ca.gov": 4,
+    "calmatters.org": 3,
+    "igs.berkeley.edu": 2,
+    "lao.ca.gov": 1,
+    "edsource.org": 1,
+    "calbudgetcenter.org": 1,
+    "laist.com": 1,
+    "www.policyengine.org": 1,
+    "www.spur.org": 1,
+    "kabateckstrategies.com": 1,
+    "quickguidetoprops.sos.ca.gov": 1,
+    "legisus.org": 1,
+    "growsf.org": 1,
+    "www.yahoo.com": 1,
+    "www.hjta.org": 1,
+    "spectrumlocalnews.com": 1
+  },
+  "hosts": [
+    "api.anthropic.com",
+    "calbudgetcenter.org",
+    "calmatters.org",
+    "edsource.org",
+    "growsf.org",
+    "igs.berkeley.edu",
+    "kabateckstrategies.com",
+    "laist.com",
+    "lao.ca.gov",
+    "legisus.org",
+    "openrouter.ai",
+    "quickguidetoprops.sos.ca.gov",
+    "spectrumlocalnews.com",
+    "voterguide.sos.ca.gov",
+    "www.hjta.org",
+    "www.policyengine.org",
+    "www.spur.org",
+    "www.yahoo.com"
+  ],
+  "status_counts": {
+    "200": 104,
+    "403": 2
+  },
+  "bytes_up": 3030285,
+  "bytes_down": 2500736,
+  "wire_bytes": {
+    "harness_to_proxy": 3124991,
+    "proxy_to_harness": 2801638,
+    "proxy_to_internet": 3124307,
+    "internet_to_proxy": 2888967
+  },
+  "byte_counter": true,
+  "errors": 9,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "connect_error",
+      "host": "api.anthropic.com",
+      "error": null
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/messages?beta=true",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0049,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0078,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0017,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0424,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0031,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0025,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 0,
+      "duration": 10.0241,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 56,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

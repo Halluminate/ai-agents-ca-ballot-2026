@@ -1,0 +1,436 @@
+{
+  "run_id": "haiku__native__vote__p4__r1",
+  "model": "haiku",
+  "model_id": "anthropic/claude-haiku-5.5",
+  "pin": "anthropic",
+  "arm": "native",
+  "harness": "claude_code",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "4",
+  "repeat": 1,
+  "status": "timeout",
+  "answer": null,
+  "answer_form": "empty",
+  "error": "",
+  "started_at": "2026-11-03T11:54:44.595601+00:00",
+  "finished_at": "2026-11-03T13:24:52.206651+00:00",
+  "seconds": 5400.6,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "cached_tokens": 0,
+  "cost_usd": 0.0,
+  "cost_source": "estimated",
+  "billed_usd": 1.1171278149999997,
+  "searches": [
+    "California Proposition 4 2026 ballot measure",
+    "SB 42 Umberg 2026 ballot public financing campaigns foreign entities fines text",
+    "Prop 4 California 2026 immigrant donors triple penalties foreign donors public financing amendment",
+    "Proposition 4 public campaign financing California 2026 foreign principals penalties criticism immigrant donors MALDEF",
+    "California Government Code 85320 foreign government foreign principal contribution ban definition",
+    "AB 953 California 2025 foreign national campaign contributions Political Reform Act Section 85320",
+    "PPIC survey October 2026 Proposition 4 public financing campaigns likely voters support oppose",
+    "editorial board endorsement Proposition 4 2026 California public campaign financing Los Angeles Times Sacramento Bee",
+    "Seattle Democracy Vouchers study candidate entry increase 86 percent public financing research evidence",
+    "Griffith Noonen 2022 Seattle democracy vouchers candidate entry findings number of candidates donors",
+    "GAO 2010 public financing of campaigns report Arizona Maine Connecticut Seattle findings candidates competition donors",
+    "Los Angeles Oakland San Francisco public campaign matching program results evaluation cost problems ethics commission 2025 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=4&year=2026",
+    "https://calmatters.org/california-voter-guide-2026/proposition-4-public-fundraising/",
+    "https://cavotes.org/ballot-measure/2026-prop-4/",
+    "https://www.maldef.org/resources/california-2026-ballot-recommendations/",
+    "https://envirovoters.org/california-propositions-2026/",
+    "https://calmatters.digitaldemocracy.org/bills/ca_202520260sb42",
+    "https://www.ballotbase.io/guide/measure/proposition-4-sb-42-umberg-political-reform-act-of-1974-public-campaign-financing-california-fair-elections-act-of-2026/",
+    "https://aelc.assembly.ca.gov/system/files/2025-06/sb-42-umberg-17513108230298490.pdf",
+    "https://policyspan.ai/guide/measure/proposition-4-sb-42-umberg-political-reform-act-of-1974-public-campaign-financing-california-fair-elections-act-of-2026/",
+    "https://calmatters.digitaldemocracy.org/bills/ca_202520260sb42",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4.pdf",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-4",
+    "https://www.hoover.org/proposition-lab-proposition-4",
+    "https://www.maldef.org/2026/10/maldef-issues-recommendations-on-california-ballot-measures-2/",
+    "https://calmatters.org/politics/2026/10/california-proposition-4-explainer/",
+    "https://law.justia.com/codes/california/code-gov/title-9/chapter-5/article-3/section-85320/",
+    "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB42",
+    "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-4/legal-text/",
+    "https://codes.findlaw.com/ca/government-code/gov-sect-85320/",
+    "http://quickguidetoprops.sos.ca.gov/propositions/2026-11-03/4",
+    "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-4/",
+    "https://news.ballotpedia.org/2025/10/09/california-enacts-five-2025-laws-on-ballot-measures-and-recalls-including-ban-on-foreign-national-contributions-to-ballot-measure-campaigns/",
+    "https://lao.ca.gov/ballot/2026/prop4-110326.pdf",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-4-repeals",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.fppc.ca.gov/the-law/recent-changes-to-the-political-reform-act/",
+    "https://www.sciencedirect.com/science/article/abs/pii/S0047272722000780",
+    "https://www.gao.gov/products/gao-25-106650",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-4-campaign-financing"
+  ],
+  "tool_errors": 2,
+  "warnings": [
+    "capture: 1 connection attempts that ignored the proxy were blocked (claude.exe remote:*:49480 x1)",
+    "capture: 8 connections were not readable by the proxy (api.anthropic.com:443)"
+  ],
+  "network": {
+    "requests": 210,
+    "requests_per_host": {
+      "api.anthropic.com": 116,
+      "openrouter.ai": 63,
+      "lao.ca.gov": 2,
+      "calmatters.org": 2,
+      "www.maldef.org": 2,
+      "calmatters.digitaldemocracy.org": 2,
+      "vig.cdn.sos.ca.gov": 2,
+      "growsf.org": 2,
+      "voterguide.sos.ca.gov": 1,
+      "cavotes.org": 1,
+      "envirovoters.org": 1,
+      "www.ballotbase.io": 1,
+      "aelc.assembly.ca.gov": 1,
+      "policyspan.ai": 1,
+      "laist.com": 1,
+      "www.hoover.org": 1,
+      "law.justia.com": 1,
+      "leginfo.legislature.ca.gov": 1,
+      "codes.findlaw.com": 1,
+      "quickguidetoprops.sos.ca.gov": 1,
+      "news.ballotpedia.org": 1,
+      "igs.berkeley.edu": 1,
+      "www.ppic.org": 1,
+      "www.fppc.ca.gov": 1,
+      "www.sciencedirect.com": 1,
+      "www.gao.gov": 1,
+      "www.spur.org": 1
+    },
+    "hosts": [
+      "aelc.assembly.ca.gov",
+      "api.anthropic.com",
+      "calmatters.digitaldemocracy.org",
+      "calmatters.org",
+      "cavotes.org",
+      "codes.findlaw.com",
+      "envirovoters.org",
+      "growsf.org",
+      "igs.berkeley.edu",
+      "laist.com",
+      "lao.ca.gov",
+      "law.justia.com",
+      "leginfo.legislature.ca.gov",
+      "news.ballotpedia.org",
+      "openrouter.ai",
+      "policyspan.ai",
+      "quickguidetoprops.sos.ca.gov",
+      "vig.cdn.sos.ca.gov",
+      "voterguide.sos.ca.gov",
+      "www.ballotbase.io",
+      "www.fppc.ca.gov",
+      "www.gao.gov",
+      "www.hoover.org",
+      "www.maldef.org",
+      "www.ppic.org",
+      "www.sciencedirect.com",
+      "www.spur.org"
+    ],
+    "status_counts": {
+      "200": 190,
+      "308": 1,
+      "403": 4,
+      "410": 1
+    },
+    "bytes_up": 7608568,
+    "bytes_down": 9566768,
+    "wire_bytes": {
+      "harness_to_proxy": 7824412,
+      "proxy_to_harness": 10016916,
+      "proxy_to_internet": 7785789,
+      "internet_to_proxy": 10149298
+    },
+    "byte_counter": true,
+    "errors": 29,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "server closed connection"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "server closed connection"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 11.9732,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 11.014,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0008,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 10.5373,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0015,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 19.8597,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0308,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0021,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "claude.exe",
+        "operation": "network-outbound",
+        "target": "remote:*:49480",
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 1,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 95,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:54:44.595601+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:54:44.595601+00:00",
+      "finished_at": "2026-11-03T13:24:52.206651+00:00",
+      "status": "timeout",
+      "error": ""
+    }
+  ]
+}

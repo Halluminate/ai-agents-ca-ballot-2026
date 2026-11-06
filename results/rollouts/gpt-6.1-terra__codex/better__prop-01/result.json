@@ -1,0 +1,99 @@
+{
+  "run_id": "terra__native__better__p1__r1",
+  "model": "terra",
+  "model_id": "gpt-6.1-terra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "1",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:34:44.078509+00:00",
+  "finished_at": "2026-11-03T12:36:15.809900+00:00",
+  "seconds": 89.5,
+  "input_tokens": 45,
+  "output_tokens": 4847,
+  "cached_tokens": 918147,
+  "cost_usd": 0.3627,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/1/ California proposition 1 November 2026 voter guide ...",
+    "California 2026 proposition 1 affordable housing bond 11.25 billion analysis LAO opposition ...",
+    "2026 \"proposition 1\" \"housing\" \"no\" editorial California housing 11.25 billion deficit ...",
+    "\"2026\" \"prop 1\" \"housing\" \"no\" \"endorsement\" shortage ...",
+    "'audit'",
+    "site:auditor.ca.gov california housing 2018 department housing community development audit 2018 bond administrative costs recommendations 2026 ...",
+    "\"2026\" California proposition 1 ballot housing bond no endorses editorial proposition 1 lack accountability ...",
+    "site:rand.org/pubs/research_reports 2025 \"high cost\" \"producing multifamily\" California ...",
+    "'TOTAL DEVELOPMENT COSTS'",
+    "\"22,735\" \"2018\" \"Proposition 1\" housing units ...",
+    "low income housing tax credit new construction crowd out net housing supply evidence study economists Diamond McQuade 2019 ...",
+    "low income housing tax credit net new units crowd out effect private construction study 2019 ...",
+    "'Accountability'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 17,
+    "requests_per_host": {
+      "api.openai.com": 15,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 14,
+      "202": 2
+    },
+    "bytes_up": 1358710,
+    "bytes_down": 2865183,
+    "wire_bytes": {
+      "harness_to_proxy": 990824,
+      "proxy_to_harness": 1600070,
+      "proxy_to_internet": 989579,
+      "internet_to_proxy": 1632086
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2610,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 17,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:34:44.078509+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:34:44.078509+00:00",
+      "finished_at": "2026-11-03T12:36:15.809900+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

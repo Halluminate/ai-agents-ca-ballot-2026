@@ -1,0 +1,221 @@
+{
+  "run_id": "grok__native__vote__p1__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "native",
+  "harness": "grok_build",
+  "effort": "xhigh",
+  "prompt": "vote",
+  "prop": "1",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:57:24.903894+00:00",
+  "finished_at": "2026-11-03T11:06:25.805373+00:00",
+  "seconds": 538.0,
+  "input_tokens": 46048,
+  "output_tokens": 10496,
+  "cached_tokens": 104704,
+  "cost_usd": 0.2074,
+  "cost_source": "estimated",
+  "billed_usd": 2.7343580000000003,
+  "searches": [
+    "California proposition 1 voter guide 2026",
+    "California Proposition 1 2026 housing bond analysis criticism LAO",
+    "SB 417 Veterans and Affordable Housing Bond Act of 2026 opposition criticism",
+    "California affordable housing cost per unit 2024 2025 2026 bond results Prop 1 2018",
+    "California Proposition 1 2026 editorial board recommendations yes no",
+    "California state bond debt service general fund 2026 capacity housing bond",
+    "Terner Center California housing bond 2026 Proposition 1 analysis",
+    "PPIC California Proposition 1 2026 housing bond recommendation",
+    "California housing production 2024 2025 2026 shortage units needed RHNA affordable",
+    "Hoover Institution Proposition 1 2026 California housing bond analysis",
+    "California 2026 ballot propositions bond measures total debt Proposition 1 2 4 37",
+    "California budget deficit 2026-27 general fund reserves debt affordability report",
+    "California Prop 1 2026 stalled affordable housing pipeline 40000 units evidence",
+    "SB 417 2026 housing bond accountability cost controls prevailing wage allocation amounts",
+    "site:sandiegouniontribune.com no on proposition 1 2026 housing bond",
+    "California Housing Partnership cost per affordable unit subsidy state bond effectiveness"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 0,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/1/",
+    "https://voterguide.sos.ca.gov/propositions/1/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/1/title-summary.htm",
+    "https://voterguide.sos.ca.gov/propositions/1/arguments-rebuttals.htm",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=1&year=2026",
+    "https://www.hoover.org/proposition-lab-proposition-1",
+    "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB417"
+  ],
+  "tool_errors": 1,
+  "warnings": [
+    "capture: 6 connection attempts that ignored the proxy were blocked (grok-1.0.70 network-outbound x6)",
+    "capture: 9 connections were not readable by the proxy (openrouter.ai:443, voterguide.sos.ca.gov:443)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 35,
+    "requests_per_host": {
+      "openrouter.ai": 28,
+      "voterguide.sos.ca.gov": 4,
+      "lao.ca.gov": 1,
+      "www.hoover.org": 1,
+      "leginfo.legislature.ca.gov": 1
+    },
+    "hosts": [
+      "lao.ca.gov",
+      "leginfo.legislature.ca.gov",
+      "openrouter.ai",
+      "voterguide.sos.ca.gov",
+      "www.hoover.org"
+    ],
+    "status_counts": {
+      "200": 33,
+      "404": 1
+    },
+    "bytes_up": 623095,
+    "bytes_down": 3186181,
+    "wire_bytes": {
+      "harness_to_proxy": 667398,
+      "proxy_to_harness": 3355452,
+      "proxy_to_internet": 661925,
+      "internet_to_proxy": 3416263
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "voterguide.sos.ca.gov",
+        "port": 443,
+        "sni": "voterguide.sos.ca.gov",
+        "bytes_up": 1826,
+        "bytes_down": 3273,
+        "duration": 0.1051,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "voterguide.sos.ca.gov",
+        "port": 443,
+        "sni": "voterguide.sos.ca.gov",
+        "bytes_up": 2093,
+        "bytes_down": 1718,
+        "duration": 0.1228,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1196,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 2069,
+        "bytes_down": 1718,
+        "duration": 0.1195,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1215,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 2069,
+        "bytes_down": 1718,
+        "duration": 0.1294,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3189,
+        "duration": 0.1345,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 2069,
+        "bytes_down": 1718,
+        "duration": 0.1353,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1309,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 6
+      }
+    ],
+    "blocked_attempts": 6,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 25,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:57:24.903894+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:57:24.903894+00:00",
+      "finished_at": "2026-11-03T11:06:25.805373+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "run_id": "sol__common__win__p41__r1",
+  "model": "sol",
+  "model_id": "openai/gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "41",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:21:08.069083+00:00",
+  "finished_at": "2026-11-03T13:22:17.496835+00:00",
+  "seconds": 66.6,
+  "input_tokens": 78268,
+  "output_tokens": 1788,
+  "cached_tokens": 160350,
+  "cost_usd": 0.2751,
+  "cost_source": "reported",
+  "billed_usd": 0.275077944,
+  "searches": [
+    "California Proposition 41 June 2014 veterans housing bond election results yes no",
+    "California 2026 tax audits initiative Brin polling special taxes spending limit",
+    "California 2026 Proposition 41 audits special taxes spending limit polling",
+    "\"Proposition 41\" \"2026\" \"poll\" October 29",
+    "site:igs.berkeley.edu 2026 October propositions 40 41 42 poll",
+    "\"2026\" \"Proposition 41\" polling yes no voters 41",
+    "\"Proposition 41\" \"2026\" \"SurveyUSA\"",
+    "\"Proposition 41\" \"2026\" \"poll\" \"November\"",
+    "\"Proposition 41\" \"2026\" \"polling\" -site:lao.ca.gov -site:test.lao.ca.gov -2014 -\"Proposition 41 [Ballot]\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/41/",
+    "https://voterguide.sos.ca.gov/propositions/41/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm",
+    "https://www.latimes.com/california/story/2026-10-29/support-dwindles-for-wealth-tax-voter-id-ballot-measures-poll-shows",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://igs.berkeley.edu/research/berkeley-igs-poll",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-41-audits",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://ballotpedia.org/California_Proposition_41,_Prohibit_Excluding_New_State_Taxes_from_Spending_Limit_and_Require_Special_Tax_Audits_Initiative_(2026",
+    "https://calmatters.org/california-voter-guide-2026/proposition-41-tax-audits/",
+    "https://escholarship.org/uc/item/72722408",
+    "https://escholarship.org/uc/item/1vp9q3f9",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-41-requires-audits-programs-funded-new-state-special-taxes-prohibits-new-state-taxes-are-excluded-existing-voter-app",
+    "https://www.eastbaytimes.com/2026/11/02/we-asked-the-yes-on-prop-41-campaign-why-voters-should-approve-the-measure/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026",
+    "https://www.yesonprop41.org/"
+  ],
+  "tool_errors": 2,
+  "warnings": [],
+  "network": {
+    "requests": 18,
+    "requests_per_host": {
+      "openrouter.ai": 16,
+      "escholarship.org": 2
+    },
+    "hosts": [
+      "escholarship.org",
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 16,
+      "403": 2
+    },
+    "bytes_up": 1084915,
+    "bytes_down": 373508,
+    "wire_bytes": {
+      "harness_to_proxy": 1124336,
+      "proxy_to_harness": 433279,
+      "proxy_to_internet": 1118457,
+      "internet_to_proxy": 479258
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 19,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:21:08.069083+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:21:08.069083+00:00",
+      "finished_at": "2026-11-03T13:22:17.496835+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

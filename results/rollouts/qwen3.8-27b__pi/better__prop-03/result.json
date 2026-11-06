@@ -1,0 +1,93 @@
+{
+  "run_id": "qwen-27b__common__better__p3__r1",
+  "model": "qwen-27b",
+  "model_id": "qwen/qwen3.8-27b",
+  "pin": "deepinfra",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "3",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "last_line",
+  "error": "",
+  "started_at": "2026-11-03T13:34:23.902365+00:00",
+  "finished_at": "2026-11-03T13:35:52.440318+00:00",
+  "seconds": 85.7,
+  "input_tokens": 40794,
+  "output_tokens": 4602,
+  "cached_tokens": 67424,
+  "cost_usd": 0.0325,
+  "cost_source": "reported",
+  "billed_usd": 0.03252107136,
+  "searches": [
+    "California Proposition 3 2026 ballot measure what does it do",
+    "California Prop 3 2026 prop 98 backdoor what happens if tax expires school funding 2031",
+    "\"Proposition 3\" California 2026 endorsements newspaper \"vote yes\" OR \"endorse\" Prop 3"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/3/",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=3&year=2026",
+    "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+    "https://www.ijpr.org/elections/2026-10-21/what-to-know-about-californias-other-tax-the-rich-measure-prop-3",
+    "https://www.ijpr.org/elections/2026-10-21/what-to-know-about-californias-other-tax-the-rich-measure-prop-3",
+    "https://cms.hoover.org/prop-3-permanent-high-income-tax-initiative",
+    "https://www.sacbee.com/opinion/election-endorsements/article317445836.html"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 9,
+    "requests_per_host": {
+      "openrouter.ai": 9
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 9
+    },
+    "bytes_up": 421189,
+    "bytes_down": 1624483,
+    "wire_bytes": {
+      "harness_to_proxy": 436251,
+      "proxy_to_harness": 1723867,
+      "proxy_to_internet": 434600,
+      "internet_to_proxy": 1737492
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 8,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:34:23.902365+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:34:23.902365+00:00",
+      "finished_at": "2026-11-03T13:35:52.440318+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

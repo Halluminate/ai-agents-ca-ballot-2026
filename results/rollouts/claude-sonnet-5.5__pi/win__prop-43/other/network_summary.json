@@ -1,0 +1,51 @@
+{
+  "requests": 36,
+  "requests_per_host": {
+    "openrouter.ai": 30,
+    "escholarship.org": 2,
+    "thebusinessjournal.com": 1,
+    "www.azcentral.com": 1,
+    "electionresults.sos.ca.gov": 1,
+    "project-voter-guide-2026.interactives.calmatters.org": 1
+  },
+  "hosts": [
+    "electionresults.sos.ca.gov",
+    "escholarship.org",
+    "openrouter.ai",
+    "project-voter-guide-2026.interactives.calmatters.org",
+    "thebusinessjournal.com",
+    "www.azcentral.com"
+  ],
+  "status_counts": {
+    "200": 33,
+    "402": 1,
+    "403": 2
+  },
+  "bytes_up": 3824315,
+  "bytes_down": 431095,
+  "wire_bytes": {
+    "harness_to_proxy": 3879627,
+    "proxy_to_harness": 530993,
+    "proxy_to_internet": 3873803,
+    "internet_to_proxy": 583241
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 25,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

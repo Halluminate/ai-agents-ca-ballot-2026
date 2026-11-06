@@ -1,0 +1,379 @@
+{
+  "run_id": "sonnet__native__win__p38__r1",
+  "model": "sonnet",
+  "model_id": "anthropic/claude-sonnet-5.5",
+  "pin": "anthropic",
+  "arm": "native",
+  "harness": "claude_code",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:54:44.645260+00:00",
+  "finished_at": "2026-11-03T12:06:25.906618+00:00",
+  "seconds": 693.2,
+  "input_tokens": 56086,
+  "output_tokens": 17125,
+  "cached_tokens": 464524,
+  "cost_usd": 2.0059,
+  "cost_source": "reported",
+  "billed_usd": 2.0059457999999997,
+  "searches": [
+    "California Proposition 38 November 2026 ballot",
+    "Proposition 38 poll immunology research bond California likely voters",
+    "Prop 38 results California election night immunology bond",
+    "Berkeley IGS poll Proposition 38 immunology research bond yes no",
+    "Prop 38 campaign spending Michelson Yes on 38 No on 38 million raised",
+    "\"Prop 38\" passes OR fails OR leads OR trails California immunology bond early returns",
+    "California November 3 2026 election results propositions Prop 38 Prop 40 AP",
+    "Kalshi Polymarket California Proposition 38 odds pass",
+    "Prop 38 immunology bond voters approve OR reject election results November 4 2026",
+    "PPIC October 2026 survey Proposition 38 57% yes likely voters propositions 40 3 39",
+    "Prop 38 \"early results\" OR \"leading\" OR \"ahead\" OR \"projected\" immunology research bond California",
+    "California Proposition 38 lawsuit OR court OR \"attorney general\" immunology bond ballot removed unconstitutional ruling",
+    "Prop 14 2020 stem cell bond PPIC poll October 2020 yes no result 51%",
+    "Prop 38 poll Emerson OR Politico OR \"Citrin Center\" OR \"Strategies 360\" immunology bond California voters support",
+    "PPIC poll Prop 38 Democrats Republicans independents support percent immunology bond October 2026",
+    "California ballot measures 2026 forecast which propositions will pass Prop 38 analysis election eve",
+    "Prop 38 No on 38 campaign ads television mailers Howard Jarvis opposition effort last-minute",
+    "California election night results Becerra Hilton governor race called",
+    "\"Proposition 38\" California vote count percent yes no \"Prop. 38\" results Wednesday",
+    "Prop 38 immunology bond news November 2 2026 final days campaign",
+    "California Prop 1 March 2024 behavioral health bond PPIC poll vs result 50.2% polls overstated support bonds",
+    "PPIC September 2026 Proposition 38 55% yes 42% no immunology research bond likely voters",
+    "Proposition 14 2020 stem cell research bond poll likely voters PPIC yes no September 2020 October 2020 Berkeley IGS",
+    "Berkeley IGS poll late October 2026 California propositions voters Prop 40 Prop 39 Prop 38 results",
+    "\"Prop 38\" OR \"Proposition 38\" survey voters support immunology research bond poll finds percent California -2012"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 25,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/38/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-38-research-bond/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://david293.substack.com/p/proposition-38-election-night-coverage",
+    "https://yeson38.com/2026/10/28/prop-38-ppic-poll/",
+    "https://electionresults.sos.ca.gov/returns/ballot-measures",
+    "https://www.sfchronicle.com/politics/article/prop-38-ballot-california-22476943.php",
+    "https://defirate.com/odds/california-props/",
+    "https://www.hoover.org/proposition-lab-proposition-38",
+    "https://www.ppic.org/pdf/ppic-statewide-survey-californians-and-their-government-october-2026.pdf",
+    "https://calmatters.org/politics/elections/2026/10/prop-38-california/",
+    "https://en.wikipedia.org/wiki/2020_California_Proposition_14",
+    "https://www.kqed.org/voterguide/california/proposition-38",
+    "https://www.dailycal.org/news/campus/research-and-ideas/proposition-40-stumbles-to-finish-line-as-support-wanes-uc-berkeley-igs-poll-finds/article_c2ff1d9b-8f58-446f-a920-bd5c9fffe453.html",
+    "https://igs.berkeley.edu/research/berkeley-igs-poll",
+    "https://californiatoday.com/guides/elections/2026-california-proposition-38-guide/"
+  ],
+  "tool_errors": 4,
+  "warnings": [
+    "capture: 4 connection attempts that ignored the proxy were blocked (claude.exe remote:*:49471 x4)",
+    "capture: 4 connections were not readable by the proxy (api.anthropic.com:443)"
+  ],
+  "network": {
+    "requests": 133,
+    "requests_per_host": {
+      "api.anthropic.com": 66,
+      "openrouter.ai": 55,
+      "calmatters.org": 2,
+      "www.ppic.org": 2,
+      "voterguide.sos.ca.gov": 1,
+      "electionresults.sos.ca.gov": 1,
+      "www.sfchronicle.com": 1,
+      "www.hoover.org": 1,
+      "www.kqed.org": 1,
+      "www.dailycal.org": 1,
+      "igs.berkeley.edu": 1,
+      "californiatoday.com": 1
+    },
+    "hosts": [
+      "api.anthropic.com",
+      "californiatoday.com",
+      "calmatters.org",
+      "electionresults.sos.ca.gov",
+      "igs.berkeley.edu",
+      "openrouter.ai",
+      "voterguide.sos.ca.gov",
+      "www.dailycal.org",
+      "www.hoover.org",
+      "www.kqed.org",
+      "www.ppic.org",
+      "www.sfchronicle.com"
+    ],
+    "status_counts": {
+      "200": 112
+    },
+    "bytes_up": 4676242,
+    "bytes_down": 4441799,
+    "wire_bytes": {
+      "harness_to_proxy": 4992033,
+      "proxy_to_harness": 4795069,
+      "proxy_to_internet": 4780129,
+      "internet_to_proxy": 4845271
+    },
+    "byte_counter": true,
+    "errors": 31,
+    "error_details": [
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "server closed connection"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "www.ppic.org",
+        "sni": "www.ppic.org",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "www.ppic.org",
+        "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/web/domain_info?domain=yeson38.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "server closed connection"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/web/domain_info?domain=defirate.com",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 11.1782,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0004,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 19.3285,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 456.0827,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "claude.exe",
+        "operation": "network-outbound",
+        "target": "remote:*:49471",
+        "attempts": 4
+      }
+    ],
+    "blocked_attempts": 4,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 54,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:54:44.645260+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:54:44.645260+00:00",
+      "finished_at": "2026-11-03T12:06:25.906618+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

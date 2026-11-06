@@ -1,0 +1,15 @@
+I've now completed extensive research on this measure. Here's a summary of what I found before my answer:
+
+**What Prop 4 (Nov. 2026) actually does:** It repeals the 1988 ban (Prop 73) on using public funds for election campaigns — California is the *only state* with such a ban. Critically, it does **not** create or fund any program; it only gives state/local governments the *option* to create public campaign financing programs later, with mandatory guardrails written into the text: dedicated funds only (no education/transportation/public safety money), voluntary participation, required expenditure limits, required qualifying criteria (broad-based support via small-dollar contributions or vouchers, capped at $10 per contributor to count), bans on using funds for legal defense/fines/personal loan repayment, and non-discrimination by party or incumbency. It also triples penalties for illegal foreign contributions. Immediate fiscal cost: ~a few hundred thousand dollars/year for FPPC guidance.
+
+**Key findings from research:**
+- The opposition's "blank check / no limits" claim is contradicted by the statutory text, which *requires* spending limits and strict qualifying criteria for any future program — though specific dollar amounts are appropriately left to each jurisdiction
+- Evidence is mixed but leans positive for the measure's stated goals: Seattle's voucher program boosted candidates by 86% and donors by 350%; LA/NYC matching programs dramatically expanded small-donor participation and candidate diversity; GAO did find participating candidates perform well. Counter-evidence (2010 GAO on AZ/ME, 2013 Oakland study) is weaker or pertains to older program designs
+- Seven California charter cities (LA, SF, Oakland, Berkeley, Long Beach, Richmond, Sacramento) already run such programs — Prop 4 simply extends the same option everyone else has, restoring local control
+- It addresses a real problem: the most expensive governor's race in U.S. history ($213M self-funded), ~$1M+ cost to run for Assembly, $500M+ in annual lobbying
+- Supporters: League of Women Voters, Common Cause, ACLU California Action, Consumer Watchdog, CA Nurses; Opponents: Howard Jarvis/CalTax taxpayer groups, some former FPPC commissioners
+- Editorial boards are split: Sacramento Bee/McClatchy papers, LA Times (Skelton), and SPUR say YES; SF Chronicle, Mercury News, OC Register, SD Union-Tribune say NO (mainly citing enforcement gaps and unstudied local programs)
+
+Weighing everything: the measure is a modest, well-guarded enabling law rather than the spending mandate opponents describe; it ends California's outlier status, empowers local choice, costs almost nothing now, and has reasonable empirical support for expanding candidate diversity and small-donor participation. The main objections are either values-based objections to public financing generally or concerns about hypothetical future programs that would each face separate democratic scrutiny.
+
+yes

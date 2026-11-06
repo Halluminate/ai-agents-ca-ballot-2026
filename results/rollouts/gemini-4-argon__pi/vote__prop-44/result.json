@@ -1,0 +1,98 @@
+{
+  "run_id": "gemini__common__vote__p44__r1",
+  "model": "gemini",
+  "model_id": "google/gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "44",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "finished_at": "2026-11-03T04:57:59.467503+00:00",
+  "seconds": 42.0,
+  "input_tokens": 11238,
+  "output_tokens": 1855,
+  "cached_tokens": 0,
+  "cost_usd": 0.041,
+  "cost_source": "reported",
+  "searches": [],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/44/",
+    "https://voterguide.sos.ca.gov/propositions/44/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 1 connections were not readable by the proxy (openrouter.ai:443)"
+  ],
+  "network": {
+    "requests": 3,
+    "requests_per_host": {
+      "openrouter.ai": 3
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 3
+    },
+    "bytes_up": 46601,
+    "bytes_down": 35888,
+    "wire_bytes": {
+      "harness_to_proxy": 54673,
+      "proxy_to_harness": 47032,
+      "proxy_to_internet": 53605,
+      "internet_to_proxy": 52415
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "tls_failed_server",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed early"
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1982,
+        "bytes_down": 39,
+        "duration": 18.0001,
+        "reason": "connection closed early"
+      }
+    ],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 5,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

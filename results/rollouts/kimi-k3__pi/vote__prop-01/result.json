@@ -1,0 +1,93 @@
+{
+  "run_id": "kimi__common__vote__p1__r1",
+  "model": "kimi",
+  "model_id": "moonshotai/kimi-k3",
+  "pin": "moonshotai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "1",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "last_line",
+  "error": "",
+  "started_at": "2026-11-03T12:44:53.385733+00:00",
+  "finished_at": "2026-11-03T12:47:24.293501+00:00",
+  "seconds": 146.3,
+  "input_tokens": 31949,
+  "output_tokens": 4927,
+  "cached_tokens": 57344,
+  "cost_usd": 0.2123,
+  "cost_source": "reported",
+  "billed_usd": 0.21233049183999997,
+  "searches": [
+    "California Proposition 1 2024 behavioral health bond analysis",
+    "California November 2026 Proposition 1 housing bond $11.25 billion",
+    "Proposition 1 2026 California housing bond opposition criticism Howard Jarvis",
+    "California affordable housing bond 2026 editorial endorsement Chronicle Bee Proposition 1",
+    "LA Times editorial endorsement Proposition 1 2026 housing bond yes no",
+    "\"SB 407\" Cabaldon Wicks Veterans Affordable Housing Bond Act 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/1/",
+    "https://voterguide.sos.ca.gov/propositions/1/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/1/arguments-rebuttals.htm",
+    "https://calmatters.org/california-voter-guide-2026/proposition-1-housing-bond/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 11,
+    "requests_per_host": {
+      "openrouter.ai": 11
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 11
+    },
+    "bytes_up": 398526,
+    "bytes_down": 712448,
+    "wire_bytes": {
+      "harness_to_proxy": 418500,
+      "proxy_to_harness": 769417,
+      "proxy_to_internet": 415513,
+      "internet_to_proxy": 792275
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 10,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:44:53.385733+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:44:53.385733+00:00",
+      "finished_at": "2026-11-03T12:47:24.293501+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

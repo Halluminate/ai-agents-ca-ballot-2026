@@ -1,0 +1,19 @@
+I've now reviewed the official voter guide, the LAO's nonpartisan analysis, the full text of the measure, campaign finance records, polling, academic research on voter ID laws, the real-world results of a nearly identical law in Texas, and editorial analyses. Here's what I found:
+
+## What Prop 39 does (Nov. 3, 2026 ballot)
+- Requires government-issued ID every time you vote in person; mail voters must write the last 4 digits of a pre-designated government ID number on the ballot envelope, and ballots without a matching number are **invalidated**
+- Requires officials to use "best efforts" with government data to verify citizenship of everyone on the voter rolls
+- Creates a free state voter ID card; requires biennial audits; amends the state constitution
+
+## Key findings from my research
+- **The problem it targets is vanishingly rare.** Voters already verify identity at registration (driver's license/state ID/SSN) under penalty of perjury. The Trump DOJ's aggressive 2026 crackdown produced just 28 charged individuals out of ~23 million registered CA voters — many charged only with paperwork issues, not voting. A Reuters review found 129 noncitizen voting charges *nationwide* over years, mostly from confusion or DMV errors.
+- **The closest real-world test went badly.** Texas's 2021 law with a nearly identical mail-ballot ID-number-matching rule caused mail ballot rejection rates to jump ~12x (to 12.4%) in the 2022 primary — 90% of those voters never successfully voted, with racial disparities. About 80–90% of Californians vote by mail, so this is the measure's central risk, not an edge case.
+- **It doesn't deliver its main promised fix.** Supporters claim it replaces error-prone signature matching with a simple 4-digit PIN. But the measure's text never repeals signature verification — experts say the PIN would be *added on top*, with no required "cure" process for mismatches.
+- **Real cost:** tens of millions to low hundreds of millions of dollars per year (LAO), locked into the constitution.
+- **Turnout evidence is mixed** — the best national study (QJE, 2021) found strict ID laws don't reduce overall turnout, so "mass suppression" claims are overstated. But a North Carolina study found persistent deterrent effects for the ~3% lacking ID.
+- **Who's behind it:** funded overwhelmingly by out-of-state GOP megadonors (Richard Uihlein $17M, Joseph Gebbia $8M) and Carl DeMaio's Reform California. Opposed by the ACLU, League of Women Voters, Common Cause, and nearly every major editorial board (SF Chronicle, Sac Bee, Mercury News, SD Union-Tribune, LA Times columnist); the OC Register supports it.
+
+## Weighing it
+The honest case for Yes: voter ID polls well, most states have some ID requirement, the free ID card softens the burden, and it could modestly boost public confidence. But on the evidence, California's elections are already secure, the measure risks rejecting large numbers of *eligible* voters' mail ballots (as Texas demonstrated), costs up to hundreds of millions annually, and its vague citizenship-verification mandate — using the same kind of flawed government data that produced the DOJ's error-riddled lists — invites wrongful flagging and endless litigation, all baked into the constitution.
+
+**My answer: No.**

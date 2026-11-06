@@ -1,0 +1,102 @@
+{
+  "run_id": "gpt__native__better__p2__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "2",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:57:50.082597+00:00",
+  "finished_at": "2026-11-03T11:00:00.424453+00:00",
+  "seconds": 127.9,
+  "input_tokens": 33,
+  "output_tokens": 4715,
+  "cached_tokens": 496081,
+  "cost_usd": 2.0799,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 2 2024 school facilities bonds Legislative Analyst analysis equity opposition",
+    "2026 California Proposition 2 rainy day fund 20 percent spending limit analysis",
+    "\"Proposition 2\" \"2026\" \"rainy\" opposition analysis ...",
+    "site:calmatters.org 2026 \"Proposition 2\" rainy ...",
+    "site:californiapolicycenter.org \"Proposition 2\" \"2026\" ...",
+    "\"ACA 20\" \"2026\" \"4.7\" rainy ...",
+    "'Limitations'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/",
+    "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop2-text-proposed-laws.pdf",
+    "https://lao.ca.gov/reports/2025/5028/Rethinking-Californias-Reserve-Policy-041025.pdf",
+    "https://calbudgetcenter.org/resources/should-voters-approve-proposition-2-how-californias-rainy-day-fund-would-be-updated/",
+    "https://sfstandard.com/opinion/2026/09/14/newsom-rainy-day-fund-prop-2/",
+    "https://www.pew.org/en/research-and-analysis/fact-sheets/2017/04/rainy-day-fund-best-practices",
+    "https://lao.ca.gov/Publications/Report/5197"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 22,
+    "requests_per_host": {
+      "api.openai.com": 19,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 18,
+      "202": 3
+    },
+    "bytes_up": 1247177,
+    "bytes_down": 2456534,
+    "wire_bytes": {
+      "harness_to_proxy": 994785,
+      "proxy_to_harness": 1546157,
+      "proxy_to_internet": 993417,
+      "internet_to_proxy": 1584609
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1971,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 21,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:57:50.082597+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:57:50.082597+00:00",
+      "finished_at": "2026-11-03T11:00:00.424453+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

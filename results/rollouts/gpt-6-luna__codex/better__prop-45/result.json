@@ -1,0 +1,99 @@
+{
+  "run_id": "luna__native__better__p45__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "45",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:10:10.095057+00:00",
+  "finished_at": "2026-11-03T13:12:37.197423+00:00",
+  "seconds": 144.8,
+  "input_tokens": 57,
+  "output_tokens": 12921,
+  "cached_tokens": 1363366,
+  "cost_usd": 0.15,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 45 2026 CEQA official initiative text analysis independent ...",
+    "'Essential housing project'",
+    "site:cayimby.org Proposition 45 2026 no recommendation ...",
+    "'federally recognized'",
+    "Hernandez 2026 CEQA study 498 appellate decisions Proposition 45 CEQA lawsuit ...",
+    "\"$1.5 billion\" Blue Sky Consulting Proposition 45 CEQA savings 2026 report ...",
+    "'18.1%'",
+    "site:cayimby.org/blog \"Proposition 45\" 2026 ...",
+    "site:lci.ca.gov AB 130 Prop 45 17,913 units CEQA July 2025 ...",
+    "\"Development Approval Timelines, Approval Uncertainty, and New Housing Supply\" Gabriel Kung 2025 findings ...",
+    "California Prop 45 2026 fact check $75,000 housing CEQA one alternative analysis ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/45/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 22,
+    "requests_per_host": {
+      "api.openai.com": 19,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 18,
+      "202": 3
+    },
+    "bytes_up": 1530131,
+    "bytes_down": 3553821,
+    "wire_bytes": {
+      "harness_to_proxy": 1086164,
+      "proxy_to_harness": 2088934,
+      "proxy_to_internet": 1083897,
+      "internet_to_proxy": 2126607
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2028,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 21,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:10:10.095057+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:10:10.095057+00:00",
+      "finished_at": "2026-11-03T13:12:37.197423+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

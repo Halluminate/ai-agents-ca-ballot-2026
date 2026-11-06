@@ -1,0 +1,119 @@
+{
+  "run_id": "gpt__native__vote__p1__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "1",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:20:56.683309+00:00",
+  "finished_at": "2026-11-03T12:27:55.698379+00:00",
+  "seconds": 416.8,
+  "input_tokens": 39,
+  "output_tokens": 5979,
+  "cached_tokens": 664073,
+  "cost_usd": 2.5101,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California 2026 Proposition 1 $11.25 billion housing bond analysis ...",
+    "California 2026 Proposition 1 housing bond opposition CalMatters ...",
+    "'audit'",
+    "site.lao.ca.gov \"2026-27\" \"Fiscal Outlook\" ...",
+    "site.hjta.org \"2026\" \"Proposition 1\" ...",
+    "affordable housing costs 2020 108 financing ...",
+    "2026 affordable housing pipeline 40000 California Housing Partnership funding ...",
+    "\"Proposition 1\" \"2018\" \"2025\" \"units\" \"HCD\" annual report ...",
+    "\"Low-Income Housing Tax Credit\" \"residents\" \"benefits\" \"Reid\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/1/",
+    "https://voterguide.sos.ca.gov/propositions/1/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/voter-info/overview-state-bond-debt.htm",
+    "https://www.hjta.org/"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 1 connections were not readable by the proxy (ab.chatgpt.com:443)"
+  ],
+  "network": {
+    "requests": 29,
+    "requests_per_host": {
+      "api.openai.com": 26,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 24,
+      "202": 3,
+      "500": 1
+    },
+    "bytes_up": 813022,
+    "bytes_down": 2959961,
+    "wire_bytes": {
+      "harness_to_proxy": 518545,
+      "proxy_to_harness": 1867185,
+      "proxy_to_internet": 515876,
+      "internet_to_proxy": 1913719
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "connect_error",
+        "host": "ab.chatgpt.com",
+        "error": null
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "ab.chatgpt.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 65,
+        "bytes_down": 0,
+        "duration": 9.9975,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2450,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 28,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:20:56.683309+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:20:56.683309+00:00",
+      "finished_at": "2026-11-03T12:27:55.698379+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

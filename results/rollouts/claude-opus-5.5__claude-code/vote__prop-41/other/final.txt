@@ -1,0 +1,42 @@
+If you won't vote yes on Prop 40, the billionaire tax, vote **YES on 41**. Prop 41's main practical effect is to cancel Prop 40. Nonpartisan guides (CalMatters, KQED, LAist) and the Legislative Analyst all treat it that way. Whether a one-time billionaire tax should pass is a values question where reasonable people disagree, so I won't pick that side for you. Once you answer it, the vote on 41 follows:
+
+- **If you're voting YES on 40: vote NO on 41.** A yes on 41 works directly against a yes on 40.
+- **If you're voting NO on 40: vote YES on 41.** That holds as long as you're fine with a permanent constitutional rule that every new state tax counts against the state spending limit. If that part bothers you, voting no on 41 is also reasonable. Your no on 40 already does the main work, and Prop 42 (which Newsom backs) can also cancel 40.
+
+### What Prop 41 does
+- **Spending-limit rule:** The state couldn't collect any tax enacted or taking effect on or after Jan. 1, 2026 if its revenue is exempt from the "Gann limit." That's the spending cap voters approved in 1979; revenue above it goes to taxpayer rebates and schools. Prop 40 exempts its revenue, so Prop 40 is the target.
+- **Poison pill:** If 41 gets more yes votes than a conflicting measure on the same ballot, the whole other measure is void. The Legislative Analyst says Prop 40 "could be stopped from becoming law even if it gets yes votes from a majority of voters." Courts would decide whether the two actually conflict.
+- **Audits:**
+  - The State Auditor would audit any special-tax initiative before it reaches the ballot and must identify ways to cut program costs by 10%. A summary goes in the voter guide.
+  - Programs funded by new special taxes would be audited every four years.
+  - The recommendations are advisory, and the analyst puts the cost in the "low millions" of dollars a year.
+
+### Best case for YES
+- It closes a real loophole: today any tax measure can simply exempt its own revenue from the spending limit. GrowSF, a moderate San Francisco group, endorses it on that principle: "Fix the Gann limit; don't evade it."
+- It adds accountability for new special taxes, and it doesn't raise or cut any tax itself.
+- Supporters: the state Republican Party, the California Chamber of Commerce, the California Taxpayers Association (CalTax), Howard Jarvis Taxpayers Association, the San Diego Union-Tribune and the OC Register.
+
+### Best case for NO
+- It's a permanent constitutional amendment written to stop a one-time tax. Several groups that don't back Prop 40 still oppose 41:
+  - The SF Chronicle (no position on 40) calls it a "cynical poison pill."
+  - The Mercury News opposes 40, 41 and 42.
+  - SPUR and the League of Women Voters are neutral on 40 but oppose 41.
+- The audit design is weak. GrowSF admits the 10% cuts must be found "whether or not the waste exists," even though it endorses yes.
+- Critics argue it could hit renewed hospital and health-plan taxes that bring in billions in federal Medi-Cal matching money. These critics include a co-author of Prop 40 and the progressive California Budget & Policy Center. The Legislative Analyst doesn't raise this, and the legal question is unsettled.
+- Opponents: the state Democratic Party, major unions and the ACLU.
+
+### Context
+- **Money:** About $58M for, nearly all from Building a Better California, the committee backed by Google co-founder Sergey Brin. About $34M against, mostly from SEIU-UHW, the health care union sponsoring Prop 40.
+- **Newsom:** Opposes 40, endorsed 42, and has taken no position on 41.
+- **Polls:** PPIC (Oct. 16–22) has 41 at 48% yes, 49% no; 40 losing 46–52; and 42 at 51% yes. Berkeley IGS (Oct. 19–25) has 40 losing 42–50. If 40 fails anyway, 41's lasting effect is the permanent spending-limit rule and the audits.
+- Prop 3, the extension of the high-earner income tax, doesn't appear to be affected.
+
+I couldn't open the official full legal text: the PDFs weren't readable and the text page was blocked. The provisions above come from the Legislative Analyst's analysis and from guides that quote the text.
+
+Sources:
+- [SOS Prop 41 page](https://voterguide.sos.ca.gov/propositions/41/) · [LAO analysis](https://voterguide.sos.ca.gov/propositions/41/analysis.htm) · [Arguments/rebuttals](https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm) · [SOS Prop 40](https://voterguide.sos.ca.gov/propositions/40/) · [SOS Prop 3 analysis](https://voterguide.sos.ca.gov/propositions/3/analysis.htm)
+- [CalMatters Prop 41](https://calmatters.org/california-voter-guide-2026/proposition-41-tax-audits/) · [CalMatters on Newsom](https://calmatters.org/politics/2026/10/newsom-tax-propositions-november-election/) · [CalMatters poll newsletter](https://calmatters.org/newsletter/prop-40-poll/)
+- [KQED](https://www.kqed.org/voterguide/california/proposition-41) · [LAist](https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-41-tax-audits) · [California Today](https://californiatoday.com/guides/elections/2026-california-proposition-41-guide/) · [CaVotes (LWV)](https://cavotes.org/ballot-measure/2026-prop-41/)
+- [CA Budget & Policy Center](https://calbudgetcenter.org/resources/what-would-proposition-41-mean-for-california/) · [SPUR](https://www.spur.org/voter-guide/2026-11/ca-prop-41-audits-special-taxes) · [GrowSF](https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-41/)
+- [Press Democrat](https://www.pressdemocrat.com/2026/10/10/endorsement-if-you-support-the-billionaire-tax-vote-no-on-props-41-and-42/) · [SF Chronicle](https://www.sfchronicle.com/opinion/editorials/article/endorsement-california-prop-41-taxes-22445889.php) · [Berkeley IGS endorsements](https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026)
+- [SF Standard (PPIC poll)](https://sfstandard.com/2026/10/27/billionaire-tax-prop-40-ppic-poll-october/) · [Wikipedia: Prop 40](https://en.wikipedia.org/wiki/2026_California_billionaire_tax_initiative)

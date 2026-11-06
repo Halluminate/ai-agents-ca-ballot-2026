@@ -1,0 +1,97 @@
+{
+  "requests": 125,
+  "requests_per_host": {
+    "openrouter.ai": 103,
+    "voterguide.sos.ca.gov": 3,
+    "rosefdn.org": 3,
+    "vigarchive.sos.ca.gov": 1,
+    "californiahealthline.org": 1,
+    "lwvc.org": 1,
+    "www.healthaffairs.org": 1,
+    "www.kff.org": 1,
+    "www.cbsnews.com": 1,
+    "www.lao.ca.gov": 1,
+    "www.cms.gov": 1,
+    "www.chcf.org": 1,
+    "centerforhealthjournalism.org": 1,
+    "www.sfgate.com": 1,
+    "law.stanford.edu": 1,
+    "www.apnews.com": 1,
+    "apnews.com": 1,
+    "www.rosefdn.org": 1,
+    "leginfo.legislature.ca.gov": 1
+  },
+  "hosts": [
+    "apnews.com",
+    "californiahealthline.org",
+    "centerforhealthjournalism.org",
+    "law.stanford.edu",
+    "leginfo.legislature.ca.gov",
+    "lwvc.org",
+    "openrouter.ai",
+    "rosefdn.org",
+    "vigarchive.sos.ca.gov",
+    "voterguide.sos.ca.gov",
+    "www.apnews.com",
+    "www.cbsnews.com",
+    "www.chcf.org",
+    "www.cms.gov",
+    "www.healthaffairs.org",
+    "www.kff.org",
+    "www.lao.ca.gov",
+    "www.rosefdn.org",
+    "www.sfgate.com"
+  ],
+  "status_counts": {
+    "200": 118,
+    "301": 2,
+    "403": 4,
+    "404": 1
+  },
+  "bytes_up": 26061628,
+  "bytes_down": 11576217,
+  "wire_bytes": {
+    "harness_to_proxy": 26351749,
+    "proxy_to_harness": 12193804,
+    "proxy_to_internet": 26314806,
+    "internet_to_proxy": 12503813
+  },
+  "byte_counter": true,
+  "errors": 3,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 123,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

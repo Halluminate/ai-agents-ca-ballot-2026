@@ -1,0 +1,108 @@
+{
+  "run_id": "glm-prime__common__vote__p40__r1",
+  "model": "glm-prime",
+  "model_id": "z-ai/glm-5.3-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "40",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T13:15:36.216705+00:00",
+  "finished_at": "2026-11-03T13:17:18.004315+00:00",
+  "seconds": 99.1,
+  "input_tokens": 59496,
+  "output_tokens": 9284,
+  "cached_tokens": 154368,
+  "cost_usd": 0.3449,
+  "cost_source": "reported",
+  "billed_usd": 0.34489010184,
+  "searches": [
+    "California Proposition 40 2026",
+    "Proposition 40 editorial endorsement LA Times San Francisco Chronicle CalMatters billionaire tax"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/40/",
+    "https://www.lao.ca.gov/BallotAnalysis/Proposition?number=40&year=2026",
+    "https://voterguide.sos.ca.gov/propositions/40/arguments-rebuttals.htm",
+    "https://www.cnbc.com/2026/10/22/california-proposition-40-billionaire-tax-wealth.html",
+    "https://voterguide.sos.ca.gov/propositions/41/index.htm",
+    "https://voterguide.sos.ca.gov/propositions/42/index.htm",
+    "https://www.cnbc.com/2026/10/22/california-proposition-40-billionaire-tax-wealth.html",
+    "https://calbudgetcenter.org/resources/billionaire-tax-explained-what-proposition-40-would-mean-for-california/",
+    "https://www.hoover.org/research/net-present-value-california-billionaire-tax-act",
+    "https://calbudgetcenter.org/resources/billionaire-tax-explained-what-proposition-40-would-mean-for-california/",
+    "https://www.sacbee.com/news/politics-government/election/article317852764.html",
+    "https://calbudgetcenter.org/resources/billionaire-tax-explained-what-proposition-40-would-mean-for-california/",
+    "https://www.latimes.com/opinion/story/2026-09-06/editorial-vote-no-on-proposition-40",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-40-tax-billionaire-california-22477038.php"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 11,
+    "requests_per_host": {
+      "openrouter.ai": 10,
+      "voterguide.sos.ca.gov": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "voterguide.sos.ca.gov"
+    ],
+    "status_counts": {
+      "200": 11
+    },
+    "bytes_up": 936747,
+    "bytes_down": 1886395,
+    "wire_bytes": {
+      "harness_to_proxy": 958629,
+      "proxy_to_harness": 2014291,
+      "proxy_to_internet": 955982,
+      "internet_to_proxy": 2036697
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 11,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:15:36.216705+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:15:36.216705+00:00",
+      "finished_at": "2026-11-03T13:17:18.004315+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

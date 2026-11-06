@@ -1,0 +1,91 @@
+{
+  "run_id": "terra__native__win__p5__r1",
+  "model": "terra",
+  "model_id": "gpt-6.1-terra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "5",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:47:42.255628+00:00",
+  "finished_at": "2026-11-03T10:48:15.430967+00:00",
+  "seconds": 31.2,
+  "input_tokens": 15,
+  "output_tokens": 1534,
+  "cached_tokens": 93125,
+  "cost_usd": 0.1191,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California proposition 5 November 2026 ballot polling forecast ...",
+    "\"Proposition 5\" \"2026\" \"poll\" recall October November California ...",
+    "California 2026 \"Proposition 5\" \"recall\" poll October 2026 percent ...",
+    "site:ppic.org \"Proposition 5\" \"2026\" \"45\" \"52\" ...",
+    "\"Proposition 5\" \"2026\" \"45%\" \"52%\" \"recall\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 7,
+    "requests_per_host": {
+      "api.openai.com": 6,
+      "ab.chatgpt.com": 1
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 5,
+      "202": 1
+    },
+    "bytes_up": 868725,
+    "bytes_down": 965918,
+    "wire_bytes": {
+      "harness_to_proxy": 740132,
+      "proxy_to_harness": 551717,
+      "proxy_to_internet": 740094,
+      "internet_to_proxy": 565835
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 887,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 8,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:47:42.255628+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:47:42.255628+00:00",
+      "finished_at": "2026-11-03T10:48:15.430967+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

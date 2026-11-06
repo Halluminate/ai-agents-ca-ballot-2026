@@ -1,0 +1,112 @@
+{
+  "run_id": "terra__common__win__p45__r1",
+  "model": "terra",
+  "model_id": "openai/gpt-6.1-terra",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "45",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:55:54.542658+00:00",
+  "finished_at": "2026-11-03T10:56:34.239557+00:00",
+  "seconds": 36.8,
+  "input_tokens": 76014,
+  "output_tokens": 1202,
+  "cached_tokens": 49252,
+  "cost_usd": 0.1745,
+  "cost_source": "reported",
+  "billed_usd": 0.17946172032000002,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/45/ California Proposition 45",
+    "\"voterguide.sos.ca.gov/propositions/45/\" ballot",
+    "California proposition 45 yes no initiative ballot voter guide 45 election results",
+    "\"proposition 45\" \"survey\" environmental California 2026 ballot support oppose",
+    "California \"2026\" \"proposition 45\" odds election betting prediction",
+    "\"2026\" California \"prop 45\" polling yes no CEQA 2026",
+    "\"prop 45\" 2026 vote environmental CEQA poll california Berkeley PPIC",
+    "\"Proposition 45\" \"poll\" \"2026\" environmental review votes yes no",
+    "2026 California proposition 45 poll polling CEQA likely yes no ballot",
+    "\"prop 45\" polling California 2026 CEQA survey",
+    "California 2026 \"Proposition 45\" \"poll\" \"Oct\" pollsters final",
+    "\"Prop 45\" California ballot 2026 poll October 2026 probolsky yes no",
+    "\"Proposition 45\" \"2026\" \"probolsky\" \"PPIC\" polling 2026",
+    "\"2026\" \"proposition 45\" \"kalshi\" odds yes no november 3 2026",
+    "\"California\" \"proposition 45\" \"2026\" \"results\" election November 3 2026 CEQA vote count"
+  ],
+  "search_errors": 1,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/45/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-45",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=45&year=2026",
+    "https://project-voter-guide-2026.interactives.calmatters.org/general/en/campaign-finance/prop/45",
+    "https://onpointpolitics.us/forecast/measures/ca/proposition-45",
+    "https://southbaychronicle.com/2026/11/01/prop-45-final-weekend-polls-ppic-probolsky-bay-area-ceqa/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://defirate.com/odds/california-props/",
+    "https://kalshi.com/markets/kxcaballotmeasures/which-california-ballot-measures-will-pass/kxcaballotmeasures-26nov03"
+  ],
+  "tool_errors": 2,
+  "warnings": [],
+  "network": {
+    "requests": 21,
+    "requests_per_host": {
+      "openrouter.ai": 19,
+      "project-voter-guide-2026.interactives.calmatters.org": 1,
+      "kalshi.com": 1
+    },
+    "hosts": [
+      "kalshi.com",
+      "openrouter.ai",
+      "project-voter-guide-2026.interactives.calmatters.org"
+    ],
+    "status_counts": {
+      "200": 20,
+      "429": 1
+    },
+    "bytes_up": 580988,
+    "bytes_down": 303388,
+    "wire_bytes": {
+      "harness_to_proxy": 626819,
+      "proxy_to_harness": 361378,
+      "proxy_to_internet": 619418,
+      "internet_to_proxy": 415952
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 22,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:55:54.542658+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:55:54.542658+00:00",
+      "finished_at": "2026-11-03T10:56:34.239557+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

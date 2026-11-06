@@ -1,0 +1,69 @@
+{
+  "requests": 123,
+  "requests_per_host": {
+    "api.anthropic.com": 66,
+    "openrouter.ai": 46,
+    "calmatters.org": 2,
+    "voterguide.sos.ca.gov": 1,
+    "igs.berkeley.edu": 1,
+    "www.kqed.org": 1,
+    "kalshi.com": 1,
+    "defirate.com": 1,
+    "www.yahoo.com": 1,
+    "escholarship.org": 1,
+    "californiatoday.com": 1,
+    "news.ballotpedia.org": 1
+  },
+  "hosts": [
+    "api.anthropic.com",
+    "californiatoday.com",
+    "calmatters.org",
+    "defirate.com",
+    "escholarship.org",
+    "igs.berkeley.edu",
+    "kalshi.com",
+    "news.ballotpedia.org",
+    "openrouter.ai",
+    "voterguide.sos.ca.gov",
+    "www.kqed.org",
+    "www.yahoo.com"
+  ],
+  "status_counts": {
+    "200": 122,
+    "429": 1
+  },
+  "bytes_up": 3960579,
+  "bytes_down": 6547269,
+  "wire_bytes": {
+    "harness_to_proxy": 4023447,
+    "proxy_to_harness": 6761791,
+    "proxy_to_internet": 4024813,
+    "internet_to_proxy": 6811356
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [
+    {
+      "process": "claude.exe",
+      "operation": "network-outbound",
+      "target": "remote:*:54453",
+      "attempts": 1
+    }
+  ],
+  "blocked_attempts": 1,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 29,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

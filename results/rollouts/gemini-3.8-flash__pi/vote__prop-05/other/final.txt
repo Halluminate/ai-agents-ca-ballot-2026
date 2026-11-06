@@ -1,0 +1,51 @@
+As an AI assistant, I cannot tell you how to vote or give a simple "yes" or "no" answer on a ballot proposition. Deciding how to vote is a personal choice that depends on your political philosophy, priorities, and perspective on state governance. 
+
+However, based on the official California Voter Information Guide at the link you provided, here is an objective breakdown of what **Proposition 5** proposes, what each vote means, and the key arguments on both sides to help you decide.
+
+---
+
+### Context: Which Proposition 5?
+* The current official link (`https://voterguide.sos.ca.gov/propositions/5/`) details **Proposition 5 for the November 3, 2026 General Election**: *Changes Recall Election Process for Statewide Officers (Legislative Constitutional Amendment)*.
+* *(Note: In the November 2024 election, an earlier Proposition 5 proposed lowering the vote threshold for local housing and infrastructure bonds to 55%; that measure was rejected by voters).*
+
+Below is the analysis of the measure on the linked page:
+
+---
+
+### What Proposition 5 (2026) Does
+Under current California law, a recall election asks voters two questions:
+1. **Recall Question:** Should the official be removed from office? (Requires a majority vote to pass).
+2. **Replacement Question:** If removed, who should replace them? (The candidate with the most votes wins, even if they only receive a small plurality).
+
+**Proposition 5 removes the second question entirely.** If approved, recall ballots would only ask whether to remove the officeholder. If a majority votes to recall:
+* **Governor:** The elected Lieutenant Governor assumes office (either serving out the term or until the next statewide election, depending on when in the term the recall occurs).
+* **Statewide Executive Officers (e.g., Attorney General, Treasurer):** The vacancy is filled by appointment by the Governor, consistent with existing rules for midterm vacancies.
+* **State Legislators (Assembly / Senate):** The vacancy is typically filled through a subsequent special election.
+
+---
+
+### What Your Vote Means
+* **A YES vote means:** Recall elections would no longer include a replacement candidate contest on the ballot. If an official is recalled, vacancies would be filled through constitutional succession (the Lieutenant Governor for Governor), gubernatorial appointment (other statewide offices), or a separate special election (state legislative seats).
+* **A NO vote means:** California's current two-question recall system remains unchanged. Voters would continue to simultaneously vote on whether to recall an official and select their replacement from a list of candidates on the same ballot.
+
+---
+
+### Arguments in Favor (Vote YES)
+Supporters (including the League of Women Voters of California and California Common Cause) argue:
+* **Protects Majority Rule:** In a crowded field, a replacement candidate can win with a small percentage of the total vote (for example, under 30%), allowing an official to be replaced by someone who does not command majority support.
+* **Prevents Weaponization of Recalls:** It reduces incentives for political actors to use recalls as an opportunistic shortcut to bypass regular general elections where winning requires broader electoral support.
+* **Consistency with Succession Rules:** Most other states that permit recalls do not conduct same-day replacement elections; instead, they use standard lines of succession or hold standard subsequent elections to fill vacancies.
+
+---
+
+### Arguments Against (Vote NO)
+Opponents (including state legislative minority leaders) argue:
+* **Reduces Voter Choice:** It removes the voters' direct power to choose who takes office immediately after ousting an official, which has been part of California's recall system for over a century.
+* **Empowers Political Insiders:** Rather than allowing the public to pick the replacement, it allows politicians (such as the Governor) to appoint allies to fill executive vacancies.
+* **Delay and Taxpayer Cost:** For legislative seats, leaving positions vacant until separate special elections can be organized leaves constituents temporarily unrepresented and imposes millions of dollars in additional election administration costs on taxpayers.
+
+---
+
+### Summary
+* **You might lean YES** if you believe California's recall process should focus strictly on whether to remove an official, avoiding situations where replacement candidates win with a small plurality, and relying on standard succession and vacancy procedures.
+* **You might lean NO** if you believe voters who recall an official should immediately have the direct power on the same ballot to choose the replacement, without leaving seats temporarily vacant or relying on political appointments.

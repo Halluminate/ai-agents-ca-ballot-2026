@@ -1,0 +1,91 @@
+{
+  "requests": 148,
+  "requests_per_host": {
+    "api.anthropic.com": 75,
+    "openrouter.ai": 52,
+    "calmatters.org": 2,
+    "lao.ca.gov": 2,
+    "www.ppic.org": 2,
+    "voterguide.sos.ca.gov": 1,
+    "igs.berkeley.edu": 1,
+    "laist.com": 1,
+    "edsource.org": 1,
+    "calbudgetcenter.org": 1,
+    "vig.cdn.sos.ca.gov": 1,
+    "antiochherald.com": 1,
+    "www.yahoo.com": 1,
+    "web.stanford.edu": 1,
+    "www.nber.org": 1,
+    "inequality.stanford.edu": 1,
+    "www.californiachoices.org": 1,
+    "cavotes.org": 1,
+    "growsf.org": 1,
+    "www.spur.org": 1
+  },
+  "hosts": [
+    "antiochherald.com",
+    "api.anthropic.com",
+    "calbudgetcenter.org",
+    "calmatters.org",
+    "cavotes.org",
+    "edsource.org",
+    "growsf.org",
+    "igs.berkeley.edu",
+    "inequality.stanford.edu",
+    "laist.com",
+    "lao.ca.gov",
+    "openrouter.ai",
+    "vig.cdn.sos.ca.gov",
+    "voterguide.sos.ca.gov",
+    "web.stanford.edu",
+    "www.californiachoices.org",
+    "www.nber.org",
+    "www.ppic.org",
+    "www.spur.org",
+    "www.yahoo.com"
+  ],
+  "status_counts": {
+    "200": 144,
+    "403": 3
+  },
+  "bytes_up": 5223095,
+  "bytes_down": 8362786,
+  "wire_bytes": {
+    "harness_to_proxy": 5317972,
+    "proxy_to_harness": 8659916,
+    "proxy_to_internet": 5318698,
+    "internet_to_proxy": 8733339
+  },
+  "byte_counter": true,
+  "errors": 2,
+  "error_details": [
+    {
+      "kind": "tls_failed_server",
+      "host": "web.stanford.edu",
+      "sni": "web.stanford.edu",
+      "error": "Certificate verify failed: unable to get local issuer certificate"
+    },
+    {
+      "kind": "http",
+      "host": "web.stanford.edu",
+      "url": "https://web.stanford.edu/~rauh/TRNMCDec2022.pdf",
+      "error": "Certificate verify failed: unable to get local issuer certificate"
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 46,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

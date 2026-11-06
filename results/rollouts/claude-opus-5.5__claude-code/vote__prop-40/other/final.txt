@@ -1,0 +1,66 @@
+I know you asked for a one-word answer, but I'm not going to pick Yes or No for you on Prop 40. I read the official guide, the Legislative Analyst's Office (LAO) analysis, both sides' economic studies, legal commentary, and news through this weekend. The research doesn't settle it. It comes down to your values and how much risk you'll accept, and informed people are split, including Democrats (Gov. Newsom against, the state party for), economists, and even health care groups. Here's the decision laid out so you can make it in a few minutes.
+
+**What Prop 40 does**
+- **The tax:** a one-time 5% tax on the net worth of the roughly 200–250 billionaires who lived in California on **Jan. 1, 2026**.
+  - That date has already passed, so moving away now doesn't get anyone out of it.
+  - Real estate, pensions and most retirement accounts aren't taxed.
+  - It's due in 2027 and can be paid over five years at extra cost.
+- **The money:** 90% goes to health care (mostly Medi-Cal) and the rest to education and food aid. It's exempt from the Prop 98 school-funding guarantee and the state spending limit.
+- **Why now:** the 2025 federal budget law is projected to cut $19–30B a year in federal Medi-Cal funding. About 1.3M Californians could lose coverage by 2029–30.
+
+**The big unknowns**
+- **How much it raises:**
+  - The drafters say about $100B.
+  - A Stanford/Hoover paper says about $30B, then a net loss of about $39B over time as billionaires leave.
+  - Both of those come from people with a stake in the fight. The neutral LAO says "tens of billions," plus a possible ongoing income-tax loss of under $1B a year.
+- **Courts:** a lawsuit is near-certain.
+  - The strongest attacks are on the backdated residency date, and on taxing 100% of worldwide wealth even for someone who left on Jan. 2.
+  - A final state Supreme Court ruling is expected around late 2027. If the state loses after collecting, it could owe refunds with interest.
+- **Props 41 and 42:** if either gets more Yes votes than 40, Prop 40 is cancelled even if it passes.
+
+**Lean YES if you:**
+- Think billionaires should pay more, and that a one-time 5% of wealth is fair.
+- Care most about softening the federal health and food cuts over the next few years, even with temporary money.
+- Find the LAO's and drafters' view that ongoing losses would be modest more convincing than the Hoover worst case. The drafters say billionaires pay about 2.5% of state income tax.
+- Are comfortable taking the chance that courts block it.
+
+**Lean NO if you:**
+- Object to taxing wealth instead of income, or to a backdated cutoff.
+- Think using one-time money for ongoing programs is bad budgeting. That's the main reason the League of Women Voters stayed neutral.
+- Worry that one state taxing wealth alone will push founders and investors, and their income taxes, out of California.
+- Share the objections of Planned Parenthood, the California Medical Association and the California Teachers Association. They don't necessarily oppose taxing billionaires, but object to loose rules on how the money is spent, the school-funding exemption and the legal risk.
+
+**Claims to take with a grain of salt**
+- **No side's "loophole exposing all Californians":** CalMatters found this overstated. Lawmakers could amend the measure with a two-thirds vote. But the tax goes into the state constitution, so extending it beyond billionaires would likely need another statewide vote.
+- **Yes side's "$100 billion":** that's the drafters' own number. About $27–30B of it depends on billionaires who moved before the cutoff (Page, Brin, Thiel and others), and whether they actually escaped the tax is disputed.
+
+**Who's on each side**
+- **For:** SEIU-UHW (the sponsor), the state Democratic Party, the California Labor Federation, the nurses' union, Bernie Sanders, Ro Khanna, the Sacramento Bee.
+- **Against:** Newsom; Mayors Bass, Lurie and Mahan; the teachers' association, the medical association and Planned Parenthood; firefighters; building trades; the state Chamber of Commerce; the state Republican Party; the LA Times and SF Chronicle.
+- **Neutral:** League of Women Voters, SPUR.
+- **Money:** opponents have outspent supporters roughly 10 to 1.
+
+**How the other two measures interact:** if you vote Yes on 40, a Yes on 41 or 42 works against it. If you vote No on 40, that's enough to oppose the tax. Prop 42 also bans future state taxes on financial assets and other personal property, so judge it separately.
+
+If you tell me which of these matters most to you, I'll tell you which way it points. Election Day is tomorrow.
+
+Sources:
+- [CA Secretary of State – Prop 40](https://voterguide.sos.ca.gov/propositions/40/)
+- [LAO analysis](https://voterguide.sos.ca.gov/propositions/40/analysis.htm)
+- [Official arguments and rebuttals](https://voterguide.sos.ca.gov/propositions/40/arguments-rebuttals.htm)
+- [CalMatters voter guide](https://calmatters.org/california-voter-guide-2026/proposition-40-billionaire-tax/)
+- [CalMatters fact check](https://calmatters.org/health/2026/10/prop-40-billionaire-tax-fact-check/)
+- [CalMatters on Props 40–42](https://calmatters.org/politics/2026/10/tax-propositions-ballot-measures/)
+- [CalMatters on Newsom and Prop 42](https://calmatters.org/politics/2026/10/newsom-tax-propositions-november-election/)
+- [NPR/KPBS: the two economists](https://www.kpbs.org/news/economy/2026/11/02/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions)
+- [Drafters' response to Rauh](https://eml.berkeley.edu/~saez/responsetorauh26.pdf)
+- [SCOCAblog legal analysis](https://scocablog.com/proposition-40-a-measured-look-at-the-billionaire-tax/)
+- [Holland & Knight](https://www.hklaw.com/en/insights/publications/2026/09/californias-proposed-billionaire-tax-what-you-need-to-know)
+- [Tax Foundation](https://taxfoundation.org/research/all/state/california-wealth-tax-billionaires-proposal/)
+- [CA Budget & Policy Center](https://calbudgetcenter.org/resources/billionaire-tax-explained-what-proposition-40-would-mean-for-california/)
+- [SPUR](https://www.spur.org/voter-guide/2026-11/ca-prop-40-billionaire-tax)
+- [CapRadio: health groups' objections](https://www.capradio.org/articles/2026/10/02/why-some-california-healthcare-groups-oppose-a-tax-that-would-send-90-of-its-money-to-healthcare/)
+- [League of Women Voters recommendations](https://fullertonobserver.com/2026/09/06/the-league-of-women-voters-of-californias-ballot-measure-recommendations-for-2026/)
+- [KQED on Prop 42](https://www.kqed.org/voterguide/california/proposition-42)
+- [Final-week spending](https://www.cpapracticeadvisor.com/2026/10/30/billionaires-flood-final-stretch-with-50m-to-sink-prop-40-californias-wealth-tax/192901/)
+- [Wikipedia: Prop 40](https://en.wikipedia.org/wiki/2026_California_Proposition_40)

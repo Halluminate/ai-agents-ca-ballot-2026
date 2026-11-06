@@ -1,0 +1,95 @@
+{
+  "run_id": "qwen-max-prime__common__better__p38__r1",
+  "model": "qwen-max-prime",
+  "model_id": "qwen/qwen3.8-max-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:55:08.690486+00:00",
+  "finished_at": "2026-11-03T10:56:05.403955+00:00",
+  "seconds": 54.1,
+  "input_tokens": 45473,
+  "output_tokens": 1992,
+  "cached_tokens": 88832,
+  "cost_usd": 0.2858,
+  "cost_source": "reported",
+  "billed_usd": 0.28577490736,
+  "searches": [
+    "California Proposition 38 2025 ballot voterguide.sos.ca.gov",
+    "Proposition 38 2026 California immunology bonds $8.4 billion criticism",
+    "Prop 38 California poll 2026 immunology research bond survey",
+    "Prop 38 California 2026 endorsements editorial boards no vote immunology bond",
+    "CalMatters Prop 38 immunology Michelson institute criteria investigation",
+    "\"Prop 38\" California November 2026 latest news League of Women Voters Howard Jarvis oppose",
+    "LA Times San Francisco Chronicle editorial Prop 38 immunology bond no vote 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/38/",
+    "https://voterguide.sos.ca.gov/propositions/38/analysis.htm",
+    "https://californiatoday.com/guides/elections/2026-california-proposition-38-guide/",
+    "https://californiatoday.com/guides/elections/2026-california-proposition-38-guide/",
+    "https://calmatters.org/politics/elections/2026/10/prop-38-california/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 14,
+    "requests_per_host": {
+      "openrouter.ai": 14
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 14
+    },
+    "bytes_up": 560713,
+    "bytes_down": 287121,
+    "wire_bytes": {
+      "harness_to_proxy": 581265,
+      "proxy_to_harness": 322588,
+      "proxy_to_internet": 578344,
+      "internet_to_proxy": 345387
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 10,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:55:08.690486+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:55:08.690486+00:00",
+      "finished_at": "2026-11-03T10:56:05.403955+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

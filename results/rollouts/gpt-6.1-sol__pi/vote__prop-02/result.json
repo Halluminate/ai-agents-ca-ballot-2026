@@ -1,0 +1,122 @@
+{
+  "run_id": "sol__common__vote__p2__r1",
+  "model": "sol",
+  "model_id": "openai/gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "2",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:20:48.525874+00:00",
+  "finished_at": "2026-11-03T13:22:19.897677+00:00",
+  "seconds": 88.6,
+  "input_tokens": 113924,
+  "output_tokens": 2564,
+  "cached_tokens": 210377,
+  "cost_usd": 0.3517,
+  "cost_source": "reported",
+  "billed_usd": 0.351696946,
+  "searches": [
+    "California Proposition 2 2026 rainy day fund doubles reserves spending limit ACA",
+    "California ACA 20 2026 rainy day fund Legislative Analyst reserves 20 percent Gann limit assessment",
+    "Proposition 2 2026 rainy day fund oppose Gann limit Howard Jarvis taxpayer reserve",
+    "California Proposition 2 2026 rainy day fund Pew budget stabilization reserve volatility evidence"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/",
+    "https://voterguide.sos.ca.gov/propositions/2/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop2-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop2-text-proposed-laws.pdf",
+    "https://www.lao.ca.gov/BallotAnalysis/Proposition?number=2&year=2026",
+    "https://www.kpbs.org/news/science-technology/2026/10/23/california-has-more-revenue-than-expected-thanks-to-ai-should-the-state-save-it",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-2-rainy",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-2-rainy-day-fund",
+    "https://www.kpbs.org/news/science-technology/2026/10/23/california-has-more-revenue-than-expected-thanks-to-ai-should-the-state-save-it",
+    "https://lao.ca.gov/reports/2025/5028/Rethinking-Californias-Reserve-Policy-041025.pdf",
+    "https://lao.ca.gov/handouts/state_admin/2026/Assembly-Overview-of-ACA20-062426.pdf",
+    "https://calbudgetcenter.org/resources/should-voters-approve-proposition-2-how-californias-rainy-day-fund-would-be-updated/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-2-rainy-day-fund/",
+    "https://californiapolicycenter.org/cpcs-2026-voter-information-guide/",
+    "https://lao.ca.gov/reports/2025/5028/Rethinking-Californias-Reserve-Policy-041025.pdf",
+    "https://calbudgetcenter.org/resources/should-voters-approve-proposition-2-how-californias-rainy-day-fund-would-be-updated/",
+    "https://www.hjta.org/2026votingguide/",
+    "https://www.ocregister.com/2026/10/07/endorsement-no-on-prop-2-california-needs-fiscal-discipline-not-accounting-tricks/",
+    "https://www.sandiegouniontribune.com/2026/10/02/endorsements-props-2-37-wouldnt-yield-saner-state-budgets-more-housing/",
+    "https://sfstandard.com/opinion/2026/09/14/newsom-rainy-day-fund-prop-2/",
+    "https://lao.ca.gov/reports/2025/5028/Rethinking-Californias-Reserve-Policy-041025.pdf",
+    "https://calbudgetcenter.org/resources/should-voters-approve-proposition-2-how-californias-rainy-day-fund-would-be-updated/",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-2-money-california-22468892.php",
+    "https://dailybruin.com/2026/10/27/californians-will-vote-on-expanding-state-budget-reserves-with-proposition-2",
+    "https://www.pew.org/en/research-and-analysis/articles/2026/10/26/states-rainy-day-fund-capacity-and-with-it-their-fiscal-flexibility-continues-to-decline"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 12,
+    "requests_per_host": {
+      "openrouter.ai": 11,
+      "www.pew.org": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.pew.org"
+    ],
+    "status_counts": {
+      "200": 12
+    },
+    "bytes_up": 1483607,
+    "bytes_down": 392438,
+    "wire_bytes": {
+      "harness_to_proxy": 1509053,
+      "proxy_to_harness": 437292,
+      "proxy_to_internet": 1505503,
+      "internet_to_proxy": 464813
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 12,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:20:48.525874+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:20:48.525874+00:00",
+      "finished_at": "2026-11-03T13:22:19.897677+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

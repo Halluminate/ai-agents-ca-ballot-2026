@@ -1,0 +1,100 @@
+{
+  "run_id": "grok__common__vote__p45__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "45",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:29:11.730818+00:00",
+  "seconds": 83.5,
+  "input_tokens": 131910,
+  "output_tokens": 4280,
+  "cached_tokens": 130176,
+  "cost_usd": 0.38,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 45 voter guide what is it arguments for against",
+    "Proposition 45 2026 California editorial endorsements yes no League of Women Voters",
+    "California Proposition 45 2026 CEQA essential projects data centers amendment difficulty text analysis",
+    "\"Proposition 45\" OR \"Building an Affordable California\" \"two-thirds\" amend legislature CEQA",
+    "Proposition 45 Building an Affordable California Act amendment section 21029 judicial review alternatives definition essential projects site:legal-planet.org"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/45/",
+    "https://voterguide.sos.ca.gov/propositions/45/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/45/arguments-rebuttals.htm",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-45",
+    "https://www.lao.ca.gov/BallotAnalysis/Proposition?number=45&year=2026",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+    "https://calmatters.org/california-voter-guide-2026/proposition-45-environmental-review/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+    "https://calmatters.org/environment/2026/10/prop-45-california-ceqa-explained/",
+    "https://www.latimes.com/environment/story/2026-10-14/californias-prop-45-aims-to-speed-construction-projects-opponents-say-data-centers-will-benefit",
+    "https://lwvc.org/ballot-recommendations/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+    "https://legal-planet.org/2026/09/14/a-summary-of-baca/",
+    "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-45-ceqa-housing-data-center-voter-guide"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 13,
+    "requests_per_host": {
+      "openrouter.ai": 12,
+      "www.lao.ca.gov": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.lao.ca.gov"
+    ],
+    "status_counts": {
+      "200": 13
+    },
+    "bytes_up": 1176124,
+    "bytes_down": 311716,
+    "wire_bytes": {
+      "harness_to_proxy": 1202728,
+      "proxy_to_harness": 360690,
+      "proxy_to_internet": 1199317,
+      "internet_to_proxy": 387294
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 13,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

@@ -1,0 +1,117 @@
+{
+  "run_id": "sol__common__vote__p43__r1",
+  "model": "sol",
+  "model_id": "openai/gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:21:24.422257+00:00",
+  "finished_at": "2026-11-03T13:22:32.900872+00:00",
+  "seconds": 65.7,
+  "input_tokens": 78129,
+  "output_tokens": 2031,
+  "cached_tokens": 143251,
+  "cost_usd": 0.2553,
+  "cost_source": "reported",
+  "billed_usd": 0.25525189392000003,
+  "searches": [
+    "California 2026 Proposition 43 voter proposed local special taxes two thirds majority",
+    "California Cannabis Coalition City Upland 2017 special taxes two thirds 2020 2021 San Francisco court",
+    "California local special tax initiatives Upland 2024 election results two thirds majority 2025 analysis",
+    "California Proposition 43 2026 analysis special taxes 3 billion local tax data",
+    "California Proposition 43 2026 support oppose editorial economic tax accountability"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/",
+    "https://voterguide.sos.ca.gov/propositions/43/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43-text-proposed-laws.pdf",
+    "https://www.hoover.org/proposition-lab-proposition-43",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-43-local-tax-threshold",
+    "https://www.hjta.org/saveprop13/",
+    "https://www.noprop43ca.com/",
+    "https://www.cmc.edu/sites/default/files/Proposition%2043%20Backgrounder%20100526.pdf",
+    "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-43-threshold-local-special-tax-voter-guide",
+    "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260ACA22",
+    "https://taxpolicycenter.org/taxvox/californias-proposition-43-adds-new-chapter-states-history-local-tax-limits",
+    "https://calbudgetcenter.org/resources/should-california-voters-approve-proposition-43/",
+    "https://www.treasurer.ca.gov/sites/default/files/cdiac/results-2025-local.pdf",
+    "https://www.hjta.org/california-commentary/the-two-thirds-vote-requirement-for-taxes-is-fair/",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-43-ballot-california-22477053.php",
+    "https://www.law.ucdavis.edu/faculty-blog/local-taxes-have-lots-untapped-potential",
+    "https://lao.ca.gov/reports/2014/finance/local-taxes/voter-approval-032014.aspx",
+    "https://calbudgetcenter.org/resources/should-california-voters-approve-proposition-43/",
+    "https://calmatters.org/commentary/2026/08/california-constitution-proposition-43-taxes/",
+    "https://calmatters.org/housing/2026/06/tax-cut-measure-pulled/",
+    "https://www.ppic.org/publication/fiscal-effects-of-voter-approval-requirements-on-local-governments/"
+  ],
+  "tool_errors": 1,
+  "warnings": [
+    "warning: reasoning was not replayed on an assistant turn"
+  ],
+  "network": {
+    "requests": 14,
+    "requests_per_host": {
+      "openrouter.ai": 12,
+      "www.law.ucdavis.edu": 1,
+      "www.ppic.org": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.law.ucdavis.edu",
+      "www.ppic.org"
+    ],
+    "status_counts": {
+      "200": 13,
+      "403": 1
+    },
+    "bytes_up": 1024927,
+    "bytes_down": 227192,
+    "wire_bytes": {
+      "harness_to_proxy": 1051449,
+      "proxy_to_harness": 267658,
+      "proxy_to_internet": 1048030,
+      "internet_to_proxy": 295183
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 13,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:21:24.422257+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:21:24.422257+00:00",
+      "finished_at": "2026-11-03T13:22:32.900872+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

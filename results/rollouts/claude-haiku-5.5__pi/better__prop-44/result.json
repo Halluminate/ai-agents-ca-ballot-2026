@@ -1,0 +1,112 @@
+{
+  "run_id": "haiku__common__better__p44__r1",
+  "model": "haiku",
+  "model_id": "anthropic/claude-haiku-5.5",
+  "pin": "anthropic",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "44",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:54:35.864921+00:00",
+  "finished_at": "2026-11-03T13:57:41.021730+00:00",
+  "seconds": 182.2,
+  "input_tokens": 143856,
+  "output_tokens": 24131,
+  "cached_tokens": 878102,
+  "cost_usd": 0.1412,
+  "cost_source": "reported",
+  "billed_usd": 0.14119391432,
+  "searches": [
+    "Prop 44 California 2026 community health clinics 90% spending SEIU-UHW",
+    "Proposition 44 community clinics 90 percent revenue ballot measure California",
+    "Proposition 44 community clinics ballot measure SEIU-UHW",
+    "Prop 44 California 2026 community health clinics 90% spending",
+    "PPIC statewide survey September 2026 Proposition 44 community clinics likely voters",
+    "California Primary Care Association lawsuit Prop 44 federal law FQHC preemption",
+    "Prop 44 editorial board recommendation clinics 90% spending",
+    "endorse yes on Proposition 44 clinic spending SEIU-UHW editorial 2026",
+    "Proposition 44 results November 2026 clinic spending measure passes or fails",
+    "Prop 44 election results clinics"
+  ],
+  "search_errors": 3,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/44/",
+    "https://voterguide.sos.ca.gov/propositions/44/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/44/title-summary.htm",
+    "https://calmatters.org/health/2026/10/union-billionaire-prop-44-clinic/",
+    "https://cms.hoover.org/proposition-lab-proposition-44",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=44&year=2026",
+    "https://www.latimes.com/california/story/2026-10-30/2026-california-election-proposition-44-health-clinic-spending-last-minute-voter-guide",
+    "https://noprop44.com/wp-content/uploads/2025/11/BRG-Report-on-Clinic-Funding-Accountability-Transparency-Act-2025_1117.pdf",
+    "https://www.latimes.com/california/story/2026-09-18/health-clinics-accuse-uhw-its-leader-of-racketeering-in-lawsuit",
+    "https://calmatters.org/health/2026/10/union-billionaire-prop-44-clinic/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf",
+    "https://www.ppic.org/pdf/ppic-statewide-survey-californians-and-their-government-october-2026.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf",
+    "https://www.courthousenews.com/health-clinic-transparency-initiative-to-remain-on-upcoming-california-ballot",
+    "https://www.independentnews.com/news/regional_and_ca/why-california-healthcare-workers-and-clinic-boards-clash-over-prop-44/article_c32bd9bb-34e0-48fa-8021-87244ac281c1.html"
+  ],
+  "tool_errors": 3,
+  "warnings": [],
+  "network": {
+    "requests": 24,
+    "requests_per_host": {
+      "openrouter.ai": 22,
+      "www.courthousenews.com": 2
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.courthousenews.com"
+    ],
+    "status_counts": {
+      "200": 23,
+      "301": 1
+    },
+    "bytes_up": 3077198,
+    "bytes_down": 520603,
+    "wire_bytes": {
+      "harness_to_proxy": 3122121,
+      "proxy_to_harness": 600581,
+      "proxy_to_internet": 3115963,
+      "internet_to_proxy": 647276
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 20,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:54:35.864921+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:54:35.864921+00:00",
+      "finished_at": "2026-11-03T13:57:41.021730+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

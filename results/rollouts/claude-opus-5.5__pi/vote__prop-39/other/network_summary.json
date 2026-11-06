@@ -1,0 +1,62 @@
+{
+  "requests": 47,
+  "requests_per_host": {
+    "openrouter.ai": 40,
+    "laist.com": 2,
+    "www.sfchronicle.com": 2,
+    "calmatters.org": 1,
+    "cdce.umd.edu": 1,
+    "www.pewresearch.org": 1
+  },
+  "hosts": [
+    "calmatters.org",
+    "cdce.umd.edu",
+    "laist.com",
+    "openrouter.ai",
+    "www.pewresearch.org",
+    "www.sfchronicle.com"
+  ],
+  "status_counts": {
+    "200": 46
+  },
+  "bytes_up": 11412717,
+  "bytes_down": 1136475,
+  "wire_bytes": {
+    "harness_to_proxy": 11497198,
+    "proxy_to_harness": 1293206,
+    "proxy_to_internet": 11488289,
+    "internet_to_proxy": 1369366
+  },
+  "byte_counter": true,
+  "errors": 2,
+  "error_details": [
+    {
+      "kind": "tls_failed_server",
+      "host": "cdce.umd.edu",
+      "sni": "cdce.umd.edu",
+      "error": "Certificate verify failed: unable to get local issuer certificate"
+    },
+    {
+      "kind": "http",
+      "host": "cdce.umd.edu",
+      "url": "https://cdce.umd.edu/sites/cdce.umd.edu/files/Who%20Lacks%20ID%20and%20Proof%20of%20Citizenship%20in%20California%20Today_.pdf",
+      "error": "Certificate verify failed: unable to get local issuer certificate"
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 34,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

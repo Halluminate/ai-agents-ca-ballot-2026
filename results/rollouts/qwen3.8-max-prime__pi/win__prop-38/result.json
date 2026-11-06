@@ -1,0 +1,122 @@
+{
+  "run_id": "qwen-max-prime__common__win__p38__r1",
+  "model": "qwen-max-prime",
+  "model_id": "qwen/qwen3.8-max-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:34:16.245715+00:00",
+  "finished_at": "2026-11-03T11:35:28.042241+00:00",
+  "seconds": 68.9,
+  "input_tokens": 39946,
+  "output_tokens": 2394,
+  "cached_tokens": 96768,
+  "cost_usd": 0.2723,
+  "cost_source": "reported",
+  "billed_usd": 0.27228392015999997,
+  "searches": [
+    "California Proposition 38 voterguide.sos.ca.gov",
+    "California Proposition 38 2026 immunology bonds poll",
+    "Prop 38 November 2026 $8.4 billion immunology research bond Sean Parker",
+    "Berkeley IGS poll October 2026 California propositions Prop 38 immunology bond support",
+    "\"Proposition 38\" California results November 3 2026 immunology bond passed",
+    "\"Prop 38\" California 2026 endorsements newspapers editorial yes no Los Angeles Times",
+    "Prop 38 immunology bond poll late October 2026 \"yes\" \"no\" likely voters survey California propositions",
+    "California propositions poll November 2026 Emerson OR SurveyUSA OR \"Public Policy Polling\" Prop 38 Prop 1 results",
+    "\"Prop 38\" immunology bond ad spending $71 million yes campaign final week November 2026 forecast"
+  ],
+  "search_errors": 1,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/38/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+    "https://igs.berkeley.edu/research/berkeley-igs-poll/2026-berkeley-igs-poll-releases"
+  ],
+  "tool_errors": 1,
+  "warnings": [],
+  "network": {
+    "requests": 15,
+    "requests_per_host": {
+      "openrouter.ai": 15
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 14
+    },
+    "bytes_up": 555112,
+    "bytes_down": 323821,
+    "wire_bytes": {
+      "harness_to_proxy": 586145,
+      "proxy_to_harness": 370963,
+      "proxy_to_internet": 580658,
+      "internet_to_proxy": 401432
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "tls_failed_server",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "connection closed"
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 15,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 3,
+  "run_started_at": "2026-11-03T11:28:11.947237+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:28:11.947237+00:00",
+      "finished_at": "2026-11-03T11:30:29.165121+00:00",
+      "status": "error",
+      "error": "Connection error."
+    },
+    {
+      "attempt": 2,
+      "started_at": "2026-11-03T11:30:59.168242+00:00",
+      "finished_at": "2026-11-03T11:33:16.241392+00:00",
+      "status": "error",
+      "error": "502 <html>\n<head>\n    <title>502 Bad Gateway</title>\n</head>\n<body>\n    <h1>502 Bad Gateway</h1>\n    <p>server closed connection</p>\n</body>\n</html>"
+    },
+    {
+      "attempt": 3,
+      "started_at": "2026-11-03T11:34:16.245715+00:00",
+      "finished_at": "2026-11-03T11:35:28.042241+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "run_id": "luna__native__win__p45__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "45",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:42:06.323907+00:00",
+  "finished_at": "2026-11-03T11:43:24.461287+00:00",
+  "seconds": 72.0,
+  "input_tokens": 36,
+  "output_tokens": 5376,
+  "cached_tokens": 497219,
+  "cost_usd": 0.0774,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/45 Proposition 45 California 2014 ...",
+    "California 2026 Proposition 45 poll latest October November 2026 yes no CEQA ...",
+    "site:ppic.org 2026 October Proposition 45 46% 50% likely voters ...",
+    "\"California Omnibus\" \"Proposition 45\" Probolsky 2026 48 46 ...",
+    "'Proposition 45 (Modifies Environmental Review'",
+    "\"Yes on Prop. 45 leads by a thin margin\" \"%\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://www.probolskyresearch.com/wp-content/uploads/securedpdfs/2026/10/Probolsky-Research-California-Omnibus-Proposition-45-Results-Presentation.pdf",
+    "https://www.probolskyresearch.com/wp-content/uploads/2026/10/Screenshot-2026-10-27-at-2.12.22-PM-1.png"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 14,
+    "requests_per_host": {
+      "api.openai.com": 12,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 11,
+      "202": 2
+    },
+    "bytes_up": 1054956,
+    "bytes_down": 1896148,
+    "wire_bytes": {
+      "harness_to_proxy": 846225,
+      "proxy_to_harness": 992857,
+      "proxy_to_internet": 845264,
+      "internet_to_proxy": 1016154
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1331,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 14,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:42:06.323907+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:42:06.323907+00:00",
+      "finished_at": "2026-11-03T11:43:24.461287+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "requests": 51,
+  "requests_per_host": {
+    "openrouter.ai": 40,
+    "www.yahoo.com": 2,
+    "www.sacbee.com": 2,
+    "apnews.com": 1,
+    "legal-planet.org": 1,
+    "www.nytimes.com": 1,
+    "laist.com": 1,
+    "quickguidetoprops.sos.ca.gov": 1,
+    "www.sanluisobispo.com": 1,
+    "www.meyersnave.com": 1
+  },
+  "hosts": [
+    "apnews.com",
+    "laist.com",
+    "legal-planet.org",
+    "openrouter.ai",
+    "quickguidetoprops.sos.ca.gov",
+    "www.meyersnave.com",
+    "www.nytimes.com",
+    "www.sacbee.com",
+    "www.sanluisobispo.com",
+    "www.yahoo.com"
+  ],
+  "status_counts": {
+    "200": 50,
+    "403": 1
+  },
+  "bytes_up": 14149363,
+  "bytes_down": 1592573,
+  "wire_bytes": {
+    "harness_to_proxy": 14248810,
+    "proxy_to_harness": 1802530,
+    "proxy_to_internet": 14239446,
+    "internet_to_proxy": 1894102
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 40,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

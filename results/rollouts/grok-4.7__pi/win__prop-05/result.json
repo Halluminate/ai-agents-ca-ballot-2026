@@ -1,0 +1,88 @@
+{
+  "run_id": "grok__common__win__p5__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "5",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:33:26.809585+00:00",
+  "seconds": 49.9,
+  "input_tokens": 31749,
+  "output_tokens": 2246,
+  "cached_tokens": 51840,
+  "cost_usd": 0.1435,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 5 2024 election results polls likelihood of passing",
+    "California 2026 ballot propositions Prop 5 recall election voter guide analysis",
+    "California Proposition 5 2026 recall election changes polls polling support",
+    "\"Proposition 5\" 2026 California recall \"fix the recall\" poll OR polling OR survey OR likely",
+    "California Proposition 5 2026 PPIC Berkeley IGS poll yes no October November",
+    "\"Proposition 5\" California 2026 \"would vote no\" OR \"vote no\" OR \"oppose\" poll likely voters",
+    "\"Prop 5\" OR \"Proposition 5\" California recall 2026 \"52%\" OR \"trailing\" OR \"behind\" OR \"likely to fail\" OR \"headed for defeat\"",
+    "California Proposition 5 2026 early vote OR \"yes\" \"no\" results OR \"latest poll\" OR \"Emerson\" OR \"SurveyUSA\" OR \"YouGov\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/5/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 13,
+    "requests_per_host": {
+      "openrouter.ai": 13
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 13
+    },
+    "bytes_up": 361381,
+    "bytes_down": 132187,
+    "wire_bytes": {
+      "harness_to_proxy": 387472,
+      "proxy_to_harness": 167169,
+      "proxy_to_internet": 383543,
+      "internet_to_proxy": 196743
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 13,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

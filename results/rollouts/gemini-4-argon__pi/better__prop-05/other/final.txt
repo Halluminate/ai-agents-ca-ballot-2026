@@ -1,0 +1,27 @@
+Whether to vote **yes** or **no** on California Proposition 5 depends on how you weigh competing priorities regarding voter choice, majority rule, and how vacancies should be filled after a recall. Because this is a political value judgment rather than a question with an objective factual answer, I cannot recommend a `yes` or `no` vote, but here is a breakdown of the measure and the main arguments on both sides to help you decide.
+
+### What Proposition 5 Does
+Under current California law, recall elections for state officials ask voters two questions on the same ballot:
+1. Should the official be removed from office?
+2. Who should replace the official if they are removed? (The candidate with the most votes wins, even without a majority.)
+
+**Proposition 5** removes the second question from state recall ballots so voters only vote on whether to remove the official. If a majority votes to recall the official, the vacancy would be filled as follows:
+* **Governor:** The Lieutenant Governor assumes the office. If the recall occurs early in the term (before the close of the nomination period for the next statewide election during the first two years), voters elect a new Governor at the next statewide election; if it occurs later, the Lieutenant Governor serves the remainder of the term.
+* **State Legislators (Senate and Assembly):** Filled through a separate special election.
+* **Other Statewide Offices & Appellate/Supreme Court Justices:** Filled by gubernatorial appointment under existing vacancy rules.
+
+**Fiscal Impact:** According to the Legislative Analyst's Office, the net fiscal impact is unknown and depends on future recalls—potentially saving millions of dollars by shortening recall ballots, or costing millions of dollars when separate standalone special elections are needed to fill legislative seats.
+
+---
+
+### Arguments for Voting YES
+Supporters (such as the League of Women Voters of California and California Common Cause) argue that a **YES** vote:
+* **Protects majority rule:** Under the current system, an official who won a majority in a regular election can be replaced by a candidate who receives only a small fraction of the vote in a crowded replacement field.
+* **Reduces partisan gamesmanship:** Removing the simultaneous replacement race reduces the incentive to use recalls as a political shortcut to overturn regular election results.
+* **Focuses recalls on accountability:** Keeps the recall ballot focused strictly on whether the incumbent should be removed, while relying on established succession rules or subsequent elections to fill the vacancy.
+
+### Arguments for Voting NO
+Opponents (such as Senate Minority Leader Brian W. Jones and Assemblymember Joe Patterson) argue that a **NO** vote:
+* **Preserves direct voter choice:** For over a century, California voters have had the right to both remove an official and immediately choose their replacement on the same ballot.
+* **Prevents political appointments:** Under Proposition 5, recalls of statewide officials other than the Governor would allow the Governor—rather than voters—to appoint the replacement.
+* **Avoids representation gaps and extra elections:** For legislative seats, removing the replacement question means the seat sits vacant after a successful recall until a separate, taxpayer-funded special election can be held months later.

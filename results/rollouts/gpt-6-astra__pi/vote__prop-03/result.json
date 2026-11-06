@@ -1,0 +1,122 @@
+{
+  "run_id": "gpt__common__vote__p3__r1",
+  "model": "gpt",
+  "model_id": "openai/gpt-6-astra",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "3",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:05:49.383566+00:00",
+  "seconds": 94.6,
+  "input_tokens": 100375,
+  "output_tokens": 2947,
+  "cached_tokens": 205669,
+  "cost_usd": 1.6479,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 3 constitutional right to marriage 2024 analysis arguments for against legal effects",
+    "California 2026 Proposition 3 permanent tax high incomes 371000 schools health care Prop 55",
+    "California Proposition 3 2026 CalMatters tax permanent income tax arguments analysis",
+    "California Proposition 30 high income tax migration income responses Rauh Shyu research 2024 revenue",
+    "California Proposition 30 millionaire migration Young Varner study income tax 2025 evidence",
+    "PPIC California school spending student outcomes LCFF funding causal research 2024 2025",
+    "site.ppic.org \"income tax\" \"volatility\" \"reserves\"",
+    "site.lao.ca.gov \"2026-27\" \"structural\" \"budget\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/3/",
+    "https://voterguide.sos.ca.gov/propositions/3/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf",
+    "https://voterguide.sos.ca.gov/propositions/3/title-summary.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf",
+    "https://lao.ca.gov/ballot/2026/prop3-110326.pdf",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-3",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf",
+    "https://calmatters.org/politics/elections/2026/10/prop-3-california/",
+    "https://calbudgetcenter.org/resources/should-voters-approve-prop-3-how-top-tax-rates-have-helped-californians/",
+    "https://calmatters.org/commentary/2026/08/proposition-3-temporary-tax-permanent",
+    "https://www.aeaweb.org/articles?id=10.1257/pol.20200500",
+    "https://lao.ca.gov/BallotAnalysis/Initiative/2025-016",
+    "https://calbudgetcenter.org/resources/should-voters-approve-prop-3-how-top-tax-rates-have-helped-californians/",
+    "https://www.ppic.org/publication/understanding-the-effects-of-school-funding/",
+    "https://www.sco.ca.gov/Files-EO/Spotlight/Taxes_and_Migration.pdf",
+    "https://www.pasadenastarnews.com/2026/09/02/endorsement-no-on-proposition-3-temporary-taxes-should-be-temporary/",
+    "https://lao.ca.gov/Publications/Report/5197",
+    "https://lao.ca.gov/Publications/Report/5176",
+    "https://www.ppic.org/publication/examining-the-reach-of-targeted-school-funding/",
+    "https://www.aeaweb.org/articles/pdf/doi/10.1257/pol.20200500"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "Warning: TT: undefined function: 32",
+    "Warning: TT: undefined function: 32"
+  ],
+  "network": {
+    "requests": 23,
+    "requests_per_host": {
+      "openrouter.ai": 15,
+      "calmatters.org": 2,
+      "www.aeaweb.org": 2,
+      "www.ppic.org": 2,
+      "www.sco.ca.gov": 1,
+      "www.pasadenastarnews.com": 1
+    },
+    "hosts": [
+      "calmatters.org",
+      "openrouter.ai",
+      "www.aeaweb.org",
+      "www.pasadenastarnews.com",
+      "www.ppic.org",
+      "www.sco.ca.gov"
+    ],
+    "status_counts": {
+      "200": 22,
+      "301": 1
+    },
+    "bytes_up": 1450736,
+    "bytes_down": 1510732,
+    "wire_bytes": {
+      "harness_to_proxy": 1499028,
+      "proxy_to_harness": 1591713,
+      "proxy_to_internet": 1493439,
+      "internet_to_proxy": 1643755
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 24,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

@@ -1,0 +1,65 @@
+I won't give you a one-word pick here, because the research didn't turn up a factual answer to give. Both sides largely agree on what Prop 43 does. What's left is a values question, majority rule versus a supermajority check on taxes, and voters split on it mostly along party lines. Your vote comes down to one question:
+
+> **Say residents gather signatures to put a local tax for a specific purpose (fire, transit, housing) on your ballot, and 60% of voters approve it. Should it pass?**
+> - **Yes, the majority should win** → vote **NO** on 43
+> - **No, it should need two-thirds, like a city council's tax** → vote **YES** on 43
+
+Either way, no tax you pay today changes.
+
+## What it does
+- Starting **Jan 1, 2027**, local **special taxes** (taxes tied to a specific purpose) that get on the ballot by **citizen petition** would need **two-thirds** of the vote instead of a simple majority.
+- **Unchanged:**
+  - Taxes a city council or board puts on the ballot. These already need two-thirds.
+  - **General taxes**, which still need a simple majority.
+  - **All existing taxes**, including LA's "mansion tax" and anything on tomorrow's ballot.
+- It also stops initiatives from creating taxes based on property value. Local governments already can't, and Prop 13's 1% rate doesn't change.
+- The Legislative Analyst's Office says future local tax revenue "could be lower," by an unknown amount.
+
+## How it got here
+- **Court rulings:** A 2017 state Supreme Court ruling (*Upland*) and later appeals court decisions said the two-thirds rule applies to governments, not citizen initiatives. More than two dozen petition taxes have passed with less than two-thirds since then.
+- **The deal:** The Howard Jarvis Taxpayers Association (HJTA) qualified a much broader measure that would have repealed existing taxes like the mansion tax. In June it agreed to withdraw it. In exchange, the Legislature put this narrower version on the ballot (68–2 and 35–1 votes) and pulled a measure HJTA opposed (ACA 13).
+- **The author's position:** Its author, Assemblymember Buffy Wicks, now urges a No vote on her own measure. She called it damage control.
+
+## Best case for YES
+- **Same tax, same rule.** How a tax reaches the ballot shouldn't change how many votes it needs. Today's gap invites workarounds:
+  - Sonoma County supervisors' fire tax failed in 2020 with 64.8%. A similar petition version passed in 2024 with 61.7%.
+  - The Bay Area transit tax was put on the ballot by a petition funded by unions and contractors, not by the regional agency.
+- **"Restore" is a fair word.** Before 2017, courts applied the two-thirds rule to initiatives (*Altadena Library*, 1987), and two justices dissented in *Upland*.
+- **These taxes lock in future spending,** often permanently, so they should need broad agreement.
+
+## Best case for NO
+- **Minority rule.** 34% of voters could block what 66% want. Prop 43 itself needs only a simple majority to pass.
+- **Petitions are already hard.** Prop 13's two-thirds rule was meant to check governments, not citizens acting directly. To opponents, the Sonoma case shows residents stepping in where officials fell short.
+- **Real services are at stake.** These taxes would have failed: LA's mansion tax (58%), SF's 2018 homelessness tax (61%), Sonoma's child-care tax (63%) and Fresno's parks tax (52%).
+  - Special districts and school districts can *only* levy special taxes, so they'd be hit hardest.
+  - Federal cuts are already squeezing county budgets.
+
+## Claims to discount
+- **Yes side:** The official argument says Prop 43 "requires spending as promised" and guarantees a vote on all local taxes. I checked the text and it contains neither.
+- **No side:** Calling it an "insurmountable roadblock" for fire and 911 funding overstates it. No existing tax is cut, and cities and counties can still pass general taxes by simple majority. The SF Chronicle doesn't support Prop 43, but it said it doesn't buy the "funding crisis" claim either.
+
+## Who's where
+- **Yes ($17.5M raised, $10.6M from the CA Business Roundtable):** HJTA, CalTax, CA Republican Party, the Mercury News, the Southern California News Group papers, the San Diego Union-Tribune, GrowSF
+- **No ($11.9M raised, SEIU the largest donor):** CA Democratic Party, firefighters, teachers, the state counties association, SPUR, the Sacramento Bee and its sister papers, the Press Democrat
+- **No position:** SF Chronicle, League of Women Voters
+- **Polling (PPIC, October):** 42% yes, 55% no. Support for yes was 68% among Republicans, 41% among independents and 28% among Democrats.
+
+Sources:
+- [CA Official Voter Guide – Prop 43](https://voterguide.sos.ca.gov/propositions/43/) and [Arguments/Rebuttals](https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm)
+- [LAO Analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=43&year=2026)
+- [Annotated legal text (GrowSF)](https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-43/legal-text/) and [GrowSF analysis](https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-43/)
+- [Burke, Williams & Sorensen legal analysis](https://www.bwslaw.com/insights/2026-california-tax-ballot-measures/)
+- [CalMatters](https://calmatters.org/politics/2026/10/california-prop-43-election-2026/)
+- [Wikipedia](https://en.wikipedia.org/wiki/2026_California_Proposition_43)
+- [LAist](https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-43-local-special-tax)
+- [KQED](https://www.kqed.org/voterguide/california/proposition-43)
+- [Press Democrat editorial](https://www.pressdemocrat.com/2026/10/03/endorsement-prop-43-wants-to-fix-a-system-that-isnt-broken/)
+- [Sacramento Bee editorial (via No campaign)](https://www.noprop43ca.com/news/sacramento-bee-editorial-board-vote-no-on-prop-43)
+- [Mercury News endorsement (repost)](https://www.opportunitynowsv.org/blog/merc-endorses-prop-43-tax-thresholds)
+- [SF Chronicle editorial](https://www.sfchronicle.com/opinion/editorials/article/prop-43-ballot-california-22477053.php)
+- [SPUR](https://www.spur.org/voter-guide/2026-11/ca-prop-43-local-tax-threshold)
+- [CA Budget & Policy Center](https://calbudgetcenter.org/resources/should-california-voters-approve-proposition-43/)
+- [HJTA](https://www.hjta.org/news-events/taxing-times/taxing-times-online-fall-2026-vol-52-issue-3/vote-yes-on-43-to-save-prop-13-proposition-43-closes-the-upland-loophole/)
+- [Seamless Bay Area](https://www.seamlessbayarea.org/blog/2026/7/10/prop-43-the-anti-tax-ballot-measure-and-transit-funding)
+- [LWV CaVotes](https://cavotes.org/ballot-measure/2026-prop-43/)
+- [PPIC October survey](https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/)

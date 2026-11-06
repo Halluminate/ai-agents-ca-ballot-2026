@@ -1,0 +1,55 @@
+{
+  "requests": 67,
+  "requests_per_host": {
+    "openrouter.ai": 60,
+    "escholarship.org": 5,
+    "kalshi.com": 1,
+    "midterms.nijinn.io": 1
+  },
+  "hosts": [
+    "escholarship.org",
+    "kalshi.com",
+    "midterms.nijinn.io",
+    "openrouter.ai"
+  ],
+  "status_counts": {
+    "200": 61,
+    "301": 1,
+    "403": 4,
+    "429": 1
+  },
+  "bytes_up": 21781675,
+  "bytes_down": 1805467,
+  "wire_bytes": {
+    "harness_to_proxy": 21888066,
+    "proxy_to_harness": 2042325,
+    "proxy_to_internet": 21879236,
+    "internet_to_proxy": 2120723
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [
+    {
+      "process": "node",
+      "operation": "network-outbound",
+      "target": "remote:*:54446",
+      "attempts": 5
+    }
+  ],
+  "blocked_attempts": 5,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 38,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

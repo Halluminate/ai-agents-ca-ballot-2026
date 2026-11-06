@@ -1,0 +1,110 @@
+{
+  "run_id": "grok__common__win__p41__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "41",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:20:16.184610+00:00",
+  "seconds": 89.5,
+  "input_tokens": 51784,
+  "output_tokens": 4354,
+  "cached_tokens": 126976,
+  "cost_usd": 0.2388,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 41 voter guide which side more likely to win",
+    "California Prop 41 forecast odds pass or fail 2026",
+    "Proposition 41 California campaign spending Yes on 41 vs No on 41 2026",
+    "California Proposition 41 2026 poll latest PPIC Berkeley",
+    "Kalshi Polymarket California Proposition 41 odds November 2026 will it pass",
+    "California Proposition 41 newspaper endorsements 2026 Yes or No",
+    "\"Proposition 41\" OR \"Prop 41\" OR \"Prop. 41\" poll OR survey November 2026 California latest",
+    "site:ballotpedia.org California Proposition 41 2026 polling support opposition",
+    "California Democratic Party Republican Party position Proposition 41 2026 endorsement"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/41/",
+    "https://onpointpolitics.us/forecast/measures/ca/proposition-41",
+    "https://www.nytimes.com/interactive/polls/california-prop-41-tax-audits-polls-2026.html",
+    "https://escholarship.org/content/qt1vp9q3f9/qt1vp9q3f9.pdf",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://kalshi.com/markets/kxcaballotmeasures/which-california-ballot-measures-will-pass/kxcaballotmeasures-26nov03",
+    "https://www.ppic.org/wp-content/uploads/crosstabs-likely-voters-1026.pdf"
+  ],
+  "tool_errors": 3,
+  "warnings": [],
+  "network": {
+    "requests": 20,
+    "requests_per_host": {
+      "openrouter.ai": 16,
+      "onpointpolitics.us": 1,
+      "www.nytimes.com": 1,
+      "escholarship.org": 1,
+      "kalshi.com": 1
+    },
+    "hosts": [
+      "escholarship.org",
+      "kalshi.com",
+      "onpointpolitics.us",
+      "openrouter.ai",
+      "www.nytimes.com"
+    ],
+    "status_counts": {
+      "200": 17,
+      "403": 2,
+      "429": 1
+    },
+    "bytes_up": 724330,
+    "bytes_down": 284748,
+    "wire_bytes": {
+      "harness_to_proxy": 765336,
+      "proxy_to_harness": 343506,
+      "proxy_to_internet": 759275,
+      "internet_to_proxy": 392724
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 20,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

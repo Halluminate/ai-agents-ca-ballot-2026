@@ -1,0 +1,37 @@
+Whether to vote **Yes** or **No** on California Proposition 5 is a personal decision that depends on your priorities regarding voter power, majority rule, and how political vacancies should be filled. Because there is no single objective answer on how you should vote, I cannot give a "yes" or "no" recommendation, but here is a breakdown of the measure and the main arguments on both sides to help you decide.
+
+---
+
+### What Proposition 5 Does
+Currently, California state recall ballots ask voters two questions:
+1. Should the official be removed from office? (Requires a majority vote to pass.)
+2. If removed, who should replace them? (The candidate with the most votes wins, even if they receive less than 50%.)
+
+**Proposition 5** is a legislative constitutional amendment that **eliminates the second question** from state recall ballots. If an official is recalled, the office would become vacant and be filled as follows:
+* **Governor:** The Lieutenant Governor would become Governor. If the recall happens early in the Governor's term (before the close of the nomination period for the next statewide election in the first two years), voters would elect a new Governor at that next scheduled statewide election. If the recall happens later in the term, the Lieutenant Governor would serve out the remainder of the term.
+* **State Legislators (Senate and Assembly):** The vacancy would typically be filled through a separate special election called by the Governor, where the recalled official would also be eligible to run according to opponents, or standard special election rules would apply.
+* **Other Statewide Officials & Judges (e.g., Attorney General, Lieutenant Governor, appellate justices):** The vacancy would be filled through existing vacancy procedures—typically appointment by the Governor (subject to legislative confirmation where applicable).
+
+**Fiscal Impact:** According to the Legislative Analyst's Office, the net fiscal impact is unknown and depends on which offices face recalls in the future. Removing replacement candidates from recall ballots could save millions of dollars in printing and administration, while holding separate special elections to fill legislative vacancies could cost millions of dollars.
+
+---
+
+### Why You Might Vote **YES**
+Supporters (including the League of Women Voters of California and California Common Cause) argue that Proposition 5 fixes a structural flaw in the recall system:
+* **Prevents Plurality Winners:** Under current rules, an official must be removed by a majority (>50%), but in a crowded replacement field, a successor can win with a small fraction of the vote. Proponents argue this undermines majority rule.
+* **Reduces Partisan Gaming of Recalls:** Supporters contend that the current system incentivizes political opponents to use recalls as a shortcut to install candidates who could not win a regular general election.
+* **Restores Focus to Accountability:** By separating removal from replacement, voters can vote strictly on whether an official should be removed for misconduct or incompetence without the election turning into a multi-candidate campaign.
+
+---
+
+### Why You Might Vote **NO**
+Opponents (including Senate Minority Leader Brian W. Jones and Assemblymember Joe Patterson) argue that Proposition 5 takes power away from voters and protects political insiders:
+* **Limits Voter Choice:** For over a century, Californians have had the right both to remove an official and to immediately choose their replacement on the same ballot. Proposition 5 removes the right to vote directly on a replacement during the recall.
+* **Transfers Power to Politicians:** For statewide executive offices (other than Governor), a recall would allow the Governor to appoint a replacement—potentially an ally from the same political party as the ousted official—rather than letting voters choose.
+* **Delays Representation and Adds Special Elections:** For legislative seats, removing the replacement question means the district goes unrepresented while waiting months for a separate, taxpayer-funded special election.
+
+---
+
+### Summary
+* **Vote YES** if you believe recall elections should only decide whether to remove an official, and that replacements should be handled through constitutional succession, appointments, or separate elections to prevent candidates from winning office with only a small plurality of votes.
+* **Vote NO** if you believe voters should retain the direct power to both remove a state official and immediately elect their replacement on the same recall ballot, rather than relying on gubernatorial appointments, automatic succession, or later special elections.

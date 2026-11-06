@@ -1,0 +1,58 @@
+{
+  "requests": 43,
+  "requests_per_host": {
+    "openrouter.ai": 32,
+    "scocablog.com": 3,
+    "laist.com": 1,
+    "www.fresnobee.com": 1,
+    "www.yahoo.com": 1,
+    "www.sandiegouniontribune.com": 1,
+    "www.latimes.com": 1,
+    "lhc.ca.gov": 1,
+    "www.sfchronicle.com": 1,
+    "www.washingtonexaminer.com": 1
+  },
+  "hosts": [
+    "laist.com",
+    "lhc.ca.gov",
+    "openrouter.ai",
+    "scocablog.com",
+    "www.fresnobee.com",
+    "www.latimes.com",
+    "www.sandiegouniontribune.com",
+    "www.sfchronicle.com",
+    "www.washingtonexaminer.com",
+    "www.yahoo.com"
+  ],
+  "status_counts": {
+    "200": 42,
+    "404": 1
+  },
+  "bytes_up": 8042020,
+  "bytes_down": 1685404,
+  "wire_bytes": {
+    "harness_to_proxy": 8118789,
+    "proxy_to_harness": 1842659,
+    "proxy_to_internet": 8111066,
+    "internet_to_proxy": 1914618
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 33,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

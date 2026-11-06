@@ -1,0 +1,92 @@
+{
+  "run_id": "luna__native__better__p3__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "3",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:02:31.303267+00:00",
+  "finished_at": "2026-11-03T13:06:29.014322+00:00",
+  "seconds": 235.6,
+  "input_tokens": 51,
+  "output_tokens": 14405,
+  "cached_tokens": 1141913,
+  "cost_usd": 0.0954,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 3 official 2024 analysis fiscal effect constitutional right to marry Legislative Analyst ...",
+    "California Proposition 3 2026 extends existing tax high incomes schools health care analysis ...",
+    "California Proposition 3 2026 tax extension economists migration top income tax research revenue volatility Prop 30 Prop 55 ...",
+    "site:lao.ca.gov 2026-27 California Budget deficit Proposition 3 income tax expiry structural deficit 2026 ...",
+    "2026 Proposition 3 California Taxpayers Association fiscal argument extension rates small business pass-through critics revenue consequences ...",
+    "2026 California Proposition 3 endorsement yes editorial board tax extension high earners ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 19,
+    "requests_per_host": {
+      "api.openai.com": 15,
+      "ab.chatgpt.com": 4
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 14,
+      "202": 4
+    },
+    "bytes_up": 1415837,
+    "bytes_down": 3243594,
+    "wire_bytes": {
+      "harness_to_proxy": 1056710,
+      "proxy_to_harness": 1800793,
+      "proxy_to_internet": 1055221,
+      "internet_to_proxy": 1831052
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2500,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 17,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:02:31.303267+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:02:31.303267+00:00",
+      "finished_at": "2026-11-03T13:06:29.014322+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

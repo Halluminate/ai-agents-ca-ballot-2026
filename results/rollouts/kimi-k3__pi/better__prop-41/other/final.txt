@@ -1,0 +1,14 @@
+Based on extensive research, here's what I found:
+
+**What Prop 41 is:** A constitutional amendment on California's November 3, 2026 ballot that would (1) require pre-election and recurring State Auditor reviews of programs funded by new special taxes, and (2) nullify any state tax enacted after Jan. 1, 2026 that exempts its revenue from the Gann Limit (the 1979 voter-approved state spending cap).
+
+**Key findings from my research:**
+- **It's a poison pill for Prop 40** (the billionaire wealth tax). Per the LAO, LA Times, CalMatters, Sac Bee, and SF Chronicle, if Prop 41 gets more "yes" votes than Prop 40, it nullifies the billionaire tax even if both pass. The retroactive Jan. 1, 2026 date was chosen specifically to catch Prop 40.
+- **Funding:** Bankrolled by billionaires with a direct financial stake — Sergey Brin ($102M), Eric Schmidt, John Doerr, Patrick Collison, and Vinod Khosla — through Building a Better California, which spent $300M+ on Props 41/42 and opposing Prop 40.
+- **The audit provisions are largely redundant:** The nonpartisan LAO already analyzes every initiative at the 25% signature threshold, and the State Auditor already has authority to audit programs. The mandate that auditors identify 10% cost cuts is arbitrary and compromises auditor independence; audits of initiatives that fail get billed to the General Fund.
+- **Collateral risks:** The Gann Limit provision could entangle existing exempted programs (e.g., the hospital fee program voters approved via Prop 52 in 2016) and would force future voter-approved tax revenues into rebate triggers rather than the services voters approved.
+- **Editorial verdicts:** The SF Chronicle called it a "cynical poison pill" and urged a no vote; neutral analysts describe it as making it harder to pass future special taxes while embedding more ballot-box budgeting into the Constitution.
+
+The transparency framing has superficial appeal, but the measure's design, retroactive targeting, funding by self-interested billionaires seeking to override a separate vote through a technicality, redundant audit scheme, and constitutional entrenchment make it poor governance. Anyone opposed to the billionaire tax can simply vote no on Prop 40 directly.
+
+no

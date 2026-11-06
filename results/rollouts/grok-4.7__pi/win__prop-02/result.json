@@ -1,0 +1,81 @@
+{
+  "run_id": "grok__common__win__p2__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "2",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:51:03.448620+00:00",
+  "seconds": 36.8,
+  "input_tokens": 28316,
+  "output_tokens": 1177,
+  "cached_tokens": 24320,
+  "cost_usd": 0.1013,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 2 2024 poll results likelihood of passing",
+    "California Proposition 2 2026 Rainy Day Fund poll likelihood",
+    "\"Proposition 2\" \"Rainy Day\" 2026 California poll OR polling OR survey Newsom",
+    "California 2026 ballot Proposition 2 increases rainy day fund odds of passing",
+    "California Proposition 2 2026 rainy day fund opposition campaign organized"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://onpointpolitics.us/forecast/measures/ca/proposition-2"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 10,
+    "requests_per_host": {
+      "openrouter.ai": 9,
+      "onpointpolitics.us": 1
+    },
+    "hosts": [
+      "onpointpolitics.us",
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 10
+    },
+    "bytes_up": 208385,
+    "bytes_down": 148618,
+    "wire_bytes": {
+      "harness_to_proxy": 227667,
+      "proxy_to_harness": 175498,
+      "proxy_to_internet": 224881,
+      "internet_to_proxy": 198102
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 10,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

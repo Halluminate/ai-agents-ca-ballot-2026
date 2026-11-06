@@ -1,0 +1,124 @@
+{
+  "run_id": "gpt__common__win__p2__r1",
+  "model": "gpt",
+  "model_id": "openai/gpt-6-astra",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "2",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T04:47:23.991284+00:00",
+  "seconds": 55.0,
+  "input_tokens": 69121,
+  "output_tokens": 1479,
+  "cached_tokens": 104081,
+  "cost_usd": 1.0667,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 2 2026 rainy day fund ballot measure campaign endorsements opposition",
+    "California 2026 Proposition 2 rainy day fund poll yes no",
+    "California 2026 Proposition 2 rainy day fund campaign money contributions CalMatters",
+    "California 2026 Proposition 2 rainy day fund latest polls October November Berkeley support",
+    "California Proposition 2 2026 rainy day fund polls majority approval threshold 2014"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/",
+    "https://voterguide.sos.ca.gov/propositions/2/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-2-rainy",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-2-rainy-day-fund/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.sandiegouniontribune.com/2026/10/02/endorsements-props-2-37-wouldnt-yield-saner-state-budgets-more-housing/",
+    "https://www.kpbs.org/news/science-technology/2026/10/23/california-has-more-revenue-than-expected-thanks-to-ai-should-the-state-save-it",
+    "https://ballotpedia.org/California_Proposition_2,_Budget_Stabilization_Account_Cap_Increase_and_Gann_Limit_Changes_Amendment_(2026",
+    "https://quickguidetoprops.sos.ca.gov/propositions/2026-11-03/2",
+    "https://www.kpbs.org/news/science-technology/2026/10/23/california-has-more-revenue-than-expected-thanks-to-ai-should-the-state-save-it",
+    "https://igs.berkeley.edu/research/berkeley-igs-poll/2026-berkeley-igs-poll-releases",
+    "https://www.yesonprop2.com/",
+    "https://socialecology.uci.edu/news/voters-face-ballot-full-traps-tricks-and-trillion-dollar-stakes"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "warning: reasoning was not replayed on an assistant turn"
+  ],
+  "network": {
+    "requests": 16,
+    "requests_per_host": {
+      "openrouter.ai": 11,
+      "www.ppic.org": 1,
+      "ballotpedia.org": 1,
+      "quickguidetoprops.sos.ca.gov": 1,
+      "www.yesonprop2.com": 1,
+      "socialecology.uci.edu": 1
+    },
+    "hosts": [
+      "ballotpedia.org",
+      "openrouter.ai",
+      "quickguidetoprops.sos.ca.gov",
+      "socialecology.uci.edu",
+      "www.ppic.org",
+      "www.yesonprop2.com"
+    ],
+    "status_counts": {
+      "200": 15,
+      "202": 1
+    },
+    "bytes_up": 777240,
+    "bytes_down": 2919532,
+    "wire_bytes": {
+      "harness_to_proxy": 808494,
+      "proxy_to_harness": 2978540,
+      "proxy_to_internet": 805071,
+      "internet_to_proxy": 3010816
+    },
+    "byte_counter": true,
+    "errors": 3,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 16,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

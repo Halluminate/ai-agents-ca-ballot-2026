@@ -1,0 +1,36 @@
+I'm not going to give you a one-word vote on this one. It comes down to a values tradeoff: how much added friction and ballot-rejection risk is worth an extra identity check and citizenship audits. It's also sharply partisan. In PPIC's Oct. 16–22 poll, 82% of Republicans said yes and 84% of Democrats said no. If I picked, I'd be imposing my weighting on yours, so here is what I found and a rule for matching your priorities to a vote.
+
+**What it does** (Legislative Analyst's Office and the measure's text)
+- **In person:** You show government-issued ID.
+- **By mail** (about 80% of 2024 voters): You write the last four digits of a pre-designated ID number on the envelope. Mail voting stays, and the state must issue a free voter ID card on request.
+- **Citizenship checks:** Officials must make "best efforts" to verify citizenship with government data and report yearly. The State Auditor audits in odd years, and any citizen can sue over noncompliance.
+- **Cost:** Tens of millions to low hundreds of millions a year, under 0.25% of the General Fund. The LAO says any savings likely wouldn't exceed that.
+- **Permanence:** It's a constitutional amendment, so changing it later takes another statewide vote.
+
+**How the main claims check out**
+- **Yes side, "100,000+ ballots rejected for signature mismatch":** This is overstated. In Nov. 2024 California rejected 122,480 mail ballots for all reasons. About 71,000 were for mismatched signatures and 13,000 for missing ones. Their underlying point has some support: 18–24-year-olds had a 3.3% rejection rate versus 0.3% for those 65 and older, mostly from signature problems.
+- **No side, "Texas threw out 12x more ballots":** This is true for Texas's first election under its ID-number rule. In March 2022 it rejected about 12%, versus about 1% before. Texas's overall rate later settled near 3.5%, versus 0.9% in California in 2024. Georgia swapped signature matching for ID numbers, and a Stanford-MIT report found rejections fell below pre-pandemic levels, though late-arrival rejections rose. So results depend on implementation. Prop 39 requires the ID type to be noted on the envelope, which addresses the confusion behind Texas's spike. It doesn't spell out a process for fixing mistakes.
+- **Yes side, "Voter ID increases participation":** A large national study (Cantoni & Pons, QJE 2021) found no drop in turnout or registration, and no effect on fraud. That mostly concerns ID at polling places, and it doesn't show an increase. In Texas's mail-ID case, a peer-reviewed study found voters whose ballots were rejected were much less likely to vote later.
+- **Trust:** The evidence is mixed. MIT's Election Lab finds little proof that ID laws change confidence. A Dec. 2025 working paper found a significant increase.
+- **Fraud:** Documented cases are rare. Federal prosecutors charged 28 people in October, among about 23M registered voters, and they've pleaded not guilty. An L.A. County review of 200 voters from the feds' 20,000 "likely noncitizen" list found about 39% were U.S.-born where birthplace was reported. Supporters say the goal is verification and trust, not prevalence.
+- **Lack of ID:** A University of Maryland/VoteRiders survey estimates 2.7M voting-age citizens lack a driver's license. VoteRiders is part of the No coalition. About a quarter of that group also lacks a state ID, roughly 650,000 by my arithmetic. The free card is meant for them, but getting one still takes time and documents.
+
+**What's unknown** (left to the Legislature and courts)
+- Which IDs count.
+- Whether signature checks stay. The Yes campaign says they'd be replaced, while opponents, per the LA Times, expect both checks.
+- Whether voters can fix errors.
+- How about 26M voters would "designate" an ID.
+- What "best efforts" means.
+- How much identity-theft risk four digits adds. I found no data either way.
+- How much litigation follows.
+
+**A quick rule**
+- **Lean Yes if** you see an ID check at the moment of voting as a reasonable baseline (36 states do some form). Also if you value trust and uniform standards even where fraud is rare, and think signature matching is the weaker check.
+- **Lean No if** you think registration ID checks, signature matching and perjury penalties already suffice. Also if you weigh rejected ballots, privacy and cost heavily, or dislike putting vague, hard-to-reverse text in the constitution.
+
+**Context**
+- **Polls:** Late polls had it trailing (PPIC 41–58, Berkeley IGS 37–57), though SurveyUSA had it ahead 49–42. AP showed no results as of the evening of Nov. 2.
+- **Funding:** It's roughly even, about $36.6M Yes versus $33.6M No, mostly from partisan donors on each side.
+- **Sources:** I leaned on the LAO, state data and peer-reviewed work. Campaign and advocacy claims are flagged above.
+
+Best reads for both sides are the Mercury News Q&As with the [Yes](https://www.mercurynews.com/2026/11/02/we-asked-the-yes-on-prop-39-campaign-to-explain-their-push-for-voter-id/) and [No](https://www.mercurynews.com/2026/11/02/we-asked-the-no-on-prop-39-campaign-why-voters-should-reject-the-measure/) campaigns, and the [LAO analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=39&year=2026).

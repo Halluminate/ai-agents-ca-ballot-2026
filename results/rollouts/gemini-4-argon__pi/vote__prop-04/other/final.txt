@@ -1,0 +1,47 @@
+Whether to vote **Yes** or **No** on **California Proposition 4** (the *California Fair Elections Act of 2026*) is a personal decision that depends on your priorities regarding campaign finance and the use of taxpayer funds. Because choosing how to vote is a value judgment for each voter to make, I cannot answer with a simple "yes" or "no." 
+
+Below is a breakdown of what the measure does, its fiscal impact, and the main arguments from both sides to help you make your decision.
+
+---
+
+### What Proposition 4 Would Do
+Placed on the ballot by the California Legislature (via SB 42), Proposition 4 amends the state's Political Reform Act:
+* **Lifts the Ban on Public Campaign Financing:** Currently, California law bans state and local governments from using public funds to finance political candidates' campaigns (with an exception for certain charter cities such as Los Angeles, San Francisco, Oakland, Long Beach, and Berkeley). Proposition 4 repeals this ban, allowing state and local governments to create public campaign finance programs in the future if they choose. It does **not** directly establish a public financing program itself.
+* **Sets Rules and Restrictions on Public Funds:**
+  * **Protected Funds:** Programs cannot use public funds earmarked by any state or local entity for **education, transportation, or public safety**.
+  * **Candidate Eligibility & Spending Limits:** To receive public funds, candidates must voluntarily abide by expenditure limits and meet criteria demonstrating broad-based local support (such as collecting small-dollar contributions of $10 or less, or vouchers, from a specified number of voting-age residents).
+  * **Prohibited Uses:** Public funds cannot be used to pay legal defense fees, fines, or to repay a candidate's personal loan to their campaign. Programs cannot favor incumbents or discriminate based on political party.
+* **Increases Penalties for Foreign Election Spending:** Expands existing prohibitions on foreign campaign spending to cover candidate elections (in addition to ballot measures) and triples the maximum fine—up to three times the amount contributed or expended—for illegal contributions or expenditures by foreign governments, principals, or nationals.
+
+---
+
+### Fiscal Impact
+According to the Legislative Analyst's Office (LAO):
+* **Direct State Administrative Costs:** Ongoing state costs of a few hundred thousand dollars per year for the Fair Political Practices Commission (FPPC) to provide legal guidance to state and local governments considering public campaign finance programs.
+* **Future Program Costs:** Because Proposition 4 only permits—rather than creates—public campaign financing programs, any major future costs would depend entirely on whether the state or individual local governments choose to establish such programs and how they design them.
+
+---
+
+### Arguments in Favor (Why to Vote YES)
+*Supporters include the League of Women Voters of California, California Common Cause, California Clean Money Campaign, California Nurses Association, and Consumer Watchdog.*
+
+* **Reduces the Influence of Wealthy Donors:** Supporters argue that the soaring cost of elections—over $1 billion spent on California state candidate races since 2020—forces candidates to rely on wealthy donors and special interests, drowning out ordinary voters.
+* **Helps Everyday Candidates Compete:** Public financing tools, such as small-dollar donation matching, allow qualified candidates without personal wealth or deep-pocketed networks to run competitive campaigns.
+* **Gives Local Communities a Choice:** California is currently the only state with a statewide statutory ban preventing local communities from adopting public campaign financing. Proposition 4 simply gives voters and local governments the option to create programs tailored to their communities.
+* **Includes Taxpayer Safeguards:** The measure bars the use of money meant for schools, roads, or public safety, prohibits using funds for legal fees or personal loans, and requires participating candidates to adhere to spending limits.
+
+---
+
+### Arguments Against (Why to Vote NO)
+*Opponents include the California Taxpayers Association, Howard Jarvis Taxpayers Association, Family Business Association of California, and former FPPC Chair Dan Schnur.*
+
+* **Uses Taxpayer Money for Politicians' Campaigns:** Opponents argue that public tax dollars should go toward essential public services rather than funding politicians' campaign ads, mailers, and text messages.
+* **Lacks Hard Caps ("Blank Check" Concerns):** Critics point out that the measure itself sets no numerical limit on how many candidates can qualify for public money (noting that major primaries can attract dozens of candidates) and no specific cap on how much public money a candidate can receive.
+* **Politicians Write the Rules:** While Proposition 4 requires candidates to meet "strict criteria" and "expenditure limits," opponents argue that the measure leaves those exact thresholds undefined, allowing the same elected officials who benefit from public financing to write the qualification rules.
+* **Does Not Eliminate Special Interest Money:** Opponents note that participation is voluntary and that the measure does not ban private contributions or independent expenditures, meaning candidates can still raise private funds alongside public money.
+
+---
+
+### Summary: What Your Vote Means
+* **Vote YES** if you want to allow California state and local governments the option to establish public campaign financing programs (subject to the measure's restrictions) in order to help candidates run for office with less reliance on large private donors.
+* **Vote NO** if you want to keep the current law prohibiting the state and most local governments from using taxpayer funds to finance political candidates' election campaigns.

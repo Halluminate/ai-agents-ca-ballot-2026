@@ -1,0 +1,102 @@
+{
+  "run_id": "gemini__native__win__p41__r1",
+  "model": "gemini",
+  "model_id": "gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "native",
+  "harness": "gemini_cli",
+  "effort": "high",
+  "prompt": "win",
+  "prop": "41",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:48:33.313097+00:00",
+  "finished_at": "2026-11-03T10:50:12.353409+00:00",
+  "seconds": 97.0,
+  "input_tokens": 37291,
+  "output_tokens": 72306,
+  "cached_tokens": 77094,
+  "cost_usd": 0.3649,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "\"Proposition 41\" California voterguide.sos.ca.gov",
+    "\"Proposition 41\" OR \"Prop 41\" California 2026 polling OR poll OR endorsements OR fundraising",
+    "\"Prohibits New State Taxes That Exclude Revenues From State Spending Limit\" ballotpedia OR calmatters",
+    "\"Proposition 41\" OR \"Prop 41\" \"PPIC\" OR \"Berkeley IGS\" OR \"Emerson\" poll 2026 California",
+    "\"Proposition 41\" site:ppic.org OR site:escholarship.org OR site:igs.berkeley.edu",
+    "\"Proposition 41\" \"48%\" \"49%\" OR \"38%\" \"47%\" California 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/41/",
+    "https://ballotpedia.org/California_Proposition_41,_Prohibit_Excluding_New_State_Taxes_from_Spending_Limit_and_Require_Special_Tax_Audits_Initiative_(2026"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.",
+    "capture: 4 connection attempts that ignored the proxy were blocked (node network-outbound x4)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 13,
+    "requests_per_host": {
+      "generativelanguage.googleapis.com": 13
+    },
+    "hosts": [
+      "generativelanguage.googleapis.com"
+    ],
+    "status_counts": {
+      "200": 13
+    },
+    "bytes_up": 421949,
+    "bytes_down": 71274,
+    "wire_bytes": {
+      "harness_to_proxy": 444134,
+      "proxy_to_harness": 97591,
+      "proxy_to_internet": 440943,
+      "internet_to_proxy": 123421
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "node",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 4
+      }
+    ],
+    "blocked_attempts": 4,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 11,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:48:33.313097+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:48:33.313097+00:00",
+      "finished_at": "2026-11-03T10:50:12.353409+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

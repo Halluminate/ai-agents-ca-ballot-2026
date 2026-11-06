@@ -1,0 +1,94 @@
+{
+  "run_id": "flash__common__vote__p42__r1",
+  "model": "flash",
+  "model_id": "google/gemini-3.8-flash",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "42",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T13:37:17.475686+00:00",
+  "finished_at": "2026-11-03T13:38:14.103700+00:00",
+  "seconds": 53.9,
+  "input_tokens": 15515,
+  "output_tokens": 4810,
+  "cached_tokens": 15991,
+  "cost_usd": 0.0359,
+  "cost_source": "reported",
+  "billed_usd": 0.03592812548,
+  "searches": [
+    "\"Proposition 42\" \"November 3, 2026\" site:sos.ca.gov"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/42/",
+    "https://voterguide.sos.ca.gov/propositions/42/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/42/arguments-rebuttals.htm"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 6,
+    "requests_per_host": {
+      "openrouter.ai": 6
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 6
+    },
+    "bytes_up": 149336,
+    "bytes_down": 80372,
+    "wire_bytes": {
+      "harness_to_proxy": 160040,
+      "proxy_to_harness": 97807,
+      "proxy_to_internet": 158619,
+      "internet_to_proxy": 109083
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 6,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:37:17.475686+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:37:17.475686+00:00",
+      "finished_at": "2026-11-03T13:38:14.103700+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

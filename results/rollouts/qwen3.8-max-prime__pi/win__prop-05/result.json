@@ -1,0 +1,109 @@
+{
+  "run_id": "qwen-max-prime__common__win__p5__r1",
+  "model": "qwen-max-prime",
+  "model_id": "qwen/qwen3.8-max-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "5",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:11:50.226952+00:00",
+  "finished_at": "2026-11-03T13:13:55.826412+00:00",
+  "seconds": 122.8,
+  "input_tokens": 62889,
+  "output_tokens": 5002,
+  "cached_tokens": 269440,
+  "cost_usd": 0.4971,
+  "cost_source": "reported",
+  "billed_usd": 0.49706927659999994,
+  "searches": [
+    "California Proposition 5 November 2024 result vote",
+    "2026 California Proposition 5 recall election process legislative constitutional amendment",
+    "California Proposition 5 November 2026 poll recall replacement special election",
+    "Poll \"Proposition 5\" California recall 2026 survey support oppose undecided latest",
+    "IGS Berkeley poll October 2026 California propositions Prop 5 Prop 4 Prop 2 likely voters",
+    "\"Proposition 5\" California November 2026 election night results yes no percent",
+    "Berkeley IGS poll October 2026 \"Proposition 5\" recall likely voters percent yes no undecided",
+    "Emerson College poll California November 2026 ballot measures Proposition 5",
+    "editorial endorsement \"Proposition 5\" 2026 California recall vote no newspaper",
+    "CalMatters \"Prop 5\" recall reform November 2026 chances of passing no campaign money",
+    "LA Times editorial Proposition 5 2026 recall recommendation",
+    "\"Prop 5\" recall California November 3 2026 election night tracking polls close"
+  ],
+  "search_errors": 2,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/5/",
+    "https://apnews.com/projects/elections-2026/california-proposition-5-results/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://igs.berkeley.edu/research/berkeley-igs-poll/release-2026-22",
+    "https://igs.berkeley.edu/research/berkeley-igs-poll/2026-berkeley-igs-poll-releases",
+    "https://electcademocrats.com/polls/",
+    "https://escholarship.org/content/qt1vp9q3f9/qt1vp9q3f9.pdf",
+    "https://calmatters.org/california-voter-guide-2026/proposition-5-recall-reform"
+  ],
+  "tool_errors": 4,
+  "warnings": [],
+  "network": {
+    "requests": 23,
+    "requests_per_host": {
+      "openrouter.ai": 21,
+      "igs.berkeley.edu": 1,
+      "escholarship.org": 1
+    },
+    "hosts": [
+      "escholarship.org",
+      "igs.berkeley.edu",
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 21,
+      "403": 1,
+      "404": 1
+    },
+    "bytes_up": 1285441,
+    "bytes_down": 669680,
+    "wire_bytes": {
+      "harness_to_proxy": 1333750,
+      "proxy_to_harness": 753082,
+      "proxy_to_internet": 1326576,
+      "internet_to_proxy": 809536
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 23,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:11:50.226952+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:11:50.226952+00:00",
+      "finished_at": "2026-11-03T13:13:55.826412+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "run_id": "glm__common__better__p2__r1",
+  "model": "glm",
+  "model_id": "z-ai/glm-5.3",
+  "pin": "z-ai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "2",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:23:13.117440+00:00",
+  "finished_at": "2026-11-03T13:27:09.457573+00:00",
+  "seconds": 233.4,
+  "input_tokens": 52226,
+  "output_tokens": 6895,
+  "cached_tokens": 129984,
+  "cost_usd": 0.1627,
+  "cost_source": "reported",
+  "billed_usd": 0.162743506,
+  "searches": [
+    "California Proposition 2 November 2025 school construction bond",
+    "California Proposition 2 2026 rainy day fund budget stabilization account constitutional amendment",
+    "\"Proposition 2\" 2026 California rainy day fund editorial board recommendation Gann limit rebate",
+    "California budget 2026 suspend budget stabilization account deposits $5 billion",
+    "California Proposition 2 November 2026 rainy day fund editorial recommendation",
+    "ACA 20 \"Save for California's Future Act\" California budget reserve Gann limit controversy",
+    "Howard Jarvis Taxpayers Association position California Proposition 2 2026 rainy day fund oppose"
+  ],
+  "search_errors": 2,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/",
+    "https://voterguide.sos.ca.gov/propositions/2/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+    "https://www.hoover.org/proposition-lab-proposition-2",
+    "https://calbudgetcenter.org/resources/should-voters-approve-proposition-2-how-californias-rainy-day-fund-would-be-updated",
+    "https://calbudgetcenter.org/resources/should-voters-approve-proposition-2-how-californias-rainy-day-fund-would-be-updated",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-2-money-california-22468892.php",
+    "https://www.latimes.com/california/story/2026-06-23/democrats-want-more-spending-flexibility-from-california-voters"
+  ],
+  "tool_errors": 2,
+  "warnings": [],
+  "network": {
+    "requests": 14,
+    "requests_per_host": {
+      "openrouter.ai": 13,
+      "www.latimes.com": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.latimes.com"
+    ],
+    "status_counts": {
+      "200": 14
+    },
+    "bytes_up": 834622,
+    "bytes_down": 2535890,
+    "wire_bytes": {
+      "harness_to_proxy": 862737,
+      "proxy_to_harness": 2696518,
+      "proxy_to_internet": 859182,
+      "internet_to_proxy": 2725539
+    },
+    "byte_counter": true,
+    "errors": 3,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 14,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:23:13.117440+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:23:13.117440+00:00",
+      "finished_at": "2026-11-03T13:27:09.457573+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

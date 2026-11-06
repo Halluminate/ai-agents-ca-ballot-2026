@@ -1,0 +1,99 @@
+{
+  "run_id": "gpt__native__win__p2__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "2",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:08:38.795976+00:00",
+  "finished_at": "2026-11-03T11:11:09.040201+00:00",
+  "seconds": 148.2,
+  "input_tokens": 30,
+  "output_tokens": 5083,
+  "cached_tokens": 386873,
+  "cost_usd": 1.7141,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 2 2026 rainy day fund campaign contributions endorsements opposition ...",
+    "California Proposition 2 2026 rainy day fund polling November 2026 ...",
+    "site:ppic.org \"October 2026\" \"Proposition 2\" ...",
+    "'1,086'",
+    "site:calmatters.org \"2026\" \"Proposition 2\" \"poll\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/",
+    "https://ballotpedia.org/California_Proposition_2,_Budget_Stabilization_Account_Cap_Increase_and_Gann_Limit_Changes_Amendment_(2026)",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://igs.berkeley.edu/research/berkeley-igs-poll",
+    "https://calmatters.org/politics/2026/10/california-proposition-2-explained/",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-2-aca-20-gabriel-save-californias-future-act-res-ch-130-2026",
+    "https://electionresults.sos.ca.gov/returns/ballot-measures"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 20,
+    "requests_per_host": {
+      "api.openai.com": 17,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 16,
+      "202": 3
+    },
+    "bytes_up": 1188784,
+    "bytes_down": 2066116,
+    "wire_bytes": {
+      "harness_to_proxy": 985720,
+      "proxy_to_harness": 1183110,
+      "proxy_to_internet": 984689,
+      "internet_to_proxy": 1215531
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2136,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 19,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:08:38.795976+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:08:38.795976+00:00",
+      "finished_at": "2026-11-03T11:11:09.040201+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

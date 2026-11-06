@@ -1,0 +1,23 @@
+I've now reviewed the official voter guide, the Legislative Analyst's Office analysis, independent research from PPIC and the Hoover Institution, CalMatters' explainer, and editorial boards on both sides. Here's my synthesis:
+
+## What Prop 37 (Nov. 2026) does
+Authorizes CalHFA to sell up to **$25 billion in revenue bonds** to fund fixed-rate **second mortgages covering up to 17% of the price of newly built homes** (buyers chip in ≥3% down). Eligibility: CA residents earning up to **200% of area median income**, homes capped around $1M–$1.5M depending on county. Crucially, these are **revenue bonds repaid by the homebuyers, not taxpayers** — the LAO confirms **no direct state or local costs**.
+
+## The case for Yes
+- **It targets the real bottleneck.** California has the nation's lowest homeownership rate, and the down payment (~$160K on a median home) — not income eligibility — is the wall for most renters. ~90% of renters would qualify.
+- **Smart design.** Unlike typical down-payment assistance (which economists criticize for bidding up prices), this is restricted to **new construction only**, aiming to pull new supply into the market. PPIC estimates it could close up to ~40% of California's homeownership gap under reasonable assumptions.
+- **Asymmetric risk.** Even a skeptic at the left-leaning Cal Budget & Policy Center concedes: if investors don't buy the bonds or buyers don't take the loans, *nothing happens* and "the state's not really on the hook." Failure costs nothing; success helps hundreds of thousands build equity.
+- **Consumer protections**: fixed rates, capped fees, no prepayment penalties. It's a statute the legislature can amend.
+- Support from Gov. Newsom, Treasurer Fiona Ma, SPUR, the SF Chronicle, the McClatchy/Sac Bee boards, nurses and carpenters unions — and **zero funded opposition** (nobody even submitted a ballot argument against).
+
+## The case for No
+- At ~7% rates, the second mortgage adds ~$900–1,000/month — buyers trade a down payment for more debt (Mercury News/East Bay Times: "can't borrow our way out of a housing crisis").
+- Eligibility up to ~$373K/year households dilutes targeting; no priority for first-generation buyers (League of Women Voters' equity critique).
+- Real uncertainty whether investors will buy at workable rates (LAO's flagged unknown); Hoover notes a theoretical "moral obligation" bailout risk if the loan pool collapsed.
+- Funded overwhelmingly by Realtor PACs ($33.6M), who profit from transactions.
+- Does nothing about construction costs — the root problem.
+
+## Weighing it
+The No arguments are mostly "it might not work well" or "it doesn't solve everything" — legitimate, but the structure means failure is free. The Yes side offers a plausible, supply-conscious tool against the state's worst-in-nation homeownership rate, with the downside carried by private investors rather than the public. Given the asymmetric payoff, the new-construction design, and broad expert support, the balance favors trying it.
+
+**Vote: YES**

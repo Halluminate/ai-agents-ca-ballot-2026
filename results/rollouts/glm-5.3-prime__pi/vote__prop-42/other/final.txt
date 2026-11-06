@@ -1,0 +1,27 @@
+I've now got a thorough picture: the official analysis and full legal text, the Prop 40 relationship, the funding, the dueling economic studies, editorial positions, and polling. Here's what my research turned up, and my decision.
+
+## What Prop 42 actually is
+
+Prop 42 ("Retirement and Personal Savings Protection Act") would amend the California Constitution to (1) ban any new state tax on the *ownership* of personal property, and (2) ban most retroactive taxes. On its face, that sounds like protecting 401(k)s from double taxation. But the fine print reveals a much bigger story:
+
+**It's a "poison pill" targeting Prop 40.** Prop 42 contains an explicit clause nullifying Prop 40 (the one-time 5% tax on ~200 billionaires, earmarked for healthcare) if Prop 42 gets more yes votes. It was placed on the ballot by "Building a Better California," a PAC funded by ~$102M+ from Google co-founder Sergey Brin — one of the billionaires Prop 40 would tax. Brin's group has spent $300M+ across the three measures, outspending supporters 9-to-1 in one of the most expensive ballot fights in California history.
+
+**The retirement-savings pitch is largely fear-mongering.** No proposal exists to tax ordinary 401(k)s, pensions, or savings accounts. Prop 40 *explicitly excludes* qualified pensions and retirement accounts from its definition of taxable assets. All six prior wealth-tax bills in the Legislature died without passing. California taxes retirement funds on withdrawal, following federal rules — nobody is "coming for your retirement."
+
+**The ban is far broader than advertised.** "Personal savings" is legally defined to include *all* personal property — stocks, business interests, digital assets, intellectual property, yachts, art. This would permanently constitutionalize a ban on essentially any future asset/wealth tax, no matter how narrowly targeted or well-designed, locking today's policy into the constitution for future generations.
+
+## What the experts say
+
+- **Editorial boards:** Nearly every major board says No — SF Chronicle ("just another poison-pill measure... reject this appalling tactic"), Mercury News/East Bay Times, Sacramento Bee ("the 401(k) decoy... a poison pill"), and LA Times' veteran columnist George Skelton (who dislikes Prop 40 but calls 41/42 "twin poison pills"). Only the more conservative SD Union-Tribune and Southern California News Group say Yes.
+- **Economists are split on Prop 40 itself** (Zucman/Saez: ~$100B raised; Stanford's Rauh/Jaros: possible net loss due to billionaire exodus) — but even most Prop 40 skeptics say the right way to oppose it is a straight "No on 40," not this decoy.
+- **Polling** shows the race tightening, with many voters unaware the measures are designed as poison pills.
+
+## Why this matters for your vote
+
+The core problem isn't wealth-tax policy — reasonable people disagree there, and you can vote on Prop 40 directly. The problem is that Prop 42 is deception baked into the constitution: a measure funded and drafted by the people it protects, marketed to ordinary savers with threats that don't exist, whose real function is to cancel a separate measure voters are deciding on its own merits, while permanently stripping future voters of tax options through an overbroad constitutional lock-in. Even Gov. Newsom's endorsement doesn't cure the measure's structural dishonesty — and passing it rewards and encourages this exact playbook.
+
+## My answer
+
+**No.**
+
+If you oppose the billionaire tax, vote No on Prop 40 directly — that's the honest way to defeat it. A Yes on 42 means letting a billionaire-funded decoy do that work while permanently constitutionalizing a sweeping ban that reaches far beyond retirement accounts.

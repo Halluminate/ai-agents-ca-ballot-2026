@@ -1,0 +1,95 @@
+{
+  "run_id": "luna__native__better__p2__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "2",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:45:41.890667+00:00",
+  "finished_at": "2026-11-03T10:49:01.089728+00:00",
+  "seconds": 194.5,
+  "input_tokens": 48,
+  "output_tokens": 13060,
+  "cached_tokens": 1053777,
+  "cost_usd": 0.1046,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/2 California Proposition 2 2024 voter guide ...",
+    "California Proposition 2 2026 rainy day fund Legislative Analyst's Office analysis ...",
+    "site:lao.ca.gov \"Rethinking California's Reserve Policy\" ...",
+    "site:lao.ca.gov \"State Appropriations Limit\" California taxpayer rebates 2022 SAL revenue ...",
+    "ACA 20 California 2026 Save for California's Future Act text section reserve capital gains set aside ...",
+    "\"No on Proposition 2\" 2026 California rainy day fund editorial ...",
+    "site:sandiegouniontribune.com/opinion/editorials 2026 \"Proposition 2\" rainy day ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 20,
+    "requests_per_host": {
+      "api.openai.com": 16,
+      "ab.chatgpt.com": 4
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 15,
+      "202": 4
+    },
+    "bytes_up": 1472238,
+    "bytes_down": 3143098,
+    "wire_bytes": {
+      "harness_to_proxy": 1075634,
+      "proxy_to_harness": 1887975,
+      "proxy_to_internet": 1073436,
+      "internet_to_proxy": 1921060
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1721,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 18,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:45:41.890667+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:45:41.890667+00:00",
+      "finished_at": "2026-11-03T10:49:01.089728+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

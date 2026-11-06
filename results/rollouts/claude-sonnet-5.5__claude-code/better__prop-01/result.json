@@ -1,0 +1,238 @@
+{
+  "run_id": "sonnet__native__better__p1__r1",
+  "model": "sonnet",
+  "model_id": "anthropic/claude-sonnet-5.5",
+  "pin": "anthropic",
+  "arm": "native",
+  "harness": "claude_code",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "1",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:54:44.661620+00:00",
+  "finished_at": "2026-11-03T12:10:01.641153+00:00",
+  "seconds": 906.5,
+  "input_tokens": 75819,
+  "output_tokens": 21823,
+  "cached_tokens": 456965,
+  "cost_usd": 1.8304,
+  "cost_source": "reported",
+  "billed_usd": 1.8303618,
+  "searches": [
+    "California Proposition 1 voter guide",
+    "Legislative Analyst's Office Proposition 1 November 2026 housing bond $11.25 billion analysis",
+    "Prop 1 2026 California housing bond editorial endorsement oppose",
+    "Howard Jarvis Taxpayers Association Prop 1 2026 housing bond position",
+    "Orange County Register editorial \"More debt won't fix California's housing shortage\" Prop 1",
+    "Prop 1 housing bond Los Angeles Times editorial board 2026 endorsement",
+    "San Diego Union-Tribune editorial Prop 1 housing bond 2026 vote",
+    "Mercury News editorial board Prop 1 housing bond November 2026 recommendation",
+    "California affordable housing cost per unit subsidized apartment Terner Center 2025 2026 state bond gap financing",
+    "LAO fiscal outlook California budget deficit 2026-27 structural deficit state debt service bonds",
+    "California YIMBY Prop 1 2026 housing bond position",
+    "2018 Proposition 1 California housing bond results units funded Multifamily Housing Program how many homes built",
+    "Sacramento Bee McClatchy editorial Prop 1 housing bond yes \"precisely why affordable housing costs\"",
+    "LAist ballot analysis Prop 1 housing bond experts Caltech Pomona Hoover what do they say",
+    "Prop 1 housing bond federal LIHTC expansion leverage state gap financing unused federal tax credits California 2026",
+    "Prop 1 California housing bond poll October 2026 Berkeley IGS likely voters",
+    "Prop 1 housing bond criticism misleading veterans only 11 percent Wicks Lim\u00f3n SB 417 debate Legislature vote",
+    "California state budget affordable housing funding General Fund $8 billion since 2019 exhausted 2026 Budget Act housing programs no new money"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 18,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/1/",
+    "https://voterguide.sos.ca.gov/propositions/1/arguments-rebuttals.htm",
+    "https://calmatters.org/politics/2026/10/last-minute-voter-guide-propositions/",
+    "https://laist.com/news/politics/voter-guides/laist-california-voter-game-plan-proposition-prop-1-november-2026-election-guide",
+    "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+    "https://calmatters.org/housing/homelessness/2026/10/prop-1-housing-bond/",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop1-california-housing-vote-22442444.php",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=1&year=2026",
+    "https://quickguidetoprops.sos.ca.gov/propositions/2026-11-03/1",
+    "https://californiatoday.com/guides/elections/2026-california-proposition-1-guide/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-1-housing-bond/",
+    "https://www.kqed.org/news/12100622/proposition-1-authorizes-california-to-issue-a-11-25-billion-bond-to-fund-affordable-housing",
+    "https://www.ocregister.com/2026/09/23/endorsement-no-on-prop-1-more-debt-wont-fix-californias-housing-shortage/",
+    "https://dailybruin.com/2026/10/30/prop-1-seeks-to-fund-affordable-housing-raises-fiscal-concerns-for-californians/",
+    "https://gvwire.com/2026/03/10/california-has-40000-affordable-housing-units-ready-to-break-ground-whats-the-holdup/",
+    "https://www.hjta.org/2026votingguide/",
+    "https://cayimby.org/blog/proposition-1-2026/",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-1-affordable-housing-bond",
+    "https://calbudgetcenter.org/resources/proposition-1-californias-veterans-and-affordable-housing-bond/",
+    "https://californiaglobe.com/articles/california-voters-howard-jarvis-taxpayers-associations-2026-voting-guide/",
+    "https://www.hoover.org/proposition-lab-proposition-1",
+    "https://laist.com/news/politics/voter-guides/laist-voter-game-plan-cram-session-state-propositions-2026-general-election",
+    "https://voterguide.sos.ca.gov/propositions/1/analysis.htm",
+    "https://calmatters.org/politics/elections/2026/10/bond-measures-on-california-ballot/"
+  ],
+  "tool_errors": 5,
+  "warnings": [
+    "capture: 2 connections were not readable by the proxy (api.anthropic.com:443, www.sfchronicle.com:443)"
+  ],
+  "network": {
+    "requests": 138,
+    "requests_per_host": {
+      "api.anthropic.com": 64,
+      "openrouter.ai": 54,
+      "voterguide.sos.ca.gov": 3,
+      "calmatters.org": 3,
+      "laist.com": 2,
+      "dailybruin.com": 2,
+      "lao.ca.gov": 1,
+      "quickguidetoprops.sos.ca.gov": 1,
+      "californiatoday.com": 1,
+      "www.kqed.org": 1,
+      "gvwire.com": 1,
+      "cayimby.org": 1,
+      "www.spur.org": 1,
+      "calbudgetcenter.org": 1,
+      "californiaglobe.com": 1,
+      "www.hoover.org": 1
+    },
+    "hosts": [
+      "api.anthropic.com",
+      "calbudgetcenter.org",
+      "californiaglobe.com",
+      "californiatoday.com",
+      "calmatters.org",
+      "cayimby.org",
+      "dailybruin.com",
+      "gvwire.com",
+      "laist.com",
+      "lao.ca.gov",
+      "openrouter.ai",
+      "quickguidetoprops.sos.ca.gov",
+      "voterguide.sos.ca.gov",
+      "www.hoover.org",
+      "www.kqed.org",
+      "www.spur.org"
+    ],
+    "status_counts": {
+      "200": 128,
+      "308": 1
+    },
+    "bytes_up": 4510219,
+    "bytes_down": 3272471,
+    "wire_bytes": {
+      "harness_to_proxy": 4634519,
+      "proxy_to_harness": 3672941,
+      "proxy_to_internet": 4618897,
+      "internet_to_proxy": 3751700
+    },
+    "byte_counter": true,
+    "errors": 10,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/web/domain_info?domain=lao.ca.gov",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "server closed connection"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 39,
+        "duration": 10.2551,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "www.sfchronicle.com",
+        "port": 443,
+        "sni": "www.sfchronicle.com",
+        "bytes_up": 1584,
+        "bytes_down": 39,
+        "duration": 668.0206,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 56,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:54:44.661620+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:54:44.661620+00:00",
+      "finished_at": "2026-11-03T12:10:01.641153+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

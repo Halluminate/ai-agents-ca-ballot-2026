@@ -1,0 +1,35 @@
+**No.** It's a close call, but the risk falls on the buyers the program is meant to help, the benefits look narrower than advertised, and an approved initiative is hard to change later.
+
+**Why no**
+- **Thin equity and an expensive second loan.** Buyers put 3% down, take a 17% second loan, and a roughly 80% first mortgage covers the rest. In CalMatters' $800,000 example, that's about 97% combined loan-to-value (my arithmetic). At a hypothetical 7%, the second loan adds roughly $1,000 a month. The rate isn't set yet and depends on what investors accept ([CalMatters](https://calmatters.org/politics/2026/10/prop-37-explained-homeownership/), [LAO](https://lao.ca.gov/BallotAnalysis/Proposition?number=37&year=2026)). The Budget & Policy Center argues those payments could erode much of the benefit ([CBPC](https://calbudgetcenter.org/resources/will-proposition-37-make-homeownership-more-affordable-its-not-guaranteed/)).
+- **Narrower reach than the headline.** PPIC estimates fewer than 40% of eligible renters could afford the payments on a starter home, and under 0.5% could afford a home at the top price range ([CalMatters](https://calmatters.org/politics/2026/10/prop-37-explained-homeownership/)). There is no first-time-buyer priority, so benefits may favor households already better off ([CBPC](https://calbudgetcenter.org/resources/will-proposition-37-make-homeownership-more-affordable-its-not-guaranteed/)).
+- **Possible price pass-through.** The worst case is that the money mostly pushes prices up ([CalMatters](https://calmatters.org/politics/2026/10/prop-37-explained-homeownership/)). California YIMBY, which is neutral, doubts it will lower costs and calls the 190,000-home projection an upper bound ([CAYIMBY](https://cayimby.org/blog/proposition-37-2026/)).
+- **Weaker remedies for some buyers.** Builders who opt into "qualified builder" status are shielded from defect suits if they fix problems to the owner's satisfaction, and legal fees are capped ([CalMatters](https://calmatters.org/politics/2026/10/prop-37-explained-homeownership/), [CaVotes](https://cavotes.org/ballot-measure/2026-prop-37/)).
+- **Hard to fix later.** Once voters approve an initiative statute, the Legislature generally needs another statewide vote to change it, unless the measure allows otherwise ([Cal. Const. art. II, §10](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CONS&sectionNum=SEC.+10.&article=II)). I couldn't confirm whether Prop 37 has such a clause. A No doesn't end the idea, since CBPC notes a comparable program could be set up legislatively or by CalHFA.
+
+**Strongest case for yes**
+- The LAO finds no direct state or local cost, and defaults fall on private lenders, not taxpayers ([LAO](https://lao.ca.gov/BallotAnalysis/Proposition?number=37&year=2026), [CalMatters](https://calmatters.org/politics/2026/10/prop-37-explained-homeownership/)).
+- It targets a real gap: people who can carry a mortgage but can't save a down payment. The Sacramento Bee's Yes endorsement relied on proponents' modeling that buyers come out ahead of mortgage insurance even at fairly high second-loan rates ([Sacramento Bee via Yahoo](https://www.yahoo.com/news/politics/articles/prop-37-puts-california-homeownership-173000963.html)).
+- Voters like it: 65% of likely voters in PPIC's October poll ([PPIC](https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/)). Supporters include the state Democratic Party, Realtors, carpenters, SEIU, and SPUR ([CalMatters](https://calmatters.org/politics/2026/10/prop-37-explained-homeownership/), [SPUR](https://www.spur.org/voter-guide/2026-11/ca-prop-37-homeowner-loans)).
+- If you're a buyer who would otherwise pay mortgage insurance and can comfortably carry about $1,000 a month, Yes is defensible.
+
+**Who's on each side**
+- Money: about $19 million or more for it, mostly from the California Association of Realtors, and no reported money against ([KQED](https://www.kqed.org/voterguide/california/proposition-37)). The state voter guide filed no argument against ([official guide](https://voterguide.sos.ca.gov/propositions/37/)).
+- Opposed: the League of Women Voters of California ([LWVC](https://lwvc.org/ballot-recommendations-nov-3-2026/)), plus Reform California and the San Diego Union-Tribune, per CalMatters' list.
+- Neutral or skeptical: the LAO, the Budget & Policy Center (which says benefits are "not guaranteed"), and California YIMBY.
+
+**Gaps:** The full measure text wouldn't parse, so I relied on the LAO and CalMatters summaries. The PPIC figures come from search excerpts, not the full report. I couldn't confirm the Orange County Register or Mercury News positions. Polls close at 8 p.m. today.
+
+Sources:
+- [CA Voter Guide, Prop 37](https://voterguide.sos.ca.gov/propositions/37/)
+- [LAO analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=37&year=2026)
+- [CalMatters explainer](https://calmatters.org/politics/2026/10/prop-37-explained-homeownership/)
+- [California Budget & Policy Center](https://calbudgetcenter.org/resources/will-proposition-37-make-homeownership-more-affordable-its-not-guaranteed/)
+- [California YIMBY](https://cayimby.org/blog/proposition-37-2026/)
+- [LWVC recommendations](https://lwvc.org/ballot-recommendations-nov-3-2026/)
+- [CaVotes](https://cavotes.org/ballot-measure/2026-prop-37/)
+- [Sacramento Bee endorsement](https://www.yahoo.com/news/politics/articles/prop-37-puts-california-homeownership-173000963.html)
+- [SPUR](https://www.spur.org/voter-guide/2026-11/ca-prop-37-homeowner-loans)
+- [KQED voter guide](https://www.kqed.org/voterguide/california/proposition-37)
+- [PPIC October 2026 survey](https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/)
+- [Cal. Const. art. II, §10](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CONS&sectionNum=SEC.+10.&article=II)

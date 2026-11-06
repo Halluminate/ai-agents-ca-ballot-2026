@@ -1,0 +1,480 @@
+{
+  "run_id": "grok__native__better__p4__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "native",
+  "harness": "grok_build",
+  "effort": "xhigh",
+  "prompt": "better",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:54:44.686215+00:00",
+  "finished_at": "2026-11-03T12:17:51.417537+00:00",
+  "seconds": 1378.4,
+  "input_tokens": 104538,
+  "output_tokens": 16794,
+  "cached_tokens": 173440,
+  "cost_usd": 0.3966,
+  "cost_source": "estimated",
+  "billed_usd": 2.884762,
+  "searches": [
+    "California Proposition 4 2026 public funding election campaigns analysis LAO",
+    "California Proposition 4 2026 repeals prohibition public campaign financing evidence pros cons",
+    "SB 42 California Fair Elections Act 2025 text public financing Political Reform Act",
+    "empirical evidence public campaign financing effectiveness Arizona Maine New York City Seattle GAO studies",
+    "California Proposition 73 1988 public financing ban history Johnson v Bradley charter cities",
+    "public campaign financing academic review meta analysis effectiveness corruption representation 2020 2024",
+    "California Proposition 4 2026 Hoover Institution analysis public financing",
+    "Los Angeles San Francisco Oakland public campaign financing program cost outcomes evaluation",
+    "Kilborn Vishwanath public financing ideological extremity representation critique",
+    "California Government Code 81012 Political Reform Act amendment two-thirds further the purposes",
+    "Proposition 4 2026 California does ordinance require voter approval public financing program",
+    "CalMatters Proposition 4 2026 public financing explainer conclusion",
+    "Howard Jarvis Taxpayers Association v. Newsom SB 1107 public financing court ruling",
+    "San Diego Union-Tribune endorsement Proposition 4 2026 public financing",
+    "site:sfchronicle.com Proposition 4 2026 endorsement public financing",
+    "\"Proposition 4\" 2026 California newspaper endorsements yes no public financing",
+    "California Proposition 4 2026 poll PPIC or Berkeley IGS support opposition",
+    "California 2026 budget deficit public financing campaign cost estimate statewide program",
+    "Arizona Free Enterprise Club v Bennett trigger matching funds Supreme Court public financing"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 0,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://voterguide.sos.ca.gov/propositions/4/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/4/title-summary.htm",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=4&year=2026",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-text-proposed-laws.pdf",
+    "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB42",
+    "https://calmatters.org/politics/2026/10/california-proposition-4-explainer/",
+    "https://calmatters.org/politics/2026/10/california-proposition-4-explainer/",
+    "https://www.hoover.org/proposition-lab-proposition-4",
+    "https://www.sfchronicle.com/opinion/editorials/article/endorsement-prop-4-public-financing-22426379.php",
+    "https://www.ocregister.com/2026/09/27/endorsement-no-on-proposition-4-california-doesnt-need-taxpayer-funded-campaigns/",
+    "https://www.sacbee.com/opinion/election-endorsements/article317765284.html",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/"
+  ],
+  "tool_errors": 3,
+  "warnings": [
+    "capture: 27 connection attempts that ignored the proxy were blocked (grok-1.0.70 network-outbound x27)",
+    "capture: 23 connections were not readable by the proxy (lao.ca.gov:443, openrouter.ai:443, vig.cdn.sos.ca.gov:443)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 49,
+    "requests_per_host": {
+      "openrouter.ai": 38,
+      "voterguide.sos.ca.gov": 4,
+      "calmatters.org": 1,
+      "leginfo.legislature.ca.gov": 1,
+      "www.hoover.org": 1,
+      "www.sfchronicle.com": 1,
+      "www.ocregister.com": 1,
+      "www.sacbee.com": 1,
+      "www.ppic.org": 1
+    },
+    "hosts": [
+      "calmatters.org",
+      "leginfo.legislature.ca.gov",
+      "openrouter.ai",
+      "voterguide.sos.ca.gov",
+      "www.hoover.org",
+      "www.ocregister.com",
+      "www.ppic.org",
+      "www.sacbee.com",
+      "www.sfchronicle.com"
+    ],
+    "status_counts": {
+      "200": 42
+    },
+    "bytes_up": 1493753,
+    "bytes_down": 3968840,
+    "wire_bytes": {
+      "harness_to_proxy": 1570149,
+      "proxy_to_harness": 4217970,
+      "proxy_to_internet": 1564205,
+      "internet_to_proxy": 4299273
+    },
+    "byte_counter": true,
+    "errors": 23,
+    "error_details": [
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "peer closed connection"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "peer closed connection"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (PROTOCOL_ERROR)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "server closed connection"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "connect_error",
+        "host": "lao.ca.gov",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "vig.cdn.sos.ca.gov",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "peer closed connection"
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "www.sacbee.com",
+        "url": "https://www.sacbee.com/opinion/election-endorsements/article317765284.html",
+        "error": "stream reset by client (INTERNAL_ERROR)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 111,
+        "bytes_down": 0,
+        "duration": 0.4037,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1545,
+        "bytes_down": 39,
+        "duration": 12.184,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1545,
+        "bytes_down": 39,
+        "duration": 12.2206,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.6322,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1809,
+        "bytes_down": 39,
+        "duration": 10.1148,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "lao.ca.gov",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 57,
+        "bytes_down": 0,
+        "duration": 10.0032,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "vig.cdn.sos.ca.gov",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 73,
+        "bytes_down": 0,
+        "duration": 10.0083,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 2069,
+        "bytes_down": 1632,
+        "duration": 10.9155,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3189,
+        "duration": 0.194,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1287,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1284,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1941,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3189,
+        "duration": 0.2061,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1319,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1358,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1333,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 10.0039,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 10.005,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 9.9943,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 10.006,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 10.0047,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 10.0017,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 10.0018,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 27
+      }
+    ],
+    "blocked_attempts": 27,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 51,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:54:44.686215+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:54:44.686215+00:00",
+      "finished_at": "2026-11-03T12:17:51.417537+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

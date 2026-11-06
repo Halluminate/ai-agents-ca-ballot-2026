@@ -1,0 +1,101 @@
+{
+  "run_id": "sol__native__vote__p3__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "3",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:45:41.900464+00:00",
+  "finished_at": "2026-11-03T10:49:40.039736+00:00",
+  "seconds": 233.4,
+  "input_tokens": 48,
+  "output_tokens": 7780,
+  "cached_tokens": 948203,
+  "cost_usd": 0.5614,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "'PROPOSITION 3'",
+    "California Proposition 3 2026 permanent income tax Proposition 55 Legislative Analyst ...",
+    "\"2026\" \"Proposition 3\" \"income\" opposition permanent tax analysis ...",
+    "site.calmatters.org \"2026\" \"Proposition 3\" \"tax\" ...",
+    "site.ppic.org \"Proposition 30\" \"migration\" ...",
+    "site.web.stanford.edu/~rauh \"Behavioral Responses\" \"2024\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/3/",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=3&year=2026",
+    "https://www.yesprop3ca.com",
+    "https://www.journals.uchicago.edu/doi/full/10.1086/737165",
+    "https://sdcta.squarespace.com/policy-reports-main/2026/9/2/taxpayers-opposes-proposition-3-california-childrens-education-and-health-care-protection-act",
+    "https://news.cornell.edu/stories/2025/09/sense-place-trumps-tax-breaks-choosing-where-live",
+    "https://gwern.net/doc/economics/2024-rauh.pdf",
+    "https://inequality.stanford.edu/sites/default/files/millionaire-migration-california-impact-top-tax-rates.pdf"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 23,
+    "requests_per_host": {
+      "api.openai.com": 19,
+      "ab.chatgpt.com": 4
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 18,
+      "202": 4
+    },
+    "bytes_up": 1489742,
+    "bytes_down": 2959830,
+    "wire_bytes": {
+      "harness_to_proxy": 1156345,
+      "proxy_to_harness": 1725154,
+      "proxy_to_internet": 1154253,
+      "internet_to_proxy": 1763305
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2025,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 21,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:45:41.900464+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:45:41.900464+00:00",
+      "finished_at": "2026-11-03T10:49:40.039736+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

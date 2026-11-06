@@ -1,0 +1,51 @@
+{
+  "requests": 42,
+  "requests_per_host": {
+    "openrouter.ai": 36,
+    "escholarship.org": 2,
+    "natlawreview.com": 1,
+    "ballotpedia.org": 1,
+    "www.ppic.org": 1,
+    "www.briefs.co": 1
+  },
+  "hosts": [
+    "ballotpedia.org",
+    "escholarship.org",
+    "natlawreview.com",
+    "openrouter.ai",
+    "www.briefs.co",
+    "www.ppic.org"
+  ],
+  "status_counts": {
+    "200": 39,
+    "202": 1,
+    "403": 2
+  },
+  "bytes_up": 6395346,
+  "bytes_down": 1724412,
+  "wire_bytes": {
+    "harness_to_proxy": 6471615,
+    "proxy_to_harness": 1873430,
+    "proxy_to_internet": 6462438,
+    "internet_to_proxy": 1952003
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 33,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

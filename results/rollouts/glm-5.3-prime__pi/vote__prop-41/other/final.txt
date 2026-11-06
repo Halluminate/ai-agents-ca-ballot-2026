@@ -1,0 +1,27 @@
+**No — vote NO on Proposition 41.**
+
+I researched the official voter guide, the full text of the proposed law, the Legislative Analyst's Office analysis, CalMatters reporting, and editorial and expert opinions from across the spectrum. Here's why I've come down on "no":
+
+## What Prop 41 actually does
+
+It has two components bundled together:
+
+1. **Audit requirements** — The State Auditor would conduct pre-election audits of programs that would receive money from new special taxes proposed by initiative (triggered once 25% of signatures are collected, *before* it's even known if the measure qualifies), plus recurring audits every four years. Audits must identify ways to cut each program's costs by at least 10%.
+
+2. **A Gann Limit provision (the real payload)** — It prohibits and nullifies any state tax enacted after January 1, 2026 whose revenues are exempted from the state spending limit (the "Gann Limit," a 1979 constitutional cap). The measure's own text declares that if it receives more votes than any same-ballot tax measure with such an exemption, **"all the provisions of the other measure shall be null and void."**
+
+## Why this tips the scale to No
+
+- **It's a poison pill aimed at Prop 40, not an accountability measure.** Prop 40 (also on your ballot) is the "billionaire tax" — a one-time 5% tax on ~200 billionaires, mostly for healthcare, which exempts its revenue from the Gann Limit. Prop 41 was funded by "Building a Better California," a PAC bankrolled by billionaires with a direct financial stake: Sergey Brin alone has put in over $100 million, plus $40 million each from Eric Schmidt and John Doerr. If Prop 41 gets more votes than Prop 40, the wealth tax dies even if a majority supports it. Even PPIC's pollster notes voters don't realize they're direct countermeasures — the confusion is the strategy.
+
+- **The Gann Limit provision has lasting collateral damage.** It would permanently bar future special taxes — even legitimate, voter-approved ones — from being structured outside the 1979 spending cap. Legal experts (via the *SF Chronicle* editorial board) point to real examples like the hospital quality assurance fee (Prop 52, 2016), which draws down federal matching funds for low-income patients. If the federal government ever forced structural changes, it could be treated as a "new" tax and gutted by this provision.
+
+- **The audit piece is largely redundant and flawed.** The nonpartisan LAO already analyzes every initiative's fiscal impact, including at the 25% signature threshold and in the voter guide. Tax measures that fail or never qualify would cost the General Fund audit money, and mandating that the Auditor find "10% annual savings" is an arbitrary dictate that compromises the office's independence (per UC Davis law professor Darien Shanske). The LAO itself says the net fiscal effect is "unknown."
+
+- **Cross-ideological consensus against it.** The *SF Chronicle* ("a cynical poison pill"), *Sacramento Bee*, *Santa Cruz Sentinel*, *Press Democrat* and others — **including editorial boards that also oppose the billionaire tax itself** — all recommend No. Their shared view: even if you dislike Prop 40, "the state must not surrender its future freedom of action to defeat a single, one-time tax proposal."
+
+## The one honest counterargument
+
+If your main goal is defeating the billionaire tax, a Yes on 41 accomplishes that (it's the one major paper, the L.A. Daily News/SCNG, endorsing it — arguing it's defensible even standalone). But that's a strategic vote for a measure whose merits don't stand up on their own — and Prop 40 opponents who've studied it closely mostly still land on No.
+
+So: **No on 41.**

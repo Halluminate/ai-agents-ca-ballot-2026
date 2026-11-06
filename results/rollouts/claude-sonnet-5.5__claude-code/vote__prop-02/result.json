@@ -1,0 +1,593 @@
+{
+  "run_id": "sonnet__native__vote__p2__r1",
+  "model": "sonnet",
+  "model_id": "anthropic/claude-sonnet-5.5",
+  "pin": "anthropic",
+  "arm": "native",
+  "harness": "claude_code",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "2",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T11:54:44.614992+00:00",
+  "finished_at": "2026-11-03T12:18:05.656235+00:00",
+  "seconds": 1394.8,
+  "input_tokens": 166112,
+  "output_tokens": 61138,
+  "cached_tokens": 661362,
+  "cost_usd": 2.4493,
+  "cost_source": "reported",
+  "billed_usd": 2.4492762000000003,
+  "searches": [
+    "California Proposition 2 November 2026 ballot",
+    "Legislative Analyst's Office rainy day fund constitutional amendment 20 percent cap Gann limit exclusion Proposition 2 2026 analysis",
+    "Prop 2 rainy day fund 2026 Howard Jarvis Taxpayers Association CalTax position oppose support",
+    "Prop 2 California rainy day fund Gann limit taxpayer rebates critics CalMatters",
+    "California suspend rainy day fund deposit $5 billion budget 2026-27 Prop 2 ballot Legislature vote Tangipa DeMaio",
+    "editorial board endorsement Proposition 2 rainy day fund California 2026 \"Prop 2\" Los Angeles Times OR \"Sacramento Bee\" OR \"Mercury News\" OR \"Union-Tribune\" OR \"Orange County Register\"",
+    "LAO state appropriations limit reserves deposits count against limit discourage saving rainy day fund recommendation exclude",
+    "LAO 2026-27 budget state appropriations limit room under the limit Budget Stabilization Account suspend deposit $5.4 billion",
+    "David Crane Govern for California Prop 2 rainy day fund oppose \"can be invaded even when it's not raining\"",
+    "San Diego Union-Tribune editorial Prop 2 rainy day fund vote no 2026",
+    "Orange County Register editorial Proposition 2 rainy day fund Gann limit \"No on Prop 2\" 2026",
+    "Sacramento Bee editorial Prop 2 rainy day fund recommend yes 2026",
+    "California Taxpayers Association CalTax Proposition 2 2026 rainy day fund position",
+    "caltax.org 2026 ballot measure positions Proposition 2 support rainy day fund",
+    "sandiegouniontribune.com editorial \"Proposition 2\" rainy day fund Gann limit \"slush fund\" OR \"spending limit\" November 2026 recommend",
+    "\"Prop. 2\" rainy day fund California editorial \"no\" Gann spending limit taxpayers rebates reasoning endorsement Union-Tribune Register 2026",
+    "Pew research state rainy day funds effectiveness larger reserves smooth budgets states with strong withdrawal rules"
+  ],
+  "search_errors": 1,
+  "web_search_requests": 16,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/",
+    "https://voterguide.sos.ca.gov/propositions/2/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/text-of-proposed-laws.htm",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=2&year=2026",
+    "https://calmatters.org/politics/2026/10/california-proposition-2-explained/",
+    "https://my.lwv.org/sites/default/files/nov2026-indepth.pdf",
+    "https://sfinquirer.com/2026/10/25/proposition-2-california-rainy-day-fund-spending-limit/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-2-rainy-day-fund/",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-2-money-california-22468892.php",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-2-rainy-day-fund",
+    "https://www.hjta.org/2026votingguide/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-2-rainy-day-fund/",
+    "https://calbudgetcenter.org/resources/should-voters-approve-proposition-2-how-californias-rainy-day-fund-would-be-updated/",
+    "https://ballotexplained.com/measures/california/proposition-2",
+    "https://sbud.senate.ca.gov/media/3464",
+    "https://lao.ca.gov/Publications/Report/5028",
+    "https://lao.ca.gov/Publications/Report/4416",
+    "https://lao.ca.gov/ballot/2026/prop2-110326.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop2-arg-rebuttals.pdf",
+    "https://lao.ca.gov/Publications/Report/5197",
+    "https://sfstandard.com/opinion/2026/09/14/newsom-rainy-day-fund-prop-2/",
+    "https://laist.com/news/politics/california-has-more-revenue-than-expected-thanks-to-ai",
+    "https://cavotes.org/ballot-measure/2026-prop-2/",
+    "https://californiatoday.com/guides/elections/2026-california-proposition-2-guide/",
+    "https://www.kqed.org/voterguide/california/proposition-2",
+    "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260ACA20",
+    "https://www.californiachoices.org/proposition-2-2026",
+    "https://www.sfchronicle.com/opinion/editorials/article/california-ballot-measures-propositions-22507044.php",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-2-rainy-day-fund",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-2-money-california-22468892.php",
+    "https://www.hjta.org/2026votingguide/"
+  ],
+  "tool_errors": 2,
+  "warnings": [
+    "capture: 1 connection attempts that ignored the proxy were blocked (claude.exe remote:*:49461 x1)",
+    "capture: 18 connections were not readable by the proxy (api.anthropic.com:443)"
+  ],
+  "network": {
+    "requests": 184,
+    "requests_per_host": {
+      "api.anthropic.com": 84,
+      "openrouter.ai": 70,
+      "lao.ca.gov": 5,
+      "voterguide.sos.ca.gov": 4,
+      "calmatters.org": 2,
+      "www.sfchronicle.com": 2,
+      "sbud.senate.ca.gov": 2,
+      "laist.com": 2,
+      "sfinquirer.com": 1,
+      "my.lwv.org": 1,
+      "www.spur.org": 1,
+      "www.hjta.org": 1,
+      "calbudgetcenter.org": 1,
+      "ballotexplained.com": 1,
+      "vig.cdn.sos.ca.gov": 1,
+      "sfstandard.com": 1,
+      "cavotes.org": 1,
+      "californiatoday.com": 1,
+      "www.kqed.org": 1,
+      "leginfo.legislature.ca.gov": 1,
+      "www.californiachoices.org": 1
+    },
+    "hosts": [
+      "api.anthropic.com",
+      "ballotexplained.com",
+      "calbudgetcenter.org",
+      "californiatoday.com",
+      "calmatters.org",
+      "cavotes.org",
+      "laist.com",
+      "lao.ca.gov",
+      "leginfo.legislature.ca.gov",
+      "my.lwv.org",
+      "openrouter.ai",
+      "sbud.senate.ca.gov",
+      "sfinquirer.com",
+      "sfstandard.com",
+      "vig.cdn.sos.ca.gov",
+      "voterguide.sos.ca.gov",
+      "www.californiachoices.org",
+      "www.hjta.org",
+      "www.kqed.org",
+      "www.sfchronicle.com",
+      "www.spur.org"
+    ],
+    "status_counts": {
+      "200": 162,
+      "301": 1,
+      "400": 2,
+      "403": 2
+    },
+    "bytes_up": 7520140,
+    "bytes_down": 5843516,
+    "wire_bytes": {
+      "harness_to_proxy": 8167776,
+      "proxy_to_harness": 6381102,
+      "proxy_to_internet": 7674765,
+      "internet_to_proxy": 6485042
+    },
+    "byte_counter": true,
+    "errors": 43,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "server closed connection"
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "server closed connection"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "server closed connection"
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 10.3715,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.008,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 12.0887,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0022,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 20.6095,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 652.4029,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0021,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0036,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0022,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0021,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0019,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0082,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0019,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0016,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0066,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0022,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0005,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.001,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "claude.exe",
+        "operation": "network-outbound",
+        "target": "remote:*:49461",
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 1,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 93,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:54:44.614992+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:54:44.614992+00:00",
+      "finished_at": "2026-11-03T12:18:05.656235+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

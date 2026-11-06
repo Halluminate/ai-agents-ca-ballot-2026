@@ -1,0 +1,68 @@
+{
+  "requests": 19,
+  "requests_per_host": {
+    "openrouter.ai": 16,
+    "cms.hoover.org": 1,
+    "igs.berkeley.edu": 1,
+    "edsource.org": 1
+  },
+  "hosts": [
+    "cms.hoover.org",
+    "edsource.org",
+    "igs.berkeley.edu",
+    "openrouter.ai"
+  ],
+  "status_counts": {
+    "200": 19
+  },
+  "bytes_up": 1114870,
+  "bytes_down": 832638,
+  "wire_bytes": {
+    "harness_to_proxy": 1153625,
+    "proxy_to_harness": 922298,
+    "proxy_to_internet": 1148561,
+    "internet_to_proxy": 964448
+  },
+  "byte_counter": true,
+  "errors": 2,
+  "error_details": [
+    {
+      "kind": "tls_failed_server",
+      "host": "www.latimes.com",
+      "sni": "www.latimes.com",
+      "error": "connection closed"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "www.latimes.com",
+      "sni": "www.latimes.com",
+      "error": "connection closed early"
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "www.latimes.com",
+      "port": 443,
+      "sni": "www.latimes.com",
+      "bytes_up": 1717,
+      "bytes_down": 39,
+      "duration": 18.0144,
+      "reason": "connection closed early"
+    }
+  ],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 19,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

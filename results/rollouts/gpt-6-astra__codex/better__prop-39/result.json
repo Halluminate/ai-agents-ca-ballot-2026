@@ -1,0 +1,101 @@
+{
+  "run_id": "gpt__native__better__p39__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "39",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:52:50.327571+00:00",
+  "finished_at": "2026-11-03T10:55:06.256262+00:00",
+  "seconds": 133.8,
+  "input_tokens": 33,
+  "output_tokens": 4670,
+  "cached_tokens": 417963,
+  "cost_usd": 1.8631,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 39 2026 voter ID initiative Legislative Analyst 25-0007 ...",
+    "site.nber.org \"Strict ID Laws\" \"Pons\" ...",
+    "voter identification laws turnout fraud election confidence research ...",
+    "\"Strict ID Laws Don\u2019t Stop Voters\" fraud confidence 2021 ...",
+    "California 20000 noncitizens voter rolls October 2026 judge denied proof citizens ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/39/",
+    "https://voterguide.sos.ca.gov/propositions/39/arguments-rebuttals.htm",
+    "https://www.voteridca.org",
+    "https://www.nber.org/papers/w25522",
+    "https://www.nber.org/system/files/working_papers/w25522/w25522.pdf",
+    "https://electionlab.mit.edu/research/voter-identification",
+    "https://www.gao.gov/products/gao-14-634",
+    "https://oag.ca.gov/node/632032",
+    "https://www.sos.texas.gov/about/newsreleases/2022/101222.shtml"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 19,
+    "requests_per_host": {
+      "api.openai.com": 16,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 15,
+      "202": 3
+    },
+    "bytes_up": 1216396,
+    "bytes_down": 2179424,
+    "wire_bytes": {
+      "harness_to_proxy": 977157,
+      "proxy_to_harness": 1278081,
+      "proxy_to_internet": 975700,
+      "internet_to_proxy": 1309775
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1826,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 18,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:52:50.327571+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:52:50.327571+00:00",
+      "finished_at": "2026-11-03T10:55:06.256262+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

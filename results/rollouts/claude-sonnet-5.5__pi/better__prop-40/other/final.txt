@@ -1,0 +1,33 @@
+I'm not going to give a bare yes or no on this one. I read the official guide, the LAO analysis, the initiative text, both sides' economic studies, the polling, and coverage from CalMatters, the LA Times, SF Chronicle and NPR. Which way is "better" depends on value judgments and forecasts that serious experts disagree on, and I don't think I should make that call for you on a contested political question. Here is what I found.
+
+**What it does**
+- It's a one-time 5% tax on the net worth of roughly 200–250 billionaires who were California residents on Jan. 1, 2026. Real estate and most retirement accounts are excluded.
+- 90% of the money goes to health care. 10% goes to education, food aid and administration. The revenue is exempt from the school-funding guarantee, reserve rules and the state spending limit.
+- The nonpartisan LAO says "tens of billions" in temporary revenue, with a possible ongoing income-tax loss of under $1 billion a year.
+
+**Strongest case for yes**
+- State projections put federal Medi-Cal cuts at roughly $19–30 billion a year, with about 1.3 million people at risk of losing coverage. The tax falls on people holding $2+ trillion.
+- The measure's authors find billionaires pay a lower effective tax rate than typical taxpayers, because unrealized gains go untaxed. The Jan. 1 residency date is meant to blunt flight.
+- Backers include the state Democratic Party, the California Labor Federation, six Nobel-winning economists and the McClatchy (Sacramento Bee) editorial board.
+
+**Strongest case for no**
+- Hoover Institution economists estimate about $30 billion collected, but a net loss of about $39 billion if billionaire departures erode income-tax revenue. Prop 40's authors dispute this, and the LAO's ongoing-loss estimate is lower.
+- It's one-time money set against ongoing cuts. The Legislature gets wide discretion over spending, and there is legal risk from the retroactive residency date and from valuing private companies.
+- The California Medical Association, Planned Parenthood Affiliates and the California Teachers Association oppose it. So do Gov. Newsom, both gubernatorial candidates, and the LA Times and SF Chronicle editorial boards.
+
+**Claims to treat with caution**
+- The "$100 billion" figure is the authors' own estimate. The net-loss figure comes from Hoover researchers. The "No" campaign is largely funded by billionaires who would owe the tax.
+- Ads saying it threatens ordinary people's retirement savings are overstated. CalMatters' fact-check found the tax applies only to billionaires. The Legislature's power to amend it is real, but expanding it would likely need another statewide vote.
+
+**Practical notes**
+- Props 41 and 42 are billionaire-funded measures that would nullify Prop 40 if they pass with more "yes" votes. Prop 42 would also ban new wealth taxes and retroactive taxes on anyone.
+- Late-October polls (Berkeley IGS 42–50, PPIC 46–52) had Prop 40 trailing. Election Day is Nov. 3, and I found no results yet.
+
+If you tell me what matters most to you (preventing Medi-Cal losses, protecting California's income-tax base, spending guardrails), I can say how the evidence bears on that point.
+
+Further reading:
+- [LAO analysis](https://lao.ca.gov/ballot/2026/prop40-110326.pdf)
+- [CalMatters explainer](https://calmatters.org/politics/2026/10/california-billionaire-tax-explainer/)
+- [CalMatters fact-check on the amendment clause](https://calmatters.org/health/2026/10/prop-40-billionaire-tax-fact-check/)
+- [California Budget & Policy Center brief](https://calbudgetcenter.org/resources/billionaire-tax-explained-what-proposition-40-would-mean-for-california/)
+- [NPR on the two competing economic studies](https://www.wuot.org/2026-11-02/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions)

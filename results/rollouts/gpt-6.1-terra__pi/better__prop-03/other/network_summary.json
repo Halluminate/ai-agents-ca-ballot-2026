@@ -1,0 +1,50 @@
+{
+  "requests": 43,
+  "requests_per_host": {
+    "openrouter.ai": 39,
+    "www.gsb.stanford.edu": 2,
+    "www.ppic.org": 2
+  },
+  "hosts": [
+    "openrouter.ai",
+    "www.gsb.stanford.edu",
+    "www.ppic.org"
+  ],
+  "status_counts": {
+    "200": 43
+  },
+  "bytes_up": 3180840,
+  "bytes_down": 1006979,
+  "wire_bytes": {
+    "harness_to_proxy": 3276852,
+    "proxy_to_harness": 1135226,
+    "proxy_to_internet": 3262076,
+    "internet_to_proxy": 1250392
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 44,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

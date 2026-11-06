@@ -1,0 +1,432 @@
+{
+  "run_id": "sonnet__native__better__p44__r1",
+  "model": "sonnet",
+  "model_id": "anthropic/claude-sonnet-5.5",
+  "pin": "anthropic",
+  "arm": "native",
+  "harness": "claude_code",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "44",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:54:44.620573+00:00",
+  "finished_at": "2026-11-03T12:15:38.580826+00:00",
+  "seconds": 1245.9,
+  "input_tokens": 68528,
+  "output_tokens": 27569,
+  "cached_tokens": 479049,
+  "cost_usd": 1.7021,
+  "cost_source": "reported",
+  "billed_usd": 2.1745328,
+  "searches": [
+    "California Proposition 44 November 2026 ballot",
+    "Prop 44 SEIU-UHW community clinics 90% initiative text \"program services\" federally qualified health centers attorney general penalty shortfall",
+    "Prop 44 clinics editorial board recommendation vote no OR yes Los Angeles Times 2026",
+    "Prop 44 California community clinics study $1.7 billion penalties methodology independent analysis health policy experts",
+    "SEIU-UHW report community clinic executive pay administrative costs surpluses FQHC California Prop 44 evidence",
+    "\"Clinic Funding Accountability and Transparency Act\" text \"mission spend ratio\" initiative 25-0008 oag.ca.gov",
+    "Prop 44 PPIC poll likely voters clinics October 2026 support oppose",
+    "Prop 44 clinics Health Access California OR \"California Labor Federation\" OR \"Newsom\" position oppose OR support SEIU-UHW initiative",
+    "California Primary Care Association lawsuit SEIU-UHW extortion Prop 44 federal complaint withdraw initiative union membership",
+    "Prop 44 90% program spending nonprofit overhead ratio experts \"overhead\" metric flawed OR sensible community health centers California analysis",
+    "Sacramento Bee OR \"San Francisco Chronicle\" OR \"Union-Tribune\" editorial Prop 44 clinics \"vote no\" SEIU-UHW leverage",
+    "Prop 44 supporters independent voices endorse yes on 44 clinic accountability executive pay AltaMed CEO compensation nonprofit clinics surplus",
+    "Prop 44 clinics news November 2 2026 final days campaign Newsom vote no union labor",
+    "latimes.com editorial Proposition 44 community clinics 90% spending endorsement"
+  ],
+  "search_errors": 1,
+  "web_search_requests": 13,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/44/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-44-clinic-funding/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-44",
+    "https://www.feldesman.com/california-proposition-44-what-health-centers-need-to-know/",
+    "https://courthousenews.com/health-clinic-transparency-initiative-to-remain-on-upcoming-california-ballot/",
+    "https://voterguide.sos.ca.gov/propositions/44/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm",
+    "https://www.lao.ca.gov/BallotAnalysis/Initiative/2025-008",
+    "https://calmatters.org/health/2026/10/union-billionaire-prop-44-clinic/",
+    "https://www.kpbs.org/news/politics/2026/09/23/proposition-44-require-more-clinic-spending-on-patient-care",
+    "https://www.hoover.org/proposition-lab-proposition-44",
+    "https://www.nixonpeabody.com/insights/alerts/2026/10/29/californias-proposition-44-potential-big-impacts-for-community-health-centers",
+    "https://www.seiu-uhw.org/prop44/",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-44-health-care-spending",
+    "https://americancommunitymedia.org/health-care/california-prop-44-pits-health-care-groups-against-union/",
+    "https://oag.ca.gov/system/files/initiatives/pdfs/25-0008A1%20%28Clinic%20Funding%20Accountability%29.pdf",
+    "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-44/legal-text/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf",
+    "https://ballotpedia.org/California_Require_Transparency_in_Health_Clinic_Funding_and_Regulate_Use_of_Profits_Initiative_(2026",
+    "https://calmatters.org/commentary/2026/08/proposition-44-destructive-community-clinics/",
+    "https://asamnews.com/2026/11/02/proposition-44-health-clinics-spending/",
+    "https://www.independentnews.com/news/regional_and_ca/why-california-healthcare-workers-and-clinic-boards-clash-over-prop-44/article_c32bd9bb-34e0-48fa-8021-87244ac281c1.html",
+    "https://www.sfexaminer.com/news/public-health/prop-44-divides-community-clinics-and-health-care-union/article_914eeaf8-9803-42ee-ad04-4c039a05cda3.html",
+    "https://californiatoday.com/guides/elections/california-proposition-44-2026/",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-44-california-health-clinic-22433656.php",
+    "https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm",
+    "https://www.kqed.org/news/12102004/prop-44-requires-health-clinics-to-spend-more-on-patient-care"
+  ],
+  "tool_errors": 3,
+  "warnings": [
+    "capture: 11 connections were not readable by the proxy (api.anthropic.com:443, voterguide.sos.ca.gov:443)"
+  ],
+  "network": {
+    "requests": 153,
+    "requests_per_host": {
+      "api.anthropic.com": 75,
+      "openrouter.ai": 53,
+      "calmatters.org": 3,
+      "voterguide.sos.ca.gov": 2,
+      "igs.berkeley.edu": 1,
+      "courthousenews.com": 1,
+      "www.feldesman.com": 1,
+      "www.lao.ca.gov": 1,
+      "www.kpbs.org": 1,
+      "www.hoover.org": 1,
+      "www.nixonpeabody.com": 1,
+      "www.seiu-uhw.org": 1,
+      "laist.com": 1,
+      "americancommunitymedia.org": 1,
+      "oag.ca.gov": 1,
+      "growsf.org": 1,
+      "vig.cdn.sos.ca.gov": 1,
+      "ballotpedia.org": 1,
+      "asamnews.com": 1,
+      "www.independentnews.com": 1,
+      "www.sfexaminer.com": 1,
+      "californiatoday.com": 1,
+      "www.sfchronicle.com": 1,
+      "www.kqed.org": 1
+    },
+    "hosts": [
+      "americancommunitymedia.org",
+      "api.anthropic.com",
+      "asamnews.com",
+      "ballotpedia.org",
+      "californiatoday.com",
+      "calmatters.org",
+      "courthousenews.com",
+      "growsf.org",
+      "igs.berkeley.edu",
+      "laist.com",
+      "oag.ca.gov",
+      "openrouter.ai",
+      "vig.cdn.sos.ca.gov",
+      "voterguide.sos.ca.gov",
+      "www.feldesman.com",
+      "www.hoover.org",
+      "www.independentnews.com",
+      "www.kpbs.org",
+      "www.kqed.org",
+      "www.lao.ca.gov",
+      "www.nixonpeabody.com",
+      "www.seiu-uhw.org",
+      "www.sfchronicle.com",
+      "www.sfexaminer.com"
+    ],
+    "status_counts": {
+      "200": 134,
+      "202": 1,
+      "400": 2,
+      "403": 3,
+      "404": 1
+    },
+    "bytes_up": 5085636,
+    "bytes_down": 3403903,
+    "wire_bytes": {
+      "harness_to_proxy": 5228802,
+      "proxy_to_harness": 3866430,
+      "proxy_to_internet": 5228056,
+      "internet_to_proxy": 3971755
+    },
+    "byte_counter": true,
+    "errors": 27,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "server closed connection"
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "voterguide.sos.ca.gov",
+        "sni": "voterguide.sos.ca.gov",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "voterguide.sos.ca.gov",
+        "sni": "voterguide.sos.ca.gov",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "voterguide.sos.ca.gov",
+        "sni": "voterguide.sos.ca.gov",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "voterguide.sos.ca.gov",
+        "sni": "voterguide.sos.ca.gov",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "server closed connection"
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0002,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0051,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0012,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 15.2043,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0038,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 19.9926,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "voterguide.sos.ca.gov",
+        "port": 443,
+        "sni": "voterguide.sos.ca.gov",
+        "bytes_up": 1590,
+        "bytes_down": 39,
+        "duration": 708.3817,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "voterguide.sos.ca.gov",
+        "port": 443,
+        "sni": "voterguide.sos.ca.gov",
+        "bytes_up": 1590,
+        "bytes_down": 39,
+        "duration": 740.6242,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0016,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 9.9989,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 9.9999,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 81,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:54:44.620573+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:54:44.620573+00:00",
+      "finished_at": "2026-11-03T12:15:38.580826+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

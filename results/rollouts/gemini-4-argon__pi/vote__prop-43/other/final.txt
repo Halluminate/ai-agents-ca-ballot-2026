@@ -1,0 +1,36 @@
+Choosing how to vote on a ballot measure depends on your personal priorities regarding taxation, local government funding, and voting thresholds, so I cannot give a simple "yes" or "no" recommendation. Below is a breakdown of **California Proposition 43** based on the Official Voter Information Guide to help you make your own decision.
+
+---
+
+### What Proposition 43 Does
+Placed on the November 2026 ballot by the state Legislature (ACA 22), Proposition 43 is a constitutional amendment that changes the voter approval threshold for **citizen-initiated local special taxes** (taxes dedicated to a specific purpose, such as funding fire services, roads, or affordable housing).
+
+* **Current Law:** When a local governing body (like a city council or county board of supervisors) places a special tax on the ballot, it requires a **two-thirds (66.7%)** vote to pass. However, due to state court rulings, when citizens place a local special tax on the ballot through signature gathering, it only requires a **simple majority (over 50%)** vote to pass.
+* **Proposed Change:** Beginning January 1, 2027, any new, increased, or extended local special tax proposed by voter initiative would require a **two-thirds vote** to pass, matching the threshold required for government-proposed special taxes. It also clarifies that local voters cannot use the initiative process to impose *ad valorem* (value-based) property taxes beyond existing constitutional limits.
+* **Fiscal Impact:** According to the Legislative Analyst's Office, local government tax revenues could grow more slowly in the future because the higher vote threshold makes it harder to pass certain local taxes.
+
+---
+
+### Why You Might Vote **YES**
+A **YES** vote means voter-proposed local special taxes would require **two-thirds approval** by voters.
+
+* **Closes perceived loopholes in Proposition 13:** Supporters argue that recent court decisions undermined the original intent of Proposition 13 by allowing special interest groups to bypass the two-thirds requirement using citizen initiatives.
+* **Makes it harder to raise local taxes:** Supporters point out that Californians already face high living costs and that local governments have enacted thousands of local sales, parcel, utility, and real estate transfer taxes. Requiring a two-thirds vote helps protect homeowners, renters, and businesses from new tax burdens.
+* **Requires broad community consensus:** Proponents believe that any earmarked tax increase should require broad two-thirds support from the community rather than a simple majority.
+* **Key Supporters:** California Taxpayers Association, Howard Jarvis Taxpayers Association, Family Business Association of California, and California Hispanic Chambers of Commerce.
+
+---
+
+### Why You Might Vote **NO**
+A **NO** vote means voter-proposed local special taxes could continue to be approved by a **simple majority (over 50%)** of voters.
+
+* **Preserves majority rule:** Opponents argue that democracy should operate on majority rule, and that Proposition 43 would allow a minority of just 33.4% of voters to veto local measures supported by up to 66.6% of the community.
+* **Protects funding for essential local services:** Opponents warn that a two-thirds requirement makes it significantly harder for communities to fund local priorities—such as fire protection, 911 emergency response, schools, road repairs, affordable housing, and local healthcare clinics.
+* **Maintains grassroots voter power:** Opponents contend that Proposition 43 does not lower existing taxes, but instead weakens the power of local residents to propose and pass community funding measures at the ballot box.
+* **Key Opponents:** California Professional Firefighters, California Federation of Teachers, Nurse Alliance of SEIU California, and Non-Profit Housing Association of Northern California.
+
+---
+
+### Summary
+* Vote **YES** if you want to make it harder to pass local special taxes by requiring a **two-thirds supermajority** for citizen-initiated tax measures.
+* Vote **NO** if you want to keep the **simple majority (over 50%)** threshold for voters to pass citizen-initiated local special taxes to fund local services.

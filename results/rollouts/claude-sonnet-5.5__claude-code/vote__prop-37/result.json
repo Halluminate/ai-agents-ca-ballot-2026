@@ -1,0 +1,503 @@
+{
+  "run_id": "sonnet__native__vote__p37__r1",
+  "model": "sonnet",
+  "model_id": "anthropic/claude-sonnet-5.5",
+  "pin": "anthropic",
+  "arm": "native",
+  "harness": "claude_code",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "37",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "first_line",
+  "error": "",
+  "started_at": "2026-11-03T11:54:44.616981+00:00",
+  "finished_at": "2026-11-03T12:20:36.169375+00:00",
+  "seconds": 1543.5,
+  "input_tokens": 153332,
+  "output_tokens": 41789,
+  "cached_tokens": 639751,
+  "cost_usd": 2.8395,
+  "cost_source": "reported",
+  "billed_usd": 2.8395113000000007,
+  "searches": [
+    "California Proposition 37 2026 ballot measure",
+    "Prop 37 California 2026 middle-class homeownership $25 billion construction defect liability qualified builder labor standards Hertzberg",
+    "PPIC Proposition 37 homeownership loan how many renters could afford analysis",
+    "Prop 37 editorial endorsement \"Proposition 37\" California homebuyer loan Los Angeles Times OR \"San Diego Union-Tribune\" OR \"Mercury News\" OR \"Sacramento Bee\" 2026",
+    "Hoover Institution Prop 37 California $25 billion bond taxpayer bailout default risk analysis",
+    "\"Middle Class Home Ownership and Family Home Construction Act\" initiative text interest rate shared appreciation CalHFA second mortgage",
+    "Mercury News editorial Prop 37 vote no OR yes homebuyer $25 billion bond",
+    "San Diego Union-Tribune editorial Prop 37 \"gimmick\" homeownership loan",
+    "League of Women Voters California oppose Prop 37 reasons construction defect homebuyers",
+    "Prop 37 poll California likely voters PPIC October 2026 homebuyer loan support",
+    "California Budget & Policy Center Prop 37 \"could have been enacted legislatively\" second mortgage higher interest rates not guaranteed affordable",
+    "Orange County Register editorial Prop 37 \"risky\" $25 billion housing experiment vote no",
+    "Prop 37 construction defect \"qualified builder\" Consumer Attorneys of California condo liability attorney fees cap homeowners rights",
+    "ballotpedia California Proposition 37 2026 loan program middle-income homebuyers initiative amend legislature two-thirds",
+    "California Civil Code 2924.13 foreclosure second mortgage 2025 law what it does",
+    "Prop 37 California economists home prices demand subsidy down payment assistance new construction supply effect critique Terner YIMBY",
+    "Hertzberg Prop 37 UCLA analysis 190,000 homes $150 billion construction Realtors campaign Yes on 37 critics respond",
+    "Prop 37 Newsom endorse California Republican Party position Prop 37 Reform California DeMaio oppose homebuyer loan",
+    "Los Angeles Times editorial board Proposition 37 2026 recommendation homebuyer loan \"Prop. 37\"",
+    "Bay Area News Group Mercury News editorial board \"Prop. 37\" 2026 recommendation",
+    "\"Prop 37\" California Sierra Club OR \"Consumer Attorneys\" OR \"Howard Jarvis\" OR \"CalChamber\" OR \"Chamber of Commerce\" position homebuyer bond 2026",
+    "PPIC McGhee Proposition 37 \"560,000\" down payment assistance entry-level homes eligible renters estimate",
+    "Prop 37 California news November 2 2026 last-minute homebuyer loan voters final days campaign",
+    "Howard Jarvis Taxpayers Association Prop 37 vote no 2026 voting guide foreclosures downturn"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 24,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/37/",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=37&year=2026",
+    "https://www.kqed.org/voterguide/california/proposition-37",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-37-homeowner-loans",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-37-loan-program-for-buying-homes",
+    "https://voterguide.sos.ca.gov/propositions/37/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/37/text-of-proposed-laws.htm",
+    "https://calmatters.org/politics/2026/10/prop-37-explained-homeownership/",
+    "https://calbudgetcenter.org/resources/will-proposition-37-make-homeownership-more-affordable-its-not-guaranteed/",
+    "https://www.hoover.org/proposition-lab-proposition-37",
+    "https://cavotes.org/ballot-measure/2026-prop-37/",
+    "https://calmatters.org/politics/2026/10/prop-37-explained-homeownership/",
+    "https://en.wikipedia.org/wiki/2026_California_Second_Mortgage_Homebuyer_Program_and_Revenue_Bond_Initiative",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-37-loan",
+    "https://hoover-s3-website.s3.us-west-2.amazonaws.com/s3fs-public/2026-10/California%20Decides_Proposition%2037.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37-text-proposed-laws.pdf",
+    "https://www.ppic.org/blog/how-many-might-actually-use-the-down-payment-assistance-in-proposition-37/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-37-homebuyers-loan/",
+    "https://www.yahoo.com/news/politics/articles/prop-37-puts-california-homeownership-173000963.html",
+    "https://my.lwv.org/sites/default/files/nov2026-indepth.pdf",
+    "https://californiatoday.com/guides/elections/2026-california-proposition-37-guide/",
+    "https://kdhnews.com/news/politics/prop-37-offers-25-billion-to-california-homebuyers-to-help-with-a-down-payment-heres/article_628ea367-dce6-53fd-aef9-62b833da4873.html",
+    "https://www.rismedia.com/2026/11/02/california-voters-could-approve-secondary-mortgages-can-the-golden-state-solve-the-housing-crisis/",
+    "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-37/legal-text/",
+    "https://www.kpbs.org/news/politics/2026/10/02/proposition-37-create-low-cost-mortgages-for-homebuyers",
+    "https://cayimby.org/blog/proposition-37-2026/",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-37-housing-home-loans-22422795.php",
+    "https://www.yahoo.com/news/politics/articles/program-california-ballot-could-cut-120000111.html",
+    "https://calbudgetcenter.org/resources/will-proposition-37-make-homeownership-more-affordable-its-not-guaranteed/",
+    "https://www.hoover.org/proposition-lab-proposition-37",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026",
+    "https://www.oaklandreviewofbooks.org/voting-guide-2026/proposition-37-no/",
+    "https://voteyeson37.com/"
+  ],
+  "tool_errors": 3,
+  "warnings": [
+    "capture: 1 connection attempts that ignored the proxy were blocked (claude.exe remote:*:49505 x1)",
+    "capture: 13 connections were not readable by the proxy (api.anthropic.com:443, calbudgetcenter.org:443)"
+  ],
+  "network": {
+    "requests": 191,
+    "requests_per_host": {
+      "api.anthropic.com": 91,
+      "openrouter.ai": 70,
+      "voterguide.sos.ca.gov": 3,
+      "calmatters.org": 3,
+      "igs.berkeley.edu": 2,
+      "www.yahoo.com": 2,
+      "lao.ca.gov": 1,
+      "www.spur.org": 1,
+      "www.kqed.org": 1,
+      "laist.com": 1,
+      "en.wikipedia.org": 1,
+      "hoover-s3-website.s3.us-west-2.amazonaws.com": 1,
+      "vig.cdn.sos.ca.gov": 1,
+      "www.ppic.org": 1,
+      "my.lwv.org": 1,
+      "californiatoday.com": 1,
+      "kdhnews.com": 1,
+      "www.rismedia.com": 1,
+      "growsf.org": 1,
+      "www.kpbs.org": 1,
+      "cayimby.org": 1,
+      "www.sfchronicle.com": 1,
+      "calbudgetcenter.org": 1,
+      "www.hoover.org": 1,
+      "www.oaklandreviewofbooks.org": 1,
+      "voteyeson37.com": 1
+    },
+    "hosts": [
+      "api.anthropic.com",
+      "calbudgetcenter.org",
+      "californiatoday.com",
+      "calmatters.org",
+      "cayimby.org",
+      "en.wikipedia.org",
+      "growsf.org",
+      "hoover-s3-website.s3.us-west-2.amazonaws.com",
+      "igs.berkeley.edu",
+      "kdhnews.com",
+      "laist.com",
+      "lao.ca.gov",
+      "my.lwv.org",
+      "openrouter.ai",
+      "vig.cdn.sos.ca.gov",
+      "voterguide.sos.ca.gov",
+      "voteyeson37.com",
+      "www.hoover.org",
+      "www.kpbs.org",
+      "www.kqed.org",
+      "www.oaklandreviewofbooks.org",
+      "www.ppic.org",
+      "www.rismedia.com",
+      "www.sfchronicle.com",
+      "www.spur.org",
+      "www.yahoo.com"
+    ],
+    "status_counts": {
+      "200": 175,
+      "403": 2,
+      "429": 1
+    },
+    "bytes_up": 6979342,
+    "bytes_down": 7386403,
+    "wire_bytes": {
+      "harness_to_proxy": 7156112,
+      "proxy_to_harness": 8010833,
+      "proxy_to_internet": 7150266,
+      "internet_to_proxy": 8131064
+    },
+    "byte_counter": true,
+    "errors": 32,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "server closed connection"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "The client disconnected during the handshake. If this happens consistently for api.anthropic.com, this may indicate that the client does not trust the proxy's certificate."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/web/domain_info?domain=cavotes.org",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "calmatters.org",
+        "sni": "calmatters.org",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "calmatters.org",
+        "url": "https://calmatters.org/politics/2026/10/prop-37-explained-homeownership/",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "calbudgetcenter.org",
+        "sni": "calbudgetcenter.org",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "calbudgetcenter.org",
+        "sni": "calbudgetcenter.org",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 2611,
+        "duration": 10.2145,
+        "reason": "The client disconnected during the handshake. If this happens consistently for api.anthropic.com, this may indicate that the client does not trust the proxy's certificate."
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 9.9989,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0022,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 9.9998,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1578,
+        "bytes_down": 39,
+        "duration": 24.3761,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.008,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "calbudgetcenter.org",
+        "port": 443,
+        "sni": "calbudgetcenter.org",
+        "bytes_up": 1584,
+        "bytes_down": 39,
+        "duration": 710.616,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0033,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.002,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0014,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.003,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0017,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0018,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "claude.exe",
+        "operation": "network-outbound",
+        "target": "remote:*:49505",
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 1,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 98,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:54:44.616981+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:54:44.616981+00:00",
+      "finished_at": "2026-11-03T12:20:36.169375+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

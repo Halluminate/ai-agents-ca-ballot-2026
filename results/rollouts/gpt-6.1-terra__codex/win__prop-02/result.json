@@ -1,0 +1,90 @@
+{
+  "run_id": "terra__native__win__p2__r1",
+  "model": "terra",
+  "model_id": "gpt-6.1-terra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "2",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:36:40.591476+00:00",
+  "finished_at": "2026-11-03T12:37:14.329326+00:00",
+  "seconds": 31.6,
+  "input_tokens": 18,
+  "output_tokens": 1889,
+  "cached_tokens": 136082,
+  "cost_usd": 0.123,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/2/ California proposition 2 November 2026 ...",
+    "\"Proposition 2\" \"2026\" \"poll\" \"rainy day\" October November California ...",
+    "\"Proposition 2\" \"rainy\" \"2026\" \"poll\" \"61\" \"38\" ...",
+    "\"California\" \"Proposition 2\" \"2026\" \"poll\" rainy day fund -\"proposition 40\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 7,
+    "requests_per_host": {
+      "api.openai.com": 6,
+      "ab.chatgpt.com": 1
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 5,
+      "202": 1
+    },
+    "bytes_up": 897372,
+    "bytes_down": 1053848,
+    "wire_bytes": {
+      "harness_to_proxy": 750719,
+      "proxy_to_harness": 557405,
+      "proxy_to_internet": 750411,
+      "internet_to_proxy": 571341
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 975,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 8,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:36:40.591476+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:36:40.591476+00:00",
+      "finished_at": "2026-11-03T12:37:14.329326+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

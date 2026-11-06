@@ -1,0 +1,56 @@
+I'm not going to give you a bare yes or no on this one. I don't think it's my place to cast your vote on a contested political choice. Here the facts don't settle it either.
+
+It comes down to how you weigh faster approvals against environmental review, public input, and local control. Informed groups are split on exactly that:
+- **Parties:** The California Republican and Democratic parties are on opposite sides.
+- **Newspapers:** The SF Chronicle says no. The Sacramento Bee (McClatchy), San Diego Union-Tribune, and Bay Area News Group say yes.
+- **Neutral:** SPUR, California YIMBY, and YIMBY Action all declined to take a position.
+
+**What it does** (per the Legislative Analyst)
+- It creates an optional fast track for "essential" projects. These are housing, water, clean energy, clinics, fire and police stations, wildfire prevention, broadband, schools, and transportation. High-speed rail, nuclear, and the Delta tunnel are excluded. Nothing is exempted from CEQA.
+- Environmental impact reports (EIRs) get a 365-business-day cap, and comment periods are capped. Courts must resolve suits within 270 days and can halt only the noncompliant part of a project. Applicants offer a single alternative. Tribal consultation is limited to federally recognized tribes.
+- Initial state and local costs would be in the high tens of millions a year, possibly over $100M, partly offset by fees. Long-term effects are uncertain in either direction.
+
+**The case for yes:** Supporters say CEQA review and litigation are slow and get used as leverage. This sets hard deadlines for housing and infrastructure, including large sites that 2025's AB 130 doesn't cover. Agencies can still deny projects, and applicants opt in.
+
+**The case for no:** Opponents say it goes beyond deadlines, with narrower court review, applicant-controlled alternatives, and fewer tribes consulted. It also doesn't guarantee lower prices. It would mostly ease new subdivisions and the freeways and water systems that serve them. The Chronicle, which wants CEQA reform, argued it would lock in the wrong version. The Labor Federation, the building trades, and major environmental groups oppose it.
+
+**Still disputed**
+- **Savings:** The $75,000-per-home and $1.5B savings figures come from campaign-linked estimates, not an official agency.
+- **Litigation rates:** Estimates of how often housing is hit with a CEQA suit run from about 2% of projects to about 39% of homes approved in 2020, depending on who counts and how.
+- **Data centers:** The Yes side cites a Legislative Counsel opinion that data centers aren't covered. Opponents say the "ancillary infrastructure" language leaves it open.
+
+**Context**
+- **Money:** As of late October, Yes had raised $45M+ (builders, Realtors, tech investors, utilities). No had raised $30M+ (unions, environmental groups, Wendy Schmidt).
+- **Polling:** PPIC's Oct. 16–22 poll had 46% yes and 50% no, down from 73% yes in July.
+
+**How it maps to your values**
+- If you see CEQA delay as a main obstacle to housing, water, and clean energy, and you accept narrower court review to fix it, that points to **yes**.
+- If you'd rather the Legislature rework CEQA than lock in a Chamber-sponsored initiative, or you worry about sprawl, tribal consultation, or data centers, that points to **no**.
+
+If one of those clearly matters most to you, that's your answer. Tell me which and I'll confirm which way it points.
+
+I couldn't open the full initiative text (the PDF came back unreadable), SPUR's page, or the LAO's PDF. The provision details come from the Secretary of State's LAO analysis and secondary summaries. Polls close at 8 p.m. today.
+
+Sources:
+- [Official voter guide: Prop 45](https://voterguide.sos.ca.gov/propositions/45/)
+- [LAO analysis (Secretary of State)](https://voterguide.sos.ca.gov/propositions/45/analysis.htm)
+- [Arguments and rebuttals](https://voterguide.sos.ca.gov/propositions/45/arguments-rebuttals.htm)
+- [CalMatters voter guide](https://calmatters.org/california-voter-guide-2026/proposition-45-environmental-review/)
+- [CalMatters explainer](https://calmatters.org/environment/2026/10/prop-45-california-ceqa-explained/)
+- [CalMatters on the YIMBY split](https://calmatters.org/newsletter/prop-45-yimby/)
+- [SF Standard on YIMBYs](https://sfstandard.com/2026/10/26/california-prop-45-ceqa-reform-yimbys/)
+- [Global ELR legal summary](https://www.globalelr.com/2026/11/proposition-45-would-establish-new-ceqa-rules-for-essential-projects/)
+- [Ascent practitioner analysis](https://ascent.inc/prop-45/)
+- [California Today guide](https://californiatoday.com/guides/elections/california-ceqa-reform-on-the-ballot-understanding-prop-45s-fast-track-for-essential-projects/)
+- [Press Democrat](https://www.pressdemocrat.com/2026/10/26/prop-45-california-sonoma-county-housing-environment/)
+- [Inside Climate News](https://insideclimatenews.org/news/28102026/california-prop-45-aims-to-weaken-environmental-law/)
+- [Voice of San Diego](https://voiceofsandiego.org/2026/09/28/existential-threat-to-ceqa-or-just-building-stuff-we-need-faster/)
+- [Labor dispute coverage](https://www.yahoo.com/news/politics/articles/jilted-labor-unions-prop-45-120000394.html)
+- [PPIC October 2026 survey](https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/)
+- [SF Chronicle editorial (No)](https://www.sfchronicle.com/opinion/editorials/article/prop-45-ceqa-california-22468905.php)
+- [McClatchy editorial (Yes)](https://www.yahoo.com/news/politics/articles/debate-over-prop-45-california-120000545.html)
+- [Yes campaign's newspaper list (partisan source)](https://yesonprop45.com/newspaper-endorsements/)
+- [SPUR](https://www.spur.org/voter-guide/2026-11/ca-prop-45-environmental-review-ceqa)
+- [California YIMBY](https://cayimby.org/blog/proposition-45-2026/)
+- [Holland & Knight CEQA litigation study](https://www.hklaw.com/en/news/intheheadlines/2022/08/ceqa-lawsuits-challenged-nearly-48000-homes-in-california-in-2020)
+- [Housing Workshop, CEQA by the Numbers](https://rosefdn.org/wp-content/uploads/CEQA-By-the-Numbers-2023-5-5-23-Final.pdf)

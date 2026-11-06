@@ -1,0 +1,294 @@
+{
+  "run_id": "gpt__native__vote__p39__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "39",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:07:25.956000+00:00",
+  "finished_at": "2026-11-03T11:36:17.034840+00:00",
+  "seconds": 1728.8,
+  "input_tokens": 569,
+  "output_tokens": 8030,
+  "cached_tokens": 1183994,
+  "cost_usd": 3.2737,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California 2026 Proposition 39 voter identification initiative Legislative Analyst fiscal analysis identification ...",
+    "site.lao.ca.gov 2026 \"voter\" \"identification\" ...",
+    "'PROPOSITION 39'",
+    "voter identification 2025 2026 initiative ...",
+    "Texas identification mail ballot rejection 2022 2024 research Brennan Center 2023 Fraga Grimmer",
+    "\"Strict ID Laws Don\u2019t Stop Voters\" Cantoni Pons ...",
+    "California 2024 rejected vote by mail ballots signature mismatch 100000 statistics ...",
+    "site.sos.ca.gov 2024 general vote by mail ballot rejection signature mismatch 2024 reasons",
+    "\"voter ID\" \"confidence\" study 2024 2025 2026 journal",
+    "California election voter impersonation fraud cases noncitizen voting 2024 2026 audit evidence",
+    "'Conclusion'",
+    "California voter fraud 2026 \"suspected\" \"citizenship\" audit secretary state ...",
+    "California November 2026 20000 suspected noncitizens inaccurate 73 percent analysis",
+    "2024 general election vote by mail ballot rejection reasons statistics",
+    "California 2024 vote by mail ballot rejection statistics pdf signature"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/39/",
+    "https://voterguide.sos.ca.gov/propositions/39/arguments-rebuttals.htm",
+    "https://www.nber.org/papers/w25522",
+    "https://www.voteridca.org",
+    "https://www.journals.uchicago.edu/doi/10.1086/737439",
+    "https://lao.ca.gov/BallotAnalysis/Initiative/2025-007",
+    "https://grantdemocracy.org/wp-content/uploads/2026/02/Milyo_Does-Voter-ID-Improve-Public-Perceptions-of-the-Integrity-of-Elections3.pdf",
+    "https://www.cambridge.org/core/journals/american-political-science-review/article/procedural-polarization-how-election-rules-shape-voters-confidence/326B065B9A124F105EC84D2AAB75075B",
+    "https://www.justice.gov/usao-cdca/pr/six-additional-foreign-nationals-la-county-who-registered-vote-and-voted-us-elections",
+    "https://www.sos.ca.gov/elections/election-cybersecurity/trusted-information",
+    "https://www.sos.ca.gov/elections/voter-registration/vote-mail"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 7 connections were not readable by the proxy (ab.chatgpt.com:443, api.openai.com:443)"
+  ],
+  "network": {
+    "requests": 55,
+    "requests_per_host": {
+      "api.openai.com": 50,
+      "ab.chatgpt.com": 5
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 43,
+      "202": 4,
+      "500": 1
+    },
+    "bytes_up": 5054571,
+    "bytes_down": 3577122,
+    "wire_bytes": {
+      "harness_to_proxy": 7496495,
+      "proxy_to_harness": 2624659,
+      "proxy_to_internet": 4810484,
+      "internet_to_proxy": 2705497
+    },
+    "byte_counter": true,
+    "errors": 20,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "ab.chatgpt.com",
+        "url": "https://ab.chatgpt.com/otlp/v1/metrics",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "ab.chatgpt.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.openai.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "ab.chatgpt.com",
+        "error": null
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.openai.com",
+        "sni": "api.openai.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "api.openai.com",
+        "url": "https://api.openai.com/v1/responses",
+        "error": "stream reset by client (CANCEL)"
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 95,
+        "bytes_down": 0,
+        "duration": 15.0025,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "ab.chatgpt.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 65,
+        "bytes_down": 0,
+        "duration": 10.0025,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 95,
+        "bytes_down": 0,
+        "duration": 15.0011,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 95,
+        "bytes_down": 0,
+        "duration": 15.0009,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 95,
+        "bytes_down": 0,
+        "duration": 15.0013,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.openai.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 95,
+        "bytes_down": 0,
+        "duration": 15.0145,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "ab.chatgpt.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 65,
+        "bytes_down": 0,
+        "duration": 10.0005,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2659,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 55,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:07:25.956000+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:07:25.956000+00:00",
+      "finished_at": "2026-11-03T11:36:17.034840+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

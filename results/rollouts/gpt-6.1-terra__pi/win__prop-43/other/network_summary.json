@@ -1,0 +1,46 @@
+{
+  "requests": 18,
+  "requests_per_host": {
+    "openrouter.ai": 15,
+    "escholarship.org": 1,
+    "www.cbsnews.com": 1,
+    "cityhallpass.com": 1
+  },
+  "hosts": [
+    "cityhallpass.com",
+    "escholarship.org",
+    "openrouter.ai",
+    "www.cbsnews.com"
+  ],
+  "status_counts": {
+    "200": 17,
+    "403": 1
+  },
+  "bytes_up": 510676,
+  "bytes_down": 363706,
+  "wire_bytes": {
+    "harness_to_proxy": 549088,
+    "proxy_to_harness": 412902,
+    "proxy_to_internet": 543454,
+    "internet_to_proxy": 459954
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 19,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

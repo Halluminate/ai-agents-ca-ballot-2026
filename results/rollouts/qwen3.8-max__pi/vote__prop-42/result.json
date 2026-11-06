@@ -1,0 +1,114 @@
+{
+  "run_id": "qwen-max__common__vote__p42__r1",
+  "model": "qwen-max",
+  "model_id": "qwen/qwen3.8-max-0902",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "42",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "first_line",
+  "error": "",
+  "started_at": "2026-11-03T12:58:10.225464+00:00",
+  "finished_at": "2026-11-03T13:07:14.627905+00:00",
+  "seconds": 541.3,
+  "input_tokens": 112218,
+  "output_tokens": 15360,
+  "cached_tokens": 548096,
+  "cost_usd": 0.5097,
+  "cost_source": "reported",
+  "billed_usd": 0.5096567670399998,
+  "searches": [
+    "California Proposition 42 voterguide.sos.ca.gov",
+    "California Proposition 42 2026 billionaire tax Sergey Brin analysis",
+    "Prop 40 Prop 42 poll California billionaire tax November 2026 survey",
+    "editorial endorsement Prop 42 California 2026 \"no on 42\" OR \"yes on 42\"",
+    "Prop 40 billionaire tax LAO revenue estimate legal challenges capital flight economists analysis 2026",
+    "Los Angeles Times editorial board Proposition 42 recommendation 2026 billionaire tax Prop 40 endorse",
+    "\"Prop 42\" California 2026 would also block vehicle license fee personal property tax beyond wealth tax analysis",
+    "Proposition 30 2012 California income tax increase retroactive January 1 2012 tax year",
+    "Galle Gamage Shanske report Propositions 41 42 \"poison pills\" threats California fiscal future hospital tax Medi-Cal",
+    "\"Prop 42\" California League of Women Voters Common Cause recommendation no 2026 ballot measure personal property",
+    "\"Prop 42\" California 2026 \"yes on 42\" arguments supporters tax policy expert support ban wealth tax constitutional",
+    "Tax Foundation California Proposition 40 wealth tax Jared Walczak Proposition 42 position 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/42/",
+    "https://voterguide.sos.ca.gov/propositions/42/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/42/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-text-proposed-laws.pdf",
+    "https://www.mercurynews.com/2026-10-21/endorsement-reject-california-ballot-propositions-40-41-42-billionaires-tax-ai-inequality/",
+    "https://www.sfchronicle.com/opinion/editorials/article/california-proposition-42-taxes-22449389.php",
+    "https://calmatters.org/politics/2026/10/newsom-tax-propositions-november-election/",
+    "https://www.sfexaminer.com/news/politics/here-s-what-you-should-know-about-prop-42/article_104cd2a1-0906-484e-8ba5-8880aa1a6c5a.html",
+    "https://calbudgetcenter.org/resources/what-would-proposition-42-mean-for-california/",
+    "https://www.sfexaminer.com/news/politics/here-s-what-you-should-know-about-prop-42/article_104cd2a1-0906-484e-8ba5-8880aa1a6c5a.html",
+    "https://calmatters.org/health/2026/10/prop-40-billionaire-tax-fact-check/",
+    "https://scholarship.law.missouri.edu/facpubs/1384/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 24,
+    "requests_per_host": {
+      "openrouter.ai": 24
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 24
+    },
+    "bytes_up": 2701787,
+    "bytes_down": 1908737,
+    "wire_bytes": {
+      "harness_to_proxy": 2756656,
+      "proxy_to_harness": 2088848,
+      "proxy_to_internet": 2748483,
+      "internet_to_proxy": 2149424
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 25,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:58:10.225464+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:58:10.225464+00:00",
+      "finished_at": "2026-11-03T13:07:14.627905+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

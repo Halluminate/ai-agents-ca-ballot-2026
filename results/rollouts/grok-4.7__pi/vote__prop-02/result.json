@@ -1,0 +1,101 @@
+{
+  "run_id": "grok__common__vote__p2__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "2",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:14:37.169833+00:00",
+  "seconds": 99.8,
+  "input_tokens": 75231,
+  "output_tokens": 5805,
+  "cached_tokens": 77568,
+  "cost_usd": 0.2444,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 2 2026 Rainy Day Fund analysis LAO",
+    "ACA 20 2026 California rainy day fund legislative analysis text",
+    "California Proposition 2 2026 rainy day fund Gann Limit editorial endorsement analysis",
+    "LAO recommended California rainy day fund larger than 10 percent reserves target"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/",
+    "https://voterguide.sos.ca.gov/propositions/2/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/title-summary.htm",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-2-rainy",
+    "https://www.lao.ca.gov/BallotAnalysis/Proposition?number=2&year=2026",
+    "https://calbudgetcenter.org/resources/should-voters-approve-proposition-2-how-californias-rainy-day-fund-would-be-updated/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-2-rainy-day-fund/",
+    "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260ACA20",
+    "https://lao.ca.gov/handouts/state_admin/2026/Assembly-Overview-of-ACA20-062426.pdf",
+    "https://calbudgetcenter.org/resources/should-voters-approve-proposition-2-how-californias-rainy-day-fund-would-be-updated/",
+    "https://www.ocregister.com/2026/10/07/endorsement-no-on-prop-2-california-needs-fiscal-discipline-not-accounting-tricks/",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-2-money-california-22468892.php"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 13,
+    "requests_per_host": {
+      "openrouter.ai": 10,
+      "www.lao.ca.gov": 1,
+      "lao.ca.gov": 1,
+      "leginfo.legislature.ca.gov": 1
+    },
+    "hosts": [
+      "lao.ca.gov",
+      "leginfo.legislature.ca.gov",
+      "openrouter.ai",
+      "www.lao.ca.gov"
+    ],
+    "status_counts": {
+      "200": 13
+    },
+    "bytes_up": 664777,
+    "bytes_down": 714156,
+    "wire_bytes": {
+      "harness_to_proxy": 690110,
+      "proxy_to_harness": 770570,
+      "proxy_to_internet": 687177,
+      "internet_to_proxy": 795778
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 13,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

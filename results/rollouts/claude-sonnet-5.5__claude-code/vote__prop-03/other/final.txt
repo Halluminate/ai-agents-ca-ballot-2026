@@ -1,0 +1,51 @@
+I'm not going to give you a bare yes or no. This is a contested tax measure, and the disagreement is mostly about values. The question is how much weight to give stable school and health funding versus keeping top tax rates from becoming permanent. I can't settle that for you, but I did the research, and here is the short version.
+
+**What it does**
+- **Rates:** A Yes makes the Prop 30 (2012) and Prop 55 (2016) top income tax rates permanent. Those are 10.3% to 12.3% on income above about $371k for single filers and $743k for joint filers. If it fails, they expire in 2031 and revert to 9.3% ([LAist](https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-3-income-tax)). It creates no new rate.
+- **Revenue:** The Legislative Analyst's Office (LAO) estimates $5–15B a year, swinging with the stock market. The top 2% of taxpayers pay about half of state income tax. Roughly 40% of the revenue goes to schools and community colleges, and the rest goes to other programs and reserves ([LAO](https://lao.ca.gov/BallotAnalysis/Proposition?number=3&year=2026)).
+- **Combined rate:** With the separate 1% mental-health surcharge on income over $1M, the top combined rate is 13.3%, the highest in the U.S. ([CalMatters](https://calmatters.org/politics/elections/2026/10/prop-3-california/)).
+- **Prop 40:** This is separate from the billionaire tax on the same ballot.
+
+**Strongest case for Yes**
+- **Budget hole:** It extends an existing tax. If the rates lapse, top earners get a rate cut and the state loses $5–15B a year. In May, the administration and LAO already projected structural deficits of roughly $10–14B a year with the tax in place ([LAO](https://lao.ca.gov/Publications/Report/5187)).
+- **Migration:** The "they'll leave" worry may be overstated. Varner and Young estimate each 1-point rate increase after Prop 30 cost about 40 million-dollar earners to net migration ([CalMatters](https://calmatters.org/economy/2023/01/wealth-tax-migration/)).
+- **Accountability:** School funds come with annual audits, open-session spending decisions, and no administrative spending ([legal text](https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-3/legal-text/)). Much of this may carry over from existing law, and I couldn't confirm which parts are new.
+
+**Strongest case for No**
+- **"Temporary" became permanent:** The 2012 increase was sold as lasting seven years, was extended 12 more in 2016, and would now have no end date ([ballot argument](https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm)). Undoing a constitutional amendment takes another statewide vote. A No isn't final either, since CalMatters notes the teachers union would get two more tries before expiration.
+- **Volatile revenue:** LAO warned in May that the revenue boom rests heavily on AI-driven stock valuations. The May budget already uses roughly $20B in reserves.
+- **Behavioral responses:** Rauh and Shyu estimate responses to Prop 30 erased about 45% of the expected new revenue in year one and 61% by year two. Only 9.5% of that came from people leaving ([NBER](https://www.nber.org/papers/w26349)). This conflicts with the Varner and Young findings, though both use state tax data.
+- **Spending versus results:** Per-pupil spending is up 102% since 2013 versus 56% nationally, per Edunomics Lab figures cited in [CalMatters](https://calmatters.org/commentary/2025/02/california-school-grades-spending/). Test scores were flat or down over that period. The measure's rules govern how money is spent, not whether outcomes improve.
+
+**Claims I'd discount**
+- **Size of the school cut:** Sources disagree. The teachers union says 15%, CalMatters says the tax equals 3–10% of K-12 spending, and LAO says only about 40% of the lost revenue would come out of school funding. PolitiFact rated a similar [2016 Prop 55 ad](https://www.politifact.com/factchecks/2016/sep/13/yes-55/yes-55-school-claim-graded-mostly-false) "Mostly False."
+- **"Health care" in the title:** The Budget Center says the Prop 55 Medi-Cal allocation has never actually sent money to Medi-Cal. The benefit is indirect, through freed-up General Fund dollars ([Budget Center](https://calbudgetcenter.org/resources/should-voters-approve-prop-3-how-top-tax-rates-have-helped-californians/)).
+- **Ballot arguments:** No state agency has fact-checked either side's arguments.
+
+**How it maps to your vote**
+- Yes fits if you want a durable dedicated revenue source for schools and Medi-Cal and accept permanent top rates and the volatility.
+- No fits if you think California's rates and spending are already too high, want the sunset to force a re-vote, or doubt that more money is improving schools.
+
+For context, not as a reason: the Yes side has raised about $89M against about $5,500 for the No side ([KQED](https://www.kqed.org/voterguide/california/proposition-3)). PPIC's October poll had it ahead 58–40 ([Yahoo/PPIC](https://www.yahoo.com/news/politics/articles/california-prop-3-tax-top-204145695.html)). Polls close at 8 p.m. today.
+
+**Limits of my research:** I couldn't read the official PDFs, so the legal-text details come from an annotated copy. The per-pupil spending and test-score figures come from search summaries, not full articles. Thresholds, the sunset year, and revenue peaks vary slightly across sources. I also couldn't confirm Governor Newsom's position, because the sources conflicted. If you tell me which of these tradeoffs matters most to you, I can help you work out which way it points.
+
+Sources:
+- [Official voter guide, Prop 3](https://voterguide.sos.ca.gov/propositions/3/)
+- [Official arguments and rebuttals](https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm)
+- [LAO analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=3&year=2026)
+- [LAO May Revision comments](https://lao.ca.gov/Publications/Report/5187)
+- [CalMatters Prop 3 explainer](https://calmatters.org/politics/elections/2026/10/prop-3-california/)
+- [CalMatters Prop 3 guide](https://calmatters.org/california-voter-guide-2026/proposition-3-high-income-tax/)
+- [CalMatters tax-measures overview](https://calmatters.org/politics/2026/10/tax-propositions-ballot-measures/)
+- [CalMatters on millionaire migration](https://calmatters.org/economy/2023/01/wealth-tax-migration/)
+- [CalMatters op-ed by CalTax president](https://calmatters.org/commentary/2026/08/proposition-3-temporary-tax-permanent/)
+- [CalMatters commentary on spending and scores](https://calmatters.org/commentary/2025/02/california-school-grades-spending/)
+- [NBER, Rauh and Shyu](https://www.nber.org/papers/w26349)
+- [California Budget & Policy Center](https://calbudgetcenter.org/resources/should-voters-approve-prop-3-how-top-tax-rates-have-helped-californians/)
+- [SPUR](https://www.spur.org/voter-guide/2026-11/ca-prop-3-high-earner-income-tax-extension)
+- [GrowSF legal text](https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-3/legal-text/)
+- [LAist](https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-3-income-tax)
+- [KQED guide](https://www.kqed.org/voterguide/california/proposition-3)
+- [Yahoo/PPIC poll coverage](https://www.yahoo.com/news/politics/articles/california-prop-3-tax-top-204145695.html)
+- [PolitiFact, 2016 Prop 55 claim](https://www.politifact.com/factchecks/2016/sep/13/yes-55/yes-55-school-claim-graded-mostly-false)

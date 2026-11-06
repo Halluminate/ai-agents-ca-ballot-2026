@@ -1,0 +1,60 @@
+I'm not going to choose Yes or No for you. After going through the research, this comes down to a values tradeoff, and even long-time CEQA reformers who've studied it closely are split. CEQA is the California Environmental Quality Act, the state's environmental review law. Here's a quick way to get to your own answer.
+
+## The quick test
+
+- **Vote YES if** your top priority is getting California to build faster: housing, power lines and clean energy, water, hospitals, schools. You'd accept a broad fix that's hard to change, even though it also speeds up suburban subdivisions and freeway widening and gives the public and courts less say.
+- **Vote NO if** you want CEQA reform but think this version is too broad. It treats city infill the same as building on open land or in fire zones, cuts public and tribal input, and would be hard to fix. You'd rather the Legislature keep making targeted changes like the 2025 law that exempted most city housing.
+
+California YIMBY, a pro-housing group that stayed neutral, summed it up: *"The central question here is how you feel about sprawl."*
+
+## What it actually does
+- **Optional fast track for "essential" projects.** These are housing, clean energy (including power lines, batteries and carbon capture, but not nuclear), water (but not the Delta tunnel), health facilities, fire and police stations, wildfire prevention, broadband, schools, and transportation (including roads, but not high-speed rail). There are **no limits on project size or location**.
+- **Deadlines.** Full environmental reports must be decided within 365 business days (about a year and a half). If an agency misses a deadline, the developer can force a hearing and sue. Developers can also sue over denials or conditions.
+- **Less input.** Public comments are capped at 45 days. The developer proposes the only alternative that gets studied. Only federally recognized tribes must be consulted, which leaves out about 60 tribes that are consulted today.
+- **Weaker lawsuits.** Challenges are limited to breaking "objective existing laws." Courts can't cancel an approval, only pause the part that doesn't comply. These rules also apply to lawsuits already in court.
+- **Hard to change.** The Legislature can amend it only with a two-thirds vote, and only in ways that support its goals.
+- **Cost.** The nonpartisan Legislative Analyst estimates the near-term cost to state and local governments at tens of millions of dollars a year, possibly over $100M, partly covered by fees. The long-term effect could go either way.
+
+## Who's on each side
+- **Yes:**
+  - Sponsors and business: the CA Chamber of Commerce (sponsor), the home builders' association, the CA Republican Party
+  - Hospitals, water utilities, clean-energy industry groups, and former Energy Secretary Jennifer Granholm
+  - Assemblymember Buffy Wicks, the Democrat who wrote the 2025 exemption for city housing
+  - About 26 newspapers, including the Sacramento Bee, Mercury News and San Diego Union-Tribune
+- **No:**
+  - The CA Democratic Party, the state labor federation and construction unions
+  - Most environmental groups, the League of Women Voters, and the nurses' union
+  - Tom Steyer
+  - The SF Chronicle, which called it "poll-tested nonsense in service of sprawl"
+- **Neutral:** Gov. Newsom, SPUR, California YIMBY, YIMBY Action, and Sen. Scott Wiener, who likes the deadlines but objects to speeding up sprawl.
+
+## Claims to take with a grain of salt
+- **Yes side:**
+  - The "$75K cheaper homes" and "20,000 more homes a year" numbers come from the builders' group and a study paid for by the Chamber. Nothing in the measure requires lower prices.
+  - Most city housing already got a CEQA exemption in 2025, which has been used for about 17,900 units. Most of this measure's added housing effect would be on large sites and new subdivisions on open land.
+  - "Keeps every environmental law" is true on paper. But a Berkeley law professor argues it "basically repeals CEQA" for projects that opt in, and a neutral consulting firm says it would substantially cut the risk of lawsuits.
+- **No side:**
+  - "Costs $100M a year" stretches the Legislative Analyst's estimate, which is partly covered by fees and could turn positive over time.
+  - "Fast-tracks data centers" is genuinely disputed. The Legislature's lawyers and the data center industry say they aren't covered. Several environmental lawyers think a court could rule they are.
+
+## Money and polls
+- **Yes, about $43M:** builders, a committee funded largely by Sergey Brin, PG&E, Edison, and about $1M from the state's largest oil producer.
+- **No, about $33.5M:** $10M from Wendy Schmidt, another $7.1M from a group called Clean and Healthy California, and construction unions. The unions also stand to lose CEQA as a bargaining tool in labor negotiations.
+- **Polling (PPIC):** 73% Yes in July, then 46% Yes and 50% No in late October.
+
+## The two judgment calls that decide it
+1. **Is it worth some sprawl?** The same fast track covers city infill and building on open land, power lines and freeway widening. This is exactly where SPUR, California YIMBY and Wiener got stuck.
+2. **Accept flaws now, or wait for a better version?** If it has drafting problems, the two-thirds rule makes them hard to fix, and neutral experts expect lawsuits over its definitions right away. On the other side, the Legislature avoided serious CEQA reform for decades until 2025. UC Davis professor Chris Elmendorf thinks Prop 45 would "blow up" CEQA, but blames environmental groups for refusing to negotiate: "If enviro groups had been willing to engage on CEQA reform legislatively, it never would have happened."
+
+I couldn't open the official text file. The details above are checked against the Legislative Analyst's report and four independent legal analyses.
+
+If you tell me what matters most to you (housing costs, clean energy, open space and wildfire risk, or local control), I'll tell you which vote matches. Election Day is tomorrow, Nov. 3, and polls are open 7 a.m. to 8 p.m.
+
+**Sources:**
+- [SOS Voter Guide – Prop 45](https://voterguide.sos.ca.gov/propositions/45/) · [LAO Analysis](https://voterguide.sos.ca.gov/propositions/45/analysis.htm) · [LAO Analysis (lao.ca.gov)](https://lao.ca.gov/BallotAnalysis/Proposition?number=45&year=2026) · [Arguments & Rebuttals](https://voterguide.sos.ca.gov/propositions/45/arguments-rebuttals.htm)
+- [CalMatters explainer](https://calmatters.org/environment/2026/10/prop-45-california-ceqa-explained/) · [CalMatters voter guide](https://calmatters.org/california-voter-guide-2026/proposition-45-environmental-review/) · [KQED voter guide](https://www.kqed.org/voterguide/california/proposition-45) · [LAist guide](https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-45-environmental-review) · [LAist/CalMatters: pro-housing groups split](https://laist.com/news/housing-homelessness/why-are-pro-housing-groups-split-on-proposition-45)
+- [SPUR](https://www.spur.org/voter-guide/2026-11/ca-prop-45-environmental-review-ceqa) · [California YIMBY](https://cayimby.org/blog/proposition-45-2026/) · [SF Chronicle (Garofoli): many CEQA reformers don't support it](https://www.yahoo.com/news/politics/articles/prop-45-major-changes-ceqa-120000950.html)
+- [Romo Law Group](https://romolawgroup.com/blog/california-proposition-45-ceqa-essential-projects/) · [Arthur Coon, Miller Starr Regalia](https://www.ceqadevelopments.com/2025/12/15/california-chamber-of-commerce-advances-pioneering-initiative-to-amend-ceqa-to-streamline-permitting-and-construction-of-essential-projects/) · [Ascent practitioner view](https://ascent.inc/prop-45/) · [Eric Biber, Legal Planet](http://legal-planet.org/2026/09/14/a-summary-of-baca/) · [Global ELR](https://www.globalelr.com/2026/11/proposition-45-would-establish-new-ceqa-rules-for-essential-projects/)
+- [Data centers (Business Journal/CalMatters)](https://thebusinessjournal.com/proposition-45-california-data-centers-ceqa/) · [Inside Climate News](https://insideclimatenews.org/news/28102026/california-prop-45-aims-to-weaken-environmental-law/) · [Patch on spending](https://patch.com/california/sacramento/what-proposition-45-how-environmental-review-laws-turned-spending-war)
+- [SF Chronicle editorial (No)](https://www.sfchronicle.com/opinion/editorials/article/prop-45-ceqa-california-22468905.php) · [Press Democrat editorial (No)](https://www.pressdemocrat.com/2026/10/21/endorsement-no-on-prop-45-leave-states-landmark-environmental-review-law-alone/) · [CalChamber editorial roundup (Yes)](https://advocacy.calchamber.com/articles/editorial-support-for-proposition-45-continues-to-grow-across-california) · [LA Times letters re: Skelton column](https://www.yahoo.com/news/politics/articles/letters-editor-california-roll-back-120000565.html)
+- [PPIC October 2026 survey](https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/) · [Chris Elmendorf on X](https://x.com/CSElmendorf/status/2106063961707983263) · [Yes on 45](https://yesonprop45.com/) · [No on 45](https://www.noprop45ca.com/get-the-facts)

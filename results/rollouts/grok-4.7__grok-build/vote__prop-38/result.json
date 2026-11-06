@@ -1,0 +1,159 @@
+{
+  "run_id": "grok__native__vote__p38__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "native",
+  "harness": "grok_build",
+  "effort": "xhigh",
+  "prompt": "vote",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:52:15.880762+00:00",
+  "finished_at": "2026-11-03T10:57:24.849929+00:00",
+  "seconds": 305.5,
+  "input_tokens": 51473,
+  "output_tokens": 5345,
+  "cached_tokens": 56192,
+  "cost_usd": 0.1631,
+  "cost_source": "estimated",
+  "billed_usd": 1.1233019999999998,
+  "searches": [
+    "California Proposition 38 2026 voter guide",
+    "California Proposition 38 ballot measure what is it yes or no analysis",
+    "California Proposition 38 2026 Michelson California Institute for Immunology and Immunotherapy analysis criticism",
+    "California Proposition 38 2026 editorial endorsements yes no Chronicle Mercury News LA Times League of Women Voters",
+    "CIRM California stem cell bond royalty returns Proposition 71 fiscal outcome",
+    "Proposition 38 California text of law institute selection criteria Public Records Act exemption site:vig.cdn.sos.ca.gov",
+    "California Institute for Immunology and Immunotherapy Michelson Milken employees facility 2026 Proposition 38"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 0,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/38/",
+    "https://voterguide.sos.ca.gov/propositions/38/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/38/title-summary.htm",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=38&year=2026",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38-text-proposed-laws.pdf",
+    "https://calmatters.org/politics/elections/2026/07/proposition-38-california/",
+    "https://ballotpedia.org/California_Proposition_38,_Immunology_and_Immunotherapy_Research_Funding_Initiative_(2026",
+    "https://calmatters.org/politics/elections/2026/10/prop-38-california/",
+    "https://www.sfchronicle.com/projects/2026/california-sf-election-endorsements/"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 22 connection attempts that ignored the proxy were blocked (grok-1.0.70 network-outbound x22)",
+    "capture: 3 connections were not readable by the proxy (openrouter.ai:443, voterguide.sos.ca.gov:443)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 27,
+    "requests_per_host": {
+      "openrouter.ai": 17,
+      "voterguide.sos.ca.gov": 4,
+      "calmatters.org": 2,
+      "lao.ca.gov": 1,
+      "ballotpedia.org": 1,
+      "vig.cdn.sos.ca.gov": 1,
+      "www.sfchronicle.com": 1
+    },
+    "hosts": [
+      "ballotpedia.org",
+      "calmatters.org",
+      "lao.ca.gov",
+      "openrouter.ai",
+      "vig.cdn.sos.ca.gov",
+      "voterguide.sos.ca.gov",
+      "www.sfchronicle.com"
+    ],
+    "status_counts": {
+      "200": 25,
+      "404": 1
+    },
+    "bytes_up": 465845,
+    "bytes_down": 1989916,
+    "wire_bytes": {
+      "harness_to_proxy": 491726,
+      "proxy_to_harness": 2078922,
+      "proxy_to_internet": 488750,
+      "internet_to_proxy": 2115523
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1102,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "voterguide.sos.ca.gov",
+        "port": 443,
+        "sni": "voterguide.sos.ca.gov",
+        "bytes_up": 2093,
+        "bytes_down": 1718,
+        "duration": 0.1077,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "voterguide.sos.ca.gov",
+        "port": 443,
+        "sni": "voterguide.sos.ca.gov",
+        "bytes_up": 1826,
+        "bytes_down": 3273,
+        "duration": 0.1148,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 22
+      }
+    ],
+    "blocked_attempts": 22,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 16,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:52:15.880762+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:52:15.880762+00:00",
+      "finished_at": "2026-11-03T10:57:24.849929+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

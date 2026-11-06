@@ -1,0 +1,219 @@
+{
+  "run_id": "grok__native__vote__p37__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "native",
+  "harness": "grok_build",
+  "effort": "xhigh",
+  "prompt": "vote",
+  "prop": "37",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:46:31.387787+00:00",
+  "finished_at": "2026-11-03T12:55:59.617538+00:00",
+  "seconds": 565.6,
+  "input_tokens": 153906,
+  "output_tokens": 12645,
+  "cached_tokens": 156928,
+  "cost_usd": 0.4621,
+  "cost_source": "estimated",
+  "billed_usd": 1.670182,
+  "searches": [
+    "California Proposition 37 2026 voter guide",
+    "California Proposition 37 November 2026 what is it",
+    "California Proposition 37 2026 middle income home loan criticism analysis",
+    "Proposition 37 California 2026 ballot measure funding supporters opponents Cal-Access",
+    "California Proposition 37 2026 construction defect qualified builder right to repair analysis criticism",
+    "down payment assistance effect on home prices economic research California housing supply",
+    "FHFA conforming loan limit 2026 California 125 percent Proposition 37 price cap",
+    "CalHFA MyHome Dream For All down payment assistance comparison 2026 interest rates",
+    "California Budget Center Proposition 37 homeownership analysis second mortgage"
+  ],
+  "search_errors": 1,
+  "web_search_requests": 0,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/37/",
+    "https://voterguide.sos.ca.gov/propositions/37/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/37/title-summary.htm",
+    "https://voterguide.sos.ca.gov/propositions/37/arguments-rebuttals.htm",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=37&year=2026",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37-text-proposed-laws.pdf",
+    "https://ballotpedia.org/California_Proposition_37,_Second_Mortgage_Homebuyer_Program_and_Revenue_Bond_Initiative_(2026",
+    "https://voteyeson37.com/",
+    "https://www.hoover.org/proposition-lab-proposition-37",
+    "https://lwvc.org/ballot-recommendations/",
+    "https://www.ocregister.com/2026/09/20/endorsement-no-on-proposition-37-a-risky-25-billion-housing-experiment/",
+    "https://lao.ca.gov/ballot/2026/prop37-110326.pdf",
+    "https://cavotes.org/ballot-measure/2026-prop-37/",
+    "https://www.sfchronicle.com/projects/2026/california-sf-election-endorsements/",
+    "https://www.sandiegouniontribune.com/2026/10/02/endorsements-props-2-37-wouldnt-yield-saner-state-budgets-more-housing/",
+    "https://oag.ca.gov/system/files/initiatives/pdfs/25-0013A1%20%28%26quot%3BCalifornia%20Middle-Class%20Homeownership%20and%20Family%20Home%20Construction%20Act%20of%202026%26quot%3B%29_0.pdf",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-37-housing-home-loans-22422795.php",
+    "https://calbudgetcenter.org/resources/will-proposition-37-make-homeownership-more-affordable-its-not-guaranteed/",
+    "https://www.pacific.edu/sites/default/files/users/user242/proposition-37-2026.pdf"
+  ],
+  "tool_errors": 1,
+  "warnings": [
+    "capture: 29 connection attempts that ignored the proxy were blocked (grok-1.0.70 network-outbound x29)",
+    "capture: 4 connections were not readable by the proxy (openrouter.ai:443, voterguide.sos.ca.gov:443)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 40,
+    "requests_per_host": {
+      "openrouter.ai": 21,
+      "voterguide.sos.ca.gov": 4,
+      "lao.ca.gov": 2,
+      "www.sfchronicle.com": 2,
+      "ballotpedia.org": 1,
+      "voteyeson37.com": 1,
+      "vig.cdn.sos.ca.gov": 1,
+      "www.hoover.org": 1,
+      "lwvc.org": 1,
+      "www.ocregister.com": 1,
+      "cavotes.org": 1,
+      "www.sandiegouniontribune.com": 1,
+      "oag.ca.gov": 1,
+      "calbudgetcenter.org": 1,
+      "www.pacific.edu": 1
+    },
+    "hosts": [
+      "ballotpedia.org",
+      "calbudgetcenter.org",
+      "cavotes.org",
+      "lao.ca.gov",
+      "lwvc.org",
+      "oag.ca.gov",
+      "openrouter.ai",
+      "vig.cdn.sos.ca.gov",
+      "voterguide.sos.ca.gov",
+      "voteyeson37.com",
+      "www.hoover.org",
+      "www.ocregister.com",
+      "www.pacific.edu",
+      "www.sandiegouniontribune.com",
+      "www.sfchronicle.com"
+    ],
+    "status_counts": {
+      "200": 38,
+      "404": 1
+    },
+    "bytes_up": 1326018,
+    "bytes_down": 7188453,
+    "wire_bytes": {
+      "harness_to_proxy": 1384978,
+      "proxy_to_harness": 7373679,
+      "proxy_to_internet": 1380068,
+      "internet_to_proxy": 7446194
+    },
+    "byte_counter": true,
+    "errors": 5,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "voterguide.sos.ca.gov",
+        "port": 443,
+        "sni": "voterguide.sos.ca.gov",
+        "bytes_up": 2093,
+        "bytes_down": 1718,
+        "duration": 0.1027,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "voterguide.sos.ca.gov",
+        "port": 443,
+        "sni": "voterguide.sos.ca.gov",
+        "bytes_up": 1826,
+        "bytes_down": 3273,
+        "duration": 0.1388,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 2069,
+        "bytes_down": 1718,
+        "duration": 0.4376,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 2069,
+        "bytes_down": 1718,
+        "duration": 0.1769,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 29
+      }
+    ],
+    "blocked_attempts": 29,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 32,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:46:31.387787+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:46:31.387787+00:00",
+      "finished_at": "2026-11-03T12:55:59.617538+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

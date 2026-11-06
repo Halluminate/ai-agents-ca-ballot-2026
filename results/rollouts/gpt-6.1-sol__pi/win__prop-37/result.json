@@ -1,0 +1,107 @@
+{
+  "run_id": "sol__common__win__p37__r1",
+  "model": "sol",
+  "model_id": "openai/gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "37",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:51:32.282819+00:00",
+  "finished_at": "2026-11-03T10:52:25.183510+00:00",
+  "seconds": 50.2,
+  "input_tokens": 66082,
+  "output_tokens": 1491,
+  "cached_tokens": 104113,
+  "cost_usd": 0.2208,
+  "cost_source": "reported",
+  "billed_usd": 0.22081026736,
+  "searches": [
+    "California proposition 37 genetically engineered foods labeling results polls 2012",
+    "California 2026 \"25 billion\" \"17%\" homebuyers initiative",
+    "\"Proposition 37\" \"2026\" home",
+    "\"Proposition 37\" \"2026\" poll voters support",
+    "\"Prop. 37\" \"2026\" polling",
+    "\"Proposition 37\" \"October\" \"2026\" \"poll\" \"59%\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/37/",
+    "https://voterguide.sos.ca.gov/propositions/37/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/37/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/37/title-summary.htm",
+    "https://voteyeson37.com/",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-37-creates-loan-program-middle-income-buyers-qualified-new-homes-initiative-statute",
+    "https://calmatters.org/politics/2026/10/prop-37-explained-homeownership/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-37-loan",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-37-homeowner-loans",
+    "https://www.californiachoices.org/proposition-37-2026",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://ballotpedia.org/California_Proposition_37,_Second_Mortgage_Homebuyer_Program_and_Revenue_Bond_Initiative_(2026",
+    "https://calmatters.org/california-voter-guide-2026/proposition-37-homebuyers-loan/",
+    "https://www.innovationopenlab.com/news-biz/74326/tax-the-top-fix-housing-back-becerra-cost-of-living-drives-californias-vote-aimsa-poll-finds.html",
+    "https://calbudgetcenter.org/resources/will-proposition-37-make-homeownership-more-affordable-its-not-guaranteed/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 13,
+    "requests_per_host": {
+      "openrouter.ai": 12,
+      "www.californiachoices.org": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.californiachoices.org"
+    ],
+    "status_counts": {
+      "200": 13
+    },
+    "bytes_up": 786529,
+    "bytes_down": 292211,
+    "wire_bytes": {
+      "harness_to_proxy": 813153,
+      "proxy_to_harness": 333725,
+      "proxy_to_internet": 809162,
+      "internet_to_proxy": 365039
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 13,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:51:32.282819+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:51:32.282819+00:00",
+      "finished_at": "2026-11-03T10:52:25.183510+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

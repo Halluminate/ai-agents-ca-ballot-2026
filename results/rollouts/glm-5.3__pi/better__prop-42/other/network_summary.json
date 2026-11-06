@@ -1,0 +1,60 @@
+{
+  "requests": 24,
+  "requests_per_host": {
+    "openrouter.ai": 21,
+    "www.sos.ca.gov": 1,
+    "www.theatlantic.com": 1,
+    "www.forbes.com": 1
+  },
+  "hosts": [
+    "openrouter.ai",
+    "www.forbes.com",
+    "www.sos.ca.gov",
+    "www.theatlantic.com"
+  ],
+  "status_counts": {
+    "200": 22,
+    "403": 1,
+    "404": 1
+  },
+  "bytes_up": 1748312,
+  "bytes_down": 4886679,
+  "wire_bytes": {
+    "harness_to_proxy": 1800623,
+    "proxy_to_harness": 5175760,
+    "proxy_to_internet": 1793691,
+    "internet_to_proxy": 5231139
+  },
+  "byte_counter": true,
+  "errors": 2,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 25,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

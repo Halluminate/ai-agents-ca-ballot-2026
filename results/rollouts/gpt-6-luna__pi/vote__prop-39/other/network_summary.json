@@ -1,0 +1,91 @@
+{
+  "requests": 82,
+  "requests_per_host": {
+    "openrouter.ai": 60,
+    "www.sos.ca.gov": 4,
+    "selc.senate.ca.gov": 3,
+    "www.brennancenter.org": 2,
+    "www.spur.org": 1,
+    "www.calbudgetcenter.org": 1,
+    "api.drum.lib.umd.edu": 1,
+    "calbudgetcenter.org": 1,
+    "www.voteridca.org": 1,
+    "academic.oup.com": 1,
+    "brookings.edu": 1,
+    "www.lwv.org": 1,
+    "www.brookings.edu": 1,
+    "www.californiapeople.org": 1,
+    "www.justice.gov": 1,
+    "abc7.com": 1,
+    "www.sfchronicle.com": 1
+  },
+  "hosts": [
+    "abc7.com",
+    "academic.oup.com",
+    "api.drum.lib.umd.edu",
+    "brookings.edu",
+    "calbudgetcenter.org",
+    "openrouter.ai",
+    "selc.senate.ca.gov",
+    "www.brennancenter.org",
+    "www.brookings.edu",
+    "www.calbudgetcenter.org",
+    "www.californiapeople.org",
+    "www.justice.gov",
+    "www.lwv.org",
+    "www.sfchronicle.com",
+    "www.sos.ca.gov",
+    "www.spur.org",
+    "www.voteridca.org"
+  ],
+  "status_counts": {
+    "200": 77,
+    "301": 1,
+    "308": 1,
+    "403": 1,
+    "404": 2
+  },
+  "bytes_up": 4072239,
+  "bytes_down": 8435489,
+  "wire_bytes": {
+    "harness_to_proxy": 4247435,
+    "proxy_to_harness": 8766119,
+    "proxy_to_internet": 4223721,
+    "internet_to_proxy": 8966967
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "connect_error",
+      "host": "www.electionlab.mit.edu",
+      "error": null
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "www.electionlab.mit.edu",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 128,
+      "bytes_down": 286,
+      "duration": 0.0611,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 84,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

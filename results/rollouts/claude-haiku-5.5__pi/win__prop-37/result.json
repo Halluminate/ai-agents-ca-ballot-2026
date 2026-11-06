@@ -1,0 +1,121 @@
+{
+  "run_id": "haiku__common__win__p37__r1",
+  "model": "haiku",
+  "model_id": "anthropic/claude-haiku-5.5",
+  "pin": "anthropic",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "37",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:39:28.615254+00:00",
+  "finished_at": "2026-11-03T13:43:32.968295+00:00",
+  "seconds": 241.4,
+  "input_tokens": 191338,
+  "output_tokens": 34467,
+  "cached_tokens": 1973604,
+  "cost_usd": 0.3024,
+  "cost_source": "reported",
+  "billed_usd": 0.30238103,
+  "searches": [
+    "California Proposition 37 2026 homebuyer loan program $25 billion bonds",
+    "voteyeson37 Prop 37 middle-income homebuyers new homes",
+    "Prop 37 poll California middle-class homeownership voters support",
+    "Proposition 37 results California November 2026 homebuyer loan passes or fails",
+    "PPIC statewide survey October 2026 likely voters propositions Proposition 37",
+    "Prop 37 passes California voters approve middle-class homeownership loan",
+    "\"No on 37\" OR \"No on Prop 37\" 2026 opposition campaign California homebuyer bonds",
+    "Berkeley IGS poll 2026 California propositions Prop 37 homebuyer",
+    "California propositions election night results 2026 early returns Prop 1 Prop 37 Prop 40 billionaire tax",
+    "Politico Citrin poll California Prop 37 down payment loans likely voters October 2026",
+    "calmatters Prop 37 homebuyers loan opponents campaign money Hertzberg realtors",
+    "Prop 37 opposition ad campaign late October 2026 homebuyers second mortgage critics warn",
+    "Proposition 37 lawsuit ballot argument voter guide 2026 Sacramento Superior Court homebuyer loan",
+    "Prop 37 campaign spending final week November 2026 California homeownership yes campaign ads millions",
+    "Berkeley IGS poll October 2026 release 2026-22 seven propositions Proposition 3 majority Proposition 40 50% No",
+    "Berkeley IGS poll September 2026 propositions list Proposition 3 4 39 40 41 42 43 measured seven propositions which",
+    "SurveyUSA California poll October 2026 propositions 37 homebuyer down payment bond",
+    "Mason-Dixon NBC Telemundo California poll 2026 Prop 37 homebuyer loan support",
+    "California Proposition 37 approved or defeated November 4 2026 results homebuyer loan measure"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/37/",
+    "https://voteyeson37.com/news-updates/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-37-loan",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026",
+    "https://ballotpedia.org/California_Proposition_37,_Second_Mortgage_Homebuyer_Program_and_Revenue_Bond_Initiative_(2026",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-37-creates-loan-program-middle-income-buyers-qualified-new-homes-initiative-statute",
+    "https://calmatters.org/california-voter-guide-2026/proposition-37-homebuyers-loan/",
+    "https://escholarship.org/content/qt72722408/qt72722408.pdf",
+    "https://escholarship.org/content/qt1vp9q3f9/qt1vp9q3f9.pdf",
+    "https://data.ddhq.io/polls/2026/10/27/SurveyUSA/KGTV-TV/San-Diego-Union-Tribune-California-2026-10-19-2026-10-24",
+    "https://data.ddhq.io/polls/2026/10/27/SurveyUSA/KGTV-TV/San-Diego-Union-Tribune-California-2026-10-19-2026-10-24"
+  ],
+  "tool_errors": 2,
+  "warnings": [
+    "warning: reasoning was not replayed on an assistant turn"
+  ],
+  "network": {
+    "requests": 40,
+    "requests_per_host": {
+      "openrouter.ai": 38,
+      "voteyeson37.com": 1,
+      "escholarship.org": 1
+    },
+    "hosts": [
+      "escholarship.org",
+      "openrouter.ai",
+      "voteyeson37.com"
+    ],
+    "status_counts": {
+      "200": 39,
+      "403": 1
+    },
+    "bytes_up": 6419467,
+    "bytes_down": 730736,
+    "wire_bytes": {
+      "harness_to_proxy": 6496251,
+      "proxy_to_harness": 863182,
+      "proxy_to_internet": 6486363,
+      "internet_to_proxy": 940186
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 33,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:39:28.615254+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:39:28.615254+00:00",
+      "finished_at": "2026-11-03T13:43:32.968295+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

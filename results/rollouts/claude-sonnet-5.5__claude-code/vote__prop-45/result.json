@@ -1,0 +1,397 @@
+{
+  "run_id": "sonnet__native__vote__p45__r1",
+  "model": "sonnet",
+  "model_id": "anthropic/claude-sonnet-5.5",
+  "pin": "anthropic",
+  "arm": "native",
+  "harness": "claude_code",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "45",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T11:54:44.648170+00:00",
+  "finished_at": "2026-11-03T12:06:56.796869+00:00",
+  "seconds": 724.2,
+  "input_tokens": 45278,
+  "output_tokens": 26199,
+  "cached_tokens": 236179,
+  "cost_usd": 1.3413,
+  "cost_source": "reported",
+  "billed_usd": 1.3413074999999999,
+  "searches": [
+    "California Proposition 45 2026 CEQA initiative November ballot",
+    "SPUR recommendation Prop 45 CEQA essential projects November 2026",
+    "Prop 45 CEQA editorial endorsement oppose OR support San Francisco Chronicle Sacramento Bee Los Angeles Times 2026",
+    "Proposition 45 CEQA \"essential projects\" law firm analysis client alert text of initiative \"fullest possible weight\"",
+    "Prop 45 CEQA campaign finance Yes on 45 No on 45 donors raised million utilities Chamber of Commerce",
+    "California YIMBY Prop 45 position housing advocates abundance CEQA Chamber initiative support oppose neutral",
+    "PPIC survey October 2026 Proposition 45 CEQA likely voters support oppose",
+    "Prop 45 labor unions building trades support or oppose California Labor Federation skilled and trained workforce CEQA initiative",
+    "evidence CEQA litigation share of housing projects delays study Terner Center OR Holland Knight OR Public Advocates infill housing lawsuits percent",
+    "Sacramento Bee editorial Prop 45 CEQA \"yes\" McClatchy editorial board October 2026",
+    "San Francisco Chronicle editorial board Prop 45 vote no CEQA \"essential\" projects easier to build damaging"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 11,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/45/",
+    "https://voterguide.sos.ca.gov/propositions/45/analysis.htm",
+    "https://calmatters.org/california-voter-guide-2026/proposition-45-environmental-review/",
+    "https://calmatters.org/environment/2026/10/prop-45-california-ceqa-explained/",
+    "https://lao.ca.gov/ballot/2026/prop45-110326.pdf",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-45-environmental-review-ceqa",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-45",
+    "https://envirovoters.org/what-is-proposition-45/",
+    "https://ascent.inc/proposition-45/",
+    "https://voterguide.sos.ca.gov/propositions/45/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/45/text-proposed-laws.htm",
+    "https://www.sfchronicle.com/politics/joegarofoli/article/prop-45-ceqa-california-22486002.php",
+    "https://davisvanguard.org/2026/10/prop-45-ceqa-debate/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45.pdf",
+    "https://www.globalelr.com/2026/11/proposition-45-would-establish-new-ceqa-rules-for-essential-projects/",
+    "https://ascent.inc/prop-45/",
+    "https://www.pressdemocrat.com/2026/10/26/prop-45-california-sonoma-county-housing-environment/",
+    "https://sfstandard.com/2026/10/26/california-prop-45-ceqa-reform-yimbys/",
+    "https://calmatters.org/newsletter/prop-45-yimby/",
+    "https://insideclimatenews.org/news/28102026/california-prop-45-aims-to-weaken-environmental-law/",
+    "https://californiatoday.com/guides/elections/california-ceqa-reform-on-the-ballot-understanding-prop-45s-fast-track-for-essential-projects/",
+    "https://spectrumlocalnews.com/ca/california/politics/2026/10/30/california-election-prop-45-",
+    "https://voiceofsandiego.org/2026/09/28/existential-threat-to-ceqa-or-just-building-stuff-we-need-faster/",
+    "https://www.yahoo.com/news/politics/articles/jilted-labor-unions-prop-45-120000394.html",
+    "https://yesonprop45.com/newspaper-endorsements/"
+  ],
+  "tool_errors": 5,
+  "warnings": [
+    "capture: 1 connection attempts that ignored the proxy were blocked (claude.exe remote:*:49508 x1)",
+    "capture: 6 connections were not readable by the proxy (api.anthropic.com:443)"
+  ],
+  "network": {
+    "requests": 135,
+    "requests_per_host": {
+      "api.anthropic.com": 71,
+      "openrouter.ai": 44,
+      "voterguide.sos.ca.gov": 4,
+      "calmatters.org": 3,
+      "www.sfchronicle.com": 1,
+      "vig.cdn.sos.ca.gov": 1,
+      "davisvanguard.org": 1,
+      "www.globalelr.com": 1,
+      "ascent.inc": 1,
+      "www.pressdemocrat.com": 1,
+      "sfstandard.com": 1,
+      "insideclimatenews.org": 1,
+      "californiatoday.com": 1,
+      "spectrumlocalnews.com": 1,
+      "voiceofsandiego.org": 1,
+      "www.yahoo.com": 1,
+      "yesonprop45.com": 1
+    },
+    "hosts": [
+      "api.anthropic.com",
+      "ascent.inc",
+      "californiatoday.com",
+      "calmatters.org",
+      "davisvanguard.org",
+      "insideclimatenews.org",
+      "openrouter.ai",
+      "sfstandard.com",
+      "spectrumlocalnews.com",
+      "vig.cdn.sos.ca.gov",
+      "voiceofsandiego.org",
+      "voterguide.sos.ca.gov",
+      "www.globalelr.com",
+      "www.pressdemocrat.com",
+      "www.sfchronicle.com",
+      "www.yahoo.com",
+      "yesonprop45.com"
+    ],
+    "status_counts": {
+      "200": 115,
+      "403": 2
+    },
+    "bytes_up": 3899647,
+    "bytes_down": 2837143,
+    "wire_bytes": {
+      "harness_to_proxy": 4026006,
+      "proxy_to_harness": 3232415,
+      "proxy_to_internet": 4023430,
+      "internet_to_proxy": 3319880
+    },
+    "byte_counter": true,
+    "errors": 30,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/web/domain_info?domain=lao.ca.gov",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/web/domain_info?domain=igs.berkeley.edu",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/web/domain_info?domain=envirovoters.org",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "server closed connection"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 11.85,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1578,
+        "bytes_down": 39,
+        "duration": 18.9825,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1578,
+        "bytes_down": 39,
+        "duration": 26.0598,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 10.4224,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0021,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 18.4539,
+        "reason": "connection closed early"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "claude.exe",
+        "operation": "network-outbound",
+        "target": "remote:*:49508",
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 1,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 67,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:54:44.648170+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:54:44.648170+00:00",
+      "finished_at": "2026-11-03T12:06:56.796869+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

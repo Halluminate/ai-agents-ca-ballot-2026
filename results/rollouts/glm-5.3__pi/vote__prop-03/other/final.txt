@@ -1,0 +1,22 @@
+## My answer: **YES**
+
+### Quick clarification on what this prop is
+The link you shared is the live California voter guide for the **November 3, 2026 election**, so this is Prop 3 (2026) — **not** the 2024 Prop 3 on marriage equality. The 2026 Prop 3 would make permanent the higher state income tax rates on the top ~2% of earners (single filers above ~$371k, joint filers above ~$743k), rates first approved as "temporary" under Prop 30 (2012) and extended by Prop 55 (2016), which otherwise expire after 2030.
+
+### What my research found
+
+**The basics (from the Legislative Analyst's Office):**
+- Maintains **$5–15 billion per year** in state revenue — money that would otherwise vanish in 2031 (revenue fluctuates because it's tied heavily to capital gains/stock market)
+- Roughly 40% flows to K-12 schools and community colleges; the rest effectively supports healthcare (Medi-Cal), and other state services, with excess going to the rainy day fund
+- **No taxpayer's rate goes up** — the bottom 98% of earners are entirely unaffected; a NO vote is functionally a tax cut for the top 2%
+
+**The case for YES:** Schools rely on this revenue (up to ~15% of K-12 funding in flush years), and California already has among the worst student-teacher ratios in the nation (1:22 vs. a 1:15 national average). Letting it expire would blow a $5–15B hole in the budget amid federal Medicaid/education cuts and state deficits, forcing either deep cuts or offsetting taxes (possibly more regressive ones). The measure includes audit/accountability provisions and rainy-day deposits that mitigate the volatility problem.
+
+**The case for NO:** The tax was sold as "temporary" — this is the third extension, and making it permanent breaks that promise. California already has the nation's top income tax rate (13.3%) and highest cost of living. The "every dollar goes to classrooms" ad pitch is oversold (the LA Times notes ~60% effectively funds other general-fund services). Enrollment has declined 500k+ students since the mid-2010s, and opponents argue wealthy-flight and overspending concerns.
+
+**Who's where:** Gov. Newsom, the CA Democratic Party, teachers/nurses/firefighter unions, the state PTA, and the SF Chronicle, Sacramento Bee, and Mercury News editorial boards support it. Taxpayer groups (Howard Jarvis, CalTax) and the OC Register/San Diego Union-Tribune editorial boards oppose it — though the No campaign has raised only ~$5,500 vs. ~$81M for Yes. Polls show it leading ~54–58%.
+
+### Why I landed on YES
+The core question is simple: **should the state structurally lose $5–15 billion a year starting in 2031?** Nobody's taxes rise under this measure, and the revenue underwrites services with documented need (large class sizes, Medi-Cal) at a moment when federal support is being cut. The strongest No argument — that "temporary" should mean temporary — is a legitimate grievance about broken political promises, but it's a process objection that doesn't outweigh the concrete fiscal damage of the revenue loss. Even the contested migration research (Stanford's Rauh & Shyu vs. Young/Varner) shows the tax still nets the state billions annually after behavioral effects, and it's coexisted with 14 years of strong state economic growth. Locking in a stable, progressive revenue stream — with rainy-day buffering built in — is sounder than deliberately inflicting a multi-billion-dollar hole and hoping future legislatures sort it out.
+
+**Vote YES.**

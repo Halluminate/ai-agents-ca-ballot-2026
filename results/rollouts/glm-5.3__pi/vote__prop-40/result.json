@@ -1,0 +1,101 @@
+{
+  "run_id": "glm__common__vote__p40__r1",
+  "model": "glm",
+  "model_id": "z-ai/glm-5.3",
+  "pin": "z-ai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "40",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T10:58:56.110272+00:00",
+  "finished_at": "2026-11-03T11:03:20.829226+00:00",
+  "seconds": 261.8,
+  "input_tokens": 70627,
+  "output_tokens": 11522,
+  "cached_tokens": 239168,
+  "cost_usd": 0.2474,
+  "cost_source": "reported",
+  "billed_usd": 0.24737375448,
+  "searches": [
+    "Prop 40 California Stanford study $25 billion wealth tax billionaires Saez Zucman",
+    "California Proposition 40 billionaire tax 2026 news analysis",
+    "Prop 40 \"Read It For Yourself\" legislative amendment expand tax all Californians legal analysis",
+    "Prop 40 campaign finance Brin contributions No on 40 SEIU funding 2026",
+    "Prop 40 California Teachers Association oppose Prop 98 school funding exemption why",
+    "Prop 40 editorial board Los Angeles Times Chronicle CalMatters recommendation billionaire tax",
+    "\"Proposition 40\" PPIC poll November 2026 latest voters billionaire tax final week"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/40/",
+    "https://voterguide.sos.ca.gov/propositions/40/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/40/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/40/title-summary.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+    "https://laist.com/news/politics/fact-check-could-california-lawmakers-expand-the-billionaire-tax-to-everyone",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+    "https://www.kpbs.org/news/economy/2026/11/02/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions",
+    "https://www.kpbs.org/news/economy/2026/11/02/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions",
+    "https://calmatters.org/politics/2026/10/california-billionaire-tax-explainer/",
+    "https://www.kpbs.org/news/economy/2026/11/02/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 17,
+    "requests_per_host": {
+      "openrouter.ai": 17
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 17
+    },
+    "bytes_up": 1383665,
+    "bytes_down": 4030248,
+    "wire_bytes": {
+      "harness_to_proxy": 1417278,
+      "proxy_to_harness": 4263912,
+      "proxy_to_internet": 1412722,
+      "internet_to_proxy": 4299177
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 16,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:58:56.110272+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:58:56.110272+00:00",
+      "finished_at": "2026-11-03T11:03:20.829226+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

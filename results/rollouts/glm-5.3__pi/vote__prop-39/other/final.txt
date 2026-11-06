@@ -1,0 +1,17 @@
+# Research Summary: Proposition 39 (California, Nov. 2026) — Voter ID
+
+After reviewing the official voter guide, the full text of the proposed constitutional amendment, the Legislative Analyst's report, academic studies, other states' experiences with identical provisions, and campaign finance data, here's what I found:
+
+**What it would do:** Require government-issued ID for every in-person vote; require the last four digits of a designated government ID number on every mail ballot envelope (ballots without it are invalidated); require "best efforts" citizenship verification of voter rolls; create a free state voter ID card; require audits. Cost: tens of millions to low hundreds of millions of dollars annually.
+
+**Key findings from my research:**
+
+- **The problem it targets is nearly nonexistent.** Voter impersonation and noncitizen voting are vanishingly rare — one widely cited study found just 31 credible impersonation cases out of 1+ billion ballots (2000–2014); the Brennan Center found suspected noncitizen votes were 0.0001% of 23.5 million votes surveyed. California already verifies identity at registration (DL/state ID/SSN) and verifies signatures on every mail ballot with a "cure" process.
+- **The best evidence on its signature provision is Texas's near-identical law (SB 1):** mail-ballot rejection rates spiked from ~1% to 12–13%, settled at ~3.5% even after envelope redesigns — roughly 4x California's current 0.9% rate. About 90% of Texas voters whose ballots were rejected never voted at all, with disproportionate impacts on voters of color.
+- **The flagship academic study (Cantoni & Pons, QJE 2021, 1.6 billion observations) found strict ID laws have no effect on turnout — but also no effect on fraud *or public confidence***, undercutting the measure's core "trust" rationale.
+- **Design flaws:** It's a self-executing constitutional amendment with undefined terms (which IDs qualify is left to future legislation), adds an ID-number requirement *on top of* existing signature checks (per the LAO: "additional identifying information"), contains no guaranteed cure process for ID mismatches, and includes a private right of action experts warn could trigger endless litigation. The LAO even notes "savings" would come from fewer people registered.
+- **Funding:** ~$36.5M raised for Yes — dominated by out-of-state GOP megadonors (Richard Uihlein $17M, Joe Gebbia $8M, Winklevoss twins, Nicole Shanahan). ~$33.5M for No, from Democratic-leaning donors and civil rights groups.
+
+**Bottom line:** This measure would cost up to hundreds of millions annually, demonstrably risk rejecting far more valid ballots than the (essentially nonexistent) fraud it would prevent — Texas's real-world experiment with the identical mail-ballot provision proved that — while being locked into the constitution with key details undefined and no evidence it would even improve voter confidence.
+
+# My recommendation: **No**

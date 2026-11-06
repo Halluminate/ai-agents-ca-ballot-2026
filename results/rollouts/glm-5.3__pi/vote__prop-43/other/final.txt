@@ -1,0 +1,45 @@
+I've now researched this thoroughly — the official voter guide, the legislative history, the court cases behind it, the political deal that created it, polling, endorsements, and the editorial boards' reasoning. Here's what I found and how I land.
+
+---
+
+## What Prop 43 actually does
+
+- **The core change:** Today, local "special taxes" (taxes earmarked for a specific purpose like fire, transit, or homelessness) require **two-thirds** voter approval *if proposed by a city council or board*, but only a **simple majority** if placed on the ballot by *citizens gathering signatures*. Prop 43 raises the citizen-initiative route to two-thirds as well, starting January 1, 2027.
+- **It is prospective only** — it doesn't repeal or cut any existing tax (LA's Measure ULA "mansion tax," etc. stay in place).
+- It also constitutionally bars local governments (even via initiative) from imposing new real-property *ad valorem* taxes beyond what's already allowed.
+
+## How it got on your ballot (this matters)
+
+Prop 13 (1978) and Prop 218 (1996) set the two-thirds rule for government-proposed special taxes. In 2017, the California Supreme Court's *Upland* ruling — and later appellate decisions the high court let stand — opened the door for citizen-initiated special taxes to pass with a simple majority. Since then, 25+ such measures have passed below the two-thirds line, including SF's Prop C for homelessness (61%), LA's Measure ULA housing tax (57.8%), Sonoma County's wildfire measure (62%), and LA County's homelessness sales tax.
+
+The Howard Jarvis Taxpayers Association then qualified a far more radical initiative for this ballot — one that would have **retroactively voided** billions in existing local taxes and capped transfer taxes. In a last-minute June 2026 backroom deal, Gov. Newsom, legislative leaders, and Jarvis struck a bargain: Jarvis withdrew the radical measure, and Democrats placed this narrower amendment (ACA 22) on the ballot instead, passing it 35–1 and 68–2 — **notably, Assemblymember Buffy Wicks, who authored it, says she is "adamantly opposed" to it** and is urging a No vote. The Legislature voted for it as a strategic maneuver to kill the worse measure, not out of conviction.
+
+## The case for Yes (steelmanned)
+
+- **Symmetry:** The same tax should face the same bar whether proposed by a council or by petitioners. Otherwise, well-funded groups simply "shop" for the 50% route.
+- **Restores Prop 13/218 as voters originally understood it** before courts carved out the exception.
+- **Taxpayer protection in a high-tax state**, and a check on ballot measures increasingly used as "cash grabs" for public-employee compensation (as the SF Chronicle editorial board observed).
+- Endorsed by: Howard Jarvis Taxpayers Assn., CA Taxpayers Assn., CA Hispanic Chambers of Commerce; editorials from the San Diego U-T, Southern California News Group, and Mercury News.
+
+## The case for No (steelmanned)
+
+- **Minority rule:** Two-thirds means 33.4% of voters can veto what 66.6% want — a No vote counts twice as much as a Yes. When citizens are voting to tax *themselves* for *their own* community's fire stations and schools, majority rule is the appropriate standard; the two-thirds rule was designed as a check on *government*, not on the people's own direct decision.
+- **It doesn't cut anyone's taxes by a penny.** It only blocks future funding — for fire/911 response, wildfire preparedness, homelessness services, parks, healthcare, transit — at exactly the moment state budgets are in deficit and federal cuts (H.R. 1) are hitting local services.
+- **Every recent popular measure between 50% and 66.7% would have died:** Sonoma's wildfire tax (62%), LA's homelessness tax (57.8%), Alameda County's healthcare measure, Fresno parks (52%), even Crockett's $50/year parcel tax for landscaping passed by volunteers (62.8%).
+- **Its provenance is compromised:** the product of a backroom deal, authored by a legislator who opposes it, placed on the ballot expecting voters to kill it.
+- Opposed by: CA Professional Firefighters, CA Federation of Teachers, Nurses Alliance of SEIU, CA Democratic Party, League of Cities, special districts, and many city councils (Berkeley, Long Beach, Inglewood, Glendale). Editorial boards of the Sacramento Bee, Fresno Bee, Modesto Bee, Merced Sun-Star, SLO Tribune, and the LA Times's George Skelton all urge No; the SF Chronicle declined to take a position.
+
+**Polling:** Likely voters are rejecting it — PPIC's final survey had it down 42% Yes / 55% No; UC Berkeley IGS had it 36% Yes / 46% No.
+
+---
+
+## My recommendation: **NO**
+
+Both sides have a real argument — the symmetry point is genuinely appealing, and if your top priority is making tax increases as hard as possible, Yes is a defensible vote. But weighing everything:
+
+1. **The core trade is undemocratic in a way that outweighs the symmetry benefit.** Equalizing upward entrenches a one-third minority veto over local communities taxing themselves — the purest form of self-government there is. If symmetry is the concern, you could equalize downward; Prop 43's answer is always "harder to tax."
+2. **California's local fiscal system is already among the most constrained in the nation** (Prop 13 caps, two-thirds for government-proposed special taxes, Prop 218 fee limits). This closes the last majority-rule pathway for local revenue, right when wildfires, homelessness, and federal cuts make local capacity matter most.
+3. **It delivers nothing to taxpayers now** — no cut, no rebate — only a future veto weapon, while real measures that passed with 52–63% of communities' support would have died.
+4. **Even the people who wrote it don't want it.** It's a tactical artifact of a deal, opposed by its own author, and trailing badly in polls.
+
+**Vote No on Prop 43.**

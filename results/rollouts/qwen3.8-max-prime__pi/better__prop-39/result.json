@@ -1,0 +1,109 @@
+{
+  "run_id": "qwen-max-prime__common__better__p39__r1",
+  "model": "qwen-max-prime",
+  "model_id": "qwen/qwen3.8-max-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "39",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:04:47.225139+00:00",
+  "finished_at": "2026-11-03T13:06:57.110615+00:00",
+  "seconds": 127.0,
+  "input_tokens": 115955,
+  "output_tokens": 5796,
+  "cached_tokens": 634752,
+  "cost_usd": 0.8965,
+  "cost_source": "reported",
+  "billed_usd": 0.8965215499999998,
+  "searches": [
+    "California Proposition 39 voter guide",
+    "Prop 39 California 2026 voter ID \"cure\" mail ballot rejected criticism analysis",
+    "Texas mail ballot rejection rate 2022 ID number requirement 18% Brennan Center study",
+    "Prop 39 California voter ID poll October 2026 IGS PPIC support oppose latest",
+    "Prop 39 California voter ID legal conflict federal law NVRA Help America Vote Act lawsuit analysis 2026",
+    "\"Prop 39\" California 2026 election officials oppose county clerks vote by mail PIN no cure process",
+    "Virginia 2024 voter roll purge 1500 flagged noncitizens 300 US citizens removed Youngkin apology",
+    "judge ruled Yes on Prop 39 ballot argument false misleading Rivas Lim\u00f3n Sacramento superior court August 2026",
+    "research consensus strict voter ID laws effect on turnout meta-analysis minimal suppression evidence",
+    "DOJ lawsuit October 2026 California 20,000 noncitizens registered voters Weber response SAVE data errors"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/39/",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=39&year=2026",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-39-voter",
+    "https://calmatters.org/california-voter-guide-2026/proposition-39-voter-id/",
+    "https://calbudgetcenter.org/resources/proposition-39-explained-what-voter-id-would-mean-for-california/",
+    "https://calbudgetcenter.org/resources/proposition-39-explained-what-voter-id-would-mean-for-california/",
+    "https://voterguide.sos.ca.gov/propositions/39/arguments-rebuttals.htm",
+    "https://calbudgetcenter.org/resources/proposition-39-explained-what-voter-id-would-mean-for-california/",
+    "https://calmatters.org/politics/2026/10/california-election-voter-id-proposition-39/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-text-proposed-laws.pdf",
+    "https://www.sfchronicle.com/politics/article/prop-39-vote-counting-22468723.php",
+    "https://www.latimes.com/california/story/2026-10-31/la-me-all-california-propositions-last-minute-voter-guide",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_39",
+    "https://www.ocregister.com/2026-10-15/endorsement-yes-on-proposition-39/",
+    "https://californiatoday.com/guides/elections/yes-voter-id-laws-are-on-the-california-ballot-proposition-39s-rules-costs-and-court-fights/",
+    "https://www.sacbee.com/opinion/article317017898.html"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 23,
+    "requests_per_host": {
+      "openrouter.ai": 23
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 23
+    },
+    "bytes_up": 3094222,
+    "bytes_down": 767124,
+    "wire_bytes": {
+      "harness_to_proxy": 3141215,
+      "proxy_to_harness": 847352,
+      "proxy_to_internet": 3134696,
+      "internet_to_proxy": 897365
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 21,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:04:47.225139+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:04:47.225139+00:00",
+      "finished_at": "2026-11-03T13:06:57.110615+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "run_id": "qwen-27b__common__better__p37__r1",
+  "model": "qwen-27b",
+  "model_id": "qwen/qwen3.8-27b",
+  "pin": "deepinfra",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "37",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "last_line",
+  "error": "",
+  "started_at": "2026-11-03T13:37:14.536685+00:00",
+  "finished_at": "2026-11-03T13:38:23.281753+00:00",
+  "seconds": 66.0,
+  "input_tokens": 43489,
+  "output_tokens": 3246,
+  "cached_tokens": 62720,
+  "cost_usd": 0.0352,
+  "cost_source": "reported",
+  "billed_usd": 0.03524532607999999,
+  "searches": [
+    "California Proposition 37 voterguide.sos.ca.gov",
+    "California Proposition 37 2026 $25 billion bonds new home buyers loan program",
+    "Prop 37 2026 California criticism \"qualified builder\" construction defect labor standards",
+    "League of Women Voters California Proposition 37 2026 oppose"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/37/",
+    "https://voterguide.sos.ca.gov/propositions/37/analysis.htm",
+    "https://calmatters.org/politics/2026/10/prop-37-explained-homeownership/",
+    "https://calmatters.org/politics/2026/10/prop-37-explained-homeownership/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026",
+    "https://hoover.org/proposition-lab-proposition-37"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 12,
+    "requests_per_host": {
+      "openrouter.ai": 10,
+      "hoover.org": 1,
+      "www.hoover.org": 1
+    },
+    "hosts": [
+      "hoover.org",
+      "openrouter.ai",
+      "www.hoover.org"
+    ],
+    "status_counts": {
+      "200": 11,
+      "301": 1
+    },
+    "bytes_up": 419269,
+    "bytes_down": 1158600,
+    "wire_bytes": {
+      "harness_to_proxy": 440492,
+      "proxy_to_harness": 1244722,
+      "proxy_to_internet": 437849,
+      "internet_to_proxy": 1267908
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 11,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:37:14.536685+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:37:14.536685+00:00",
+      "finished_at": "2026-11-03T13:38:23.281753+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

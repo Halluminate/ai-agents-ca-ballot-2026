@@ -1,0 +1,118 @@
+{
+  "run_id": "gpt__native__win__p39__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "39",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:20:39.348942+00:00",
+  "finished_at": "2026-11-03T12:27:04.827242+00:00",
+  "seconds": 383.2,
+  "input_tokens": 33,
+  "output_tokens": 4520,
+  "cached_tokens": 453796,
+  "cost_usd": 1.9087,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 39 2026 voter ID latest poll October November 2026 ...",
+    "'Proposition 39'",
+    "California Proposition 39 October 2026 Citrin POLITICO poll 51 44 ...",
+    "site.surveyusa.com \"2026\" \"Proposition 39\" ...",
+    "'Dems Remain'",
+    "California Proposition 39 voter ID November 2026 final campaign polling Trump funding no yes October 30"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/39/",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-39-establishes-additional-voter-identification-and-citizenship-verification-requirements-initiative-constitutional-a",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://escholarship.org/content/qt72722408/qt72722408.pdf",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_39",
+    "https://www.surveyusa.com/client/PollPrint.aspx?g=b118a915-559d-4669-b870-8a3eae933903",
+    "https://www.californiachoices.org/california-voter-id-measure-falling-short-new-poll"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 1 connections were not readable by the proxy (ab.chatgpt.com:443)"
+  ],
+  "network": {
+    "requests": 19,
+    "requests_per_host": {
+      "api.openai.com": 17,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 16,
+      "202": 2
+    },
+    "bytes_up": 612942,
+    "bytes_down": 2286924,
+    "wire_bytes": {
+      "harness_to_proxy": 391858,
+      "proxy_to_harness": 1343907,
+      "proxy_to_internet": 389396,
+      "internet_to_proxy": 1376614
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "connect_error",
+        "host": "ab.chatgpt.com",
+        "error": null
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "ab.chatgpt.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 65,
+        "bytes_down": 0,
+        "duration": 9.9959,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2135,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 20,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:20:39.348942+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:20:39.348942+00:00",
+      "finished_at": "2026-11-03T12:27:04.827242+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

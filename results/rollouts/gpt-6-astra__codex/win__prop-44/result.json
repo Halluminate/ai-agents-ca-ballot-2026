@@ -1,0 +1,99 @@
+{
+  "run_id": "gpt__native__win__p44__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "44",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:27:04.850640+00:00",
+  "finished_at": "2026-11-03T12:29:11.900614+00:00",
+  "seconds": 124.7,
+  "input_tokens": 36,
+  "output_tokens": 5201,
+  "cached_tokens": 613619,
+  "cost_usd": 2.1696,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 44 2026 polling community health clinics November ...",
+    "site.ppic.org \"2026\" \"Proposition 44\" ...",
+    "\"Proposition 44\" \"October 2026\" union funding ...",
+    "'1,086'",
+    "site.sacbee.com \"Prop 44\" \"funding\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/44/",
+    "https://www.onpointpolitics.us/forecast/measures/ca/proposition-44",
+    "https://voterguide.sos.ca.gov/propositions/44/analysis.htm",
+    "https://ballotpedia.org/California_Proposition_44,_Spending_Requirements_for_Federally_Qualified_Health_Centers_Initiative_(2026)",
+    "https://yesonprop44.com",
+    "https://calmatters.org/health/2026/10/union-billionaire-prop-44-clinic/",
+    "https://www.aol.com/articles/forgotten-ballot-measure-union-behind-120000000.html"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 22,
+    "requests_per_host": {
+      "api.openai.com": 19,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 18,
+      "202": 3
+    },
+    "bytes_up": 1183999,
+    "bytes_down": 2388704,
+    "wire_bytes": {
+      "harness_to_proxy": 946492,
+      "proxy_to_harness": 1364048,
+      "proxy_to_internet": 944902,
+      "internet_to_proxy": 1400848
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2360,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 21,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:27:04.850640+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:27:04.850640+00:00",
+      "finished_at": "2026-11-03T12:29:11.900614+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "requests": 81,
+  "requests_per_host": {
+    "openrouter.ai": 64,
+    "vigarchive.sos.ca.gov": 3,
+    "lao.ca.gov": 3,
+    "www.latimes.com": 1,
+    "www.ppic.org": 1,
+    "downloads.capta.org": 1,
+    "igs.berkeley.edu": 1,
+    "reason.org": 1,
+    "voterguide.sos.ca.gov": 1,
+    "www.kqed.org": 1,
+    "www.lao.ca.gov": 1,
+    "www.lwvc.org": 1,
+    "lwvc.org": 1,
+    "oag.ca.gov": 1
+  },
+  "hosts": [
+    "downloads.capta.org",
+    "igs.berkeley.edu",
+    "lao.ca.gov",
+    "lwvc.org",
+    "oag.ca.gov",
+    "openrouter.ai",
+    "reason.org",
+    "vigarchive.sos.ca.gov",
+    "voterguide.sos.ca.gov",
+    "www.kqed.org",
+    "www.lao.ca.gov",
+    "www.latimes.com",
+    "www.lwvc.org",
+    "www.ppic.org"
+  ],
+  "status_counts": {
+    "200": 78,
+    "301": 1,
+    "403": 1
+  },
+  "bytes_up": 8250157,
+  "bytes_down": 4546606,
+  "wire_bytes": {
+    "harness_to_proxy": 8426199,
+    "proxy_to_harness": 4825171,
+    "proxy_to_internet": 8401937,
+    "internet_to_proxy": 5021559
+  },
+  "byte_counter": true,
+  "errors": 5,
+  "error_details": [
+    {
+      "kind": "tls_failed_server",
+      "host": "downloads.capta.org",
+      "sni": "downloads.capta.org",
+      "error": "Certificate verify failed: hostname mismatch"
+    },
+    {
+      "kind": "http",
+      "host": "downloads.capta.org",
+      "url": "https://downloads.capta.org/leg/2012_ballotMeasure/Prop38Analysis.pdf",
+      "error": "Certificate verify failed: hostname mismatch"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 80,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

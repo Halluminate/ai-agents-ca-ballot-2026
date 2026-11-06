@@ -1,0 +1,98 @@
+{
+  "run_id": "glm-prime__common__win__p5__r1",
+  "model": "glm-prime",
+  "model_id": "z-ai/glm-5.3-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "5",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "last_line",
+  "error": "",
+  "started_at": "2026-11-03T13:17:48.286353+00:00",
+  "finished_at": "2026-11-03T13:18:40.167397+00:00",
+  "seconds": 49.1,
+  "input_tokens": 23174,
+  "output_tokens": 2646,
+  "cached_tokens": 33792,
+  "cost_usd": 0.1426,
+  "cost_source": "reported",
+  "billed_usd": 0.14260314951999997,
+  "searches": [
+    "California Proposition 5 2024 polling voter support",
+    "\"Proposition 5\" 2026 California recall measure ACA 10 legislative constitutional amendment",
+    "California Proposition 5 2026 recall election process polling voters",
+    "California Prop 5 2026 newspaper editorials endorsements against recall measure",
+    "PPIC poll October 2026 California Proposition 5 recall likely voters no",
+    "Berkeley IGS poll late October 2026 California propositions recall Prop 5",
+    "California Proposition 5 results election November 2026 recall"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/5/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 12,
+    "requests_per_host": {
+      "openrouter.ai": 12
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 12
+    },
+    "bytes_up": 261402,
+    "bytes_down": 564128,
+    "wire_bytes": {
+      "harness_to_proxy": 287249,
+      "proxy_to_harness": 621921,
+      "proxy_to_internet": 283298,
+      "internet_to_proxy": 651431
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 13,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:17:48.286353+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:17:48.286353+00:00",
+      "finished_at": "2026-11-03T13:18:40.167397+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

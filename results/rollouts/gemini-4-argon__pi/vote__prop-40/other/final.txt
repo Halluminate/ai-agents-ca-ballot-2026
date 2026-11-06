@@ -1,0 +1,39 @@
+Deciding how to vote on **California Proposition 40** depends on how you weigh competing priorities around tax policy, healthcare funding, and long-term state budget stability, so it isn't a question that can be answered with a simple "yes" or "no." Below is a breakdown of the measure, its fiscal analysis, and the main arguments on both sides to help you make your decision.
+
+---
+
+### Overview of Proposition 40
+Proposition 40 is an initiative constitutional amendment and statute that would impose a **one-time 5% tax on the net worth of billionaires** (individuals with assets over $1 billion) who were California residents as of January 1, 2026. 
+* **Exclusions & Payment:** Real estate, pensions, and retirement accounts are generally excluded from the net worth calculation. The tax would be due in 2027, with an option for taxpayers to spread payments over five years at an additional cost.
+* **Use of Funds:** 90% of the revenue must be spent on public healthcare services, with the remaining 10% allocated to education, food assistance, and tax administration. The revenues are exempted from existing constitutional spending limits and minimum school funding formulas (Proposition 98).
+
+### Fiscal Impact (Legislative Analyst’s Office)
+* **Temporary Revenue Increase:** Likely to generate tens of billions of dollars in one-time revenue spread over several years, though exact amounts are difficult to predict due to fluctuating stock prices and tax-avoidance strategies.
+* **Potential Ongoing Revenue Loss:** Could reduce ongoing state income tax revenues by less than $1 billion per year if affected billionaires relocate out of California or alter their finances, which would reduce money flowing into the state's General Fund.
+* **Administrative Costs:** Tens of millions of dollars annually for several years to assess and collect the tax, paid out of the revenue raised.
+
+---
+
+### The Case for Voting YES
+A **YES** vote means the state will collect a one-time tax from billionaires equal to 5% of their wealth, primarily to fund healthcare.
+
+* **Offsetting Federal Healthcare Cuts:** Supporters argue the measure will raise roughly $100 billion to replace federal healthcare funding cuts, helping keep local hospitals and emergency rooms open, preserving Medi-Cal coverage, and preventing insurance premium spikes.
+* **Tax Fairness:** Proponents contend that ultra-wealthy residents hold trillions in wealth that often goes untaxed due to loopholes, resulting in lower effective tax rates than what working- and middle-class families pay from their paychecks.
+* **Targeted Scope:** The tax applies strictly to a small group of roughly 200 individuals with over $1 billion in assets rather than middle-class taxpayers.
+* **Notable Supporters:** SEIU-United Healthcare Workers West, California Nurses Association, U.S. Senator Bernie Sanders, and U.S. Representative Ro Khanna.
+
+---
+
+### The Case for Voting NO
+A **NO** vote means the state will not impose the one-time 5% wealth tax on billionaires.
+
+* **Economic & Budget Risks:** Opponents argue that taxing wealth will drive high-earners and businesses out of California. Because top earners already pay a large share of the state's annual income taxes, their departure could create a permanent hole in the state General Fund, hurting ongoing funding for schools, healthcare, and public safety.
+* **Temporary Funding & Lack of Safeguards:** Critics note that a one-time tax does not provide stable, long-term funding for ongoing healthcare programs and lacks strict oversight mechanisms to guarantee the money lowers consumer healthcare costs.
+* **Constitutional Exemptions:** Opponents point out that the measure bypasses voter-approved constitutional guarantees that normally require a share of new state revenues to go to K–14 public schools and community colleges, as well as the state spending limit.
+* **Notable Opponents:** Governor Gavin Newsom, California Teachers Association, California Medical Association, Planned Parenthood Affiliates of California, California Professional Firefighters, State Building and Construction Trades Council of California, and the California Taxpayers Association.
+
+---
+
+### How to Weigh Your Decision
+* You may lean toward **YES** if you believe the wealthiest Californians should pay more to address immediate funding gaps in public healthcare and social services, and you view tax fairness as the top priority.
+* You may lean toward **NO** if you are concerned that a one-time wealth tax will erode California's long-term income tax base, bypass standard school-funding formulas, and fail to provide a sustainable fiscal solution.

@@ -1,0 +1,161 @@
+{
+  "run_id": "sonnet__common__vote__p39__r1",
+  "model": "sonnet",
+  "model_id": "anthropic/claude-sonnet-5.5",
+  "pin": "anthropic",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "39",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T12:37:54.878745+00:00",
+  "finished_at": "2026-11-03T12:44:59.017860+00:00",
+  "seconds": 420.4,
+  "input_tokens": 273532,
+  "output_tokens": 50995,
+  "cached_tokens": 1586173,
+  "cost_usd": 1.4235,
+  "cost_source": "reported",
+  "billed_usd": 1.42350701176,
+  "searches": [
+    "California Proposition 39 voter guide",
+    "CalMatters Proposition 39 voter ID California 2026 what to know",
+    "California voter ID Proposition 39 poll PPIC support oppose 2026",
+    "Proposition 39 voter ID California results election night",
+    "California 2024 general election rejected vote-by-mail ballots signature mismatch number Secretary of State",
+    "Georgia SB 202 absentee ballot ID number replaced signature match rejection rate 2022 2024",
+    "Texas SB1 mail ballot rejection rate ID number 2022 versus 2024 election rejection rate",
+    "editorial board Prop 39 voter ID California endorsement vote yes OR no 2026",
+    "county registrar of voters Prop 39 implementation election officials concerns California voter ID",
+    "Cantoni Pons strict ID laws don't stop voters turnout nationwide panel findings Quarterly Journal of Economics",
+    "Texas mail ballot rejection rate November 2024 general election ID number SB1 rejected percent",
+    "Journal of Politics 2025 Texas SB1 mail ballot ID rejection lowered turnout Miller Shapiro Brennan Center study",
+    "California signature mismatch rejection disparities young voters voters of color USC Center for Inclusive Democracy mail ballot rejection",
+    "does voter ID increase public confidence in elections research study effect on trust 2024 2025",
+    "Prop 39 California voter ID \"fails\" OR \"passes\" OR \"leads\" OR \"trails\" election results November 3 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/39/",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=39&year=2026",
+    "https://voterguide.sos.ca.gov/propositions/39/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-text-proposed-laws.pdf",
+    "https://www.latimes.com/california/story/2026-10-31/la-me-all-california-propositions-last-minute-voter-guide",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-39-voter",
+    "https://www.yahoo.com/news/politics/articles/california-ballot-measures-election-night-184523047.html",
+    "https://www.latimes.com/california/story/2026-10-31/la-me-all-california-propositions-last-minute-voter-guide",
+    "https://calmatters.org/politics/2026/10/california-election-voter-id-proposition-39/",
+    "https://calbudgetcenter.org/resources/proposition-39-explained-what-voter-id-would-mean-for-california/",
+    "https://calbudgetcenter.org/resources/proposition-39-explained-what-voter-id-would-mean-for-california/",
+    "https://www.voteridca.org/",
+    "https://noonprop39.com/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.voteridca.org/faq",
+    "https://noonprop39.com/wp-content/uploads/No-on-Prop-39-Fact-Sheet_updated10192026.pdf",
+    "https://www.ocregister.com/2026/10/15/endorsement-yes-on-proposition-39/",
+    "https://www.sfchronicle.com/opinion/editorials/article/endorsement-proposition-39-voter-fraud-california-22463918.php",
+    "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-39-voting-id-requirements-voter-guide",
+    "https://www.sandiegouniontribune.com/2026/10/26/san-diego-leaders-make-final-push-for-and-against-prop-39-voter-id-measure/",
+    "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-39-voting-id-requirements-voter-guide",
+    "https://www.mercurynews.com/2026/11/02/we-asked-the-yes-on-prop-39-campaign-to-explain-their-push-for-voter-id/",
+    "https://cdce.umd.edu/sites/cdce.umd.edu/files/Who%20Lacks%20ID%20and%20Proof%20of%20Citizenship%20in%20California%20Today_.pdf",
+    "https://www.mercurynews.com/2026/11/02/we-asked-the-yes-on-prop-39-campaign-to-explain-their-push-for-voter-id/",
+    "https://www.mercurynews.com/2026/11/02/we-asked-the-no-on-prop-39-campaign-why-voters-should-reject-the-measure/",
+    "https://www.latimes.com/california/story/2025-05-09/la-times-igs-poll-on-elections-and-voter-id",
+    "https://www.mercurynews.com/2026/11/02/we-asked-the-no-on-prop-39-campaign-why-voters-should-reject-the-measure/",
+    "https://cdce.umd.edu/sites/cdce.umd.edu/files/Who%20Lacks%20ID%20and%20Proof%20of%20Citizenship%20in%20California%20Today_.pdf",
+    "https://www.latimes.com/politics/story/2026-10-20/feds-claim-17-000-other-potential-noncitizen-voters-in-california",
+    "https://www.elexcentral.org/sites/default/files/2026-08/GA_EPC_2026.pdf"
+  ],
+  "tool_errors": 2,
+  "warnings": [],
+  "network": {
+    "requests": 34,
+    "requests_per_host": {
+      "openrouter.ai": 28,
+      "cdce.umd.edu": 2,
+      "www.latimes.com": 2,
+      "noonprop39.com": 1,
+      "www.elexcentral.org": 1
+    },
+    "hosts": [
+      "cdce.umd.edu",
+      "noonprop39.com",
+      "openrouter.ai",
+      "www.elexcentral.org",
+      "www.latimes.com"
+    ],
+    "status_counts": {
+      "200": 32
+    },
+    "bytes_up": 5671067,
+    "bytes_down": 9557970,
+    "wire_bytes": {
+      "harness_to_proxy": 5738729,
+      "proxy_to_harness": 9749270,
+      "proxy_to_internet": 5730271,
+      "internet_to_proxy": 9812040
+    },
+    "byte_counter": true,
+    "errors": 4,
+    "error_details": [
+      {
+        "kind": "tls_failed_server",
+        "host": "cdce.umd.edu",
+        "sni": "cdce.umd.edu",
+        "error": "Certificate verify failed: unable to get local issuer certificate"
+      },
+      {
+        "kind": "http",
+        "host": "cdce.umd.edu",
+        "url": "https://cdce.umd.edu/sites/cdce.umd.edu/files/Who%20Lacks%20ID%20and%20Proof%20of%20Citizenship%20in%20California%20Today_.pdf",
+        "error": "Certificate verify failed: unable to get local issuer certificate"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "cdce.umd.edu",
+        "sni": "cdce.umd.edu",
+        "error": "Certificate verify failed: unable to get local issuer certificate"
+      },
+      {
+        "kind": "http",
+        "host": "cdce.umd.edu",
+        "url": "https://cdce.umd.edu/sites/cdce.umd.edu/files/Who%20Lacks%20ID%20and%20Proof%20of%20Citizenship%20in%20California%20Today_.pdf",
+        "error": "Certificate verify failed: unable to get local issuer certificate"
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 30,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:37:54.878745+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:37:54.878745+00:00",
+      "finished_at": "2026-11-03T12:44:59.017860+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

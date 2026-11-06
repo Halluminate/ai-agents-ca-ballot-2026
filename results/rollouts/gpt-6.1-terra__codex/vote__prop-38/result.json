@@ -1,0 +1,93 @@
+{
+  "run_id": "terra__native__vote__p38__r1",
+  "model": "terra",
+  "model_id": "gpt-6.1-terra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:01:40.479525+00:00",
+  "finished_at": "2026-11-03T11:02:50.225768+00:00",
+  "seconds": 67.7,
+  "input_tokens": 30,
+  "output_tokens": 3837,
+  "cached_tokens": 400897,
+  "cost_usd": 0.2193,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California 2026 proposition 38 election ballot initiative official voter guide ...",
+    "\"Proposition 38\" immunology editorial recommendation no yes 2026 California voters ...",
+    "2026 California prop 38 endorsement yes no editorials immunology biomedical research bonds governor UCLA ...",
+    "\"prop 38\" \"yes\" criticism institute \"three\" response research 2026 ...",
+    "NIH funding California 2026 federal medical research grants cancelled study 2025 2026 NIH cuts California UCLA Berkeley ...",
+    "CIRM \"royalties\" \"2025\" stem cell institute revenue state 2004 ballot 2026 ...",
+    "'130363.'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 12,
+    "requests_per_host": {
+      "api.openai.com": 10,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 9,
+      "202": 2
+    },
+    "bytes_up": 1164293,
+    "bytes_down": 1916683,
+    "wire_bytes": {
+      "harness_to_proxy": 913375,
+      "proxy_to_harness": 1067780,
+      "proxy_to_internet": 912112,
+      "internet_to_proxy": 1089761
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1772,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 12,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:01:40.479525+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:01:40.479525+00:00",
+      "finished_at": "2026-11-03T11:02:50.225768+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

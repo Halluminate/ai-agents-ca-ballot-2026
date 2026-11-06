@@ -1,0 +1,112 @@
+{
+  "run_id": "grok__common__better__p39__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "39",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:50:23.885235+00:00",
+  "seconds": 90.7,
+  "input_tokens": 105538,
+  "output_tokens": 4116,
+  "cached_tokens": 53760,
+  "cost_usd": 0.2931,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 39 2026 voter ID initiative analysis",
+    "California Prop 39 2026 voter identification fiscal impact who lacks ID",
+    "California Prop 39 2026 editorial endorsements yes or no voter ID",
+    "Texas mail ballot rejection rate voter ID number 2022 12 percent",
+    "noncitizen voting California evidence rate Heritage Brennan Center studies voter ID turnout effects meta analysis",
+    "voter identification laws turnout effect systematic review Cantoni Pons Grimmer GAO strict photo ID"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/39/",
+    "https://voterguide.sos.ca.gov/propositions/39/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/39/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/39/title-summary.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-text-proposed-laws.pdf",
+    "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-39-voting-id-requirements-voter-guide",
+    "https://calbudgetcenter.org/news/new-analysis-prop-39-would-create-new-barriers-to-voting-for-millions-of-california-voters",
+    "https://www.sfchronicle.com/opinion/editorials/article/endorsement-proposition-39-voter-fraud-california-22463918.php",
+    "https://www.eastbaytimes.com/2026/10/15/endorsement-reject-proposition-39-voter-id-fraud-ballot-measure/",
+    "https://calbudgetcenter.org/resources/proposition-39-explained-what-voter-id-would-mean-for-california/",
+    "https://www.library.ca.gov/wp-content/uploads/crb-reports/CRB-Voter-Fraud-Presentation-Senate-Elections-2026-04-03.pdf",
+    "https://cdce.umd.edu/sites/cdce.umd.edu/files/Who%20Lacks%20ID%20and%20Proof%20of%20Citizenship%20in%20California%20Today_.pdf"
+  ],
+  "tool_errors": 2,
+  "warnings": [],
+  "network": {
+    "requests": 17,
+    "requests_per_host": {
+      "openrouter.ai": 12,
+      "calbudgetcenter.org": 2,
+      "www.eastbaytimes.com": 1,
+      "www.library.ca.gov": 1,
+      "cdce.umd.edu": 1
+    },
+    "hosts": [
+      "calbudgetcenter.org",
+      "cdce.umd.edu",
+      "openrouter.ai",
+      "www.eastbaytimes.com",
+      "www.library.ca.gov"
+    ],
+    "status_counts": {
+      "200": 14,
+      "301": 1,
+      "403": 1
+    },
+    "bytes_up": 688333,
+    "bytes_down": 309830,
+    "wire_bytes": {
+      "harness_to_proxy": 722625,
+      "proxy_to_harness": 366575,
+      "proxy_to_internet": 717551,
+      "internet_to_proxy": 401998
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "tls_failed_server",
+        "host": "cdce.umd.edu",
+        "sni": "cdce.umd.edu",
+        "error": "Certificate verify failed: unable to get local issuer certificate"
+      },
+      {
+        "kind": "http",
+        "host": "cdce.umd.edu",
+        "url": "https://cdce.umd.edu/sites/cdce.umd.edu/files/Who%20Lacks%20ID%20and%20Proof%20of%20Citizenship%20in%20California%20Today_.pdf",
+        "error": "Certificate verify failed: unable to get local issuer certificate"
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 17,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

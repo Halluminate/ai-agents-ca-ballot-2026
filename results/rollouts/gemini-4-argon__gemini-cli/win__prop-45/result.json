@@ -1,0 +1,99 @@
+{
+  "run_id": "gemini__native__win__p45__r1",
+  "model": "gemini",
+  "model_id": "gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "native",
+  "harness": "gemini_cli",
+  "effort": "high",
+  "prompt": "win",
+  "prop": "45",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:57:06.618847+00:00",
+  "finished_at": "2026-11-03T10:58:42.734314+00:00",
+  "seconds": 94.1,
+  "input_tokens": 28230,
+  "output_tokens": 29305,
+  "cached_tokens": 28617,
+  "cost_usd": 0.1617,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "\"Proposition 45\" California 2026 polling OR polls OR election",
+    "\"Prop 45\" CEQA California 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/45/",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHb_ZtSA1SBk4yAu5T8Qx_Gp8R9YNW9NBuQtkPJcske8ATCfe7QPSQlbTb8wICxb-CIhovktNS0QAN3NsmT_36K7KNG8ih0qES9x22e3HXKVEbci3qvTUvtr5wYM7ox6Frau84hrQlqAuh9hmammsLsJKiuAFL1IIuQ65xFa1130N3kXSRZmGVMDCDUhhawaZi1WMFfwN6PVNMr4oUil6EiYNSTbh0t3OlItAJjCy2_6qi7hFaVhM_h",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQWaFsKJ1ZYCGA55a9HLkxfskEPI5DLElY6ckUDcHoVVdd0tjD8YwBp4zRKWwfI-SlzmMHwrLuMcfpM1o1o3UKe55cVqcxtOTAl2LMzueoOCmzUNQ0oxo2KB9oqGGaZgO1orkxAOJyJBxQpvYgazFPwf9l"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.",
+    "capture: 2 connection attempts that ignored the proxy were blocked (node network-outbound x2)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 8,
+    "requests_per_host": {
+      "generativelanguage.googleapis.com": 8
+    },
+    "hosts": [
+      "generativelanguage.googleapis.com"
+    ],
+    "status_counts": {
+      "200": 8
+    },
+    "bytes_up": 229355,
+    "bytes_down": 28465,
+    "wire_bytes": {
+      "harness_to_proxy": 237859,
+      "proxy_to_harness": 45383,
+      "proxy_to_internet": 237403,
+      "internet_to_proxy": 49834
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "node",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 2
+      }
+    ],
+    "blocked_attempts": 2,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 5,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:57:06.618847+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:57:06.618847+00:00",
+      "finished_at": "2026-11-03T10:58:42.734314+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

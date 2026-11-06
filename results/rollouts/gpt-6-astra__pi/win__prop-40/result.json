@@ -1,0 +1,129 @@
+{
+  "run_id": "gpt__common__win__p40__r1",
+  "model": "gpt",
+  "model_id": "openai/gpt-6-astra",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "40",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:07:47.690849+00:00",
+  "seconds": 69.6,
+  "input_tokens": 87390,
+  "output_tokens": 1860,
+  "cached_tokens": 179340,
+  "cost_usd": 1.4048,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 40 2026 billionaire tax latest poll yes no",
+    "California billionaire tax 2026 poll October November Proposition 40",
+    "California Proposition 40 November 2026 final poll prediction odds campaign spending",
+    "site.ppic.org \"October 2026\" \"40\" \"46\"",
+    "\"Proposition 40\" \"Mason-Dixon\" poll October 2026",
+    "\"Proposition 40\" \"SurveyUSA\" \"2026\"",
+    "\"Proposition 40\" \"November 2\" \"2026\" \"poll\"",
+    "site.calmatters.org \"2026\" \"40\" \"poll\" \"October\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/40/",
+    "https://voterguide.sos.ca.gov/propositions/40/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/40/arguments-rebuttals.htm",
+    "https://escholarship.org/content/qt72722408/qt72722408.pdf",
+    "https://www.sfchronicle.com/politics/article/billionaire-tax-polls-22503108.php",
+    "https://www.cnbc.com/2026/10/22/california-proposition-40-billionaire-tax-wealth.html/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://escholarship.org/uc/item/72722408",
+    "https://www.onpointpolitics.us/forecast/measures/ca/proposition-40",
+    "https://www.politico.com/news/2026/10/19/california-billionaire-tax-poll-01125462",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://data.ddhq.io/polls/2026/10/27/SurveyUSA/KGTV-TV/San-Diego-Union-Tribune-California-2026-10-19-2026-10-24",
+    "https://www.latimes.com/california/story/2026-10-29/support-dwindles-for-wealth-tax-voter-id-ballot-measures-poll-shows",
+    "https://yeson40.com/",
+    "https://votenoon40.org/",
+    "https://www.washingtonpost.com/nation/2026/11/02/californias-mega-rich-vastly-outspend-foes-bid-sink-billionaire-tax/",
+    "https://www.sos.ca.gov/campaign-lobbying/cal-access-resources/measure-contributions/2026-ballot-measure-contribution-totals",
+    "https://kalshi.com/markets/kxcawealthtax/will-the-california-billionaire-wealth-tax-initiative-pass/kxcawealthtax-26"
+  ],
+  "tool_errors": 3,
+  "warnings": [
+    "warning: reasoning was not replayed on an assistant turn"
+  ],
+  "network": {
+    "requests": 24,
+    "requests_per_host": {
+      "openrouter.ai": 15,
+      "escholarship.org": 2,
+      "www.cnbc.com": 2,
+      "www.sfchronicle.com": 1,
+      "www.onpointpolitics.us": 1,
+      "www.politico.com": 1,
+      "votenoon40.org": 1,
+      "kalshi.com": 1
+    },
+    "hosts": [
+      "escholarship.org",
+      "kalshi.com",
+      "openrouter.ai",
+      "votenoon40.org",
+      "www.cnbc.com",
+      "www.onpointpolitics.us",
+      "www.politico.com",
+      "www.sfchronicle.com"
+    ],
+    "status_counts": {
+      "200": 20,
+      "301": 1,
+      "403": 2,
+      "429": 1
+    },
+    "bytes_up": 1132583,
+    "bytes_down": 650339,
+    "wire_bytes": {
+      "harness_to_proxy": 1180785,
+      "proxy_to_harness": 728217,
+      "proxy_to_internet": 1174865,
+      "internet_to_proxy": 783990
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 24,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

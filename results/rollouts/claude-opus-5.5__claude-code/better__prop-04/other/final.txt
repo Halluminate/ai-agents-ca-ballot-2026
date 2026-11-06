@@ -1,0 +1,46 @@
+I won't give you a one-word yes or no on this one. Prop 4 passed the Legislature on a party-line vote, and which way you should vote depends more on your values than on the facts, so I don't think I should steer it. Here's what the research found, condensed so you can decide quickly.
+
+**What it does**
+- It repeals the 1988 ban (Prop 73), so the state, counties, general-law cities and districts would be *allowed* to fund campaigns with public money. Charter cities like LA, SF and Oakland already can.
+- It doesn't create a program or spend any campaign money itself. The direct state cost is a few hundred thousand dollars a year, for the state campaign-finance agency (the FPPC) to answer questions.
+- Any program would have to follow some basic rules:
+  - Candidates must show broad small-donor support and accept spending limits.
+  - No money can come from education, transportation or public-safety funds.
+  - Public money can't pay legal fees or fines, or repay a candidate's personal loans.
+  - Programs can't favor incumbents or parties.
+- It also triples the maximum fines for illegal foreign contributions.
+- It sets no dollar caps, no limit on how many candidates get money, and no required independent enforcement. Each government that adopts a program decides those things, and the FPPC is explicitly not responsible for local programs.
+
+**What the research says about public financing**
+- **Strongest evidence:** more donors and often more candidates. In Seattle's voucher program, donors per race rose 350%, candidates rose 86%, and incumbents won less often. But a federal review of Arizona and Maine found no increase in candidates.
+- **Weak or mixed:** whether it reduces the influence of big donors and special interests. It also does nothing about super PAC spending.
+- **Disputed:** whether it makes the donor pool more diverse, and whether it increases polarization.
+- **Real costs:** LA has paid about $11M in matching funds this cycle. Oakland postponed its program, and Richmond and Sacramento haven't funded theirs, because of budget problems.
+
+**Who's on each side**
+- **Yes:** the CA Democratic Party, Gov. Newsom, League of Women Voters, Common Cause, the nurses' union, SPUR and the Sacramento Bee. The campaign has raised about $1M.
+- **No:** the CA Republican Party, the two big taxpayer groups (CalTax and Howard Jarvis), the Hispanic Chambers of Commerce and a former FPPC chair. Also the editorial boards of the SF Chronicle, Mercury News, San Diego Union-Tribune and OC Register. The Chronicle said it isn't against public financing in principle, just this measure's lack of guardrails and enforcement. No committee has registered to campaign against it.
+- **Polls are close:** 45% yes to 52% no (PPIC, October) and a 41–41 tie (Berkeley IGS, October). Voters rejected lifting the ban in 2000, 2006 and 2010.
+
+**What it comes down to**
+- **Yes** if you think the state and local governments should be allowed to try public financing, as charter cities already do, and you're fine letting each one set its own amounts and safeguards.
+- **No** if you object to tax money funding campaigns at all. Also no if you think a law opening this door should come with firm caps and required independent oversight, since the evidence of benefits is thin.
+
+I couldn't open the official bill-text PDF, so the details of the rules come from the Legislative Analyst's summary and other bill summaries.
+
+Sources:
+- [CA Secretary of State voter guide – Prop 4](https://voterguide.sos.ca.gov/propositions/4/)
+- [LAO analysis](https://voterguide.sos.ca.gov/propositions/4/analysis.htm)
+- [Official arguments & rebuttals](https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm)
+- [CalMatters voter guide](https://calmatters.org/california-voter-guide-2026/proposition-4-public-fundraising/)
+- [CalMatters explainer](https://calmatters.org/politics/2026/10/california-proposition-4-explainer/)
+- [LAist](https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-4)
+- [KQED](https://www.kqed.org/voterguide/california/proposition-4)
+- [SPUR](https://www.spur.org/voter-guide/2026-11/ca-prop-4-campaign-financing)
+- [CityHallPass (endorsements, polls, money)](https://cityhallpass.com/election-2026/measures/prop-04)
+- [SF Chronicle editorial](https://www.sfchronicle.com/opinion/editorials/article/endorsement-prop-4-public-financing-22426379.php)
+- [SB 42 – Digital Democracy](https://calmatters.digitaldemocracy.org/bills/ca_202520260sb42)
+- [UW Seattle voucher study](https://www.washington.edu/news/2022/05/26/seattle-democracy-vouchers-increase-donations-number-of-candidates-in-city-elections/)
+- [APSR: Vouchers don't expand donor diversity](https://www.cambridge.org/core/journals/american-political-science-review/article/campaign-finance-vouchers-do-not-expand-the-diversity-of-donors-evidence-from-seattle/BD8E21A4B646DE4EA56BF8787DF0FF81)
+- [Hall (2014) on polarization](https://stanforddpl.org/papers/hall_public_funding_2014/)
+- [Daily Bruin pro/con](https://dailybruin.com/2026/10/26/a-difference-of-opinion-columnists-should-california-voters-approve-or-oppose-proposition-4)

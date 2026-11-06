@@ -1,0 +1,81 @@
+{
+  "requests": 92,
+  "requests_per_host": {
+    "api.anthropic.com": 37,
+    "openrouter.ai": 35,
+    "voterguide.sos.ca.gov": 4,
+    "calmatters.org": 2,
+    "en.wikipedia.org": 1,
+    "laist.com": 1,
+    "igs.berkeley.edu": 1,
+    "cavotes.org": 1,
+    "leginfo.legislature.ca.gov": 1,
+    "www.spur.org": 1,
+    "thebusinessjournal.com": 1,
+    "www.sfchronicle.com": 1,
+    "www.noprop43ca.com": 1,
+    "www.hjta.org": 1,
+    "www.ppic.org": 1,
+    "wrenews.com": 1,
+    "taxfoundation.org": 1,
+    "berkeleyca.gov": 1
+  },
+  "hosts": [
+    "api.anthropic.com",
+    "berkeleyca.gov",
+    "calmatters.org",
+    "cavotes.org",
+    "en.wikipedia.org",
+    "igs.berkeley.edu",
+    "laist.com",
+    "leginfo.legislature.ca.gov",
+    "openrouter.ai",
+    "taxfoundation.org",
+    "thebusinessjournal.com",
+    "voterguide.sos.ca.gov",
+    "wrenews.com",
+    "www.hjta.org",
+    "www.noprop43ca.com",
+    "www.ppic.org",
+    "www.sfchronicle.com",
+    "www.spur.org"
+  ],
+  "status_counts": {
+    "200": 89,
+    "403": 2
+  },
+  "bytes_up": 3144903,
+  "bytes_down": 3894803,
+  "wire_bytes": {
+    "harness_to_proxy": 3224388,
+    "proxy_to_harness": 4145585,
+    "proxy_to_internet": 3224352,
+    "internet_to_proxy": 4221700
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 41,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

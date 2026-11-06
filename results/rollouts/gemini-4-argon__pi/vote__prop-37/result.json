@@ -1,0 +1,80 @@
+{
+  "run_id": "gemini__common__vote__p37__r1",
+  "model": "gemini",
+  "model_id": "google/gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "37",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "finished_at": "2026-11-03T05:03:31.688145+00:00",
+  "seconds": 95.0,
+  "input_tokens": 37679,
+  "output_tokens": 3039,
+  "cached_tokens": 49153,
+  "cost_usd": 0.1157,
+  "cost_source": "reported",
+  "searches": [
+    "\"voterguide.sos.ca.gov/propositions/37\" OR \"California Proposition 37\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/37/",
+    "https://voterguide.sos.ca.gov/propositions/37/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/37/arguments-rebuttals.htm",
+    "https://californiatoday.com/guides/elections/2026-california-proposition-37-guide/",
+    "https://californiatoday.com/guides/elections/2026-california-proposition-37-guide/",
+    "https://californiatoday.com/guides/elections/2026-california-proposition-37-guide/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-37-homebuyers-loan/",
+    "https://calbudgetcenter.org/resources/will-proposition-37-make-homeownership-more-affordable-its-not-guaranteed/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 6,
+    "requests_per_host": {
+      "openrouter.ai": 6
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 6
+    },
+    "bytes_up": 329229,
+    "bytes_down": 61831,
+    "wire_bytes": {
+      "harness_to_proxy": 342259,
+      "proxy_to_harness": 81937,
+      "proxy_to_internet": 340419,
+      "internet_to_proxy": 95737
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 7,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

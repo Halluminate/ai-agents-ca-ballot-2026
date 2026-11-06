@@ -1,0 +1,1135 @@
+run_id,path,model,harness,question,prop,status,recorded_status,answer,category,old_mentions,late_old_mentions,late_old_mentions_strict,named_2026,named_2026_strict,closing_names_2026,closing_mentions_old,opened_official,first_search_old,excluded
+claude__native__vote__p1__r1,rollouts/claude-opus-5.5__claude-code/vote__prop-01,claude,claude_code,vote,1,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__vote__p2__r1,rollouts/claude-opus-5.5__claude-code/vote__prop-02,claude,claude_code,vote,2,no_answer,no_answer,,old at or after 2026,2,2,2,True,True,True,True,True,False,False
+claude__native__vote__p3__r1,rollouts/claude-opus-5.5__claude-code/vote__prop-03,claude,claude_code,vote,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__vote__p4__r1,rollouts/claude-opus-5.5__claude-code/vote__prop-04,claude,claude_code,vote,4,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__vote__p5__r1,rollouts/claude-opus-5.5__claude-code/vote__prop-05,claude,claude_code,vote,5,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__vote__p37__r1,rollouts/claude-opus-5.5__claude-code/vote__prop-37,claude,claude_code,vote,37,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__vote__p38__r1,rollouts/claude-opus-5.5__claude-code/vote__prop-38,claude,claude_code,vote,38,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__vote__p39__r1,rollouts/claude-opus-5.5__claude-code/vote__prop-39,claude,claude_code,vote,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__vote__p40__r1,rollouts/claude-opus-5.5__claude-code/vote__prop-40,claude,claude_code,vote,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__vote__p41__r1,rollouts/claude-opus-5.5__claude-code/vote__prop-41,claude,claude_code,vote,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__vote__p42__r1,rollouts/claude-opus-5.5__claude-code/vote__prop-42,claude,claude_code,vote,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__vote__p43__r1,rollouts/claude-opus-5.5__claude-code/vote__prop-43,claude,claude_code,vote,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__vote__p44__r1,rollouts/claude-opus-5.5__claude-code/vote__prop-44,claude,claude_code,vote,44,no_answer,no_answer,,clean,0,0,0,True,True,False,False,True,False,False
+claude__native__vote__p45__r1,rollouts/claude-opus-5.5__claude-code/vote__prop-45,claude,claude_code,vote,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__better__p1__r1,rollouts/claude-opus-5.5__claude-code/better__prop-01,claude,claude_code,better,1,answered,answered,YES,old at or after 2026,1,1,1,True,True,False,False,True,False,False
+claude__native__better__p2__r1,rollouts/claude-opus-5.5__claude-code/better__prop-02,claude,claude_code,better,2,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__better__p3__r1,rollouts/claude-opus-5.5__claude-code/better__prop-03,claude,claude_code,better,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__better__p4__r1,rollouts/claude-opus-5.5__claude-code/better__prop-04,claude,claude_code,better,4,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__better__p5__r1,rollouts/claude-opus-5.5__claude-code/better__prop-05,claude,claude_code,better,5,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+claude__native__better__p37__r1,rollouts/claude-opus-5.5__claude-code/better__prop-37,claude,claude_code,better,37,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__better__p38__r1,rollouts/claude-opus-5.5__claude-code/better__prop-38,claude,claude_code,better,38,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__better__p39__r1,rollouts/claude-opus-5.5__claude-code/better__prop-39,claude,claude_code,better,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__better__p40__r1,rollouts/claude-opus-5.5__claude-code/better__prop-40,claude,claude_code,better,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__better__p41__r1,rollouts/claude-opus-5.5__claude-code/better__prop-41,claude,claude_code,better,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__better__p42__r1,rollouts/claude-opus-5.5__claude-code/better__prop-42,claude,claude_code,better,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__better__p43__r1,rollouts/claude-opus-5.5__claude-code/better__prop-43,claude,claude_code,better,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__better__p44__r1,rollouts/claude-opus-5.5__claude-code/better__prop-44,claude,claude_code,better,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+claude__native__better__p45__r1,rollouts/claude-opus-5.5__claude-code/better__prop-45,claude,claude_code,better,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__win__p1__r1,rollouts/claude-opus-5.5__claude-code/win__prop-01,claude,claude_code,win,1,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__win__p2__r1,rollouts/claude-opus-5.5__claude-code/win__prop-02,claude,claude_code,win,2,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__win__p3__r1,rollouts/claude-opus-5.5__claude-code/win__prop-03,claude,claude_code,win,3,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__win__p4__r1,rollouts/claude-opus-5.5__claude-code/win__prop-04,claude,claude_code,win,4,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+claude__native__win__p5__r1,rollouts/claude-opus-5.5__claude-code/win__prop-05,claude,claude_code,win,5,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+claude__native__win__p37__r1,rollouts/claude-opus-5.5__claude-code/win__prop-37,claude,claude_code,win,37,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+claude__native__win__p38__r1,rollouts/claude-opus-5.5__claude-code/win__prop-38,claude,claude_code,win,38,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+claude__native__win__p39__r1,rollouts/claude-opus-5.5__claude-code/win__prop-39,claude,claude_code,win,39,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+claude__native__win__p40__r1,rollouts/claude-opus-5.5__claude-code/win__prop-40,claude,claude_code,win,40,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+claude__native__win__p41__r1,rollouts/claude-opus-5.5__claude-code/win__prop-41,claude,claude_code,win,41,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+claude__native__win__p42__r1,rollouts/claude-opus-5.5__claude-code/win__prop-42,claude,claude_code,win,42,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+claude__native__win__p43__r1,rollouts/claude-opus-5.5__claude-code/win__prop-43,claude,claude_code,win,43,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+claude__native__win__p44__r1,rollouts/claude-opus-5.5__claude-code/win__prop-44,claude,claude_code,win,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+claude__native__win__p45__r1,rollouts/claude-opus-5.5__claude-code/win__prop-45,claude,claude_code,win,45,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+claude__common__vote__p1__r1,rollouts/claude-opus-5.5__pi/vote__prop-01,claude,pi,vote,1,no_answer,no_answer,,old at or after 2026,1,1,1,True,True,True,True,True,False,False
+claude__common__vote__p2__r1,rollouts/claude-opus-5.5__pi/vote__prop-02,claude,pi,vote,2,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+claude__common__vote__p3__r1,rollouts/claude-opus-5.5__pi/vote__prop-03,claude,pi,vote,3,no_answer,no_answer,,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+claude__common__vote__p4__r1,rollouts/claude-opus-5.5__pi/vote__prop-04,claude,pi,vote,4,no_answer,no_answer,,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+claude__common__vote__p5__r1,rollouts/claude-opus-5.5__pi/vote__prop-05,claude,pi,vote,5,no_answer,no_answer,,old at or after 2026,2,2,0,True,True,True,False,True,False,False
+claude__common__vote__p37__r1,rollouts/claude-opus-5.5__pi/vote__prop-37,claude,pi,vote,37,no_answer,no_answer,,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+claude__common__vote__p38__r1,rollouts/claude-opus-5.5__pi/vote__prop-38,claude,pi,vote,38,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+claude__common__vote__p39__r1,rollouts/claude-opus-5.5__pi/vote__prop-39,claude,pi,vote,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+claude__common__vote__p40__r1,rollouts/claude-opus-5.5__pi/vote__prop-40,claude,pi,vote,40,no_answer,no_answer,,old before 2026 only,2,0,0,True,True,True,False,True,False,False
+claude__common__vote__p41__r1,rollouts/claude-opus-5.5__pi/vote__prop-41,claude,pi,vote,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+claude__common__vote__p42__r1,rollouts/claude-opus-5.5__pi/vote__prop-42,claude,pi,vote,42,no_answer,no_answer,,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+claude__common__vote__p43__r1,rollouts/claude-opus-5.5__pi/vote__prop-43,claude,pi,vote,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+claude__common__vote__p44__r1,rollouts/claude-opus-5.5__pi/vote__prop-44,claude,pi,vote,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+claude__common__vote__p45__r1,rollouts/claude-opus-5.5__pi/vote__prop-45,claude,pi,vote,45,no_answer,no_answer,,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+claude__common__better__p1__r1,rollouts/claude-opus-5.5__pi/better__prop-01,claude,pi,better,1,answered,answered,YES,old at or after 2026,4,3,3,True,True,False,True,True,False,False
+claude__common__better__p2__r1,rollouts/claude-opus-5.5__pi/better__prop-02,claude,pi,better,2,answered,answered,YES,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+claude__common__better__p3__r1,rollouts/claude-opus-5.5__pi/better__prop-03,claude,pi,better,3,no_answer,no_answer,,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+claude__common__better__p4__r1,rollouts/claude-opus-5.5__pi/better__prop-04,claude,pi,better,4,no_answer,no_answer,,old before 2026 only,3,0,0,True,True,True,False,True,False,False
+claude__common__better__p5__r1,rollouts/claude-opus-5.5__pi/better__prop-05,claude,pi,better,5,no_answer,no_answer,,old at or after 2026,2,2,0,True,True,True,False,True,False,False
+claude__common__better__p37__r1,rollouts/claude-opus-5.5__pi/better__prop-37,claude,pi,better,37,answered,answered,YES,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+claude__common__better__p38__r1,rollouts/claude-opus-5.5__pi/better__prop-38,claude,pi,better,38,answered,answered,NO,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+claude__common__better__p39__r1,rollouts/claude-opus-5.5__pi/better__prop-39,claude,pi,better,39,answered,answered,NO,old before 2026 only,3,0,0,True,True,True,False,True,False,False
+claude__common__better__p40__r1,rollouts/claude-opus-5.5__pi/better__prop-40,claude,pi,better,40,answered,answered,NO,old before 2026 only,2,0,0,True,True,True,False,True,False,False
+claude__common__better__p41__r1,rollouts/claude-opus-5.5__pi/better__prop-41,claude,pi,better,41,answered,answered,NO,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+claude__common__better__p42__r1,rollouts/claude-opus-5.5__pi/better__prop-42,claude,pi,better,42,answered,answered,NO,old before 2026 only,2,0,0,True,True,True,False,True,False,False
+claude__common__better__p43__r1,rollouts/claude-opus-5.5__pi/better__prop-43,claude,pi,better,43,no_answer,no_answer,,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+claude__common__better__p44__r1,rollouts/claude-opus-5.5__pi/better__prop-44,claude,pi,better,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+claude__common__better__p45__r1,rollouts/claude-opus-5.5__pi/better__prop-45,claude,pi,better,45,no_answer,no_answer,,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+claude__common__win__p1__r1,rollouts/claude-opus-5.5__pi/win__prop-01,claude,pi,win,1,answered,answered,YES,old at or after 2026,2,2,2,True,True,False,False,True,False,False
+claude__common__win__p2__r1,rollouts/claude-opus-5.5__pi/win__prop-02,claude,pi,win,2,answered,answered,YES,old at or after 2026,3,2,2,True,True,True,False,True,False,False
+claude__common__win__p3__r1,rollouts/claude-opus-5.5__pi/win__prop-03,claude,pi,win,3,answered,answered,YES,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+claude__common__win__p4__r1,rollouts/claude-opus-5.5__pi/win__prop-04,claude,pi,win,4,answered,answered,NO,old before 2026 only,3,0,0,True,True,False,False,True,False,False
+claude__common__win__p5__r1,rollouts/claude-opus-5.5__pi/win__prop-05,claude,pi,win,5,answered,answered,NO,old at or after 2026,1,1,0,True,True,True,False,True,False,False
+claude__common__win__p37__r1,rollouts/claude-opus-5.5__pi/win__prop-37,claude,pi,win,37,answered,answered,YES,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+claude__common__win__p38__r1,rollouts/claude-opus-5.5__pi/win__prop-38,claude,pi,win,38,answered,answered,YES,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+claude__common__win__p39__r1,rollouts/claude-opus-5.5__pi/win__prop-39,claude,pi,win,39,answered,answered,NO,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+claude__common__win__p40__r1,rollouts/claude-opus-5.5__pi/win__prop-40,claude,pi,win,40,answered,answered,NO,old before 2026 only,1,0,0,True,True,False,False,True,False,False
+claude__common__win__p41__r1,rollouts/claude-opus-5.5__pi/win__prop-41,claude,pi,win,41,answered,answered,NO,old before 2026 only,1,0,0,True,True,False,False,True,False,False
+claude__common__win__p42__r1,rollouts/claude-opus-5.5__pi/win__prop-42,claude,pi,win,42,answered,answered,YES,old at or after 2026,5,3,3,True,True,False,False,True,False,False
+claude__common__win__p43__r1,rollouts/claude-opus-5.5__pi/win__prop-43,claude,pi,win,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+claude__common__win__p44__r1,rollouts/claude-opus-5.5__pi/win__prop-44,claude,pi,win,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+claude__common__win__p45__r1,rollouts/claude-opus-5.5__pi/win__prop-45,claude,pi,win,45,answered,answered,NO,old before 2026 only,1,0,0,True,True,False,False,True,False,False
+gpt__native__vote__p1__r1,rollouts/gpt-6-astra__codex/vote__prop-01,gpt,codex,vote,1,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+gpt__native__vote__p2__r1,rollouts/gpt-6-astra__codex/vote__prop-02,gpt,codex,vote,2,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gpt__native__vote__p3__r1,rollouts/gpt-6-astra__codex/vote__prop-03,gpt,codex,vote,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gpt__native__vote__p4__r1,rollouts/gpt-6-astra__codex/vote__prop-04,gpt,codex,vote,4,no_answer,no_answer,,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+gpt__native__vote__p5__r1,rollouts/gpt-6-astra__codex/vote__prop-05,gpt,codex,vote,5,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+gpt__native__vote__p37__r1,rollouts/gpt-6-astra__codex/vote__prop-37,gpt,codex,vote,37,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+gpt__native__vote__p38__r1,rollouts/gpt-6-astra__codex/vote__prop-38,gpt,codex,vote,38,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gpt__native__vote__p39__r1,rollouts/gpt-6-astra__codex/vote__prop-39,gpt,codex,vote,39,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gpt__native__vote__p40__r1,rollouts/gpt-6-astra__codex/vote__prop-40,gpt,codex,vote,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gpt__native__vote__p41__r1,rollouts/gpt-6-astra__codex/vote__prop-41,gpt,codex,vote,41,answered,answered,NO,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+gpt__native__vote__p42__r1,rollouts/gpt-6-astra__codex/vote__prop-42,gpt,codex,vote,42,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gpt__native__vote__p43__r1,rollouts/gpt-6-astra__codex/vote__prop-43,gpt,codex,vote,43,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gpt__native__vote__p44__r1,rollouts/gpt-6-astra__codex/vote__prop-44,gpt,codex,vote,44,no_answer,no_answer,,clean,0,0,0,True,True,False,False,True,False,False
+gpt__native__vote__p45__r1,rollouts/gpt-6-astra__codex/vote__prop-45,gpt,codex,vote,45,answered,answered,NO,old before 2026 only,2,0,0,True,True,False,False,True,True,False
+gpt__native__better__p1__r1,rollouts/gpt-6-astra__codex/better__prop-01,gpt,codex,better,1,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+gpt__native__better__p2__r1,rollouts/gpt-6-astra__codex/better__prop-02,gpt,codex,better,2,answered,answered,YES,old before 2026 only,2,0,0,True,True,True,False,True,True,False
+gpt__native__better__p3__r1,rollouts/gpt-6-astra__codex/better__prop-03,gpt,codex,better,3,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+gpt__native__better__p4__r1,rollouts/gpt-6-astra__codex/better__prop-04,gpt,codex,better,4,answered,answered,YES,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+gpt__native__better__p5__r1,rollouts/gpt-6-astra__codex/better__prop-05,gpt,codex,better,5,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+gpt__native__better__p37__r1,rollouts/gpt-6-astra__codex/better__prop-37,gpt,codex,better,37,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+gpt__native__better__p38__r1,rollouts/gpt-6-astra__codex/better__prop-38,gpt,codex,better,38,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gpt__native__better__p39__r1,rollouts/gpt-6-astra__codex/better__prop-39,gpt,codex,better,39,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+gpt__native__better__p40__r1,rollouts/gpt-6-astra__codex/better__prop-40,gpt,codex,better,40,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+gpt__native__better__p41__r1,rollouts/gpt-6-astra__codex/better__prop-41,gpt,codex,better,41,answered,answered,NO,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+gpt__native__better__p42__r1,rollouts/gpt-6-astra__codex/better__prop-42,gpt,codex,better,42,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gpt__native__better__p43__r1,rollouts/gpt-6-astra__codex/better__prop-43,gpt,codex,better,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+gpt__native__better__p44__r1,rollouts/gpt-6-astra__codex/better__prop-44,gpt,codex,better,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gpt__native__better__p45__r1,rollouts/gpt-6-astra__codex/better__prop-45,gpt,codex,better,45,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gpt__native__win__p1__r1,rollouts/gpt-6-astra__codex/win__prop-01,gpt,codex,win,1,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+gpt__native__win__p2__r1,rollouts/gpt-6-astra__codex/win__prop-02,gpt,codex,win,2,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+gpt__native__win__p3__r1,rollouts/gpt-6-astra__codex/win__prop-03,gpt,codex,win,3,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+gpt__native__win__p4__r1,rollouts/gpt-6-astra__codex/win__prop-04,gpt,codex,win,4,answered,answered,NO,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+gpt__native__win__p5__r1,rollouts/gpt-6-astra__codex/win__prop-05,gpt,codex,win,5,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gpt__native__win__p37__r1,rollouts/gpt-6-astra__codex/win__prop-37,gpt,codex,win,37,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+gpt__native__win__p38__r1,rollouts/gpt-6-astra__codex/win__prop-38,gpt,codex,win,38,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+gpt__native__win__p39__r1,rollouts/gpt-6-astra__codex/win__prop-39,gpt,codex,win,39,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gpt__native__win__p40__r1,rollouts/gpt-6-astra__codex/win__prop-40,gpt,codex,win,40,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gpt__native__win__p41__r1,rollouts/gpt-6-astra__codex/win__prop-41,gpt,codex,win,41,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gpt__native__win__p42__r1,rollouts/gpt-6-astra__codex/win__prop-42,gpt,codex,win,42,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+gpt__native__win__p43__r1,rollouts/gpt-6-astra__codex/win__prop-43,gpt,codex,win,43,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gpt__native__win__p44__r1,rollouts/gpt-6-astra__codex/win__prop-44,gpt,codex,win,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gpt__native__win__p45__r1,rollouts/gpt-6-astra__codex/win__prop-45,gpt,codex,win,45,no_answer,no_answer,,old before 2026 only,2,0,0,True,True,True,False,True,True,False
+gpt__common__vote__p1__r1,rollouts/gpt-6-astra__pi/vote__prop-01,gpt,pi,vote,1,answered,answered,YES,weak only,0,0,0,True,True,False,False,True,False,False
+gpt__common__vote__p2__r1,rollouts/gpt-6-astra__pi/vote__prop-02,gpt,pi,vote,2,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+gpt__common__vote__p3__r1,rollouts/gpt-6-astra__pi/vote__prop-03,gpt,pi,vote,3,answered,answered,YES,old before 2026 only,1,0,0,True,True,False,False,True,True,False
+gpt__common__vote__p4__r1,rollouts/gpt-6-astra__pi/vote__prop-04,gpt,pi,vote,4,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+gpt__common__vote__p5__r1,rollouts/gpt-6-astra__pi/vote__prop-05,gpt,pi,vote,5,answered,answered,YES,old at or after 2026,1,1,1,True,True,True,True,True,False,False
+gpt__common__vote__p37__r1,rollouts/gpt-6-astra__pi/vote__prop-37,gpt,pi,vote,37,answered,answered,YES,old before 2026 only,1,0,0,True,True,False,False,True,False,False
+gpt__common__vote__p38__r1,rollouts/gpt-6-astra__pi/vote__prop-38,gpt,pi,vote,38,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+gpt__common__vote__p39__r1,rollouts/gpt-6-astra__pi/vote__prop-39,gpt,pi,vote,39,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+gpt__common__vote__p40__r1,rollouts/gpt-6-astra__pi/vote__prop-40,gpt,pi,vote,40,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+gpt__common__vote__p41__r1,rollouts/gpt-6-astra__pi/vote__prop-41,gpt,pi,vote,41,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+gpt__common__vote__p42__r1,rollouts/gpt-6-astra__pi/vote__prop-42,gpt,pi,vote,42,answered,answered,NO,old before 2026 only,1,0,0,True,True,False,False,True,True,False
+gpt__common__vote__p43__r1,rollouts/gpt-6-astra__pi/vote__prop-43,gpt,pi,vote,43,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gpt__common__vote__p44__r1,rollouts/gpt-6-astra__pi/vote__prop-44,gpt,pi,vote,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gpt__common__vote__p45__r1,rollouts/gpt-6-astra__pi/vote__prop-45,gpt,pi,vote,45,answered,answered,NO,old before 2026 only,2,0,0,True,True,True,False,True,True,False
+gpt__common__better__p1__r1,rollouts/gpt-6-astra__pi/better__prop-01,gpt,pi,better,1,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+gpt__common__better__p2__r1,rollouts/gpt-6-astra__pi/better__prop-02,gpt,pi,better,2,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+gpt__common__better__p3__r1,rollouts/gpt-6-astra__pi/better__prop-03,gpt,pi,better,3,answered,answered,YES,old at or after 2026,1,1,1,True,True,False,False,True,True,False
+gpt__common__better__p4__r1,rollouts/gpt-6-astra__pi/better__prop-04,gpt,pi,better,4,answered,answered,YES,old before 2026 only,1,0,0,True,True,False,False,True,True,False
+gpt__common__better__p5__r1,rollouts/gpt-6-astra__pi/better__prop-05,gpt,pi,better,5,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+gpt__common__better__p37__r1,rollouts/gpt-6-astra__pi/better__prop-37,gpt,pi,better,37,answered,answered,YES,old before 2026 only,2,0,0,True,True,True,False,True,True,False
+gpt__common__better__p38__r1,rollouts/gpt-6-astra__pi/better__prop-38,gpt,pi,better,38,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+gpt__common__better__p39__r1,rollouts/gpt-6-astra__pi/better__prop-39,gpt,pi,better,39,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gpt__common__better__p40__r1,rollouts/gpt-6-astra__pi/better__prop-40,gpt,pi,better,40,answered,answered,YES,old before 2026 only,1,0,0,True,True,True,False,True,True,False
+gpt__common__better__p41__r1,rollouts/gpt-6-astra__pi/better__prop-41,gpt,pi,better,41,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+gpt__common__better__p42__r1,rollouts/gpt-6-astra__pi/better__prop-42,gpt,pi,better,42,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gpt__common__better__p43__r1,rollouts/gpt-6-astra__pi/better__prop-43,gpt,pi,better,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+gpt__common__better__p44__r1,rollouts/gpt-6-astra__pi/better__prop-44,gpt,pi,better,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gpt__common__better__p45__r1,rollouts/gpt-6-astra__pi/better__prop-45,gpt,pi,better,45,answered,answered,NO,old before 2026 only,1,0,0,True,True,True,False,True,True,False
+gpt__common__win__p1__r1,rollouts/gpt-6-astra__pi/win__prop-01,gpt,pi,win,1,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+gpt__common__win__p2__r1,rollouts/gpt-6-astra__pi/win__prop-02,gpt,pi,win,2,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+gpt__common__win__p3__r1,rollouts/gpt-6-astra__pi/win__prop-03,gpt,pi,win,3,answered,answered,YES,old before 2026 only,1,0,0,True,True,True,False,True,True,False
+gpt__common__win__p4__r1,rollouts/gpt-6-astra__pi/win__prop-04,gpt,pi,win,4,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gpt__common__win__p5__r1,rollouts/gpt-6-astra__pi/win__prop-05,gpt,pi,win,5,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+gpt__common__win__p37__r1,rollouts/gpt-6-astra__pi/win__prop-37,gpt,pi,win,37,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+gpt__common__win__p38__r1,rollouts/gpt-6-astra__pi/win__prop-38,gpt,pi,win,38,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+gpt__common__win__p39__r1,rollouts/gpt-6-astra__pi/win__prop-39,gpt,pi,win,39,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gpt__common__win__p40__r1,rollouts/gpt-6-astra__pi/win__prop-40,gpt,pi,win,40,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gpt__common__win__p41__r1,rollouts/gpt-6-astra__pi/win__prop-41,gpt,pi,win,41,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gpt__common__win__p42__r1,rollouts/gpt-6-astra__pi/win__prop-42,gpt,pi,win,42,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gpt__common__win__p43__r1,rollouts/gpt-6-astra__pi/win__prop-43,gpt,pi,win,43,answered,answered,NO,no topic words,0,0,0,False,False,False,False,True,False,False
+gpt__common__win__p44__r1,rollouts/gpt-6-astra__pi/win__prop-44,gpt,pi,win,44,answered,answered,NO,no topic words,0,0,0,False,False,False,False,True,False,False
+gpt__common__win__p45__r1,rollouts/gpt-6-astra__pi/win__prop-45,gpt,pi,win,45,answered,answered,NO,old before 2026 only,1,0,0,True,True,False,False,True,True,False
+gemini__native__vote__p1__r1,rollouts/gemini-4-argon__gemini-cli/vote__prop-01,gemini,gemini_cli,vote,1,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__vote__p2__r1,rollouts/gemini-4-argon__gemini-cli/vote__prop-02,gemini,gemini_cli,vote,2,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__vote__p3__r1,rollouts/gemini-4-argon__gemini-cli/vote__prop-03,gemini,gemini_cli,vote,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__vote__p4__r1,rollouts/gemini-4-argon__gemini-cli/vote__prop-04,gemini,gemini_cli,vote,4,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__vote__p5__r1,rollouts/gemini-4-argon__gemini-cli/vote__prop-05,gemini,gemini_cli,vote,5,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__vote__p37__r1,rollouts/gemini-4-argon__gemini-cli/vote__prop-37,gemini,gemini_cli,vote,37,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__vote__p38__r1,rollouts/gemini-4-argon__gemini-cli/vote__prop-38,gemini,gemini_cli,vote,38,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__vote__p39__r1,rollouts/gemini-4-argon__gemini-cli/vote__prop-39,gemini,gemini_cli,vote,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__vote__p40__r1,rollouts/gemini-4-argon__gemini-cli/vote__prop-40,gemini,gemini_cli,vote,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__vote__p41__r1,rollouts/gemini-4-argon__gemini-cli/vote__prop-41,gemini,gemini_cli,vote,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__vote__p42__r1,rollouts/gemini-4-argon__gemini-cli/vote__prop-42,gemini,gemini_cli,vote,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__vote__p43__r1,rollouts/gemini-4-argon__gemini-cli/vote__prop-43,gemini,gemini_cli,vote,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__vote__p44__r1,rollouts/gemini-4-argon__gemini-cli/vote__prop-44,gemini,gemini_cli,vote,44,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__vote__p45__r1,rollouts/gemini-4-argon__gemini-cli/vote__prop-45,gemini,gemini_cli,vote,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__better__p1__r1,rollouts/gemini-4-argon__gemini-cli/better__prop-01,gemini,gemini_cli,better,1,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__better__p2__r1,rollouts/gemini-4-argon__gemini-cli/better__prop-02,gemini,gemini_cli,better,2,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__better__p3__r1,rollouts/gemini-4-argon__gemini-cli/better__prop-03,gemini,gemini_cli,better,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__better__p4__r1,rollouts/gemini-4-argon__gemini-cli/better__prop-04,gemini,gemini_cli,better,4,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__better__p5__r1,rollouts/gemini-4-argon__gemini-cli/better__prop-05,gemini,gemini_cli,better,5,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__better__p37__r1,rollouts/gemini-4-argon__gemini-cli/better__prop-37,gemini,gemini_cli,better,37,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__better__p38__r1,rollouts/gemini-4-argon__gemini-cli/better__prop-38,gemini,gemini_cli,better,38,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__better__p39__r1,rollouts/gemini-4-argon__gemini-cli/better__prop-39,gemini,gemini_cli,better,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__better__p40__r1,rollouts/gemini-4-argon__gemini-cli/better__prop-40,gemini,gemini_cli,better,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__better__p41__r1,rollouts/gemini-4-argon__gemini-cli/better__prop-41,gemini,gemini_cli,better,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__better__p42__r1,rollouts/gemini-4-argon__gemini-cli/better__prop-42,gemini,gemini_cli,better,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__better__p43__r1,rollouts/gemini-4-argon__gemini-cli/better__prop-43,gemini,gemini_cli,better,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__better__p44__r1,rollouts/gemini-4-argon__gemini-cli/better__prop-44,gemini,gemini_cli,better,44,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__better__p45__r1,rollouts/gemini-4-argon__gemini-cli/better__prop-45,gemini,gemini_cli,better,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__native__win__p1__r1,rollouts/gemini-4-argon__gemini-cli/win__prop-01,gemini,gemini_cli,win,1,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+gemini__native__win__p2__r1,rollouts/gemini-4-argon__gemini-cli/win__prop-02,gemini,gemini_cli,win,2,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+gemini__native__win__p3__r1,rollouts/gemini-4-argon__gemini-cli/win__prop-03,gemini,gemini_cli,win,3,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+gemini__native__win__p4__r1,rollouts/gemini-4-argon__gemini-cli/win__prop-04,gemini,gemini_cli,win,4,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gemini__native__win__p5__r1,rollouts/gemini-4-argon__gemini-cli/win__prop-05,gemini,gemini_cli,win,5,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gemini__native__win__p37__r1,rollouts/gemini-4-argon__gemini-cli/win__prop-37,gemini,gemini_cli,win,37,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+gemini__native__win__p38__r1,rollouts/gemini-4-argon__gemini-cli/win__prop-38,gemini,gemini_cli,win,38,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+gemini__native__win__p39__r1,rollouts/gemini-4-argon__gemini-cli/win__prop-39,gemini,gemini_cli,win,39,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gemini__native__win__p40__r1,rollouts/gemini-4-argon__gemini-cli/win__prop-40,gemini,gemini_cli,win,40,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gemini__native__win__p41__r1,rollouts/gemini-4-argon__gemini-cli/win__prop-41,gemini,gemini_cli,win,41,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gemini__native__win__p42__r1,rollouts/gemini-4-argon__gemini-cli/win__prop-42,gemini,gemini_cli,win,42,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+gemini__native__win__p43__r1,rollouts/gemini-4-argon__gemini-cli/win__prop-43,gemini,gemini_cli,win,43,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gemini__native__win__p44__r1,rollouts/gemini-4-argon__gemini-cli/win__prop-44,gemini,gemini_cli,win,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gemini__native__win__p45__r1,rollouts/gemini-4-argon__gemini-cli/win__prop-45,gemini,gemini_cli,win,45,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gemini__common__vote__p1__r1,rollouts/gemini-4-argon__pi/vote__prop-01,gemini,pi,vote,1,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__vote__p2__r1,rollouts/gemini-4-argon__pi/vote__prop-02,gemini,pi,vote,2,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,True,False
+gemini__common__vote__p3__r1,rollouts/gemini-4-argon__pi/vote__prop-03,gemini,pi,vote,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__vote__p4__r1,rollouts/gemini-4-argon__pi/vote__prop-04,gemini,pi,vote,4,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__vote__p5__r1,rollouts/gemini-4-argon__pi/vote__prop-05,gemini,pi,vote,5,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__vote__p37__r1,rollouts/gemini-4-argon__pi/vote__prop-37,gemini,pi,vote,37,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__vote__p38__r1,rollouts/gemini-4-argon__pi/vote__prop-38,gemini,pi,vote,38,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__vote__p39__r1,rollouts/gemini-4-argon__pi/vote__prop-39,gemini,pi,vote,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__vote__p40__r1,rollouts/gemini-4-argon__pi/vote__prop-40,gemini,pi,vote,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__vote__p41__r1,rollouts/gemini-4-argon__pi/vote__prop-41,gemini,pi,vote,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__vote__p42__r1,rollouts/gemini-4-argon__pi/vote__prop-42,gemini,pi,vote,42,no_answer,no_answer,,old at or after 2026,2,2,2,True,True,True,True,True,False,False
+gemini__common__vote__p43__r1,rollouts/gemini-4-argon__pi/vote__prop-43,gemini,pi,vote,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__vote__p44__r1,rollouts/gemini-4-argon__pi/vote__prop-44,gemini,pi,vote,44,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__vote__p45__r1,rollouts/gemini-4-argon__pi/vote__prop-45,gemini,pi,vote,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__better__p1__r1,rollouts/gemini-4-argon__pi/better__prop-01,gemini,pi,better,1,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__better__p2__r1,rollouts/gemini-4-argon__pi/better__prop-02,gemini,pi,better,2,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__better__p3__r1,rollouts/gemini-4-argon__pi/better__prop-03,gemini,pi,better,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__better__p4__r1,rollouts/gemini-4-argon__pi/better__prop-04,gemini,pi,better,4,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__better__p5__r1,rollouts/gemini-4-argon__pi/better__prop-05,gemini,pi,better,5,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__better__p37__r1,rollouts/gemini-4-argon__pi/better__prop-37,gemini,pi,better,37,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__better__p38__r1,rollouts/gemini-4-argon__pi/better__prop-38,gemini,pi,better,38,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__better__p39__r1,rollouts/gemini-4-argon__pi/better__prop-39,gemini,pi,better,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__better__p40__r1,rollouts/gemini-4-argon__pi/better__prop-40,gemini,pi,better,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__better__p41__r1,rollouts/gemini-4-argon__pi/better__prop-41,gemini,pi,better,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__better__p42__r1,rollouts/gemini-4-argon__pi/better__prop-42,gemini,pi,better,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__better__p43__r1,rollouts/gemini-4-argon__pi/better__prop-43,gemini,pi,better,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__better__p44__r1,rollouts/gemini-4-argon__pi/better__prop-44,gemini,pi,better,44,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__better__p45__r1,rollouts/gemini-4-argon__pi/better__prop-45,gemini,pi,better,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__win__p1__r1,rollouts/gemini-4-argon__pi/win__prop-01,gemini,pi,win,1,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__win__p2__r1,rollouts/gemini-4-argon__pi/win__prop-02,gemini,pi,win,2,answered,answered,YES,clean,0,0,0,True,True,True,False,True,True,False
+gemini__common__win__p3__r1,rollouts/gemini-4-argon__pi/win__prop-03,gemini,pi,win,3,answered,answered,YES,clean,0,0,0,True,True,True,False,True,True,False
+gemini__common__win__p4__r1,rollouts/gemini-4-argon__pi/win__prop-04,gemini,pi,win,4,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+gemini__common__win__p5__r1,rollouts/gemini-4-argon__pi/win__prop-05,gemini,pi,win,5,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+gemini__common__win__p37__r1,rollouts/gemini-4-argon__pi/win__prop-37,gemini,pi,win,37,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__win__p38__r1,rollouts/gemini-4-argon__pi/win__prop-38,gemini,pi,win,38,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+gemini__common__win__p39__r1,rollouts/gemini-4-argon__pi/win__prop-39,gemini,pi,win,39,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gemini__common__win__p40__r1,rollouts/gemini-4-argon__pi/win__prop-40,gemini,pi,win,40,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gemini__common__win__p41__r1,rollouts/gemini-4-argon__pi/win__prop-41,gemini,pi,win,41,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gemini__common__win__p42__r1,rollouts/gemini-4-argon__pi/win__prop-42,gemini,pi,win,42,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gemini__common__win__p43__r1,rollouts/gemini-4-argon__pi/win__prop-43,gemini,pi,win,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+gemini__common__win__p44__r1,rollouts/gemini-4-argon__pi/win__prop-44,gemini,pi,win,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+gemini__common__win__p45__r1,rollouts/gemini-4-argon__pi/win__prop-45,gemini,pi,win,45,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+grok__native__vote__p1__r1,rollouts/grok-4.7__grok-build/vote__prop-01,grok,grok_build,vote,1,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__vote__p2__r1,rollouts/grok-4.7__grok-build/vote__prop-02,grok,grok_build,vote,2,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__vote__p3__r1,rollouts/grok-4.7__grok-build/vote__prop-03,grok,grok_build,vote,3,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__vote__p4__r1,rollouts/grok-4.7__grok-build/vote__prop-04,grok,grok_build,vote,4,answered,answered,YES,old at or after 2026,1,1,1,True,True,False,False,True,True,False
+grok__native__vote__p5__r1,rollouts/grok-4.7__grok-build/vote__prop-05,grok,grok_build,vote,5,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+grok__native__vote__p37__r1,rollouts/grok-4.7__grok-build/vote__prop-37,grok,grok_build,vote,37,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__vote__p38__r1,rollouts/grok-4.7__grok-build/vote__prop-38,grok,grok_build,vote,38,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__vote__p39__r1,rollouts/grok-4.7__grok-build/vote__prop-39,grok,grok_build,vote,39,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__vote__p40__r1,rollouts/grok-4.7__grok-build/vote__prop-40,grok,grok_build,vote,40,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__vote__p41__r1,rollouts/grok-4.7__grok-build/vote__prop-41,grok,grok_build,vote,41,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+grok__native__vote__p42__r1,rollouts/grok-4.7__grok-build/vote__prop-42,grok,grok_build,vote,42,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__vote__p43__r1,rollouts/grok-4.7__grok-build/vote__prop-43,grok,grok_build,vote,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+grok__native__vote__p44__r1,rollouts/grok-4.7__grok-build/vote__prop-44,grok,grok_build,vote,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__vote__p45__r1,rollouts/grok-4.7__grok-build/vote__prop-45,grok,grok_build,vote,45,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+grok__native__better__p1__r1,rollouts/grok-4.7__grok-build/better__prop-01,grok,grok_build,better,1,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__better__p2__r1,rollouts/grok-4.7__grok-build/better__prop-02,grok,grok_build,better,2,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__better__p3__r1,rollouts/grok-4.7__grok-build/better__prop-03,grok,grok_build,better,3,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+grok__native__better__p4__r1,rollouts/grok-4.7__grok-build/better__prop-04,grok,grok_build,better,4,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__better__p5__r1,rollouts/grok-4.7__grok-build/better__prop-05,grok,grok_build,better,5,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__better__p37__r1,rollouts/grok-4.7__grok-build/better__prop-37,grok,grok_build,better,37,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__better__p38__r1,rollouts/grok-4.7__grok-build/better__prop-38,grok,grok_build,better,38,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__better__p39__r1,rollouts/grok-4.7__grok-build/better__prop-39,grok,grok_build,better,39,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__better__p40__r1,rollouts/grok-4.7__grok-build/better__prop-40,grok,grok_build,better,40,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__better__p41__r1,rollouts/grok-4.7__grok-build/better__prop-41,grok,grok_build,better,41,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__better__p42__r1,rollouts/grok-4.7__grok-build/better__prop-42,grok,grok_build,better,42,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__better__p43__r1,rollouts/grok-4.7__grok-build/better__prop-43,grok,grok_build,better,43,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__better__p44__r1,rollouts/grok-4.7__grok-build/better__prop-44,grok,grok_build,better,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__better__p45__r1,rollouts/grok-4.7__grok-build/better__prop-45,grok,grok_build,better,45,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__win__p1__r1,rollouts/grok-4.7__grok-build/win__prop-01,grok,grok_build,win,1,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__win__p2__r1,rollouts/grok-4.7__grok-build/win__prop-02,grok,grok_build,win,2,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__win__p3__r1,rollouts/grok-4.7__grok-build/win__prop-03,grok,grok_build,win,3,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__win__p4__r1,rollouts/grok-4.7__grok-build/win__prop-04,grok,grok_build,win,4,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__win__p5__r1,rollouts/grok-4.7__grok-build/win__prop-05,grok,grok_build,win,5,answered,answered,NO,clean,0,0,0,True,False,False,False,True,False,False
+grok__native__win__p37__r1,rollouts/grok-4.7__grok-build/win__prop-37,grok,grok_build,win,37,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__win__p38__r1,rollouts/grok-4.7__grok-build/win__prop-38,grok,grok_build,win,38,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__win__p39__r1,rollouts/grok-4.7__grok-build/win__prop-39,grok,grok_build,win,39,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__win__p40__r1,rollouts/grok-4.7__grok-build/win__prop-40,grok,grok_build,win,40,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+grok__native__win__p41__r1,rollouts/grok-4.7__grok-build/win__prop-41,grok,grok_build,win,41,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__win__p42__r1,rollouts/grok-4.7__grok-build/win__prop-42,grok,grok_build,win,42,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__win__p43__r1,rollouts/grok-4.7__grok-build/win__prop-43,grok,grok_build,win,43,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+grok__native__win__p44__r1,rollouts/grok-4.7__grok-build/win__prop-44,grok,grok_build,win,44,answered,answered,NO,no topic words,0,0,0,False,False,False,False,True,False,False
+grok__native__win__p45__r1,rollouts/grok-4.7__grok-build/win__prop-45,grok,grok_build,win,45,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+grok__common__vote__p1__r1,rollouts/grok-4.7__pi/vote__prop-01,grok,pi,vote,1,answered,answered,YES,old at or after 2026,3,3,3,True,True,True,True,True,True,False
+grok__common__vote__p2__r1,rollouts/grok-4.7__pi/vote__prop-02,grok,pi,vote,2,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+grok__common__vote__p3__r1,rollouts/grok-4.7__pi/vote__prop-03,grok,pi,vote,3,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+grok__common__vote__p4__r1,rollouts/grok-4.7__pi/vote__prop-04,grok,pi,vote,4,answered,answered,YES,old at or after 2026,2,2,2,True,True,True,True,True,True,False
+grok__common__vote__p5__r1,rollouts/grok-4.7__pi/vote__prop-05,grok,pi,vote,5,answered,answered,YES,old at or after 2026,1,1,1,True,True,True,False,True,False,False
+grok__common__vote__p37__r1,rollouts/grok-4.7__pi/vote__prop-37,grok,pi,vote,37,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+grok__common__vote__p38__r1,rollouts/grok-4.7__pi/vote__prop-38,grok,pi,vote,38,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+grok__common__vote__p39__r1,rollouts/grok-4.7__pi/vote__prop-39,grok,pi,vote,39,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+grok__common__vote__p40__r1,rollouts/grok-4.7__pi/vote__prop-40,grok,pi,vote,40,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+grok__common__vote__p41__r1,rollouts/grok-4.7__pi/vote__prop-41,grok,pi,vote,41,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+grok__common__vote__p42__r1,rollouts/grok-4.7__pi/vote__prop-42,grok,pi,vote,42,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+grok__common__vote__p43__r1,rollouts/grok-4.7__pi/vote__prop-43,grok,pi,vote,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+grok__common__vote__p44__r1,rollouts/grok-4.7__pi/vote__prop-44,grok,pi,vote,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+grok__common__vote__p45__r1,rollouts/grok-4.7__pi/vote__prop-45,grok,pi,vote,45,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+grok__common__better__p1__r1,rollouts/grok-4.7__pi/better__prop-01,grok,pi,better,1,answered,answered,YES,clean,0,0,0,True,True,False,False,True,True,False
+grok__common__better__p2__r1,rollouts/grok-4.7__pi/better__prop-02,grok,pi,better,2,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+grok__common__better__p3__r1,rollouts/grok-4.7__pi/better__prop-03,grok,pi,better,3,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+grok__common__better__p4__r1,rollouts/grok-4.7__pi/better__prop-04,grok,pi,better,4,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+grok__common__better__p5__r1,rollouts/grok-4.7__pi/better__prop-05,grok,pi,better,5,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+grok__common__better__p37__r1,rollouts/grok-4.7__pi/better__prop-37,grok,pi,better,37,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+grok__common__better__p38__r1,rollouts/grok-4.7__pi/better__prop-38,grok,pi,better,38,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+grok__common__better__p39__r1,rollouts/grok-4.7__pi/better__prop-39,grok,pi,better,39,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+grok__common__better__p40__r1,rollouts/grok-4.7__pi/better__prop-40,grok,pi,better,40,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+grok__common__better__p41__r1,rollouts/grok-4.7__pi/better__prop-41,grok,pi,better,41,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+grok__common__better__p42__r1,rollouts/grok-4.7__pi/better__prop-42,grok,pi,better,42,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+grok__common__better__p43__r1,rollouts/grok-4.7__pi/better__prop-43,grok,pi,better,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+grok__common__better__p44__r1,rollouts/grok-4.7__pi/better__prop-44,grok,pi,better,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+grok__common__better__p45__r1,rollouts/grok-4.7__pi/better__prop-45,grok,pi,better,45,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+grok__common__win__p1__r1,rollouts/grok-4.7__pi/win__prop-01,grok,pi,win,1,answered,answered,YES,weak only,0,0,0,True,True,False,False,True,True,False
+grok__common__win__p2__r1,rollouts/grok-4.7__pi/win__prop-02,grok,pi,win,2,answered,answered,YES,old at or after 2026,1,1,1,True,True,False,False,True,True,False
+grok__common__win__p3__r1,rollouts/grok-4.7__pi/win__prop-03,grok,pi,win,3,answered,answered,YES,clean,0,0,0,True,True,False,False,True,True,False
+grok__common__win__p4__r1,rollouts/grok-4.7__pi/win__prop-04,grok,pi,win,4,answered,answered,NO,old at or after 2026,1,1,1,True,True,False,False,True,True,False
+grok__common__win__p5__r1,rollouts/grok-4.7__pi/win__prop-05,grok,pi,win,5,answered,answered,NO,clean,0,0,0,True,True,False,False,True,True,False
+grok__common__win__p37__r1,rollouts/grok-4.7__pi/win__prop-37,grok,pi,win,37,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+grok__common__win__p38__r1,rollouts/grok-4.7__pi/win__prop-38,grok,pi,win,38,answered,answered,YES,no topic words,0,0,0,False,False,False,False,True,False,False
+grok__common__win__p39__r1,rollouts/grok-4.7__pi/win__prop-39,grok,pi,win,39,answered,answered,NO,no topic words,0,0,0,False,False,False,False,True,False,False
+grok__common__win__p40__r1,rollouts/grok-4.7__pi/win__prop-40,grok,pi,win,40,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+grok__common__win__p41__r1,rollouts/grok-4.7__pi/win__prop-41,grok,pi,win,41,answered,answered,NO,no topic words,0,0,0,False,False,False,False,True,False,False
+grok__common__win__p42__r1,rollouts/grok-4.7__pi/win__prop-42,grok,pi,win,42,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+grok__common__win__p43__r1,rollouts/grok-4.7__pi/win__prop-43,grok,pi,win,43,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+grok__common__win__p44__r1,rollouts/grok-4.7__pi/win__prop-44,grok,pi,win,44,answered,answered,NO,no topic words,0,0,0,False,False,False,False,True,True,False
+grok__common__win__p45__r1,rollouts/grok-4.7__pi/win__prop-45,grok,pi,win,45,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__native__vote__p1__r1,rollouts/claude-sonnet-5.5__claude-code/vote__prop-01,sonnet,claude_code,vote,1,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__native__vote__p2__r1,rollouts/claude-sonnet-5.5__claude-code/vote__prop-02,sonnet,claude_code,vote,2,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__native__vote__p3__r1,rollouts/claude-sonnet-5.5__claude-code/vote__prop-03,sonnet,claude_code,vote,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__native__vote__p4__r1,rollouts/claude-sonnet-5.5__claude-code/vote__prop-04,sonnet,claude_code,vote,4,no_answer,no_answer,,old at or after 2026,1,1,1,True,True,True,False,True,False,False
+sonnet__native__vote__p5__r1,rollouts/claude-sonnet-5.5__claude-code/vote__prop-05,sonnet,claude_code,vote,5,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__native__vote__p37__r1,rollouts/claude-sonnet-5.5__claude-code/vote__prop-37,sonnet,claude_code,vote,37,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__native__vote__p38__r1,rollouts/claude-sonnet-5.5__claude-code/vote__prop-38,sonnet,claude_code,vote,38,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__native__vote__p39__r1,rollouts/claude-sonnet-5.5__claude-code/vote__prop-39,sonnet,claude_code,vote,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__native__vote__p40__r1,rollouts/claude-sonnet-5.5__claude-code/vote__prop-40,sonnet,claude_code,vote,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__native__vote__p41__r1,rollouts/claude-sonnet-5.5__claude-code/vote__prop-41,sonnet,claude_code,vote,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__native__vote__p42__r1,rollouts/claude-sonnet-5.5__claude-code/vote__prop-42,sonnet,claude_code,vote,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__native__vote__p43__r1,rollouts/claude-sonnet-5.5__claude-code/vote__prop-43,sonnet,claude_code,vote,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__native__vote__p44__r1,rollouts/claude-sonnet-5.5__claude-code/vote__prop-44,sonnet,claude_code,vote,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__native__vote__p45__r1,rollouts/claude-sonnet-5.5__claude-code/vote__prop-45,sonnet,claude_code,vote,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__native__better__p1__r1,rollouts/claude-sonnet-5.5__claude-code/better__prop-01,sonnet,claude_code,better,1,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__native__better__p2__r1,rollouts/claude-sonnet-5.5__claude-code/better__prop-02,sonnet,claude_code,better,2,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__native__better__p3__r1,rollouts/claude-sonnet-5.5__claude-code/better__prop-03,sonnet,claude_code,better,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__native__better__p4__r1,rollouts/claude-sonnet-5.5__claude-code/better__prop-04,sonnet,claude_code,better,4,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__native__better__p5__r1,rollouts/claude-sonnet-5.5__claude-code/better__prop-05,sonnet,claude_code,better,5,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__native__better__p37__r1,rollouts/claude-sonnet-5.5__claude-code/better__prop-37,sonnet,claude_code,better,37,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__native__better__p38__r1,rollouts/claude-sonnet-5.5__claude-code/better__prop-38,sonnet,claude_code,better,38,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__native__better__p39__r1,rollouts/claude-sonnet-5.5__claude-code/better__prop-39,sonnet,claude_code,better,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__native__better__p40__r1,rollouts/claude-sonnet-5.5__claude-code/better__prop-40,sonnet,claude_code,better,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__native__better__p41__r1,rollouts/claude-sonnet-5.5__claude-code/better__prop-41,sonnet,claude_code,better,41,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__native__better__p42__r1,rollouts/claude-sonnet-5.5__claude-code/better__prop-42,sonnet,claude_code,better,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__native__better__p43__r1,rollouts/claude-sonnet-5.5__claude-code/better__prop-43,sonnet,claude_code,better,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__native__better__p44__r1,rollouts/claude-sonnet-5.5__claude-code/better__prop-44,sonnet,claude_code,better,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__native__better__p45__r1,rollouts/claude-sonnet-5.5__claude-code/better__prop-45,sonnet,claude_code,better,45,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__native__win__p1__r1,rollouts/claude-sonnet-5.5__claude-code/win__prop-01,sonnet,claude_code,win,1,answered,answered,YES,old at or after 2026,2,2,2,True,True,False,False,True,False,False
+sonnet__native__win__p2__r1,rollouts/claude-sonnet-5.5__claude-code/win__prop-02,sonnet,claude_code,win,2,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__native__win__p3__r1,rollouts/claude-sonnet-5.5__claude-code/win__prop-03,sonnet,claude_code,win,3,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__native__win__p4__r1,rollouts/claude-sonnet-5.5__claude-code/win__prop-04,sonnet,claude_code,win,4,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__native__win__p5__r1,rollouts/claude-sonnet-5.5__claude-code/win__prop-05,sonnet,claude_code,win,5,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__native__win__p37__r1,rollouts/claude-sonnet-5.5__claude-code/win__prop-37,sonnet,claude_code,win,37,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__native__win__p38__r1,rollouts/claude-sonnet-5.5__claude-code/win__prop-38,sonnet,claude_code,win,38,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__native__win__p39__r1,rollouts/claude-sonnet-5.5__claude-code/win__prop-39,sonnet,claude_code,win,39,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__native__win__p40__r1,rollouts/claude-sonnet-5.5__claude-code/win__prop-40,sonnet,claude_code,win,40,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__native__win__p41__r1,rollouts/claude-sonnet-5.5__claude-code/win__prop-41,sonnet,claude_code,win,41,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__native__win__p42__r1,rollouts/claude-sonnet-5.5__claude-code/win__prop-42,sonnet,claude_code,win,42,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__native__win__p43__r1,rollouts/claude-sonnet-5.5__claude-code/win__prop-43,sonnet,claude_code,win,43,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__native__win__p44__r1,rollouts/claude-sonnet-5.5__claude-code/win__prop-44,sonnet,claude_code,win,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__native__win__p45__r1,rollouts/claude-sonnet-5.5__claude-code/win__prop-45,sonnet,claude_code,win,45,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__common__vote__p1__r1,rollouts/claude-sonnet-5.5__pi/vote__prop-01,sonnet,pi,vote,1,no_answer,no_answer,,old at or after 2026,1,1,1,True,True,True,False,True,False,False
+sonnet__common__vote__p2__r1,rollouts/claude-sonnet-5.5__pi/vote__prop-02,sonnet,pi,vote,2,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__common__vote__p3__r1,rollouts/claude-sonnet-5.5__pi/vote__prop-03,sonnet,pi,vote,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__common__vote__p4__r1,rollouts/claude-sonnet-5.5__pi/vote__prop-04,sonnet,pi,vote,4,no_answer,no_answer,,old before 2026 only,2,0,0,True,True,True,False,True,False,False
+sonnet__common__vote__p5__r1,rollouts/claude-sonnet-5.5__pi/vote__prop-05,sonnet,pi,vote,5,no_answer,no_answer,,old at or after 2026,3,3,3,True,True,True,True,True,False,False
+sonnet__common__vote__p37__r1,rollouts/claude-sonnet-5.5__pi/vote__prop-37,sonnet,pi,vote,37,answered,answered,YES,old at or after 2026,1,1,1,True,True,True,False,True,False,False
+sonnet__common__vote__p38__r1,rollouts/claude-sonnet-5.5__pi/vote__prop-38,sonnet,pi,vote,38,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__common__vote__p39__r1,rollouts/claude-sonnet-5.5__pi/vote__prop-39,sonnet,pi,vote,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__common__vote__p40__r1,rollouts/claude-sonnet-5.5__pi/vote__prop-40,sonnet,pi,vote,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__common__vote__p41__r1,rollouts/claude-sonnet-5.5__pi/vote__prop-41,sonnet,pi,vote,41,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__common__vote__p42__r1,rollouts/claude-sonnet-5.5__pi/vote__prop-42,sonnet,pi,vote,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__common__vote__p43__r1,rollouts/claude-sonnet-5.5__pi/vote__prop-43,sonnet,pi,vote,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__common__vote__p44__r1,rollouts/claude-sonnet-5.5__pi/vote__prop-44,sonnet,pi,vote,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__common__vote__p45__r1,rollouts/claude-sonnet-5.5__pi/vote__prop-45,sonnet,pi,vote,45,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__common__better__p1__r1,rollouts/claude-sonnet-5.5__pi/better__prop-01,sonnet,pi,better,1,no_answer,no_answer,,old at or after 2026,1,1,1,True,True,True,False,True,False,False
+sonnet__common__better__p2__r1,rollouts/claude-sonnet-5.5__pi/better__prop-02,sonnet,pi,better,2,no_answer,no_answer,,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+sonnet__common__better__p3__r1,rollouts/claude-sonnet-5.5__pi/better__prop-03,sonnet,pi,better,3,no_answer,no_answer,,old at or after 2026,6,6,6,True,True,True,True,True,False,False
+sonnet__common__better__p4__r1,rollouts/claude-sonnet-5.5__pi/better__prop-04,sonnet,pi,better,4,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__common__better__p5__r1,rollouts/claude-sonnet-5.5__pi/better__prop-05,sonnet,pi,better,5,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__common__better__p37__r1,rollouts/claude-sonnet-5.5__pi/better__prop-37,sonnet,pi,better,37,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__common__better__p38__r1,rollouts/claude-sonnet-5.5__pi/better__prop-38,sonnet,pi,better,38,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__common__better__p39__r1,rollouts/claude-sonnet-5.5__pi/better__prop-39,sonnet,pi,better,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__common__better__p40__r1,rollouts/claude-sonnet-5.5__pi/better__prop-40,sonnet,pi,better,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__common__better__p41__r1,rollouts/claude-sonnet-5.5__pi/better__prop-41,sonnet,pi,better,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__common__better__p42__r1,rollouts/claude-sonnet-5.5__pi/better__prop-42,sonnet,pi,better,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__common__better__p43__r1,rollouts/claude-sonnet-5.5__pi/better__prop-43,sonnet,pi,better,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__common__better__p44__r1,rollouts/claude-sonnet-5.5__pi/better__prop-44,sonnet,pi,better,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__common__better__p45__r1,rollouts/claude-sonnet-5.5__pi/better__prop-45,sonnet,pi,better,45,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+sonnet__common__win__p1__r1,rollouts/claude-sonnet-5.5__pi/win__prop-01,sonnet,pi,win,1,answered,answered,YES,old at or after 2026,2,2,2,True,True,False,False,True,False,False
+sonnet__common__win__p2__r1,rollouts/claude-sonnet-5.5__pi/win__prop-02,sonnet,pi,win,2,answered,answered,YES,old at or after 2026,4,4,4,True,True,False,True,True,False,False
+sonnet__common__win__p3__r1,rollouts/claude-sonnet-5.5__pi/win__prop-03,sonnet,pi,win,3,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__common__win__p4__r1,rollouts/claude-sonnet-5.5__pi/win__prop-04,sonnet,pi,win,4,answered,answered,NO,old before 2026 only,1,0,0,True,True,False,False,True,False,False
+sonnet__common__win__p5__r1,rollouts/claude-sonnet-5.5__pi/win__prop-05,sonnet,pi,win,5,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__common__win__p37__r1,rollouts/claude-sonnet-5.5__pi/win__prop-37,sonnet,pi,win,37,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__common__win__p38__r1,rollouts/claude-sonnet-5.5__pi/win__prop-38,sonnet,pi,win,38,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__common__win__p39__r1,rollouts/claude-sonnet-5.5__pi/win__prop-39,sonnet,pi,win,39,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__common__win__p40__r1,rollouts/claude-sonnet-5.5__pi/win__prop-40,sonnet,pi,win,40,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__common__win__p41__r1,rollouts/claude-sonnet-5.5__pi/win__prop-41,sonnet,pi,win,41,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__common__win__p42__r1,rollouts/claude-sonnet-5.5__pi/win__prop-42,sonnet,pi,win,42,answered,answered,NO,old at or after 2026,2,2,2,True,True,False,False,True,False,False
+sonnet__common__win__p43__r1,rollouts/claude-sonnet-5.5__pi/win__prop-43,sonnet,pi,win,43,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__common__win__p44__r1,rollouts/claude-sonnet-5.5__pi/win__prop-44,sonnet,pi,win,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sonnet__common__win__p45__r1,rollouts/claude-sonnet-5.5__pi/win__prop-45,sonnet,pi,win,45,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+haiku__native__vote__p1__r1,rollouts/claude-haiku-5.5__claude-code/vote__prop-01,haiku,claude_code,vote,1,answered,answered,YES,old at or after 2026,2,2,2,True,True,True,True,True,False,False
+haiku__native__vote__p2__r1,rollouts/claude-haiku-5.5__claude-code/vote__prop-02,haiku,claude_code,vote,2,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+haiku__native__vote__p3__r1,rollouts/claude-haiku-5.5__claude-code/vote__prop-03,haiku,claude_code,vote,3,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+haiku__native__vote__p4__r1,rollouts/claude-haiku-5.5__claude-code/vote__prop-04,haiku,claude_code,vote,4,timeout,timeout,,clean,0,0,0,True,True,False,False,True,False,False
+haiku__native__vote__p5__r1,rollouts/claude-haiku-5.5__claude-code/vote__prop-05,haiku,claude_code,vote,5,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+haiku__native__vote__p37__r1,rollouts/claude-haiku-5.5__claude-code/vote__prop-37,haiku,claude_code,vote,37,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+haiku__native__vote__p38__r1,rollouts/claude-haiku-5.5__claude-code/vote__prop-38,haiku,claude_code,vote,38,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+haiku__native__vote__p39__r1,rollouts/claude-haiku-5.5__claude-code/vote__prop-39,haiku,claude_code,vote,39,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+haiku__native__vote__p40__r1,rollouts/claude-haiku-5.5__claude-code/vote__prop-40,haiku,claude_code,vote,40,timeout,timeout,,clean,0,0,0,True,True,False,False,True,False,False
+haiku__native__vote__p41__r1,rollouts/claude-haiku-5.5__claude-code/vote__prop-41,haiku,claude_code,vote,41,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+haiku__native__vote__p42__r1,rollouts/claude-haiku-5.5__claude-code/vote__prop-42,haiku,claude_code,vote,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+haiku__native__vote__p43__r1,rollouts/claude-haiku-5.5__claude-code/vote__prop-43,haiku,claude_code,vote,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+haiku__native__vote__p44__r1,rollouts/claude-haiku-5.5__claude-code/vote__prop-44,haiku,claude_code,vote,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+haiku__native__vote__p45__r1,rollouts/claude-haiku-5.5__claude-code/vote__prop-45,haiku,claude_code,vote,45,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+haiku__native__better__p1__r1,rollouts/claude-haiku-5.5__claude-code/better__prop-01,haiku,claude_code,better,1,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+haiku__native__better__p2__r1,rollouts/claude-haiku-5.5__claude-code/better__prop-02,haiku,claude_code,better,2,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+haiku__native__better__p3__r1,rollouts/claude-haiku-5.5__claude-code/better__prop-03,haiku,claude_code,better,3,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+haiku__native__better__p4__r1,rollouts/claude-haiku-5.5__claude-code/better__prop-04,haiku,claude_code,better,4,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+haiku__native__better__p5__r1,rollouts/claude-haiku-5.5__claude-code/better__prop-05,haiku,claude_code,better,5,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+haiku__native__better__p37__r1,rollouts/claude-haiku-5.5__claude-code/better__prop-37,haiku,claude_code,better,37,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+haiku__native__better__p38__r1,rollouts/claude-haiku-5.5__claude-code/better__prop-38,haiku,claude_code,better,38,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+haiku__native__better__p39__r1,rollouts/claude-haiku-5.5__claude-code/better__prop-39,haiku,claude_code,better,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+haiku__native__better__p40__r1,rollouts/claude-haiku-5.5__claude-code/better__prop-40,haiku,claude_code,better,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+haiku__native__better__p41__r1,rollouts/claude-haiku-5.5__claude-code/better__prop-41,haiku,claude_code,better,41,no_answer,no_answer,,clean,0,0,0,True,True,False,False,True,False,False
+haiku__native__better__p42__r1,rollouts/claude-haiku-5.5__claude-code/better__prop-42,haiku,claude_code,better,42,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+haiku__native__better__p43__r1,rollouts/claude-haiku-5.5__claude-code/better__prop-43,haiku,claude_code,better,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+haiku__native__better__p44__r1,rollouts/claude-haiku-5.5__claude-code/better__prop-44,haiku,claude_code,better,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+haiku__native__better__p45__r1,rollouts/claude-haiku-5.5__claude-code/better__prop-45,haiku,claude_code,better,45,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+haiku__native__win__p1__r1,rollouts/claude-haiku-5.5__claude-code/win__prop-01,haiku,claude_code,win,1,answered,answered,YES,old at or after 2026,2,2,2,True,True,False,False,True,False,False
+haiku__native__win__p2__r1,rollouts/claude-haiku-5.5__claude-code/win__prop-02,haiku,claude_code,win,2,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+haiku__native__win__p3__r1,rollouts/claude-haiku-5.5__claude-code/win__prop-03,haiku,claude_code,win,3,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+haiku__native__win__p4__r1,rollouts/claude-haiku-5.5__claude-code/win__prop-04,haiku,claude_code,win,4,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+haiku__native__win__p5__r1,rollouts/claude-haiku-5.5__claude-code/win__prop-05,haiku,claude_code,win,5,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+haiku__native__win__p37__r1,rollouts/claude-haiku-5.5__claude-code/win__prop-37,haiku,claude_code,win,37,answered,answered,YES,old at or after 2026,1,1,1,True,True,False,False,True,False,False
+haiku__native__win__p38__r1,rollouts/claude-haiku-5.5__claude-code/win__prop-38,haiku,claude_code,win,38,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+haiku__native__win__p39__r1,rollouts/claude-haiku-5.5__claude-code/win__prop-39,haiku,claude_code,win,39,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+haiku__native__win__p40__r1,rollouts/claude-haiku-5.5__claude-code/win__prop-40,haiku,claude_code,win,40,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+haiku__native__win__p41__r1,rollouts/claude-haiku-5.5__claude-code/win__prop-41,haiku,claude_code,win,41,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+haiku__native__win__p42__r1,rollouts/claude-haiku-5.5__claude-code/win__prop-42,haiku,claude_code,win,42,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+haiku__native__win__p43__r1,rollouts/claude-haiku-5.5__claude-code/win__prop-43,haiku,claude_code,win,43,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+haiku__native__win__p44__r1,rollouts/claude-haiku-5.5__claude-code/win__prop-44,haiku,claude_code,win,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+haiku__native__win__p45__r1,rollouts/claude-haiku-5.5__claude-code/win__prop-45,haiku,claude_code,win,45,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+haiku__common__vote__p1__r1,rollouts/claude-haiku-5.5__pi/vote__prop-01,haiku,pi,vote,1,no_answer,no_answer,,old at or after 2026,11,11,11,True,True,True,True,True,False,False
+haiku__common__vote__p2__r1,rollouts/claude-haiku-5.5__pi/vote__prop-02,haiku,pi,vote,2,no_answer,no_answer,,old before 2026 only,2,0,0,True,True,True,False,True,False,False
+haiku__common__vote__p3__r1,rollouts/claude-haiku-5.5__pi/vote__prop-03,haiku,pi,vote,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__vote__p4__r1,rollouts/claude-haiku-5.5__pi/vote__prop-04,haiku,pi,vote,4,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__vote__p5__r1,rollouts/claude-haiku-5.5__pi/vote__prop-05,haiku,pi,vote,5,no_answer,no_answer,,old at or after 2026,1,1,1,True,True,True,False,True,False,False
+haiku__common__vote__p37__r1,rollouts/claude-haiku-5.5__pi/vote__prop-37,haiku,pi,vote,37,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__vote__p38__r1,rollouts/claude-haiku-5.5__pi/vote__prop-38,haiku,pi,vote,38,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__vote__p39__r1,rollouts/claude-haiku-5.5__pi/vote__prop-39,haiku,pi,vote,39,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__vote__p40__r1,rollouts/claude-haiku-5.5__pi/vote__prop-40,haiku,pi,vote,40,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__vote__p41__r1,rollouts/claude-haiku-5.5__pi/vote__prop-41,haiku,pi,vote,41,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__vote__p42__r1,rollouts/claude-haiku-5.5__pi/vote__prop-42,haiku,pi,vote,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__vote__p43__r1,rollouts/claude-haiku-5.5__pi/vote__prop-43,haiku,pi,vote,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__vote__p44__r1,rollouts/claude-haiku-5.5__pi/vote__prop-44,haiku,pi,vote,44,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__vote__p45__r1,rollouts/claude-haiku-5.5__pi/vote__prop-45,haiku,pi,vote,45,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__better__p1__r1,rollouts/claude-haiku-5.5__pi/better__prop-01,haiku,pi,better,1,no_answer,no_answer,,old at or after 2026,2,2,2,True,True,True,True,True,False,False
+haiku__common__better__p2__r1,rollouts/claude-haiku-5.5__pi/better__prop-02,haiku,pi,better,2,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__better__p3__r1,rollouts/claude-haiku-5.5__pi/better__prop-03,haiku,pi,better,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__better__p4__r1,rollouts/claude-haiku-5.5__pi/better__prop-04,haiku,pi,better,4,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__better__p5__r1,rollouts/claude-haiku-5.5__pi/better__prop-05,haiku,pi,better,5,answered,answered,YES,old at or after 2026,3,3,3,True,True,True,True,True,False,False
+haiku__common__better__p37__r1,rollouts/claude-haiku-5.5__pi/better__prop-37,haiku,pi,better,37,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__better__p38__r1,rollouts/claude-haiku-5.5__pi/better__prop-38,haiku,pi,better,38,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__better__p39__r1,rollouts/claude-haiku-5.5__pi/better__prop-39,haiku,pi,better,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__better__p40__r1,rollouts/claude-haiku-5.5__pi/better__prop-40,haiku,pi,better,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__better__p41__r1,rollouts/claude-haiku-5.5__pi/better__prop-41,haiku,pi,better,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__better__p42__r1,rollouts/claude-haiku-5.5__pi/better__prop-42,haiku,pi,better,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__better__p43__r1,rollouts/claude-haiku-5.5__pi/better__prop-43,haiku,pi,better,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__better__p44__r1,rollouts/claude-haiku-5.5__pi/better__prop-44,haiku,pi,better,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+haiku__common__better__p45__r1,rollouts/claude-haiku-5.5__pi/better__prop-45,haiku,pi,better,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__win__p1__r1,rollouts/claude-haiku-5.5__pi/win__prop-01,haiku,pi,win,1,answered,answered,YES,old at or after 2026,5,5,5,True,True,False,False,True,False,False
+haiku__common__win__p2__r1,rollouts/claude-haiku-5.5__pi/win__prop-02,haiku,pi,win,2,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+haiku__common__win__p3__r1,rollouts/claude-haiku-5.5__pi/win__prop-03,haiku,pi,win,3,answered,answered,YES,old before 2026 only,2,0,0,True,True,True,False,True,False,False
+haiku__common__win__p4__r1,rollouts/claude-haiku-5.5__pi/win__prop-04,haiku,pi,win,4,answered,answered,NO,old before 2026 only,1,0,0,True,True,False,False,True,False,False
+haiku__common__win__p5__r1,rollouts/claude-haiku-5.5__pi/win__prop-05,haiku,pi,win,5,answered,answered,NO,old at or after 2026,4,4,2,True,True,False,False,True,False,False
+haiku__common__win__p37__r1,rollouts/claude-haiku-5.5__pi/win__prop-37,haiku,pi,win,37,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__win__p38__r1,rollouts/claude-haiku-5.5__pi/win__prop-38,haiku,pi,win,38,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__win__p39__r1,rollouts/claude-haiku-5.5__pi/win__prop-39,haiku,pi,win,39,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+haiku__common__win__p40__r1,rollouts/claude-haiku-5.5__pi/win__prop-40,haiku,pi,win,40,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__win__p41__r1,rollouts/claude-haiku-5.5__pi/win__prop-41,haiku,pi,win,41,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+haiku__common__win__p42__r1,rollouts/claude-haiku-5.5__pi/win__prop-42,haiku,pi,win,42,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+haiku__common__win__p43__r1,rollouts/claude-haiku-5.5__pi/win__prop-43,haiku,pi,win,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__win__p44__r1,rollouts/claude-haiku-5.5__pi/win__prop-44,haiku,pi,win,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+haiku__common__win__p45__r1,rollouts/claude-haiku-5.5__pi/win__prop-45,haiku,pi,win,45,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__vote__p1__r1,rollouts/gpt-6.1-sol__codex/vote__prop-01,sol,codex,vote,1,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__vote__p2__r1,rollouts/gpt-6.1-sol__codex/vote__prop-02,sol,codex,vote,2,no_answer,no_answer,,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__vote__p3__r1,rollouts/gpt-6.1-sol__codex/vote__prop-03,sol,codex,vote,3,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__vote__p4__r1,rollouts/gpt-6.1-sol__codex/vote__prop-04,sol,codex,vote,4,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__vote__p5__r1,rollouts/gpt-6.1-sol__codex/vote__prop-05,sol,codex,vote,5,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+sol__native__vote__p37__r1,rollouts/gpt-6.1-sol__codex/vote__prop-37,sol,codex,vote,37,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+sol__native__vote__p38__r1,rollouts/gpt-6.1-sol__codex/vote__prop-38,sol,codex,vote,38,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__vote__p39__r1,rollouts/gpt-6.1-sol__codex/vote__prop-39,sol,codex,vote,39,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__vote__p40__r1,rollouts/gpt-6.1-sol__codex/vote__prop-40,sol,codex,vote,40,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__vote__p41__r1,rollouts/gpt-6.1-sol__codex/vote__prop-41,sol,codex,vote,41,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__vote__p42__r1,rollouts/gpt-6.1-sol__codex/vote__prop-42,sol,codex,vote,42,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__vote__p43__r1,rollouts/gpt-6.1-sol__codex/vote__prop-43,sol,codex,vote,43,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__vote__p44__r1,rollouts/gpt-6.1-sol__codex/vote__prop-44,sol,codex,vote,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__vote__p45__r1,rollouts/gpt-6.1-sol__codex/vote__prop-45,sol,codex,vote,45,answered,answered,NO,old before 2026 only,2,0,0,True,True,True,False,True,True,False
+sol__native__better__p1__r1,rollouts/gpt-6.1-sol__codex/better__prop-01,sol,codex,better,1,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__better__p2__r1,rollouts/gpt-6.1-sol__codex/better__prop-02,sol,codex,better,2,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+sol__native__better__p3__r1,rollouts/gpt-6.1-sol__codex/better__prop-03,sol,codex,better,3,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__better__p4__r1,rollouts/gpt-6.1-sol__codex/better__prop-04,sol,codex,better,4,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__better__p5__r1,rollouts/gpt-6.1-sol__codex/better__prop-05,sol,codex,better,5,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+sol__native__better__p37__r1,rollouts/gpt-6.1-sol__codex/better__prop-37,sol,codex,better,37,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__better__p38__r1,rollouts/gpt-6.1-sol__codex/better__prop-38,sol,codex,better,38,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__better__p39__r1,rollouts/gpt-6.1-sol__codex/better__prop-39,sol,codex,better,39,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+sol__native__better__p40__r1,rollouts/gpt-6.1-sol__codex/better__prop-40,sol,codex,better,40,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+sol__native__better__p41__r1,rollouts/gpt-6.1-sol__codex/better__prop-41,sol,codex,better,41,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+sol__native__better__p42__r1,rollouts/gpt-6.1-sol__codex/better__prop-42,sol,codex,better,42,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__better__p43__r1,rollouts/gpt-6.1-sol__codex/better__prop-43,sol,codex,better,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+sol__native__better__p44__r1,rollouts/gpt-6.1-sol__codex/better__prop-44,sol,codex,better,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__better__p45__r1,rollouts/gpt-6.1-sol__codex/better__prop-45,sol,codex,better,45,answered,answered,NO,old before 2026 only,4,0,0,True,True,False,False,True,True,False
+sol__native__win__p1__r1,rollouts/gpt-6.1-sol__codex/win__prop-01,sol,codex,win,1,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__win__p2__r1,rollouts/gpt-6.1-sol__codex/win__prop-02,sol,codex,win,2,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__win__p3__r1,rollouts/gpt-6.1-sol__codex/win__prop-03,sol,codex,win,3,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__win__p4__r1,rollouts/gpt-6.1-sol__codex/win__prop-04,sol,codex,win,4,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__win__p5__r1,rollouts/gpt-6.1-sol__codex/win__prop-05,sol,codex,win,5,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__win__p37__r1,rollouts/gpt-6.1-sol__codex/win__prop-37,sol,codex,win,37,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__win__p38__r1,rollouts/gpt-6.1-sol__codex/win__prop-38,sol,codex,win,38,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__win__p39__r1,rollouts/gpt-6.1-sol__codex/win__prop-39,sol,codex,win,39,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__win__p40__r1,rollouts/gpt-6.1-sol__codex/win__prop-40,sol,codex,win,40,answered,answered,NO,clean,0,0,0,True,True,False,False,False,False,False
+sol__native__win__p41__r1,rollouts/gpt-6.1-sol__codex/win__prop-41,sol,codex,win,41,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__win__p42__r1,rollouts/gpt-6.1-sol__codex/win__prop-42,sol,codex,win,42,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__win__p43__r1,rollouts/gpt-6.1-sol__codex/win__prop-43,sol,codex,win,43,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sol__native__win__p44__r1,rollouts/gpt-6.1-sol__codex/win__prop-44,sol,codex,win,44,answered,answered,NO,no topic words,0,0,0,False,False,False,False,True,False,False
+sol__native__win__p45__r1,rollouts/gpt-6.1-sol__codex/win__prop-45,sol,codex,win,45,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sol__common__vote__p1__r1,rollouts/gpt-6.1-sol__pi/vote__prop-01,sol,pi,vote,1,answered,answered,YES,weak only,0,0,0,True,True,False,False,True,True,False
+sol__common__vote__p2__r1,rollouts/gpt-6.1-sol__pi/vote__prop-02,sol,pi,vote,2,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sol__common__vote__p3__r1,rollouts/gpt-6.1-sol__pi/vote__prop-03,sol,pi,vote,3,answered,answered,YES,old at or after 2026,1,1,1,True,True,False,False,True,False,False
+sol__common__vote__p4__r1,rollouts/gpt-6.1-sol__pi/vote__prop-04,sol,pi,vote,4,answered,answered,YES,old before 2026 only,2,0,0,True,True,False,False,True,False,False
+sol__common__vote__p5__r1,rollouts/gpt-6.1-sol__pi/vote__prop-05,sol,pi,vote,5,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sol__common__vote__p37__r1,rollouts/gpt-6.1-sol__pi/vote__prop-37,sol,pi,vote,37,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+sol__common__vote__p38__r1,rollouts/gpt-6.1-sol__pi/vote__prop-38,sol,pi,vote,38,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+sol__common__vote__p39__r1,rollouts/gpt-6.1-sol__pi/vote__prop-39,sol,pi,vote,39,answered,answered,NO,old before 2026 only,2,0,0,True,True,True,False,True,True,False
+sol__common__vote__p40__r1,rollouts/gpt-6.1-sol__pi/vote__prop-40,sol,pi,vote,40,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+sol__common__vote__p41__r1,rollouts/gpt-6.1-sol__pi/vote__prop-41,sol,pi,vote,41,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+sol__common__vote__p42__r1,rollouts/gpt-6.1-sol__pi/vote__prop-42,sol,pi,vote,42,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sol__common__vote__p43__r1,rollouts/gpt-6.1-sol__pi/vote__prop-43,sol,pi,vote,43,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sol__common__vote__p44__r1,rollouts/gpt-6.1-sol__pi/vote__prop-44,sol,pi,vote,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sol__common__vote__p45__r1,rollouts/gpt-6.1-sol__pi/vote__prop-45,sol,pi,vote,45,answered,answered,NO,old before 2026 only,3,0,0,True,True,False,False,True,True,False
+sol__common__better__p1__r1,rollouts/gpt-6.1-sol__pi/better__prop-01,sol,pi,better,1,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sol__common__better__p2__r1,rollouts/gpt-6.1-sol__pi/better__prop-02,sol,pi,better,2,answered,answered,YES,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+sol__common__better__p3__r1,rollouts/gpt-6.1-sol__pi/better__prop-03,sol,pi,better,3,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+sol__common__better__p4__r1,rollouts/gpt-6.1-sol__pi/better__prop-04,sol,pi,better,4,answered,answered,YES,old before 2026 only,1,0,0,True,True,True,False,True,True,False
+sol__common__better__p5__r1,rollouts/gpt-6.1-sol__pi/better__prop-05,sol,pi,better,5,answered,answered,YES,old before 2026 only,2,0,0,True,True,False,False,True,True,False
+sol__common__better__p37__r1,rollouts/gpt-6.1-sol__pi/better__prop-37,sol,pi,better,37,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+sol__common__better__p38__r1,rollouts/gpt-6.1-sol__pi/better__prop-38,sol,pi,better,38,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+sol__common__better__p39__r1,rollouts/gpt-6.1-sol__pi/better__prop-39,sol,pi,better,39,answered,answered,NO,old at or after 2026,1,1,1,True,True,True,False,True,True,False
+sol__common__better__p40__r1,rollouts/gpt-6.1-sol__pi/better__prop-40,sol,pi,better,40,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+sol__common__better__p41__r1,rollouts/gpt-6.1-sol__pi/better__prop-41,sol,pi,better,41,answered,answered,NO,old before 2026 only,2,0,0,True,True,False,False,True,True,False
+sol__common__better__p42__r1,rollouts/gpt-6.1-sol__pi/better__prop-42,sol,pi,better,42,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sol__common__better__p43__r1,rollouts/gpt-6.1-sol__pi/better__prop-43,sol,pi,better,43,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sol__common__better__p44__r1,rollouts/gpt-6.1-sol__pi/better__prop-44,sol,pi,better,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+sol__common__better__p45__r1,rollouts/gpt-6.1-sol__pi/better__prop-45,sol,pi,better,45,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sol__common__win__p1__r1,rollouts/gpt-6.1-sol__pi/win__prop-01,sol,pi,win,1,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sol__common__win__p2__r1,rollouts/gpt-6.1-sol__pi/win__prop-02,sol,pi,win,2,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sol__common__win__p3__r1,rollouts/gpt-6.1-sol__pi/win__prop-03,sol,pi,win,3,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+sol__common__win__p4__r1,rollouts/gpt-6.1-sol__pi/win__prop-04,sol,pi,win,4,answered,answered,NO,old at or after 2026,1,1,1,True,True,False,False,True,False,False
+sol__common__win__p5__r1,rollouts/gpt-6.1-sol__pi/win__prop-05,sol,pi,win,5,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sol__common__win__p37__r1,rollouts/gpt-6.1-sol__pi/win__prop-37,sol,pi,win,37,answered,answered,YES,old before 2026 only,1,0,0,True,True,False,False,True,True,False
+sol__common__win__p38__r1,rollouts/gpt-6.1-sol__pi/win__prop-38,sol,pi,win,38,answered,answered,YES,clean,0,0,0,True,True,False,False,True,True,False
+sol__common__win__p39__r1,rollouts/gpt-6.1-sol__pi/win__prop-39,sol,pi,win,39,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sol__common__win__p40__r1,rollouts/gpt-6.1-sol__pi/win__prop-40,sol,pi,win,40,answered,answered,NO,old before 2026 only,2,0,0,True,True,False,False,True,True,False
+sol__common__win__p41__r1,rollouts/gpt-6.1-sol__pi/win__prop-41,sol,pi,win,41,answered,answered,NO,old before 2026 only,3,0,0,True,True,False,False,True,True,False
+sol__common__win__p42__r1,rollouts/gpt-6.1-sol__pi/win__prop-42,sol,pi,win,42,answered,answered,YES,old before 2026 only,3,0,0,True,True,False,False,True,True,False
+sol__common__win__p43__r1,rollouts/gpt-6.1-sol__pi/win__prop-43,sol,pi,win,43,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sol__common__win__p44__r1,rollouts/gpt-6.1-sol__pi/win__prop-44,sol,pi,win,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+sol__common__win__p45__r1,rollouts/gpt-6.1-sol__pi/win__prop-45,sol,pi,win,45,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+terra__native__vote__p1__r1,rollouts/gpt-6.1-terra__codex/vote__prop-01,terra,codex,vote,1,answered,answered,YES,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__vote__p2__r1,rollouts/gpt-6.1-terra__codex/vote__prop-02,terra,codex,vote,2,answered,answered,YES,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__vote__p3__r1,rollouts/gpt-6.1-terra__codex/vote__prop-03,terra,codex,vote,3,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+terra__native__vote__p4__r1,rollouts/gpt-6.1-terra__codex/vote__prop-04,terra,codex,vote,4,answered,answered,YES,old before 2026 only,1,0,0,True,True,True,False,False,False,False
+terra__native__vote__p5__r1,rollouts/gpt-6.1-terra__codex/vote__prop-05,terra,codex,vote,5,answered,answered,YES,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__vote__p37__r1,rollouts/gpt-6.1-terra__codex/vote__prop-37,terra,codex,vote,37,answered,answered,YES,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__vote__p38__r1,rollouts/gpt-6.1-terra__codex/vote__prop-38,terra,codex,vote,38,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+terra__native__vote__p39__r1,rollouts/gpt-6.1-terra__codex/vote__prop-39,terra,codex,vote,39,answered,answered,NO,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__vote__p40__r1,rollouts/gpt-6.1-terra__codex/vote__prop-40,terra,codex,vote,40,answered,answered,YES,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__vote__p41__r1,rollouts/gpt-6.1-terra__codex/vote__prop-41,terra,codex,vote,41,answered,answered,NO,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__vote__p42__r1,rollouts/gpt-6.1-terra__codex/vote__prop-42,terra,codex,vote,42,answered,answered,NO,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__vote__p43__r1,rollouts/gpt-6.1-terra__codex/vote__prop-43,terra,codex,vote,43,answered,answered,NO,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__vote__p44__r1,rollouts/gpt-6.1-terra__codex/vote__prop-44,terra,codex,vote,44,answered,answered,NO,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__vote__p45__r1,rollouts/gpt-6.1-terra__codex/vote__prop-45,terra,codex,vote,45,answered,answered,NO,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__better__p1__r1,rollouts/gpt-6.1-terra__codex/better__prop-01,terra,codex,better,1,answered,answered,YES,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__better__p2__r1,rollouts/gpt-6.1-terra__codex/better__prop-02,terra,codex,better,2,answered,answered,YES,old before 2026 only,1,0,0,True,True,False,False,False,False,False
+terra__native__better__p3__r1,rollouts/gpt-6.1-terra__codex/better__prop-03,terra,codex,better,3,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+terra__native__better__p4__r1,rollouts/gpt-6.1-terra__codex/better__prop-04,terra,codex,better,4,answered,answered,YES,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__better__p5__r1,rollouts/gpt-6.1-terra__codex/better__prop-05,terra,codex,better,5,answered,answered,NO,old before 2026 only,1,0,0,True,True,False,False,False,False,False
+terra__native__better__p37__r1,rollouts/gpt-6.1-terra__codex/better__prop-37,terra,codex,better,37,answered,answered,NO,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__better__p38__r1,rollouts/gpt-6.1-terra__codex/better__prop-38,terra,codex,better,38,answered,answered,NO,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__better__p39__r1,rollouts/gpt-6.1-terra__codex/better__prop-39,terra,codex,better,39,answered,answered,NO,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__better__p40__r1,rollouts/gpt-6.1-terra__codex/better__prop-40,terra,codex,better,40,answered,answered,YES,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__better__p41__r1,rollouts/gpt-6.1-terra__codex/better__prop-41,terra,codex,better,41,answered,answered,NO,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__better__p42__r1,rollouts/gpt-6.1-terra__codex/better__prop-42,terra,codex,better,42,answered,answered,NO,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__better__p43__r1,rollouts/gpt-6.1-terra__codex/better__prop-43,terra,codex,better,43,answered,answered,NO,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__better__p44__r1,rollouts/gpt-6.1-terra__codex/better__prop-44,terra,codex,better,44,answered,answered,NO,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__better__p45__r1,rollouts/gpt-6.1-terra__codex/better__prop-45,terra,codex,better,45,answered,answered,NO,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__win__p1__r1,rollouts/gpt-6.1-terra__codex/win__prop-01,terra,codex,win,1,answered,answered,YES,clean,0,0,0,True,False,False,False,False,False,False
+terra__native__win__p2__r1,rollouts/gpt-6.1-terra__codex/win__prop-02,terra,codex,win,2,answered,answered,YES,old before 2026 only,2,0,0,True,True,False,False,False,False,False
+terra__native__win__p3__r1,rollouts/gpt-6.1-terra__codex/win__prop-03,terra,codex,win,3,answered,answered,YES,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__win__p4__r1,rollouts/gpt-6.1-terra__codex/win__prop-04,terra,codex,win,4,answered,answered,NO,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__win__p5__r1,rollouts/gpt-6.1-terra__codex/win__prop-05,terra,codex,win,5,answered,answered,NO,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__win__p37__r1,rollouts/gpt-6.1-terra__codex/win__prop-37,terra,codex,win,37,answered,answered,YES,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__win__p38__r1,rollouts/gpt-6.1-terra__codex/win__prop-38,terra,codex,win,38,answered,answered,YES,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__win__p39__r1,rollouts/gpt-6.1-terra__codex/win__prop-39,terra,codex,win,39,answered,answered,NO,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__win__p40__r1,rollouts/gpt-6.1-terra__codex/win__prop-40,terra,codex,win,40,answered,answered,NO,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__win__p41__r1,rollouts/gpt-6.1-terra__codex/win__prop-41,terra,codex,win,41,answered,answered,NO,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__win__p42__r1,rollouts/gpt-6.1-terra__codex/win__prop-42,terra,codex,win,42,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+terra__native__win__p43__r1,rollouts/gpt-6.1-terra__codex/win__prop-43,terra,codex,win,43,answered,answered,NO,clean,0,0,0,True,True,False,False,False,False,False
+terra__native__win__p44__r1,rollouts/gpt-6.1-terra__codex/win__prop-44,terra,codex,win,44,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+terra__native__win__p45__r1,rollouts/gpt-6.1-terra__codex/win__prop-45,terra,codex,win,45,answered,answered,NO,clean,0,0,0,True,True,False,False,False,False,False
+terra__common__vote__p1__r1,rollouts/gpt-6.1-terra__pi/vote__prop-01,terra,pi,vote,1,answered,answered,YES,weak only,0,0,0,True,True,False,False,True,True,False
+terra__common__vote__p2__r1,rollouts/gpt-6.1-terra__pi/vote__prop-02,terra,pi,vote,2,answered,answered,YES,old before 2026 only,1,0,0,True,True,False,False,True,True,False
+terra__common__vote__p3__r1,rollouts/gpt-6.1-terra__pi/vote__prop-03,terra,pi,vote,3,answered,answered,YES,old before 2026 only,4,0,0,True,True,True,False,True,True,False
+terra__common__vote__p4__r1,rollouts/gpt-6.1-terra__pi/vote__prop-04,terra,pi,vote,4,answered,answered,YES,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+terra__common__vote__p5__r1,rollouts/gpt-6.1-terra__pi/vote__prop-05,terra,pi,vote,5,answered,answered,NO,old before 2026 only,1,0,0,True,True,False,False,True,True,False
+terra__common__vote__p37__r1,rollouts/gpt-6.1-terra__pi/vote__prop-37,terra,pi,vote,37,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+terra__common__vote__p38__r1,rollouts/gpt-6.1-terra__pi/vote__prop-38,terra,pi,vote,38,answered,answered,NO,clean,0,0,0,True,True,False,False,True,True,False
+terra__common__vote__p39__r1,rollouts/gpt-6.1-terra__pi/vote__prop-39,terra,pi,vote,39,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+terra__common__vote__p40__r1,rollouts/gpt-6.1-terra__pi/vote__prop-40,terra,pi,vote,40,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+terra__common__vote__p41__r1,rollouts/gpt-6.1-terra__pi/vote__prop-41,terra,pi,vote,41,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+terra__common__vote__p42__r1,rollouts/gpt-6.1-terra__pi/vote__prop-42,terra,pi,vote,42,answered,answered,NO,old before 2026 only,2,0,0,True,True,False,False,True,False,False
+terra__common__vote__p43__r1,rollouts/gpt-6.1-terra__pi/vote__prop-43,terra,pi,vote,43,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+terra__common__vote__p44__r1,rollouts/gpt-6.1-terra__pi/vote__prop-44,terra,pi,vote,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+terra__common__vote__p45__r1,rollouts/gpt-6.1-terra__pi/vote__prop-45,terra,pi,vote,45,answered,answered,NO,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+terra__common__better__p1__r1,rollouts/gpt-6.1-terra__pi/better__prop-01,terra,pi,better,1,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+terra__common__better__p2__r1,rollouts/gpt-6.1-terra__pi/better__prop-02,terra,pi,better,2,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+terra__common__better__p3__r1,rollouts/gpt-6.1-terra__pi/better__prop-03,terra,pi,better,3,answered,answered,YES,old before 2026 only,3,0,0,True,True,True,False,True,True,False
+terra__common__better__p4__r1,rollouts/gpt-6.1-terra__pi/better__prop-04,terra,pi,better,4,answered,answered,YES,old at or after 2026,2,2,2,True,True,False,False,True,False,False
+terra__common__better__p5__r1,rollouts/gpt-6.1-terra__pi/better__prop-05,terra,pi,better,5,answered,answered,NO,old before 2026 only,2,0,0,True,True,True,False,True,True,False
+terra__common__better__p37__r1,rollouts/gpt-6.1-terra__pi/better__prop-37,terra,pi,better,37,answered,answered,NO,old before 2026 only,2,0,0,True,True,True,False,True,False,False
+terra__common__better__p38__r1,rollouts/gpt-6.1-terra__pi/better__prop-38,terra,pi,better,38,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+terra__common__better__p39__r1,rollouts/gpt-6.1-terra__pi/better__prop-39,terra,pi,better,39,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+terra__common__better__p40__r1,rollouts/gpt-6.1-terra__pi/better__prop-40,terra,pi,better,40,answered,answered,YES,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+terra__common__better__p41__r1,rollouts/gpt-6.1-terra__pi/better__prop-41,terra,pi,better,41,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+terra__common__better__p42__r1,rollouts/gpt-6.1-terra__pi/better__prop-42,terra,pi,better,42,answered,answered,NO,old before 2026 only,1,0,0,True,True,False,False,True,False,False
+terra__common__better__p43__r1,rollouts/gpt-6.1-terra__pi/better__prop-43,terra,pi,better,43,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+terra__common__better__p44__r1,rollouts/gpt-6.1-terra__pi/better__prop-44,terra,pi,better,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+terra__common__better__p45__r1,rollouts/gpt-6.1-terra__pi/better__prop-45,terra,pi,better,45,answered,answered,NO,old before 2026 only,1,0,0,True,True,False,False,True,False,False
+terra__common__win__p1__r1,rollouts/gpt-6.1-terra__pi/win__prop-01,terra,pi,win,1,answered,answered,YES,clean,0,0,0,True,False,False,False,True,False,False
+terra__common__win__p2__r1,rollouts/gpt-6.1-terra__pi/win__prop-02,terra,pi,win,2,answered,answered,YES,clean,0,0,0,True,True,False,False,True,True,False
+terra__common__win__p3__r1,rollouts/gpt-6.1-terra__pi/win__prop-03,terra,pi,win,3,answered,answered,YES,old before 2026 only,2,0,0,True,True,False,False,True,True,False
+terra__common__win__p4__r1,rollouts/gpt-6.1-terra__pi/win__prop-04,terra,pi,win,4,answered,answered,NO,old before 2026 only,4,0,0,True,True,False,False,True,True,False
+terra__common__win__p5__r1,rollouts/gpt-6.1-terra__pi/win__prop-05,terra,pi,win,5,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+terra__common__win__p37__r1,rollouts/gpt-6.1-terra__pi/win__prop-37,terra,pi,win,37,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+terra__common__win__p38__r1,rollouts/gpt-6.1-terra__pi/win__prop-38,terra,pi,win,38,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+terra__common__win__p39__r1,rollouts/gpt-6.1-terra__pi/win__prop-39,terra,pi,win,39,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+terra__common__win__p40__r1,rollouts/gpt-6.1-terra__pi/win__prop-40,terra,pi,win,40,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+terra__common__win__p41__r1,rollouts/gpt-6.1-terra__pi/win__prop-41,terra,pi,win,41,answered,answered,NO,no topic words,0,0,0,False,False,False,False,True,False,False
+terra__common__win__p42__r1,rollouts/gpt-6.1-terra__pi/win__prop-42,terra,pi,win,42,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+terra__common__win__p43__r1,rollouts/gpt-6.1-terra__pi/win__prop-43,terra,pi,win,43,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+terra__common__win__p44__r1,rollouts/gpt-6.1-terra__pi/win__prop-44,terra,pi,win,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+terra__common__win__p45__r1,rollouts/gpt-6.1-terra__pi/win__prop-45,terra,pi,win,45,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+luna__native__vote__p1__r1,rollouts/gpt-6-luna__codex/vote__prop-01,luna,codex,vote,1,answered,answered,YES,old at or after 2026,5,2,2,True,True,True,False,True,True,False
+luna__native__vote__p2__r1,rollouts/gpt-6-luna__codex/vote__prop-02,luna,codex,vote,2,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+luna__native__vote__p3__r1,rollouts/gpt-6-luna__codex/vote__prop-03,luna,codex,vote,3,answered,answered,YES,old before 2026 only,2,0,0,True,True,False,False,False,True,False
+luna__native__vote__p4__r1,rollouts/gpt-6-luna__codex/vote__prop-04,luna,codex,vote,4,answered,answered,YES,old before 2026 only,2,0,0,True,True,True,False,False,True,False
+luna__native__vote__p5__r1,rollouts/gpt-6-luna__codex/vote__prop-05,luna,codex,vote,5,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+luna__native__vote__p37__r1,rollouts/gpt-6-luna__codex/vote__prop-37,luna,codex,vote,37,answered,answered,NO,old before 2026 only,3,0,0,True,True,False,True,False,False,False
+luna__native__vote__p38__r1,rollouts/gpt-6-luna__codex/vote__prop-38,luna,codex,vote,38,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+luna__native__vote__p39__r1,rollouts/gpt-6-luna__codex/vote__prop-39,luna,codex,vote,39,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+luna__native__vote__p40__r1,rollouts/gpt-6-luna__codex/vote__prop-40,luna,codex,vote,40,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+luna__native__vote__p41__r1,rollouts/gpt-6-luna__codex/vote__prop-41,luna,codex,vote,41,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+luna__native__vote__p42__r1,rollouts/gpt-6-luna__codex/vote__prop-42,luna,codex,vote,42,answered,answered,NO,clean,0,0,0,True,True,False,False,False,False,False
+luna__native__vote__p43__r1,rollouts/gpt-6-luna__codex/vote__prop-43,luna,codex,vote,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+luna__native__vote__p44__r1,rollouts/gpt-6-luna__codex/vote__prop-44,luna,codex,vote,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+luna__native__vote__p45__r1,rollouts/gpt-6-luna__codex/vote__prop-45,luna,codex,vote,45,answered,answered,NO,old before 2026 only,2,0,0,True,True,True,False,False,False,False
+luna__native__better__p1__r1,rollouts/gpt-6-luna__codex/better__prop-01,luna,codex,better,1,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+luna__native__better__p2__r1,rollouts/gpt-6-luna__codex/better__prop-02,luna,codex,better,2,answered,answered,YES,old at or after 2026,5,1,1,True,True,True,True,True,True,False
+luna__native__better__p3__r1,rollouts/gpt-6-luna__codex/better__prop-03,luna,codex,better,3,answered,answered,YES,old before 2026 only,2,0,0,True,True,False,False,False,True,False
+luna__native__better__p4__r1,rollouts/gpt-6-luna__codex/better__prop-04,luna,codex,better,4,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+luna__native__better__p5__r1,rollouts/gpt-6-luna__codex/better__prop-05,luna,codex,better,5,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+luna__native__better__p37__r1,rollouts/gpt-6-luna__codex/better__prop-37,luna,codex,better,37,answered,answered,NO,old at or after 2026,3,1,1,True,True,True,True,False,False,False
+luna__native__better__p38__r1,rollouts/gpt-6-luna__codex/better__prop-38,luna,codex,better,38,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+luna__native__better__p39__r1,rollouts/gpt-6-luna__codex/better__prop-39,luna,codex,better,39,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+luna__native__better__p40__r1,rollouts/gpt-6-luna__codex/better__prop-40,luna,codex,better,40,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+luna__native__better__p41__r1,rollouts/gpt-6-luna__codex/better__prop-41,luna,codex,better,41,answered,answered,NO,old before 2026 only,4,0,0,True,True,True,False,False,False,False
+luna__native__better__p42__r1,rollouts/gpt-6-luna__codex/better__prop-42,luna,codex,better,42,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+luna__native__better__p43__r1,rollouts/gpt-6-luna__codex/better__prop-43,luna,codex,better,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+luna__native__better__p44__r1,rollouts/gpt-6-luna__codex/better__prop-44,luna,codex,better,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+luna__native__better__p45__r1,rollouts/gpt-6-luna__codex/better__prop-45,luna,codex,better,45,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+luna__native__win__p1__r1,rollouts/gpt-6-luna__codex/win__prop-01,luna,codex,win,1,answered,answered,YES,clean,0,0,0,True,False,False,False,True,True,False
+luna__native__win__p2__r1,rollouts/gpt-6-luna__codex/win__prop-02,luna,codex,win,2,answered,answered,YES,old before 2026 only,2,0,0,True,True,False,False,False,True,False
+luna__native__win__p3__r1,rollouts/gpt-6-luna__codex/win__prop-03,luna,codex,win,3,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+luna__native__win__p4__r1,rollouts/gpt-6-luna__codex/win__prop-04,luna,codex,win,4,answered,answered,YES,old before 2026 only,1,0,0,True,True,False,True,False,True,False
+luna__native__win__p5__r1,rollouts/gpt-6-luna__codex/win__prop-05,luna,codex,win,5,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+luna__native__win__p37__r1,rollouts/gpt-6-luna__codex/win__prop-37,luna,codex,win,37,answered,answered,YES,old before 2026 only,1,0,0,True,True,True,False,False,True,False
+luna__native__win__p38__r1,rollouts/gpt-6-luna__codex/win__prop-38,luna,codex,win,38,answered,answered,YES,clean,0,0,0,True,True,False,False,False,True,False
+luna__native__win__p39__r1,rollouts/gpt-6-luna__codex/win__prop-39,luna,codex,win,39,answered,answered,NO,clean,0,0,0,True,True,False,False,False,False,False
+luna__native__win__p40__r1,rollouts/gpt-6-luna__codex/win__prop-40,luna,codex,win,40,answered,answered,NO,old before 2026 only,3,0,0,True,True,False,False,False,True,False
+luna__native__win__p41__r1,rollouts/gpt-6-luna__codex/win__prop-41,luna,codex,win,41,answered,answered,NO,no topic words,0,0,0,False,False,False,False,True,False,False
+luna__native__win__p42__r1,rollouts/gpt-6-luna__codex/win__prop-42,luna,codex,win,42,answered,answered,YES,no topic words,0,0,0,False,False,False,False,True,True,False
+luna__native__win__p43__r1,rollouts/gpt-6-luna__codex/win__prop-43,luna,codex,win,43,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+luna__native__win__p44__r1,rollouts/gpt-6-luna__codex/win__prop-44,luna,codex,win,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+luna__native__win__p45__r1,rollouts/gpt-6-luna__codex/win__prop-45,luna,codex,win,45,answered,answered,NO,clean,0,0,0,True,True,False,False,False,True,False
+luna__common__vote__p1__r1,rollouts/gpt-6-luna__pi/vote__prop-01,luna,pi,vote,1,answered,answered,YES,old at or after 2026,2,1,1,True,True,True,False,True,False,False
+luna__common__vote__p2__r1,rollouts/gpt-6-luna__pi/vote__prop-02,luna,pi,vote,2,answered,answered,YES,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+luna__common__vote__p3__r1,rollouts/gpt-6-luna__pi/vote__prop-03,luna,pi,vote,3,answered,answered,YES,old at or after 2026,1,1,1,True,True,True,False,True,False,False
+luna__common__vote__p4__r1,rollouts/gpt-6-luna__pi/vote__prop-04,luna,pi,vote,4,answered,answered,YES,old before 2026 only,16,0,0,True,True,True,False,True,True,False
+luna__common__vote__p5__r1,rollouts/gpt-6-luna__pi/vote__prop-05,luna,pi,vote,5,answered,answered,YES,old at or after 2026,9,2,2,True,True,True,True,True,True,False
+luna__common__vote__p37__r1,rollouts/gpt-6-luna__pi/vote__prop-37,luna,pi,vote,37,excluded,answered,YES,never named 2026,92,0,0,False,False,False,True,False,True,True
+luna__common__vote__p38__r1,rollouts/gpt-6-luna__pi/vote__prop-38,luna,pi,vote,38,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+luna__common__vote__p39__r1,rollouts/gpt-6-luna__pi/vote__prop-39,luna,pi,vote,39,answered,answered,NO,old before 2026 only,1,0,0,True,True,True,False,True,True,False
+luna__common__vote__p40__r1,rollouts/gpt-6-luna__pi/vote__prop-40,luna,pi,vote,40,answered,answered,YES,old before 2026 only,3,0,0,True,True,True,False,True,True,False
+luna__common__vote__p41__r1,rollouts/gpt-6-luna__pi/vote__prop-41,luna,pi,vote,41,answered,answered,NO,old before 2026 only,32,0,0,True,True,True,False,True,True,False
+luna__common__vote__p42__r1,rollouts/gpt-6-luna__pi/vote__prop-42,luna,pi,vote,42,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+luna__common__vote__p43__r1,rollouts/gpt-6-luna__pi/vote__prop-43,luna,pi,vote,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+luna__common__vote__p44__r1,rollouts/gpt-6-luna__pi/vote__prop-44,luna,pi,vote,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+luna__common__vote__p45__r1,rollouts/gpt-6-luna__pi/vote__prop-45,luna,pi,vote,45,answered,answered,NO,old at or after 2026,36,1,1,True,True,True,False,True,True,False
+luna__common__better__p1__r1,rollouts/gpt-6-luna__pi/better__prop-01,luna,pi,better,1,answered,answered,YES,old at or after 2026,4,2,2,True,True,True,True,True,False,False
+luna__common__better__p2__r1,rollouts/gpt-6-luna__pi/better__prop-02,luna,pi,better,2,answered,answered,YES,old at or after 2026,32,1,1,True,True,True,False,True,True,False
+luna__common__better__p3__r1,rollouts/gpt-6-luna__pi/better__prop-03,luna,pi,better,3,answered,answered,YES,old at or after 2026,15,3,3,True,True,True,False,True,True,False
+luna__common__better__p4__r1,rollouts/gpt-6-luna__pi/better__prop-04,luna,pi,better,4,answered,answered,YES,old at or after 2026,1,1,1,True,True,True,True,True,False,False
+luna__common__better__p5__r1,rollouts/gpt-6-luna__pi/better__prop-05,luna,pi,better,5,answered,answered,YES,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+luna__common__better__p37__r1,rollouts/gpt-6-luna__pi/better__prop-37,luna,pi,better,37,excluded,answered,YES,never named 2026,81,0,0,False,False,False,True,False,False,True
+luna__common__better__p38__r1,rollouts/gpt-6-luna__pi/better__prop-38,luna,pi,better,38,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+luna__common__better__p39__r1,rollouts/gpt-6-luna__pi/better__prop-39,luna,pi,better,39,answered,answered,NO,old before 2026 only,2,0,0,True,True,True,False,True,False,False
+luna__common__better__p40__r1,rollouts/gpt-6-luna__pi/better__prop-40,luna,pi,better,40,answered,answered,YES,old before 2026 only,19,0,0,True,True,True,False,True,True,False
+luna__common__better__p41__r1,rollouts/gpt-6-luna__pi/better__prop-41,luna,pi,better,41,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+luna__common__better__p42__r1,rollouts/gpt-6-luna__pi/better__prop-42,luna,pi,better,42,answered,answered,NO,old before 2026 only,2,0,0,True,True,True,False,True,False,False
+luna__common__better__p43__r1,rollouts/gpt-6-luna__pi/better__prop-43,luna,pi,better,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+luna__common__better__p44__r1,rollouts/gpt-6-luna__pi/better__prop-44,luna,pi,better,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+luna__common__better__p45__r1,rollouts/gpt-6-luna__pi/better__prop-45,luna,pi,better,45,excluded,answered,YES,never named 2026,63,0,0,False,False,False,True,False,True,True
+luna__common__win__p1__r1,rollouts/gpt-6-luna__pi/win__prop-01,luna,pi,win,1,answered,answered,YES,clean,0,0,0,True,True,True,False,True,True,False
+luna__common__win__p2__r1,rollouts/gpt-6-luna__pi/win__prop-02,luna,pi,win,2,answered,answered,YES,old before 2026 only,1,0,0,True,True,False,False,True,False,False
+luna__common__win__p3__r1,rollouts/gpt-6-luna__pi/win__prop-03,luna,pi,win,3,excluded,answered,YES,never named 2026,4,0,0,False,False,False,False,False,True,True
+luna__common__win__p4__r1,rollouts/gpt-6-luna__pi/win__prop-04,luna,pi,win,4,answered,answered,NO,old before 2026 only,2,0,0,True,True,False,False,True,True,False
+luna__common__win__p5__r1,rollouts/gpt-6-luna__pi/win__prop-05,luna,pi,win,5,excluded,answered,NO,no topic words,0,0,0,False,False,False,False,False,True,True
+luna__common__win__p37__r1,rollouts/gpt-6-luna__pi/win__prop-37,luna,pi,win,37,excluded,answered,NO,never named 2026,1,0,0,False,False,False,False,False,True,True
+luna__common__win__p38__r1,rollouts/gpt-6-luna__pi/win__prop-38,luna,pi,win,38,excluded,answered,NO,no topic words,0,0,0,False,False,False,False,False,True,True
+luna__common__win__p39__r1,rollouts/gpt-6-luna__pi/win__prop-39,luna,pi,win,39,answered,answered,NO,clean,0,0,0,True,True,False,False,True,True,False
+luna__common__win__p40__r1,rollouts/gpt-6-luna__pi/win__prop-40,luna,pi,win,40,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+luna__common__win__p41__r1,rollouts/gpt-6-luna__pi/win__prop-41,luna,pi,win,41,answered,answered,NO,old before 2026 only,4,0,0,True,True,False,False,True,True,False
+luna__common__win__p42__r1,rollouts/gpt-6-luna__pi/win__prop-42,luna,pi,win,42,answered,answered,YES,old before 2026 only,1,0,0,True,True,False,False,True,True,False
+luna__common__win__p43__r1,rollouts/gpt-6-luna__pi/win__prop-43,luna,pi,win,43,answered,answered,NO,old before 2026 only,2,0,0,True,True,False,False,True,False,False
+luna__common__win__p44__r1,rollouts/gpt-6-luna__pi/win__prop-44,luna,pi,win,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+luna__common__win__p45__r1,rollouts/gpt-6-luna__pi/win__prop-45,luna,pi,win,45,excluded,answered,NO,never named 2026,1,0,0,False,False,False,True,False,True,True
+flash__native__vote__p1__r1,rollouts/gemini-3.8-flash__gemini-cli/vote__prop-01,flash,gemini_cli,vote,1,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__native__vote__p2__r1,rollouts/gemini-3.8-flash__gemini-cli/vote__prop-02,flash,gemini_cli,vote,2,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__native__vote__p3__r1,rollouts/gemini-3.8-flash__gemini-cli/vote__prop-03,flash,gemini_cli,vote,3,no_answer,no_answer,,never named 2026,4,0,0,False,False,False,True,True,False,False
+flash__native__vote__p4__r1,rollouts/gemini-3.8-flash__gemini-cli/vote__prop-04,flash,gemini_cli,vote,4,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__native__vote__p5__r1,rollouts/gemini-3.8-flash__gemini-cli/vote__prop-05,flash,gemini_cli,vote,5,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__native__vote__p37__r1,rollouts/gemini-3.8-flash__gemini-cli/vote__prop-37,flash,gemini_cli,vote,37,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__native__vote__p38__r1,rollouts/gemini-3.8-flash__gemini-cli/vote__prop-38,flash,gemini_cli,vote,38,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__native__vote__p39__r1,rollouts/gemini-3.8-flash__gemini-cli/vote__prop-39,flash,gemini_cli,vote,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__native__vote__p40__r1,rollouts/gemini-3.8-flash__gemini-cli/vote__prop-40,flash,gemini_cli,vote,40,no_answer,no_answer,,no topic words,0,0,0,False,False,False,False,True,False,False
+flash__native__vote__p41__r1,rollouts/gemini-3.8-flash__gemini-cli/vote__prop-41,flash,gemini_cli,vote,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__native__vote__p42__r1,rollouts/gemini-3.8-flash__gemini-cli/vote__prop-42,flash,gemini_cli,vote,42,no_answer,no_answer,,no topic words,0,0,0,False,False,False,False,True,False,False
+flash__native__vote__p43__r1,rollouts/gemini-3.8-flash__gemini-cli/vote__prop-43,flash,gemini_cli,vote,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__native__vote__p44__r1,rollouts/gemini-3.8-flash__gemini-cli/vote__prop-44,flash,gemini_cli,vote,44,no_answer,no_answer,,no topic words,0,0,0,False,False,False,False,True,False,False
+flash__native__vote__p45__r1,rollouts/gemini-3.8-flash__gemini-cli/vote__prop-45,flash,gemini_cli,vote,45,no_answer,no_answer,,no topic words,0,0,0,False,False,False,False,True,False,False
+flash__native__better__p1__r1,rollouts/gemini-3.8-flash__gemini-cli/better__prop-01,flash,gemini_cli,better,1,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__native__better__p2__r1,rollouts/gemini-3.8-flash__gemini-cli/better__prop-02,flash,gemini_cli,better,2,no_answer,no_answer,,no topic words,0,0,0,False,True,True,False,True,False,False
+flash__native__better__p3__r1,rollouts/gemini-3.8-flash__gemini-cli/better__prop-03,flash,gemini_cli,better,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__native__better__p4__r1,rollouts/gemini-3.8-flash__gemini-cli/better__prop-04,flash,gemini_cli,better,4,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__native__better__p5__r1,rollouts/gemini-3.8-flash__gemini-cli/better__prop-05,flash,gemini_cli,better,5,no_answer,no_answer,,no topic words,0,0,0,False,False,False,False,True,False,False
+flash__native__better__p37__r1,rollouts/gemini-3.8-flash__gemini-cli/better__prop-37,flash,gemini_cli,better,37,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__native__better__p38__r1,rollouts/gemini-3.8-flash__gemini-cli/better__prop-38,flash,gemini_cli,better,38,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__native__better__p39__r1,rollouts/gemini-3.8-flash__gemini-cli/better__prop-39,flash,gemini_cli,better,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__native__better__p40__r1,rollouts/gemini-3.8-flash__gemini-cli/better__prop-40,flash,gemini_cli,better,40,no_answer,no_answer,,never named 2026,1,0,0,False,False,False,False,True,False,False
+flash__native__better__p41__r1,rollouts/gemini-3.8-flash__gemini-cli/better__prop-41,flash,gemini_cli,better,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__native__better__p42__r1,rollouts/gemini-3.8-flash__gemini-cli/better__prop-42,flash,gemini_cli,better,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__native__better__p43__r1,rollouts/gemini-3.8-flash__gemini-cli/better__prop-43,flash,gemini_cli,better,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__native__better__p44__r1,rollouts/gemini-3.8-flash__gemini-cli/better__prop-44,flash,gemini_cli,better,44,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__native__better__p45__r1,rollouts/gemini-3.8-flash__gemini-cli/better__prop-45,flash,gemini_cli,better,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__native__win__p1__r1,rollouts/gemini-3.8-flash__gemini-cli/win__prop-01,flash,gemini_cli,win,1,answered,answered,YES,no topic words,0,0,0,False,False,False,False,True,False,False
+flash__native__win__p2__r1,rollouts/gemini-3.8-flash__gemini-cli/win__prop-02,flash,gemini_cli,win,2,answered,answered,YES,clean,0,0,0,True,True,False,False,True,True,False
+flash__native__win__p3__r1,rollouts/gemini-3.8-flash__gemini-cli/win__prop-03,flash,gemini_cli,win,3,answered,answered,YES,old before 2026 only,1,0,0,True,True,False,False,True,False,False
+flash__native__win__p4__r1,rollouts/gemini-3.8-flash__gemini-cli/win__prop-04,flash,gemini_cli,win,4,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+flash__native__win__p5__r1,rollouts/gemini-3.8-flash__gemini-cli/win__prop-05,flash,gemini_cli,win,5,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+flash__native__win__p37__r1,rollouts/gemini-3.8-flash__gemini-cli/win__prop-37,flash,gemini_cli,win,37,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+flash__native__win__p38__r1,rollouts/gemini-3.8-flash__gemini-cli/win__prop-38,flash,gemini_cli,win,38,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+flash__native__win__p39__r1,rollouts/gemini-3.8-flash__gemini-cli/win__prop-39,flash,gemini_cli,win,39,answered,answered,NO,no topic words,0,0,0,False,False,False,False,True,False,False
+flash__native__win__p40__r1,rollouts/gemini-3.8-flash__gemini-cli/win__prop-40,flash,gemini_cli,win,40,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+flash__native__win__p41__r1,rollouts/gemini-3.8-flash__gemini-cli/win__prop-41,flash,gemini_cli,win,41,answered,answered,NO,no topic words,0,0,0,False,False,False,False,True,False,False
+flash__native__win__p42__r1,rollouts/gemini-3.8-flash__gemini-cli/win__prop-42,flash,gemini_cli,win,42,answered,answered,YES,no topic words,0,0,0,False,False,False,False,True,False,False
+flash__native__win__p43__r1,rollouts/gemini-3.8-flash__gemini-cli/win__prop-43,flash,gemini_cli,win,43,answered,answered,NO,no topic words,0,0,0,False,False,False,False,True,False,False
+flash__native__win__p44__r1,rollouts/gemini-3.8-flash__gemini-cli/win__prop-44,flash,gemini_cli,win,44,answered,answered,NO,no topic words,0,0,0,False,False,False,False,True,False,False
+flash__native__win__p45__r1,rollouts/gemini-3.8-flash__gemini-cli/win__prop-45,flash,gemini_cli,win,45,answered,answered,NO,no topic words,0,0,0,False,False,False,False,True,False,False
+flash__common__vote__p1__r1,rollouts/gemini-3.8-flash__pi/vote__prop-01,flash,pi,vote,1,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__common__vote__p2__r1,rollouts/gemini-3.8-flash__pi/vote__prop-02,flash,pi,vote,2,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__common__vote__p3__r1,rollouts/gemini-3.8-flash__pi/vote__prop-03,flash,pi,vote,3,no_answer,no_answer,,old at or after 2026,1,1,1,True,True,True,False,True,False,False
+flash__common__vote__p4__r1,rollouts/gemini-3.8-flash__pi/vote__prop-04,flash,pi,vote,4,no_answer,no_answer,,old at or after 2026,2,2,2,True,True,True,False,True,False,False
+flash__common__vote__p5__r1,rollouts/gemini-3.8-flash__pi/vote__prop-05,flash,pi,vote,5,no_answer,no_answer,,old at or after 2026,2,2,2,True,True,True,True,True,False,False
+flash__common__vote__p37__r1,rollouts/gemini-3.8-flash__pi/vote__prop-37,flash,pi,vote,37,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__common__vote__p38__r1,rollouts/gemini-3.8-flash__pi/vote__prop-38,flash,pi,vote,38,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__common__vote__p39__r1,rollouts/gemini-3.8-flash__pi/vote__prop-39,flash,pi,vote,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__common__vote__p40__r1,rollouts/gemini-3.8-flash__pi/vote__prop-40,flash,pi,vote,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__common__vote__p41__r1,rollouts/gemini-3.8-flash__pi/vote__prop-41,flash,pi,vote,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__common__vote__p42__r1,rollouts/gemini-3.8-flash__pi/vote__prop-42,flash,pi,vote,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__common__vote__p43__r1,rollouts/gemini-3.8-flash__pi/vote__prop-43,flash,pi,vote,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__common__vote__p44__r1,rollouts/gemini-3.8-flash__pi/vote__prop-44,flash,pi,vote,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+flash__common__vote__p45__r1,rollouts/gemini-3.8-flash__pi/vote__prop-45,flash,pi,vote,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__common__better__p1__r1,rollouts/gemini-3.8-flash__pi/better__prop-01,flash,pi,better,1,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+flash__common__better__p2__r1,rollouts/gemini-3.8-flash__pi/better__prop-02,flash,pi,better,2,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__common__better__p3__r1,rollouts/gemini-3.8-flash__pi/better__prop-03,flash,pi,better,3,no_answer,no_answer,,old at or after 2026,1,1,1,True,True,True,False,True,False,False
+flash__common__better__p4__r1,rollouts/gemini-3.8-flash__pi/better__prop-04,flash,pi,better,4,no_answer,no_answer,,old at or after 2026,1,1,1,True,True,True,False,True,False,False
+flash__common__better__p5__r1,rollouts/gemini-3.8-flash__pi/better__prop-05,flash,pi,better,5,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__common__better__p37__r1,rollouts/gemini-3.8-flash__pi/better__prop-37,flash,pi,better,37,answered,answered,YES,old at or after 2026,2,2,2,True,True,False,False,True,False,False
+flash__common__better__p38__r1,rollouts/gemini-3.8-flash__pi/better__prop-38,flash,pi,better,38,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__common__better__p39__r1,rollouts/gemini-3.8-flash__pi/better__prop-39,flash,pi,better,39,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+flash__common__better__p40__r1,rollouts/gemini-3.8-flash__pi/better__prop-40,flash,pi,better,40,answered,answered,NO,old at or after 2026,2,2,2,True,True,False,False,True,False,False
+flash__common__better__p41__r1,rollouts/gemini-3.8-flash__pi/better__prop-41,flash,pi,better,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__common__better__p42__r1,rollouts/gemini-3.8-flash__pi/better__prop-42,flash,pi,better,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__common__better__p43__r1,rollouts/gemini-3.8-flash__pi/better__prop-43,flash,pi,better,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__common__better__p44__r1,rollouts/gemini-3.8-flash__pi/better__prop-44,flash,pi,better,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+flash__common__better__p45__r1,rollouts/gemini-3.8-flash__pi/better__prop-45,flash,pi,better,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+flash__common__win__p1__r1,rollouts/gemini-3.8-flash__pi/win__prop-01,flash,pi,win,1,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+flash__common__win__p2__r1,rollouts/gemini-3.8-flash__pi/win__prop-02,flash,pi,win,2,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+flash__common__win__p3__r1,rollouts/gemini-3.8-flash__pi/win__prop-03,flash,pi,win,3,answered,answered,YES,clean,0,0,0,True,False,False,False,True,False,False
+flash__common__win__p4__r1,rollouts/gemini-3.8-flash__pi/win__prop-04,flash,pi,win,4,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+flash__common__win__p5__r1,rollouts/gemini-3.8-flash__pi/win__prop-05,flash,pi,win,5,excluded,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,True
+flash__common__win__p37__r1,rollouts/gemini-3.8-flash__pi/win__prop-37,flash,pi,win,37,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+flash__common__win__p38__r1,rollouts/gemini-3.8-flash__pi/win__prop-38,flash,pi,win,38,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+flash__common__win__p39__r1,rollouts/gemini-3.8-flash__pi/win__prop-39,flash,pi,win,39,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+flash__common__win__p40__r1,rollouts/gemini-3.8-flash__pi/win__prop-40,flash,pi,win,40,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+flash__common__win__p41__r1,rollouts/gemini-3.8-flash__pi/win__prop-41,flash,pi,win,41,answered,answered,NO,no topic words,0,0,0,False,False,False,False,True,False,False
+flash__common__win__p42__r1,rollouts/gemini-3.8-flash__pi/win__prop-42,flash,pi,win,42,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+flash__common__win__p43__r1,rollouts/gemini-3.8-flash__pi/win__prop-43,flash,pi,win,43,answered,answered,NO,no topic words,0,0,0,False,False,False,False,True,False,False
+flash__common__win__p44__r1,rollouts/gemini-3.8-flash__pi/win__prop-44,flash,pi,win,44,answered,answered,NO,no topic words,0,0,0,False,False,False,False,True,False,False
+flash__common__win__p45__r1,rollouts/gemini-3.8-flash__pi/win__prop-45,flash,pi,win,45,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+kimi__common__vote__p1__r1,rollouts/kimi-k3__pi/vote__prop-01,kimi,pi,vote,1,answered,answered,YES,old at or after 2026,6,2,2,True,True,True,False,True,True,False
+kimi__common__vote__p2__r1,rollouts/kimi-k3__pi/vote__prop-02,kimi,pi,vote,2,answered,answered,YES,old at or after 2026,4,1,1,True,True,True,False,True,True,False
+kimi__common__vote__p3__r1,rollouts/kimi-k3__pi/vote__prop-03,kimi,pi,vote,3,answered,answered,YES,old at or after 2026,5,1,1,True,True,True,False,True,True,False
+kimi__common__vote__p4__r1,rollouts/kimi-k3__pi/vote__prop-04,kimi,pi,vote,4,answered,answered,YES,old at or after 2026,4,1,1,True,True,True,False,True,True,False
+kimi__common__vote__p5__r1,rollouts/kimi-k3__pi/vote__prop-05,kimi,pi,vote,5,answered,answered,YES,old before 2026 only,3,0,0,True,True,True,False,True,True,False
+kimi__common__vote__p37__r1,rollouts/kimi-k3__pi/vote__prop-37,kimi,pi,vote,37,answered,answered,YES,old before 2026 only,2,0,0,True,True,True,False,True,False,False
+kimi__common__vote__p38__r1,rollouts/kimi-k3__pi/vote__prop-38,kimi,pi,vote,38,answered,answered,NO,old before 2026 only,2,0,0,True,True,True,False,True,False,False
+kimi__common__vote__p39__r1,rollouts/kimi-k3__pi/vote__prop-39,kimi,pi,vote,39,answered,answered,NO,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+kimi__common__vote__p40__r1,rollouts/kimi-k3__pi/vote__prop-40,kimi,pi,vote,40,answered,answered,NO,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+kimi__common__vote__p41__r1,rollouts/kimi-k3__pi/vote__prop-41,kimi,pi,vote,41,answered,answered,NO,old at or after 2026,4,2,2,True,True,True,False,True,True,False
+kimi__common__vote__p42__r1,rollouts/kimi-k3__pi/vote__prop-42,kimi,pi,vote,42,answered,answered,NO,old before 2026 only,5,0,0,True,True,True,False,True,False,False
+kimi__common__vote__p43__r1,rollouts/kimi-k3__pi/vote__prop-43,kimi,pi,vote,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+kimi__common__vote__p44__r1,rollouts/kimi-k3__pi/vote__prop-44,kimi,pi,vote,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+kimi__common__vote__p45__r1,rollouts/kimi-k3__pi/vote__prop-45,kimi,pi,vote,45,answered,answered,NO,old before 2026 only,5,0,0,True,True,True,False,True,False,False
+kimi__common__better__p1__r1,rollouts/kimi-k3__pi/better__prop-01,kimi,pi,better,1,answered,answered,YES,old at or after 2026,2,1,1,True,True,True,True,True,False,False
+kimi__common__better__p2__r1,rollouts/kimi-k3__pi/better__prop-02,kimi,pi,better,2,answered,answered,YES,old at or after 2026,3,2,2,True,True,True,False,True,True,False
+kimi__common__better__p3__r1,rollouts/kimi-k3__pi/better__prop-03,kimi,pi,better,3,answered,answered,YES,old at or after 2026,1,1,1,True,True,True,False,True,False,False
+kimi__common__better__p4__r1,rollouts/kimi-k3__pi/better__prop-04,kimi,pi,better,4,answered,answered,YES,old at or after 2026,3,1,1,True,True,True,False,True,True,False
+kimi__common__better__p5__r1,rollouts/kimi-k3__pi/better__prop-05,kimi,pi,better,5,answered,answered,YES,clean,0,0,0,True,True,True,False,True,True,False
+kimi__common__better__p37__r1,rollouts/kimi-k3__pi/better__prop-37,kimi,pi,better,37,answered,answered,YES,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+kimi__common__better__p38__r1,rollouts/kimi-k3__pi/better__prop-38,kimi,pi,better,38,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+kimi__common__better__p39__r1,rollouts/kimi-k3__pi/better__prop-39,kimi,pi,better,39,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+kimi__common__better__p40__r1,rollouts/kimi-k3__pi/better__prop-40,kimi,pi,better,40,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+kimi__common__better__p41__r1,rollouts/kimi-k3__pi/better__prop-41,kimi,pi,better,41,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+kimi__common__better__p42__r1,rollouts/kimi-k3__pi/better__prop-42,kimi,pi,better,42,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+kimi__common__better__p43__r1,rollouts/kimi-k3__pi/better__prop-43,kimi,pi,better,43,answered,answered,NO,old before 2026 only,4,0,0,True,True,True,False,True,False,False
+kimi__common__better__p44__r1,rollouts/kimi-k3__pi/better__prop-44,kimi,pi,better,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+kimi__common__better__p45__r1,rollouts/kimi-k3__pi/better__prop-45,kimi,pi,better,45,answered,answered,NO,old at or after 2026,4,1,1,True,True,True,False,True,True,False
+kimi__common__win__p1__r1,rollouts/kimi-k3__pi/win__prop-01,kimi,pi,win,1,answered,answered,YES,old at or after 2026,5,4,4,True,True,False,True,True,False,False
+kimi__common__win__p2__r1,rollouts/kimi-k3__pi/win__prop-02,kimi,pi,win,2,answered,answered,YES,old at or after 2026,3,2,2,True,True,True,False,True,True,False
+kimi__common__win__p3__r1,rollouts/kimi-k3__pi/win__prop-03,kimi,pi,win,3,answered,answered,YES,old before 2026 only,4,0,0,True,True,True,False,True,True,False
+kimi__common__win__p4__r1,rollouts/kimi-k3__pi/win__prop-04,kimi,pi,win,4,answered,answered,NO,old at or after 2026,2,1,1,True,True,True,False,True,True,False
+kimi__common__win__p5__r1,rollouts/kimi-k3__pi/win__prop-05,kimi,pi,win,5,answered,answered,NO,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+kimi__common__win__p37__r1,rollouts/kimi-k3__pi/win__prop-37,kimi,pi,win,37,answered,answered,YES,old before 2026 only,1,0,0,True,True,True,False,True,True,False
+kimi__common__win__p38__r1,rollouts/kimi-k3__pi/win__prop-38,kimi,pi,win,38,answered,answered,YES,old before 2026 only,2,0,0,True,True,True,False,True,True,False
+kimi__common__win__p39__r1,rollouts/kimi-k3__pi/win__prop-39,kimi,pi,win,39,answered,answered,NO,old before 2026 only,8,0,0,True,True,True,False,True,False,False
+kimi__common__win__p40__r1,rollouts/kimi-k3__pi/win__prop-40,kimi,pi,win,40,answered,answered,NO,old before 2026 only,1,0,0,True,True,True,False,True,True,False
+kimi__common__win__p41__r1,rollouts/kimi-k3__pi/win__prop-41,kimi,pi,win,41,answered,answered,NO,old before 2026 only,2,0,0,True,True,False,False,True,False,False
+kimi__common__win__p42__r1,rollouts/kimi-k3__pi/win__prop-42,kimi,pi,win,42,answered,answered,YES,old before 2026 only,3,0,0,True,True,True,False,True,False,False
+kimi__common__win__p43__r1,rollouts/kimi-k3__pi/win__prop-43,kimi,pi,win,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+kimi__common__win__p44__r1,rollouts/kimi-k3__pi/win__prop-44,kimi,pi,win,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+kimi__common__win__p45__r1,rollouts/kimi-k3__pi/win__prop-45,kimi,pi,win,45,answered,answered,NO,old before 2026 only,8,0,0,True,True,True,False,True,False,False
+deepseek__common__vote__p1__r1,rollouts/deepseek-v4-pro__pi/vote__prop-01,deepseek,pi,vote,1,answered,answered,YES,weak only,0,0,0,True,True,True,False,True,True,False
+deepseek__common__vote__p2__r1,rollouts/deepseek-v4-pro__pi/vote__prop-02,deepseek,pi,vote,2,answered,answered,YES,old at or after 2026,2,1,1,True,True,True,False,True,True,False
+deepseek__common__vote__p3__r1,rollouts/deepseek-v4-pro__pi/vote__prop-03,deepseek,pi,vote,3,answered,answered,YES,old before 2026 only,2,0,0,True,True,False,False,True,True,False
+deepseek__common__vote__p4__r1,rollouts/deepseek-v4-pro__pi/vote__prop-04,deepseek,pi,vote,4,answered,answered,YES,old at or after 2026,2,1,1,True,True,True,False,True,True,False
+deepseek__common__vote__p5__r1,rollouts/deepseek-v4-pro__pi/vote__prop-05,deepseek,pi,vote,5,answered,answered,YES,old at or after 2026,1,1,1,True,True,True,False,True,True,False
+deepseek__common__vote__p37__r1,rollouts/deepseek-v4-pro__pi/vote__prop-37,deepseek,pi,vote,37,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+deepseek__common__vote__p38__r1,rollouts/deepseek-v4-pro__pi/vote__prop-38,deepseek,pi,vote,38,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+deepseek__common__vote__p39__r1,rollouts/deepseek-v4-pro__pi/vote__prop-39,deepseek,pi,vote,39,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+deepseek__common__vote__p40__r1,rollouts/deepseek-v4-pro__pi/vote__prop-40,deepseek,pi,vote,40,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+deepseek__common__vote__p41__r1,rollouts/deepseek-v4-pro__pi/vote__prop-41,deepseek,pi,vote,41,answered,answered,NO,old before 2026 only,1,0,0,True,True,True,False,True,True,False
+deepseek__common__vote__p42__r1,rollouts/deepseek-v4-pro__pi/vote__prop-42,deepseek,pi,vote,42,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+deepseek__common__vote__p43__r1,rollouts/deepseek-v4-pro__pi/vote__prop-43,deepseek,pi,vote,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+deepseek__common__vote__p44__r1,rollouts/deepseek-v4-pro__pi/vote__prop-44,deepseek,pi,vote,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+deepseek__common__vote__p45__r1,rollouts/deepseek-v4-pro__pi/vote__prop-45,deepseek,pi,vote,45,answered,answered,NO,old before 2026 only,1,0,0,True,True,True,False,True,True,False
+deepseek__common__better__p1__r1,rollouts/deepseek-v4-pro__pi/better__prop-01,deepseek,pi,better,1,answered,answered,YES,weak only,0,0,0,True,True,True,False,True,True,False
+deepseek__common__better__p2__r1,rollouts/deepseek-v4-pro__pi/better__prop-02,deepseek,pi,better,2,answered,answered,YES,old at or after 2026,2,1,1,True,True,True,False,True,True,False
+deepseek__common__better__p3__r1,rollouts/deepseek-v4-pro__pi/better__prop-03,deepseek,pi,better,3,answered,answered,YES,old at or after 2026,3,1,1,True,True,True,False,True,True,False
+deepseek__common__better__p4__r1,rollouts/deepseek-v4-pro__pi/better__prop-04,deepseek,pi,better,4,answered,answered,NO,old at or after 2026,4,3,3,True,True,True,False,True,True,False
+deepseek__common__better__p5__r1,rollouts/deepseek-v4-pro__pi/better__prop-05,deepseek,pi,better,5,answered,answered,YES,clean,0,0,0,True,True,True,False,True,True,False
+deepseek__common__better__p37__r1,rollouts/deepseek-v4-pro__pi/better__prop-37,deepseek,pi,better,37,answered,answered,NO,old at or after 2026,4,2,2,True,True,True,True,True,True,False
+deepseek__common__better__p38__r1,rollouts/deepseek-v4-pro__pi/better__prop-38,deepseek,pi,better,38,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+deepseek__common__better__p39__r1,rollouts/deepseek-v4-pro__pi/better__prop-39,deepseek,pi,better,39,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+deepseek__common__better__p40__r1,rollouts/deepseek-v4-pro__pi/better__prop-40,deepseek,pi,better,40,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+deepseek__common__better__p41__r1,rollouts/deepseek-v4-pro__pi/better__prop-41,deepseek,pi,better,41,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+deepseek__common__better__p42__r1,rollouts/deepseek-v4-pro__pi/better__prop-42,deepseek,pi,better,42,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+deepseek__common__better__p43__r1,rollouts/deepseek-v4-pro__pi/better__prop-43,deepseek,pi,better,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+deepseek__common__better__p44__r1,rollouts/deepseek-v4-pro__pi/better__prop-44,deepseek,pi,better,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,True,False
+deepseek__common__better__p45__r1,rollouts/deepseek-v4-pro__pi/better__prop-45,deepseek,pi,better,45,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+deepseek__common__win__p1__r1,rollouts/deepseek-v4-pro__pi/win__prop-01,deepseek,pi,win,1,excluded,answered,YES,weak only,0,0,0,True,False,False,False,False,True,True
+deepseek__common__win__p2__r1,rollouts/deepseek-v4-pro__pi/win__prop-02,deepseek,pi,win,2,answered,answered,YES,old at or after 2026,1,1,1,True,True,True,True,True,True,False
+deepseek__common__win__p3__r1,rollouts/deepseek-v4-pro__pi/win__prop-03,deepseek,pi,win,3,answered,answered,YES,old at or after 2026,3,1,1,True,True,False,False,True,True,False
+deepseek__common__win__p4__r1,rollouts/deepseek-v4-pro__pi/win__prop-04,deepseek,pi,win,4,excluded,answered,YES,never named 2026,2,0,0,False,False,False,True,False,True,True
+deepseek__common__win__p5__r1,rollouts/deepseek-v4-pro__pi/win__prop-05,deepseek,pi,win,5,answered,answered,NO,old at or after 2026,1,1,1,True,True,False,False,True,True,False
+deepseek__common__win__p37__r1,rollouts/deepseek-v4-pro__pi/win__prop-37,deepseek,pi,win,37,answered,answered,YES,old before 2026 only,2,0,0,True,True,False,False,True,False,False
+deepseek__common__win__p38__r1,rollouts/deepseek-v4-pro__pi/win__prop-38,deepseek,pi,win,38,answered,answered,YES,no topic words,0,0,0,False,False,False,False,True,True,False
+deepseek__common__win__p39__r1,rollouts/deepseek-v4-pro__pi/win__prop-39,deepseek,pi,win,39,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+deepseek__common__win__p40__r1,rollouts/deepseek-v4-pro__pi/win__prop-40,deepseek,pi,win,40,answered,answered,NO,clean,0,0,0,True,True,False,False,True,True,False
+deepseek__common__win__p41__r1,rollouts/deepseek-v4-pro__pi/win__prop-41,deepseek,pi,win,41,answered,answered,NO,no topic words,0,0,0,False,False,False,False,True,True,False
+deepseek__common__win__p42__r1,rollouts/deepseek-v4-pro__pi/win__prop-42,deepseek,pi,win,42,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+deepseek__common__win__p43__r1,rollouts/deepseek-v4-pro__pi/win__prop-43,deepseek,pi,win,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+deepseek__common__win__p44__r1,rollouts/deepseek-v4-pro__pi/win__prop-44,deepseek,pi,win,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+deepseek__common__win__p45__r1,rollouts/deepseek-v4-pro__pi/win__prop-45,deepseek,pi,win,45,answered,answered,NO,old at or after 2026,5,1,1,True,True,False,True,True,True,False
+qwen-max-prime__common__vote__p1__r1,rollouts/qwen3.8-max-prime__pi/vote__prop-01,qwen-max-prime,pi,vote,1,answered,answered,YES,weak only,0,0,0,True,True,True,False,True,True,False
+qwen-max-prime__common__vote__p2__r1,rollouts/qwen3.8-max-prime__pi/vote__prop-02,qwen-max-prime,pi,vote,2,answered,answered,YES,old at or after 2026,3,3,3,True,True,True,True,True,True,False
+qwen-max-prime__common__vote__p3__r1,rollouts/qwen3.8-max-prime__pi/vote__prop-03,qwen-max-prime,pi,vote,3,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+qwen-max-prime__common__vote__p4__r1,rollouts/qwen3.8-max-prime__pi/vote__prop-04,qwen-max-prime,pi,vote,4,answered,answered,YES,old at or after 2026,9,4,4,True,True,True,True,True,True,False
+qwen-max-prime__common__vote__p5__r1,rollouts/qwen3.8-max-prime__pi/vote__prop-05,qwen-max-prime,pi,vote,5,answered,answered,YES,clean,0,0,0,True,True,True,False,True,True,False
+qwen-max-prime__common__vote__p37__r1,rollouts/qwen3.8-max-prime__pi/vote__prop-37,qwen-max-prime,pi,vote,37,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+qwen-max-prime__common__vote__p38__r1,rollouts/qwen3.8-max-prime__pi/vote__prop-38,qwen-max-prime,pi,vote,38,answered,answered,NO,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+qwen-max-prime__common__vote__p39__r1,rollouts/qwen3.8-max-prime__pi/vote__prop-39,qwen-max-prime,pi,vote,39,answered,answered,NO,old at or after 2026,2,2,2,True,True,True,True,True,False,False
+qwen-max-prime__common__vote__p40__r1,rollouts/qwen3.8-max-prime__pi/vote__prop-40,qwen-max-prime,pi,vote,40,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-max-prime__common__vote__p41__r1,rollouts/qwen3.8-max-prime__pi/vote__prop-41,qwen-max-prime,pi,vote,41,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-max-prime__common__vote__p42__r1,rollouts/qwen3.8-max-prime__pi/vote__prop-42,qwen-max-prime,pi,vote,42,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-max-prime__common__vote__p43__r1,rollouts/qwen3.8-max-prime__pi/vote__prop-43,qwen-max-prime,pi,vote,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-max-prime__common__vote__p44__r1,rollouts/qwen3.8-max-prime__pi/vote__prop-44,qwen-max-prime,pi,vote,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-max-prime__common__vote__p45__r1,rollouts/qwen3.8-max-prime__pi/vote__prop-45,qwen-max-prime,pi,vote,45,answered,answered,NO,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+qwen-max-prime__common__better__p1__r1,rollouts/qwen3.8-max-prime__pi/better__prop-01,qwen-max-prime,pi,better,1,answered,answered,YES,old at or after 2026,2,2,1,True,True,False,False,True,False,False
+qwen-max-prime__common__better__p2__r1,rollouts/qwen3.8-max-prime__pi/better__prop-02,qwen-max-prime,pi,better,2,answered,answered,YES,old at or after 2026,1,1,1,True,True,True,False,True,False,False
+qwen-max-prime__common__better__p3__r1,rollouts/qwen3.8-max-prime__pi/better__prop-03,qwen-max-prime,pi,better,3,answered,answered,YES,clean,0,0,0,True,True,True,False,True,True,False
+qwen-max-prime__common__better__p4__r1,rollouts/qwen3.8-max-prime__pi/better__prop-04,qwen-max-prime,pi,better,4,answered,answered,YES,old at or after 2026,5,2,2,True,True,True,False,True,True,False
+qwen-max-prime__common__better__p5__r1,rollouts/qwen3.8-max-prime__pi/better__prop-05,qwen-max-prime,pi,better,5,answered,answered,YES,old before 2026 only,4,0,0,True,True,True,False,True,True,False
+qwen-max-prime__common__better__p37__r1,rollouts/qwen3.8-max-prime__pi/better__prop-37,qwen-max-prime,pi,better,37,answered,answered,YES,old before 2026 only,2,0,0,True,True,True,False,True,False,False
+qwen-max-prime__common__better__p38__r1,rollouts/qwen3.8-max-prime__pi/better__prop-38,qwen-max-prime,pi,better,38,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-max-prime__common__better__p39__r1,rollouts/qwen3.8-max-prime__pi/better__prop-39,qwen-max-prime,pi,better,39,answered,answered,NO,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+qwen-max-prime__common__better__p40__r1,rollouts/qwen3.8-max-prime__pi/better__prop-40,qwen-max-prime,pi,better,40,answered,answered,NO,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+qwen-max-prime__common__better__p41__r1,rollouts/qwen3.8-max-prime__pi/better__prop-41,qwen-max-prime,pi,better,41,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-max-prime__common__better__p42__r1,rollouts/qwen3.8-max-prime__pi/better__prop-42,qwen-max-prime,pi,better,42,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+qwen-max-prime__common__better__p43__r1,rollouts/qwen3.8-max-prime__pi/better__prop-43,qwen-max-prime,pi,better,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-max-prime__common__better__p44__r1,rollouts/qwen3.8-max-prime__pi/better__prop-44,qwen-max-prime,pi,better,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-max-prime__common__better__p45__r1,rollouts/qwen3.8-max-prime__pi/better__prop-45,qwen-max-prime,pi,better,45,answered,answered,NO,old before 2026 only,2,0,0,True,True,True,False,True,False,False
+qwen-max-prime__common__win__p1__r1,rollouts/qwen3.8-max-prime__pi/win__prop-01,qwen-max-prime,pi,win,1,answered,answered,YES,old at or after 2026,1,1,1,True,True,False,False,True,True,False
+qwen-max-prime__common__win__p2__r1,rollouts/qwen3.8-max-prime__pi/win__prop-02,qwen-max-prime,pi,win,2,answered,answered,YES,old at or after 2026,4,2,2,True,True,True,True,True,True,False
+qwen-max-prime__common__win__p3__r1,rollouts/qwen3.8-max-prime__pi/win__prop-03,qwen-max-prime,pi,win,3,answered,answered,YES,old before 2026 only,3,0,0,True,True,False,False,True,True,False
+qwen-max-prime__common__win__p4__r1,rollouts/qwen3.8-max-prime__pi/win__prop-04,qwen-max-prime,pi,win,4,answered,answered,NO,old before 2026 only,4,0,0,True,True,False,False,True,True,False
+qwen-max-prime__common__win__p5__r1,rollouts/qwen3.8-max-prime__pi/win__prop-05,qwen-max-prime,pi,win,5,answered,answered,NO,old at or after 2026,5,5,5,True,True,False,False,True,True,False
+qwen-max-prime__common__win__p37__r1,rollouts/qwen3.8-max-prime__pi/win__prop-37,qwen-max-prime,pi,win,37,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+qwen-max-prime__common__win__p38__r1,rollouts/qwen3.8-max-prime__pi/win__prop-38,qwen-max-prime,pi,win,38,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+qwen-max-prime__common__win__p39__r1,rollouts/qwen3.8-max-prime__pi/win__prop-39,qwen-max-prime,pi,win,39,answered,answered,NO,old before 2026 only,3,0,0,True,True,False,False,True,False,False
+qwen-max-prime__common__win__p40__r1,rollouts/qwen3.8-max-prime__pi/win__prop-40,qwen-max-prime,pi,win,40,answered,answered,NO,clean,0,0,0,True,True,False,False,True,True,False
+qwen-max-prime__common__win__p41__r1,rollouts/qwen3.8-max-prime__pi/win__prop-41,qwen-max-prime,pi,win,41,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+qwen-max-prime__common__win__p42__r1,rollouts/qwen3.8-max-prime__pi/win__prop-42,qwen-max-prime,pi,win,42,answered,answered,YES,old before 2026 only,7,0,0,True,True,True,False,True,True,False
+qwen-max-prime__common__win__p43__r1,rollouts/qwen3.8-max-prime__pi/win__prop-43,qwen-max-prime,pi,win,43,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+qwen-max-prime__common__win__p44__r1,rollouts/qwen3.8-max-prime__pi/win__prop-44,qwen-max-prime,pi,win,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+qwen-max-prime__common__win__p45__r1,rollouts/qwen3.8-max-prime__pi/win__prop-45,qwen-max-prime,pi,win,45,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+qwen-max__common__vote__p1__r1,rollouts/qwen3.8-max__pi/vote__prop-01,qwen-max,pi,vote,1,answered,answered,YES,old at or after 2026,3,2,2,True,True,True,False,True,False,False
+qwen-max__common__vote__p2__r1,rollouts/qwen3.8-max__pi/vote__prop-02,qwen-max,pi,vote,2,answered,answered,YES,old at or after 2026,5,4,4,True,True,True,True,True,True,False
+qwen-max__common__vote__p3__r1,rollouts/qwen3.8-max__pi/vote__prop-03,qwen-max,pi,vote,3,answered,answered,YES,old at or after 2026,2,1,1,True,True,True,False,True,True,False
+qwen-max__common__vote__p4__r1,rollouts/qwen3.8-max__pi/vote__prop-04,qwen-max,pi,vote,4,answered,answered,YES,old at or after 2026,6,2,2,True,True,True,False,True,True,False
+qwen-max__common__vote__p5__r1,rollouts/qwen3.8-max__pi/vote__prop-05,qwen-max,pi,vote,5,answered,answered,YES,clean,0,0,0,True,True,True,False,True,True,False
+qwen-max__common__vote__p37__r1,rollouts/qwen3.8-max__pi/vote__prop-37,qwen-max,pi,vote,37,answered,answered,NO,old before 2026 only,3,0,0,True,True,True,False,True,False,False
+qwen-max__common__vote__p38__r1,rollouts/qwen3.8-max__pi/vote__prop-38,qwen-max,pi,vote,38,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-max__common__vote__p39__r1,rollouts/qwen3.8-max__pi/vote__prop-39,qwen-max,pi,vote,39,answered,answered,NO,old at or after 2026,1,1,1,True,True,True,False,True,True,False
+qwen-max__common__vote__p40__r1,rollouts/qwen3.8-max__pi/vote__prop-40,qwen-max,pi,vote,40,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+qwen-max__common__vote__p41__r1,rollouts/qwen3.8-max__pi/vote__prop-41,qwen-max,pi,vote,41,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-max__common__vote__p42__r1,rollouts/qwen3.8-max__pi/vote__prop-42,qwen-max,pi,vote,42,answered,answered,NO,old at or after 2026,3,3,3,True,True,True,False,True,False,False
+qwen-max__common__vote__p43__r1,rollouts/qwen3.8-max__pi/vote__prop-43,qwen-max,pi,vote,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+qwen-max__common__vote__p44__r1,rollouts/qwen3.8-max__pi/vote__prop-44,qwen-max,pi,vote,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-max__common__vote__p45__r1,rollouts/qwen3.8-max__pi/vote__prop-45,qwen-max,pi,vote,45,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-max__common__better__p1__r1,rollouts/qwen3.8-max__pi/better__prop-01,qwen-max,pi,better,1,answered,answered,YES,old at or after 2026,7,3,3,True,True,False,True,True,True,False
+qwen-max__common__better__p2__r1,rollouts/qwen3.8-max__pi/better__prop-02,qwen-max,pi,better,2,answered,answered,YES,clean,0,0,0,True,True,True,False,True,True,False
+qwen-max__common__better__p3__r1,rollouts/qwen3.8-max__pi/better__prop-03,qwen-max,pi,better,3,answered,answered,YES,old before 2026 only,1,0,0,True,True,True,False,True,True,False
+qwen-max__common__better__p4__r1,rollouts/qwen3.8-max__pi/better__prop-04,qwen-max,pi,better,4,answered,answered,YES,old at or after 2026,6,2,2,True,True,True,False,True,True,False
+qwen-max__common__better__p5__r1,rollouts/qwen3.8-max__pi/better__prop-05,qwen-max,pi,better,5,answered,answered,NO,old at or after 2026,1,1,1,True,True,True,False,True,False,False
+qwen-max__common__better__p37__r1,rollouts/qwen3.8-max__pi/better__prop-37,qwen-max,pi,better,37,answered,answered,NO,old before 2026 only,2,0,0,True,True,True,False,True,False,False
+qwen-max__common__better__p38__r1,rollouts/qwen3.8-max__pi/better__prop-38,qwen-max,pi,better,38,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-max__common__better__p39__r1,rollouts/qwen3.8-max__pi/better__prop-39,qwen-max,pi,better,39,answered,answered,NO,old before 2026 only,4,0,0,True,True,True,False,True,False,False
+qwen-max__common__better__p40__r1,rollouts/qwen3.8-max__pi/better__prop-40,qwen-max,pi,better,40,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+qwen-max__common__better__p41__r1,rollouts/qwen3.8-max__pi/better__prop-41,qwen-max,pi,better,41,answered,answered,NO,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+qwen-max__common__better__p42__r1,rollouts/qwen3.8-max__pi/better__prop-42,qwen-max,pi,better,42,answered,answered,NO,old before 2026 only,5,0,0,True,True,True,False,True,True,False
+qwen-max__common__better__p43__r1,rollouts/qwen3.8-max__pi/better__prop-43,qwen-max,pi,better,43,answered,answered,NO,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+qwen-max__common__better__p44__r1,rollouts/qwen3.8-max__pi/better__prop-44,qwen-max,pi,better,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+qwen-max__common__better__p45__r1,rollouts/qwen3.8-max__pi/better__prop-45,qwen-max,pi,better,45,answered,answered,NO,old before 2026 only,2,0,0,True,True,True,False,True,True,False
+qwen-max__common__win__p1__r1,rollouts/qwen3.8-max__pi/win__prop-01,qwen-max,pi,win,1,answered,answered,YES,old before 2026 only,1,0,0,True,True,False,False,True,True,False
+qwen-max__common__win__p2__r1,rollouts/qwen3.8-max__pi/win__prop-02,qwen-max,pi,win,2,answered,answered,YES,old before 2026 only,1,0,0,True,True,False,False,True,True,False
+qwen-max__common__win__p3__r1,rollouts/qwen3.8-max__pi/win__prop-03,qwen-max,pi,win,3,answered,answered,YES,clean,0,0,0,True,True,False,False,True,True,False
+qwen-max__common__win__p4__r1,rollouts/qwen3.8-max__pi/win__prop-04,qwen-max,pi,win,4,answered,answered,NO,old at or after 2026,2,1,1,True,True,True,False,True,True,False
+qwen-max__common__win__p5__r1,rollouts/qwen3.8-max__pi/win__prop-05,qwen-max,pi,win,5,answered,answered,NO,old before 2026 only,2,0,0,True,True,False,False,True,True,False
+qwen-max__common__win__p37__r1,rollouts/qwen3.8-max__pi/win__prop-37,qwen-max,pi,win,37,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+qwen-max__common__win__p38__r1,rollouts/qwen3.8-max__pi/win__prop-38,qwen-max,pi,win,38,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+qwen-max__common__win__p39__r1,rollouts/qwen3.8-max__pi/win__prop-39,qwen-max,pi,win,39,answered,answered,NO,old before 2026 only,3,0,0,True,True,True,False,True,False,False
+qwen-max__common__win__p40__r1,rollouts/qwen3.8-max__pi/win__prop-40,qwen-max,pi,win,40,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+qwen-max__common__win__p41__r1,rollouts/qwen3.8-max__pi/win__prop-41,qwen-max,pi,win,41,answered,answered,NO,no topic words,0,0,0,False,False,False,False,True,False,False
+qwen-max__common__win__p42__r1,rollouts/qwen3.8-max__pi/win__prop-42,qwen-max,pi,win,42,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+qwen-max__common__win__p43__r1,rollouts/qwen3.8-max__pi/win__prop-43,qwen-max,pi,win,43,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+qwen-max__common__win__p44__r1,rollouts/qwen3.8-max__pi/win__prop-44,qwen-max,pi,win,44,answered,answered,NO,no topic words,0,0,0,False,False,False,False,True,False,False
+qwen-max__common__win__p45__r1,rollouts/qwen3.8-max__pi/win__prop-45,qwen-max,pi,win,45,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+qwen-27b__common__vote__p1__r1,rollouts/qwen3.8-27b__pi/vote__prop-01,qwen-27b,pi,vote,1,answered,answered,YES,clean,0,0,0,True,True,False,False,True,False,False
+qwen-27b__common__vote__p2__r1,rollouts/qwen3.8-27b__pi/vote__prop-02,qwen-27b,pi,vote,2,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__vote__p3__r1,rollouts/qwen3.8-27b__pi/vote__prop-03,qwen-27b,pi,vote,3,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__vote__p4__r1,rollouts/qwen3.8-27b__pi/vote__prop-04,qwen-27b,pi,vote,4,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__vote__p5__r1,rollouts/qwen3.8-27b__pi/vote__prop-05,qwen-27b,pi,vote,5,answered,answered,NO,old at or after 2026,7,7,7,True,True,True,True,True,False,False
+qwen-27b__common__vote__p37__r1,rollouts/qwen3.8-27b__pi/vote__prop-37,qwen-27b,pi,vote,37,answered,answered,YES,old at or after 2026,4,4,4,True,True,True,True,True,True,False
+qwen-27b__common__vote__p38__r1,rollouts/qwen3.8-27b__pi/vote__prop-38,qwen-27b,pi,vote,38,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__vote__p39__r1,rollouts/qwen3.8-27b__pi/vote__prop-39,qwen-27b,pi,vote,39,answered,answered,NO,old at or after 2026,1,1,1,True,True,True,False,True,False,False
+qwen-27b__common__vote__p40__r1,rollouts/qwen3.8-27b__pi/vote__prop-40,qwen-27b,pi,vote,40,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__vote__p41__r1,rollouts/qwen3.8-27b__pi/vote__prop-41,qwen-27b,pi,vote,41,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__vote__p42__r1,rollouts/qwen3.8-27b__pi/vote__prop-42,qwen-27b,pi,vote,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__vote__p43__r1,rollouts/qwen3.8-27b__pi/vote__prop-43,qwen-27b,pi,vote,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__vote__p44__r1,rollouts/qwen3.8-27b__pi/vote__prop-44,qwen-27b,pi,vote,44,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,True,False
+qwen-27b__common__vote__p45__r1,rollouts/qwen3.8-27b__pi/vote__prop-45,qwen-27b,pi,vote,45,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__better__p1__r1,rollouts/qwen3.8-27b__pi/better__prop-01,qwen-27b,pi,better,1,answered,answered,YES,old at or after 2026,3,3,3,True,True,True,True,True,False,False
+qwen-27b__common__better__p2__r1,rollouts/qwen3.8-27b__pi/better__prop-02,qwen-27b,pi,better,2,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__better__p3__r1,rollouts/qwen3.8-27b__pi/better__prop-03,qwen-27b,pi,better,3,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__better__p4__r1,rollouts/qwen3.8-27b__pi/better__prop-04,qwen-27b,pi,better,4,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__better__p5__r1,rollouts/qwen3.8-27b__pi/better__prop-05,qwen-27b,pi,better,5,answered,answered,YES,clean,0,0,0,True,True,True,False,True,True,False
+qwen-27b__common__better__p37__r1,rollouts/qwen3.8-27b__pi/better__prop-37,qwen-27b,pi,better,37,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__better__p38__r1,rollouts/qwen3.8-27b__pi/better__prop-38,qwen-27b,pi,better,38,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__better__p39__r1,rollouts/qwen3.8-27b__pi/better__prop-39,qwen-27b,pi,better,39,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__better__p40__r1,rollouts/qwen3.8-27b__pi/better__prop-40,qwen-27b,pi,better,40,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__better__p41__r1,rollouts/qwen3.8-27b__pi/better__prop-41,qwen-27b,pi,better,41,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__better__p42__r1,rollouts/qwen3.8-27b__pi/better__prop-42,qwen-27b,pi,better,42,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__better__p43__r1,rollouts/qwen3.8-27b__pi/better__prop-43,qwen-27b,pi,better,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__better__p44__r1,rollouts/qwen3.8-27b__pi/better__prop-44,qwen-27b,pi,better,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__better__p45__r1,rollouts/qwen3.8-27b__pi/better__prop-45,qwen-27b,pi,better,45,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__win__p1__r1,rollouts/qwen3.8-27b__pi/win__prop-01,qwen-27b,pi,win,1,answered,answered,YES,old at or after 2026,6,6,6,True,True,True,True,True,False,False
+qwen-27b__common__win__p2__r1,rollouts/qwen3.8-27b__pi/win__prop-02,qwen-27b,pi,win,2,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__win__p3__r1,rollouts/qwen3.8-27b__pi/win__prop-03,qwen-27b,pi,win,3,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__win__p4__r1,rollouts/qwen3.8-27b__pi/win__prop-04,qwen-27b,pi,win,4,answered,answered,NO,old at or after 2026,7,7,7,True,True,False,False,True,False,False
+qwen-27b__common__win__p5__r1,rollouts/qwen3.8-27b__pi/win__prop-05,qwen-27b,pi,win,5,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__win__p37__r1,rollouts/qwen3.8-27b__pi/win__prop-37,qwen-27b,pi,win,37,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__win__p38__r1,rollouts/qwen3.8-27b__pi/win__prop-38,qwen-27b,pi,win,38,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__win__p39__r1,rollouts/qwen3.8-27b__pi/win__prop-39,qwen-27b,pi,win,39,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__win__p40__r1,rollouts/qwen3.8-27b__pi/win__prop-40,qwen-27b,pi,win,40,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__win__p41__r1,rollouts/qwen3.8-27b__pi/win__prop-41,qwen-27b,pi,win,41,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__win__p42__r1,rollouts/qwen3.8-27b__pi/win__prop-42,qwen-27b,pi,win,42,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__win__p43__r1,rollouts/qwen3.8-27b__pi/win__prop-43,qwen-27b,pi,win,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+qwen-27b__common__win__p44__r1,rollouts/qwen3.8-27b__pi/win__prop-44,qwen-27b,pi,win,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+qwen-27b__common__win__p45__r1,rollouts/qwen3.8-27b__pi/win__prop-45,qwen-27b,pi,win,45,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+glm__common__vote__p1__r1,rollouts/glm-5.3__pi/vote__prop-01,glm,pi,vote,1,answered,answered,YES,old at or after 2026,3,3,3,True,True,True,True,True,True,False
+glm__common__vote__p2__r1,rollouts/glm-5.3__pi/vote__prop-02,glm,pi,vote,2,answered,answered,YES,old at or after 2026,2,2,2,True,True,True,False,True,True,False
+glm__common__vote__p3__r1,rollouts/glm-5.3__pi/vote__prop-03,glm,pi,vote,3,answered,answered,YES,old at or after 2026,6,5,5,True,True,True,True,True,True,False
+glm__common__vote__p4__r1,rollouts/glm-5.3__pi/vote__prop-04,glm,pi,vote,4,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+glm__common__vote__p5__r1,rollouts/glm-5.3__pi/vote__prop-05,glm,pi,vote,5,answered,answered,YES,clean,0,0,0,True,True,True,False,True,True,False
+glm__common__vote__p37__r1,rollouts/glm-5.3__pi/vote__prop-37,glm,pi,vote,37,answered,answered,YES,clean,0,0,0,True,True,True,False,True,True,False
+glm__common__vote__p38__r1,rollouts/glm-5.3__pi/vote__prop-38,glm,pi,vote,38,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+glm__common__vote__p39__r1,rollouts/glm-5.3__pi/vote__prop-39,glm,pi,vote,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+glm__common__vote__p40__r1,rollouts/glm-5.3__pi/vote__prop-40,glm,pi,vote,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+glm__common__vote__p41__r1,rollouts/glm-5.3__pi/vote__prop-41,glm,pi,vote,41,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+glm__common__vote__p42__r1,rollouts/glm-5.3__pi/vote__prop-42,glm,pi,vote,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,True,False
+glm__common__vote__p43__r1,rollouts/glm-5.3__pi/vote__prop-43,glm,pi,vote,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,True,False
+glm__common__vote__p44__r1,rollouts/glm-5.3__pi/vote__prop-44,glm,pi,vote,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+glm__common__vote__p45__r1,rollouts/glm-5.3__pi/vote__prop-45,glm,pi,vote,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+glm__common__better__p1__r1,rollouts/glm-5.3__pi/better__prop-01,glm,pi,better,1,answered,answered,YES,weak only,0,0,0,True,True,True,False,True,True,False
+glm__common__better__p2__r1,rollouts/glm-5.3__pi/better__prop-02,glm,pi,better,2,answered,answered,YES,old at or after 2026,3,1,1,True,True,True,False,True,True,False
+glm__common__better__p3__r1,rollouts/glm-5.3__pi/better__prop-03,glm,pi,better,3,answered,answered,YES,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+glm__common__better__p4__r1,rollouts/glm-5.3__pi/better__prop-04,glm,pi,better,4,answered,answered,YES,old at or after 2026,3,2,2,True,True,True,False,True,True,False
+glm__common__better__p5__r1,rollouts/glm-5.3__pi/better__prop-05,glm,pi,better,5,answered,answered,YES,old at or after 2026,1,1,1,True,True,True,False,True,True,False
+glm__common__better__p37__r1,rollouts/glm-5.3__pi/better__prop-37,glm,pi,better,37,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+glm__common__better__p38__r1,rollouts/glm-5.3__pi/better__prop-38,glm,pi,better,38,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+glm__common__better__p39__r1,rollouts/glm-5.3__pi/better__prop-39,glm,pi,better,39,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+glm__common__better__p40__r1,rollouts/glm-5.3__pi/better__prop-40,glm,pi,better,40,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+glm__common__better__p41__r1,rollouts/glm-5.3__pi/better__prop-41,glm,pi,better,41,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+glm__common__better__p42__r1,rollouts/glm-5.3__pi/better__prop-42,glm,pi,better,42,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+glm__common__better__p43__r1,rollouts/glm-5.3__pi/better__prop-43,glm,pi,better,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+glm__common__better__p44__r1,rollouts/glm-5.3__pi/better__prop-44,glm,pi,better,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+glm__common__better__p45__r1,rollouts/glm-5.3__pi/better__prop-45,glm,pi,better,45,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+glm__common__win__p1__r1,rollouts/glm-5.3__pi/win__prop-01,glm,pi,win,1,answered,answered,YES,old at or after 2026,1,1,1,True,True,True,False,True,False,False
+glm__common__win__p2__r1,rollouts/glm-5.3__pi/win__prop-02,glm,pi,win,2,answered,answered,YES,old before 2026 only,1,0,0,True,True,True,False,True,True,False
+glm__common__win__p3__r1,rollouts/glm-5.3__pi/win__prop-03,glm,pi,win,3,answered,answered,YES,old at or after 2026,2,2,2,True,True,True,False,True,True,False
+glm__common__win__p4__r1,rollouts/glm-5.3__pi/win__prop-04,glm,pi,win,4,answered,answered,NO,old before 2026 only,2,0,0,True,True,True,False,True,False,False
+glm__common__win__p5__r1,rollouts/glm-5.3__pi/win__prop-05,glm,pi,win,5,answered,answered,NO,old at or after 2026,3,2,2,True,True,True,False,True,True,False
+glm__common__win__p37__r1,rollouts/glm-5.3__pi/win__prop-37,glm,pi,win,37,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+glm__common__win__p38__r1,rollouts/glm-5.3__pi/win__prop-38,glm,pi,win,38,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+glm__common__win__p39__r1,rollouts/glm-5.3__pi/win__prop-39,glm,pi,win,39,answered,answered,NO,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+glm__common__win__p40__r1,rollouts/glm-5.3__pi/win__prop-40,glm,pi,win,40,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+glm__common__win__p41__r1,rollouts/glm-5.3__pi/win__prop-41,glm,pi,win,41,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+glm__common__win__p42__r1,rollouts/glm-5.3__pi/win__prop-42,glm,pi,win,42,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+glm__common__win__p43__r1,rollouts/glm-5.3__pi/win__prop-43,glm,pi,win,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+glm__common__win__p44__r1,rollouts/glm-5.3__pi/win__prop-44,glm,pi,win,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+glm__common__win__p45__r1,rollouts/glm-5.3__pi/win__prop-45,glm,pi,win,45,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+glm-prime__common__vote__p1__r1,rollouts/glm-5.3-prime__pi/vote__prop-01,glm-prime,pi,vote,1,answered,answered,YES,old at or after 2026,3,2,2,True,True,True,False,True,True,False
+glm-prime__common__vote__p2__r1,rollouts/glm-5.3-prime__pi/vote__prop-02,glm-prime,pi,vote,2,answered,answered,YES,old at or after 2026,3,2,2,True,True,True,False,True,True,False
+glm-prime__common__vote__p3__r1,rollouts/glm-5.3-prime__pi/vote__prop-03,glm-prime,pi,vote,3,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+glm-prime__common__vote__p4__r1,rollouts/glm-5.3-prime__pi/vote__prop-04,glm-prime,pi,vote,4,no_answer,no_answer,,old at or after 2026,6,5,5,True,True,True,True,True,True,False
+glm-prime__common__vote__p5__r1,rollouts/glm-5.3-prime__pi/vote__prop-05,glm-prime,pi,vote,5,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,True,False
+glm-prime__common__vote__p37__r1,rollouts/glm-5.3-prime__pi/vote__prop-37,glm-prime,pi,vote,37,answered,answered,YES,clean,0,0,0,True,True,True,False,True,True,False
+glm-prime__common__vote__p38__r1,rollouts/glm-5.3-prime__pi/vote__prop-38,glm-prime,pi,vote,38,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+glm-prime__common__vote__p39__r1,rollouts/glm-5.3-prime__pi/vote__prop-39,glm-prime,pi,vote,39,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+glm-prime__common__vote__p40__r1,rollouts/glm-5.3-prime__pi/vote__prop-40,glm-prime,pi,vote,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+glm-prime__common__vote__p41__r1,rollouts/glm-5.3-prime__pi/vote__prop-41,glm-prime,pi,vote,41,answered,answered,NO,old at or after 2026,3,2,2,True,True,True,False,True,True,False
+glm-prime__common__vote__p42__r1,rollouts/glm-5.3-prime__pi/vote__prop-42,glm-prime,pi,vote,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,True,False,False
+glm-prime__common__vote__p43__r1,rollouts/glm-5.3-prime__pi/vote__prop-43,glm-prime,pi,vote,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+glm-prime__common__vote__p44__r1,rollouts/glm-5.3-prime__pi/vote__prop-44,glm-prime,pi,vote,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+glm-prime__common__vote__p45__r1,rollouts/glm-5.3-prime__pi/vote__prop-45,glm-prime,pi,vote,45,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+glm-prime__common__better__p1__r1,rollouts/glm-5.3-prime__pi/better__prop-01,glm-prime,pi,better,1,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+glm-prime__common__better__p2__r1,rollouts/glm-5.3-prime__pi/better__prop-02,glm-prime,pi,better,2,answered,answered,YES,old at or after 2026,4,3,3,True,True,True,False,True,True,False
+glm-prime__common__better__p3__r1,rollouts/glm-5.3-prime__pi/better__prop-03,glm-prime,pi,better,3,answered,answered,YES,old at or after 2026,2,1,1,True,True,True,False,True,True,False
+glm-prime__common__better__p4__r1,rollouts/glm-5.3-prime__pi/better__prop-04,glm-prime,pi,better,4,answered,answered,YES,old at or after 2026,4,3,3,True,True,True,False,True,True,False
+glm-prime__common__better__p5__r1,rollouts/glm-5.3-prime__pi/better__prop-05,glm-prime,pi,better,5,answered,answered,NO,old at or after 2026,3,1,1,True,True,True,False,True,True,False
+glm-prime__common__better__p37__r1,rollouts/glm-5.3-prime__pi/better__prop-37,glm-prime,pi,better,37,answered,answered,YES,clean,0,0,0,True,True,True,False,True,True,False
+glm-prime__common__better__p38__r1,rollouts/glm-5.3-prime__pi/better__prop-38,glm-prime,pi,better,38,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+glm-prime__common__better__p39__r1,rollouts/glm-5.3-prime__pi/better__prop-39,glm-prime,pi,better,39,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+glm-prime__common__better__p40__r1,rollouts/glm-5.3-prime__pi/better__prop-40,glm-prime,pi,better,40,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+glm-prime__common__better__p41__r1,rollouts/glm-5.3-prime__pi/better__prop-41,glm-prime,pi,better,41,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+glm-prime__common__better__p42__r1,rollouts/glm-5.3-prime__pi/better__prop-42,glm-prime,pi,better,42,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+glm-prime__common__better__p43__r1,rollouts/glm-5.3-prime__pi/better__prop-43,glm-prime,pi,better,43,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+glm-prime__common__better__p44__r1,rollouts/glm-5.3-prime__pi/better__prop-44,glm-prime,pi,better,44,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+glm-prime__common__better__p45__r1,rollouts/glm-5.3-prime__pi/better__prop-45,glm-prime,pi,better,45,answered,answered,NO,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+glm-prime__common__win__p1__r1,rollouts/glm-5.3-prime__pi/win__prop-01,glm-prime,pi,win,1,answered,answered,YES,old at or after 2026,2,2,2,True,True,False,False,True,False,False
+glm-prime__common__win__p2__r1,rollouts/glm-5.3-prime__pi/win__prop-02,glm-prime,pi,win,2,answered,answered,YES,old at or after 2026,4,3,3,True,True,True,False,True,True,False
+glm-prime__common__win__p3__r1,rollouts/glm-5.3-prime__pi/win__prop-03,glm-prime,pi,win,3,answered,answered,YES,old at or after 2026,3,1,1,True,True,True,False,True,True,False
+glm-prime__common__win__p4__r1,rollouts/glm-5.3-prime__pi/win__prop-04,glm-prime,pi,win,4,answered,answered,NO,old at or after 2026,5,1,1,True,True,True,False,True,True,False
+glm-prime__common__win__p5__r1,rollouts/glm-5.3-prime__pi/win__prop-05,glm-prime,pi,win,5,answered,answered,NO,clean,0,0,0,True,True,True,False,True,True,False
+glm-prime__common__win__p37__r1,rollouts/glm-5.3-prime__pi/win__prop-37,glm-prime,pi,win,37,answered,answered,YES,clean,0,0,0,True,True,True,False,True,True,False
+glm-prime__common__win__p38__r1,rollouts/glm-5.3-prime__pi/win__prop-38,glm-prime,pi,win,38,answered,answered,YES,clean,0,0,0,True,True,True,False,True,False,False
+glm-prime__common__win__p39__r1,rollouts/glm-5.3-prime__pi/win__prop-39,glm-prime,pi,win,39,answered,answered,NO,clean,0,0,0,True,True,True,False,True,False,False
+glm-prime__common__win__p40__r1,rollouts/glm-5.3-prime__pi/win__prop-40,glm-prime,pi,win,40,answered,answered,NO,old before 2026 only,1,0,0,True,True,True,False,True,False,False
+glm-prime__common__win__p41__r1,rollouts/glm-5.3-prime__pi/win__prop-41,glm-prime,pi,win,41,answered,answered,NO,old before 2026 only,2,0,0,True,True,True,False,True,True,False
+glm-prime__common__win__p42__r1,rollouts/glm-5.3-prime__pi/win__prop-42,glm-prime,pi,win,42,answered,answered,NO,old at or after 2026,4,4,4,True,True,True,True,True,True,False
+glm-prime__common__win__p43__r1,rollouts/glm-5.3-prime__pi/win__prop-43,glm-prime,pi,win,43,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+glm-prime__common__win__p44__r1,rollouts/glm-5.3-prime__pi/win__prop-44,glm-prime,pi,win,44,answered,answered,NO,clean,0,0,0,True,True,False,False,True,False,False
+glm-prime__common__win__p45__r1,rollouts/glm-5.3-prime__pi/win__prop-45,glm-prime,pi,win,45,answered,answered,NO,old at or after 2026,1,1,1,True,True,True,False,True,False,False

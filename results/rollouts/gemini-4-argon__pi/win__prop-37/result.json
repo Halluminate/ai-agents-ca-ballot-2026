@@ -1,0 +1,111 @@
+{
+  "run_id": "gemini__common__win__p37__r1",
+  "model": "gemini",
+  "model_id": "google/gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "37",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T04:56:42.559216+00:00",
+  "seconds": 58.4,
+  "input_tokens": 80065,
+  "output_tokens": 2271,
+  "cached_tokens": 116975,
+  "cost_usd": 0.2098,
+  "cost_source": "reported",
+  "searches": [
+    "\"Danny Curtin\" \"Fiona Ma\" \"25 billion\" OR \"17%\" homeownership ballot initiative California",
+    "\"CREATES LOAN PROGRAM FOR MIDDLE-INCOME BUYERS OF QUALIFIED NEW HOMES\" OR \"Middle-Class Homeownership\" \"25 billion\" California",
+    "\"Proposition 37\" OR \"Prop 37\" poll OR polling 2026 California"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/37/",
+    "https://voterguide.sos.ca.gov/propositions/37/title-summary.htm",
+    "https://voterguide.sos.ca.gov/propositions/37/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/37/arguments-rebuttals.htm",
+    "https://calmatters.org/california-voter-guide-2026/proposition-37-homebuyers-loan/",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-37-homeowner-loans",
+    "https://www.latimes.com/california/story/2026-10-24/prop-37-california-down-payment-assistance-explained/",
+    "https://www.hoover.org/proposition-lab-proposition-37",
+    "https://www.latimes.com/california/story/2026-10-24/prop-37-california-down-payment-assistance-explained/",
+    "https://calmatters.org/politics/2026/10/prop-37-explained-homeownership/",
+    "https://calmatters.org/politics/elections/2026/10/bond-measures-on-california-ballot/",
+    "https://electcademocrats.com/polls/",
+    "https://www.fppc.ca.gov/search-filings/top-10-contributors-list/november-2026-general-election/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-37-loan",
+    "https://californiatoday.com/guides/elections/2026-california-proposition-37-guide/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 22,
+    "requests_per_host": {
+      "openrouter.ai": 10,
+      "voterguide.sos.ca.gov": 3,
+      "calmatters.org": 3,
+      "www.latimes.com": 2,
+      "www.spur.org": 1,
+      "www.hoover.org": 1,
+      "igs.berkeley.edu": 1,
+      "californiatoday.com": 1
+    },
+    "hosts": [
+      "californiatoday.com",
+      "calmatters.org",
+      "igs.berkeley.edu",
+      "openrouter.ai",
+      "voterguide.sos.ca.gov",
+      "www.hoover.org",
+      "www.latimes.com",
+      "www.spur.org"
+    ],
+    "status_counts": {
+      "200": 21,
+      "301": 1
+    },
+    "bytes_up": 739035,
+    "bytes_down": 502698,
+    "wire_bytes": {
+      "harness_to_proxy": 783878,
+      "proxy_to_harness": 571408,
+      "proxy_to_internet": 778705,
+      "internet_to_proxy": 626435
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 23,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

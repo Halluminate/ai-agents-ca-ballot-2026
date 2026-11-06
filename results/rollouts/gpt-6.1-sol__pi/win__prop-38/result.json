@@ -1,0 +1,113 @@
+{
+  "run_id": "sol__common__win__p38__r1",
+  "model": "sol",
+  "model_id": "openai/gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:34:10.849141+00:00",
+  "finished_at": "2026-11-03T11:35:36.152607+00:00",
+  "seconds": 82.6,
+  "input_tokens": 91320,
+  "output_tokens": 2024,
+  "cached_tokens": 124064,
+  "cost_usd": 0.3013,
+  "cost_source": "reported",
+  "billed_usd": 0.30132860968,
+  "searches": [
+    "California proposition 38 voter guide 38 education taxes 2012 polling results",
+    "\"Proposition 38\" \"2026\" immunology",
+    "California 2026 immunology immunotherapy 8.4 billion bonds initiative poll",
+    "\"Prop. 38\" \"poll\" \"2026\" voters",
+    "\"Proposition 38\" \"poll\" \"2026\" October",
+    "California Proposition 38 2026 immunology polling Berkeley SurveyUSA Emerson opposition endorsements",
+    "\"Proposition 38\" \"2026\" \"polling\" November",
+    "California Proposition 14 2020 stem cell bond final polling 2020 51 percent results"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/38/",
+    "https://voterguide.sos.ca.gov/propositions/38/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/38/title-summary.htm",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-38-authorizes-bonds-immunology-research-initiative-statut",
+    "https://yeson38.com/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-38",
+    "https://www.sfchronicle.com/opinion/emilyhoeven/article/prop-38-california-newsom-22495203.php",
+    "https://cityhallpass.com/election-2026/measures/prop-38",
+    "https://www.ppic.org/wp-content/uploads/crosstabs-likely-voters-1026.pdf",
+    "https://votenoonprop38.org/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-38-research-bond/",
+    "https://www.fppc.ca.gov/search-filings/top-10-contributors-list/november-2026-general-election/",
+    "https://ballotpedia.org/California_Proposition_38,_Immunology_and_Immunotherapy_Research_Funding_Initiative_(2026"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 16,
+    "requests_per_host": {
+      "openrouter.ai": 14,
+      "cityhallpass.com": 1,
+      "ballotpedia.org": 1
+    },
+    "hosts": [
+      "ballotpedia.org",
+      "cityhallpass.com",
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 15,
+      "202": 1
+    },
+    "bytes_up": 972846,
+    "bytes_down": 318060,
+    "wire_bytes": {
+      "harness_to_proxy": 1007535,
+      "proxy_to_harness": 374613,
+      "proxy_to_internet": 1002739,
+      "internet_to_proxy": 413169
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 17,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:34:10.849141+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:34:10.849141+00:00",
+      "finished_at": "2026-11-03T11:35:36.152607+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

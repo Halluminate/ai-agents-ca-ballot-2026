@@ -1,0 +1,19 @@
+
+
+## YES
+
+After researching the official voter guide, the nonpartisan Legislative Analyst's analysis, the California Budget & Policy Center's issue brief, and news coverage (CalMatters, LA Times, IJPR), here's my reasoning:
+
+**What it is:** Prop 2 (the "Save for California's Future Act," Nov 3, 2026) is a constitutional amendment that doubles the cap on California's rainy day fund (Budget Stabilization Account) from 10% to 20% of General Fund tax revenues, requires larger savings when capital-gains revenue booms, extends mandatory debt paydown through 2040 (including California's ~$20B federal unemployment-insurance debt and pension liabilities), and exempts reserve *deposits* from the Gann spending limit (counting them only when withdrawn).
+
+**Why I'd vote yes:**
+
+1. **California's revenue volatility is extreme and demonstrated.** A ~$100B surplus in 2022 became a ~$50B deficit by 2023-24. In the last two fiscal years the state withdrew ~$12.2B from its rainy day fund and suspended $5.4B in required deposits to plug shortfalls — precisely the boom-bust whiplash a bigger reserve is designed to prevent.
+2. **The 10% cap is already maxed out** (~$15.1B balance), so the state has stopped saving during a historic revenue boom. The 20% cap makes saving *mandatory* in good years rather than optional.
+3. **It's a savings requirement, not new spending.** No new taxes; the nonpartisan Legislative Analyst found the only fiscal impact is higher reserves and more debt payments, and the LAO has long recommended the state save more than current rules require.
+4. **The "cancels your tax rebate" argument is weak in practice.** The Gann Limit has actually forced a taxpayer rebate only once, in 1987 ($1.1B). Since Prop 111 (1990), it has rarely constrained the budget, and the last revenue "excess" (2020-21) was handled via one-time stimulus checks, not the rebate mechanism.
+5. **Withdrawal rules aren't loosened.** The 2014 rules for when the fund can be raided stay in place, and federal cuts to Medi-Cal and food assistance raise the real risk of future deficits that a bigger buffer would cushion.
+
+**The fair counterargument:** A larger fund could be raided by future governors (the 2024-26 suspensions show politicians will tap savings under a declared emergency), and the Gann-limit exemption is a genuine, if largely theoretical, weakening of the 1978 spending cap. But the practical case for a bigger mandated buffer in a state with this much revenue volatility — endorsed by the nonpartisan analyst, passed 59-8 in the Assembly with at least one Republican, and consistent with what voters approved in 2004 (Prop 58) and 2014 (Prop 2, passed ~70-30) — tips the balance.
+
+**My answer: YES.**

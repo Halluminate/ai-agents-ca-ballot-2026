@@ -1,0 +1,13 @@
+Based on my extensive research:
+
+**What Prop 5 (2026) does:** Removes the second question (who replaces the official) from state recall ballots. Vacancies would instead be filled through existing rules: Lt. Governor succeeds a recalled Governor (with a special election if the recall happens early in the term), the Governor appoints replacements for other statewide officers, and legislative seats are filled by special election.
+
+**Key considerations:**
+- **The democratic legitimacy problem is real:** The current system lets a successor take office with a small plurality — e.g., in 2021, a replacement could have become Governor with ~28% support, and in 2003 Schwarzenegger won with 48.6% while Davis was ousted 55–45. Only ~6 states use this simultaneous two-question structure; most use succession or separate elections.
+- **Voters retain core power:** Removal still requires majority vote, legislative replacements still go before voters in special elections, and early-term gubernatorial recalls still trigger an election. The succession rules mirror how California already fills all other vacancies.
+- **Endorsements:** Good-government groups (League of Women Voters, Common Cause), SPUR, and the McClatchy boards (Sac Bee, Fresno Bee, etc.) support it. Opponents include Republican legislative leaders and the SF Chronicle, Mercury News, SCNG, and San Diego U-T boards — several citing "Newman's revenge" framing or the provision letting recalled officials run again.
+- **The main flaw** (letting recalled officials run again) is real but self-limiting: a majority that just ousted someone would have to reverse itself weeks later.
+
+On balance, the measure fixes a demonstrated structural defect — that a candidate lacking majority support can capture high office through recall gamesmanship — while preserving the recall's accountability function, aligning California with standard practice in other states.
+
+yes

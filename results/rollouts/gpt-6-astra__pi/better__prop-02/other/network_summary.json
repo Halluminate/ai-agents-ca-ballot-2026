@@ -1,0 +1,77 @@
+{
+  "requests": 18,
+  "requests_per_host": {
+    "openrouter.ai": 13,
+    "calbudgetcenter.org": 2,
+    "lao.ca.gov": 1,
+    "www.ijpr.org": 1,
+    "www.counties.org": 1
+  },
+  "hosts": [
+    "calbudgetcenter.org",
+    "lao.ca.gov",
+    "openrouter.ai",
+    "www.counties.org",
+    "www.ijpr.org"
+  ],
+  "status_counts": {
+    "200": 17,
+    "301": 1
+  },
+  "bytes_up": 1686303,
+  "bytes_down": 5353535,
+  "wire_bytes": {
+    "harness_to_proxy": 1725706,
+    "proxy_to_harness": 5420930,
+    "proxy_to_internet": 1720580,
+    "internet_to_proxy": 5462706
+  },
+  "byte_counter": true,
+  "errors": 3,
+  "error_details": [
+    {
+      "kind": "tls_failed_server",
+      "host": "openrouter.ai",
+      "sni": "openrouter.ai",
+      "error": "connection closed"
+    },
+    {
+      "kind": "tls_failed_client",
+      "host": "openrouter.ai",
+      "sni": "openrouter.ai",
+      "error": "connection closed early"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "openrouter.ai",
+      "port": 443,
+      "sni": "openrouter.ai",
+      "bytes_up": 1711,
+      "bytes_down": 39,
+      "duration": 18.0181,
+      "reason": "connection closed early"
+    }
+  ],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 19,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

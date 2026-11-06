@@ -1,0 +1,59 @@
+{
+  "requests": 19,
+  "requests_per_host": {
+    "api.openai.com": 17,
+    "ab.chatgpt.com": 2
+  },
+  "hosts": [
+    "ab.chatgpt.com",
+    "api.openai.com"
+  ],
+  "status_counts": {
+    "101": 1,
+    "200": 16,
+    "202": 2
+  },
+  "bytes_up": 612942,
+  "bytes_down": 2286924,
+  "wire_bytes": {
+    "harness_to_proxy": 391858,
+    "proxy_to_harness": 1343907,
+    "proxy_to_internet": 389396,
+    "internet_to_proxy": 1376614
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "connect_error",
+      "host": "ab.chatgpt.com",
+      "error": null
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "ab.chatgpt.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 65,
+      "bytes_down": 0,
+      "duration": 9.9959,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 2135,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 20,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

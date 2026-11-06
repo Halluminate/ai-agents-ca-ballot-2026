@@ -1,0 +1,25 @@
+I'd vote **no** on Prop 39, the November 2026 voter ID measure. This is a judgment call on a partisan issue. Polls split along party lines: about 82% of Republicans support it, about 84% of Democrats oppose it, and independents are roughly even.
+
+**What it does.** It amends the state constitution to require:
+- government-issued ID to vote in person;
+- the last four digits of an ID number you've designated on every mail ballot envelope, which must match your registration;
+- "best efforts" by officials to check every voter's citizenship against government data;
+- a free voter ID card on request, and audits by the State Auditor every two years.
+
+**Why no:**
+- **Mail ballots are the real risk.** About 80% of Californians vote by mail. When Texas added a similar ID-number match in 2022, about 12% of mail ballots were rejected in the primary. Even in the general election, rejections ran about three times the national average. A peer-reviewed study found affected voters were less likely to vote in later elections. Prop 39 does print the ID type on the envelope, which avoids Texas's biggest mistake. But it doesn't guarantee voters are told about errors or given a chance to fix them.
+- **Little benefit on its main goals.** Proven voter fraud in California is very rare. The supporters' main argument is restoring trust. But the best studies, including a large one covering 2008–2018, find strict ID laws don't change actual fraud or how much people trust elections, and also don't measurably lower turnout. A court ruled the Yes side's claims that it saves money and makes voting easier were false and misleading.
+- **The citizenship checks rely on bad data.** No complete list of U.S. citizens exists. When Texas ran the federal citizenship database against about 18 million voters, it flagged 2,724, and 578 of those turned out to be citizens. Even editorial boards that support voter ID in principle, such as the San Diego Union-Tribune and Bakersfield Californian, opposed Prop 39 mainly for this reason.
+- **It's hard to fix and vague.** Because it's a constitutional amendment, problems can only be fixed by another statewide vote. Key terms are left to the Legislature, including which IDs count and what "best efforts" means. It also lets any citizen sue the state or counties over compliance, which critics compare to the endless lawsuits under the state's environmental review law.
+- **It costs money.** The nonpartisan Legislative Analyst estimates tens of millions to low hundreds of millions of dollars a year. It also doesn't replace signature checks on mail ballots, so officials would have to check both.
+
+**The best case for yes:**
+- 36 states require some form of voter ID.
+- Showing ID in person has had little measurable effect on turnout.
+- An ID number adds a safeguard on mail ballots.
+- The ID card is free.
+- California's signature matching is subjective and uneven across counties.
+
+The Orange County Register and former Secretary of State Bill Jones support it on these grounds. Most other major papers, the Libertarian Party, and current election officials oppose it.
+
+No

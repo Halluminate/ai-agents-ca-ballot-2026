@@ -1,0 +1,116 @@
+{
+  "run_id": "gemini__native__win__p43__r1",
+  "model": "gemini",
+  "model_id": "gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "native",
+  "harness": "gemini_cli",
+  "effort": "high",
+  "prompt": "win",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:58:44.587202+00:00",
+  "finished_at": "2026-11-03T11:02:46.117017+00:00",
+  "seconds": 239.5,
+  "input_tokens": 77367,
+  "output_tokens": 68867,
+  "cached_tokens": 159401,
+  "cost_usd": 0.4302,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "\"Proposition 43\" California 2026 OR 2024 OR 2022 OR 2020 OR 2018 OR 2016 OR 2014",
+    "\"Proposition 43\" California 2026 polls OR polling OR campaign finance OR endorsements OR CalMatters OR Ballotpedia",
+    "\"ACA 13\" OR \"SCA\" \"Proposition 43\" California 2026 local special tax two-thirds",
+    "\"ACA 1\" OR \"ACA 10\" OR \"ACA 13\" California 2024 ballot \"Limits Voters' Ability to Raise Revenues for Local Government Services\"",
+    "\"LIMITS VOTERS' ABILITY TO RAISE REVENUES FOR LOCAL GOVERNMENT SERVICES\" California ballot proposition",
+    "\"Proposition 43\" \"ACA 22\" California 2026",
+    "\"YESon43.com\" OR \"Noprop43CA.com\" OR \"Prop 43\" California 2026",
+    "\"Proposition 43\" \"PPIC\" OR \"Berkeley IGS\" California 2026 poll"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/",
+    "https://voterguide.sos.ca.gov/propositions/43/",
+    "https://voterguide.sos.ca.gov/propositions/43/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/43/title-summary.htm",
+    "https://ballotpedia.org/California_Proposition_43,_Two-Thirds_Vote_Requirement_for_Local_Special_Tax_Initiatives_and_Property_Tax_Initiative_Prohibition_Amendment_(2026",
+    "https://ballotpedia.org/California_Proposition_43,_Two-Thirds_Vote_Requirement_for_Local_Special_Tax_Initiatives_and_Property_Tax_Initiative_Prohibition_Amendment_(2026"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.",
+    "capture: 8 connection attempts that ignored the proxy were blocked (node network-outbound x8)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 21,
+    "requests_per_host": {
+      "generativelanguage.googleapis.com": 21
+    },
+    "hosts": [
+      "generativelanguage.googleapis.com"
+    ],
+    "status_counts": {
+      "200": 20
+    },
+    "bytes_up": 931340,
+    "bytes_down": 109236,
+    "wire_bytes": {
+      "harness_to_proxy": 963216,
+      "proxy_to_harness": 146678,
+      "proxy_to_internet": 958756,
+      "internet_to_proxy": 182851
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "generativelanguage.googleapis.com",
+        "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-4-argon:streamGenerateContent?alt=sse",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "node",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 8
+      }
+    ],
+    "blocked_attempts": 8,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 15,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:58:44.587202+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:58:44.587202+00:00",
+      "finished_at": "2026-11-03T11:02:46.117017+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

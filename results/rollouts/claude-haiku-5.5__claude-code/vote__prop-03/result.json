@@ -1,0 +1,319 @@
+{
+  "run_id": "haiku__native__vote__p3__r1",
+  "model": "haiku",
+  "model_id": "anthropic/claude-haiku-5.5",
+  "pin": "anthropic",
+  "arm": "native",
+  "harness": "claude_code",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "3",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "first_line",
+  "error": "",
+  "started_at": "2026-11-03T11:54:44.608874+00:00",
+  "finished_at": "2026-11-03T13:23:46.866004+00:00",
+  "seconds": 5335.2,
+  "input_tokens": 283481,
+  "output_tokens": 75646,
+  "cached_tokens": 872053,
+  "cost_usd": 1.1364,
+  "cost_source": "reported",
+  "billed_usd": 1.135781525,
+  "searches": [
+    "California Proposition 3 2026 make permanent income tax high earners schools health care",
+    "Legislative Analyst's Office Proposition 3 November 2026 analysis Prop 55 extension permanent",
+    "Proposition 3 2026 California editorial board endorsement high income tax",
+    "PPIC statewide survey September 2026 Proposition 3 extend tax high incomes likely voters",
+    "\"California Children's Education and Health Care Protection Act of 2026\" initiative text audit oversight",
+    "Prop 3 2026 California high earner tax economists revenue volatility stock market Proposition 98 schools 40 percent",
+    "Ballotpedia 2026 California Proposition 3 high-income tax extension",
+    "Proposition 3 2026 \"ballot label\" \"temporary tax increase\" permanent yes vote no vote fiscal impact",
+    "study high-income taxpayers leaving California after Proposition 30 tax increase migration evidence",
+    "Rauh Shyu behavioral responses state income taxation high earners California Proposition 30 NBER working paper",
+    "Prop 3 2026 what happens to school funding if it fails Proposition 98 40% CTA 15% claim fact check",
+    "EdSource Proposition 3 2026 schools income tax expire 2031 impact billions Prop 55 extension",
+    "LAO fiscal outlook California budget structural deficit 2026-27 2027-28 out-year deficits",
+    "2016 California Proposition 55 results percent yes income tax extension passed",
+    "2026 California initiative constitutional amendment \"Education Protection Account\" high income tax permanent \"text of proposed law\" audit",
+    "Proposition 55 2016 \"initiative constitutional amendment\" extension income tax rates high incomes California"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 14,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/3/",
+    "https://lao.ca.gov/ballot/2026/prop3-110326.pdf",
+    "https://calmatters.org/california-voter-guide-2026/proposition-3-high-income-tax/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-3",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=3&year=2026",
+    "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-3-income-tax",
+    "https://voterguide.sos.ca.gov/propositions/3/analysis.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3.pdf",
+    "https://www.ppic.org/blog/how-can-californians-make-sense-of-the-tax-measures-on-the-november-ballot/",
+    "https://edsource.org/updates/majority-of-voters-favor-prop-3-but-oppose-prop-40-s-wealth-tax-poll-says",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026",
+    "https://www.yahoo.com/news/politics/articles/california-prop-3-tax-top-204145695.html",
+    "https://voterguide.sos.ca.gov/propositions/3/full-text.htm",
+    "https://calmatters.org/commentary/are-the-wealthy-fleeing-california-taxes/",
+    "https://cavotes.org/ballot-measure/2026-prop-3/",
+    "https://www.kpbs.org/news/politics/2026/09/23/proposition-3-make-income-taxes-on-higher-earners-permanent-to-fund-education-and-healthcare",
+    "https://www.aeaweb.org/articles?id=10.1257%2Fpol.20200500",
+    "https://edsource.org/updates/if-prop-3-doesnt-pass-one-out-of-six-california-teachers-can-lose-their-jobs-says-cta-president",
+    "https://quickguidetoprops.sos.ca.gov/propositions/2026-11-03/3",
+    "https://edsource.org/updates/california-doesnt-need-another-forever-tax",
+    "https://calmatters.org/politics/elections/2026/10/prop-3-california/",
+    "https://spectrumlocalnews.com/ca/california/politics/2026/10/14/proposition-3-income-tax-california",
+    "https://lao.ca.gov/Publications/Report/5187",
+    "https://www.policyengine.org/us/ballot-measures-2026/ca-prop-3",
+    "https://ballotpedia.org/California_Renew_State_Income_Tax_Increase_for_Education_Funding_Initiative_(2026",
+    "https://ballotpedia.org/California_Proposition_55,_Extension_of_the_Proposition_30_Income_Tax_Increase_(2016",
+    "https://en.wikipedia.org/wiki/2016_California_Proposition_55",
+    "https://en.wikipedia.org/wiki/2012_California_Proposition_30"
+  ],
+  "tool_errors": 1,
+  "warnings": [
+    "capture: 5 connections were not readable by the proxy (api.anthropic.com:443)"
+  ],
+  "network": {
+    "requests": 196,
+    "requests_per_host": {
+      "api.anthropic.com": 106,
+      "openrouter.ai": 62,
+      "voterguide.sos.ca.gov": 4,
+      "lao.ca.gov": 3,
+      "calmatters.org": 3,
+      "edsource.org": 3,
+      "igs.berkeley.edu": 2,
+      "ballotpedia.org": 2,
+      "laist.com": 1,
+      "vig.cdn.sos.ca.gov": 1,
+      "www.ppic.org": 1,
+      "www.yahoo.com": 1,
+      "cavotes.org": 1,
+      "www.kpbs.org": 1,
+      "www.aeaweb.org": 1,
+      "quickguidetoprops.sos.ca.gov": 1,
+      "spectrumlocalnews.com": 1,
+      "www.policyengine.org": 1,
+      "en.wikipedia.org": 1
+    },
+    "hosts": [
+      "api.anthropic.com",
+      "ballotpedia.org",
+      "calmatters.org",
+      "cavotes.org",
+      "edsource.org",
+      "en.wikipedia.org",
+      "igs.berkeley.edu",
+      "laist.com",
+      "lao.ca.gov",
+      "openrouter.ai",
+      "quickguidetoprops.sos.ca.gov",
+      "spectrumlocalnews.com",
+      "vig.cdn.sos.ca.gov",
+      "voterguide.sos.ca.gov",
+      "www.aeaweb.org",
+      "www.kpbs.org",
+      "www.policyengine.org",
+      "www.ppic.org",
+      "www.yahoo.com"
+    ],
+    "status_counts": {
+      "200": 182,
+      "202": 2,
+      "403": 5
+    },
+    "bytes_up": 7306769,
+    "bytes_down": 8576144,
+    "wire_bytes": {
+      "harness_to_proxy": 7557133,
+      "proxy_to_harness": 9000591,
+      "proxy_to_internet": 7461912,
+      "internet_to_proxy": 9116590
+    },
+    "byte_counter": true,
+    "errors": 18,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "connection closed"
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "HTTP/1 protocol error: peer closed connection without sending complete message body (incomplete chunked read)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 9.7193,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 10.8814,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 9.9995,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.007,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0008,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 82,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:54:44.608874+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:54:44.608874+00:00",
+      "finished_at": "2026-11-03T13:23:46.866004+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

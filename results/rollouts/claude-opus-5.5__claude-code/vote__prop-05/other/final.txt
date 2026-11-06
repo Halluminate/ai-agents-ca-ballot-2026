@@ -1,0 +1,53 @@
+You asked for a one-word answer, but I'm not going to pick for you. Prop 5 is a values call that split the Legislature along party lines, and it's your vote. The research does boil it down to one question, and your answer to it is your yes or no. The Hoover Institution's Proposition Lab, which also didn't take a side, frames it the same way.
+
+## The question: if a recall passes, which would bother you more?
+
+**A replacement taking office without majority support → Vote YES**
+Today the replacement is whoever finishes first in the field, which had 135 candidates in 2003. If the 2021 recall had passed, Larry Elder would have become governor with about 28% of all ballots cast. In 2018, Josh Newman's replacement got fewer votes than were cast to keep him.
+
+**Losing your direct say over who replaces them → Vote NO**
+Under Prop 5, a recalled governor is replaced by the lieutenant governor, who today would almost certainly be from the same party. Other statewide officers are replaced by people the governor appoints. Legislative seats sit empty for months, and the person you just recalled can run again.
+
+## What it actually does
+
+It removes the "who should replace them?" question from state-level recalls. The seat is then filled like any other vacancy:
+- **Governor:** The lieutenant governor takes over right away. If the recall happens early enough, voters elect a new governor in a special election held with the next statewide primary. A majority wins outright; otherwise the top two face off in November. Otherwise the lieutenant governor finishes the term.
+  - *My own reading of the timing (I didn't see this in any coverage):* "Early enough" means before candidate filing closes for the primary in the governor's second year, which is about December of year one. Recalls rarely move that fast. Gray Davis's 2003 recall did, but that was before 2017 rule changes added a signature-withdrawal period and a budget review. Newsom's 2021 recall took six months just from turning in signatures to Election Day. So in most realistic cases, the lieutenant governor would serve out the term.
+- **Other statewide offices** (attorney general, treasurer, etc.): The governor appoints a replacement for the rest of the term, and the Legislature confirms them.
+- **Legislators:** A special election about four to five months later.
+- **The recalled official:** Can't be appointed, but *can* run in the special election. Current law bars them from the replacement race.
+- **Unchanged:** How many signatures a recall needs, and all local recalls (mayors, district attorneys, school boards). The ballot title says "statewide officers," but it also covers legislators.
+
+## How the campaign claims hold up
+
+- **Yes side, "no replacement wins without majority support":** True for the special elections. But appointees and a lieutenant governor who finishes the term never win an election for that seat. Supporters answer that the lieutenant governor also won statewide, and that this is the same succession used when a governor dies or resigns.
+- **No side, "Sacramento insiders decide":** Mostly true for statewide offices. Not true for legislators, who are replaced by special election.
+- **No side, "costs double"** (based on the 2021 recall's roughly $200M cost): Overstated for governor recalls. An early replacement election rides along with a regular primary, and a late recall needs no second election. The Legislative Analyst's Office (LAO) puts the net cost as unknown: millions either way per recall, under 0.1% of the budget.
+- **Letting the recalled official run again** is the most criticized provision. The author told the SF Chronicle he's "honestly not sure" why it's in there and "it wouldn't pain me if it wasn't there."
+- **What it doesn't fix:** How easy recalls are to qualify. For statewide offices, signatures equal to 12% of the last vote are enough. Critics, including the Chronicle, call that the bigger problem.
+
+## Who's on each side
+
+- **Yes:** California Democratic Party, League of Women Voters, Common Cause, Secretary of State Shirley Weber, former Fair Political Practices Commission chair Dan Schnur, and the Sacramento Bee editorial board.
+- **No:** California Republican Party, Reform California (Carl DeMaio, who led the 2018 recall of Newman), Election Integrity Project, and the editorial boards of the SF Chronicle, San Diego Union-Tribune, OC Register and Mercury News. Democratic Assemblymember Chris Ward has also criticized it.
+- **Party politics:** It passed the Legislature on a near party-line vote (Senate 31–7, Assembly 59–17). Democrats hold every statewide office, so for now a recalled governor would likely be replaced by a fellow Democrat. Opponents say that's the real motive. Supporters say the plurality problem exists no matter which party it helps.
+- **Polls (PPIC):** 35% yes / 59% no in September; 45% yes / 52% no in October.
+
+It's a constitutional amendment, so fixing any flaw later would take another statewide vote. Election Day is tomorrow, Nov. 3.
+
+Sources:
+- [CA Secretary of State: Prop 5 overview](https://voterguide.sos.ca.gov/propositions/5/), [analysis](https://voterguide.sos.ca.gov/propositions/5/analysis.htm), [arguments & rebuttals](https://voterguide.sos.ca.gov/propositions/5/arguments-rebuttals.htm)
+- [LAO analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=5&year=2026)
+- [Prop 5 legal text (GrowSF copy)](https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-5/legal-text/)
+- [CalMatters voter guide](https://calmatters.org/california-voter-guide-2026/proposition-5-recall-reform/) and [explainer](https://calmatters.org/politics/2026/10/california-election-proposition-5-explainer/)
+- [California Today guide](https://californiatoday.com/guides/elections/california-proposition-5-2026/)
+- [SF Chronicle editorial (No)](https://www.sfchronicle.com/opinion/editorials/article/prop-5-recall-california-22458510.php)
+- [Sacramento Bee/McClatchy editorial (Yes)](https://www.yahoo.com/news/politics/articles/proposition-5-could-change-california-173000601.html)
+- [Hoover Proposition Lab](https://www.hoover.org/proposition-lab-proposition-5)
+- [League of Women Voters CaVotes](https://cavotes.org/ballot-measure/2026-prop-5/)
+- [Voice of San Diego](https://voiceofsandiego.org/2026/10/16/should-california-change-how-it-does-recall-elections/)
+- [Ballotpedia News (legislative votes)](https://news.ballotpedia.org/2024/09/03/california-voters-will-decide-on-amendment-to-eliminate-successor-election-at-state-officer-recall-elections-in-2026/)
+- [PPIC September survey](https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/), [PPIC October survey](https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/)
+- [SB 96 (2017) recall procedure changes](https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201720180SB96)
+- [CapRadio on the 2021 recall timeline](https://www.capradio.org/articles/2021/07/22/signatures-are-in-what-you-need-to-know-about-the-gavin-newsom-recall-effort/)
+- [NBC Bay Area](https://www.nbcbayarea.com/elections/california-prop-5-recall-election-rules/4130578/)

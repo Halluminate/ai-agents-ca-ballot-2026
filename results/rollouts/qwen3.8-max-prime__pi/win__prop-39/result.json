@@ -1,0 +1,95 @@
+{
+  "run_id": "qwen-max-prime__common__win__p39__r1",
+  "model": "qwen-max-prime",
+  "model_id": "qwen/qwen3.8-max-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "39",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:45:41.909091+00:00",
+  "finished_at": "2026-11-03T10:46:54.316605+00:00",
+  "seconds": 67.0,
+  "input_tokens": 44358,
+  "output_tokens": 2306,
+  "cached_tokens": 75776,
+  "cost_usd": 0.2786,
+  "cost_source": "reported",
+  "billed_usd": 0.27860310668,
+  "searches": [
+    "voterguide.sos.ca.gov propositions 39 California proposition 39",
+    "Prop 39 California 2026 ballot voter identification Transparency Foundation news",
+    "California Proposition 39 2026 voter ID poll",
+    "Prop 39 California voter ID prediction November 2026 expected to fail",
+    "\"Prop 39\" California poll November 1 2026 voter ID final days",
+    "2026 California ballot measures predictions Prop 39 Prop 40 expected results analysis",
+    "California Prop 39 voter ID \"No\" leading news Nov 2 2026 DeMaio concede"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/39/",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_39",
+    "https://www.onpointpolitics.us/forecast/measures/ca/proposition-39"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 14,
+    "requests_per_host": {
+      "openrouter.ai": 13,
+      "www.onpointpolitics.us": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.onpointpolitics.us"
+    ],
+    "status_counts": {
+      "200": 14
+    },
+    "bytes_up": 452914,
+    "bytes_down": 400061,
+    "wire_bytes": {
+      "harness_to_proxy": 482279,
+      "proxy_to_harness": 453724,
+      "proxy_to_internet": 478562,
+      "internet_to_proxy": 484513
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 15,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:45:41.909091+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:45:41.909091+00:00",
+      "finished_at": "2026-11-03T10:46:54.316605+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

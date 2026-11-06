@@ -1,0 +1,19 @@
+## **No.**
+
+I researched the official VIG text, the LAO analysis, the full statute, both economic studies, the legal scholarship, polling, endorsements, and campaign finance. Here's why I land on **no**.
+
+**The problem is real; this instrument isn't.** The federal cuts are genuine (~$112B California Medicaid hole over a decade, ~1.3M residents at risk of losing coverage), and it's true that billionaires pay very little relative to their wealth because unrealized gains and stepped-up basis go untaxed forever. Those premises are sound. The measure built on them is not.
+
+**The revenue almost certainly isn't there.** Proponents promise $100B. The neutral LAO says only "tens of billions" and stresses it's "very hard to predict." Even the hostile Hoover/Rauh model concedes ~$30–40B gross. The base has already shrunk: Page, Brin, Thiel, Hankey, Spielberg, Kalanick and Sacks left before the Jan. 1, 2026 residency snapshot — roughly $540B, ~30% of the tax base.
+
+**The legal risk is the killer.** The measure's own text concedes its 100%-apportionment formula for worldwide assets may be "held invalid." Independent analyses (Tax Foundation, NTU, Hoover) identify retroactive "wholly new tax" due-process exposure, Commerce Clause apportionment failures, taxing U.S. Treasuries (intergovernmental immunity), right-to-travel lock-in, a private-business valuation formula (book value + 7.5× book profits) that can exceed 100% of a company's value, and possible impermissible constitutional *revision*. Worst case — and it's a live one — is years of litigation, the capital flight already spent, and zero dollars collected.
+
+**It overrides three voter-approved guardrails with no accountability in exchange.** Revenue is carved out of Prop 98, the Gann spending limit, *and* the Prop 2 rainy-day rules in one stroke. Schools get 10% capped at $2.5B/year instead of their ~40% share. There are no audits or an oversight commission, and the anti-supplantation language contains a carve-out permitting backfill of "reductions in state appropriations" — exactly the loophole that let Prop 99 (tobacco) and Prop 28 (arts) money be substituted rather than added. And "health care funding" is undefined, so 90% could legally flow to insurers, drug companies and for-profit hospitals with no requirement of premium relief.
+
+**It's one-time money for a permanent gap.** Two-thirds of the Medi-Cal cuts land after 2030; the revenue is exhausted around 2029. California has a documented pattern here: Prop 30 "temporary" → Prop 55 extension → Prop 3 permanence. Two-thirds of voters already doubt this stays one-time, and the drafters themselves say they want an annual wealth tax next.
+
+**Tellingly, the institutions closest to the affected programs oppose it** — the California Medical Association, Primary Care Association, Children's Hospital Association, Planned Parenthood Affiliates, Teachers Association, School Boards Association, Professional Firefighters, and Building Trades — alongside Newsom and both gubernatorial nominees. Only the McClatchy/Bee board said yes; the LA Times, SF Chronicle, Mercury News, Union-Tribune and OC Register all said no. Even the progressive California Budget & Policy Center declined to endorse.
+
+Voting no doesn't mean opposing taxing extreme wealth. Nearly every economist on both sides agrees it works better federally (no interstate mobility, no apportionment problem), and Prop 3 — the more stable, better-designed progressive tax — is on the same ballot with ~58% support. Rejecting a legally precarious, unaccountable, one-off state mechanism is not rejecting fairness.
+
+**Vote no on Prop 40.** (Also note: Prop 42 is polling ahead at ~51%, and under the competing-measure rule it would nullify Prop 40 even if it passed — so a "yes" risks buying litigation rather than revenue.)

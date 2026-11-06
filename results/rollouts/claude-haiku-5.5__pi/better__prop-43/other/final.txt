@@ -1,0 +1,26 @@
+I'm not going to give a one-word yes or no on this one. Whether Prop 43 is better to pass depends on a values question: should a citizen-initiated special tax need the same two-thirds vote as one a city council places on the ballot, even if a bare third of voters can block it? I checked the official text, the LAO analysis, and reporting from CalMatters, PPIC, and others, but research can't settle that for you.
+
+**What it does**
+- Starting Jan. 1, 2027, citizen-initiated local special taxes (money earmarked for a specific purpose) that are new, increased, or extended would need two-thirds of votes instead of a majority. Council-placed special taxes already need two-thirds. General taxes and existing taxes are unaffected.
+- It also bars local governments, including by initiative, from imposing new value-based property taxes beyond what the constitution already allows. The official summary and LAO analysis don't mention this. Berkeley's staff report describes it as clarifying an existing limit.
+- The LAO says the revenue effect is unknown, but local tax revenue "could be lower" than otherwise.
+- Measures that passed with majorities but would fail under the new rule include LA's Measure ULA (58%), Sonoma County's Measure H (62%), and SF's 2018 homelessness business tax (61%).
+
+**Case for yes**
+- Prop 13 and Prop 218 require two-thirds for special taxes, but later court rulings let citizen initiatives pass them by majority. Supporters call that a loophole and say earmarked taxes should need broad consensus no matter who proposes them.
+- It's narrower than the original Howard Jarvis initiative: no retroactive repeal and no transfer-tax cap. The Legislature passed it 35–1 in the Senate and 68–2 in the Assembly.
+
+**Case for no**
+- A bit over a third of voters could block a tax that a majority supports. The taxes it would have blocked funded fire protection, health care, and housing.
+- It's now in the constitution, so only voters can undo it. It also covers renewals of citizen-passed taxes after 2027.
+- Opponents include firefighters, teachers, SEIU, the League of Cities, and the bill's author, Assemblymember Buffy Wicks.
+
+**Claims to discount**
+- Yes side: "over 2,000 new or higher taxes" in a decade. I couldn't find a source.
+- No side: "nearly $3 billion a year" in lost funding. I couldn't find a source, and the examples it lists add up to about $1.1 billion a year.
+
+**Where it stands**
+- PPIC (Oct. 16–22): 42% yes, 55% no among likely voters. Berkeley IGS (Oct. 19–25): 36% yes, 46% no. Polls aren't results, and I didn't find any official results yet.
+
+**Deciding**
+Ask which worries you more: a minority blocking services a majority wants, or a majority approving earmarked taxes with less consensus than the constitution otherwise requires. If your city or county has no citizen-initiated special taxes planned, the practical stakes are smaller than the ads suggest.

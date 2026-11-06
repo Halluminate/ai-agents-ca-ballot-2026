@@ -1,0 +1,37 @@
+**Yes.**
+
+It's a close call. The reasoning is below if you want to check it.
+
+**Why yes**
+- **Limited downside.** The Legislative Analyst finds no direct state or local costs. The bonds are payable solely from borrowers' loan payments, and CalHFA isn't required to issue them. The Legislature can amend the program with a supermajority. The Budget Center's director is skeptical it will work as advertised but says the state isn't really on the hook.
+- **Better design than most demand subsidies.** Aid goes only to newly built homes. Redfin's chief economist called it closer to a supply subsidy than a demand subsidy. California YIMBY stayed neutral but called it "one of the better ways" to subsidize demand. The builder-defect changes also target a known obstacle to building condos and townhomes.
+- **Buyers keep their options.** Participation is voluntary. The text requires fixed rates, bans prepayment penalties, and allows hardship deferrals.
+
+**What could make No the right answer**
+- **The terms aren't in the measure.** The rate is set to cover bond costs and could exceed today's roughly 6.5% first-mortgage rates, per the Budget Center. Low rates depend partly on unnamed philanthropic bond buyers, which the sponsor suggested.
+- **Prices and targeting.** Subsidies can bid up new-home prices. The 200%-of-median-income cap and the absence of a first-time-buyer rule may tilt benefits toward higher earners. PPIC found 91% of renters eligible, but 56% still couldn't afford the payments on an entry-level new home.
+- **The fine print and the funders.** The measure requires buyers to use a real estate agent. It caps lawyer fees and gives participating builders defect-lawsuit protections. It also exempts these loans from a 2025 law protecting homeowners from stale second-mortgage foreclosures. The biggest funders are the Realtors, carpenters' unions, and a PAC largely funded by Sergey Brin.
+- **Bailout risk.** Hoover warns a large state-branded program could face pressure for a rescue in a downturn, even though the bonds aren't state debt.
+
+If you think demand-side housing subsidies do more harm than good however they're designed, vote No. The same goes if you put heavy weight on homeowners' legal recourse against builders.
+
+**Limits of my research.** I couldn't open the measure's raw PDF. I used a reproduction of the legal text, the Legislative Analyst's analysis, and the official guide. I saw the PPIC analysis only through summaries. I didn't base the answer on polls or endorsements. PPIC's October survey showed 65% to 32% support. The Democratic Party, CalChamber, unions, SPUR, the Sacramento Bee, and the SF Chronicle back the measure. The Howard Jarvis Taxpayers Association, the League of Women Voters, Reform California, and the Mercury News, OC Register and San Diego Union-Tribune editorial boards oppose it.
+
+Sources:
+- [Official voter guide, Prop 37](https://voterguide.sos.ca.gov/propositions/37/)
+- [Legislative Analyst's analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=37&year=2026)
+- [GrowSF: legal text of Prop 37](https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-37/legal-text/)
+- [CalMatters explainer](https://calmatters.org/politics/2026/10/prop-37-explained-homeownership/)
+- [CalMatters voter guide](https://calmatters.org/california-voter-guide-2026/proposition-37-homebuyers-loan/)
+- [California Budget & Policy Center](https://calbudgetcenter.org/resources/will-proposition-37-make-homeownership-more-affordable-its-not-guaranteed/)
+- [Hoover Institution Proposition Lab](https://www.hoover.org/proposition-lab-proposition-37)
+- [California YIMBY](https://cayimby.org/blog/proposition-37-2026/)
+- [SPUR](https://www.spur.org/voter-guide/2026-11/ca-prop-37-homeowner-loans)
+- [PPIC blog on likely use](https://www.ppic.org/blog/how-many-might-actually-use-the-down-payment-assistance-in-proposition-37/)
+- [PPIC October 2026 survey](https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/)
+- [SF Chronicle "what's the catch" (via Yahoo)](https://www.yahoo.com/news/politics/articles/program-california-ballot-could-cut-120000111.html)
+- [McClatchy editorial (via Yahoo)](https://www.yahoo.com/news/politics/articles/prop-37-puts-california-homeownership-173000963.html)
+- [California Today guide](https://californiatoday.com/guides/elections/2026-california-proposition-37-guide/)
+- [KQED voter guide](https://www.kqed.org/voterguide/california/proposition-37)
+- [Berkeley IGS endorsements table](https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026)
+- [HJTA 2026 voting guide](https://www.hjta.org/2026votingguide/)

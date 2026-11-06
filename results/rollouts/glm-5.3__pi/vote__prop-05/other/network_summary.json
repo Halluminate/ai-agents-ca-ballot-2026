@@ -1,0 +1,50 @@
+{
+  "requests": 16,
+  "requests_per_host": {
+    "openrouter.ai": 14,
+    "www.paloaltoonline.com": 1,
+    "www.modbee.com": 1
+  },
+  "hosts": [
+    "openrouter.ai",
+    "www.modbee.com",
+    "www.paloaltoonline.com"
+  ],
+  "status_counts": {
+    "200": 16
+  },
+  "bytes_up": 841295,
+  "bytes_down": 3021074,
+  "wire_bytes": {
+    "harness_to_proxy": 873792,
+    "proxy_to_harness": 3218569,
+    "proxy_to_internet": 869405,
+    "internet_to_proxy": 3255047
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 16,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

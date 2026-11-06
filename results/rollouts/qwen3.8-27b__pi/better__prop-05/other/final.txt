@@ -1,0 +1,12 @@
+
+
+Based on my research, California Proposition 5 (November 2026) would remove the "who should replace a recalled official?" question from recall ballots, so a recall would only decide removal — with vacancies then filled under standard succession rules (lieutenant governor steps in for a recalled governor, possibly with a majority-rule special election; gubernatorial appointment for other executive offices; special elections for legislative seats).
+
+Key findings:
+- **The core flaw it fixes is real and documented:** today a recalled official can be removed by majority vote but replaced by whoever wins a crowded plurality field — in 2021, a replacement could have become governor with ~28% of recall votes. The $200M, 46-candidate 2021 recall re-confirmed the 2018 result and was widely seen as a waste.
+- **Credible nonpartisan support:** League of Women Voters of California, California Common Cause, former FPPC chair Dan Schnur, and the Secretary of State's office; the Little Hoover Commission has also urged recall reform; the LA Times editorial boards previously called the current two-question rule "undemocratic," and its columnists recommend YES; the Sacramento Bee endorses YES, noting it "respects the democratic norm of majority rule."
+- **Opposition** (Ca GOP, Senate Minority Leader, several newspaper editorials, PPIC poll 59% against) centers on losing direct choice of a successor, the lieutenant governor's succession, and one genuine defect: a recalled official could run in the special election to win back their own seat — a provision even the author couldn't defend. That's a real blemish, but the replacement would still need to win a full special election (majority with runoff for governor), and most other states already fill recall vacancies via succession or separate elections.
+
+Weighing a well-documented, high-stakes institutional flaw (plurality winners, weaponizable recalls) against a narrower, fixable blemish in an otherwise standard vacancy process, the balance favors the reform.
+
+yes

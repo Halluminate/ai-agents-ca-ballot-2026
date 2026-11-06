@@ -1,0 +1,110 @@
+{
+  "run_id": "gemini__native__win__p44__r1",
+  "model": "gemini",
+  "model_id": "gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "native",
+  "harness": "gemini_cli",
+  "effort": "high",
+  "prompt": "win",
+  "prop": "44",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T10:45:42.013022+00:00",
+  "finished_at": "2026-11-03T10:48:17.963315+00:00",
+  "seconds": 151.4,
+  "input_tokens": 41316,
+  "output_tokens": 28242,
+  "cached_tokens": 40239,
+  "cost_usd": 0.2124,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "\"Proposition 44\" California \"voterguide.sos.ca.gov/propositions/44\"",
+    "California Proposition 44 2026 OR 2024 OR 2014 OR 2012",
+    "\"Clinic Funding Accountability and Transparency Act\" OR \"Spending Requirements for Federally Qualified Health Centers\" California ballotpedia",
+    "\"Proposition 44\" \"Community Health Clinics\" OR \"90% of Revenue on Program Services\" polling OR endorsements OR spending",
+    "\"SEIU-UHW\" \"Federally Qualified Health Centers\" \"90%\" ballot initiative California"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/44/",
+    "https://voterguide.sos.ca.gov/propositions/44/"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.",
+    "capture: 3 connection attempts that ignored the proxy were blocked (node network-outbound x3)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 13,
+    "requests_per_host": {
+      "generativelanguage.googleapis.com": 12,
+      "voterguide.sos.ca.gov": 1
+    },
+    "hosts": [
+      "generativelanguage.googleapis.com",
+      "voterguide.sos.ca.gov"
+    ],
+    "status_counts": {
+      "200": 12
+    },
+    "bytes_up": 336602,
+    "bytes_down": 69877,
+    "wire_bytes": {
+      "harness_to_proxy": 356448,
+      "proxy_to_harness": 93445,
+      "proxy_to_internet": 353672,
+      "internet_to_proxy": 118171
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "generativelanguage.googleapis.com",
+        "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "node",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 3
+      }
+    ],
+    "blocked_attempts": 3,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 10,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T10:45:42.013022+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T10:45:42.013022+00:00",
+      "finished_at": "2026-11-03T10:48:17.963315+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

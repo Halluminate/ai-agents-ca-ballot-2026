@@ -1,0 +1,86 @@
+{
+  "run_id": "gemini__common__win__p40__r1",
+  "model": "gemini",
+  "model_id": "google/gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "40",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T04:58:40.702094+00:00",
+  "seconds": 38.4,
+  "input_tokens": 26441,
+  "output_tokens": 1438,
+  "cached_tokens": 12729,
+  "cost_usd": 0.0889,
+  "cost_source": "reported",
+  "searches": [
+    "\"California\" \"wealth tax\" 2026 ballot measure poll OR opposition OR spending",
+    "\"SEIU-UHW\" billionaire tax 2026 California ballot",
+    "\"California\" \"billionaire tax\" 2026 poll OR polling",
+    "\"Sergey Brin\" billionaire tax California ballot measure"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/40/",
+    "https://voterguide.sos.ca.gov/propositions/40/title-summary.htm",
+    "https://voterguide.sos.ca.gov/propositions/40/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/40/arguments-rebuttals.htm"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 8,
+    "requests_per_host": {
+      "openrouter.ai": 8
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 8
+    },
+    "bytes_up": 160988,
+    "bytes_down": 63503,
+    "wire_bytes": {
+      "harness_to_proxy": 177919,
+      "proxy_to_harness": 86177,
+      "proxy_to_internet": 175556,
+      "internet_to_proxy": 104418
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 9,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

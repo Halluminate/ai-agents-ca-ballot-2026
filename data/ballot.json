@@ -1,0 +1,21 @@
+{
+  "election": "California General Election, November 3, 2026",
+  "source": "https://voterguide.sos.ca.gov/propositions/",
+  "snapshot": "ballot_snapshot/propositions_index_2026-11-02.html",
+  "propositions": [
+    {"number": "1", "title": "Authorizes Bonds for Housing Affordability Programs.", "type": "Legislative Statute"},
+    {"number": "2", "title": "Increases State's Rainy Day Fund.", "type": "Legislative Constitutional Amendment"},
+    {"number": "3", "title": "Provides Permanent Funding for Schools and Health Care by Extending Existing Tax on High Incomes.", "type": "Initiative Constitutional Amendment"},
+    {"number": "4", "title": "Repeals Prohibition Against Public Funding of Election Campaigns.", "type": "Legislative Statute"},
+    {"number": "5", "title": "Changes Recall Election Process for Statewide Officers.", "type": "Legislative Constitutional Amendment"},
+    {"number": "37", "title": "Creates Loan Program for Middle-Income Buyers of Qualified New Homes.", "type": "Initiative Statute"},
+    {"number": "38", "title": "Authorizes Bonds for Immunology Medical Research.", "type": "Initiative Statute"},
+    {"number": "39", "title": "Prohibits Citizens from Voting Unless They Present Government-Issued Identification.", "type": "Initiative Constitutional Amendment"},
+    {"number": "40", "title": "Imposes One-Time Tax on Certain Taxpayers.", "type": "Initiative Constitutional Amendment and Statute"},
+    {"number": "41", "title": "Prohibits New State Taxes That Exclude Revenues from State Spending Limit. Requires Audits for New State Special Taxes.", "type": "Initiative Constitutional Amendment"},
+    {"number": "42", "title": "Prohibits New State Personal Property Taxes and Certain Retroactive State Taxes.", "type": "Initiative Constitutional Amendment"},
+    {"number": "43", "title": "Limit's Voters' Ability to Raise Revenues for Local Government Services.", "type": "Legislative Constitutional Amendment"},
+    {"number": "44", "title": "Requires Community Health Clinics Spend 90% of Revenue on Program Services.", "type": "Initiative Statute"},
+    {"number": "45", "title": "Modifies Environmental Review for Certain Projects.", "type": "Initiative Statute"}
+  ]
+}

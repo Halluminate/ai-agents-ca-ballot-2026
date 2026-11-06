@@ -1,0 +1,127 @@
+{
+  "run_id": "grok__native__win__p38__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "native",
+  "harness": "grok_build",
+  "effort": "xhigh",
+  "prompt": "win",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:48:55.682448+00:00",
+  "finished_at": "2026-11-03T12:53:49.477589+00:00",
+  "seconds": 291.4,
+  "input_tokens": 84158,
+  "output_tokens": 3154,
+  "cached_tokens": 37504,
+  "cost_usd": 0.206,
+  "cost_source": "estimated",
+  "billed_usd": 1.5238059999999995,
+  "searches": [
+    "California Proposition 38 2026 voter guide which side more likely to win",
+    "PPIC poll California Proposition 38 October 2026 immunology bonds yes no",
+    "California Proposition 38 2026 prediction market odds poll results",
+    "Proposition 38 California 2026 campaign finance Michelson yes on 38 election forecast",
+    "California Proposition 38 election results November 3 2026 early returns",
+    "\"Proposition 38\" 2026 yes percent poll OR results site:sos.ca.gov OR site:ppic.org OR site:ballotpedia.org",
+    "California Proposition 38 2026 live results yes no votes",
+    "California Proposition 38 2026 Kalshi Polymarket odds today election day",
+    "\"Prop 38\" OR \"Proposition 38\" California \"yes\" (leading OR ahead OR favored OR \"likely to pass\") 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 0,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/38/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://electionresults.sos.ca.gov/returns/ballot-measures",
+    "https://ballotpedia.org/California_Proposition_38,_Immunology_and_Immunotherapy_Research_Funding_Initiative_(2026",
+    "https://www.ppic.org/wp-content/uploads/crosstabs-likely-voters-1026.pdf"
+  ],
+  "tool_errors": 2,
+  "warnings": [
+    "capture: 18 connection attempts that ignored the proxy were blocked (grok-1.0.70 network-outbound x18)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 24,
+    "requests_per_host": {
+      "openrouter.ai": 20,
+      "www.ppic.org": 2,
+      "voterguide.sos.ca.gov": 1,
+      "ballotpedia.org": 1
+    },
+    "hosts": [
+      "ballotpedia.org",
+      "openrouter.ai",
+      "voterguide.sos.ca.gov",
+      "www.ppic.org"
+    ],
+    "status_counts": {
+      "200": 22,
+      "404": 1
+    },
+    "bytes_up": 512933,
+    "bytes_down": 1896245,
+    "wire_bytes": {
+      "harness_to_proxy": 525042,
+      "proxy_to_harness": 1960190,
+      "proxy_to_internet": 523545,
+      "internet_to_proxy": 1974616
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 18
+      }
+    ],
+    "blocked_attempts": 18,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 9,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:48:55.682448+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:48:55.682448+00:00",
+      "finished_at": "2026-11-03T12:53:49.477589+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

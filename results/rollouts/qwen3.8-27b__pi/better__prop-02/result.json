@@ -1,0 +1,105 @@
+{
+  "run_id": "qwen-27b__common__better__p2__r1",
+  "model": "qwen-27b",
+  "model_id": "qwen/qwen3.8-27b",
+  "pin": "deepinfra",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "2",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "last_line",
+  "error": "",
+  "started_at": "2026-11-03T13:38:28.703866+00:00",
+  "finished_at": "2026-11-03T13:41:57.313725+00:00",
+  "seconds": 205.6,
+  "input_tokens": 59345,
+  "output_tokens": 9801,
+  "cached_tokens": 131712,
+  "cost_usd": 0.0575,
+  "cost_source": "reported",
+  "billed_usd": 0.057532369,
+  "searches": [
+    "Legislative Analyst California rainy day fund recommendation budget stabilization account size",
+    "California Proposition 2 2026 rainy day fund 20 percent general fund taxes analysis",
+    "California last general tax rebate 1978 Proposition 13 how often rebate paid",
+    "California Budget Policy Center \"Proposition 2\" 2026 approve rainy day fund brief",
+    "\"tax rebate\" California Gann limit last rebate 2001 2002 $13.5 billion no rebate since"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/",
+    "https://voterguide.sos.ca.gov/propositions/2/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-2-rainy",
+    "https://lao.ca.gov/ballot/2026/prop2-110326.pdf",
+    "https://calmatters.org/california-voter-guide-2026/proposition-2-rainy-day-fund/",
+    "https://www.kpbs.org/news/science-technology/2026/10/23/california-has-more-revenue-than-expected-thanks-to-ai-should-the-state-save-it",
+    "https://www.kpbs.org/news/science-technology/2026/10/23/california-has-more-revenue-than-expected-thanks-to-ai-should-the-state-save-it"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 14,
+    "requests_per_host": {
+      "openrouter.ai": 13,
+      "lao.ca.gov": 1
+    },
+    "hosts": [
+      "lao.ca.gov",
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 14
+    },
+    "bytes_up": 785251,
+    "bytes_down": 3785242,
+    "wire_bytes": {
+      "harness_to_proxy": 814720,
+      "proxy_to_harness": 4011921,
+      "proxy_to_internet": 811314,
+      "internet_to_proxy": 4040434
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 15,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:38:28.703866+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:38:28.703866+00:00",
+      "finished_at": "2026-11-03T13:41:57.313725+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

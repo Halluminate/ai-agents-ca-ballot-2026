@@ -1,0 +1,56 @@
+{
+  "requests": 41,
+  "requests_per_host": {
+    "openrouter.ai": 31,
+    "www.mercurynews.com": 3,
+    "berkeleyca.gov": 2,
+    "lao.ca.gov": 1,
+    "igs.berkeley.edu": 1,
+    "weho.granicus.com": 1,
+    "my.lwv.org": 1,
+    "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com": 1
+  },
+  "hosts": [
+    "berkeleyca.gov",
+    "igs.berkeley.edu",
+    "lao.ca.gov",
+    "my.lwv.org",
+    "openrouter.ai",
+    "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com",
+    "weho.granicus.com",
+    "www.mercurynews.com"
+  ],
+  "status_counts": {
+    "200": 37,
+    "301": 1,
+    "403": 1,
+    "404": 2
+  },
+  "bytes_up": 4934317,
+  "bytes_down": 3479185,
+  "wire_bytes": {
+    "harness_to_proxy": 5018320,
+    "proxy_to_harness": 3668941,
+    "proxy_to_internet": 5007775,
+    "internet_to_proxy": 3760573
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 38,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

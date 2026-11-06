@@ -1,0 +1,15 @@
+**Research summary**
+
+**What Prop 40 does** (Nov. 3, 2026 CA ballot): Imposes a one-time 5% excise tax on the worldwide net worth of ~200–260 billionaires who were California residents on Jan. 1, 2026 (full rate above $1.1B; wealth measured Dec. 31, 2026, payable 2027 or over 5 years). Excludes directly held real estate, pensions, and retirement accounts. 90% of revenue goes to health care services; 10% to education, food assistance, and administration. It exempts the revenue from Prop 98 school-funding and Gann spending-limit rules.
+
+**Key findings from my research:**
+- **Neutral fiscal analysis (LAO):** Tens of billions in one-time revenue; ongoing income-tax loss of *less than $1 billion/year* — strongly net positive.
+- **Context:** It's a direct response to federal Medicaid/food-aid cuts (H.R. 1) projected to cost California tens of billions and strip coverage from ~1.3 million people. Even the most hostile revenue estimate (Hoover/Stanford, ~$30B collected) is a large sum against that hole.
+- **The "billionaires will flee" argument is partly moot:** The residency snapshot (Jan. 1, 2026) is already past — departures that already happened (Brin, Page, Thiel) are a sunk cost regardless of the vote, and those who leave later still owe the tax.
+- **Legal risk is real but asymmetric:** Retroactivity and worldwide apportionment face genuine constitutional challenges and years of litigation — but if courts strike it down, the state is roughly back to the status quo (same as a "no" vote); if it survives in whole or part, the state gains tens of billions.
+- **Opposition claims were often exaggerated:** Fact-checks (CalMatters, LAist) found claims that it would expose ordinary Californians' savings/retirement to the tax are misleading — the tax is locked into the state Constitution as one-time and billionaire-only; expansion would require another vote. Opposition spending (~$368M, largely from affected billionaires) dwarfed support (~$36M).
+- **Legitimate concerns:** It is experimental and unprecedented; revenue is volatile; one-time money for ongoing needs creates a fiscal cliff; editorial boards split (LA Times/SF Chronicle: No; Sac Bee/Press Democrat: Yes), and Governor Newsom plus teachers/medical groups oppose it.
+
+**Weighing it:** The neutral LAO estimate shows a large net fiscal gain, the emergency (federal health-care cuts) is concrete and imminent, the tax base is largely locked by the past residency date, and the worst-case legal outcome approximates a "no" vote anyway. The design flaws are real but bounded (90% must fund public health care). A "no" vote provides zero bridge against the funding collapse.
+
+**yes**

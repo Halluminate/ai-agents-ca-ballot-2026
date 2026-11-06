@@ -1,0 +1,55 @@
+{
+  "requests": 69,
+  "requests_per_host": {
+    "openrouter.ai": 57,
+    "www.noprop45ca.com": 4,
+    "escholarship.org": 3,
+    "www.fresnobee.com": 1,
+    "highdesertnewsonline.com": 1,
+    "www.sacbee.com": 1,
+    "theballotbook.com": 1,
+    "www.housingwire.com": 1
+  },
+  "hosts": [
+    "escholarship.org",
+    "highdesertnewsonline.com",
+    "openrouter.ai",
+    "theballotbook.com",
+    "www.fresnobee.com",
+    "www.housingwire.com",
+    "www.noprop45ca.com",
+    "www.sacbee.com"
+  ],
+  "status_counts": {
+    "200": 65,
+    "307": 1,
+    "403": 3
+  },
+  "bytes_up": 13348901,
+  "bytes_down": 1056595,
+  "wire_bytes": {
+    "harness_to_proxy": 13468007,
+    "proxy_to_harness": 1232328,
+    "proxy_to_internet": 13455330,
+    "internet_to_proxy": 1348344
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 49,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

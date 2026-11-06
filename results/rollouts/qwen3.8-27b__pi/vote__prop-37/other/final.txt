@@ -1,0 +1,29 @@
+
+
+I've done extensive research on this one. First, an important identification: that URL is the **2026 California General Election (Nov. 3, 2026) Proposition 37 — "Creates Loan Program for Middle‑Income Buyers of Qualified New Homes"** (the "California Middle‑Class Home Ownership and Family Home Construction Act," authored by former Senate Majority Leader Bob Hertzberg). It is *not* the 2012 GMO-labeling measure that once lived at a similar URL.
+
+## What it actually does
+- Lets the California Housing Finance Agency (CalHFA) sell up to **$25 billion in revenue bonds** (not General Obligation bonds) and use the proceeds to lend homebuyers **up to 17% of the price of a newly built home** as a fixed-rate second mortgage.
+- Buyers must: be CA residents ≥1 year, occupy the home as a primary residence, earn ≤200% of area median income (~$116K in Imperial County up to ~$410K in San Mateo for a family of 3), and put down **at least 3% cash**. The 17% loan + 3% cash ≈ 20% equity, avoiding PMI.
+- Homes must be **new construction or first sale of converted nonresidential property** (no resales), priced at ≤125% of the county's conforming loan limit (~$1M–$1.5M).
+- **Bonds are repaid by homeowners' loan payments and interest, not taxpayers.** The Legislative Analyst's Office (LAO) finds **no direct state or local cost**. CalHFA decides how much (if any) of the $25B to issue — the state has no obligation to run the program.
+- A voluntary "qualified builder" option trades higher labor standards (prevailing wage, apprenticeship, contractor registration for certain projects) for more flexible construction-defect procedures.
+
+## Case for YES (what the research shows)
+- **Near-zero downside for taxpayers.** This is the pivotal fact. It's structured as a pass-through: CalHFA borrows from private bondholders and relends. If investors won't buy the bonds at reasonable rates, or buyers don't take the loans, CalHFA simply issues less. Even skeptical left-leaning analysts concede the point (Chris Hoene, California Budget & Policy Center: "If it doesn't work, the state's not really on the hook").
+- **Targets a real, documented barrier.** California has the lowest (or 2nd lowest) homeownership rate in the nation — ~10 points below the national average. PPIC finds ~90% of renters are income-eligible, and the down payment (not monthly payments) is the wall for many middle-income families.
+- **New-construction restriction is a genuine design strength.** Unlike ordinary down-payment assistance (which is often just "musical chairs"), limiting loans to new units pairs new demand with new supply — potentially adding thousands to tens of thousands of homes (campaign analysis: up to ~190,000, high-end).
+- **PPIC's math suggests meaningful upside:** full 17% support on entry-level homes could reach ~560,000 buyers and get the state ~40% of the way to closing the homeownership gap; modest 5% support on entry-level homes could exceed 100%.
+- **Strong, broad coalition:** Gov. Newsom, statewide unions (carpenters, CFT, CLC, nurses), the California and National Associations of Realtors (≈$25M+ in contributions), mayors, SPUR ("Vote YES"), and the **strongest public support of any 2026 proposition in the PPIC poll (61% yes / 35% no)**. No argument against was even submitted, and no opposition committee exists.
+
+## Case for NO (the legitimate critiques)
+- **Adds leverage, not affordability.** The second mortgage likely prices above the already ~7%+ primary rate; PPIC finds <40% of eligible renters could afford the higher payments on an entry-level home, and <0.5% at the price cap. Mercury News/San Diego U-T editorials: "Californians can't borrow their way out of a housing crisis."
+- **Distribution risk.** The League of Women Voters of California (the main institutional opponent) argues the most likely users are higher-income, wealthier households near the cap — potentially reinforcing racial/economic disparities.
+- **Market uncertainty.** AEI's Edward Pinto and others note second mortgages carry a big risk premium without Fannie/Freddie backing; if rates are high, the program may be a dud. Hertzberg's fallback plan (philanthropists buying bonds below market) is unproven.
+- **Contingent bailout risk:** a few analysts doubt the Legislature would resist bailing out homebuyers in a wave of defaults, despite the "no state cost" structure.
+- **The builder quid pro quo** (defect-liability relief for labor-standards compliance) reads as industry-favoring.
+
+## My verdict
+The decisive comparison is risk allocation: the measure imposes **essentially no financial obligation on the state or taxpayers** (revenue bonds only, CalHFA discretion, no General Fund commitment), while creating an **opt-in tool** that — if investor rates work out — could genuinely expand middle-class homeownership and new-construction supply in the state with the worst homeownership rate in the country. The main criticisms (more borrower debt, possible windfalls to higher earners, industry-friendly builder provisions) fall on voluntary participants or are secondary to the structural point that a "No" vote costs the state nothing and a "Yes" vote costs the state nothing but creates a chance of large public benefit. That asymmetric risk/reward profile is hard to vote against.
+
+**Yes.**

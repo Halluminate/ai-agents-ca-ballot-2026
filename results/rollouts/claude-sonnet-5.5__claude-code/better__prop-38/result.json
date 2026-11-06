@@ -1,0 +1,296 @@
+{
+  "run_id": "sonnet__native__better__p38__r1",
+  "model": "sonnet",
+  "model_id": "anthropic/claude-sonnet-5.5",
+  "pin": "anthropic",
+  "arm": "native",
+  "harness": "claude_code",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:17:53.070414+00:00",
+  "finished_at": "2026-11-03T12:31:07.478191+00:00",
+  "seconds": 792.0,
+  "input_tokens": 95389,
+  "output_tokens": 17805,
+  "cached_tokens": 387301,
+  "cost_usd": 1.8404,
+  "cost_source": "reported",
+  "billed_usd": 1.8403333000000006,
+  "searches": [
+    "California Proposition 38 November 2026 ballot",
+    "LAO Legislative Analyst's Office Proposition 38 immunology research bond analysis 2026",
+    "League of Women Voters of California position Proposition 38 immunology bond oppose",
+    "Prop 38 Michelson immunology bond editorial \"vote no\" OR \"vote yes\" 2026",
+    "STAT News American Association of Immunologists Prop 38 California endorsement divided Michelson",
+    "Los Angeles Times editorial Proposition 38 immunology research bond",
+    "Newsom endorses Proposition 38 immunology statement Michelson \"Prop 38\" governor",
+    "Prop 38 California immunology bond University of California Regents position UC Office of the President neutral",
+    "Ballotpedia California Proposition 38 2026 Immunology Research and Cures Initiative full text exempt Public Records Act Brown Act Political Reform Act",
+    "independent scientists economists critique Prop 38 immunology bond CIRM lessons stem cell agency return on investment",
+    "Prop 38 supporters scientists Nobel Mark Davis Stanford immunotherapy why California bond federal NIH cuts case for yes",
+    "Prop 38 poll California immunology bond voters support oppose October 2026",
+    "Bonta response Prop 38 unconstitutional private corporation letter Panush attorney general",
+    "\"Prop 38\" why I'm voting yes immunology research California scientists UAW 4811 endorse",
+    "LAO fiscal outlook California structural deficit 2026-27 budget bond debt service General Fund",
+    "UC sponsored $7.5 billion science research bond March 2028 ballot California legislation",
+    "Mercury News editorial Prop 38 no immunology bond Michelson institute \"Prop. 38\"",
+    "Sacramento Bee editorial board Proposition 38 immunology bond recommendation McClatchy"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 18,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/38/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-38-research-bond/",
+    "https://calmatters.org/politics/elections/2026/07/proposition-38-california/",
+    "https://calmatters.org/politics/elections/2026/10/prop-38-california/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-38",
+    "https://www.michaeljfox.org/news/californias-proposition-38-what-parkinsons-community-should-know-election-day",
+    "https://votenoonprop38.org/voter-guide",
+    "https://cavotes.org/ballot-measure/2026-prop-38/",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=38&year=2026",
+    "https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-38",
+    "https://voiceofsandiego.org/2026/10/23/should-california-borrow-8-4-billion-for-immunology-research/",
+    "https://www.hoover.org/proposition-lab-proposition-38",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38.pdf",
+    "https://www.statnews.com/2026/10/19/california-prop-38-immunology-research-bond-oddly-specific-earmark/",
+    "https://www.kpbs.org/news/politics/2026/09/23/proposition-38-borrow-8-4-billion-for-immunology-research",
+    "https://spectrumlocalnews.com/ca/california/politics/2026/10/28/proposition-38",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-38-money-california-22453646.php",
+    "https://www.sfchronicle.com/politics/article/prop-38-ballot-california-22476943.php",
+    "https://yeson38.com/2026/10/09/newsom-endorses-prop-38/",
+    "https://www.yahoo.com/news/politics/articles/prop-38-unconstitutional-opponents-immunology-120000131.html",
+    "https://voterguide.sos.ca.gov/propositions/38/analysis.htm",
+    "https://www.kqed.org/voterguide/california/proposition-38",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-38-money-california-22453646.php",
+    "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-38/legal-text/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38-text-proposed-laws.pdf",
+    "https://www.kqed.org/news/12107726/california-cancer-patients-divided-over-whether-prop-38-will-help-them",
+    "https://ucnet.universityofcalifornia.edu/employee-news/the-uc-sponsored-california-scientific-research-bond-is-headed-to-the-march-2028-ballot/",
+    "https://www.yahoo.com/news/politics/articles/proposition-38-sleeper-ballot-california-170000615.html"
+  ],
+  "tool_errors": 3,
+  "warnings": [
+    "capture: 8 connections were not readable by the proxy (api.anthropic.com:443, yeson38.com:443)"
+  ],
+  "network": {
+    "requests": 143,
+    "requests_per_host": {
+      "openrouter.ai": 60,
+      "api.anthropic.com": 57,
+      "voterguide.sos.ca.gov": 3,
+      "calmatters.org": 3,
+      "vig.cdn.sos.ca.gov": 2,
+      "www.sfchronicle.com": 2,
+      "www.yahoo.com": 2,
+      "www.kqed.org": 2,
+      "www.michaeljfox.org": 1,
+      "votenoonprop38.org": 1,
+      "cavotes.org": 1,
+      "lao.ca.gov": 1,
+      "laist.com": 1,
+      "voiceofsandiego.org": 1,
+      "www.hoover.org": 1,
+      "www.statnews.com": 1,
+      "www.kpbs.org": 1,
+      "spectrumlocalnews.com": 1,
+      "growsf.org": 1,
+      "ucnet.universityofcalifornia.edu": 1
+    },
+    "hosts": [
+      "api.anthropic.com",
+      "calmatters.org",
+      "cavotes.org",
+      "growsf.org",
+      "laist.com",
+      "lao.ca.gov",
+      "openrouter.ai",
+      "spectrumlocalnews.com",
+      "ucnet.universityofcalifornia.edu",
+      "vig.cdn.sos.ca.gov",
+      "voiceofsandiego.org",
+      "votenoonprop38.org",
+      "voterguide.sos.ca.gov",
+      "www.hoover.org",
+      "www.kpbs.org",
+      "www.kqed.org",
+      "www.michaeljfox.org",
+      "www.sfchronicle.com",
+      "www.statnews.com",
+      "www.yahoo.com"
+    ],
+    "status_counts": {
+      "200": 142
+    },
+    "bytes_up": 4396700,
+    "bytes_down": 3981893,
+    "wire_bytes": {
+      "harness_to_proxy": 4508530,
+      "proxy_to_harness": 4403119,
+      "proxy_to_internet": 4508128,
+      "internet_to_proxy": 4503907
+    },
+    "byte_counter": true,
+    "errors": 10,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "yeson38.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0027,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "yeson38.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 84,
+        "bytes_down": 274,
+        "duration": 30.0159,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0043,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0042,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 9.9999,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0024,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0022,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0125,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 64,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:17:53.070414+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:17:53.070414+00:00",
+      "finished_at": "2026-11-03T12:31:07.478191+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

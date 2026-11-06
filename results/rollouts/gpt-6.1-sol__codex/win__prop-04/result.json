@@ -1,0 +1,111 @@
+{
+  "run_id": "sol__native__win__p4__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:16:22.662112+00:00",
+  "finished_at": "2026-11-03T13:18:21.553516+00:00",
+  "seconds": 116.8,
+  "input_tokens": 36,
+  "output_tokens": 4708,
+  "cached_tokens": 587508,
+  "cost_usd": 0.4269,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 4 2026 public campaign financing polls October November 2026 ...",
+    "site.ppic.org \"2026\" \"Proposition 4\" October ...",
+    "\"qt1vp9q3f9\" ...",
+    "\"Berkeley IGS\" \"October 29, 2026\" propositions ...",
+    "'Polls'",
+    "California 2010 Proposition 15 results 57.6 public campaign funding Secretary State ...",
+    "\"Proposition 15\" \"2010\" \"57.6\" \"sos.ca.gov\" ...",
+    "California 2010 Proposition 15 Secretary State election results public financing 57.6"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://www.onpointpolitics.us/forecast/measures/ca/proposition-4",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-4-sb-42-umberg-political-reform-act-1974-public-campaign-financing-california-fair-elections-act-2026-ch-245-2025",
+    "https://escholarship.org/uc/item/1vp9q3f9",
+    "https://www.yesfairelections.org/content/pdf/sb42_poll.pdf",
+    "https://igs.berkeley.edu/research/berkeley-igs-poll",
+    "https://www.probolskyresearch.com/wp-content/uploads/2026/09/Prop-4-sq-1.jpg"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 1 connection attempts that ignored the proxy were blocked (codex remote:*:58533 x1)"
+  ],
+  "network": {
+    "requests": 20,
+    "requests_per_host": {
+      "api.openai.com": 18,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 17,
+      "202": 2
+    },
+    "bytes_up": 1160850,
+    "bytes_down": 2481895,
+    "wire_bytes": {
+      "harness_to_proxy": 929277,
+      "proxy_to_harness": 1454706,
+      "proxy_to_internet": 927615,
+      "internet_to_proxy": 1490446
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "codex",
+        "operation": "network-outbound",
+        "target": "remote:*:58533",
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 1,
+    "websocket_messages": 2311,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 20,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:16:22.662112+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:16:22.662112+00:00",
+      "finished_at": "2026-11-03T13:18:21.553516+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

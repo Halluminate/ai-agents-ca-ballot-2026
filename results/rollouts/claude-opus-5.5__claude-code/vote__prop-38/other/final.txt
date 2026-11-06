@@ -1,0 +1,50 @@
+# Vote NO on Prop 38
+
+I'd vote No. That isn't a judgment against funding medical research. The problem is how this particular measure is written. Opponents include groups from left to right: the League of Women Voters, Common Cause, the Howard Jarvis Taxpayers Association, Courage California, DSA chapters, and about a dozen newspaper editorial boards. Many of them support state research funding in general.
+
+## Why No
+
+**1. About $4.2B looks written for one institute, and that institute's founder is paying for the campaign.**
+- The measure doesn't name who gets half the money. But its criteria only fit the California Institute for Immunology and Immunotherapy (CIII) at UCLA. Billionaire Gary Michelson co-founded CIII, chairs its board, and is the measure's official sponsor.
+- **Every eligibility date has already passed.** The institute must have existed by Jan 1, 2025 and had its facility by Jan 1, 2026, so no new competitor can ever qualify.
+- It requires two $50M programs, one for "rapid vaccine development" and one for "microbiome research." Michelson's 2024 gift to CIII put exactly $50M into each.
+- UCLA confirmed that CIII is the only UCLA-affiliated nonprofit that qualifies. A Yes spokesperson said CIII will "very likely" qualify.
+- Yes has raised more than $70M, nearly all from Michelson, his policy center and CIII co-founder Meyer Luskin. No has raised about $12K.
+
+**2. The institute isn't ready.** CIII planned to have about 51 staff by summer 2025. In September 2026 it had three employees and no director. Its building won't be finished until at least late 2028, and construction is still about $100M short.
+
+**3. Accountability is weak, and it can't be fixed later.**
+- The text says the institute is not a public agency. That exempts it from the Public Records Act, open-meetings law and the Political Reform Act.
+- The "competitive" half is tilted too:
+  - Every grant must offer CIII a chance to "substantially participate" in the research, and offer UCLA a role in clinical trials.
+  - The grant council has to confer with CIII before final funding decisions.
+  - UC Merced, UC Santa Barbara and UC Santa Cruz are left off the council.
+- The Legislature can't change how the money is allocated, even with a two-thirds vote.
+
+**4. The claim that it "pays for itself" doesn't hold up.**
+- The Legislative Analyst (LAO) estimates the cost at $500–600M a year from the General Fund for 20–25 years, roughly $12B including interest. It says any offset from research revenue is uncertain and "could take decades."
+- The closest precedent is the state's stem-cell agency, CIRM. Voters approved $3B for it in 2004 and another $5.5B in 2020.
+  - It was sold with projections of up to $1.1B in royalties. By 2018 the state had received one payment of $190K.
+  - Its first FDA-approved therapy came in March 2026, 21 years after the first vote.
+- The LAO also projects ongoing state budget deficits starting in 2027-28.
+
+## The best case for Yes, and why I still say No
+
+Federal cuts are real: about $2B in grants to UC researchers were cancelled. Immunotherapy is also a promising field. Newsom, both state parties and patient groups like the Michael J. Fox Foundation support the measure. (The American Association of Immunologists endorsed it too. Its own policy committee recommended dropping that endorsement, but the leadership kept it after meeting with Michelson.)
+
+But a better-designed option is already scheduled. On Sept 30, Newsom signed SB 895, which puts a **$7.5B research bond on the March 2028 ballot**. UC sponsors it. It covers a broader range of science, awards money through competitive peer review, and explicitly prioritizes replacing federal cuts. Voting No on 38 doesn't mean voting against state research funding.
+
+**When Yes could make sense:** if you think getting research money now, given the federal cuts and the chance the 2028 bond fails, is worth giving one institute this much money with no competition. I don't think it is, but that's the real tradeoff. PPIC's October poll had it at 57% Yes, so it may pass either way.
+
+*The Secretary of State's PDF of the measure text wouldn't load, so I checked the provisions against the copy on the Yes campaign's site. It matches how the LAO and CalMatters describe the measure.*
+
+Sources:
+- [SOS Voter Guide – Prop 38](https://voterguide.sos.ca.gov/propositions/38/) · [LAO Analysis](https://voterguide.sos.ca.gov/propositions/38/analysis.htm) · [Arguments/Rebuttals](https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm)
+- [Measure text (yeson38.com)](https://yeson38.com/read-the-measure/) · [LAO Initiative Analysis 25-0026](https://lao.ca.gov/BallotAnalysis/Initiative/2025-026)
+- [CalMatters – Who's behind it](https://calmatters.org/politics/elections/2026/07/proposition-38-california/) · [CalMatters – Three workers](https://calmatters.org/politics/elections/2026/10/prop-38-california/) · [CalMatters Voter Guide](https://calmatters.org/california-voter-guide-2026/proposition-38-research-bond/) · [Dan Walters](https://calmatters.org/commentary/2026/10/prop-38-california-medical-research-bond/)
+- [KQED](https://www.kqed.org/voterguide/california/proposition-38) · [LAist](https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-38) · [KPBS](https://www.kpbs.org/news/politics/2026/09/23/proposition-38-borrow-8-4-billion-for-immunology-research) · [Hoover Proposition Lab](https://www.hoover.org/proposition-lab-proposition-38)
+- [Medical Daily – AAI endorsement split](https://www.medicaldaily.com/prop-38-immunology-endorsement-split-emails-480193) · [UCLA – Michelson gift](https://externalaffairs.ucla.edu/news/ucla-receives-120-million-from-alya-and-gary-michelson-for-new-california-institute-for-immunology-and-immunotherapy/)
+- [SF Chronicle – CIRM after 14 years](https://projects.sfchronicle.com/2018/stem-cells/politics/) · [CIRM – First approved therapy](https://blog.cirm.ca.gov/clinical-trials/first-therapy-supported-by-cirm-approved-by-the-fda/)
+- [Ballotpedia – SB 895 / 2028 bonds](https://news.ballotpedia.org/tag/2028-bond-measures/) · [UCnet – SB 895](https://ucnet.universityofcalifornia.edu/employee-news/the-uc-sponsored-california-scientific-research-bond-is-headed-to-the-march-2028-ballot/)
+- [CalMatters – Federal grant cancellations](https://calmatters.org/education/higher-education/2026/07/research-grants-california-2/) · [LAO Fiscal Outlook](https://lao.ca.gov/Publications/Report/5091) · [Press Democrat – state debt](https://www.pressdemocrat.com/2026/10/14/endorsement-props-1-and-38-would-only-bring-more-debt-for-california/)
+- [PPIC October 2026 Survey](https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/) · [No on 38](https://votenoonprop38.org/) · [Yes on 38](https://yeson38.com/) · [Cancer Letter (pro)](https://cancerletter.com/perspective/20261023_4/)

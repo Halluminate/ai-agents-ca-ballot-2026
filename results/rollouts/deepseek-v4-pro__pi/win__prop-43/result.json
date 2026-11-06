@@ -1,0 +1,87 @@
+{
+  "run_id": "deepseek__common__win__p43__r1",
+  "model": "deepseek",
+  "model_id": "deepseek/deepseek-v4-pro-0813",
+  "pin": "together",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:43:20.797354+00:00",
+  "finished_at": "2026-11-03T12:43:38.792902+00:00",
+  "seconds": 15.4,
+  "input_tokens": 8269,
+  "output_tokens": 814,
+  "cached_tokens": 3131,
+  "cost_usd": 0.0247,
+  "cost_source": "reported",
+  "billed_usd": 0.05911166600000001,
+  "searches": [
+    "California Proposition 43 2024 voterguide.sos.ca.gov",
+    "California Proposition 43 2026 poll support oppose two-thirds local special taxes",
+    "Prop 43 California 2026 polling yes no"
+  ],
+  "search_errors": 1,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/"
+  ],
+  "tool_errors": 1,
+  "warnings": [],
+  "network": {
+    "requests": 5,
+    "requests_per_host": {
+      "openrouter.ai": 5
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 5
+    },
+    "bytes_up": 46816,
+    "bytes_down": 103259,
+    "wire_bytes": {
+      "harness_to_proxy": 57569,
+      "proxy_to_harness": 119119,
+      "proxy_to_internet": 55855,
+      "internet_to_proxy": 131871
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 6,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:43:20.797354+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:43:20.797354+00:00",
+      "finished_at": "2026-11-03T12:43:38.792902+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

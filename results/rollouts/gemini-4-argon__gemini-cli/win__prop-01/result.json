@@ -1,0 +1,97 @@
+{
+  "run_id": "gemini__native__win__p1__r1",
+  "model": "gemini",
+  "model_id": "gemini-4-argon",
+  "pin": "google-ai-studio",
+  "arm": "native",
+  "harness": "gemini_cli",
+  "effort": "high",
+  "prompt": "win",
+  "prop": "1",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:45:43.023540+00:00",
+  "finished_at": "2026-11-03T13:46:32.380448+00:00",
+  "seconds": 46.5,
+  "input_tokens": 20847,
+  "output_tokens": 8853,
+  "cached_tokens": 18756,
+  "cost_usd": 0.0841,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "\"Proposition 1\" California 2026 OR 2024 \"voterguide.sos.ca.gov/propositions/1\"",
+    "\"Proposition 1\" California 2026 polling OR poll OR \"11.25 billion\" housing bond"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/1/"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.",
+    "capture: 1 connection attempts that ignored the proxy were blocked (node network-outbound x1)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 6,
+    "requests_per_host": {
+      "generativelanguage.googleapis.com": 6
+    },
+    "hosts": [
+      "generativelanguage.googleapis.com"
+    ],
+    "status_counts": {
+      "200": 6
+    },
+    "bytes_up": 164468,
+    "bytes_down": 24154,
+    "wire_bytes": {
+      "harness_to_proxy": 175041,
+      "proxy_to_harness": 39340,
+      "proxy_to_internet": 173819,
+      "internet_to_proxy": 49598
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "node",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 1,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 6,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:45:43.023540+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:45:43.023540+00:00",
+      "finished_at": "2026-11-03T13:46:32.380448+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

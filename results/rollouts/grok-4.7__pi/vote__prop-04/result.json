@@ -1,0 +1,104 @@
+{
+  "run_id": "grok__common__vote__p4__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:07:25.741193+00:00",
+  "seconds": 263.9,
+  "input_tokens": 93850,
+  "output_tokens": 13102,
+  "cached_tokens": 156672,
+  "cost_usd": 0.3904,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 4 voter guide 2024 ballot measure summary arguments",
+    "California Proposition 4 2026 public funding of election campaigns repeal ban analysis",
+    "SB 42 California Fair Elections Act 2026 text public financing requirements history Prop 73 Prop 89 Prop 15",
+    "California Government Code 81012 amendment Political Reform Act two-thirds",
+    "evidence public campaign financing effectiveness small donor matching NYC Connecticut Maine Seattle diversity corruption",
+    "California Proposition 89 2006 Proposition 15 2010 Proposition 25 2006 public financing results why failed",
+    "public financing campaigns criticism wasted money fraud Arizona Maine participation decline GAO",
+    "California Prop 4 2026 endorsements editorial board yes no public financing",
+    "California charter counties public campaign financing ban Johnson v Bradley counties exempt Proposition 73"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://voterguide.sos.ca.gov/propositions/4/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/4/title-summary.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-text-proposed-laws.pdf",
+    "https://calmatters.org/politics/2026/10/california-proposition-4-explainer/",
+    "https://www.sfchronicle.com/opinion/editorials/article/endorsement-prop-4-public-financing-22426379.php",
+    "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB42",
+    "https://lao.ca.gov/ballot/2026/prop4-110326.pdf",
+    "https://www.eastbaytimes.com/2026/10/19/endorsement-reject-prop-4-dont-let-politicians-raid-public-funds-for-their-campaigns/",
+    "https://www.sanluisobispo.com/opinion/article317765284.html"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 19,
+    "requests_per_host": {
+      "openrouter.ai": 16,
+      "lao.ca.gov": 1,
+      "www.eastbaytimes.com": 1,
+      "www.sanluisobispo.com": 1
+    },
+    "hosts": [
+      "lao.ca.gov",
+      "openrouter.ai",
+      "www.eastbaytimes.com",
+      "www.sanluisobispo.com"
+    ],
+    "status_counts": {
+      "200": 19
+    },
+    "bytes_up": 1214042,
+    "bytes_down": 1052396,
+    "wire_bytes": {
+      "harness_to_proxy": 1255609,
+      "proxy_to_harness": 1152133,
+      "proxy_to_internet": 1249586,
+      "internet_to_proxy": 1199503
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 20,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

@@ -1,0 +1,105 @@
+{
+  "run_id": "kimi__common__better__p3__r1",
+  "model": "kimi",
+  "model_id": "moonshotai/kimi-k3",
+  "pin": "moonshotai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "3",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:44:01.953270+00:00",
+  "finished_at": "2026-11-03T12:45:56.484604+00:00",
+  "seconds": 111.8,
+  "input_tokens": 32870,
+  "output_tokens": 3359,
+  "cached_tokens": 62976,
+  "cost_usd": 0.1882,
+  "cost_source": "reported",
+  "billed_usd": 0.18820779608,
+  "searches": [
+    "California Proposition 3 voterguide.sos.ca.gov",
+    "California 2026 Proposition 3 make Prop 30 Prop 55 tax permanent schools health care news",
+    "California Proposition 55 2016 extension results effects study tax high earners revenue schools",
+    "CalMatters Proposition 3 2026 voter guide high income tax permanent pros cons"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/3/",
+    "https://voterguide.sos.ca.gov/propositions/3/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+    "https://www.hoover.org/prop-3-permanent-high-income-tax-initiative",
+    "https://www.latimes.com/california/story/2026-10-27/california-prop-3-school-funding-tax-explained"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 10,
+    "requests_per_host": {
+      "openrouter.ai": 10
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 10
+    },
+    "bytes_up": 407076,
+    "bytes_down": 511915,
+    "wire_bytes": {
+      "harness_to_proxy": 424854,
+      "proxy_to_harness": 554809,
+      "proxy_to_internet": 422264,
+      "internet_to_proxy": 574905
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 9,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:44:01.953270+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:44:01.953270+00:00",
+      "finished_at": "2026-11-03T12:45:56.484604+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

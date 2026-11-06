@@ -1,0 +1,39 @@
+**Yes.** It's Election Day, and California polls close at 8 p.m. local time.
+
+**What it does:** Raises the rainy-day fund's cap from 10% to 20% of General Fund tax revenue. It requires bigger savings in years when capital-gains tax revenue surges, keeps deposits out of the Gann spending limit until the money is withdrawn, and extends required extra debt payments through 2040. It doesn't raise taxes, and the withdrawal rules are essentially unchanged.
+
+**Why yes**
+- **The problem is documented.** The nonpartisan Legislative Analyst's Office (LAO) ranks California's tax system fifth most volatile of 50 states but its reserves 29th. It says that reserve ranking probably overstates the real rainy-day balance.
+- **The cap increase is the LAO's own first step.** Its April 2025 report recommends a 50% cap by 2055, starting at 20%. It estimates the current 10% cap covers about one-third of funding shortfalls over 50 years, and 20% covers about half.
+- **The timing fits.** The LAO has said the stock market may be overheated. The fund already fell from about $18.4 billion (2024-25) to $14.0 billion (2025-26). This measure makes the state save more in surge years, when spending pressure is highest.
+- **The Gann change is one the LAO called "reasonable,"** provided withdrawals count against the limit. This measure does that.
+
+**Best case for no**
+- **Withdrawals stay loose.** David Crane of Govern for California argues a bigger fund just gives governors more to draw on, and the state drew reserves in 2024-25 and 2025-26. The LAO says withdrawal authority is already "available near constantly" and recommends dropping the revenue-based "fiscal emergency" test, which this measure keeps. The Budget Center also notes the May Revision would itself count as the emergency proclamation.
+- **Rebates get harder.** Money parked in the fund doesn't count against the spending limit, so taxpayer rebates become less likely if revenue surges. Secondary reports of LAO figures put room under the limit near $27 billion for 2026-27, so the risk looks remote now. A March 2026 analysis argues the odds are rising.
+- **It doesn't fix structural gaps.** The LAO's November 2025 outlook projected structural deficits of about $35 billion a year. Its May 2026 comments, as reported, put 2027-28 nearer $14 billion. Reserves absorb shocks but don't close those gaps.
+
+**Why I still land on yes:** The strongest objections are about how withdrawals and the spending limit get used, and this measure doesn't change the withdrawal rules. A no vote keeps the 10% cap and the same withdrawal rules. It also doesn't produce the LAO's preferred withdrawal reforms.
+
+**What would flip it:** If you rank rebate protection and tight withdrawal limits above reserve size, vote no. That's a values call, not a factual one.
+
+**Not verified**
+- The SF Chronicle editorial wouldn't load. I inferred its endorsement from its headline and CalMatters' list of endorsements.
+- The opponents' claim that supporters voted to pause over $5 billion in deposits is unconfirmed.
+- The Gann room figures are from secondary reports, and the enacted-budget numbers come from a Senate Republican summary, so treat them as partisan.
+- "Proposition 2" also names the 2014 rainy-day law. Some references, including one in the LAO's 2025 report, may mean that older measure.
+
+Sources:
+- [Official voter guide: Prop 2](https://voterguide.sos.ca.gov/propositions/2/)
+- [Official arguments and rebuttals](https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm)
+- [LAO ballot analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=2&year=2026)
+- [LAO, "Rethinking California's Reserve Policy" (April 2025)](https://lao.ca.gov/Publications/Report/5028)
+- [LAO, "The 2026-27 Budget: California's Fiscal Outlook" (Nov. 2025)](https://lao.ca.gov/Publications/Report/5091)
+- [SJV Sun on LAO May 2026 comments](https://sjvsun.com/california/nonpartisan-analyst-warns-of-states-structural-budget-issues-after-may-revision/)
+- [California Budget & Policy Center brief](https://calbudgetcenter.org/resources/should-voters-approve-proposition-2-how-californias-rainy-day-fund-would-be-updated/)
+- [CalMatters explainer](https://calmatters.org/politics/2026/10/california-proposition-2-explained/)
+- [CalMatters voter guide](https://calmatters.org/california-voter-guide-2026/proposition-2-rainy-day-fund/)
+- [David Crane, SF Standard op-ed (Sept. 2026)](https://sfstandard.com/opinion/2026/09/14/newsom-rainy-day-fund-prop-2/)
+- [Jason Sisney, Gann limit analysis (Mar. 2026)](https://jasonsisney.substack.com/p/state-moving-closer-to-its-appropriation)
+- [Senate Republican summary of 2026-27 enacted budget](https://src.senate.ca.gov/content/2026-27-enacted-budget-initial-summary)
+- [SF Chronicle endorsement (headline only)](https://www.sfchronicle.com/opinion/editorials/article/prop-2-money-california-22468892.php)

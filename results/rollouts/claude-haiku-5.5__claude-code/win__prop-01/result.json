@@ -1,0 +1,447 @@
+{
+  "run_id": "haiku__native__win__p1__r1",
+  "model": "haiku",
+  "model_id": "anthropic/claude-haiku-5.5",
+  "pin": "anthropic",
+  "arm": "native",
+  "harness": "claude_code",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "1",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:54:44.588370+00:00",
+  "finished_at": "2026-11-03T12:48:54.232675+00:00",
+  "seconds": 3244.4,
+  "input_tokens": 127619,
+  "output_tokens": 32190,
+  "cached_tokens": 649083,
+  "cost_usd": 0.907,
+  "cost_source": "reported",
+  "billed_usd": 0.9234770650000002,
+  "searches": [
+    "California Proposition 1 2026 housing bond $11.25 billion",
+    "California Proposition 1 housing bond poll November 2026",
+    "California Proposition 1 results November 3 2026",
+    "PPIC statewide survey October 2026 housing bond Proposition 1 likely voters",
+    "PPIC survey September 2026 California voters propositions housing bond support",
+    "PPIC October 2026 poll Prop 1 housing bond 60% likely voters",
+    "Berkeley IGS poll 2026 California propositions housing bond voters support",
+    "Prop 1 housing bond California voters poll support oppose Emerson OR \"Public Policy Polling\" OR SurveyUSA 2026",
+    "PPIC blog infrequent voters October 2026 propositions housing bond",
+    "2024 California Proposition 1 behavioral health bond polls two-thirds support passed 50.2% polling miss",
+    "PPIC October 2024 Proposition 2 school bond Proposition 4 climate bond likely voters percent support results",
+    "Kalshi California Proposition 1 housing bond odds pass November 2026",
+    "Polymarket California Proposition 1 housing bond 2026 odds",
+    "PPIC infrequent voters October 2026 blog November ballot turnout California",
+    "Ballotpedia California Proposition 1 2026 housing affordability bonds polls",
+    "PPIC September 2026 survey housing bond Proposition 1 55% support all adults likely voters",
+    "Prop 1 housing bond California opposition campaign late October 2026 news",
+    "California Proposition 1 early returns election night housing bond leading",
+    "PPIC February 2026 statewide survey $10 billion housing bond likely voters 49% yes 50% no",
+    "\"divided on a $10 billion bond\" affordable housing PPIC likely voters February 2026",
+    "Newsom housing bond November 2026 ballot poll voters support $10 billion bond February survey PPIC divided",
+    "poll California November 2026 propositions Prop 37 Prop 38 Prop 1 voters support October survey"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 21,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/1/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-1-housing",
+    "https://www.ppic.org/pdf/ppic-statewide-survey-californians-and-their-government-october-2026.pdf",
+    "https://www.ppic.org/pdf/ppic-statewide-survey-californians-and-their-government-september-2026.pdf",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+    "https://defirate.com/odds/california-props/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-1-housing-bond/",
+    "https://www.ppic.org/press-release/likely-voters-send-mixed-signals-on-billionaire-wealth-tax-becerra-maintains-wide-lead-over-hilton/",
+    "https://www.ppic.org/blog/commentary-affordability-is-the-top-issue-on-californias-november-ballot/",
+    "https://prop1no.com/polling_analysis",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_1",
+    "https://kalshi.com/markets/kxcaballotmeasures/which-california-ballot-measures-will-pass/kxcaballotmeasures-26nov03",
+    "https://en.wikipedia.org/wiki/2024_California_Proposition_2",
+    "https://en.wikipedia.org/wiki/2018_California_Proposition_1",
+    "https://en.wikipedia.org/wiki/2024_California_Proposition_4",
+    "https://calmatters.org/politics/elections/2026/10/bond-measures-on-california-ballot/",
+    "https://www.ppic.org/wp-content/uploads/crosstabs-likely-voters-1026.pdf",
+    "https://kalshi.com/markets/kxcaballotmeasures/which-california-ballot-measures-will-pass/kxcaballotmeasures-26nov03",
+    "https://www.ppic.org/blog/who-are-californias-infrequent-voters-and-when-do-they-vote/",
+    "https://wrenews.com/california-proposition-1-housing-bond-11-25-billion-november-2026/",
+    "https://thelalocal.org/housing/theres-an-11-25-billion-housing-bond-on-the-ballot-this-november-heres-what-you-should-know/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-february-2026/survey-0226_topic-1_tab/",
+    "https://localnewsmatters.org/2026/10/31/on-san-rafael-visit-newsom-makes-his-final-pitch-for-11-25b-affordable-housing-bond/"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 13 connections were not readable by the proxy (api.anthropic.com:443)"
+  ],
+  "network": {
+    "requests": 175,
+    "requests_per_host": {
+      "api.anthropic.com": 90,
+      "openrouter.ai": 61,
+      "www.ppic.org": 9,
+      "en.wikipedia.org": 4,
+      "calmatters.org": 2,
+      "kalshi.com": 2,
+      "voterguide.sos.ca.gov": 1,
+      "igs.berkeley.edu": 1,
+      "defirate.com": 1,
+      "prop1no.com": 1,
+      "wrenews.com": 1,
+      "thelalocal.org": 1,
+      "localnewsmatters.org": 1
+    },
+    "hosts": [
+      "api.anthropic.com",
+      "calmatters.org",
+      "defirate.com",
+      "en.wikipedia.org",
+      "igs.berkeley.edu",
+      "kalshi.com",
+      "localnewsmatters.org",
+      "openrouter.ai",
+      "prop1no.com",
+      "thelalocal.org",
+      "voterguide.sos.ca.gov",
+      "wrenews.com",
+      "www.ppic.org"
+    ],
+    "status_counts": {
+      "200": 156,
+      "403": 6,
+      "404": 1,
+      "429": 2
+    },
+    "bytes_up": 6314341,
+    "bytes_down": 10229271,
+    "wire_bytes": {
+      "harness_to_proxy": 6594794,
+      "proxy_to_harness": 10588255,
+      "proxy_to_internet": 6447154,
+      "internet_to_proxy": 10677825
+    },
+    "byte_counter": true,
+    "errors": 30,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "server closed connection"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "server closed connection"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 12.8317,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 11.5169,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 15.2342,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.001,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0024,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0058,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0042,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0006,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.002,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0027,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0016,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0015,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0022,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 76,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:54:44.588370+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:54:44.588370+00:00",
+      "finished_at": "2026-11-03T12:48:54.232675+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

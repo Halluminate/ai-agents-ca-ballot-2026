@@ -1,0 +1,264 @@
+{
+  "run_id": "sonnet__native__better__p3__r1",
+  "model": "sonnet",
+  "model_id": "anthropic/claude-sonnet-5.5",
+  "pin": "anthropic",
+  "arm": "native",
+  "harness": "claude_code",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "3",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T12:15:42.797999+00:00",
+  "finished_at": "2026-11-03T12:28:12.841644+00:00",
+  "seconds": 747.6,
+  "input_tokens": 83278,
+  "output_tokens": 24761,
+  "cached_tokens": 188677,
+  "cost_usd": 1.1916,
+  "cost_source": "reported",
+  "billed_usd": 1.1915918000000003,
+  "searches": [
+    "California Proposition 3 2026 ballot measure",
+    "Prop 3 California income tax extension permanent Legislative Analyst's Office analysis 2026 fiscal effect",
+    "Ballotpedia California Proposition 3 2026 Children's Education and Health Care Protection Act permanent income tax rates",
+    "Prop 3 California 2026 editorial endorsement vote yes OR no income tax high earners permanent",
+    "PPIC survey September 2026 Proposition 3 likely voters support income tax extension",
+    "California high earners leaving state Prop 30 Prop 55 evidence millionaire migration study income tax",
+    "\"Proposition 3\" California 2026 \"Education Protection Account\" audit independent annual school districts report health care $2 billion children measure text",
+    "San Diego Union-Tribune editorial Proposition 3 vote no permanent income tax 2026",
+    "Orange County Register Proposition 3 permanent income tax no endorsement 2026 California Taxpayers Association Howard Jarvis"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 9,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/3/",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=3&year=2026",
+    "https://calmatters.org/politics/elections/2026/10/prop-3-california/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-3",
+    "https://voterguide.sos.ca.gov/propositions/3/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+    "https://lao.ca.gov/ballot/2026/prop3-110326.pdf",
+    "https://edsource.org/2026/commentary-vote-no-proposition-3/769223",
+    "https://calbudgetcenter.org/resources/should-voters-approve-prop-3-how-top-tax-rates-have-helped-californians/",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-3-income-tax",
+    "https://www.policyengine.org/us/ballot-measures-2026/ca-prop-3",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-3-high-earner-income-tax-extension",
+    "https://calmatters.org/california-voter-guide-2026/proposition-3-high-income-tax/",
+    "https://calmatters.org/politics/2026/10/tax-propositions-ballot-measures/",
+    "https://voterguide.sos.ca.gov/propositions/3/text-of-proposed-laws.htm",
+    "https://kabateckstrategies.com/california-proposition-3-2026-should-high-income-tax-rates-become-permanent/",
+    "https://quickguidetoprops.sos.ca.gov/propositions/2026-11-03/3",
+    "https://legisus.org/california-propositions/2026-11-03-prop-3",
+    "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-3/",
+    "https://www.yahoo.com/news/politics/articles/california-prop-3-tax-top-204145695.html",
+    "https://www.hjta.org/california-commentary/proposition-3-is-a-warning-against-proposition-40/",
+    "https://spectrumlocalnews.com/ca/california/politics/2026/10/14/proposition-3-income-tax-california",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026"
+  ],
+  "tool_errors": 1,
+  "warnings": [
+    "capture: 7 connections were not readable by the proxy (api.anthropic.com:443)"
+  ],
+  "network": {
+    "requests": 107,
+    "requests_per_host": {
+      "api.anthropic.com": 44,
+      "openrouter.ai": 41,
+      "voterguide.sos.ca.gov": 4,
+      "calmatters.org": 3,
+      "igs.berkeley.edu": 2,
+      "lao.ca.gov": 1,
+      "edsource.org": 1,
+      "calbudgetcenter.org": 1,
+      "laist.com": 1,
+      "www.policyengine.org": 1,
+      "www.spur.org": 1,
+      "kabateckstrategies.com": 1,
+      "quickguidetoprops.sos.ca.gov": 1,
+      "legisus.org": 1,
+      "growsf.org": 1,
+      "www.yahoo.com": 1,
+      "www.hjta.org": 1,
+      "spectrumlocalnews.com": 1
+    },
+    "hosts": [
+      "api.anthropic.com",
+      "calbudgetcenter.org",
+      "calmatters.org",
+      "edsource.org",
+      "growsf.org",
+      "igs.berkeley.edu",
+      "kabateckstrategies.com",
+      "laist.com",
+      "lao.ca.gov",
+      "legisus.org",
+      "openrouter.ai",
+      "quickguidetoprops.sos.ca.gov",
+      "spectrumlocalnews.com",
+      "voterguide.sos.ca.gov",
+      "www.hjta.org",
+      "www.policyengine.org",
+      "www.spur.org",
+      "www.yahoo.com"
+    ],
+    "status_counts": {
+      "200": 104,
+      "403": 2
+    },
+    "bytes_up": 3030285,
+    "bytes_down": 2500736,
+    "wire_bytes": {
+      "harness_to_proxy": 3124991,
+      "proxy_to_harness": 2801638,
+      "proxy_to_internet": 3124307,
+      "internet_to_proxy": 2888967
+    },
+    "byte_counter": true,
+    "errors": 9,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0049,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0078,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0017,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0424,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0031,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0025,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0241,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 56,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:15:42.797999+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:15:42.797999+00:00",
+      "finished_at": "2026-11-03T12:28:12.841644+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

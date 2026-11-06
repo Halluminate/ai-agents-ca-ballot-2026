@@ -1,0 +1,101 @@
+{
+  "run_id": "grok__common__better__p41__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "41",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:25:48.425933+00:00",
+  "seconds": 81.1,
+  "input_tokens": 56234,
+  "output_tokens": 3923,
+  "cached_tokens": 86144,
+  "cost_usd": 0.2045,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 41 2026 analysis spending limit audits special taxes",
+    "California Proposition 40 2026 billionaire tax voter guide",
+    "Proposition 41 California 2026 Gann limit nullifies billionaire tax analysis",
+    "California Prop 41 2026 LA Times CalMatters SPUR recommendation Gann limit collateral damage",
+    "California Proposition 41 2026 endorsement vote no editorial board"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/41/",
+    "https://voterguide.sos.ca.gov/propositions/41/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/41/title-summary.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+    "https://eml.berkeley.edu/~saez/GGS26props41-42.pdf",
+    "https://www.sfchronicle.com/opinion/editorials/article/endorsement-california-prop-41-taxes-22445889.php",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-41-audits-special-taxes",
+    "https://lao.ca.gov/Publications/Report/4416",
+    "https://www.eastbaytimes.com/2026/10/21/endorsement-reject-california-ballot-propositions-40-41-42-billionaires-tax-ai-inequality/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 12,
+    "requests_per_host": {
+      "openrouter.ai": 11,
+      "www.eastbaytimes.com": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.eastbaytimes.com"
+    ],
+    "status_counts": {
+      "200": 12
+    },
+    "bytes_up": 634387,
+    "bytes_down": 276034,
+    "wire_bytes": {
+      "harness_to_proxy": 658413,
+      "proxy_to_harness": 317590,
+      "proxy_to_internet": 655100,
+      "internet_to_proxy": 343200
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 12,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

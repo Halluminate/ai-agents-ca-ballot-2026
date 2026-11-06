@@ -1,0 +1,150 @@
+{
+  "requests": 138,
+  "requests_per_host": {
+    "api.anthropic.com": 64,
+    "openrouter.ai": 54,
+    "voterguide.sos.ca.gov": 3,
+    "calmatters.org": 3,
+    "laist.com": 2,
+    "dailybruin.com": 2,
+    "lao.ca.gov": 1,
+    "quickguidetoprops.sos.ca.gov": 1,
+    "californiatoday.com": 1,
+    "www.kqed.org": 1,
+    "gvwire.com": 1,
+    "cayimby.org": 1,
+    "www.spur.org": 1,
+    "calbudgetcenter.org": 1,
+    "californiaglobe.com": 1,
+    "www.hoover.org": 1
+  },
+  "hosts": [
+    "api.anthropic.com",
+    "calbudgetcenter.org",
+    "californiaglobe.com",
+    "californiatoday.com",
+    "calmatters.org",
+    "cayimby.org",
+    "dailybruin.com",
+    "gvwire.com",
+    "laist.com",
+    "lao.ca.gov",
+    "openrouter.ai",
+    "quickguidetoprops.sos.ca.gov",
+    "voterguide.sos.ca.gov",
+    "www.hoover.org",
+    "www.kqed.org",
+    "www.spur.org"
+  ],
+  "status_counts": {
+    "200": 128,
+    "308": 1
+  },
+  "bytes_up": 4510219,
+  "bytes_down": 3272471,
+  "wire_bytes": {
+    "harness_to_proxy": 4634519,
+    "proxy_to_harness": 3672941,
+    "proxy_to_internet": 4618897,
+    "internet_to_proxy": 3751700
+  },
+  "byte_counter": true,
+  "errors": 10,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/web/domain_info?domain=lao.ca.gov",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/messages?beta=true",
+      "error": "server closed connection"
+    },
+    {
+      "kind": "tls_failed_server",
+      "host": "api.anthropic.com",
+      "sni": "api.anthropic.com",
+      "error": "connection closed"
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "connection closed"
+    },
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [
+    {
+      "host": "api.anthropic.com",
+      "port": 443,
+      "sni": null,
+      "bytes_up": 101,
+      "bytes_down": 39,
+      "duration": 10.2551,
+      "reason": "no request was read on this connection"
+    },
+    {
+      "host": "www.sfchronicle.com",
+      "port": 443,
+      "sni": "www.sfchronicle.com",
+      "bytes_up": 1584,
+      "bytes_down": 39,
+      "duration": 668.0206,
+      "reason": "no request was read on this connection"
+    }
+  ],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 56,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

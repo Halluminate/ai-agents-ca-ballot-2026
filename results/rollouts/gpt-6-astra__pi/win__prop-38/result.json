@@ -1,0 +1,125 @@
+{
+  "run_id": "gpt__common__win__p38__r1",
+  "model": "gpt",
+  "model_id": "openai/gpt-6-astra",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "38",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:22:56.298976+00:00",
+  "seconds": 71.7,
+  "input_tokens": 116716,
+  "output_tokens": 2223,
+  "cached_tokens": 218289,
+  "cost_usd": 1.8384,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 38 2026 immunology research bond polling",
+    "California 8.4 billion immunology immunotherapy bond 2026 initiative poll",
+    "California Proposition 38 immunology research 2026 Ballotpedia",
+    "California Proposition 38 2026 CalMatters opposition poll election medical research bonds",
+    "site.ppic.org \"October 2026\" \"Proposition 38\"",
+    "\"Proposition 38\" \"2026\" \"poll\" Berkeley SurveyUSA November",
+    "California Proposition 14 2020 stem cell bonds October PPIC poll 51 36 results 51.1",
+    "\"Proposition 38\" \"2026\" \"poll\" \"November 2\"",
+    "California Proposition 71 2004 passed 59 percent medical research bond",
+    "California Proposition 14 2020 final poll 46 39 51 stem cell research"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/38/",
+    "https://voterguide.sos.ca.gov/propositions/38/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm",
+    "https://yeson38.com/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-38-authorizes-bonds-immunology-research-initiative-statut",
+    "https://onpointpolitics.us/forecast/measures/ca/proposition-38",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+    "https://calmatters.org/politics/elections/2026/10/prop-38-california/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-38-research-bond",
+    "https://www.sfchronicle.com/opinion/emilyhoeven/article/prop-38-california-newsom-22495203.php",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://votenoonprop38.org/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-38",
+    "https://news.ballotpedia.org/2026/11/02/state-democratic-and-republican-parties-took-opposing-positions-on-70-ballot-measures-and-agreed-on-six-in-2026-2/"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "warning: reasoning was not replayed on an assistant turn"
+  ],
+  "network": {
+    "requests": 22,
+    "requests_per_host": {
+      "openrouter.ai": 17,
+      "calmatters.org": 2,
+      "onpointpolitics.us": 1,
+      "www.sfchronicle.com": 1,
+      "news.ballotpedia.org": 1
+    },
+    "hosts": [
+      "calmatters.org",
+      "news.ballotpedia.org",
+      "onpointpolitics.us",
+      "openrouter.ai",
+      "www.sfchronicle.com"
+    ],
+    "status_counts": {
+      "200": 21,
+      "301": 1
+    },
+    "bytes_up": 1480810,
+    "bytes_down": 535195,
+    "wire_bytes": {
+      "harness_to_proxy": 1526713,
+      "proxy_to_harness": 603189,
+      "proxy_to_internet": 1520352,
+      "internet_to_proxy": 660960
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 22,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

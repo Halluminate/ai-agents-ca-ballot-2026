@@ -1,0 +1,93 @@
+{
+  "run_id": "kimi__common__win__p42__r1",
+  "model": "kimi",
+  "model_id": "moonshotai/kimi-k3",
+  "pin": "moonshotai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "42",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "last_line",
+  "error": "",
+  "started_at": "2026-11-03T12:41:39.527287+00:00",
+  "finished_at": "2026-11-03T12:45:35.047604+00:00",
+  "seconds": 232.8,
+  "input_tokens": 35550,
+  "output_tokens": 7823,
+  "cached_tokens": 67328,
+  "cost_usd": 0.2796,
+  "cost_source": "reported",
+  "billed_usd": 0.29977038,
+  "searches": [
+    "California Proposition 42 voterguide.sos.ca.gov",
+    "\"Proposition 42\" California 2026 \"personal property taxes\" poll yes no",
+    "California Proposition 42 2026 billionaire tax polling",
+    "Polymarket California Proposition 42 odds",
+    "\"Proposition 42\" California November 2026 latest news undecided voters breaking",
+    "\"Prop 42\" California final poll November 2026 likely voters yes no",
+    "California Proposition 42 election day November 3 2026 expected result",
+    "Kalshi \"Prop 42\" California property taxes pass price November 3"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/42/",
+    "https://defirate.com/odds/california-props/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 13,
+    "requests_per_host": {
+      "openrouter.ai": 13
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 13
+    },
+    "bytes_up": 433449,
+    "bytes_down": 1258302,
+    "wire_bytes": {
+      "harness_to_proxy": 459379,
+      "proxy_to_harness": 1346758,
+      "proxy_to_internet": 455721,
+      "internet_to_proxy": 1374959
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 13,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:41:39.527287+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:41:39.527287+00:00",
+      "finished_at": "2026-11-03T12:45:35.047604+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

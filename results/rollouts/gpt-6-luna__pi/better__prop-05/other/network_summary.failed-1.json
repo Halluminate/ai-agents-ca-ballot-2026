@@ -1,0 +1,72 @@
+{
+  "requests": 146,
+  "requests_per_host": {
+    "openrouter.ai": 133,
+    "www.sos.ca.gov": 2,
+    "calmatters.org": 1,
+    "selc.senate.ca.gov": 1,
+    "lhc.ca.gov": 1,
+    "law.bepress.com": 1,
+    "calmatters.digitaldemocracy.org": 1,
+    "elections.cdn.sos.ca.gov": 1,
+    "www.universityofcalifornia.edu": 1,
+    "yankelovichcenter.ucsd.edu": 1,
+    "elsevier.com": 1,
+    "journals.openedition.org": 1,
+    "www.elsevier.com": 1
+  },
+  "hosts": [
+    "calmatters.digitaldemocracy.org",
+    "calmatters.org",
+    "elections.cdn.sos.ca.gov",
+    "elsevier.com",
+    "journals.openedition.org",
+    "law.bepress.com",
+    "lhc.ca.gov",
+    "openrouter.ai",
+    "selc.senate.ca.gov",
+    "www.elsevier.com",
+    "www.sos.ca.gov",
+    "www.universityofcalifornia.edu",
+    "yankelovichcenter.ucsd.edu"
+  ],
+  "status_counts": {
+    "200": 143,
+    "301": 2,
+    "403": 1
+  },
+  "bytes_up": 9421243,
+  "bytes_down": 7041933,
+  "wire_bytes": {
+    "harness_to_proxy": 9746063,
+    "proxy_to_harness": 7622785,
+    "proxy_to_internet": 9695546,
+    "internet_to_proxy": 8011012
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 147,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

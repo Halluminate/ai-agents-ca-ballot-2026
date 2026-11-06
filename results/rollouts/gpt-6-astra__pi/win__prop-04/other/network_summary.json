@@ -1,0 +1,67 @@
+{
+  "requests": 30,
+  "requests_per_host": {
+    "openrouter.ai": 18,
+    "escholarship.org": 3,
+    "onpointpolitics.us": 2,
+    "quickguidetoprops.sos.ca.gov": 1,
+    "ballotpedia.org": 1,
+    "www.sos.ca.gov": 1,
+    "www.caltax.org": 1,
+    "caltax.org": 1,
+    "www.cafairelections.org": 1,
+    "nypost.com": 1
+  },
+  "hosts": [
+    "ballotpedia.org",
+    "caltax.org",
+    "escholarship.org",
+    "nypost.com",
+    "onpointpolitics.us",
+    "openrouter.ai",
+    "quickguidetoprops.sos.ca.gov",
+    "www.cafairelections.org",
+    "www.caltax.org",
+    "www.sos.ca.gov"
+  ],
+  "status_counts": {
+    "200": 25,
+    "202": 1,
+    "301": 1,
+    "403": 3
+  },
+  "bytes_up": 2004242,
+  "bytes_down": 621302,
+  "wire_bytes": {
+    "harness_to_proxy": 2065312,
+    "proxy_to_harness": 716751,
+    "proxy_to_internet": 2058207,
+    "internet_to_proxy": 785128
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 30,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

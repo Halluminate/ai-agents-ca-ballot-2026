@@ -1,0 +1,149 @@
+{
+  "run_id": "grok__native__win__p37__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "native",
+  "harness": "grok_build",
+  "effort": "xhigh",
+  "prompt": "win",
+  "prop": "37",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:54:55.310118+00:00",
+  "finished_at": "2026-11-03T12:59:46.606549+00:00",
+  "seconds": 288.9,
+  "input_tokens": 81168,
+  "output_tokens": 5210,
+  "cached_tokens": 54656,
+  "cost_usd": 0.2209,
+  "cost_source": "estimated",
+  "billed_usd": 1.631954,
+  "searches": [
+    "California Proposition 37 2026 poll results homebuyer loan program",
+    "California Prop 37 2026 election odds yes no likely to pass",
+    "\"Proposition 37\" California 2026 poll OR polling OR survey housing",
+    "California Proposition 37 election results November 3 2026",
+    "California Prop 37 2026 results yes percentage site:sos.ca.gov OR site:ballotpedia.org",
+    "California Proposition 37 2026 campaign finance spending supporters opponents",
+    "Kalshi Polymarket California Proposition 37 odds November 2026",
+    "California Prop 37 2026 editorial board endorsements opposition Newsom",
+    "California Proposition 37 unofficial results November 3 2026 yes votes",
+    "\"Proposition 37\" California early vote OR \"vote by mail\" returns 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 0,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/37/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://onpointpolitics.us/forecast/measures/ca/proposition-37",
+    "https://ballotpedia.org/California_Proposition_37,_Second_Mortgage_Homebuyer_Program_and_Revenue_Bond_Initiative_(2026",
+    "https://electionresults.sos.ca.gov/returns/ballot-measures",
+    "https://defirate.com/odds/california-props/"
+  ],
+  "tool_errors": 1,
+  "warnings": [
+    "capture: 17 connection attempts that ignored the proxy were blocked (grok-1.0.70 network-outbound x17)",
+    "capture: 2 connections were not readable by the proxy (openrouter.ai:443)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 27,
+    "requests_per_host": {
+      "openrouter.ai": 21,
+      "voterguide.sos.ca.gov": 1,
+      "www.ppic.org": 1,
+      "onpointpolitics.us": 1,
+      "ballotpedia.org": 1,
+      "electionresults.sos.ca.gov": 1,
+      "defirate.com": 1
+    },
+    "hosts": [
+      "ballotpedia.org",
+      "defirate.com",
+      "electionresults.sos.ca.gov",
+      "onpointpolitics.us",
+      "openrouter.ai",
+      "voterguide.sos.ca.gov",
+      "www.ppic.org"
+    ],
+    "status_counts": {
+      "200": 25,
+      "404": 1
+    },
+    "bytes_up": 557804,
+    "bytes_down": 1637096,
+    "wire_bytes": {
+      "harness_to_proxy": 577024,
+      "proxy_to_harness": 1721935,
+      "proxy_to_internet": 575242,
+      "internet_to_proxy": 1743183
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1334,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1316,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 17
+      }
+    ],
+    "blocked_attempts": 17,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 13,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:54:55.310118+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:54:55.310118+00:00",
+      "finished_at": "2026-11-03T12:59:46.606549+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

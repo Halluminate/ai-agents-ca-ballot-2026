@@ -1,0 +1,56 @@
+{
+  "requests": 72,
+  "requests_per_host": {
+    "openrouter.ai": 33,
+    "api.anthropic.com": 28,
+    "www.ppic.org": 3,
+    "igs.berkeley.edu": 2,
+    "calmatters.org": 2,
+    "voterguide.sos.ca.gov": 1,
+    "defirate.com": 1,
+    "cityhallpass.com": 1,
+    "californiatoday.com": 1
+  },
+  "hosts": [
+    "api.anthropic.com",
+    "californiatoday.com",
+    "calmatters.org",
+    "cityhallpass.com",
+    "defirate.com",
+    "igs.berkeley.edu",
+    "openrouter.ai",
+    "voterguide.sos.ca.gov",
+    "www.ppic.org"
+  ],
+  "status_counts": {
+    "200": 71,
+    "403": 1
+  },
+  "bytes_up": 2558119,
+  "bytes_down": 3566611,
+  "wire_bytes": {
+    "harness_to_proxy": 2605030,
+    "proxy_to_harness": 3740234,
+    "proxy_to_internet": 2605572,
+    "internet_to_proxy": 3780792
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 23,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

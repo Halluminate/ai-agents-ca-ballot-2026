@@ -1,0 +1,104 @@
+{
+  "run_id": "kimi__common__vote__p45__r1",
+  "model": "kimi",
+  "model_id": "moonshotai/kimi-k3",
+  "pin": "moonshotai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "45",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "first_line",
+  "error": "",
+  "started_at": "2026-11-03T12:40:52.562638+00:00",
+  "finished_at": "2026-11-03T12:45:27.352801+00:00",
+  "seconds": 272.0,
+  "input_tokens": 68307,
+  "output_tokens": 9064,
+  "cached_tokens": 305920,
+  "cost_usd": 0.4631,
+  "cost_source": "reported",
+  "billed_usd": 0.46314737399999995,
+  "searches": [
+    "California Proposition 45 voterguide.sos.ca.gov",
+    "California Proposition 45 November 2026 CEQA reform initiative news",
+    "LA Times endorsement Proposition 45 CEQA 2026",
+    "\"Proposition 45\" endorsement editorial board Mercury News Sacramento Bee San Diego Union-Tribune CEQA",
+    "Proposition 45 CEQA poll October 2026 PPIC Berkeley IGS",
+    "Proposition 45 California State Building Trades unions position support oppose",
+    "latimes.com editorial endorsement \"Proposition 45\" 2026 OR \"no on Prop 45\" OR \"yes on Prop 45\""
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/45/",
+    "https://voterguide.sos.ca.gov/propositions/45/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/45/arguments-rebuttals.htm",
+    "https://calmatters.org/environment/2026/10/prop-45-california-ceqa-explained/",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-45-ceqa-california-22468905.php",
+    "https://www.nytimes.com/2026/10/15/business/economy/californias-housing-proposition-45.html/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf"
+  ],
+  "tool_errors": 1,
+  "warnings": [],
+  "network": {
+    "requests": 17,
+    "requests_per_host": {
+      "openrouter.ai": 16,
+      "www.nytimes.com": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.nytimes.com"
+    ],
+    "status_counts": {
+      "200": 16,
+      "403": 1
+    },
+    "bytes_up": 1726635,
+    "bytes_down": 1433884,
+    "wire_bytes": {
+      "harness_to_proxy": 1762774,
+      "proxy_to_harness": 1545859,
+      "proxy_to_internet": 1757757,
+      "internet_to_proxy": 1584362
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 17,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:40:52.562638+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:40:52.562638+00:00",
+      "finished_at": "2026-11-03T12:45:27.352801+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

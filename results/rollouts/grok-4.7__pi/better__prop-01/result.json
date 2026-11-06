@@ -1,0 +1,106 @@
+{
+  "run_id": "grok__common__better__p1__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "1",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T04:31:44.423321+00:00",
+  "seconds": 131.2,
+  "input_tokens": 76977,
+  "output_tokens": 5341,
+  "cached_tokens": 164224,
+  "cost_usd": 0.3139,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 1 2024 voter guide arguments for and against",
+    "California Proposition 1 November 2026 housing affordability bonds $11.25 billion analysis",
+    "California Proposition 1 2026 housing bond criticism opposition Howard Jarvis debt",
+    "California affordable housing bond Prop 1 2026 editorial endorsements yes or no",
+    "SB 417 California housing bond 2026 criticisms effectiveness past housing bonds",
+    "California November 2026 ballot propositions bonds total debt service LAO overview",
+    "California affordable housing cost per unit 2025 2026 stalled pipeline 40000 units gap financing",
+    "California YIMBY Proposition 1 2026 endorsement housing bond",
+    "RAND 2025 California subsidized housing costs 1.5 times market rate study"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/1/",
+    "https://voterguide.sos.ca.gov/propositions/1/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/1/title-summary.htm",
+    "https://voterguide.sos.ca.gov/propositions/1/arguments-rebuttals.htm",
+    "https://www.almanacnews.com/calmatters/2026/10/16/theres-a-11-25-billion-housing-bond-on-the-ballot-this-november-heres-what-you-should-know/",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop1-california-housing-vote-22442444.php",
+    "https://calmatters.org/housing/homelessness/2026/10/prop-1-housing-bond/",
+    "https://www.eastbaytimes.com/2026/10/26/endorsement-proposition-1-37-affordable-housing-crisis-november-3-general-election/",
+    "https://lao.ca.gov/ballot/2026/Overview-of-State-Bond-Debt_110326.pdf",
+    "https://calbudgetcenter.org/resources/proposition-1-californias-veterans-and-affordable-housing-bond/",
+    "https://cayimby.org/blog/proposition-1-2026/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 17,
+    "requests_per_host": {
+      "openrouter.ai": 16,
+      "www.almanacnews.com": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.almanacnews.com"
+    ],
+    "status_counts": {
+      "200": 17
+    },
+    "bytes_up": 1068573,
+    "bytes_down": 421496,
+    "wire_bytes": {
+      "harness_to_proxy": 1103889,
+      "proxy_to_harness": 484148,
+      "proxy_to_internet": 1098864,
+      "internet_to_proxy": 524058
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 17,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

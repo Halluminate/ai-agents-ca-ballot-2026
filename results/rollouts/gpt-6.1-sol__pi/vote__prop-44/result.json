@@ -1,0 +1,124 @@
+{
+  "run_id": "sol__common__vote__p44__r1",
+  "model": "sol",
+  "model_id": "openai/gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "44",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:34:40.423197+00:00",
+  "finished_at": "2026-11-03T11:36:19.742395+00:00",
+  "seconds": 96.6,
+  "input_tokens": 86147,
+  "output_tokens": 2392,
+  "cached_tokens": 168923,
+  "cost_usd": 0.3017,
+  "cost_source": "reported",
+  "billed_usd": 0.30172097224,
+  "searches": [
+    "California 2026 community health clinics 90 percent revenue program services initiative SEIU analysis",
+    "\"clinic\" \"90%\" \"SEIU\" \"2026\" CalMatters KFF",
+    "site.lao.ca.gov \"25-0008\"",
+    "\"Proposition 44\" \"90\" \"support\" study clinic 2026",
+    "AB 1113 2025 community health clinics 90 percent program expenses analysis appropriations",
+    "HRSA health center financial management operating reserves reasonable administrative costs governing board patients 51 percent",
+    "community health centers California administrative costs 90% revenue mission spend ratio independent economist 2026",
+    "site.projects.propublica.org/nonprofits \"Altamed Health Services Corporation\" \"2024\" \"Revenue\"",
+    "nonprofit overhead ratio program spending 90 percent benchmark overhead myth charity effectiveness"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/44/",
+    "https://voterguide.sos.ca.gov/propositions/44/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf",
+    "https://yesonprop44.com/",
+    "https://noprop44.com/",
+    "https://www.kpbs.org/news/politics/2026/09/23/proposition-44-require-more-clinic-spending-on-patient-care",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-44-health-care-spending",
+    "https://calmatters.org/health/2026/10/union-billionaire-prop-44-clinic/",
+    "https://noprop44.com/wp-content/uploads/2025/11/BRG-Report-on-Clinic-Funding-Accountability-Transparency-Act-2025_1117.pdf",
+    "https://yesonprop44.com/wp-content/uploads/2026/09/Fact-Sheet-2026-Prop-44-Clinic-Funding-Act.pdf",
+    "https://kffhealthnews.org/medicaid/seiu-uhw-union-healthcare-industry-california-ballot-initiatives-clinic-executive-pay/",
+    "https://lao.ca.gov/BallotAnalysis/Initiative/2025-008",
+    "https://noprop44.com/wp-content/uploads/2025/11/BRG-Report-on-Clinic-Funding-Accountability-Transparency-Act-2025_1117.pdf",
+    "https://www.nixonpeabody.com/insights/alerts/2026/10/29/californias-proposition-44-potential-big-impacts-for-community-health-centers",
+    "https://leginfo.legislature.ca.gov/faces/billAnalysisClient.xhtml?bill_id=202520260AB1113",
+    "https://bphc.hrsa.gov/compliance/compliance-manual/chapter20",
+    "https://bphc.hrsa.gov/compliance/site-visits/site-visit-protocol/financial-management-accounting-systems"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "warning: reasoning was not replayed on an assistant turn"
+  ],
+  "network": {
+    "requests": 19,
+    "requests_per_host": {
+      "openrouter.ai": 16,
+      "bphc.hrsa.gov": 2,
+      "kffhealthnews.org": 1
+    },
+    "hosts": [
+      "bphc.hrsa.gov",
+      "kffhealthnews.org",
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 19
+    },
+    "bytes_up": 1201119,
+    "bytes_down": 568447,
+    "wire_bytes": {
+      "harness_to_proxy": 1240098,
+      "proxy_to_harness": 638124,
+      "proxy_to_internet": 1235052,
+      "internet_to_proxy": 678624
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 19,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:34:40.423197+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:34:40.423197+00:00",
+      "finished_at": "2026-11-03T11:36:19.742395+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

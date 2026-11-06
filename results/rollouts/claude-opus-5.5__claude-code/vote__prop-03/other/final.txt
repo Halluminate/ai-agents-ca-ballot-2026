@@ -1,0 +1,57 @@
+I'm not going to pick Yes or No for you. The facts on Prop 3 are fairly clear, and neither side's argument is purely wrong on them. What's left is a values question about taxing high earners and how big the state budget should be, and informed voters split on that. The rule below should get you to one word quickly. If you tell me which side of it you're on, I'll tell you which vote matches.
+
+## What your vote actually changes
+
+- **Nothing before 2031.** The current top rates of 10.3%, 11.3% and 12.3% (from Prop 30 in 2012, extended by Prop 55 in 2016) last through the 2030 tax year either way. Prop 3 removes the end date and keeps the existing rules for spending the money.
+- **Who pays:** only income above about **$371K for single filers or $743K for joint filers**, roughly the top 2%. If No wins, that income drops back to 9.3% in 2031. By my math, a single filer with $1M of taxable income pays about $14,400 a year more under Yes, and about $1,800 more at $500K. Below those lines, your own taxes don't change either way.
+- **Money at stake:** the Legislative Analyst's Office (LAO) puts it at $5–15B a year, rising and falling with the stock market. About 40% goes to schools and community colleges. The rest goes to the general budget and reserves.
+- **It's permanent:** once it's in the state constitution, only another statewide vote can change these rates.
+
+## Where each side stretches the facts
+
+**Yes side:**
+- **"Doesn't raise taxes":** current rates don't change. Compared with current law, though, which ends them, it is a tax increase from 2031 on.
+- **"Up to 50,000 teacher layoffs" and "an immediate 15% cut":** nothing happens until 2031. Schools get about 40% of the money ($2–6B a year), not all of it, so 50,000 is the high end.
+- **"Health care":** the measure keeps Prop 55's formula of up to $2B a year for Medi-Cal. That formula has never paid out, according to the progressive California Budget & Policy Center. Any health care benefit is indirect, through the general budget.
+- **"Audits and accountability":** these mostly carry over existing Prop 30 rules rather than adding new safeguards.
+
+**No side:**
+- **"Largest permanent income tax increase in history":** nobody's current rate goes up. It's only "largest" compared with the scheduled expiration.
+- **"Fix spending first":** the LAO does say spending growth is causing the projected deficits of about $35B a year starting in 2027-28. But those deficits already assume this tax is in place. Losing it would widen them unless spending is cut by the same amount.
+- **"The rich will leave":** the research is mixed.
+  - Rauh and Shyu found that Prop 30 pushed an extra 0.8% of top earners out of the state in 2013. Changes in behavior offset 45–61% of the expected new revenue within two years.
+  - Varner and Young found millionaire migration was small and that more millionaires moved into California than left. The number of $1M+ earners roughly doubled from 2009 to 2019.
+  - The $5–15B is what these rates actually collect now, so any past departures are already in that number.
+
+## Decision rule
+
+The real question is **whether these top rates should continue after 2030 with no end date.**
+
+**Vote YES** if you mostly believe:
+- Top earners should keep paying these rates indefinitely.
+- Locking in $5–15B a year, with deficits and federal Medicaid cuts coming, matters more than keeping future options open.
+- The risk of high earners leaving is modest.
+
+**Vote NO** if you mostly believe:
+- A tax sold twice as "temporary" should end, or at least keep coming back to voters.
+- Deficits should be closed mainly by cutting spending, not by locking in the nation's highest top rate (13.3% including the extra 1% on income over $1M).
+- Depending on volatile income from top earners, and the chance that high earners and small businesses leave, are real risks.
+
+A No vote doesn't end the tax soon. It runs through 2030, and supporters could ask voters for another time-limited renewal in 2028 or 2030, as they did in 2016. So if you support the tax but not making it permanent, that leans No. If you want the certainty now, that's Yes.
+
+## Background (not reasons on their own)
+
+- **For:** the California Teachers Association (which put up $58M+, about 87% of the Yes money), the state Democratic Party, the PTA and the California Medical Association. Newspaper editorial boards in favor: SF Chronicle, Sacramento Bee and Mercury News.
+- **Against:** the Howard Jarvis Taxpayers Association, the California Taxpayers Association and Reform California. Editorial boards against: San Diego Union-Tribune and OC Register. The No campaign raised almost nothing.
+- **Polling:** the Public Policy Institute of California's September and October polls both found 58% Yes and 40% No.
+
+I couldn't open the official legal text because the PDF wouldn't load. The description of the measure comes from the LAO and several independent guides that agree with each other. Election Day is tomorrow, Nov. 3.
+
+**Sources:**
+- [SOS voter guide](https://voterguide.sos.ca.gov/propositions/3/) · [Official arguments](https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm)
+- [LAO analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=3&year=2026) · [LAO initiative analysis](https://lao.ca.gov/BallotAnalysis/Initiative/2025-016) · [LAO 2026-27 Fiscal Outlook](https://lao.ca.gov/Publications/Report/5091) · [LAO on Prop 55 Medi-Cal formula](https://www.lao.ca.gov/Publications/Report/3765)
+- [CalMatters explainer](https://calmatters.org/politics/elections/2026/10/prop-3-california/) · [CalMatters voter guide](https://calmatters.org/california-voter-guide-2026/proposition-3-high-income-tax/) · [Op-ed against (CalTax)](https://calmatters.org/commentary/2026/08/proposition-3-temporary-tax-permanent/) · [Op-ed for](https://calmatters.org/commentary/2026/08/proposition-3-california-schools-funding/)
+- [SPUR](https://www.spur.org/voter-guide/2026-11/ca-prop-3-high-earner-income-tax-extension) · [GrowSF](https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-3/) · [Berkeley IGS](https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-3) · [LWV CaVotes](https://cavotes.org/ballot-measure/2026-prop-3/) · [Legisus](https://legisus.org/california-propositions/2026-11-03-prop-3) · [HJTA guide](https://www.hjta.org/2026votingguide/)
+- [Rauh & Shyu (AEJ: Policy)](https://www.aeaweb.org/articles?id=10.1257%2Fpol.20200500) · [Young & Varner](https://inequality.stanford.edu/sites/default/files/millionaire-migration-california-impact-top-tax-rates.pdf) · [CalMatters on millionaire migration](https://calmatters.org/economy/2023/01/wealth-tax-migration/)
+- [CA Budget & Policy Center](https://calbudgetcenter.org/resources/a-guide-to-the-california-state-budget-process/) · [2026-27 budget coverage](https://californiatoday.com/news/politics/californias-2026-27-budget-is-balanced-but-it-defers-the-deepest-medi-cal-cuts-until-newsom-leaves-office/)
+- [PPIC October survey](https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/) · [Poll and campaign money](https://www.yahoo.com/news/politics/articles/california-prop-3-tax-top-204145695.html) · [SF Chronicle endorsement](https://www.sfchronicle.com/opinion/editorials/article/california-taxes-proposition-3-22435509.php)

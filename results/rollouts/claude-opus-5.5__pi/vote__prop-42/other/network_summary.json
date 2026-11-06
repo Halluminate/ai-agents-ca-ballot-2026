@@ -1,0 +1,48 @@
+{
+  "requests": 42,
+  "requests_per_host": {
+    "openrouter.ai": 37,
+    "growca.org": 2,
+    "calbudgetcenter.org": 1,
+    "lao.ca.gov": 1,
+    "growsf.org": 1
+  },
+  "hosts": [
+    "calbudgetcenter.org",
+    "growca.org",
+    "growsf.org",
+    "lao.ca.gov",
+    "openrouter.ai"
+  ],
+  "status_counts": {
+    "200": 41,
+    "307": 1
+  },
+  "bytes_up": 11416402,
+  "bytes_down": 895310,
+  "wire_bytes": {
+    "harness_to_proxy": 11484695,
+    "proxy_to_harness": 1022485,
+    "proxy_to_internet": 11478521,
+    "internet_to_proxy": 1078393
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 26,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

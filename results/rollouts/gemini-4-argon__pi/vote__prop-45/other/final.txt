@@ -1,0 +1,46 @@
+Choosing how to vote on a ballot measure depends on how you weigh competing priorities—such as speeding up the construction of housing and infrastructure versus preserving the current scope of environmental reviews and public input—so I cannot give a simple "yes" or "no" recommendation. 
+
+Below is a breakdown of **California Proposition 45** (*Modifies Environmental Review for Certain Projects. Initiative Statute.* on the November 3, 2026 ballot) from the Official Voter Information Guide to help you make your decision.
+
+---
+
+### What Proposition 45 Does
+Proposition 45 amends the **California Environmental Quality Act (CEQA)** to create optional, expedited environmental review, permitting, and court challenge procedures for specified categories of projects that the measure defines as "essential":
+* **Eligible Projects:** Housing; water systems (excluding Delta conveyance facilities); clean energy (excluding nuclear power); health facilities, clinics, and medical office buildings; fire, police, and sheriff's stations; wildfire risk reduction; broadband internet access; education facilities; and transportation (excluding high-speed rail).
+* **Tighter Deadlines:** Sets stricter, enforceable time limits for state and local agencies to determine if an application is complete, finish an Environmental Impact Report (EIR) (365 business days), and grant permits, as well as deadlines for courts to resolve CEQA lawsuits.
+* **Modified CEQA Review Rules:**
+  * Requires agencies to specify all required application information upfront and assess impacts based on the laws and standards in place when the application is submitted.
+  * Allows the applicant to develop only one project alternative for the agency to consider (rather than the agency developing multiple alternatives).
+  * Limits the length of public comment periods (setting a maximum rather than only a minimum).
+  * Requires consultation only with federally recognized California Native American tribes (rather than the broader range of tribes consulted under current law).
+* **Modified Court Challenge Rules:** Reduces the scope of evidence courts may consider in CEQA lawsuits and prevents courts from halting an entire project if a CEQA violation is found (limiting court orders to stopping only the non-compliant portion while the agency fixes the issue).
+
+### Fiscal Impact (Legislative Analyst's Office Estimate)
+* **Near-Term Costs:** Increased costs for state and local governments (including courts) in the high tens of millions of dollars annually—potentially exceeding $100 million annually—for the first several years to implement the new guidelines and meet tighter deadlines, partly offset by applicant and court filing fees.
+* **Long-Term Effects:** Uncertain, potentially more significant positive or negative fiscal effects. Faster project completion and more development could lower public construction costs and increase tax revenues (such as property taxes), while approval of projects with unmitigated negative environmental impacts could increase government costs to address those impacts.
+
+---
+
+### Arguments for Voting YES
+A **YES** vote means eligible public and private projects can use the new, expedited environmental review and court challenge procedures.
+
+* **Speeds Up Essential Projects & Lowers Costs:** Supporters argue that CEQA delays, bureaucratic red tape, and lawsuits block or slow down critical housing, water, clean energy, healthcare, school, transportation, and wildfire prevention projects, driving up the cost of living, housing prices, and electricity bills.
+* **Protects Taxpayers from Cost Overruns:** Proponents state that lengthy permitting and litigation delays add billions of dollars in cost overruns to public infrastructure projects, and that enforceable timelines will keep public projects on time and on budget.
+* **Maintains Core Environmental Laws:** Supporters emphasize that the measure does not exempt any project from environmental review or repeal underlying federal, state, or local environmental standards (such as the Clean Air Act or Clean Water Act), and that local governments retain authority to approve or deny projects.
+* **Notable Supporters:** California Children's Hospital Association, California Water Association, California Council for Affordable Housing, American Clean Power—California, California Taxpayers Association, NAACP California/Hawaii State Conference, and California LULAC.
+
+---
+
+### Arguments for Voting NO
+A **NO** vote means public and private projects will continue to be reviewed and challenged under existing CEQA procedures.
+
+* **Weakens Environmental & Public Health Protections:** Opponents argue that Proposition 45 guts key CEQA safeguards—such as requiring agencies to evaluate multiple less-harmful project alternatives and apply updated scientific standards—which could allow polluting projects near homes and schools and harm air and water quality.
+* **Reduces Public Input & Accountability:** Critics contend that capping public comment periods, limiting tribal consultation, and restricting what courts can review or halt in a lawsuit weakens communities' ability to voice concerns and hold developers and agencies accountable.
+* **No Guarantee of Lower Consumer Costs:** Opponents point out that the initiative—backed by the California Chamber of Commerce, utilities, and corporate PACs—contains no requirement that developers or utilities pass their cost savings on to consumers through lower rents, mortgages, or utility bills, while taxpayers could bear the cost of cleaning up unanticipated environmental harm.
+* **Notable Opponents:** Coalition for Clean Air, California Environmental Voters, Clean Water Action, National Wildlife Federation, American Nurses Association (CA), California Nurses for Environmental Health and Justice, and Physicians for Social Responsibility (LA).
+
+---
+
+### Summary
+* Vote **YES** if you believe CEQA reviews and lawsuits have become overly slow and costly for housing and infrastructure, and you want stricter timelines and limits on CEQA reviews and litigation for eligible projects.
+* Vote **NO** if you believe existing CEQA review standards, public comment processes, and judicial remedies are vital safeguards for public health and the environment that should not be curtailed.

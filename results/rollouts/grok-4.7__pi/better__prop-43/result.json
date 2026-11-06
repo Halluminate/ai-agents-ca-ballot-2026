@@ -1,0 +1,94 @@
+{
+  "run_id": "grok__common__better__p43__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:24:04.181815+00:00",
+  "seconds": 148.8,
+  "input_tokens": 58805,
+  "output_tokens": 7890,
+  "cached_tokens": 89856,
+  "cost_usd": 0.2455,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 43 voter guide 2026",
+    "ACA 22 Howard Jarvis deal Proposition 43 Upland citizen special tax two-thirds",
+    "California Proposition 43 2026 editorial board recommendations yes or no",
+    "California citizen initiative special taxes passed majority but not two-thirds list Upland since 2017",
+    "Buffy Wicks opposes Proposition 43 ACA 22",
+    "CalMatters Proposition 43 tax threshold explainer recommendation",
+    "Los Angeles Times endorsement Proposition 43 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/",
+    "https://voterguide.sos.ca.gov/propositions/43/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=43&year=2026",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-43-local-special-tax",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43-text-proposed-laws.pdf",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_43",
+    "https://www.hoover.org/proposition-lab-proposition-43",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-43-local-tax-threshold"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 13,
+    "requests_per_host": {
+      "openrouter.ai": 13
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 13
+    },
+    "bytes_up": 679611,
+    "bytes_down": 522754,
+    "wire_bytes": {
+      "harness_to_proxy": 702018,
+      "proxy_to_harness": 579385,
+      "proxy_to_internet": 698927,
+      "internet_to_proxy": 603412
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 11,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

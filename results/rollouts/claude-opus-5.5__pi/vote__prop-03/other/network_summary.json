@@ -1,0 +1,55 @@
+{
+  "requests": 68,
+  "requests_per_host": {
+    "openrouter.ai": 57,
+    "www.latimes.com": 3,
+    "edsource.org": 2,
+    "fiscalrealitycheck.substack.com": 1,
+    "www.sandiegouniontribune.com": 1,
+    "www.sfchronicle.com": 1,
+    "trackprop55.sco.ca.gov": 1,
+    "data.ca.gov": 1,
+    "www.irs.gov": 1
+  },
+  "hosts": [
+    "data.ca.gov",
+    "edsource.org",
+    "fiscalrealitycheck.substack.com",
+    "openrouter.ai",
+    "trackprop55.sco.ca.gov",
+    "www.irs.gov",
+    "www.latimes.com",
+    "www.sandiegouniontribune.com",
+    "www.sfchronicle.com"
+  ],
+  "status_counts": {
+    "200": 68
+  },
+  "bytes_up": 17054507,
+  "bytes_down": 1537447,
+  "wire_bytes": {
+    "harness_to_proxy": 17174266,
+    "proxy_to_harness": 1762400,
+    "proxy_to_internet": 17164052,
+    "internet_to_proxy": 1859110
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 48,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

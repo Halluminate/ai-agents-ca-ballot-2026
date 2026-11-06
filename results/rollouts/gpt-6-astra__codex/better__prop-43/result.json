@@ -1,0 +1,111 @@
+{
+  "run_id": "gpt__native__better__p43__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:31:32.821917+00:00",
+  "finished_at": "2026-11-03T12:33:55.684147+00:00",
+  "seconds": 140.6,
+  "input_tokens": 36,
+  "output_tokens": 5882,
+  "cached_tokens": 541903,
+  "cost_usd": 2.198,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 43 2026 local special taxes two thirds analysis ...",
+    "site.calmatters.org 2026 \"Proposition 43\" ...",
+    "Proposition 43 California 2026 local taxes CalMatters analysis compromise ACA 22 ...",
+    "California voter initiative special taxes 2024 2025 passage rate two thirds CaliforniaCityFinance Upland ...",
+    "California Cannabis Coalition Upland Supreme Court 2017 special tax initiative two thirds opinion ...",
+    "\"Proposition 43\" \"900,000\" transfer taxes ...",
+    "California supermajority local tax voting requirements empirical effects public spending research ...",
+    "California Cannabis Coalition Upland S234148 opinion 2017 pdf ...",
+    "Measure H Sonoma County 2025 annual report revenues firefighters 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/",
+    "https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm",
+    "https://ballotpedia.org/California_Proposition_43,_Two-Thirds_Vote_Requirement_for_Local_Special_Tax_Initiatives_and_Property_Tax_Initiative_Prohibition_Amendment_(2026)",
+    "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260ACA22",
+    "https://www.treasurer.ca.gov/sites/default/files/2025-10/results-2024-local_0.pdf",
+    "https://californiacityfinance.com/Votes2411final.pdf"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 2 connection attempts that ignored the proxy were blocked (codex remote:*:59108 x2)"
+  ],
+  "network": {
+    "requests": 22,
+    "requests_per_host": {
+      "api.openai.com": 19,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 18,
+      "202": 3
+    },
+    "bytes_up": 1243957,
+    "bytes_down": 2682456,
+    "wire_bytes": {
+      "harness_to_proxy": 987613,
+      "proxy_to_harness": 1643850,
+      "proxy_to_internet": 985664,
+      "internet_to_proxy": 1682199
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "codex",
+        "operation": "network-outbound",
+        "target": "remote:*:59108",
+        "attempts": 2
+      }
+    ],
+    "blocked_attempts": 2,
+    "websocket_messages": 2360,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 21,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:31:32.821917+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:31:32.821917+00:00",
+      "finished_at": "2026-11-03T12:33:55.684147+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

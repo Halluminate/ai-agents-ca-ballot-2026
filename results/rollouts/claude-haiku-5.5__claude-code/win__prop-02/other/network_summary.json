@@ -1,0 +1,62 @@
+{
+  "requests": 115,
+  "requests_per_host": {
+    "api.anthropic.com": 57,
+    "openrouter.ai": 39,
+    "www.ppic.org": 5,
+    "www.cbsnews.com": 4,
+    "escholarship.org": 3,
+    "calmatters.org": 2,
+    "voterguide.sos.ca.gov": 1,
+    "en.wikipedia.org": 1,
+    "igs.berkeley.edu": 1,
+    "defirate.com": 1,
+    "californiatoday.com": 1
+  },
+  "hosts": [
+    "api.anthropic.com",
+    "californiatoday.com",
+    "calmatters.org",
+    "defirate.com",
+    "en.wikipedia.org",
+    "escholarship.org",
+    "igs.berkeley.edu",
+    "openrouter.ai",
+    "voterguide.sos.ca.gov",
+    "www.cbsnews.com",
+    "www.ppic.org"
+  ],
+  "status_counts": {
+    "200": 107,
+    "202": 1,
+    "301": 2,
+    "403": 5
+  },
+  "bytes_up": 3450801,
+  "bytes_down": 5403524,
+  "wire_bytes": {
+    "harness_to_proxy": 3525431,
+    "proxy_to_harness": 5618621,
+    "proxy_to_internet": 3526189,
+    "internet_to_proxy": 5686073
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 37,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

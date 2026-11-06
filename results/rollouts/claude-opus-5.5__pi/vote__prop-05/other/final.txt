@@ -1,0 +1,34 @@
+I'm not going to give you a one-word answer here. After going through the official guide, the Legislative Analyst's analysis, both campaigns, the editorial boards and two expert studies, I think this comes down to which principle you care about more. The measure also splits mostly along party lines, so I don't think I should pick for you. Here's how to get to your own yes or no quickly.
+
+**What Prop 5 does**
+Recall ballots would ask only "Should this official be removed?" They would no longer ask who replaces them. If an official is removed:
+- **Governor:** The lieutenant governor takes over. If the removal happens early in the term, a special election is held with the next statewide primary, and the winner needs a majority or goes to a runoff. Early means before candidate filing closes for that primary, which by my reading of the calendar is roughly the first 11 months. After that, the lieutenant governor serves out the term, which could be about 3 years.
+- **Other statewide offices:** The governor appoints a replacement, and the Legislature confirms.
+- **Legislators:** The seat stays empty for several months until a special election. The title says "statewide officers," but legislators are covered too.
+- **The person who was recalled could run in that special election.** Current law bans them.
+- It's a constitutional amendment, so only another statewide vote could change it.
+
+**The quick test**
+
+**Vote YES** if the bigger problem to you is that today's replacement race needs only the most votes, not a majority.
+- In 2018, Ling Ling Chang won Josh Newman's Senate seat with 33.8% of the replacement vote. That was fewer votes than were cast to keep him.
+- In 2021, Larry Elder would have become governor with about 28% of the people who voted.
+- Under Prop 5, seats get filled the way any other vacancy is: by the elected lieutenant governor, a confirmed appointee, or a special election that requires a majority.
+- Supporters include the Democratic Party, League of Women Voters, Common Cause, Secretary of State Weber, Gov. Newsom and the Sacramento Bee.
+
+**Vote NO** if the bigger problem to you is losing the voters' direct choice on the same ballot.
+- The replacement is often someone nobody elected to that job, or the seat sits empty for months.
+- The official you just removed can run again.
+- The current system doesn't always produce a minority winner. In 2003, Schwarzenegger got more votes than the side that wanted to keep Davis.
+- Opponents include the Republican Party, SF Chronicle, Mercury News, San Diego Union-Tribune and OC Register.
+
+**If you're still torn**
+- **Experts agreed on the problem but not on this fix.** After the 2021 recall, the Little Hoover Commission (the state's independent watchdog) and Berkeley Law's California Constitution Center, working with recall scholar Joshua Spivak, both said the most-votes-wins replacement is a real flaw.
+  - They recommended different fixes: either one election with the incumbent on the ballot against the challengers, or ranked-choice voting on the same day.
+  - Both warned that having the lieutenant governor take over can encourage tactical recalls, especially when the governor and lieutenant governor are from different parties.
+  - The Berkeley analysis also opposed letting the recalled official run again.
+- **The run-again clause cost Prop 5 the SF Chronicle's support.** The paper said it might back removing the second question on its own. The author, Josh Newman, told its editorial board he wasn't sure why the clause is there: "It wouldn't pain me if it wasn't there."
+- **Supporters' answer:** those alternatives aren't on the ballot, and ranked-choice voting would mean new voting systems in every county for a rare event. LA Times columnist Mark Barabak called Prop 5 "a step in the right direction."
+- **Cost doesn't settle it either way.** The Legislative Analyst says the net effect is unknown: savings or costs of millions, under 0.1% of the budget.
+
+**Tiebreaker:** Vote **YES** if you'd accept an imperfect fix to the plurality problem now. Vote **NO** if you'd rather keep the current system than lock this version into the constitution.

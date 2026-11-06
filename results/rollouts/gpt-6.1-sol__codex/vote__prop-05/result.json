@@ -1,0 +1,97 @@
+{
+  "run_id": "sol__native__vote__p5__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "5",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:02:43.959040+00:00",
+  "finished_at": "2026-11-03T11:05:34.189061+00:00",
+  "seconds": 168.0,
+  "input_tokens": 45,
+  "output_tokens": 5377,
+  "cached_tokens": 814179,
+  "cost_usd": 0.4979,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California 2026 Proposition 5 recall SCA 1 analysis constitutional amendment support opposition",
+    "California recall reform Little Hoover Commission 2022 report recommendations succession SCA 1 ...",
+    "site.sacbee.com 2026 Proposition 5 recall endorsement yes ...",
+    "'Succession by the Lieutenant'",
+    "Proposition 5 recall 2026 endorsement flaws recalled official run again majority succession ...",
+    "California Proposition 5 2026 recall incumbent run special election loophole ...",
+    "2021 California recall election final actual cost 200.2 million ...",
+    "'200'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/5/",
+    "https://fixtherecall.com"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 23,
+    "requests_per_host": {
+      "api.openai.com": 20,
+      "ab.chatgpt.com": 3
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 19,
+      "202": 3
+    },
+    "bytes_up": 1357144,
+    "bytes_down": 2824862,
+    "wire_bytes": {
+      "harness_to_proxy": 1036402,
+      "proxy_to_harness": 1682515,
+      "proxy_to_internet": 1034664,
+      "internet_to_proxy": 1722485
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1887,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 22,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:02:43.959040+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:02:43.959040+00:00",
+      "finished_at": "2026-11-03T11:05:34.189061+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

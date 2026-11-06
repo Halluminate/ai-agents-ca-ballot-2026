@@ -1,0 +1,34 @@
+I won't give a one-word pick on this one. It turns on a values question, whether public money should fund campaigns, and a bare yes or no from me would be a partisan recommendation on a measure voters are split on. Here's what the research shows so you can decide.
+
+**What a yes vote does:** It repeals the 1988 ban on public campaign funding. It creates no program itself. Each state or local government would have to adopt its own, with spending caps and eligibility rules. A no vote keeps the ban, including the existing charter-city exemption.
+
+**Case for yes**
+- Supporters say it reduces dependence on big donors and helps candidates without wealthy backers. It spends no taxpayer money by itself.
+- The LAO puts the state's direct cost at "a few hundred thousand dollars each year" for FPPC staff.
+- Backers include Gov. Newsom, the California Democratic Party, the Legislature, the League of Women Voters, and the Sacramento Bee.
+- In Seattle's voucher program, a 2022 study found candidate counts rose about 86%.
+
+**Case for no**
+- The measure is vague. It sets no funding source, no definition of "broad-based support," and no cap on how many candidates can receive money. The FPPC isn't responsible for enforcing local programs.
+- Local costs "could be significant" and are hard to predict.
+- It doesn't limit special-interest or independent spending. SPUR, which backs yes, concedes this.
+- Evidence on whether it reduces big-donor influence is mixed, per CalMatters.
+- Voters rejected similar measures in 2000 and 2010.
+- Polls: PPIC (Sept. 4–10) had 42% yes and 53% no. UC Berkeley IGS (Sept. 15–20) had 35% each, with 30% undecided. The split is partisan: 55% of Democrats and 19% of Republicans backed it in the PPIC poll.
+
+**My own legal read (not from the sources):** The spending-cap formula rises with outside spending. That resembles the matching-funds scheme the Supreme Court struck down in *Arizona Free Enterprise Club v. Bennett* (2011), so a First Amendment challenge is plausible.
+
+**Decision rule**
+- Vote **yes** if your main worry is private and special-interest money, and you trust cities and counties to design and police programs case by case.
+- Vote **no** if you object in principle to taxpayer-funded campaigns, or you think the measure's vagueness makes outcomes too unpredictable.
+
+I couldn't open the LAO PDF or the SF Chronicle editorial directly, so those points come from pages that quote them. I also couldn't confirm a later PPIC figure (45% yes, 52% no) from the report, so I left it out.
+
+Sources:
+- [Official voter guide: Prop 4](https://voterguide.sos.ca.gov/propositions/4/)
+- [Voter guide: LAO analysis](https://voterguide.sos.ca.gov/propositions/4/analysis.htm)
+- [CalMatters explainer (Oct. 2026)](https://calmatters.org/politics/2026/10/california-proposition-4-explainer/)
+- [California Today Prop 4 guide](https://californiatoday.com/guides/elections/2026-california-proposition-4-guide/)
+- [CalTax opposition](https://caltax.org/prop4/)
+- [SPUR endorsement](https://www.spur.org/voter-guide/2026-11/ca-prop-4-campaign-financing)
+- [Arizona Free Enterprise Club v. Bennett (2011)](https://www.law.cornell.edu/supremecourt/text/10-238)

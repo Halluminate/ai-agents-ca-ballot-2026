@@ -1,0 +1,41 @@
+{
+  "requests": 7,
+  "requests_per_host": {
+    "openrouter.ai": 6,
+    "kbla1580.com": 1
+  },
+  "hosts": [
+    "kbla1580.com",
+    "openrouter.ai"
+  ],
+  "status_counts": {
+    "200": 7
+  },
+  "bytes_up": 191577,
+  "bytes_down": 132919,
+  "wire_bytes": {
+    "harness_to_proxy": 206003,
+    "proxy_to_harness": 155897,
+    "proxy_to_internet": 204288,
+    "internet_to_proxy": 170326
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 8,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

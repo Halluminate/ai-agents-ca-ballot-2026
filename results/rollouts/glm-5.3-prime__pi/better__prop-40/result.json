@@ -1,0 +1,103 @@
+{
+  "run_id": "glm-prime__common__better__p40__r1",
+  "model": "glm-prime",
+  "model_id": "z-ai/glm-5.3-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "40",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:19:04.818789+00:00",
+  "finished_at": "2026-11-03T13:21:10.423970+00:00",
+  "seconds": 122.8,
+  "input_tokens": 50883,
+  "output_tokens": 11219,
+  "cached_tokens": 125440,
+  "cost_usd": 0.3318,
+  "cost_source": "reported",
+  "billed_usd": 0.33178927199999997,
+  "searches": [
+    "California Proposition 40 billionaire wealth tax 2026",
+    "Proposition 40 California Newsom opposition wealth tax schools Prop 98 exempt editorial",
+    "\"Proposition 40\" California billionaire tax Sacramento Bee editorial recommendation",
+    "CalMatters Proposition 40 billionaire tax analysis explained Prop 98 schools exempt",
+    "Los Angeles Times San Francisco Chronicle editorial Proposition 40 endorsement yes or no"
+  ],
+  "search_errors": 1,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/40/",
+    "https://voterguide.sos.ca.gov/propositions/40/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/40/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+    "https://www.kpbs.org/news/economy/2026/11/02/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions",
+    "https://www.kpbs.org/news/economy/2026/11/02/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+    "https://www.kpbs.org/news/economy/2026/11/02/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions"
+  ],
+  "tool_errors": 1,
+  "warnings": [],
+  "network": {
+    "requests": 12,
+    "requests_per_host": {
+      "openrouter.ai": 12
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 12
+    },
+    "bytes_up": 774250,
+    "bytes_down": 2348706,
+    "wire_bytes": {
+      "harness_to_proxy": 800508,
+      "proxy_to_harness": 2494849,
+      "proxy_to_internet": 796828,
+      "internet_to_proxy": 2522967
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 13,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:19:04.818789+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:19:04.818789+00:00",
+      "finished_at": "2026-11-03T13:21:10.423970+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

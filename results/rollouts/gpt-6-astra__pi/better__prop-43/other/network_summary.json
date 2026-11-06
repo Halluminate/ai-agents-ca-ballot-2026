@@ -1,0 +1,61 @@
+{
+  "requests": 27,
+  "requests_per_host": {
+    "openrouter.ai": 16,
+    "www.kpbs.org": 1,
+    "www.sacbee.com": 1,
+    "www.marinij.com": 1,
+    "calmatters.digitaldemocracy.org": 1,
+    "yeson43.com": 1,
+    "calmatters.org": 1,
+    "lao.ca.gov": 1,
+    "selc.senate.ca.gov": 1,
+    "www.cambridge.org": 1,
+    "calbudgetcenter.org": 1,
+    "lewis.ucla.edu": 1
+  },
+  "hosts": [
+    "calbudgetcenter.org",
+    "calmatters.digitaldemocracy.org",
+    "calmatters.org",
+    "lao.ca.gov",
+    "lewis.ucla.edu",
+    "openrouter.ai",
+    "selc.senate.ca.gov",
+    "www.cambridge.org",
+    "www.kpbs.org",
+    "www.marinij.com",
+    "www.sacbee.com",
+    "yeson43.com"
+  ],
+  "status_counts": {
+    "200": 27
+  },
+  "bytes_up": 1865340,
+  "bytes_down": 1284005,
+  "wire_bytes": {
+    "harness_to_proxy": 1922566,
+    "proxy_to_harness": 1383330,
+    "proxy_to_internet": 1915853,
+    "internet_to_proxy": 1444469
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 28,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

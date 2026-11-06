@@ -1,0 +1,80 @@
+{
+  "requests": 150,
+  "requests_per_host": {
+    "api.anthropic.com": 75,
+    "openrouter.ai": 51,
+    "voterguide.sos.ca.gov": 5,
+    "www.ppic.org": 3,
+    "calmatters.org": 2,
+    "lao.ca.gov": 2,
+    "growsf.org": 2,
+    "igs.berkeley.edu": 1,
+    "keyt.com": 1,
+    "vig.cdn.sos.ca.gov": 1,
+    "ballotpedia.org": 1,
+    "www.hoover.org": 1,
+    "asamnews.com": 1,
+    "www.seiu-uhw.org": 1,
+    "www.feldesman.com": 1,
+    "laist.com": 1,
+    "www.nixonpeabody.com": 1
+  },
+  "hosts": [
+    "api.anthropic.com",
+    "asamnews.com",
+    "ballotpedia.org",
+    "calmatters.org",
+    "growsf.org",
+    "igs.berkeley.edu",
+    "keyt.com",
+    "laist.com",
+    "lao.ca.gov",
+    "openrouter.ai",
+    "vig.cdn.sos.ca.gov",
+    "voterguide.sos.ca.gov",
+    "www.feldesman.com",
+    "www.hoover.org",
+    "www.nixonpeabody.com",
+    "www.ppic.org",
+    "www.seiu-uhw.org"
+  ],
+  "status_counts": {
+    "200": 144,
+    "202": 1,
+    "403": 4
+  },
+  "bytes_up": 4866562,
+  "bytes_down": 10585163,
+  "wire_bytes": {
+    "harness_to_proxy": 4972881,
+    "proxy_to_harness": 10935888,
+    "proxy_to_internet": 4973661,
+    "internet_to_proxy": 11029914
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "api.anthropic.com",
+      "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 53,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

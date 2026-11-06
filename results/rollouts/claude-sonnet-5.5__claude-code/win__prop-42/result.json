@@ -1,0 +1,638 @@
+{
+  "run_id": "sonnet__native__win__p42__r1",
+  "model": "sonnet",
+  "model_id": "anthropic/claude-sonnet-5.5",
+  "pin": "anthropic",
+  "arm": "native",
+  "harness": "claude_code",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "42",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:54:44.658690+00:00",
+  "finished_at": "2026-11-03T12:32:32.992278+00:00",
+  "seconds": 2261.6,
+  "input_tokens": 314632,
+  "output_tokens": 67096,
+  "cached_tokens": 2385787,
+  "cost_usd": 4.9853,
+  "cost_source": "reported",
+  "billed_usd": 4.9793683,
+  "searches": [
+    "California Proposition 42 November 2026 ballot",
+    "Prop 42 poll California likely voters personal property tax billionaire tax Prop 40 poll",
+    "PPIC Statewide Survey October 2026 Proposition 42 ban new taxes personal property likely voters",
+    "Berkeley IGS poll October 2026 Proposition 42 Proposition 41 Proposition 40 likely voters",
+    "Prop 42 results California election night November 3 2026",
+    "Prop 42 Prop 40 Prop 41 Polymarket OR Kalshi odds California billionaire tax prediction market",
+    "Berkeley IGS Poll DiCamillo Prop 42 \"no side\" gained 11 points billionaire-backed measures October 2026",
+    "Berkeley IGS Poll late October 2026 billionaire tax Prop 40 42% yes 50% no Props 41 42 toplines news.berkeley.edu",
+    "\"Prop 42\" California poll Emerson OR SurveyUSA OR Politico OR \"Citrin\" OR \"Capitol Weekly\" OR \"Data for Progress\" likely voters personal property tax ban",
+    "California billionaire tax Prop 40 defeated OR fails OR passes Prop 42 wins election results",
+    "Mason-Dixon NBC Telemundo California poll Prop 40 Prop 41 Prop 42 October 2026",
+    "\"No on 42\" campaign California Prop 42 spending SEIU-UHW Building a Better California ads final week",
+    "IGS poll Prop 42 \"43%\" \"45%\" Prop 41 likely voters October 2026 billionaire tax undecided counter measures",
+    "California ballot returns November 2026 turnout by party Democrats Republicans Political Data Paul Mitchell",
+    "California propositions 2026 final predictions what to expect Prop 40 41 42 election day analysts",
+    "Emerson College Inside California Politics poll Prop 40 billionaire tax Prop 42 final poll",
+    "Yes on 42 campaign ad retirement savings tax Brin Prop 42 messaging No on 41 and 42 \"poison pill\" ads SEIU-UHW",
+    "Proposition 42 California early returns Yes leads OR trails billionaire tax Prop 40 election night results AP",
+    "Ballotpedia California Proposition 42 2026 personal property tax ban polling campaign finance",
+    "Hoover Institution OR SurveyUSA OR Probolsky OR \"Public Policy Polling\" California poll October 2026 Prop 42 retirement personal property tax ban voters",
+    "Berkeley IGS LA Times poll Prop 42 Democrats Republicans independents support oppose Prop 41 \"DiCamillo\" October 28 2026",
+    "Building a Better California internal poll Prop 42 OR \"Props 41 and 42\" support memo voters pollster",
+    "Politico California Playbook Election Day Prop 42 Prop 40 Brin billionaire tax what to watch November 3",
+    "PPIC October 2026 Prop 42 Republicans independents Democrats percent support \"Prop. 42\" majority of independents Democrats oppose",
+    "\"Prop 42\" OR \"Proposition 42\" California \"likely to pass\" OR \"likely to fail\" OR \"toss-up\" OR \"tossup\" analysts election preview billionaire tax countermeasures",
+    "Citrin Center Politico poll October 2026 California voters Prop 40 Prop 42 Prop 41 results",
+    "California poll released November 1 OR November 2 2026 propositions billionaire tax Prop 42 final days",
+    "Prop 42 California \"yes\" \"no\" votes counted early results polls closed Prop 40 billionaire tax trailing",
+    "California ballot measures polling accuracy late October support drops election day undecided voters break no PPIC initiative history",
+    "Berkeley News IGS poll October 2026 voters turn against billionaire tax Prop 40 opposition broad-based Prop 42 Prop 41 undecided informed voters",
+    "YouGov OR \"Data for Progress\" OR \"Change Research\" OR \"Lake Research\" California Prop 40 Prop 42 poll billionaire tax internal poll October",
+    "\"Prop 42\" California Democrats split Newsom endorsement union firefighters voters confusion \"Yes on 42\" mailers Democrats retirement savings",
+    "California ballots returned November 2026 age 65+ share young voters turnout lagging Political Data Inc Mitchell electorate older",
+    "Polymarket California Proposition 42 will it pass market volume price",
+    "CalMatters 2019 analysis PPIC polls ballot measures yes side loses average six points between poll and election result",
+    "DiCamillo poll voters unaware Props 41 and 42 designed to nullify billionaire tax \"aware\" percent opposition greater among those who knew",
+    "Prop 42 California election preview Nov 2 2026 voters decide Props 40 41 42 expected outcome experts say likely fail pass",
+    "California voters reject billionaire tax Prop 40 Prop 42 approved OR rejected election results Wednesday",
+    "\"Prop. 42\" OR \"Proposition 42\" passes OR fails OR leads OR trails \"percent\" California Secretary of State election night 2026 ballot measures results Prop 39 voter ID Prop 3",
+    "Nathan Click Prop 42 Building a Better California spokesman polls \"Prop 42\" confident voters support retirement savings",
+    "Yes on 40 No on 41 42 campaign Suzanne Jimenez OR \"Dave Regan\" polling Prop 42 internal tracking Props 41 and 42 trailing",
+    "Berkeley IGS poll Prop 42 \"likely voters\" October 2026 \"Prop 42\" Democrats independents Republicans 43% 45% crosstabs Latino voters",
+    "\"California voters turning against Proposition 40, the Billionaires Tax\" Berkeley IGS poll release 2026-22",
+    "PPIC October 2026 Becerra Hilton governor likely voters percent lead Becerra maintains wide lead"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 43,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/42/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-42-property-taxes/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-42",
+    "https://sfstandard.com/2026/10/27/billionaire-tax-prop-40-ppic-poll-october/",
+    "https://www.ppic.org/press-release/likely-voters-send-mixed-signals-on-billionaire-wealth-tax-becerra-maintains-wide-lead-over-hilton/",
+    "https://www.kqed.org/news/12106950/is-californias-proposed-billionaire-tax-in-trouble-new-polls-find-bad-news",
+    "https://www.onpointpolitics.us/forecast/measures/ca/proposition-42",
+    "https://escholarship.org/content/qt3w14s99c/qt3w14s99c.pdf",
+    "https://defirate.com/odds/california-props/",
+    "https://en.wikipedia.org/wiki/2026_California_billionaire_tax_initiative",
+    "https://www.sfchronicle.com/politics/article/billionaire-tax-polls-22503108.php",
+    "https://www.cbsnews.com/sanfrancisco/news/california-3-confusing-propositions-billionaire-tax/",
+    "https://www.forbes.com/sites/saradorn/2026/10/27/heres-why-californias-billionaire-tax-might-be-doomed-even-if-it-passes/",
+    "https://calmatters.org/health/2026/09/california-wealth-tax-prop-40-41-42/",
+    "https://thehill.com/homenews/campaign/6144461-newsom-endorses-prop42-billionaire-tax/",
+    "https://calmatters.org/commentary/2026/10/california-wealth-tax-last-minute-surge/",
+    "https://www.cnbc.com/2026/10/22/california-proposition-40-billionaire-tax-wealth.html",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_42",
+    "https://www.kqed.org/news/12106950/is-californias-proposed-billionaire-tax-in-trouble-new-polls-find-bad-news",
+    "https://www.yahoo.com/news/politics/articles/support-dwindles-wealth-tax-voter-100000646.html",
+    "https://www.sanjoseinside.com/politics/poll-reports-voter-support-for-ca-billionaire-tax-is-slipping/",
+    "https://calmatters.org/politics/2026/10/newsom-tax-propositions-november-election/",
+    "https://www.ppic.org/wp-content/uploads/crosstabs-likely-voters-1026.pdf",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.cpapracticeadvisor.com/2026/10/28/poll-california-billionaire-tax-loses-majority-support-ahead-of-election/192672/",
+    "https://kalshi.com/markets/kxcaballotmeasures/which-california-ballot-measures-will-pass/kxcaballotmeasures-26nov03",
+    "https://calmatters.org/newsletter/prop-40-poll/",
+    "https://electionresults.sos.ca.gov/returns/ballot-measures",
+    "https://californiatoday.com/guides/elections/2026-california-proposition-42-guide/",
+    "https://www.kqed.org/voterguide/california/proposition-42",
+    "https://www.kron4.com/news/your-local-election-hq/new-poll-reveals-how-voters-feel-about-california-billionaire-tax-as-election-looms/",
+    "https://www.latimes.com/politics/story/2026-10-28/support-dwindles-for-wealth-tax-voter-id-ballot-measures-new-poll-shows",
+    "https://igs.berkeley.edu/california-and-2026-midterms-pre-election-roundtable",
+    "https://www.sfchronicle.com/politics/joegarofoli/article/democrat-vote-california-22497408.php",
+    "https://www.ppic.org/pdf/ppic-statewide-survey-californians-and-their-government-october-2026.pdf",
+    "https://sfstandard.com/2026/10/27/billionaire-tax-prop-40-ppic-poll-october/",
+    "https://laist.com/news/politics/voter-guides/2026-midterm-voter-turnout-los-angeles-orange-county",
+    "https://calmatters.org/politics/2026/10/tax-propositions-ballot-measures/",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-42",
+    "https://fortune.com/2026/11/02/sergey-brin-political-102-million-prop-40-billionaire/",
+    "https://www.pressdemocrat.com/2026/10/10/endorsement-if-you-support-the-billionaire-tax-vote-no-on-props-41-and-42/",
+    "https://www.washingtonpost.com/nation/2026/11/02/californias-mega-rich-vastly-outspend-foes-bid-sink-billionaire-tax/",
+    "https://gizmodo.com/californias-billionaire-tax-slips-from-52-support-to-42-2000834065",
+    "https://sanjosespotlight.com/silicon-valley-billionaires-shell-out-to-defeat-proposition-40",
+    "https://www.theskylineview.com/the-focal-point/features/2026/11/02/2026-calif-voters-guide-propositions-40-42/",
+    "https://www.yahoo.com/news/politics/articles/californias-billionaire-tax-loses-support-203400502.html",
+    "https://www.yahoo.com/news/politics/articles/where-does-californias-prop-40-224412252.html",
+    "https://hotair.com/john-s-2/2026/11/02/a-final-look-before-voters-decide-on-the-california-wealth-tax-n3820591",
+    "https://yesonprop42.org/",
+    "https://www.sfexaminer.com/news/politics/here-s-what-you-should-know-about-prop-42/article_104cd2a1-0906-484e-8ba5-8880aa1a6c5a.html",
+    "https://defirate.com/odds/california-wealth-tax/",
+    "https://medium.com/@gaetanlion/the-california-wealth-tax-brawl-prop-40-41-42-a198596c2420",
+    "https://calmatters.org/politics/elections/2019/10/ballot-california-polling-trend-slump-fact-check-myth-data/",
+    "https://www.cnn.com/election/2026/results/california/ballot-measures",
+    "https://www.multistate.us/elections/results/california-2026",
+    "https://cbsnews.com/losangeles/live-updates/live-updates-ca-propositions",
+    "https://igs.berkeley.edu/igs-poll/berkeley-igs-poll",
+    "https://www.dailycal.org/news/campus/research-and-ideas/proposition-40-stumbles-to-finish-line-as-support-wanes-uc-berkeley-igs-poll-finds/article_c2ff1d9b-8f58-446f-a920-bd5c9fffe453.html",
+    "https://gvwire.com/2026/10/28/runaway-victory-for-becerra-as-dems-show-more-voting-enthusiasm-poll/"
+  ],
+  "tool_errors": 3,
+  "warnings": [
+    "capture: 3 connection attempts that ignored the proxy were blocked (claude.exe remote:*:49463 x3)",
+    "capture: 16 connections were not readable by the proxy (api.anthropic.com:443)"
+  ],
+  "network": {
+    "requests": 341,
+    "requests_per_host": {
+      "api.anthropic.com": 150,
+      "openrouter.ai": 132,
+      "calmatters.org": 7,
+      "igs.berkeley.edu": 4,
+      "www.ppic.org": 4,
+      "www.cbsnews.com": 3,
+      "www.yahoo.com": 3,
+      "sfstandard.com": 2,
+      "www.kqed.org": 2,
+      "defirate.com": 2,
+      "www.sfchronicle.com": 2,
+      "laist.com": 2,
+      "sanjosespotlight.com": 2,
+      "voterguide.sos.ca.gov": 1,
+      "www.onpointpolitics.us": 1,
+      "escholarship.org": 1,
+      "thehill.com": 1,
+      "www.cnbc.com": 1,
+      "en.wikipedia.org": 1,
+      "www.sanjoseinside.com": 1,
+      "www.cpapracticeadvisor.com": 1,
+      "kalshi.com": 1,
+      "electionresults.sos.ca.gov": 1,
+      "californiatoday.com": 1,
+      "www.kron4.com": 1,
+      "fortune.com": 1,
+      "www.pressdemocrat.com": 1,
+      "www.washingtonpost.com": 1,
+      "gizmodo.com": 1,
+      "www.theskylineview.com": 1,
+      "hotair.com": 1,
+      "yesonprop42.org": 1,
+      "www.sfexaminer.com": 1,
+      "medium.com": 1,
+      "www.cnn.com": 1,
+      "www.multistate.us": 1,
+      "cbsnews.com": 1,
+      "www.dailycal.org": 1,
+      "gvwire.com": 1
+    },
+    "hosts": [
+      "api.anthropic.com",
+      "californiatoday.com",
+      "calmatters.org",
+      "cbsnews.com",
+      "defirate.com",
+      "electionresults.sos.ca.gov",
+      "en.wikipedia.org",
+      "escholarship.org",
+      "fortune.com",
+      "gizmodo.com",
+      "gvwire.com",
+      "hotair.com",
+      "igs.berkeley.edu",
+      "kalshi.com",
+      "laist.com",
+      "medium.com",
+      "openrouter.ai",
+      "sanjosespotlight.com",
+      "sfstandard.com",
+      "thehill.com",
+      "voterguide.sos.ca.gov",
+      "www.cbsnews.com",
+      "www.cnbc.com",
+      "www.cnn.com",
+      "www.cpapracticeadvisor.com",
+      "www.dailycal.org",
+      "www.kqed.org",
+      "www.kron4.com",
+      "www.multistate.us",
+      "www.onpointpolitics.us",
+      "www.ppic.org",
+      "www.pressdemocrat.com",
+      "www.sanjoseinside.com",
+      "www.sfchronicle.com",
+      "www.sfexaminer.com",
+      "www.theskylineview.com",
+      "www.washingtonpost.com",
+      "www.yahoo.com",
+      "yesonprop42.org"
+    ],
+    "status_counts": {
+      "200": 313,
+      "301": 4,
+      "403": 6,
+      "429": 1,
+      "451": 1
+    },
+    "bytes_up": 15572808,
+    "bytes_down": 10889640,
+    "wire_bytes": {
+      "harness_to_proxy": 15895023,
+      "proxy_to_harness": 11830098,
+      "proxy_to_internet": 15857448,
+      "internet_to_proxy": 12056864
+    },
+    "byte_counter": true,
+    "errors": 38,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "sfstandard.com",
+        "url": "https://sfstandard.com/2026/10/27/billionaire-tax-prop-40-ppic-poll-october/",
+        "error": "server closed connection"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "server closed connection"
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "server closed connection"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 11.1583,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0231,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0166,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 21.1625,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0042,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 20.4185,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 680.3829,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0094,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0005,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0007,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0013,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0028,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0005,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0035,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0032,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0027,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "claude.exe",
+        "operation": "network-outbound",
+        "target": "remote:*:49463",
+        "attempts": 3
+      }
+    ],
+    "blocked_attempts": 3,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 152,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:54:44.658690+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:54:44.658690+00:00",
+      "finished_at": "2026-11-03T12:32:32.992278+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

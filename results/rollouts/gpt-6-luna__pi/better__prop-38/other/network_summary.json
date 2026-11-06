@@ -1,0 +1,50 @@
+{
+  "requests": 52,
+  "requests_per_host": {
+    "openrouter.ai": 44,
+    "www.cirm.ca.gov": 3,
+    "www.lao.ca.gov": 2,
+    "www.dailycal.org": 1,
+    "www.kqed.org": 1,
+    "report.nih.gov": 1
+  },
+  "hosts": [
+    "openrouter.ai",
+    "report.nih.gov",
+    "www.cirm.ca.gov",
+    "www.dailycal.org",
+    "www.kqed.org",
+    "www.lao.ca.gov"
+  ],
+  "status_counts": {
+    "200": 51,
+    "404": 1
+  },
+  "bytes_up": 4194943,
+  "bytes_down": 3643600,
+  "wire_bytes": {
+    "harness_to_proxy": 4309822,
+    "proxy_to_harness": 3875327,
+    "proxy_to_internet": 4293523,
+    "internet_to_proxy": 4008762
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 53,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

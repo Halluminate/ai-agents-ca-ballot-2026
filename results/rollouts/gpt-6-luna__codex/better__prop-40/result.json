@@ -1,0 +1,98 @@
+{
+  "run_id": "luna__native__better__p40__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "40",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:00:14.757994+00:00",
+  "finished_at": "2026-11-03T13:05:40.352059+00:00",
+  "seconds": 323.3,
+  "input_tokens": 60,
+  "output_tokens": 29217,
+  "cached_tokens": 1465437,
+  "cost_usd": 0.1508,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "'ARTICLE 36'",
+    "California Proposition 40 2026 billionaire tax analysis $25 billion Stanford economists study ...",
+    "'$100 billion'",
+    "site:lao.ca.gov Proposition 40 billionaire tax 2026 tax base $1 billion revenue official California LAO ...",
+    "\"The Net Present Value of the Billionaire Tax Act\" Jaros Rauh pdf ...",
+    "California Proposition 40 billionaire wealth tax constitutional lawsuit legal analysis court risk 2026 academics ...",
+    "\"Net Present Value of the California Billionaire Tax Act\" pdf Rauh 35899 ...",
+    "2026 KFF California Medicaid losses H.R.1 1.3 million Medi-Cal 2030 federal cuts ...",
+    "'1.5%'",
+    "'audit'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/40/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 26,
+    "requests_per_host": {
+      "api.openai.com": 20,
+      "ab.chatgpt.com": 6
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 19,
+      "202": 6
+    },
+    "bytes_up": 1640677,
+    "bytes_down": 4118859,
+    "wire_bytes": {
+      "harness_to_proxy": 1236568,
+      "proxy_to_harness": 2424209,
+      "proxy_to_internet": 1234806,
+      "internet_to_proxy": 2460943
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 2242,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 22,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:00:14.757994+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:00:14.757994+00:00",
+      "finished_at": "2026-11-03T13:05:40.352059+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

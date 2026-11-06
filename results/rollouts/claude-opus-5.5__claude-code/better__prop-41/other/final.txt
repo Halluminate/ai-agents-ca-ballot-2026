@@ -1,0 +1,29 @@
+I'm not going to answer with just yes or no. Prop 41 comes down to values, mostly whether you want the billionaire tax (Prop 40), and I don't take sides on contested ballot measures. But your answer follows from where you stand:
+
+- **You support Prop 40: vote No.** If both pass and 41 gets more yes votes, Prop 40 could be cancelled.
+- **You oppose Prop 40 and want tighter spending limits and audits before tax votes: vote Yes.**
+- **You oppose Prop 40 but don't want new rules locked into the state constitution:** your No on 40 already counts against it. Prop 41 only matters for 40 if 40 passes anyway, so judge 41 on its permanent effects.
+
+**What it does.** It's a constitutional amendment, so only another statewide vote can undo it.
+- It blocks any state tax enacted on or after Jan. 1, 2026 whose revenue is kept outside the state's spending cap (the Gann limit, from 1979). Prop 40 does exactly that, which is why the two conflict.
+- Before a special-tax initiative reaches the ballot, the State Auditor must audit the programs it would fund and find ways to cut their costs by 10%. A summary goes in the voter guide. After a tax passes, those programs are audited every 4 years.
+- The nonpartisan Legislative Analyst's Office estimates the audits would cost the state a few million dollars a year. It says the overall effect on the budget is unknown.
+
+**The case for it:** Voters would see where existing money goes before approving new taxes, every new tax would follow the same spending cap, and it doesn't raise taxes. Backers include CalTax, the California Society of CPAs, the California Chamber of Commerce, the Howard Jarvis Taxpayers Association and a former State Auditor.
+
+**The case against it:** It was paid for (about $58 million, mostly from Google co-founder Sergey Brin) to cancel Prop 40, which critics call a "poison pill." The State Auditor and the Legislative Analyst's Office can already review programs. It would also limit future special taxes. Opponents add that renewals of the taxes that help fund Medi-Cal could get caught by it, though whether that would happen is legally unclear. Opponents include SEIU-UHW (the union behind Prop 40), the California Democratic Party, the League of Women Voters, SPUR and the San Francisco Chronicle.
+
+Gov. Newsom hadn't taken a position on 41 as of mid-October, though he opposes 40. In PPIC's late-October poll, 48% backed Prop 41 and 46% backed Prop 40.
+
+Sources:
+- [CA Voter Guide – Prop 41](https://voterguide.sos.ca.gov/propositions/41/) ([analysis](https://voterguide.sos.ca.gov/propositions/41/analysis.htm), [arguments](https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm))
+- [CaliforniaToday Prop 41 guide](https://californiatoday.com/guides/elections/2026-california-proposition-41-guide/)
+- [LAist/CalMatters](https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-41-tax-audits)
+- [CA Budget & Policy Center](https://calbudgetcenter.org/resources/what-would-proposition-41-mean-for-california/)
+- [SPUR](https://www.spur.org/voter-guide/2026-11/ca-prop-41-audits-special-taxes)
+- [UC Berkeley IGS](https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-41-audits)
+- [Howard Jarvis Taxpayers Association guide](https://www.hjta.org/2026votingguide/)
+- [CalMatters poll](https://calmatters.org/newsletter/prop-40-poll/)
+- [CalMatters on Newsom](https://calmatters.org/politics/2026/10/newsom-tax-propositions-november-election/)
+- [Press Democrat](https://www.pressdemocrat.com/2026/10/10/endorsement-if-you-support-the-billionaire-tax-vote-no-on-props-41-and-42/)
+- [Daily Cal](https://www.dailycal.org/news/state/californians-to-weigh-first-of-its-kind-billionaire-tax-against-possible-poison-pills-props-41/article_9dcba7af-4b5c-466f-bf7a-43382b1b7103.html)

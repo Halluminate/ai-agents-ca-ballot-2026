@@ -1,0 +1,45 @@
+I'm not going to give a bare yes or no. After the research, I think this comes down to a values tradeoff on a measure that splits largely along party lines. Gov. Newsom and the Democratic Party are for it, and the Republican Party and Reform California are against it. I'd rather not tip the scale on a contested ballot question, but I can get you to your own answer quickly.
+
+**The deciding question:** Should money the state puts into reserves stop counting against the spending (Gann) limit until it's withdrawn?
+- **Yes** if you want bigger reserves and see today's treatment as a barrier to saving.
+- **No** if you want the limit's taxpayer-rebate trigger left intact, or want tighter withdrawal rules before the fund grows.
+
+**What Prop 2 does** (per the nonpartisan Legislative Analyst's Office, LAO)
+- It raises the cap on required rainy-day deposits from 10% to 20% of General Fund taxes. The current cap is roughly $21–25B. Set-asides get larger when capital-gains revenue spikes.
+- It excludes rainy-day deposits from the spending limit until they're withdrawn. A separate "surge" account gets the same treatment, up to 10% of General Fund taxes a year.
+- It extends mandatory extra debt payments from 2030 to 2040 and widens their uses. These include the state's roughly $20B federal unemployment-insurance loan.
+- It keeps the existing withdrawal rules. Deposits can still be suspended in a budget emergency.
+
+**Where each side has a point**
+- **Yes side:**
+  - Revenue is volatile. LAO modeling of the Governor's 2025 version of this idea put coverage of funding shortfalls at about half, versus about a third now.
+  - The LAO also said excluding deposits "has merit" as long as withdrawals count, which Prop 2 does.
+- **No side:**
+  - Withdrawal rules are unchanged, and the LAO has noted that withdrawal authority is available nearly all the time. This is the core of David Crane's objection (Govern for California, a former Schwarzenegger adviser).
+  - This year's budget suspended a $5.4B deposit, on top of $1.6B suspended earlier, as opponents say.
+  - The limit change does make rebates less likely, and by the same logic the schools' half of any excess.
+
+**Where each side overreaches**
+- **Yes side:** "Doubles the Rainy Day Fund" is loose. It doubles the cap, not the balance. The fund holds about $15B, and deposits can be suspended.
+- **No side:**
+  - Claims that it guarantees more spending or makes the budget more volatile go beyond the LAO's analysis. The LAO says reserves would be higher and balancing easier in downturns.
+  - The claim that it could eliminate rebates overstates it. The exclusions are capped and withdrawals count later. The LAO doesn't estimate how much less likely rebates become, and the state has $27B of room under the limit this year, up from $8B last year.
+  - HJTA recommends No but says the measure's treatment of reserve appropriations "makes sense." Its objection is that the measure doesn't fix the Gann limit more broadly.
+
+**Barely touched in the ballot arguments** (per the California Budget & Policy Center): Paying the unemployment-insurance loan with this money shifts a cost from employers to the General Fund. Mandatory debt payments also lock in for ten more years.
+
+**Not verified:** I couldn't open the newspaper editorials, the bill text, or the PDF of the ballot arguments. Ballot-argument claims therefore come from the Secretary of State's web pages. I confirmed the deposit suspension itself but not the opponents' "within 24 hours" timing claim.
+
+Sources:
+- [Official Voter Guide: Prop 2](https://voterguide.sos.ca.gov/propositions/2/)
+- [Official arguments and rebuttals](https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm)
+- [LAO ballot analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=2&year=2026)
+- [LAO: Rethinking California's Reserve Policy](https://lao.ca.gov/Publications/Report/5028)
+- [LAO: The State Appropriations Limit](https://lao.ca.gov/Publications/Report/4416)
+- [LAO: 2026-27 Budget Overview of the Spending Plan](https://lao.ca.gov/Publications/Report/5197)
+- [California Budget & Policy Center analysis](https://calbudgetcenter.org/resources/should-voters-approve-proposition-2-how-californias-rainy-day-fund-would-be-updated/)
+- [CalMatters explainer](https://calmatters.org/politics/2026/10/california-proposition-2-explained/)
+- [CalMatters voter guide](https://calmatters.org/california-voter-guide-2026/proposition-2-rainy-day-fund/)
+- [SF Inquirer](https://sfinquirer.com/2026/10/25/proposition-2-california-rainy-day-fund-spending-limit/)
+- [HJTA 2026 voting guide](https://www.hjta.org/2026votingguide/)
+- [David Crane op-ed, SF Standard](https://sfstandard.com/opinion/2026/09/14/newsom-rainy-day-fund-prop-2/)

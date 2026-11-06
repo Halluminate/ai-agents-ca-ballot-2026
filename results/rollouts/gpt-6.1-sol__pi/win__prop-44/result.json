@@ -1,0 +1,108 @@
+{
+  "run_id": "sol__common__win__p44__r1",
+  "model": "sol",
+  "model_id": "openai/gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "44",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:20:26.961756+00:00",
+  "finished_at": "2026-11-03T13:21:08.062191+00:00",
+  "seconds": 37.5,
+  "input_tokens": 76995,
+  "output_tokens": 1148,
+  "cached_tokens": 106291,
+  "cost_usd": 0.2398,
+  "cost_source": "reported",
+  "billed_usd": 0.23983769728,
+  "searches": [
+    "California Proposition 44 2026 community health clinics polling support opposition",
+    "2026 California community health clinic 90% revenue initiative SEIU UHW poll campaign",
+    "California Proposition 44 2026 poll October November latest",
+    "site.ppic.org October 2026 survey Proposition 44 25 71",
+    "California Proposition 44 2026 Democratic Republican party endorsements dialysis initiatives 2018 2020 2022"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/44/",
+    "https://voterguide.sos.ca.gov/propositions/44/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-44-requires-community-health-clinics-spend-90-percent-revenue-program-services-initiative-statute",
+    "https://www.politico.com/newsletters/california-playbook/2026/10/28/support-slips-for-prop-40-and-prop-45-01138026",
+    "https://calmatters.org/health/2026/10/union-billionaire-prop-44-clinic/",
+    "https://www.fresnobee.com/news/california/article317638422.html",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+    "https://yesonprop44.com/",
+    "https://noprop44.com/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-44-clinic-funding/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026",
+    "https://www.onpointpolitics.us/forecast/measures/ca/proposition-44"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "warning: reasoning was not replayed on an assistant turn"
+  ],
+  "network": {
+    "requests": 12,
+    "requests_per_host": {
+      "openrouter.ai": 11,
+      "www.fresnobee.com": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.fresnobee.com"
+    ],
+    "status_counts": {
+      "200": 12
+    },
+    "bytes_up": 803916,
+    "bytes_down": 221503,
+    "wire_bytes": {
+      "harness_to_proxy": 827796,
+      "proxy_to_harness": 261074,
+      "proxy_to_internet": 824776,
+      "internet_to_proxy": 285691
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 12,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:20:26.961756+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:20:26.961756+00:00",
+      "finished_at": "2026-11-03T13:21:08.062191+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

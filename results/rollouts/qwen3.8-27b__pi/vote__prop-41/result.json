@@ -1,0 +1,101 @@
+{
+  "run_id": "qwen-27b__common__vote__p41__r1",
+  "model": "qwen-27b",
+  "model_id": "qwen/qwen3.8-27b",
+  "pin": "deepinfra",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "41",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:43:57.632441+00:00",
+  "finished_at": "2026-11-03T13:47:15.028147+00:00",
+  "seconds": 194.5,
+  "input_tokens": 79818,
+  "output_tokens": 8479,
+  "cached_tokens": 39200,
+  "cost_usd": 0.0446,
+  "cost_source": "reported",
+  "billed_usd": 0.04456617108,
+  "searches": [
+    "California Proposition 41 2026 voterguide.sos.ca.gov",
+    "California Proposition 41 2026 billionaire tax Sergey Brin audits analysis",
+    "\"Proposition 41\" California 2026 nullify \"spending limit\" Proposition 40 billionaire tax"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/41/",
+    "https://voterguide.sos.ca.gov/propositions/41/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/41/title-summary.htm",
+    "https://www.hoover.org/proposition-lab-proposition-41",
+    "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-41-tax-audit-voter-guide",
+    "https://www.mercurynews.com/2026/11/02/we-asked-the-no-on-prop-41-campaign-why-voters-should-reject-the-measure/",
+    "https://www.kpbs.org/news/politics/2026/10/01/proposition-41-require-audits-of-new-tax-programs"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 9,
+    "requests_per_host": {
+      "openrouter.ai": 9
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 9
+    },
+    "bytes_up": 479184,
+    "bytes_down": 3136732,
+    "wire_bytes": {
+      "harness_to_proxy": 495876,
+      "proxy_to_harness": 3302419,
+      "proxy_to_internet": 494348,
+      "internet_to_proxy": 3315770
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 9,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:43:57.632441+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:43:57.632441+00:00",
+      "finished_at": "2026-11-03T13:47:15.028147+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

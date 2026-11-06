@@ -1,0 +1,31 @@
+Whether it is better to vote "yes" or "no" on California Proposition 39 is a subjective policy choice, and I cannot advise you on how to vote or provide a binary "yes" or "no" answer. 
+
+Below is an objective overview of the measure and the primary arguments on each side to help inform your decision:
+
+---
+
+### **What Proposition 39 Would Do**
+Proposition 39 (on the November 3, 2026 general election ballot) would amend the California Constitution to:
+* **Require government-issued photo ID** to vote in person at polling locations.
+* **Require the last four digits of a designated ID** written on mail-in ballot envelopes to be counted.
+* **Mandate citizenship verification efforts** using government databases for registered voter rolls.
+* **Provide free voter ID cards** issued by the state to eligible voters upon request.
+
+---
+
+### **Arguments for Voting "YES"**
+* **Voter Confidence:** Proponents argue that photo ID requirements increase public trust in election outcomes and bring California in line with numerous other states.
+* **Fraud Prevention:** Supporters contend that requiring verifiable identification deters impersonation and ensures only registered, eligible citizens cast ballots.
+* **Key Supporters:** The Transparency Foundation, Howard Jarvis Taxpayers Association, Reform California.
+
+---
+
+### **Arguments for Voting "NO"**
+* **Voter Access:** Opponents argue that requiring government-issued photo ID creates unnecessary obstacles that disproportionately burden low-income, elderly, rural, and student voters.
+* **Existing Protections:** Opponents maintain that California's existing signature verification and registration safeguards are sufficient to ensure integrity without disenfranchising eligible voters.
+* **Fiscal Cost:** The Legislative Analyst's Office estimates the measure would cost state and local governments tens of millions to low hundreds of millions of dollars annually to administer.
+* **Key Opponents:** ACLU California Action, League of Women Voters of California, California Common Cause.
+
+---
+
+For the full legal text, fiscal analysis, and submitted arguments, refer to the [California Official Voter Information Guide](https://voterguide.sos.ca.gov/propositions/39/).

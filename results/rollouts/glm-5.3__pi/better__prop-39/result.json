@@ -1,0 +1,102 @@
+{
+  "run_id": "glm__common__better__p39__r1",
+  "model": "glm",
+  "model_id": "z-ai/glm-5.3",
+  "pin": "z-ai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "39",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:21:45.086402+00:00",
+  "finished_at": "2026-11-03T13:23:13.106669+00:00",
+  "seconds": 84.5,
+  "input_tokens": 41258,
+  "output_tokens": 3295,
+  "cached_tokens": 92480,
+  "cost_usd": 0.1269,
+  "cost_source": "reported",
+  "billed_usd": 0.12686361899999998,
+  "searches": [
+    "California Proposition 39",
+    "Proposition 39 California voter ID 2026 editorial endorsements newspaper",
+    "voter ID laws research effect on turnout academic studies Stanford Brennan Center",
+    "California voter fraud cases noncitizen voting evidence rare Secretary of State Weber",
+    "California Proposition 39 how many voters lack ID ballot rejection mail ballot last four digits",
+    "\"Proposition 39\" California voter ID Texas mail ballot rejection 12% comparison what happens if ID digits mismatch"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/39/",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=39&year=2026",
+    "https://voterguide.sos.ca.gov/propositions/39/arguments-rebuttals.htm",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-39-voter",
+    "https://calmatters.org/california-voter-guide-2026/proposition-39-voter-id/",
+    "https://calmatters.org/politics/2026/10/california-election-voter-id-proposition-39/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 13,
+    "requests_per_host": {
+      "openrouter.ai": 13
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 13
+    },
+    "bytes_up": 625294,
+    "bytes_down": 1157687,
+    "wire_bytes": {
+      "harness_to_proxy": 651737,
+      "proxy_to_harness": 1245772,
+      "proxy_to_internet": 647808,
+      "internet_to_proxy": 1275765
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 13,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:21:45.086402+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:21:45.086402+00:00",
+      "finished_at": "2026-11-03T13:23:13.106669+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

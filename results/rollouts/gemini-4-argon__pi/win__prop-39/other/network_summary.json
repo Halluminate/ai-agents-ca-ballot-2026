@@ -1,0 +1,65 @@
+{
+  "requests": 17,
+  "requests_per_host": {
+    "openrouter.ai": 14,
+    "www.sos.ca.gov": 1,
+    "en.wikipedia.org": 1,
+    "ballotpedia.org": 1
+  },
+  "hosts": [
+    "ballotpedia.org",
+    "en.wikipedia.org",
+    "openrouter.ai",
+    "www.sos.ca.gov"
+  ],
+  "status_counts": {
+    "200": 16,
+    "202": 1
+  },
+  "bytes_up": 1326417,
+  "bytes_down": 236160,
+  "wire_bytes": {
+    "harness_to_proxy": 1363925,
+    "proxy_to_harness": 283817,
+    "proxy_to_internet": 1358676,
+    "internet_to_proxy": 325637
+  },
+  "byte_counter": true,
+  "errors": 3,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 18,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

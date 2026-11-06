@@ -1,0 +1,375 @@
+{
+  "run_id": "sonnet__native__win__p43__r1",
+  "model": "sonnet",
+  "model_id": "anthropic/claude-sonnet-5.5",
+  "pin": "anthropic",
+  "arm": "native",
+  "harness": "claude_code",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:54:44.629771+00:00",
+  "finished_at": "2026-11-03T12:03:07.191510+00:00",
+  "seconds": 496.3,
+  "input_tokens": 27977,
+  "output_tokens": 8076,
+  "cached_tokens": 133150,
+  "cost_usd": 0.8968,
+  "cost_source": "reported",
+  "billed_usd": 0.8967890999999999,
+  "searches": [
+    "California Proposition 43 November 2026 ballot",
+    "Proposition 43 California poll two-thirds vote local special taxes PPIC",
+    "Prop 43 results California election night local tax two-thirds",
+    "\"Prop 43\" OR \"Proposition 43\" California poll likely voters October 2026 Berkeley IGS special taxes two-thirds",
+    "Berkeley IGS Poll 2026-22 October 29 2026 state ballot propositions Prop 43",
+    "Berkeley IGS poll propositions California voters late October 2026 Prop 43 Prop 40 Prop 3 results",
+    "California election results November 3 2026 propositions Prop 43 winning losing",
+    "PPIC October 2026 survey likely voters Proposition 43 55% no 42% yes local taxes",
+    "Prop 43 Howard Jarvis two-thirds local taxes campaign ads final week \"No on 43\" firefighters teachers spending",
+    "Prop 43 local tax two-thirds poll \"Prop 43\" leading OR trailing OR \"ahead\" voters survey California late October"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 10,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_43",
+    "https://calmatters.org/california-voter-guide-2026/proposition-43-tax-threshold/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://cavotes.org/ballot-measure/2026-prop-43/",
+    "https://calmatters.org/politics/2026/10/california-prop-43-election-2026/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-43-limits",
+    "https://escholarship.org/content/qt3w14s99c/qt3w14s99c.pdf",
+    "https://calmatters.org/politics/2026/10/tax-propositions-ballot-measures/",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-43-local-special-tax",
+    "https://www.dailycal.org/news/campus/research-and-ideas/proposition-40-stumbles-to-finish-line-as-support-wanes-uc-berkeley-igs-poll-finds/article_c2ff1d9b-8f58-446f-a920-bd5c9fffe453.html",
+    "https://californiatoday.com/guides/elections/2026-california-propositions-master-guide/",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_43",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_43",
+    "https://www.kqed.org/news/12103136/why-opponents-of-prop-43-say-it-would-cripple-local-funding"
+  ],
+  "tool_errors": 2,
+  "warnings": [
+    "capture: 1 connection attempts that ignored the proxy were blocked (claude.exe remote:*:49476 x1)",
+    "capture: 5 connections were not readable by the proxy (api.anthropic.com:443)"
+  ],
+  "network": {
+    "requests": 94,
+    "requests_per_host": {
+      "api.anthropic.com": 50,
+      "openrouter.ai": 33,
+      "calmatters.org": 3,
+      "voterguide.sos.ca.gov": 1,
+      "en.wikipedia.org": 1,
+      "www.ppic.org": 1,
+      "cavotes.org": 1,
+      "escholarship.org": 1,
+      "californiatoday.com": 1,
+      "www.dailycal.org": 1,
+      "www.kqed.org": 1
+    },
+    "hosts": [
+      "api.anthropic.com",
+      "californiatoday.com",
+      "calmatters.org",
+      "cavotes.org",
+      "en.wikipedia.org",
+      "escholarship.org",
+      "openrouter.ai",
+      "voterguide.sos.ca.gov",
+      "www.dailycal.org",
+      "www.kqed.org",
+      "www.ppic.org"
+    ],
+    "status_counts": {
+      "200": 71,
+      "403": 1,
+      "429": 1
+    },
+    "bytes_up": 3511615,
+    "bytes_down": 2097347,
+    "wire_bytes": {
+      "harness_to_proxy": 3731444,
+      "proxy_to_harness": 2351277,
+      "proxy_to_internet": 3600500,
+      "internet_to_proxy": 2388584
+    },
+    "byte_counter": true,
+    "errors": 32,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "connection closed"
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "server closed connection"
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/web/domain_info?domain=igs.berkeley.edu",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "connection closed"
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/web/domain_info?domain=laist.com",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "connection closed"
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0041,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 9.9999,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0011,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0041,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 20.4222,
+        "reason": "connection closed early"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "claude.exe",
+        "operation": "network-outbound",
+        "target": "remote:*:49476",
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 1,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 51,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:54:44.629771+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:54:44.629771+00:00",
+      "finished_at": "2026-11-03T12:03:07.191510+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

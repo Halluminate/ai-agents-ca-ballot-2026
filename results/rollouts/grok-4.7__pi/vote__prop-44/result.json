@@ -1,0 +1,105 @@
+{
+  "run_id": "grok__common__vote__p44__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "44",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "finished_at": "2026-11-03T05:41:07.034104+00:00",
+  "seconds": 56.7,
+  "input_tokens": 80107,
+  "output_tokens": 1570,
+  "cached_tokens": 29056,
+  "cost_usd": 0.2045,
+  "cost_source": "reported",
+  "searches": [
+    "California Proposition 44 voter guide 2026",
+    "Proposition 44 California editorial board recommendations 2026",
+    "Proposition 44 California BRG study clinic penalties FQHC program services ratio IRS Form 990",
+    "Brad Fulton Proposition 44 health center analysis almost no health center meets 90 percent"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/44/",
+    "https://voterguide.sos.ca.gov/propositions/44/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm",
+    "https://calmatters.org/health/2026/10/union-billionaire-prop-44-clinic/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf",
+    "https://www.sfchronicle.com/opinion/editorials/article/prop-44-california-health-clinic-22433656.php",
+    "https://www.progressivevotersguide.com/california/2026/general/proposition-44",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf",
+    "https://www.sacbee.com/news/politics-government/capitol-alert/article317016992.html"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 10,
+    "requests_per_host": {
+      "openrouter.ai": 9,
+      "www.progressivevotersguide.com": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.progressivevotersguide.com"
+    ],
+    "status_counts": {
+      "200": 10
+    },
+    "bytes_up": 470753,
+    "bytes_down": 148430,
+    "wire_bytes": {
+      "harness_to_proxy": 490427,
+      "proxy_to_harness": 177490,
+      "proxy_to_internet": 487633,
+      "internet_to_proxy": 198748
+    },
+    "byte_counter": true,
+    "errors": 3,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 10,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1
+}

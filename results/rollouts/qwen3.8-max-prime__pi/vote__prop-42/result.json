@@ -1,0 +1,150 @@
+{
+  "run_id": "qwen-max-prime__common__vote__p42__r1",
+  "model": "qwen-max-prime",
+  "model_id": "qwen/qwen3.8-max-prime",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "42",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "first_line",
+  "error": "",
+  "started_at": "2026-11-03T13:36:23.754228+00:00",
+  "finished_at": "2026-11-03T13:41:58.690169+00:00",
+  "seconds": 330.5,
+  "input_tokens": 153978,
+  "output_tokens": 19582,
+  "cached_tokens": 1342592,
+  "cost_usd": 1.5934,
+  "cost_source": "reported",
+  "billed_usd": 1.59340072984,
+  "searches": [
+    "California Proposition 42 ballot measure",
+    "Proposition 42 California 2026 \"protect retirement\" who is funding billionaires wealth tax",
+    "editorial board recommendation Proposition 42 California November 2026 vote no",
+    "\"Proposition 42\" California endorsement yes LA Times editorial board 2026 billionaire tax",
+    "Prop 42 California legal analysis Darien Shanske retroactive tax prohibition wealth tax poison pill law professor",
+    "fact check claim Legislature introduced proposals to tax 401(k) retirement accounts California Prop 42",
+    "Poll Proposition 42 California support opposition billionaire tax 2026 survey voters",
+    "Newsom endorses Proposition 42 statement \"retirement\" 2026 wealth tax",
+    "Los Angeles Times editorial board recommendation Prop 42 \"no\" OR \"yes\" 2026 billionaire tax endorsements",
+    "\"Prop 42\" endorsement vote yes Orange County Register OR \"San Diego Union-Tribune\" OR Wall Street Journal 2026 wealth tax ban",
+    "Los Angeles Times editorial board 2026 California proposition endorsements \"Prop. 42\"",
+    "rebuttal Gamage Galle Shanske memo Proposition 42 collateral damage overstated capital gains VLF response",
+    "California bills introduced to tax retirement accounts 401(k) pensions wealth tax AB 1253 ACA 8 list \"Prop 42\" claim five proposals",
+    "League of Women Voters California Proposition 42 2026 oppose position statement",
+    "Howard Jarvis Taxpayers Association Proposition 42 position 2026 Jon Coupal wealth tax ban",
+    "\"Prop 42\" real property carve-out does not protect homeowners wealth tax home equity analysis 2026"
+  ],
+  "search_errors": 1,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/42/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-text-proposed-laws.pdf",
+    "https://voterguide.sos.ca.gov/propositions/40/index.htm",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-42-prohibits-new-state-personal-property-taxes-and-certain-retroactive-state-taxes-initiative-constitutional-amendme",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=40&year=2026",
+    "https://voterguide.sos.ca.gov/propositions/42/arguments-rebuttals.htm",
+    "https://www.hoover.org/proposition-lab-proposition-42",
+    "https://scholarship.law.missouri.edu/facpubs/1384/",
+    "https://scholarship.law.missouri.edu/cgi/viewcontent.cgi?article=2381&context=facpubs",
+    "https://www.dailyjournal.com/article/395463-propositions-41-and-42-bad-ideas-that-threaten-to-hurt-all-californians",
+    "https://scholarship.law.missouri.edu/cgi/viewcontent.cgi?article=2381&context=facpubs",
+    "https://calmatters.org/politics/2026/10/california-billionaire-tax-explainer/",
+    "https://calbudgetcenter.org/resources/what-would-proposition-42-mean-for-california/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-42-property-taxes/",
+    "https://www.sandiegouniontribune.com/2026-09-21/endorsement-yes-on-proposition-41-and-42-to-limit-taxation-in-california/",
+    "https://calmatters.org/health/2026/10/prop-40-billionaire-tax-fact-check/",
+    "https://www.sandiegouniontribune.com/2026-09-21/endorsement-yes-on-proposition-41-and-42-to-limit-taxation-in-california/",
+    "https://fiscalrealitycheck.substack.com/p/a-california-ballot-collision-wealth",
+    "https://www.sfchronicle.com/election/article/prop-40-41-42-california-22476000.php",
+    "https://inewsource.org/2026-10-23/tax-measures-on-california-ballot-2026-election/",
+    "https://my.lwv.org/sites/default/files/pc-nov2026.pdf",
+    "https://www.hjta.org/news-events/taxing-times/taxing-times-online-fall-2026-vol-52-issue-3/presidents-message-how-the-wealth-tax-allows-the-legislature-to-circumvent-prop-13/",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-42-personal-property-taxes"
+  ],
+  "tool_errors": 2,
+  "warnings": [],
+  "network": {
+    "requests": 39,
+    "requests_per_host": {
+      "openrouter.ai": 35,
+      "www.dailyjournal.com": 1,
+      "fiscalrealitycheck.substack.com": 1,
+      "my.lwv.org": 1,
+      "www.hjta.org": 1
+    },
+    "hosts": [
+      "fiscalrealitycheck.substack.com",
+      "my.lwv.org",
+      "openrouter.ai",
+      "www.dailyjournal.com",
+      "www.hjta.org"
+    ],
+    "status_counts": {
+      "200": 38,
+      "403": 1
+    },
+    "bytes_up": 6257705,
+    "bytes_down": 3096281,
+    "wire_bytes": {
+      "harness_to_proxy": 6348008,
+      "proxy_to_harness": 3289162,
+      "proxy_to_internet": 6335971,
+      "internet_to_proxy": 3384561
+    },
+    "byte_counter": true,
+    "errors": 3,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 40,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:36:23.754228+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:36:23.754228+00:00",
+      "finished_at": "2026-11-03T13:41:58.690169+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

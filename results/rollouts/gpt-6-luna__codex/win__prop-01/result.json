@@ -1,0 +1,93 @@
+{
+  "run_id": "luna__native__win__p1__r1",
+  "model": "luna",
+  "model_id": "gpt-6-luna",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "1",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:05:25.280322+00:00",
+  "finished_at": "2026-11-03T13:06:21.696139+00:00",
+  "seconds": 54.3,
+  "input_tokens": 24,
+  "output_tokens": 4363,
+  "cached_tokens": 244435,
+  "cost_usd": 0.0634,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/1 Proposition 1 California 2024 official voter guide ...",
+    "California 2026 Proposition 1 polling support oppose Veterans Affordable Housing Bond 2026 poll ...",
+    "\"Proposition 1\" \"November 3, 2026\" California housing bond poll yes 60 no 38 ...",
+    "'Proposition 1: Housing Bond'",
+    "California Proposition 1 2026 election results November 3 2026 live results yes no ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/1/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 9,
+    "requests_per_host": {
+      "api.openai.com": 8,
+      "ab.chatgpt.com": 1
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 7,
+      "202": 1
+    },
+    "bytes_up": 969470,
+    "bytes_down": 1431093,
+    "wire_bytes": {
+      "harness_to_proxy": 778895,
+      "proxy_to_harness": 821995,
+      "proxy_to_internet": 778512,
+      "internet_to_proxy": 838956
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 922,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 10,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:05:25.280322+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:05:25.280322+00:00",
+      "finished_at": "2026-11-03T13:06:21.696139+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

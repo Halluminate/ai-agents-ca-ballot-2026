@@ -1,0 +1,127 @@
+{
+  "run_id": "qwen-max__common__better__p2__r1",
+  "model": "qwen-max",
+  "model_id": "qwen/qwen3.8-max-0902",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "2",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:44:41.420783+00:00",
+  "finished_at": "2026-11-03T12:49:01.992657+00:00",
+  "seconds": 257.7,
+  "input_tokens": 106275,
+  "output_tokens": 6089,
+  "cached_tokens": 657408,
+  "cost_usd": 0.4643,
+  "cost_source": "reported",
+  "billed_usd": 0.46427104799999996,
+  "searches": [
+    "California Proposition 2 2024 climate bond arguments for and against",
+    "California Proposition 2 2026 rainy day fund ACA 1 Legislative Analyst analysis",
+    "Prop 2 2026 California budget reserve editorial \"rainy day fund\" 20 percent",
+    "LAO \"Rethinking California's Reserve Policy\" 2025 recommendations 20 percent Budget Stabilization Account",
+    "California Gann limit state appropriations limit taxpayer rebates history 1987 last time exceeded",
+    "PPIC poll October 2026 Proposition 2 rainy day fund support percent",
+    "LA Times editorial endorsement Proposition 2 2026 rainy day fund",
+    "Susan Shelley \"Proposition 2\" 2026 Sacramento shell game rainy day fund column",
+    "California 2026-27 budget forecast deficit surplus revenue AI capital gains rainy day fund withdrawal",
+    "\"Prop 2\" 2026 California editorial yes endorsement Mercury News San Diego Union-Tribune rainy day fund"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/2/",
+    "https://voterguide.sos.ca.gov/propositions/2/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+    "https://calmatters.org/politics/2026/10/california-proposition-2-explained/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-2-rainy",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-2-rainy-day-fund",
+    "https://calbudgetcenter.org/resources/should-voters-approve-proposition-2-how-californias-rainy-day-fund-would-be-updated/",
+    "https://calbudgetcenter.org/resources/should-voters-approve-proposition-2-how-californias-rainy-day-fund-would-be-updated/",
+    "https://www.ocregister.com/2026-10-07/endorsement-no-on-prop-2-california-needs-fiscal-discipline-not-accounting-tricks/",
+    "https://sfstandard.com/opinion/2026-09-14/newsom-rainy-day-fund-prop-2/",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-2-rainy-day-fund",
+    "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-2-rainy-day-fund-voter-guide",
+    "https://cavotes.org/easy-voter-guide/",
+    "https://www.sbsun.com/2026-09-26/proposition-2-isnt-about-saving-money-its-another-sacramento-shell-game/",
+    "https://www.sandiegouniontribune.com/2026-10-02/endorsements-props-2-37-wouldnt-yield-saner-state-budgets-more-housing/",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop2-text-proposed-laws.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop2-text-proposed-laws.pdf"
+  ],
+  "tool_errors": 1,
+  "warnings": [
+    "capture: 1 connection attempts that ignored the proxy were blocked (node remote:*:64600 x1)"
+  ],
+  "network": {
+    "requests": 29,
+    "requests_per_host": {
+      "openrouter.ai": 25,
+      "www.sbsun.com": 2,
+      "sfstandard.com": 1,
+      "laist.com": 1
+    },
+    "hosts": [
+      "laist.com",
+      "openrouter.ai",
+      "sfstandard.com",
+      "www.sbsun.com"
+    ],
+    "status_counts": {
+      "200": 27,
+      "301": 1,
+      "404": 1
+    },
+    "bytes_up": 3085830,
+    "bytes_down": 914816,
+    "wire_bytes": {
+      "harness_to_proxy": 3144766,
+      "proxy_to_harness": 1030082,
+      "proxy_to_internet": 3136819,
+      "internet_to_proxy": 1091560
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "node",
+        "operation": "network-outbound",
+        "target": "remote:*:64600",
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 1,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 27,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:44:41.420783+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:44:41.420783+00:00",
+      "finished_at": "2026-11-03T12:49:01.992657+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

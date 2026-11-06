@@ -1,0 +1,64 @@
+{
+  "requests": 49,
+  "requests_per_host": {
+    "openrouter.ai": 44,
+    "oag.ca.gov": 1,
+    "www.library.ca.gov": 1,
+    "www.ppic.org": 1,
+    "www.sos.ca.gov": 1,
+    "bipartisanpolicy.org": 1
+  },
+  "hosts": [
+    "bipartisanpolicy.org",
+    "oag.ca.gov",
+    "openrouter.ai",
+    "www.library.ca.gov",
+    "www.ppic.org",
+    "www.sos.ca.gov"
+  ],
+  "status_counts": {
+    "200": 47,
+    "403": 1,
+    "404": 1
+  },
+  "bytes_up": 4328169,
+  "bytes_down": 3386847,
+  "wire_bytes": {
+    "harness_to_proxy": 4433415,
+    "proxy_to_harness": 3616658,
+    "proxy_to_internet": 4418487,
+    "internet_to_proxy": 3733661
+  },
+  "byte_counter": true,
+  "errors": 2,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 48,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

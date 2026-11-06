@@ -1,0 +1,110 @@
+{
+  "run_id": "gpt__native__win__p4__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:30:32.382684+00:00",
+  "finished_at": "2026-11-03T12:32:15.139047+00:00",
+  "seconds": 100.6,
+  "input_tokens": 33,
+  "output_tokens": 4491,
+  "cached_tokens": 403273,
+  "cost_usd": 1.7398,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "site:voterguide.sos.ca.gov/propositions/4/ Proposition 4 ...",
+    "California Proposition 4 2026 public campaign financing polling October November 2026 PPIC ...",
+    "site:ppic.org \"2026\" \"Proposition 4\" \"October\" ...",
+    "'Proposition 4 (Repeals'",
+    "\"Proposition 4\" \"2026\" \"poll\" \"November\" ...",
+    "site:sos.ca.gov \"2010\" \"Proposition 15\" \"57.3\" ...",
+    "'Proposition 4'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://voterguide.sos.ca.gov/propositions/4/?os=wtmb",
+    "https://en.wikipedia.org/wiki/2026_California_Proposition_4",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://ballotpedia.org/California_Proposition_4,_Allow_Public_Financing_of_Election_Campaigns_Measure_(2026)",
+    "https://calmatters.org/california-voter-guide-2026/proposition-4-public-fundraising/",
+    "https://escholarship.org/content/qt72722408/qt72722408.pdf"
+  ],
+  "tool_errors": 0,
+  "warnings": [
+    "capture: 1 connection attempts that ignored the proxy were blocked (codex remote:*:58827 x1)"
+  ],
+  "network": {
+    "requests": 18,
+    "requests_per_host": {
+      "api.openai.com": 16,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 15,
+      "202": 2
+    },
+    "bytes_up": 1122462,
+    "bytes_down": 2256269,
+    "wire_bytes": {
+      "harness_to_proxy": 913562,
+      "proxy_to_harness": 1272132,
+      "proxy_to_internet": 912545,
+      "internet_to_proxy": 1303873
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [
+      {
+        "process": "codex",
+        "operation": "network-outbound",
+        "target": "remote:*:58827",
+        "attempts": 1
+      }
+    ],
+    "blocked_attempts": 1,
+    "websocket_messages": 2410,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 18,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:30:32.382684+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:30:32.382684+00:00",
+      "finished_at": "2026-11-03T12:32:15.139047+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

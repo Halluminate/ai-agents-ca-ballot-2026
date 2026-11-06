@@ -1,0 +1,95 @@
+{
+  "run_id": "deepseek__common__vote__p43__r1",
+  "model": "deepseek",
+  "model_id": "deepseek/deepseek-v4-pro-0813",
+  "pin": "together",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:43:30.823004+00:00",
+  "finished_at": "2026-11-03T12:44:11.712118+00:00",
+  "seconds": 38.2,
+  "input_tokens": 35613,
+  "output_tokens": 3466,
+  "cached_tokens": 97502,
+  "cost_usd": 0.0886,
+  "cost_source": "reported",
+  "billed_usd": 0.08862788335999999,
+  "searches": [
+    "California Proposition 43 2024 voter guide",
+    "California Proposition 43 2026 two-thirds local special taxes voter-proposed analysis",
+    "Prop 43 California 2026 Save Prop 13 local taxpayer protection endorsement",
+    "California Proposition 43 endorsements editorial boards yes or no 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/",
+    "https://voterguide.sos.ca.gov/propositions/43/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/43/title-summary.htm",
+    "https://calmatters.org/politics/2026/10/california-prop-43-election-2026/",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-43-local-tax-threshold",
+    "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-43-local-special-tax",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43-text-proposed-laws.pdf"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 10,
+    "requests_per_host": {
+      "openrouter.ai": 10
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 10
+    },
+    "bytes_up": 566540,
+    "bytes_down": 514924,
+    "wire_bytes": {
+      "harness_to_proxy": 586307,
+      "proxy_to_harness": 559737,
+      "proxy_to_internet": 583569,
+      "internet_to_proxy": 580866
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 10,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:43:30.823004+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:43:30.823004+00:00",
+      "finished_at": "2026-11-03T12:44:11.712118+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

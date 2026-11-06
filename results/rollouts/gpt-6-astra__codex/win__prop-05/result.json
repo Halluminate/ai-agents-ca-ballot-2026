@@ -1,0 +1,96 @@
+{
+  "run_id": "gpt__native__win__p5__r1",
+  "model": "gpt",
+  "model_id": "gpt-6-astra",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "5",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:01:25.302972+00:00",
+  "finished_at": "2026-11-03T11:03:08.684468+00:00",
+  "seconds": 101.3,
+  "input_tokens": 27,
+  "output_tokens": 3726,
+  "cached_tokens": 295694,
+  "cost_usd": 1.5311,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 5 2026 recall election results latest polls Berkeley IGS PPIC",
+    "California Proposition 5 2026 recall election polling yes no November 2026 ...",
+    "'Proposition 5 ('",
+    "\"Proposition 5\" \"2026\" \"poll\" \"November\" ...",
+    "\"Proposition 5\" \"2026\" \"recall\" \"November 2\" ..."
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/5/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://voterguide.sos.ca.gov/propositions/5/analysis.htm",
+    "https://api.elections.kalshi.com/trade-api/v2/markets/KXCABALLOTMEASURES-26NOV03-PR05"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 15,
+    "requests_per_host": {
+      "api.openai.com": 13,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 12,
+      "202": 2
+    },
+    "bytes_up": 1088471,
+    "bytes_down": 1854991,
+    "wire_bytes": {
+      "harness_to_proxy": 892178,
+      "proxy_to_harness": 1107311,
+      "proxy_to_internet": 891281,
+      "internet_to_proxy": 1134577
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1589,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 15,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:01:25.302972+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:01:25.302972+00:00",
+      "finished_at": "2026-11-03T11:03:08.684468+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "run_id": "qwen-27b__common__vote__p42__r1",
+  "model": "qwen-27b",
+  "model_id": "qwen/qwen3.8-27b",
+  "pin": "deepinfra",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "42",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-03T13:36:29.235801+00:00",
+  "finished_at": "2026-11-03T13:38:28.687458+00:00",
+  "seconds": 116.7,
+  "input_tokens": 19371,
+  "output_tokens": 7329,
+  "cached_tokens": 20384,
+  "cost_usd": 0.0327,
+  "cost_source": "reported",
+  "billed_usd": 0.032719603959999996,
+  "searches": [
+    "California Proposition 42 2026 ballot measures",
+    "California Proposition 42 analysis expert opinion protect retirement savings",
+    "Prop 42 Prop 40 conflict more yes votes billionaire tax invalidated 2026"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/42/",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=42&year=2026",
+    "https://voterguide.sos.ca.gov/propositions/42/arguments-rebuttals.htm",
+    "https://lao.ca.gov/ballot/2026/prop42-110326.pdf"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 7,
+    "requests_per_host": {
+      "openrouter.ai": 7
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 7
+    },
+    "bytes_up": 164048,
+    "bytes_down": 2698750,
+    "wire_bytes": {
+      "harness_to_proxy": 176450,
+      "proxy_to_harness": 2856932,
+      "proxy_to_internet": 175174,
+      "internet_to_proxy": 2867797
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 7,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:36:29.235801+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:36:29.235801+00:00",
+      "finished_at": "2026-11-03T13:38:28.687458+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

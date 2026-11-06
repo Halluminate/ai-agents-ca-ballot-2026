@@ -1,0 +1,91 @@
+{
+  "run_id": "kimi__common__vote__p41__r1",
+  "model": "kimi",
+  "model_id": "moonshotai/kimi-k3",
+  "pin": "moonshotai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "41",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:43:10.106092+00:00",
+  "finished_at": "2026-11-03T12:44:52.124350+00:00",
+  "seconds": 99.2,
+  "input_tokens": 23673,
+  "output_tokens": 3346,
+  "cached_tokens": 33792,
+  "cost_usd": 0.1516,
+  "cost_source": "reported",
+  "billed_usd": 0.1516497464,
+  "searches": [
+    "California Proposition 41 Veterans Housing and Homeless Prevention Bond Act 2014",
+    "California Proposition 41 November 2026 billionaire tax spending limit audits Sergey Brin",
+    "editorial Proposition 41 California 2026 recommendation \"no on 41\" OR \"yes on 41\" Los Angeles Times CalMatters",
+    "Prop 41 California 2026 Gann Limit analysis poison pill Prop 40 nullify LAO"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/41/",
+    "https://voterguide.sos.ca.gov/propositions/41/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/40/"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 9,
+    "requests_per_host": {
+      "openrouter.ai": 9
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 9
+    },
+    "bytes_up": 254356,
+    "bytes_down": 513649,
+    "wire_bytes": {
+      "harness_to_proxy": 271802,
+      "proxy_to_harness": 556033,
+      "proxy_to_internet": 269190,
+      "internet_to_proxy": 576095
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 9,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:43:10.106092+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:43:10.106092+00:00",
+      "finished_at": "2026-11-03T12:44:52.124350+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

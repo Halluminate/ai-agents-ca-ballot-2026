@@ -1,0 +1,67 @@
+{
+  "requests": 41,
+  "requests_per_host": {
+    "openrouter.ai": 37,
+    "www.nhpr.org": 1,
+    "ivn.us": 1,
+    "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com": 1,
+    "ridleylawoffices.com": 1
+  },
+  "hosts": [
+    "ivn.us",
+    "openrouter.ai",
+    "ridleylawoffices.com",
+    "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com",
+    "www.nhpr.org"
+  ],
+  "status_counts": {
+    "200": 39,
+    "403": 1
+  },
+  "bytes_up": 6197039,
+  "bytes_down": 2012977,
+  "wire_bytes": {
+    "harness_to_proxy": 6283289,
+    "proxy_to_harness": 2191582,
+    "proxy_to_internet": 6272304,
+    "internet_to_proxy": 2278566
+  },
+  "byte_counter": true,
+  "errors": 3,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "ivn.us",
+      "url": "https://ivn.us/opinion-a-wealth-tax-would-harm-california/",
+      "error": "Client disconnected."
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 38,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

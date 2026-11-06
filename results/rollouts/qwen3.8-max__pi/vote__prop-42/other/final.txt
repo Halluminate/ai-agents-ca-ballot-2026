@@ -1,0 +1,17 @@
+**NO**
+
+**What Prop 42 actually does** (Nov. 3, 2026 ballot): Amends the state Constitution to (1) ban any new state tax enacted on/after Jan. 1, 2026 on the "ownership or control" of personal property — defined to sweep in financial assets, retirement accounts, business interests, intellectual property, digital assets, vehicles, boats, art and "personal belongings" — and (2) ban retroactive taxes, including any tax keyed to past residency. It contains a poison‑pill clause nullifying Prop 40 (the billionaire wealth tax) if 42 gets more yes votes, plus unusual self‑entrenching provisions (mandatory independent counsel to defend it, a continuous General Fund appropriation, "liberal construction," revival if the rival measure is struck down).
+
+**Why I land on no:**
+
+1. **The stated rationale is a decoy.** The LAO confirms California does *not* tax ownership of financial assets, and no live proposal does. Prop 40 explicitly excludes qualified pensions and 401(k)s (only Roth-style accounts over $10M count); every one of the five recent legislative wealth-tax bills targeted people with $15M–$500M+ in assets. Any new state tax already requires a two‑thirds legislative vote or a majority vote of the people. The "protect your 401(k)" framing is misleading — which is precisely why McClatchy ("poison pill… 401(k) decoy"), the SF Chronicle, Press Democrat, Mercury News/East Bay Times, LA Times (Skelton), SPUR, the League of Women Voters and the California Democratic Party all say no.
+
+2. **The ban is far broader than a wealth tax and permanent.** It would also foreclose future taxes on yachts/jets/art, intangible business property, digital assets, any new vehicle-license-fee-style charge (and state authorization of new local personal-property taxes), and tax-law professors Galle, Gamage and Shanske argue the loose drafting creates litigation risk for capital‑gains taxation, Prop 3's rate extension and VLF reform. Changing any of it later requires another statewide vote.
+
+3. **The retroactivity ban is over-broad.** Voters approved Prop 30 (2012) with income-tax increases applied retroactively to Jan. 1, 2012 — a routine, court-sanctioned tool (and standard practice for year-start tax conformity and anti-avoidance). Prop 42's only carve-out is a ≤365-day legislative statute during a declared emergency; initiatives and legislative constitutional amendments get none.
+
+4. **You don't need it to stop Prop 40.** Prop 40 is polling below 50% (Berkeley IGS 42–50; PPIC 46–52), and the Tax Foundation documents serious constitutional vulnerabilities in its retroactive Jan. 1 residency snapshot and intangible-property provisions. If you dislike the billionaire tax, just vote no on Prop 40 directly.
+
+5. **Follow the money.** ~$128M for Prop 42, nearly all from Building a Better California, with Sergey Brin alone at $102M — the largest such intervention in state history, by people with a direct, enormous financial stake, sold to voters under a framing fact-checkers reject. Even Gov. Newsom, who endorses it, opposes the tax it targets on separate grounds.
+
+The legitimate concern (a one-time retroactive 5% wealth tax invites capital flight and years of litigation) is a reason to vote **no on Prop 40** — not a reason to permanently constitutionalize a ban on taxing personal property and on retroactive taxation.

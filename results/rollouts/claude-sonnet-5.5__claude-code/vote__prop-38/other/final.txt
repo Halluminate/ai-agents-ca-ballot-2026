@@ -1,0 +1,41 @@
+**No.** Vote against Prop 38.
+
+This is my judgment, not a fact. It's based on the official voter guide and Legislative Analyst's analysis, the measure's text as quoted in several analyses, CalMatters' reporting, both campaigns' materials, and newspaper editorials. What drove it:
+
+- **Half the money looks built around one recipient.** About $4.2B would go to one UC-affiliated nonprofit. CalMatters found the criteria fit only the California Institute for Immunology and Immunotherapy. The criteria include founding before 2025, 200,000 sq ft, $250M in philanthropy, two specific $50M programs, and UCLA-sized hospital volumes. A UCLA spokesperson confirmed it's the only UCLA-affiliated nonprofit that could qualify.
+  - Gary Michelson co-founded and chairs that institute, wrote the measure, and has supplied more than $60M of the Yes campaign's money.
+  - The campaign says the criteria aren't tailored, but says the institute "very likely" qualifies. It won't say whether the measure was written for it.
+  - As of September the institute had three employees and no director.
+  - Michelson has said there's no personal profit in it, and the institute is a nonprofit.
+- **That recipient is exempt from open-government laws.** §130363 says the institute "shall not be deemed a public agency for any purpose under state law." That means no Public Records Act, open-meetings law, or Political Reform Act. Annual financial audits and Controller review take their place.
+- **"Pays for itself" is overstated.** The ballot argument says taxpayers bear no cost. The Legislative Analyst says $500–600M a year from the General Fund for about 20 years, with offsetting revenue uncertain and possibly decades away. The earlier $3B stem-cell bond had returned only a few hundred thousand dollars as of the early 2020s.
+- **Flaws can't be fixed later.** Even a two-thirds vote of the Legislature can't change how the bond money is allocated (Sec. 7).
+- **A No doesn't end state research funding.** A broader, UC-sponsored $7.5B research bond (SB 895) was signed Sept. 30 and goes to voters in March 2028.
+- **Opposition is unusually broad.** It includes the League of Women Voters, Common Cause, the Howard Jarvis Taxpayers Association, and the editorial boards of the SF Chronicle, Mercury News, Sacramento Bee, San Diego Union-Tribune, and OC Register. CalMatters found no outlet endorsing it. That isn't proof, but it matches what I found in the text.
+
+**Best case for Yes:**
+- Immunotherapy is proven science, and federal research funding is under real pressure.
+- The cost is about 0.25% of the General Fund.
+- The measure adds audits, a 2% administrative cap, and a 20% price discount.
+- The Michael J. Fox Foundation, Alzheimer's and ALS groups, Newsom, and both major parties back it.
+
+If getting immunology funding flowing now matters more to you than the governance concerns, and you doubt SB 895 will pass, Yes is a defensible vote.
+
+**Limits of my research:** The official text PDF and the SF Chronicle editorials wouldn't open for me. The §130363 and Sec. 7 details come from annotated legal text (GrowSF) and several outlets quoting them. Please check them against the "Text of Proposed Laws" in the voter guide you linked. Part of the editorial-board list comes from the No campaign's own site, though CalMatters independently confirms five of the papers.
+
+Sources:
+- [Official voter guide, Prop 38](https://voterguide.sos.ca.gov/propositions/38/)
+- [Legislative Analyst's analysis](https://voterguide.sos.ca.gov/propositions/38/analysis.htm)
+- [Ballot arguments and rebuttals](https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm)
+- [CalMatters voter guide](https://calmatters.org/california-voter-guide-2026/proposition-38-research-bond/)
+- [CalMatters: who's behind Prop 38](https://calmatters.org/politics/elections/2026/07/proposition-38-california/)
+- [CalMatters: the institute's readiness](https://calmatters.org/politics/elections/2026/10/prop-38-california/)
+- [GrowSF annotated legal text](https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-38/legal-text/)
+- [California Today guide](https://californiatoday.com/guides/elections/2026-california-proposition-38-guide/)
+- [NeuroSaeculum institutional assessment](https://neurosaeculum.org/proposition-38-an-institutional-assessment/)
+- [Hoover Proposition Lab](https://www.hoover.org/proposition-lab-proposition-38)
+- [Ballotpedia News on SB 895](https://news.ballotpedia.org/2026/10/02/california-voters-to-decide-7-5-billion-science-and-health-research-bond-measure-in-march-2028/)
+- [UC press release on SB 895](https://www.universityofcalifornia.edu/press-room/uc-sponsored-legislation-invest-75-billion-california-research-signed-governor-newsom)
+- [Yes on 38 campaign](https://yeson38.com)
+- [No on 38 endorsements (advocacy site)](https://votenoonprop38.org/endorsements)
+- [Michael J. Fox Foundation on Prop 38](https://www.michaeljfox.org/news/californias-proposition-38-what-parkinsons-community-should-know-election-day)

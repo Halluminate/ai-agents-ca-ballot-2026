@@ -1,0 +1,101 @@
+{
+  "run_id": "qwen-27b__common__better__p4__r1",
+  "model": "qwen-27b",
+  "model_id": "qwen/qwen3.8-27b",
+  "pin": "deepinfra",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:36:57.423177+00:00",
+  "finished_at": "2026-11-03T13:40:12.442552+00:00",
+  "seconds": 192.1,
+  "input_tokens": 46362,
+  "output_tokens": 7010,
+  "cached_tokens": 119168,
+  "cost_usd": 0.0602,
+  "cost_source": "reported",
+  "billed_usd": 0.06015962744,
+  "searches": [
+    "California Proposition 4 2026 ballot measure",
+    "SB 42 Umberg public campaign financing vote Senate Assembly 2025",
+    "editorial board \"Prop 4\" 2026 California public campaign financing vote yes or no",
+    "LA Times endorsement Prop 4 2026 public financing campaigns",
+    "research public campaign financing effectiveness study clean money small donations reduce special interest",
+    "California voters twice rejected measures lift ban public campaign financing 1988 Prop 73 history",
+    "\"Los Angeles Times\" editorial board 2026 \"Prop 4\" OR \"Proposition 4\" public financing endorsement"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://lao.ca.gov/ballot/2026/prop4-110326.pdf",
+    "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm",
+    "https://www.sandiegouniontribune.com/2026/10/13/what-to-know-about-proposition-4-before-california-voters-in-the-2026-election/",
+    "https://calmatters.org/politics/2026/10/california-proposition-4-explainer/",
+    "https://www.ocregister.com/2026/10/25/endorsement-no-on-proposition-4-california-doesnt-need-taxpayer-funded-campaigns/"
+  ],
+  "tool_errors": 1,
+  "warnings": [],
+  "network": {
+    "requests": 16,
+    "requests_per_host": {
+      "openrouter.ai": 14,
+      "www.sandiegouniontribune.com": 1,
+      "www.ocregister.com": 1
+    },
+    "hosts": [
+      "openrouter.ai",
+      "www.ocregister.com",
+      "www.sandiegouniontribune.com"
+    ],
+    "status_counts": {
+      "200": 15,
+      "404": 1
+    },
+    "bytes_up": 682043,
+    "bytes_down": 2673613,
+    "wire_bytes": {
+      "harness_to_proxy": 716194,
+      "proxy_to_harness": 2833964,
+      "proxy_to_internet": 711623,
+      "internet_to_proxy": 2869281
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 17,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:36:57.423177+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:36:57.423177+00:00",
+      "finished_at": "2026-11-03T13:40:12.442552+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

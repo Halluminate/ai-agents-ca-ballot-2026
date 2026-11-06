@@ -1,0 +1,95 @@
+{
+  "run_id": "sol__native__win__p44__r1",
+  "model": "sol",
+  "model_id": "gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "native",
+  "harness": "codex",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "44",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:16:03.142251+00:00",
+  "finished_at": "2026-11-03T13:17:20.838017+00:00",
+  "seconds": 75.6,
+  "input_tokens": 24,
+  "output_tokens": 3461,
+  "cached_tokens": 281705,
+  "cost_usd": 0.301,
+  "cost_source": "estimated",
+  "billed_usd": null,
+  "searches": [
+    "California Proposition 44 2026 polling election November 2026",
+    "'Just a quarter'",
+    "\"Proposition 44\" October November 2026 polling union funding ...",
+    "\"Prop 44\" \"cuts funding\" ...",
+    "'Proposition 44 is called'"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/44/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://ballotpedia.org/California_Proposition_44%2C_Spending_Requirements_for_Federally_Qualified_Health_Centers_Initiative_%282026%29"
+  ],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 14,
+    "requests_per_host": {
+      "api.openai.com": 12,
+      "ab.chatgpt.com": 2
+    },
+    "hosts": [
+      "ab.chatgpt.com",
+      "api.openai.com"
+    ],
+    "status_counts": {
+      "101": 1,
+      "200": 11,
+      "202": 2
+    },
+    "bytes_up": 1089276,
+    "bytes_down": 1791067,
+    "wire_bytes": {
+      "harness_to_proxy": 891200,
+      "proxy_to_harness": 1065914,
+      "proxy_to_internet": 890366,
+      "internet_to_proxy": 1091492
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 1781,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 14,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:16:03.142251+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:16:03.142251+00:00",
+      "finished_at": "2026-11-03T13:17:20.838017+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

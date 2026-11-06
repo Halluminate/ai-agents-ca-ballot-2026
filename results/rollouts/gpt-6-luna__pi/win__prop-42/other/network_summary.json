@@ -1,0 +1,44 @@
+{
+  "requests": 73,
+  "requests_per_host": {
+    "openrouter.ai": 71,
+    "escholarship.org": 1,
+    "www.nytimes.com": 1
+  },
+  "hosts": [
+    "escholarship.org",
+    "openrouter.ai",
+    "www.nytimes.com"
+  ],
+  "status_counts": {
+    "200": 71,
+    "403": 2
+  },
+  "bytes_up": 4105097,
+  "bytes_down": 1419816,
+  "wire_bytes": {
+    "harness_to_proxy": 4268539,
+    "proxy_to_harness": 1631922,
+    "proxy_to_internet": 4241640,
+    "internet_to_proxy": 1830244
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 74,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

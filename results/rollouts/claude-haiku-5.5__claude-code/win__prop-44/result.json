@@ -1,0 +1,397 @@
+{
+  "run_id": "haiku__native__win__p44__r1",
+  "model": "haiku",
+  "model_id": "anthropic/claude-haiku-5.5",
+  "pin": "anthropic",
+  "arm": "native",
+  "harness": "claude_code",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "44",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:54:44.599204+00:00",
+  "finished_at": "2026-11-03T12:40:20.819250+00:00",
+  "seconds": 2729.9,
+  "input_tokens": 66544,
+  "output_tokens": 19779,
+  "cached_tokens": 366300,
+  "cost_usd": 0.6417,
+  "cost_source": "reported",
+  "billed_usd": 0.6414322000000002,
+  "searches": [
+    "California Proposition 44 2026 ballot measure",
+    "Proposition 44 community health clinics poll California voters",
+    "Prop 44 poll October 2026 clinic spending measure support oppose",
+    "Proposition 44 election results California November 2026",
+    "California November 2026 propositions poll Berkeley IGS October likely voters",
+    "Prop 44 SEIU-UHW campaign spending million clinics opposition California Primary Care Association",
+    "PPIC October 2026 survey propositions likely voters clinic Prop 44 support",
+    "PPIC survey October 2026 Prop 40 billionaire tax Prop 44 clinic measure percent likely voters",
+    "Prop 44 clinic measure poll 34% support lowest proposition California 2026",
+    "\"Prop 44\" 25% support 71% oppose clinics PPIC",
+    "Proposition 44 clinic spending measure latest poll October 2026 support falls",
+    "Ballotpedia California 2026 Proposition 44 community health clinics polls",
+    "SEIU-UHW ballot measure record Prop 8 Prop 61 Prop 23 results failed dialysis 2018 2020",
+    "2024 California Proposition 34 SEIU-UHW AIDS Healthcare Foundation result passed failed percent",
+    "ballot measure support declines over campaign \"no\" vote tends to win initiative polls early support erodes study",
+    "Berkeley IGS poll October 29 2026 propositions results clinic spending Prop 44 yes no undecided",
+    "PPIC October 2026 statewide survey Proposition 44 clinics 25 percent likely voters oppose 71 percent",
+    "Prop 44 SEIU-UHW Regan clinics late October 2026 news campaign final week",
+    "Prop 44 California election night results clinic spending measure passes or fails"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 18,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/44/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-44",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=44&year=2026",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-44-clinic-funding/",
+    "https://www.yahoo.com/news/politics/articles/forgotten-ballot-measure-union-behind-120000207.html",
+    "https://kesq.com/news/2026/10/21/what-is-prop-44-the-california-ballot-measure-that-would-tell-community-clinics-how-to-spend-their-money/",
+    "https://www.ppic.org/pdf/ppic-statewide-survey-californians-and-their-government-october-2026.pdf",
+    "https://www.ppic.org/wp-content/uploads/crosstabs-likely-voters-1026.pdf",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://calmatters.org/newsletter/prop-40-poll/",
+    "https://ballotpedia.org/California_Proposition_44,_Community_Health_Clinic_Spending_Requirement_(2026",
+    "https://www.ppic.org/blog/commentary-affordability-is-the-top-issue-on-californias-november-ballot/",
+    "https://www.ppic.org/event/statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.ppic.org/blog/commentary-affordability-is-the-top-issue-on-californias-november-ballot/",
+    "https://www.yahoo.com/news/politics/articles/prop-44-californians-vote-90-171950291.html"
+  ],
+  "tool_errors": 3,
+  "warnings": [
+    "capture: 2 connection attempts that ignored the proxy were blocked (claude.exe remote:*:49464 x2)",
+    "capture: 13 connections were not readable by the proxy (api.anthropic.com:443)"
+  ],
+  "network": {
+    "requests": 118,
+    "requests_per_host": {
+      "api.anthropic.com": 60,
+      "openrouter.ai": 45,
+      "www.ppic.org": 6,
+      "calmatters.org": 2,
+      "www.yahoo.com": 2,
+      "voterguide.sos.ca.gov": 1,
+      "kesq.com": 1,
+      "ballotpedia.org": 1
+    },
+    "hosts": [
+      "api.anthropic.com",
+      "ballotpedia.org",
+      "calmatters.org",
+      "kesq.com",
+      "openrouter.ai",
+      "voterguide.sos.ca.gov",
+      "www.ppic.org",
+      "www.yahoo.com"
+    ],
+    "status_counts": {
+      "200": 105,
+      "202": 1,
+      "403": 4
+    },
+    "bytes_up": 4080226,
+    "bytes_down": 6703556,
+    "wire_bytes": {
+      "harness_to_proxy": 4234241,
+      "proxy_to_harness": 6936866,
+      "proxy_to_internet": 4168423,
+      "internet_to_proxy": 7005981
+    },
+    "byte_counter": true,
+    "errors": 24,
+    "error_details": [
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/web/domain_info?domain=lao.ca.gov",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "api.anthropic.com",
+        "sni": "api.anthropic.com",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "connection closed"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/messages?beta=true",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "http",
+        "host": "api.anthropic.com",
+        "url": "https://api.anthropic.com/api/event_logging/v2/batch",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      },
+      {
+        "kind": "connect_error",
+        "host": "api.anthropic.com",
+        "error": null
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 11.6269,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 9.9404,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 10.0994,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": "api.anthropic.com",
+        "bytes_up": 1609,
+        "bytes_down": 39,
+        "duration": 10.3324,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0025,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0125,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0033,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0037,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0039,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0027,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0025,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0046,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "api.anthropic.com",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 101,
+        "bytes_down": 0,
+        "duration": 10.0031,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "claude.exe",
+        "operation": "network-outbound",
+        "target": "remote:*:49464",
+        "attempts": 2
+      }
+    ],
+    "blocked_attempts": 2,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 54,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:54:44.599204+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:54:44.599204+00:00",
+      "finished_at": "2026-11-03T12:40:20.819250+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

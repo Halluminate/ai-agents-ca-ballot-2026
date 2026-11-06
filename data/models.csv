@@ -1,0 +1,18 @@
+short_name,display_name,slug,vendor,open_weights,license,evidence
+claude,Claude Opus 5.5,claude-opus-5.5,Anthropic,no,proprietary,https://openrouter.ai/anthropic/claude-opus-5.5
+sonnet,Claude Sonnet 5.5,claude-sonnet-5.5,Anthropic,no,proprietary,https://openrouter.ai/anthropic/claude-sonnet-5.5
+haiku,Claude Haiku 5.5,claude-haiku-5.5,Anthropic,no,proprietary,https://openrouter.ai/anthropic/claude-haiku-5.5
+gpt,GPT-6 Astra,gpt-6-astra,OpenAI,no,proprietary,https://openrouter.ai/openai/gpt-6-astra
+sol,GPT-6.1 Sol,gpt-6.1-sol,OpenAI,no,proprietary,https://openrouter.ai/openai/gpt-6.1-sol
+terra,GPT-6.1 Terra,gpt-6.1-terra,OpenAI,no,proprietary,https://openrouter.ai/openai/gpt-6.1-terra
+luna,GPT-6 Luna,gpt-6-luna,OpenAI,no,proprietary,https://openrouter.ai/openai/gpt-6-luna
+gemini,Gemini 4 Argon,gemini-4-argon,Google,no,proprietary,https://deepmind.google/models/model-cards/gemini-4-argon/
+flash,Gemini 3.8 Flash,gemini-3.8-flash,Google,no,proprietary,https://deepmind.google/models/model-cards/gemini-3-8-flash/
+grok,Grok 4.7,grok-4.7,xAI,no,proprietary,https://openrouter.ai/x-ai/grok-4.7
+kimi,Kimi K3,kimi-k3,Moonshot AI,yes,Kimi K3 License (modified MIT),https://huggingface.co/moonshotai/Kimi-K3
+deepseek,DeepSeek V4 Pro,deepseek-v4-pro,DeepSeek,yes,MIT,https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813
+qwen-max-prime,Qwen3.8 Max Prime,qwen3.8-max-prime,Alibaba,no,proprietary (API only; the open Qwen3.8-2.4T-A95B is a different checkpoint),https://openrouter.ai/qwen/qwen3.8-max-prime
+qwen-max,Qwen3.8 Max,qwen3.8-max,Alibaba,no,proprietary (API snapshot 0902; the open Qwen3.8-2.4T-A95B is a different checkpoint),https://openrouter.ai/qwen/qwen3.8-max-0902
+qwen-27b,Qwen3.8 27B,qwen3.8-27b,Alibaba,yes,Apache-2.0,https://huggingface.co/Qwen/Qwen3.8-27B
+glm,GLM-5.3,glm-5.3,Z.ai,yes,GLM-5.3 License (modified MIT),https://huggingface.co/zai-org/GLM-5.3
+glm-prime,GLM-5.3 Prime,glm-5.3-prime,Z.ai,unclear,a faster Alibaba Cloud serving tier of the open GLM-5.3; no separate checkpoint,https://openrouter.ai/z-ai/glm-5.3-prime

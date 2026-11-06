@@ -1,0 +1,22 @@
+Based on my research, here's what I found about **Proposition 2 (November 3, 2026) — the "Save for California's Future Act" (ACA 20)**:
+
+**What it does:**
+- Doubles the state's Budget Stabilization Account (rainy day fund) cap from 10% → 20% of General Fund tax revenues
+- Requires larger deposits in boom years when capital gains revenues spike
+- Extends mandatory extra debt payments from 2030 → 2040, and expands eligible uses to include repaying California's ~$20 billion federal unemployment insurance debt
+- Exempts deposits from the Gann Limit spending cap (withdrawals count instead), making the higher cap actually reachable
+
+**The case for YES:**
+- California has among the most volatile revenue of any state (heavy reliance on capital gains from top earners), causing severe boom-bust cycles; the 2023–25 deficits showed the current 10% reserve is inadequate
+- The measure is informed by nonpartisan Legislative Analyst's Office research recommending larger reserves
+- Overwhelming bipartisan support: passed the Assembly 59–8 and Senate 29–2; endorsed by the SF Chronicle, LA Times, Sacramento Bee, CA State PTA, firefighters, chambers of commerce, and hospitals
+- Countercyclical saving is standard best practice: it prevents mid-recession cuts to schools/healthcare and panic tax hikes
+- Paying down the UI debt saves interest and prevents escalating federal payroll taxes on employers
+
+**The case for NO (OC Register, Asm. Tangipa):**
+- Gann Limit exemption means fewer taxpayer rebates in surplus years
+- Reserves could be treated as a "slush fund"; lawmakers retain power to suspend deposits in loosely-defined "budget emergencies"
+
+**Weighing it:** The core critique (fewer Gann rebates) is a real tradeoff, but exempting deposits is a necessary design feature — money counts toward the limit when actually spent, not when saved, which is timing-neutral. Saving is not spending. The measure *requires* deposits rather than merely permitting them, and it directs windfalls toward reserves and debt rather than the permanent program expansions that created recent structural deficits. The expert-informed, bipartisan, fiscally prudent choice is clear.
+
+**yes**

@@ -1,0 +1,37 @@
+# Prop 42: vote No
+
+This is partly a values call. Here's what I found and why I landed on No.
+
+## What Prop 42 does
+Prop 42 is a constitutional amendment with three parts:
+- **No new state taxes on owning personal property.** That means anything except real estate: stocks, retirement accounts, business stakes, crypto, art, boats, planes. Taxes already being collected by Dec. 31, 2025, like the vehicle license fee, stay. Income and capital gains taxes aren't covered.
+- **No retroactive taxes.** This includes taxes based on where you lived before the tax took effect. The only exception: during a declared emergency, the Legislature can reach back up to 365 days, and the money must go to that emergency. Ballot measures get no exception.
+- **A poison-pill clause.** If 42 gets more yes votes than Prop 40 (the one-time 5% tax on billionaires' wealth), 40 is likely void even if it also passes.
+
+## Why No
+1. **You don't need 42 to stop the billionaire tax.** Voting No on 40 does that directly. Prop 40 is already losing in polls (PPIC: 46% yes, 52% no; Berkeley IGS: 42% yes, 50% no). It would also face serious lawsuits over its retroactive Jan. 1, 2026 residency date. So 42's most likely lasting effect is the permanent ban itself, and only another statewide vote could undo it.
+2. **The pitch doesn't match the facts.** The campaign is about protecting your 401(k), but California has never tried to tax ordinary savings.
+   - Prop 40 exempts pensions, 401(k)s and traditional IRAs.
+   - Three wealth-tax bills since 2020 targeted people worth $30M or more, and none even got a committee vote.
+   - Any new tax already needs a two-thirds vote in the Legislature.
+3. **It's broad, rushed and permanent.** It takes a whole category of taxes off the table forever. It also limits the routine practice of making a tax change apply from Jan. 1 of the year it passes. Critics say the wording could tangle future vehicle-fee reform and invite lawsuits over other taxes. Those critics wrote Prop 40, and I think their capital-gains claim is a stretch. Still, vague wording in a constitutional amendment is a real risk.
+4. **Groups that don't back the billionaire tax still oppose 42.** The League of Women Voters, SPUR and the SF Chronicle took no position on 40 but oppose 42. Bay Area News Group (Mercury News) opposes both.
+
+## When Yes makes sense
+Gov. Newsom makes the best case for Yes: wealth can move, so wealth taxes belong at the federal level, not state by state. Retroactive taxes are unfair. "Temporary" taxes also tend to stick: Prop 30's 2012 rates were extended by Prop 55, and Prop 3 on this ballot would make them permanent. If you want state wealth taxes and retroactive taxes banned permanently, Yes is a consistent vote. Firefighters, building trades unions, police unions, CalChamber, the state GOP, the OC Register and the San Diego Union-Tribune agree.
+
+If you support the billionaire tax, are undecided on it, or just don't want a permanent constitutional ban written as a campaign tactic, vote No. If you support 40, note that Prop 41 can also cancel it.
+
+**Money:** The Yes side has about $159M, almost all from Sergey Brin's group Building a Better California. The No side has about $34.5M, mostly from SEIU-UHW, the union behind Prop 40.
+
+I couldn't open the official legal text (the PDFs are scanned images). The details above come from the Legislative Analyst, the Attorney General's summary, and guides that quote the text.
+
+Sources:
+- [CA Voter Guide: Prop 42](https://voterguide.sos.ca.gov/propositions/42/) · [Arguments](https://voterguide.sos.ca.gov/propositions/42/arguments-rebuttals.htm) · [Prop 40](https://voterguide.sos.ca.gov/propositions/40/)
+- [LAO analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=42&year=2026)
+- [CalMatters guide](https://calmatters.org/california-voter-guide-2026/proposition-42-property-taxes/) · [Newsom endorsement](https://calmatters.org/politics/2026/10/newsom-tax-propositions-november-election/) · [Poll](https://calmatters.org/newsletter/prop-40-poll/) · [Fact check on Prop 40](https://laist.com/brief/news/politics/fact-check-could-california-lawmakers-expand-the-billionaire-tax-to-everyone)
+- [California Today guide](https://californiatoday.com/guides/elections/2026-california-proposition-42-guide/)
+- [Berkeley IGS endorsement table](https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026)
+- [SF Standard: PPIC poll](https://sfstandard.com/2026/10/27/billionaire-tax-prop-40-ppic-poll-october/) · [KQED (funding)](https://www.kqed.org/voterguide/california/proposition-42)
+- [SF Examiner](https://www.sfexaminer.com/news/politics/here-s-what-you-should-know-about-prop-42/article_104cd2a1-0906-484e-8ba5-8880aa1a6c5a.html) · [SF Chronicle editorial](https://www.sfchronicle.com/opinion/editorials/article/california-proposition-42-taxes-22449389.php) · [Chronicle on retirement claims](https://www.yahoo.com/news/articles/california-trying-tax-retirement-savings-120000251.html) · [Press Democrat](https://www.pressdemocrat.com/2026/10/10/endorsement-if-you-support-the-billionaire-tax-vote-no-on-props-41-and-42/)
+- [CA Budget & Policy Center](https://calbudgetcenter.org/resources/what-would-proposition-42-mean-for-california/) · [SPUR](https://www.spur.org/voter-guide/2026-11/ca-prop-42-personal-property-taxes) · [Hoover](https://www.hoover.org/proposition-lab-proposition-42) · [GrowSF](https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-42/) · [Tax Foundation on Prop 40](https://taxfoundation.org/research/all/state/california-proposition-40-wealth-tax-constitutional-legal-issues/)

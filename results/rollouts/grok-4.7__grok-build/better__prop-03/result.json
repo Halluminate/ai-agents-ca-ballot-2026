@@ -1,0 +1,285 @@
+{
+  "run_id": "grok__native__better__p3__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "native",
+  "harness": "grok_build",
+  "effort": "xhigh",
+  "prompt": "better",
+  "prop": "3",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:54:44.678718+00:00",
+  "finished_at": "2026-11-03T12:06:17.192072+00:00",
+  "seconds": 683.4,
+  "input_tokens": 156269,
+  "output_tokens": 19704,
+  "cached_tokens": 844544,
+  "cost_usd": 0.853,
+  "cost_source": "estimated",
+  "billed_usd": 0.856552,
+  "searches": [],
+  "search_errors": 0,
+  "web_search_requests": 0,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/3/",
+    "https://voterguide.sos.ca.gov/propositions/3/",
+    "https://voterguide.sos.ca.gov/propositions/3/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/3/title-summary.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf",
+    "https://www.yesprop3ca.com/",
+    "https://votenoprop3.com/",
+    "https://lao.ca.gov/ballot/2026/prop3-110326.pdf",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3.pdf",
+    "https://calbudgetcenter.org/resources/should-voters-approve-prop-3-how-top-tax-rates-have-helped-californians/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://lao.ca.gov/BallotAnalysis/Initiative/2025-016",
+    "https://lao.ca.gov/Publications/Report/3765",
+    "https://www.sos.ca.gov/campaign-lobbying/cal-access-resources/measure-contributions/2026-ballot-measure-contribution-totals",
+    "https://fppc.ca.gov/transparency/top-contributors.html",
+    "https://lao.ca.gov/ballot/2025/250421.pdf",
+    "https://www.fppc.ca.gov/transparency/top-contributors.html",
+    "https://calmatters.org/explainers/california-ballot-measures-2026/",
+    "https://www.fppc.ca.gov/search-filings/top-10-contributors-list/november-2026-general-election/",
+    "https://calmatters.org/politics/2026/10/california-proposition-3-income-tax/",
+    "https://lao.ca.gov/ballot/2026/prop3-110326.pdf",
+    "https://edsource.org/2026/proposition-3-california-income-tax-schools/678901",
+    "https://www.sacbee.com/news/politics-government/capitol-alert/article312000000.html",
+    "https://lao.ca.gov/reports/2026/budget-outlook",
+    "https://www.oag.ca.gov/initiatives/search?q=income+tax",
+    "https://www.sos.ca.gov/elections/ballot-measures/qualified-ballot-measures",
+    "https://lao.ca.gov/Publications/Report/5098",
+    "https://ballotpedia.org/California_Proposition_3,_Extend_High-Income_Tax_Rates_Initiative_(2026",
+    "https://lao.ca.gov/Publications/Report/4950",
+    "https://www.taxfoundation.org/location/california/",
+    "https://ballotpedia.org/California_2026_ballot_propositions",
+    "https://taxfoundation.org/location/california/",
+    "https://www.ppic.org/publication/californias-future-fiscal-outlook/",
+    "https://ballotpedia.org/California_Proposition_3,_Renew_State_Income_Tax_Increase_for_Education_Funding_Initiative_(2026",
+    "https://lao.ca.gov/ballot/2026/prop3-110326.pdf",
+    "https://www.mercurynews.com/2026/10/27/editorial-prop-3-california/",
+    "https://ballotpedia.org/California_Proposition_3,_Renew_State_Income_Tax_Increase_for_Education_Funding_Initiative_(2026",
+    "https://calmatters.org/california-voter-guide-2026/proposition-3-high-income-tax/",
+    "https://lao.ca.gov/reports/2025/the-2026-27-budget-california-s-fiscal-outlook-111925.pdf",
+    "https://edsource.org/2025/california-tax-education-funding/745606",
+    "https://lwvc.org/ballot-recommendations/",
+    "https://www.hjta.org/2026votingguide/",
+    "https://calmatters.org/california-voter-guide-2026/propositions/"
+  ],
+  "tool_errors": 5,
+  "warnings": [
+    "capture: 131 connection attempts that ignored the proxy were blocked (grok-1.0.70 network-outbound x129, grok-1.0.70 remote:*:49497 x2)",
+    "capture: 5 connections were not readable by the proxy (openrouter.ai:443, voterguide.sos.ca.gov:443, www.mercurynews.com:443)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 67,
+    "requests_per_host": {
+      "openrouter.ai": 21,
+      "lao.ca.gov": 12,
+      "voterguide.sos.ca.gov": 4,
+      "calmatters.org": 4,
+      "ballotpedia.org": 4,
+      "www.sos.ca.gov": 3,
+      "www.fppc.ca.gov": 3,
+      "vig.cdn.sos.ca.gov": 2,
+      "www.ppic.org": 2,
+      "edsource.org": 2,
+      "votenoprop3.com": 1,
+      "www.yesprop3ca.com": 1,
+      "calbudgetcenter.org": 1,
+      "fppc.ca.gov": 1,
+      "www.sacbee.com": 1,
+      "www.oag.ca.gov": 1,
+      "www.taxfoundation.org": 1,
+      "taxfoundation.org": 1,
+      "www.hjta.org": 1,
+      "lwvc.org": 1
+    },
+    "hosts": [
+      "ballotpedia.org",
+      "calbudgetcenter.org",
+      "calmatters.org",
+      "edsource.org",
+      "fppc.ca.gov",
+      "lao.ca.gov",
+      "lwvc.org",
+      "openrouter.ai",
+      "taxfoundation.org",
+      "vig.cdn.sos.ca.gov",
+      "votenoprop3.com",
+      "voterguide.sos.ca.gov",
+      "www.fppc.ca.gov",
+      "www.hjta.org",
+      "www.oag.ca.gov",
+      "www.ppic.org",
+      "www.sacbee.com",
+      "www.sos.ca.gov",
+      "www.taxfoundation.org",
+      "www.yesprop3ca.com"
+    ],
+    "status_counts": {
+      "200": 51,
+      "301": 4,
+      "302": 2,
+      "404": 6
+    },
+    "bytes_up": 4666397,
+    "bytes_down": 3396813,
+    "wire_bytes": {
+      "harness_to_proxy": 4750106,
+      "proxy_to_harness": 3602489,
+      "proxy_to_internet": 4744674,
+      "internet_to_proxy": 3741992
+    },
+    "byte_counter": true,
+    "errors": 9,
+    "error_details": [
+      {
+        "kind": "tls_failed_client",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "The client disconnected during the handshake. If this happens consistently for openrouter.ai, this may indicate that the client does not trust the proxy's certificate."
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "The client disconnected during the handshake. If this happens consistently for openrouter.ai, this may indicate that the client does not trust the proxy's certificate."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (PROTOCOL_ERROR)"
+      },
+      {
+        "kind": "http",
+        "host": "www.sos.ca.gov",
+        "url": "https://www.sos.ca.gov/campaign-lobbying/cal-access-resources/measure-contributions/2026-ballot-measure-contribution-totals",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "http",
+        "host": "www.sacbee.com",
+        "url": "https://www.sacbee.com/news/politics-government/capitol-alert/article312000000.html",
+        "error": "stream reset by client (INTERNAL_ERROR)"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (PROTOCOL_ERROR)"
+      },
+      {
+        "kind": "tls_failed_server",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed"
+      },
+      {
+        "kind": "tls_failed_client",
+        "host": "openrouter.ai",
+        "sni": "openrouter.ai",
+        "error": "connection closed early"
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1593,
+        "bytes_down": 2679,
+        "duration": 6.2892,
+        "reason": "The client disconnected during the handshake. If this happens consistently for openrouter.ai, this may indicate that the client does not trust the proxy's certificate."
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1593,
+        "bytes_down": 2679,
+        "duration": 5.1169,
+        "reason": "The client disconnected during the handshake. If this happens consistently for openrouter.ai, this may indicate that the client does not trust the proxy's certificate."
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1809,
+        "bytes_down": 39,
+        "duration": 19.3069,
+        "reason": "connection closed early"
+      },
+      {
+        "host": "voterguide.sos.ca.gov",
+        "port": 443,
+        "sni": "voterguide.sos.ca.gov",
+        "bytes_up": 1569,
+        "bytes_down": 39,
+        "duration": 610.3754,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "www.mercurynews.com",
+        "port": 443,
+        "sni": "www.mercurynews.com",
+        "bytes_up": 1563,
+        "bytes_down": 39,
+        "duration": 92.3452,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 129
+      },
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": "remote:*:49497",
+        "attempts": 2
+      }
+    ],
+    "blocked_attempts": 131,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 47,
+    "empty_connections": 2,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T11:54:44.678718+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:54:44.678718+00:00",
+      "finished_at": "2026-11-03T12:06:17.192072+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

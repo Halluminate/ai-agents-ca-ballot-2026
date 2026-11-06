@@ -1,0 +1,80 @@
+{
+  "requests": 29,
+  "requests_per_host": {
+    "openrouter.ai": 21,
+    "legal-planet.org": 2,
+    "www.sbsun.com": 1,
+    "yesonprop45.com": 1,
+    "lhc.ca.gov": 1,
+    "www.nytimes.com": 1,
+    "www.mondaq.com": 1,
+    "www.legal500.com": 1
+  },
+  "hosts": [
+    "legal-planet.org",
+    "lhc.ca.gov",
+    "openrouter.ai",
+    "www.legal500.com",
+    "www.mondaq.com",
+    "www.nytimes.com",
+    "www.sbsun.com",
+    "yesonprop45.com"
+  ],
+  "status_counts": {
+    "200": 25,
+    "301": 1,
+    "403": 1
+  },
+  "bytes_up": 4143782,
+  "bytes_down": 2931587,
+  "wire_bytes": {
+    "harness_to_proxy": 4534277,
+    "proxy_to_harness": 3044934,
+    "proxy_to_internet": 4200097,
+    "internet_to_proxy": 3101475
+  },
+  "byte_counter": true,
+  "errors": 4,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "server closed connection"
+    },
+    {
+      "kind": "tls_failed_server",
+      "host": "openrouter.ai",
+      "sni": "openrouter.ai",
+      "error": "connection closed"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "connection closed"
+    },
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 30,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

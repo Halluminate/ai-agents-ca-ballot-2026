@@ -1,0 +1,25 @@
+I know you asked for one word, but I'm not going to give a bare yes/no on this one. I read the measure text, the Legislative Analyst's (LAO) analysis, polls, editorials and studies from both sides. Whether Prop 3 is "better" depends on values: how much to tax high earners to fund services, and whether to lock that in now or revisit it later. I don't want to tip a contested vote, so here is a short version you can decide from.
+
+*Older copies of that URL showed a different Prop 3, the 2024 marriage amendment. This answer covers the Nov. 3, 2026 Prop 3 on the live page.*
+
+**What it does**
+- It makes the existing top income-tax rates permanent instead of letting them expire after 2030. The rates are 10.3–12.3% on taxable income above about $371k (single) or $743k (joint). The top rate is 13.3% once you add the separate 1% mental-health surcharge. Rates stay exactly as they are today.
+- The LAO says it maintains $5–15 billion a year. About 40% goes to schools and community colleges, and the rest goes to other General Fund programs and reserves.
+- "Not a tax increase" versus "permanent tax increase" is a dispute over the baseline. The measure changes nothing from today, but it's higher than current law, under which top rates fall to 9.3% in 2031.
+
+**Supporters' strongest points**
+- It avoids losing $5–15 billion a year while the LAO projects ongoing structural deficits and federal Medicaid cuts phase in.
+- Only the top ~2% of filers pay it, and the rates have been unchanged since 2012. Supporters also say schools need years of lead time to plan.
+
+**Opponents' strongest points**
+- It was sold as temporary. It was first set to end in 2018, then extended to 2030. Making it permanent and constitutional means undoing it would take another statewide vote.
+- There's no deadline. It doesn't expire until after 2030, so voters could decide in 2028 or 2030.
+- California already has the nation's highest top rate, and the revenue swings with the stock market. Opponents argue the state has a spending problem, not a revenue problem.
+
+**Disputed evidence:** Rauh & Shyu found that Prop 30 raised high-earner departures and lowered reported income. That eroded roughly 45–61% of the expected extra revenue within two years. Varner, Young & Prohofsky found little migration response.
+
+**Context:** Late-October polls had it ahead (Berkeley IGS 54–37, PPIC 58–41). Editorial boards split. The Sacramento Bee, SF Chronicle, Mercury News and SPUR said yes. The San Diego Union-Tribune and OC Register said no.
+
+If you tell me what matters most to you (stable revenue or lower taxes, deciding now or later), I can tell you which way that points.
+
+Sources: [LAO analysis](https://lao.ca.gov/BallotAnalysis/Proposition?number=3&year=2026) · [measure text](https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf) · [Rauh & Shyu](https://www.aeaweb.org/articles?id=10.1257/pol.20200500) · [Varner et al.](https://inequality.stanford.edu/publications/media/details/millionaire-migration-california-impact-top-tax-rates) · [LA Times explainer](https://www.latimes.com/california/story/2026-10-27/california-prop-3-school-funding-tax-explained)

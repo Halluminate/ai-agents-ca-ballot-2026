@@ -1,0 +1,144 @@
+{
+  "run_id": "sol__common__better__p43__r1",
+  "model": "sol",
+  "model_id": "openai/gpt-6.1-sol",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "43",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T11:32:35.450288+00:00",
+  "finished_at": "2026-11-03T11:34:40.372610+00:00",
+  "seconds": 121.6,
+  "input_tokens": 111118,
+  "output_tokens": 2246,
+  "cached_tokens": 191086,
+  "cost_usd": 0.3599,
+  "cost_source": "reported",
+  "billed_usd": 0.35985540112000003,
+  "searches": [
+    "California Proposition 43 2026 local special taxes two thirds voter initiative",
+    "California Upland voter initiative special tax majority two thirds Save Proposition 13 2026 analysis",
+    "California local taxes supermajority requirement economic research two thirds voter threshold public services",
+    "Proposition 43 2026 3 billion local taxes report Michael Coleman",
+    "Proposition 43 2026 editorial yes no California taxpayer protection supermajority",
+    "\"Proposition 43\" \"endorsement\" \"Yes\" 2026",
+    "tax supermajority voting local public spending outcomes empirical California 55 percent school bond research",
+    "\"Prop. 43\" \"$54,000\" tax"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/43/",
+    "https://voterguide.sos.ca.gov/propositions/43/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43-text-proposed-laws.pdf",
+    "https://voterguide.sos.ca.gov/propositions/43/title-summary.htm",
+    "https://www.cmc.edu/sites/default/files/Proposition%2043%20Backgrounder%20100526.pdf",
+    "https://www.bwslaw.com/insights/2026-california-tax-ballot-measures/",
+    "https://www.spur.org/voter-guide/2026-11/ca-prop-43-local-tax-threshold",
+    "https://www.hjta.org/saveprop13/",
+    "https://www.noprop43ca.com/",
+    "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-43-threshold-local-special-tax-voter-guide",
+    "https://www.sacbee.com/news/politics-government/election/article316990490.html",
+    "https://www.hjta.org/california-commentary/the-two-thirds-vote-requirement-for-taxes-is-fair/",
+    "https://calmatters.org/commentary/2026/08/california-constitution-proposition-43-taxes/",
+    "https://www.noprop43ca.com/about",
+    "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260ACA22",
+    "https://taxpolicycenter.org/taxvox/californias-proposition-43-adds-new-chapter-states-history-local-tax-limits",
+    "https://calbudgetcenter.org/resources/should-california-voters-approve-proposition-43/",
+    "https://calmatters.org/california-voter-guide-2026/proposition-43-tax-threshold/",
+    "https://www.californiacityfinance.com/CSMFOchapters261014p.pdf",
+    "https://www.mercurynews.com/2026/10/17/endorsement-back-prop-43-restore-voter-approved-restrictions-on-local-taxes-proposition-13/",
+    "https://www.ocregister.com/2026/08/09/endorsement-yes-on-proposition-43-to-make-it-harder-to-raise-taxes/",
+    "https://www.sandiegouniontribune.com/2026/09/04/vote-yes-on-prop-43-to-block-state-supreme-courts-rewrite-of-tax-laws/",
+    "https://www.ppic.org/wp-content/uploads/content/pubs/report/R_1208BCR.pdf",
+    "https://www.pressdemocrat.com/2026/10/03/endorsement-prop-43-wants-to-fix-a-system-that-isnt-broken/",
+    "https://www.sacbee.com/opinion/election-endorsements/article316956235.html",
+    "https://law.justia.com/cases/california/court-of-appeal/2021/a157983.html"
+  ],
+  "tool_errors": 1,
+  "warnings": [
+    "warning: reasoning was not replayed on an assistant turn",
+    "Warning: TT: undefined function: 21",
+    "Warning: TT: invalid function id: 136",
+    "Warning: TT: undefined function: 21",
+    "Warning: TT: undefined function: 21",
+    "Warning: TT: invalid function id: 136"
+  ],
+  "network": {
+    "requests": 18,
+    "requests_per_host": {
+      "openrouter.ai": 16,
+      "www.californiacityfinance.com": 1,
+      "law.justia.com": 1
+    },
+    "hosts": [
+      "law.justia.com",
+      "openrouter.ai",
+      "www.californiacityfinance.com"
+    ],
+    "status_counts": {
+      "200": 16,
+      "403": 1
+    },
+    "bytes_up": 1359888,
+    "bytes_down": 5983462,
+    "wire_bytes": {
+      "harness_to_proxy": 1395092,
+      "proxy_to_harness": 6047533,
+      "proxy_to_internet": 1390603,
+      "internet_to_proxy": 6085649
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "server closed connection"
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 17,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 2,
+  "run_started_at": "2026-11-03T11:29:46.421118+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T11:29:46.421118+00:00",
+      "finished_at": "2026-11-03T11:32:05.449226+00:00",
+      "status": "error",
+      "error": "Connection error."
+    },
+    {
+      "attempt": 2,
+      "started_at": "2026-11-03T11:32:35.450288+00:00",
+      "finished_at": "2026-11-03T11:34:40.372610+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

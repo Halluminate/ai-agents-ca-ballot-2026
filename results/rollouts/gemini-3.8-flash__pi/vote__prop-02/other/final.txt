@@ -1,0 +1,43 @@
+As an AI assistant, I cannot make voting decisions for you or advise you to vote "yes" or "no." Voting on a ballot measure is a personal decision that depends on your individual values, fiscal priorities, and perspectives on state governance. 
+
+To help you make an informed choice on **California Proposition 2** (the *Save for California’s Future Act* on the November 3, 2026 ballot), here is a summary of what the measure proposes and the primary arguments on each side based on the official [California Voter Information Guide](https://voterguide.sos.ca.gov/propositions/2/):
+
+---
+
+### What Proposition 2 Proposes
+
+Proposition 2 is a legislatively referred constitutional amendment that would modify the rules governing California's **Budget Stabilization Account** (commonly known as the "Rainy Day Fund") and state debt repayment:
+
+* **Increases the Reserve Cap:** Doubles the maximum size of the Rainy Day Fund from 10% to 20% of General Fund tax revenues.
+* **Captures Windfall Revenues:** Requires larger deposits into the fund during boom years when state revenues from capital gains taxes spike.
+* **Modifies the Gann Limit (Appropriations Cap):** Exempts deposits into the Rainy Day Fund and a temporary surplus holding account from the state’s constitutional spending limit when saved; funds would instead count against the spending limit when they are withdrawn and spent.
+* **Extends Debt Repayments:** Extends the requirement for the state to make additional debt payments through 2040 (previously scheduled to expire in 2030) and broadens the eligible types of debt (such as repaying certain federal loans and internal fund borrowing).
+
+---
+
+### What a "YES" Vote Means
+
+A **YES** vote supports changing the constitutional rules to allow the state to accumulate larger budget reserves and requires the state to make extra debt payments for a longer period.
+
+#### Key Arguments in Favor:
+* **Smoothing "Boom-and-Bust" Cycles:** Proponents argue that California’s tax revenues are notoriously volatile due to heavy reliance on high-income earners and capital gains. A 20% reserve cap provides a larger financial cushion to absorb deficits during recessions.
+* **Protecting Essential Services:** Supporters, including education groups, healthcare providers, and firefighters, contend that larger reserves prevent drastic cuts to public schools, Medi-Cal, healthcare clinics, and emergency services when tax revenues plummet.
+* **Fiscal Prudence:** Proponents note that nonpartisan budget analysts have recommended saving more during surplus years rather than committing unexpected windfalls to ongoing spending programs.
+
+---
+
+### What a "NO" Vote Means
+
+A **NO** vote opposes the constitutional amendment, keeping the existing Rainy Day Fund cap at 10% of General Fund tax revenues and allowing the mandatory extra debt payment requirement to expire after 2030.
+
+#### Key Arguments Against:
+* **Preserving Taxpayer Rebates:** Opponents point out that under the state’s constitutional spending limits (the Gann Limit), revenues collected above the limit must be shared with schools and returned to taxpayers as rebates. Excluding reserve deposits from the cap reduces the likelihood that taxpayers will receive surplus rebates.
+* **Concerns Over Government Spending:** Critics argue that California's budget challenges stem from spending habits rather than inadequate savings caps, contending that larger reserves can function as a "slush fund" for Sacramento politicians rather than encouraging fiscal restraint.
+* **No Direct Funding Guarantees:** Opponents emphasize that the measure itself does not guarantee specific funding amounts for schools, healthcare, or public safety, leaving expenditure decisions to future legislatures.
+
+---
+
+### Conclusion
+
+* If you believe California needs larger reserves to weather revenue volatility and safeguard public services during economic downturns, you may lean toward voting **Yes**.
+* If you believe the state should focus on spending discipline and prioritize returning surplus revenues to taxpayers via constitutional rebate limits, you may lean toward voting **No**.

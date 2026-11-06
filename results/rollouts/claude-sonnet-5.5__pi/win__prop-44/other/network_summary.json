@@ -1,0 +1,51 @@
+{
+  "requests": 25,
+  "requests_per_host": {
+    "openrouter.ai": 19,
+    "apnews.com": 2,
+    "www.desertsun.com": 1,
+    "www.kcra.com": 1,
+    "www.abc10.com": 1,
+    "electionresults.sos.ca.gov": 1
+  },
+  "hosts": [
+    "apnews.com",
+    "electionresults.sos.ca.gov",
+    "openrouter.ai",
+    "www.abc10.com",
+    "www.desertsun.com",
+    "www.kcra.com"
+  ],
+  "status_counts": {
+    "200": 23,
+    "301": 1,
+    "402": 1
+  },
+  "bytes_up": 1317781,
+  "bytes_down": 328875,
+  "wire_bytes": {
+    "harness_to_proxy": 1356916,
+    "proxy_to_harness": 401362,
+    "proxy_to_internet": 1352434,
+    "internet_to_proxy": 446812
+  },
+  "byte_counter": true,
+  "errors": 0,
+  "error_details": [],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 19,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

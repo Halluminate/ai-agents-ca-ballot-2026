@@ -1,0 +1,248 @@
+{
+  "run_id": "grok__native__vote__p4__r1",
+  "model": "grok",
+  "model_id": "x-ai/grok-4.7",
+  "pin": "xai",
+  "arm": "native",
+  "harness": "grok_build",
+  "effort": "xhigh",
+  "prompt": "vote",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "YES",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:53:49.503306+00:00",
+  "finished_at": "2026-11-03T13:05:35.165343+00:00",
+  "seconds": 703.2,
+  "input_tokens": 56152,
+  "output_tokens": 21325,
+  "cached_tokens": 128896,
+  "cost_usd": 0.3047,
+  "cost_source": "estimated",
+  "billed_usd": 2.382648,
+  "searches": [
+    "California Proposition 4 2024 voter guide official text summary arguments",
+    "California Proposition 4 November 2024 ballot measure what it does fiscal impact",
+    "California Proposition 4 2026 SB 42 public campaign financing repeal ban Political Reform Act",
+    "California Prop 73 1988 public funding ban charter cities Johnson v. Bradley SB 42 2025 text",
+    "SB 42 California Fair Elections Act 2025 full text Government Code 85300 strict criteria definition",
+    "empirical evidence public campaign financing effectiveness corruption diversity spending independent expenditures Arizona Connecticut New York Seattle",
+    "California Government Code 81012 Political Reform Act amendment requirements subdivision a b",
+    "Los Angeles San Francisco public campaign financing program cost results effectiveness criticism",
+    "LAO Proposition 4 2026 public financing analysis site:lao.ca.gov",
+    "Howard Jarvis Taxpayers Association SB 1107 public financing court ruling California 2016 2019",
+    "California statewide public financing program cost estimate SB 42 Proposition 4 2026",
+    "Proposition 4 2026 California campaign contributions yes no committees top donors",
+    "does public financing reduce corruption systematic review null findings Milyo Cordis Institute for Free Speech",
+    "is California the only state that bans public financing of campaigns NCSL",
+    "SB 42 charter cities impact existing public financing programs Los Angeles San Francisco apply Johnson v Bradley",
+    "SB 42 analysis \"charter city\" public financing statewide concern 85300",
+    "\"Proposition 4\" 2026 California editorial recommendation yes no public financing"
+  ],
+  "search_errors": 0,
+  "web_search_requests": 0,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://voterguide.sos.ca.gov/propositions/4/analysis.htm",
+    "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm",
+    "https://voterguide.sos.ca.gov/propositions/4/title-summary.htm",
+    "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-text-proposed-laws.pdf",
+    "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB42",
+    "https://www.hoover.org/proposition-lab-proposition-4"
+  ],
+  "tool_errors": 1,
+  "warnings": [
+    "capture: 19 connection attempts that ignored the proxy were blocked (grok-1.0.70 network-outbound x19)",
+    "capture: 12 connections were not readable by the proxy (openrouter.ai:443, voterguide.sos.ca.gov:443)",
+    "capture: DNS lookups were allowed and are not in the record (block_dns=False)"
+  ],
+  "network": {
+    "requests": 36,
+    "requests_per_host": {
+      "openrouter.ai": 29,
+      "voterguide.sos.ca.gov": 4,
+      "vig.cdn.sos.ca.gov": 1,
+      "www.hoover.org": 1,
+      "leginfo.legislature.ca.gov": 1
+    },
+    "hosts": [
+      "leginfo.legislature.ca.gov",
+      "openrouter.ai",
+      "vig.cdn.sos.ca.gov",
+      "voterguide.sos.ca.gov",
+      "www.hoover.org"
+    ],
+    "status_counts": {
+      "200": 35,
+      "404": 1
+    },
+    "bytes_up": 777575,
+    "bytes_down": 3694681,
+    "wire_bytes": {
+      "harness_to_proxy": 825283,
+      "proxy_to_harness": 3911038,
+      "proxy_to_internet": 819699,
+      "internet_to_proxy": 3959227
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "stream reset by client (CANCEL)"
+      },
+      {
+        "kind": "connect_error",
+        "host": "openrouter.ai",
+        "error": null
+      }
+    ],
+    "not_intercepted": [
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1973,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "voterguide.sos.ca.gov",
+        "port": 443,
+        "sni": "voterguide.sos.ca.gov",
+        "bytes_up": 2093,
+        "bytes_down": 1632,
+        "duration": 0.1083,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "voterguide.sos.ca.gov",
+        "port": 443,
+        "sni": "voterguide.sos.ca.gov",
+        "bytes_up": 1826,
+        "bytes_down": 3187,
+        "duration": 0.1505,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 2069,
+        "bytes_down": 1632,
+        "duration": 0.1288,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1556,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1559,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1314,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1324,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.1317,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 1802,
+        "bytes_down": 3275,
+        "duration": 0.137,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": "openrouter.ai",
+        "bytes_up": 2069,
+        "bytes_down": 1718,
+        "duration": 0.136,
+        "reason": "no request was read on this connection"
+      },
+      {
+        "host": "openrouter.ai",
+        "port": 443,
+        "sni": null,
+        "bytes_up": 63,
+        "bytes_down": 0,
+        "duration": 0.0298,
+        "reason": "no request was read on this connection"
+      }
+    ],
+    "blocked_by_sandbox": [
+      {
+        "process": "grok-1.0.70",
+        "operation": "network-outbound",
+        "target": null,
+        "attempts": 19
+      }
+    ],
+    "blocked_attempts": 19,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 28,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "allowed, not recorded"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:53:49.503306+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:53:49.503306+00:00",
+      "finished_at": "2026-11-03T13:05:35.165343+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

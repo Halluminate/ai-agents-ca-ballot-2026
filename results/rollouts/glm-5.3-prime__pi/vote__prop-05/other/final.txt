@@ -1,0 +1,26 @@
+# My recommendation: **Yes**
+
+*(One clarification first: the link you sent is the November 2026 voter guide, so this is Prop 5 on the recall-election process — not 2024's Prop 5 about housing bonds, which failed.)*
+
+## What Prop 5 does
+
+Today, a recall ballot has two questions: (1) Should the official be removed? and (2) Who replaces them? Prop 5 removes the second question. If a recall succeeds, the vacancy is filled the same way every other vacancy already is: the Lt. Governor succeeds a recalled Governor (with a special election, consolidated with the next scheduled statewide election, if the recall happens early in the term); the Governor appoints a recalled constitutional officer (AG, Treasurer, etc.); and recalled legislators are replaced by special election.
+
+## Why I came down on Yes
+
+**1. It fixes a real, demonstrated flaw — not a hypothetical one.** Under current law, a successor wins with a simple plurality. In 2003, Schwarzenegger won the governorship with ~48.6% of replacement votes among 135 candidates. In 2021, if the recall had succeeded by a whisker, Larry Elder would have become governor with roughly a third of all votes cast — while nearly half the state had just voted to keep Newsom. California is an outlier here; only six other states use this two-question format. Even the S.F. Chronicle, which ultimately opposed the measure, conceded "the second question is problematic and we might support its removal in isolation."
+
+**2. It removes the incentive to weaponize recalls.** The replacement prize is what makes recalls attractive as partisan power grabs. The 2018 recall of the measure's own author was openly run as Carl DeMaio's "weak gazelle strategy" — targeting the most vulnerable senator to flip a seat, not to remove a corrupt official. The 2021 recall was a $200M de facto redo of the 2018 election. Making recalls purely about removal restores their original Progressive-era purpose. Notably, the recall power itself remains fully intact — voters can still oust any official by majority vote.
+
+**3. The replacement process is, if anything, *more* legitimate.** A gubernatorial successor under Prop 5 must win a majority in a consolidated special election (with a top-two runoff), not a plurality of a 135-way circus. Appointees to other offices serve only until the next scheduled election and must then face voters — exactly what happened when Newsom appointed Shirley Weber as Secretary of State and Rob Bonta as Attorney General.
+
+**4. The good-government community supports it.** League of Women Voters of California, California Common Cause, Secretary of State Weber, and Dan Schnur (a Republican and former Fair Political Practices Commission chair). McClatchy's five editorial boards (Sacramento Bee, Fresno Bee, etc.) and the LA Times' veteran columnist George Skelton also endorsed Yes.
+
+## The strongest arguments against — and why they don't flip me
+
+- **"It lets a recalled official run to replace themselves."** The Chronicle called this "a flaw so bizarre even its author doesn't like it." It's odd, but bounded: under current law a recalled official can already run at the next regular election (Newman did exactly that and won his seat back). All this does is let voters — not appointees — have the final word sooner. And the measure explicitly *bars* recalled officials from being appointed to their old office.
+- **"It takes the replacement choice away from voters."** For constitutional officers, yes — the Governor appoints, but only until the next election. That's the same rule used whenever an officeholder resigns or dies, and it's far less distortionary than a plurality-winner successor serving a full term.
+- **"It's 'Newman's Revenge' — self-interested."** The origin story is unflattering, but the policy stands on its own merits, and it applies symmetrically to any party.
+- **Costs/vacancies:** the nonpartisan Legislative Analyst says the net fiscal effect is unknown and rare — millions either way, less than 0.1% of the state budget. The gubernatorial special election is consolidated with scheduled elections, so no big standalone cost there.
+
+Worth knowing: polling shows it likely losing (PPIC's October survey had it 45% yes / 52% no), so this is an underdog vote. But between a system that once nearly installed a governor with a third of the vote and one that uses the same orderly succession rules California applies to every other vacancy, I'd vote **Yes**.

@@ -1,0 +1,77 @@
+{
+  "requests": 31,
+  "requests_per_host": {
+    "openrouter.ai": 15,
+    "www.latimes.com": 2,
+    "yesonprop42.org": 1,
+    "legiscan.com": 1,
+    "www.calcpa.org": 1,
+    "www.sfexaminer.com": 1,
+    "www.sacbee.com": 1,
+    "www.sfchronicle.com": 1,
+    "www.kqed.org": 1,
+    "leginfo.legislature.ca.gov": 1,
+    "calmatters.org": 1,
+    "papers.ssrn.com": 1,
+    "www.lao.ca.gov": 1,
+    "www.grantthornton.com": 1,
+    "www.imf.org": 1,
+    "igs.berkeley.edu": 1
+  },
+  "hosts": [
+    "calmatters.org",
+    "igs.berkeley.edu",
+    "leginfo.legislature.ca.gov",
+    "legiscan.com",
+    "openrouter.ai",
+    "papers.ssrn.com",
+    "www.calcpa.org",
+    "www.grantthornton.com",
+    "www.imf.org",
+    "www.kqed.org",
+    "www.lao.ca.gov",
+    "www.latimes.com",
+    "www.sacbee.com",
+    "www.sfchronicle.com",
+    "www.sfexaminer.com",
+    "yesonprop42.org"
+  ],
+  "status_counts": {
+    "200": 28,
+    "403": 3
+  },
+  "bytes_up": 1979549,
+  "bytes_down": 1235484,
+  "wire_bytes": {
+    "harness_to_proxy": 2043542,
+    "proxy_to_harness": 1355145,
+    "proxy_to_internet": 2036918,
+    "internet_to_proxy": 1420627
+  },
+  "byte_counter": true,
+  "errors": 1,
+  "error_details": [
+    {
+      "kind": "http",
+      "host": "openrouter.ai",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "error": "Client disconnected."
+    }
+  ],
+  "not_intercepted": [],
+  "blocked_by_sandbox": [],
+  "blocked_attempts": 0,
+  "websocket_messages": 0,
+  "tcp_flows": 0,
+  "incomplete_flows": 0,
+  "connections": 32,
+  "empty_connections": 1,
+  "addon_errors": 0,
+  "log": "network.jsonl.gz",
+  "sandbox_log": "ok",
+  "proxy_exit_code": 0,
+  "proxy_stopped_cleanly": true,
+  "proxy_log_errors": 0,
+  "secrets_redacted_at_stop": 0,
+  "dns": "blocked"
+}

@@ -1,0 +1,111 @@
+{
+  "run_id": "qwen-max__common__win__p41__r1",
+  "model": "qwen-max",
+  "model_id": "qwen/qwen3.8-max-0902",
+  "pin": "alibaba",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "41",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T12:52:00.308026+00:00",
+  "finished_at": "2026-11-03T12:54:41.702546+00:00",
+  "seconds": 158.2,
+  "input_tokens": 60113,
+  "output_tokens": 3390,
+  "cached_tokens": 201088,
+  "cost_usd": 0.2416,
+  "cost_source": "reported",
+  "billed_usd": 0.24164746807999998,
+  "searches": [
+    "California Proposition 41 ballot measure 2026",
+    "Proposition 41 California poll 2026 billionaire tax audits support oppose",
+    "Prop 41 Prop 40 California November 2026 poll survey results",
+    "California Proposition 41 tracking poll final week election 2026 forecast",
+    "\"Proposition 41\" poll November 2026 California likely voters yes no audit special taxes latest",
+    "\"Prop 41\" California news November 2 2026 billionaire tax countermeasure ads spending No on 41",
+    "Proposition 41 California \"November 3, 2026\" results early returns",
+    "SurveyUSA California ballot measures poll Prop 41 Prop 42 October 2026 results all 14 measures",
+    "California Proposition 41 court ruling November 2026 news billionaires audit measure latest",
+    "editorial endorsements Proposition 41 California 2026 \"yes on 41\" OR \"no on 41\" Newsom",
+    "Newsom ballot propositions positions Prop 41 Prop 42 vote yes November 2026"
+  ],
+  "search_errors": 1,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/41/",
+    "https://www.onpointpolitics.us/forecast/measures/ca/proposition-41",
+    "https://electcademocrats.com/polls/",
+    "https://www.sfchronicle.com/politics/article/gavin-newsom-ballot-propositions-22470170.php"
+  ],
+  "tool_errors": 1,
+  "warnings": [],
+  "network": {
+    "requests": 19,
+    "requests_per_host": {
+      "openrouter.ai": 19
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 19
+    },
+    "bytes_up": 998289,
+    "bytes_down": 465054,
+    "wire_bytes": {
+      "harness_to_proxy": 1040205,
+      "proxy_to_harness": 537631,
+      "proxy_to_internet": 1033746,
+      "internet_to_proxy": 585457
+    },
+    "byte_counter": true,
+    "errors": 2,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      },
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 20,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T12:52:00.308026+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T12:52:00.308026+00:00",
+      "finished_at": "2026-11-03T12:54:41.702546+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

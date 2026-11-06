@@ -1,0 +1,130 @@
+{
+  "run_id": "luna__common__win__p4__r1",
+  "model": "luna",
+  "model_id": "openai/gpt-6-luna",
+  "pin": "openai",
+  "arm": "common",
+  "harness": "pi",
+  "effort": "max",
+  "prompt": "win",
+  "prop": "4",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-03T13:12:37.227297+00:00",
+  "finished_at": "2026-11-03T13:15:09.734292+00:00",
+  "seconds": 149.7,
+  "input_tokens": 119718,
+  "output_tokens": 8745,
+  "cached_tokens": 320653,
+  "cost_usd": 0.1596,
+  "cost_source": "reported",
+  "billed_usd": 0.15958722956000002,
+  "searches": [
+    "California Proposition 4 2024 poll support likely yes climate bond polling election analysis",
+    "2026 California Proposition 4 repeal ban public campaign financing polling support likely pass Prop 4 ballot measure 2026",
+    "California Prop 4 2026 Los Angeles Times endorsement campaign public funding proposition 4",
+    "2026 California Proposition 4 public campaign financing repeal prohibition history statewide voter support public financing ballot measure",
+    "California Proposition 4 2026 campaign finance ballot analysis fiscal impact yes on prop 4",
+    "2026 California Proposition 4 polling ballot measures poll campaign finance public funding",
+    "California 2026 Prop 4 campaign finance public funding yes no campaign funding endorsements opposition funding",
+    "2026 California proposition 4 election endorsements Los Angeles Times yes no Chronicle no Sacramento Bee endorsement Prop 4",
+    "UC Berkeley IGS poll October 2026 Proposition 4 41% 41% undecided 18 California public campaign financing support table",
+    "California prop 4 2026 campaign financing poll October 2026 support opposition 41 undecided",
+    "\"Prop. 4\" \"41%\" \"41%\" California IGS poll 2026 public campaign finance",
+    "Prop 4 public campaign finance California 2026 election outlook no likely November 3 2026 polling endorsement",
+    "Berkeley IGS poll October 2026 Proposition 4 yes no public campaign financing undecided likely voters poll October 19 25",
+    "California Proposition 25 2000 public financing election campaigns failed 65% no ballot measure 2000 LAO",
+    "California 1988 Proposition 73 public funding campaigns ban passed 58.6% results campaign finance",
+    "California Proposition 15 2010 campaign public financing voters 57.6% no official results public finance 1988 ban",
+    "California Prop 4 public campaign finance 2026 ballot polling likely voters opposition issue background earlier props 15 2010",
+    "Prop 4 2026 California campaign endorsements Yes No Newsom support California Republican Party public campaign financing",
+    "California Prop 4 2026 Yes on 4 funding campaign $1 million no on 4 committee no campaign ads election issue low profile",
+    "2026 election polls California ballot measure Proposition 4 private money public campaign finance PPIC October poll out of 14",
+    "California public financing campaigns ballot measures 1988 2000 2006 2010 rejected Proposition 4 2026 historical outcomes",
+    "\"proposition 4\" \"public campaign financing\" California 2026 \"no\" \"yes\" editorial poll",
+    "Poll California proposition ballot measures undecided voters tend no ballot initiatives poll late October 2026 Prop 4 campaign finance",
+    "California 2026 ballot Proposition 4 public campaign financing voter support risk likely fail yes on 4 campaign ballot arguments voter understanding",
+    "California Proposition 89 2006 campaign funding public financing vote results yes no 75%",
+    "California Proposition 4 November 2026 not polling yes no race vote prediction campaign public financing",
+    "2026 California Proposition 4 public campaign financing likely pass Nov 3 analysis polling no on Prop 4 independent editorial endorsements all"
+  ],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [
+    "https://voterguide.sos.ca.gov/propositions/4/",
+    "https://www.latimes.com/california/story/2026-10-29/support-dwindles-for-wealth-tax-voter-id-ballot-measures-poll-shows",
+    "https://calmatters.org/politics/2026/10/california-proposition-4-explainer/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/proposition-4-repeals",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=4&year=2026",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-4-sb-42-umberg-political-reform-act-1974-public-campaign-financing-california-fair-elections-act-2026-ch-245-2025",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-october-2026/",
+    "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+    "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-4-sb-42-umberg-political-reform-act-1974-public-campaign-financing-california-fair-elections-act-2026-ch-245-2025",
+    "https://escholarship.org/content/qt72722408/qt72722408.pdf",
+    "https://escholarship.org/content/qt1vp9q3f9/qt1vp9q3f9.pdf",
+    "https://www.sos.ca.gov/elections/prior-elections/statewide-election-results"
+  ],
+  "tool_errors": 3,
+  "warnings": [],
+  "network": {
+    "requests": 36,
+    "requests_per_host": {
+      "openrouter.ai": 36
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 36
+    },
+    "bytes_up": 2270042,
+    "bytes_down": 1397176,
+    "wire_bytes": {
+      "harness_to_proxy": 2346318,
+      "proxy_to_harness": 1535412,
+      "proxy_to_internet": 2334468,
+      "internet_to_proxy": 1623466
+    },
+    "byte_counter": true,
+    "errors": 1,
+    "error_details": [
+      {
+        "kind": "http",
+        "host": "openrouter.ai",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "error": "Client disconnected."
+      }
+    ],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 35,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-03T13:12:37.227297+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-03T13:12:37.227297+00:00",
+      "finished_at": "2026-11-03T13:15:09.734292+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}
