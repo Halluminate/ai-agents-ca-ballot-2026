@@ -97,7 +97,7 @@ def segments(folder: Path, harness: str) -> list[tuple[str, str]]:
                     out.append(("thinking", b.get("thinking", "")))
                 elif b.get("type") in ("tool_use", "server_tool_use"):
                     out.append(("tool", json.dumps(b.get("input") or {})))
-        elif harness == "pi" and kind == "message_end" and (event.get("message") or {}).get("role") == "assistant":
+        elif harness in ("pi", "pi_noweb") and kind == "message_end" and (event.get("message") or {}).get("role") == "assistant":
             for b in event["message"].get("content") or []:
                 if b.get("type") == "text":
                     out.append(("text", b.get("text", "")))

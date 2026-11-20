@@ -25,7 +25,7 @@ from ballot.analysis.sites import domain
 
 URL = re.compile(r"https?://[^\s\"'<>\\)\]]+")
 OPEN_TOOLS = FETCH_TOOLS | {"open_page"}
-SETUP_ORDER = ("claude_code", "codex", "gemini_cli", "grok_build", "pi")
+SETUP_ORDER = ("claude_code", "codex", "gemini_cli", "grok_build", "pi", "pi_noweb")
 
 
 @dataclass
@@ -154,7 +154,8 @@ def pi_steps(path: Path) -> list[Step]:
 
 
 PARSERS = {"claude_code": messages_stream_steps, "grok_build": messages_stream_steps, "codex": codex_steps,
-           "codex_openrouter": codex_steps, "gemini_cli": gemini_steps, "pi": pi_steps}
+           "codex_openrouter": codex_steps, "gemini_cli": gemini_steps, "pi": pi_steps,
+           "pi_noweb": pi_steps}
 
 
 def steps_of(events: Path, harness: str) -> list[Step]:
@@ -219,21 +220,33 @@ def setup_page(group: list[dict]) -> str:
     ]) + "\n"
 
 
+def searched(results: list[dict]) -> bool:
+    """Whether any of these rollouts searched or opened a page (the no-web arm's never do)."""
+    return any(r["searches"] or r["fetches"] for r in results)
+
+
+def asked(results: list[dict]) -> dict[str, str]:
+    """The questions these rollouts answer, in the analysis order, with their wording."""
+    return {q: wording for q, wording in questions().items() if any(r["prompt"] == q for r in results)}
+
+
 def index_page(results: list[dict]) -> str:
+    web = searched(results)
     parts = [
         "# Every rollout",
         f"{len(results):,} rollouts: {len({(r['model'], r['harness']) for r in results})} setups (model × harness) × "
-        f"{len(questions())} questions × {len(propositions())} propositions. Each cell opens that rollout's trajectory exactly as "
-        "the harness saved it (trajectory.jsonl, one JSON event per line): the prompt, every search and page the model opened "
-        "with what came back, its reasoning where the harness records it, and its final reply. Next to it in the same "
-        "folder: result.json (the scored answer) and search_results.json (what its searches returned); everything else "
-        "the run saved is in the folder's other/ subfolder.",
+        f"{len(asked(results))} questions × {len(propositions())} propositions. Each cell opens that rollout's trajectory exactly as "
+        "the harness saved it (trajectory.jsonl, one JSON event per line): the prompt, "
+        + ("every search and page the model opened with what came back, " if web else "")
+        + "its reasoning where the harness records it, and its final reply. Next to it in the same folder: result.json (the "
+        "scored answer) and search_results.json (" + ("what its searches returned" if web else "empty: these rollouts had no "
+        "search tools") + "); everything else the run saved is in the folder's other/ subfolder.",
         "**Y** = answered yes, **N** = answered no, **D** = declined (gave no plain yes or no), **X** = excluded (answered "
         "about an older measure with the same number; see [OLD_MEASURE_CHECK.md](OLD_MEASURE_CHECK.md)), **T** = timed out.",
         "[rollouts/](rollouts/) explains how the folders are named, and each setup's folder lists its rollouts with their "
-        "research and cost.",
+        + ("research and cost." if web else "time and cost."),
     ]
-    for question, wording in questions().items():
+    for question, wording in asked(results).items():
         parts.append(f"## `{question}`: \"{wording.split('?')[0]}?\"\n\n" + grid(results, question, ""))
     prop_rows = ["| prop | title | what it does |", "|---|---|---|"]
     prop_rows += [f"| {p['prop']} | {p['title']} | {p.get('short', '')} |" for p in propositions().values()]
@@ -252,19 +265,24 @@ def rollouts_page(results: list[dict]) -> str:
         n = lambda status, answer=None: sum(1 for r in group if r["status"] == status and (answer is None or r["answer"] == answer))
         rows.append(f"| {setup_name(r0['model'], r0['harness'])} | [{folder}/]({folder}/) | {n('answered', 'YES')} | "
                     f"{n('answered', 'NO')} | {n('no_answer')} | {n('excluded') + n('timeout')} |")
-    example = next(r for r in results if r["model"] == "claude" and r["harness"] == "pi" and r["prompt"] == "vote" and str(r["prop"]) == "40")
+    example = next(r for r in results if r["model"] == "claude" and r["harness"] in ("pi", "pi_noweb") and r["prompt"] == "vote" and str(r["prop"]) == "40")
+    web = searched(results)
+    names = [f"`{q}`" for q in asked(results)]
+    choices = ", ".join(names[:-1]) + " or " + names[-1] if len(names) > 1 else names[0]
     leaf = "/".join(example["path"].split("/")[1:])
     return "\n\n".join([
         "# Every trajectory",
         f"One folder per rollout, `<setup>/<question>__prop-<NN>/`, {len(results):,} in all. In each is the rollout's trajectory "
-        "exactly as the harness saved it: `trajectory.jsonl`, one JSON event per line, with the prompt, every search and page "
-        "the agent opened and what came back, its reasoning where the harness records it, and its final reply.",
-        "**To open any run,** pick its setup below, then its question (`vote`, `better` or `win`) and proposition. For "
+        "exactly as the harness saved it: `trajectory.jsonl`, one JSON event per line, with the prompt, "
+        + ("every search and page the agent opened and what came back, " if web else "")
+        + "its reasoning where the harness records it, and its final reply.",
+        f"**To open any run,** pick its setup below, then its question ({choices}) and proposition. For "
         f"example, {setup_name(example['model'], example['harness'])} asked how to vote on Prop 40 is "
-        f"[{leaf}/trajectory.jsonl]({leaf}/trajectory.jsonl). [Every answer in three grids](../README.md) links each one "
+        f"[{leaf}/trajectory.jsonl]({leaf}/trajectory.jsonl). [Every answer in {['one', 'two', 'three'][len(names) - 1]} grids](../README.md) links each one "
         "directly, and [runs.csv](../runs.csv) lists them all, one row per rollout with its `path`.",
         "Each rollout's folder has three files: `trajectory.jsonl`, `result.json` (the scored answer, with its searches, "
-        "pages read, time and cost) and `search_results.json` (every result its searches returned). Everything else the "
+        "pages read, time and cost) and `search_results.json` (" + ("every result its searches returned" if web else "empty: these rollouts had "
+        "no search tools") + "). Everything else the "
         "run saved is in its `other/` subfolder: `prompt.txt` (the prompt it got), `final.txt` (its final reply), "
         "`billed.json` (what OpenRouter charged), `network_summary.json` (its requests by host) and `stderr.log`. An "
         "attempt that failed before the rollout started over is kept there too, as `failed-<N>.trajectory.jsonl`. GitHub "

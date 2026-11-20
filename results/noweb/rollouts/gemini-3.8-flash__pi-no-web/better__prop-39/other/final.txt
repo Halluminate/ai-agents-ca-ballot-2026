@@ -1,0 +1,15 @@
+Whether to vote "yes" or "no" on Proposition 39 depends on how voters weigh election security measures against ease of voter access, with supporters and opponents offering differing perspectives on the initiative.
+
+### Arguments for Voting "Yes"
+Supporters of the measure—including **The Transparency Foundation**, the **Howard Jarvis Taxpayers Association**, the **Latino American Political Association**, and the **California Women’s Leadership Association**—argue that:
+
+* **Election Integrity and Confidence:** Requiring government-issued identification ensures that each voter is who they claim to be, thereby boosting public trust and confidence in election outcomes.
+* **Mail-in Ballot Verification:** Requiring the last four digits of a government ID on mail-in ballot envelopes adds a reliable layer of security to verify the voter's identity before the ballot is counted.
+* **Consistency:** Government-issued identification is already a standard requirement for many everyday activities—such as boarding an airplane, cashing a check, or interacting with government agencies—and applying it to voting creates a clear, standardized standard.
+
+### Arguments for Voting "No"
+Opponents of the measure—including **ACLU California Action**, **Common Cause**, and the **League of Women Voters of California**—argue that:
+
+* **Voter Disenfranchisement:** Requiring specific forms of government-issued identification creates unnecessary barriers that disproportionately impact low-income citizens, seniors, students, and rural voters who may lack such IDs or the means to easily acquire them.
+* **Risk of Rejected Ballots:** Mandating ID numbers on mail-in envelopes could lead to the disqualification of valid ballots due to clerical errors, omission, or misunderstanding of the instructions.
+* **Fiscal Impact:** The initiative carries an estimated ongoing cost of tens of millions to low hundreds of millions of dollars annually to implement, which opponents argue is an unjustified expenditure given the rarity of in-person voter impersonation fraud.

@@ -1,0 +1,81 @@
+{
+  "run_id": "flash__noweb__better__p43__r1",
+  "model": "flash",
+  "model_id": "google/gemini-3.8-flash",
+  "pin": "google-ai-studio",
+  "arm": "noweb",
+  "harness": "pi_noweb",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "43",
+  "repeat": 1,
+  "status": "no_answer",
+  "answer": null,
+  "answer_form": "none",
+  "error": "",
+  "started_at": "2026-11-17T18:48:31.799389+00:00",
+  "finished_at": "2026-11-17T18:48:46.339145+00:00",
+  "seconds": 12.8,
+  "input_tokens": 234,
+  "output_tokens": 1184,
+  "cached_tokens": 0,
+  "cost_usd": 0.0046,
+  "cost_source": "reported",
+  "billed_usd": 0.0046155,
+  "searches": [],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 1,
+    "requests_per_host": {
+      "openrouter.ai": 1
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 1
+    },
+    "bytes_up": 1829,
+    "bytes_down": 19735,
+    "wire_bytes": {
+      "harness_to_proxy": 3762,
+      "proxy_to_harness": 24070,
+      "proxy_to_internet": 3628,
+      "internet_to_proxy": 25555
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 2,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-17T18:48:31.799389+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-17T18:48:31.799389+00:00",
+      "finished_at": "2026-11-17T18:48:46.339145+00:00",
+      "status": "no_answer",
+      "error": ""
+    }
+  ]
+}

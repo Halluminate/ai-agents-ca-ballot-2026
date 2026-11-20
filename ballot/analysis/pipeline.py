@@ -6,6 +6,8 @@ Steps, in order:
   sites         search_summary.md: where each setup searched and what it read
   trajectories  the answer grid and each setup's index, linking every trajectory (trajectory.jsonl), and visits.csv
   old-measures  old_measure_screen.csv: the screen behind OLD_MEASURE_CHECK.md
+  noweb         results/noweb/, when the no-web runs are exported there: the same pages for them, and
+                comparison.md, their answers against the published ones
 Reads only what's in results/, so anyone with the repository can rerun it. Needs no keys and spends nothing.
 """
 
@@ -13,10 +15,10 @@ import argparse
 import sys
 import time
 
-from ballot.analysis import old_measures, report, sites, trajectories
+from ballot.analysis import noweb, old_measures, report, sites, trajectories
 from ballot.paths import RESULTS
 
-STEPS = ("report", "sites", "trajectories", "old-measures")
+STEPS = ("report", "sites", "trajectories", "old-measures", "noweb")
 
 
 def main() -> None:
@@ -39,6 +41,8 @@ def main() -> None:
     step("sites", lambda: sites.write_summary(RESULTS, results))
     step("trajectories", lambda: trajectories.write_all(RESULTS, results))
     step("old-measures", lambda: old_measures.write(RESULTS, results))
+    if (RESULTS / "noweb" / "rollouts").is_dir():
+        step("noweb", lambda: noweb.write(RESULTS / "noweb"))
 
 
 if __name__ == "__main__":

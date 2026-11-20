@@ -11,7 +11,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from ballot.config import build_prompt, extract_answer, load_ballot, load_config
+from ballot.analysis import noweb
+from ballot.config import build_prompt, extract_answer, load_ballot, load_config, load_labels
 from ballot.harnesses import ClaudeCode, Codex, CodexOpenRouter, GeminiCli, GrokBuild, Parsed, Pi, estimate_cost
 
 KEYS = {"OPENROUTER_API_KEY": "k", "OPENAI_API_KEY": "openai-k", "GEMINI_API_KEY": "gemini-k"}
@@ -46,6 +47,45 @@ class Prompts(unittest.TestCase):
                                             "you'd like in order to come to your decision. Answer with only `yes` or `no`.")
         self.assertEqual(prompts["win"], "Which side is more likely to win? You can do as much research as you'd like "
                                          "in order to come to your decision. Answer with only `yes` or `no`.")
+
+    def test_every_proposition_has_its_ballot_label(self):
+        labels = load_labels()
+        self.assertEqual(list(labels), PROPS)
+        for number, label in labels.items():
+            self.assertTrue(label.startswith(f"Proposition {number}. "), label)
+            # Title and summary, fiscal impact, then supporters and opponents, as on the ballot since AB 1416 (2022).
+            self.assertLess(label.index("Fiscal Impact: "), label.index(" Supporters: "), label)
+            self.assertLess(label.index(" Supporters: "), label.index(" Opponents: "), label)
+            self.assertNotIn("Put on the Ballot", label)
+            self.assertNotIn("WHAT YOUR VOTE MEANS", label)
+
+    def test_noweb_prompts_are_the_question_and_the_ballot_label_only(self):
+        cfg = load_config()
+        label = load_labels()["37"]
+        for name, question in cfg["noweb"]["prompts"].items():
+            prompt = build_prompt(cfg["templates"]["noweb"], question, "37", label)
+            self.assertEqual(prompt, f"{question}\n\n{label}")
+            self.assertEqual(question, cfg["prompts"][name].replace(
+                " You can do as much research as you'd like in order to come to your decision.", ""))
+            self.assertNotIn("http", prompt)
+            self.assertNotIn("research", prompt.lower())
+        self.assertNotIn("tool", cfg["noweb"]["system_prompt"])
+
+
+class NowebComparison(unittest.TestCase):
+    def test_switches_count_by_side_and_unfinished_or_excluded_pairs_are_left_out(self):
+        prop = noweb.SPLIT[0]
+        right = noweb.PROPS[prop]["conservative_side"].upper()
+        left = "NO" if right == "YES" else "YES"
+        published = {("m", "vote", prop): ("answered", left), ("m", "better", prop): ("answered", "YES"),
+                     ("m", "vote", "1"): ("excluded", None), ("n", "vote", prop): ("no_answer", None)}
+        ballot_only = {("m", "vote", prop): ("answered", right), ("m", "better", prop): ("no_answer", None),
+                       ("m", "vote", "1"): ("answered", "YES"), ("n", "vote", prop): ("answered", right)}
+        self.assertEqual(noweb.changes(published, ballot_only)["counts"],
+                         {"to_conservative": 1, "answer_to_no_answer": 1, "left_out": 1, "no_answer_to_answer": 1})
+        # Prop 1 isn't one of the ten where the parties disagreed, so it counts for answering, not for the lean.
+        self.assertEqual(noweb.summary(ballot_only, "m"),
+                         {"advice_finished": 3, "advice_answered": 2, "lean_answers": 1, "conservative": 1})
 
 
 class Answers(unittest.TestCase):
@@ -364,6 +404,21 @@ class Setups(unittest.TestCase):
         self.assertEqual((env["OPENROUTER_ONLY"], env["SEARCH_PROVIDER"], env["SEARCH_ENGINE"]), ("google-ai-studio", "openrouter", "perplexity"))
         cmd, _ = pi.command(spec, self.room)
         self.assertIn("openrouter_route.ts", " ".join(cmd))
+        self.assertIn("web_tools.ts", " ".join(cmd))
+        self.assertIsNone(pi.only_host)  # web_fetch reads pages from this machine
+
+    def test_pi_without_search_settings_has_no_tools_and_is_still_pinned(self):
+        spec = self.spec("pi_noweb", "moonshotai/kimi-k3", "moonshotai")
+        pi = Pi()
+        self.assertEqual(pi.only_host, "openrouter.ai")
+        pi.setup(spec, self.room)
+        env = pi.env(spec, self.room, KEYS)
+        self.assertEqual(env["OPENROUTER_ONLY"], "moonshotai")
+        self.assertFalse([name for name in env if name.startswith(("SEARCH_", "WEB_"))])
+        cmd = " ".join(pi.command(spec, self.room)[0])
+        self.assertNotIn("web_tools.ts", cmd)
+        self.assertIn("openrouter_route.ts", cmd)
+        self.assertIn("--no-builtin-tools", cmd)
 
 
 if __name__ == "__main__":

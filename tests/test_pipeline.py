@@ -16,7 +16,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from ballot import runner as run
-from ballot.config import Spec, build_prompt, load_config
+from ballot.config import Spec, build_prompt, load_config, load_labels
 from ballot.harnesses import ClaudeCode, Codex, CodexOpenRouter, GeminiCli, GrokBuild, Pi, Room
 from fake_provider import FakeProvider, offered_tools
 
@@ -138,6 +138,23 @@ class Pipeline(unittest.TestCase):
                 for request in self.fake.requests:  # Claude requests carry it as x-api-key
                     headers = request["headers"]
                     self.assertTrue(headers.get("authorization") == f"Bearer {KEY}" or headers.get("x-api-key") == KEY)
+
+    def test_pi_without_search_offers_no_tools_and_stays_pinned(self):
+        cfg = CFG["noweb"]
+        spec = make_spec("moonshotai/kimi-k3", "moonshotai", "noweb", "pi_noweb", effort="max")
+        spec.system_prompt = cfg["system_prompt"]
+        spec.prompt = build_prompt(CFG["templates"]["noweb"], cfg["prompts"]["vote"], "1", load_labels()["1"])
+        result = self.run_spec(spec, ViaFake(Pi(), pi_base_url=f"{self.fake.url}/api/v1"))
+        self.assertEqual((result["status"], result["answer"], result["searches"], result["fetches"]),
+                         ("answered", "YES", [], []), result["error"])
+        self.assertEqual(self.fake.tools_seen(), set())
+        for request in self.fake.requests:
+            body = request["body"]
+            self.assertFalse(body.get("plugins") or body.get("web_search_options") or body.get("tools"))
+            self.assertEqual(body.get("provider"), {"only": ["moonshotai"], "allow_fallbacks": False})
+            self.assertIn("AUTHORIZES BONDS FOR HOUSING", json.dumps(body))
+            self.assertNotIn("voterguide", json.dumps(body))
+            self.assertNotIn("tool", json.dumps(body.get("messages", [])[0]))  # the system prompt
 
     def test_claude_code(self):
         spec = make_spec("anthropic/claude-opus-5.5", "anthropic", "native", "claude_code", effort="max")

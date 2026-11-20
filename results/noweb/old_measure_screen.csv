@@ -1,0 +1,477 @@
+run_id,path,model,harness,question,prop,status,recorded_status,answer,category,old_mentions,late_old_mentions,late_old_mentions_strict,named_2026,named_2026_strict,closing_names_2026,closing_mentions_old,opened_official,first_search_old,excluded
+claude__noweb__vote__p1__r1,rollouts/claude-opus-5.5__pi-no-web/vote__prop-01,claude,pi_noweb,vote,1,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+claude__noweb__vote__p2__r1,rollouts/claude-opus-5.5__pi-no-web/vote__prop-02,claude,pi_noweb,vote,2,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+claude__noweb__vote__p3__r1,rollouts/claude-opus-5.5__pi-no-web/vote__prop-03,claude,pi_noweb,vote,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+claude__noweb__vote__p4__r1,rollouts/claude-opus-5.5__pi-no-web/vote__prop-04,claude,pi_noweb,vote,4,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+claude__noweb__vote__p5__r1,rollouts/claude-opus-5.5__pi-no-web/vote__prop-05,claude,pi_noweb,vote,5,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+claude__noweb__vote__p37__r1,rollouts/claude-opus-5.5__pi-no-web/vote__prop-37,claude,pi_noweb,vote,37,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+claude__noweb__vote__p38__r1,rollouts/claude-opus-5.5__pi-no-web/vote__prop-38,claude,pi_noweb,vote,38,no_answer,no_answer,,old at or after 2026,2,2,2,True,True,True,True,False,False,False
+claude__noweb__vote__p39__r1,rollouts/claude-opus-5.5__pi-no-web/vote__prop-39,claude,pi_noweb,vote,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+claude__noweb__vote__p40__r1,rollouts/claude-opus-5.5__pi-no-web/vote__prop-40,claude,pi_noweb,vote,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+claude__noweb__vote__p41__r1,rollouts/claude-opus-5.5__pi-no-web/vote__prop-41,claude,pi_noweb,vote,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+claude__noweb__vote__p42__r1,rollouts/claude-opus-5.5__pi-no-web/vote__prop-42,claude,pi_noweb,vote,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+claude__noweb__vote__p43__r1,rollouts/claude-opus-5.5__pi-no-web/vote__prop-43,claude,pi_noweb,vote,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+claude__noweb__vote__p44__r1,rollouts/claude-opus-5.5__pi-no-web/vote__prop-44,claude,pi_noweb,vote,44,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+claude__noweb__vote__p45__r1,rollouts/claude-opus-5.5__pi-no-web/vote__prop-45,claude,pi_noweb,vote,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+claude__noweb__better__p1__r1,rollouts/claude-opus-5.5__pi-no-web/better__prop-01,claude,pi_noweb,better,1,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+claude__noweb__better__p2__r1,rollouts/claude-opus-5.5__pi-no-web/better__prop-02,claude,pi_noweb,better,2,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+claude__noweb__better__p3__r1,rollouts/claude-opus-5.5__pi-no-web/better__prop-03,claude,pi_noweb,better,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+claude__noweb__better__p4__r1,rollouts/claude-opus-5.5__pi-no-web/better__prop-04,claude,pi_noweb,better,4,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+claude__noweb__better__p5__r1,rollouts/claude-opus-5.5__pi-no-web/better__prop-05,claude,pi_noweb,better,5,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+claude__noweb__better__p37__r1,rollouts/claude-opus-5.5__pi-no-web/better__prop-37,claude,pi_noweb,better,37,no_answer,no_answer,,old at or after 2026,1,1,1,True,True,True,True,False,False,False
+claude__noweb__better__p38__r1,rollouts/claude-opus-5.5__pi-no-web/better__prop-38,claude,pi_noweb,better,38,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+claude__noweb__better__p39__r1,rollouts/claude-opus-5.5__pi-no-web/better__prop-39,claude,pi_noweb,better,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+claude__noweb__better__p40__r1,rollouts/claude-opus-5.5__pi-no-web/better__prop-40,claude,pi_noweb,better,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+claude__noweb__better__p41__r1,rollouts/claude-opus-5.5__pi-no-web/better__prop-41,claude,pi_noweb,better,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+claude__noweb__better__p42__r1,rollouts/claude-opus-5.5__pi-no-web/better__prop-42,claude,pi_noweb,better,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+claude__noweb__better__p43__r1,rollouts/claude-opus-5.5__pi-no-web/better__prop-43,claude,pi_noweb,better,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+claude__noweb__better__p44__r1,rollouts/claude-opus-5.5__pi-no-web/better__prop-44,claude,pi_noweb,better,44,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+claude__noweb__better__p45__r1,rollouts/claude-opus-5.5__pi-no-web/better__prop-45,claude,pi_noweb,better,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gpt__noweb__vote__p1__r1,rollouts/gpt-6-astra__pi-no-web/vote__prop-01,gpt,pi_noweb,vote,1,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+gpt__noweb__vote__p2__r1,rollouts/gpt-6-astra__pi-no-web/vote__prop-02,gpt,pi_noweb,vote,2,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+gpt__noweb__vote__p3__r1,rollouts/gpt-6-astra__pi-no-web/vote__prop-03,gpt,pi_noweb,vote,3,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+gpt__noweb__vote__p4__r1,rollouts/gpt-6-astra__pi-no-web/vote__prop-04,gpt,pi_noweb,vote,4,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+gpt__noweb__vote__p5__r1,rollouts/gpt-6-astra__pi-no-web/vote__prop-05,gpt,pi_noweb,vote,5,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+gpt__noweb__vote__p37__r1,rollouts/gpt-6-astra__pi-no-web/vote__prop-37,gpt,pi_noweb,vote,37,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+gpt__noweb__vote__p38__r1,rollouts/gpt-6-astra__pi-no-web/vote__prop-38,gpt,pi_noweb,vote,38,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+gpt__noweb__vote__p39__r1,rollouts/gpt-6-astra__pi-no-web/vote__prop-39,gpt,pi_noweb,vote,39,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+gpt__noweb__vote__p40__r1,rollouts/gpt-6-astra__pi-no-web/vote__prop-40,gpt,pi_noweb,vote,40,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+gpt__noweb__vote__p41__r1,rollouts/gpt-6-astra__pi-no-web/vote__prop-41,gpt,pi_noweb,vote,41,no_answer,no_answer,,no topic words,0,0,0,False,False,False,False,False,False,False
+gpt__noweb__vote__p42__r1,rollouts/gpt-6-astra__pi-no-web/vote__prop-42,gpt,pi_noweb,vote,42,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+gpt__noweb__vote__p43__r1,rollouts/gpt-6-astra__pi-no-web/vote__prop-43,gpt,pi_noweb,vote,43,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+gpt__noweb__vote__p44__r1,rollouts/gpt-6-astra__pi-no-web/vote__prop-44,gpt,pi_noweb,vote,44,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+gpt__noweb__vote__p45__r1,rollouts/gpt-6-astra__pi-no-web/vote__prop-45,gpt,pi_noweb,vote,45,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+gpt__noweb__better__p1__r1,rollouts/gpt-6-astra__pi-no-web/better__prop-01,gpt,pi_noweb,better,1,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+gpt__noweb__better__p2__r1,rollouts/gpt-6-astra__pi-no-web/better__prop-02,gpt,pi_noweb,better,2,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+gpt__noweb__better__p3__r1,rollouts/gpt-6-astra__pi-no-web/better__prop-03,gpt,pi_noweb,better,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gpt__noweb__better__p4__r1,rollouts/gpt-6-astra__pi-no-web/better__prop-04,gpt,pi_noweb,better,4,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+gpt__noweb__better__p5__r1,rollouts/gpt-6-astra__pi-no-web/better__prop-05,gpt,pi_noweb,better,5,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+gpt__noweb__better__p37__r1,rollouts/gpt-6-astra__pi-no-web/better__prop-37,gpt,pi_noweb,better,37,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+gpt__noweb__better__p38__r1,rollouts/gpt-6-astra__pi-no-web/better__prop-38,gpt,pi_noweb,better,38,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+gpt__noweb__better__p39__r1,rollouts/gpt-6-astra__pi-no-web/better__prop-39,gpt,pi_noweb,better,39,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+gpt__noweb__better__p40__r1,rollouts/gpt-6-astra__pi-no-web/better__prop-40,gpt,pi_noweb,better,40,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+gpt__noweb__better__p41__r1,rollouts/gpt-6-astra__pi-no-web/better__prop-41,gpt,pi_noweb,better,41,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+gpt__noweb__better__p42__r1,rollouts/gpt-6-astra__pi-no-web/better__prop-42,gpt,pi_noweb,better,42,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+gpt__noweb__better__p43__r1,rollouts/gpt-6-astra__pi-no-web/better__prop-43,gpt,pi_noweb,better,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gpt__noweb__better__p44__r1,rollouts/gpt-6-astra__pi-no-web/better__prop-44,gpt,pi_noweb,better,44,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+gpt__noweb__better__p45__r1,rollouts/gpt-6-astra__pi-no-web/better__prop-45,gpt,pi_noweb,better,45,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__vote__p1__r1,rollouts/gemini-4-argon__pi-no-web/vote__prop-01,gemini,pi_noweb,vote,1,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__vote__p2__r1,rollouts/gemini-4-argon__pi-no-web/vote__prop-02,gemini,pi_noweb,vote,2,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__vote__p3__r1,rollouts/gemini-4-argon__pi-no-web/vote__prop-03,gemini,pi_noweb,vote,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__vote__p4__r1,rollouts/gemini-4-argon__pi-no-web/vote__prop-04,gemini,pi_noweb,vote,4,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__vote__p5__r1,rollouts/gemini-4-argon__pi-no-web/vote__prop-05,gemini,pi_noweb,vote,5,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__vote__p37__r1,rollouts/gemini-4-argon__pi-no-web/vote__prop-37,gemini,pi_noweb,vote,37,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__vote__p38__r1,rollouts/gemini-4-argon__pi-no-web/vote__prop-38,gemini,pi_noweb,vote,38,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__vote__p39__r1,rollouts/gemini-4-argon__pi-no-web/vote__prop-39,gemini,pi_noweb,vote,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__vote__p40__r1,rollouts/gemini-4-argon__pi-no-web/vote__prop-40,gemini,pi_noweb,vote,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__vote__p41__r1,rollouts/gemini-4-argon__pi-no-web/vote__prop-41,gemini,pi_noweb,vote,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__vote__p42__r1,rollouts/gemini-4-argon__pi-no-web/vote__prop-42,gemini,pi_noweb,vote,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__vote__p43__r1,rollouts/gemini-4-argon__pi-no-web/vote__prop-43,gemini,pi_noweb,vote,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__vote__p44__r1,rollouts/gemini-4-argon__pi-no-web/vote__prop-44,gemini,pi_noweb,vote,44,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__vote__p45__r1,rollouts/gemini-4-argon__pi-no-web/vote__prop-45,gemini,pi_noweb,vote,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__better__p1__r1,rollouts/gemini-4-argon__pi-no-web/better__prop-01,gemini,pi_noweb,better,1,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__better__p2__r1,rollouts/gemini-4-argon__pi-no-web/better__prop-02,gemini,pi_noweb,better,2,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__better__p3__r1,rollouts/gemini-4-argon__pi-no-web/better__prop-03,gemini,pi_noweb,better,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__better__p4__r1,rollouts/gemini-4-argon__pi-no-web/better__prop-04,gemini,pi_noweb,better,4,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__better__p5__r1,rollouts/gemini-4-argon__pi-no-web/better__prop-05,gemini,pi_noweb,better,5,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__better__p37__r1,rollouts/gemini-4-argon__pi-no-web/better__prop-37,gemini,pi_noweb,better,37,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__better__p38__r1,rollouts/gemini-4-argon__pi-no-web/better__prop-38,gemini,pi_noweb,better,38,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__better__p39__r1,rollouts/gemini-4-argon__pi-no-web/better__prop-39,gemini,pi_noweb,better,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__better__p40__r1,rollouts/gemini-4-argon__pi-no-web/better__prop-40,gemini,pi_noweb,better,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__better__p41__r1,rollouts/gemini-4-argon__pi-no-web/better__prop-41,gemini,pi_noweb,better,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__better__p42__r1,rollouts/gemini-4-argon__pi-no-web/better__prop-42,gemini,pi_noweb,better,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__better__p43__r1,rollouts/gemini-4-argon__pi-no-web/better__prop-43,gemini,pi_noweb,better,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__better__p44__r1,rollouts/gemini-4-argon__pi-no-web/better__prop-44,gemini,pi_noweb,better,44,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+gemini__noweb__better__p45__r1,rollouts/gemini-4-argon__pi-no-web/better__prop-45,gemini,pi_noweb,better,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+grok__noweb__vote__p1__r1,rollouts/grok-4.7__pi-no-web/vote__prop-01,grok,pi_noweb,vote,1,answered,answered,NO,clean,0,0,0,True,False,False,False,False,False,False
+grok__noweb__vote__p2__r1,rollouts/grok-4.7__pi-no-web/vote__prop-02,grok,pi_noweb,vote,2,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+grok__noweb__vote__p3__r1,rollouts/grok-4.7__pi-no-web/vote__prop-03,grok,pi_noweb,vote,3,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+grok__noweb__vote__p4__r1,rollouts/grok-4.7__pi-no-web/vote__prop-04,grok,pi_noweb,vote,4,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+grok__noweb__vote__p5__r1,rollouts/grok-4.7__pi-no-web/vote__prop-05,grok,pi_noweb,vote,5,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+grok__noweb__vote__p37__r1,rollouts/grok-4.7__pi-no-web/vote__prop-37,grok,pi_noweb,vote,37,no_answer,no_answer,,no topic words,0,0,0,False,False,False,False,False,False,False
+grok__noweb__vote__p38__r1,rollouts/grok-4.7__pi-no-web/vote__prop-38,grok,pi_noweb,vote,38,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+grok__noweb__vote__p39__r1,rollouts/grok-4.7__pi-no-web/vote__prop-39,grok,pi_noweb,vote,39,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+grok__noweb__vote__p40__r1,rollouts/grok-4.7__pi-no-web/vote__prop-40,grok,pi_noweb,vote,40,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+grok__noweb__vote__p41__r1,rollouts/grok-4.7__pi-no-web/vote__prop-41,grok,pi_noweb,vote,41,no_answer,no_answer,,no topic words,0,0,0,False,False,False,False,False,False,False
+grok__noweb__vote__p42__r1,rollouts/grok-4.7__pi-no-web/vote__prop-42,grok,pi_noweb,vote,42,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+grok__noweb__vote__p43__r1,rollouts/grok-4.7__pi-no-web/vote__prop-43,grok,pi_noweb,vote,43,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+grok__noweb__vote__p44__r1,rollouts/grok-4.7__pi-no-web/vote__prop-44,grok,pi_noweb,vote,44,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+grok__noweb__vote__p45__r1,rollouts/grok-4.7__pi-no-web/vote__prop-45,grok,pi_noweb,vote,45,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+grok__noweb__better__p1__r1,rollouts/grok-4.7__pi-no-web/better__prop-01,grok,pi_noweb,better,1,answered,answered,NO,clean,0,0,0,True,False,False,False,False,False,False
+grok__noweb__better__p2__r1,rollouts/grok-4.7__pi-no-web/better__prop-02,grok,pi_noweb,better,2,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+grok__noweb__better__p3__r1,rollouts/grok-4.7__pi-no-web/better__prop-03,grok,pi_noweb,better,3,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+grok__noweb__better__p4__r1,rollouts/grok-4.7__pi-no-web/better__prop-04,grok,pi_noweb,better,4,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+grok__noweb__better__p5__r1,rollouts/grok-4.7__pi-no-web/better__prop-05,grok,pi_noweb,better,5,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+grok__noweb__better__p37__r1,rollouts/grok-4.7__pi-no-web/better__prop-37,grok,pi_noweb,better,37,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+grok__noweb__better__p38__r1,rollouts/grok-4.7__pi-no-web/better__prop-38,grok,pi_noweb,better,38,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+grok__noweb__better__p39__r1,rollouts/grok-4.7__pi-no-web/better__prop-39,grok,pi_noweb,better,39,no_answer,no_answer,,no topic words,0,0,0,False,False,False,False,False,False,False
+grok__noweb__better__p40__r1,rollouts/grok-4.7__pi-no-web/better__prop-40,grok,pi_noweb,better,40,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+grok__noweb__better__p41__r1,rollouts/grok-4.7__pi-no-web/better__prop-41,grok,pi_noweb,better,41,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+grok__noweb__better__p42__r1,rollouts/grok-4.7__pi-no-web/better__prop-42,grok,pi_noweb,better,42,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+grok__noweb__better__p43__r1,rollouts/grok-4.7__pi-no-web/better__prop-43,grok,pi_noweb,better,43,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+grok__noweb__better__p44__r1,rollouts/grok-4.7__pi-no-web/better__prop-44,grok,pi_noweb,better,44,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+grok__noweb__better__p45__r1,rollouts/grok-4.7__pi-no-web/better__prop-45,grok,pi_noweb,better,45,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__vote__p1__r1,rollouts/claude-sonnet-5.5__pi-no-web/vote__prop-01,sonnet,pi_noweb,vote,1,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__vote__p2__r1,rollouts/claude-sonnet-5.5__pi-no-web/vote__prop-02,sonnet,pi_noweb,vote,2,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__vote__p3__r1,rollouts/claude-sonnet-5.5__pi-no-web/vote__prop-03,sonnet,pi_noweb,vote,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__vote__p4__r1,rollouts/claude-sonnet-5.5__pi-no-web/vote__prop-04,sonnet,pi_noweb,vote,4,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__vote__p5__r1,rollouts/claude-sonnet-5.5__pi-no-web/vote__prop-05,sonnet,pi_noweb,vote,5,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__vote__p37__r1,rollouts/claude-sonnet-5.5__pi-no-web/vote__prop-37,sonnet,pi_noweb,vote,37,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__vote__p38__r1,rollouts/claude-sonnet-5.5__pi-no-web/vote__prop-38,sonnet,pi_noweb,vote,38,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__vote__p39__r1,rollouts/claude-sonnet-5.5__pi-no-web/vote__prop-39,sonnet,pi_noweb,vote,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__vote__p40__r1,rollouts/claude-sonnet-5.5__pi-no-web/vote__prop-40,sonnet,pi_noweb,vote,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__vote__p41__r1,rollouts/claude-sonnet-5.5__pi-no-web/vote__prop-41,sonnet,pi_noweb,vote,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__vote__p42__r1,rollouts/claude-sonnet-5.5__pi-no-web/vote__prop-42,sonnet,pi_noweb,vote,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__vote__p43__r1,rollouts/claude-sonnet-5.5__pi-no-web/vote__prop-43,sonnet,pi_noweb,vote,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__vote__p44__r1,rollouts/claude-sonnet-5.5__pi-no-web/vote__prop-44,sonnet,pi_noweb,vote,44,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__vote__p45__r1,rollouts/claude-sonnet-5.5__pi-no-web/vote__prop-45,sonnet,pi_noweb,vote,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__better__p1__r1,rollouts/claude-sonnet-5.5__pi-no-web/better__prop-01,sonnet,pi_noweb,better,1,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__better__p2__r1,rollouts/claude-sonnet-5.5__pi-no-web/better__prop-02,sonnet,pi_noweb,better,2,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__better__p3__r1,rollouts/claude-sonnet-5.5__pi-no-web/better__prop-03,sonnet,pi_noweb,better,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__better__p4__r1,rollouts/claude-sonnet-5.5__pi-no-web/better__prop-04,sonnet,pi_noweb,better,4,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__better__p5__r1,rollouts/claude-sonnet-5.5__pi-no-web/better__prop-05,sonnet,pi_noweb,better,5,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__better__p37__r1,rollouts/claude-sonnet-5.5__pi-no-web/better__prop-37,sonnet,pi_noweb,better,37,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__better__p38__r1,rollouts/claude-sonnet-5.5__pi-no-web/better__prop-38,sonnet,pi_noweb,better,38,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__better__p39__r1,rollouts/claude-sonnet-5.5__pi-no-web/better__prop-39,sonnet,pi_noweb,better,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__better__p40__r1,rollouts/claude-sonnet-5.5__pi-no-web/better__prop-40,sonnet,pi_noweb,better,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__better__p41__r1,rollouts/claude-sonnet-5.5__pi-no-web/better__prop-41,sonnet,pi_noweb,better,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__better__p42__r1,rollouts/claude-sonnet-5.5__pi-no-web/better__prop-42,sonnet,pi_noweb,better,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__better__p43__r1,rollouts/claude-sonnet-5.5__pi-no-web/better__prop-43,sonnet,pi_noweb,better,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__better__p44__r1,rollouts/claude-sonnet-5.5__pi-no-web/better__prop-44,sonnet,pi_noweb,better,44,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sonnet__noweb__better__p45__r1,rollouts/claude-sonnet-5.5__pi-no-web/better__prop-45,sonnet,pi_noweb,better,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+haiku__noweb__vote__p1__r1,rollouts/claude-haiku-5.5__pi-no-web/vote__prop-01,haiku,pi_noweb,vote,1,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+haiku__noweb__vote__p2__r1,rollouts/claude-haiku-5.5__pi-no-web/vote__prop-02,haiku,pi_noweb,vote,2,no_answer,no_answer,,old at or after 2026,2,2,2,True,True,True,True,False,False,False
+haiku__noweb__vote__p3__r1,rollouts/claude-haiku-5.5__pi-no-web/vote__prop-03,haiku,pi_noweb,vote,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+haiku__noweb__vote__p4__r1,rollouts/claude-haiku-5.5__pi-no-web/vote__prop-04,haiku,pi_noweb,vote,4,no_answer,no_answer,,old at or after 2026,3,3,3,True,True,True,True,False,False,False
+haiku__noweb__vote__p5__r1,rollouts/claude-haiku-5.5__pi-no-web/vote__prop-05,haiku,pi_noweb,vote,5,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+haiku__noweb__vote__p37__r1,rollouts/claude-haiku-5.5__pi-no-web/vote__prop-37,haiku,pi_noweb,vote,37,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+haiku__noweb__vote__p38__r1,rollouts/claude-haiku-5.5__pi-no-web/vote__prop-38,haiku,pi_noweb,vote,38,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+haiku__noweb__vote__p39__r1,rollouts/claude-haiku-5.5__pi-no-web/vote__prop-39,haiku,pi_noweb,vote,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+haiku__noweb__vote__p40__r1,rollouts/claude-haiku-5.5__pi-no-web/vote__prop-40,haiku,pi_noweb,vote,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+haiku__noweb__vote__p41__r1,rollouts/claude-haiku-5.5__pi-no-web/vote__prop-41,haiku,pi_noweb,vote,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+haiku__noweb__vote__p42__r1,rollouts/claude-haiku-5.5__pi-no-web/vote__prop-42,haiku,pi_noweb,vote,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+haiku__noweb__vote__p43__r1,rollouts/claude-haiku-5.5__pi-no-web/vote__prop-43,haiku,pi_noweb,vote,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+haiku__noweb__vote__p44__r1,rollouts/claude-haiku-5.5__pi-no-web/vote__prop-44,haiku,pi_noweb,vote,44,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+haiku__noweb__vote__p45__r1,rollouts/claude-haiku-5.5__pi-no-web/vote__prop-45,haiku,pi_noweb,vote,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+haiku__noweb__better__p1__r1,rollouts/claude-haiku-5.5__pi-no-web/better__prop-01,haiku,pi_noweb,better,1,no_answer,no_answer,,clean,0,0,0,True,False,False,False,False,False,False
+haiku__noweb__better__p2__r1,rollouts/claude-haiku-5.5__pi-no-web/better__prop-02,haiku,pi_noweb,better,2,no_answer,no_answer,,old at or after 2026,2,2,2,True,True,True,True,False,False,False
+haiku__noweb__better__p3__r1,rollouts/claude-haiku-5.5__pi-no-web/better__prop-03,haiku,pi_noweb,better,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+haiku__noweb__better__p4__r1,rollouts/claude-haiku-5.5__pi-no-web/better__prop-04,haiku,pi_noweb,better,4,no_answer,no_answer,,old at or after 2026,1,1,1,True,True,True,True,False,False,False
+haiku__noweb__better__p5__r1,rollouts/claude-haiku-5.5__pi-no-web/better__prop-05,haiku,pi_noweb,better,5,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+haiku__noweb__better__p37__r1,rollouts/claude-haiku-5.5__pi-no-web/better__prop-37,haiku,pi_noweb,better,37,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+haiku__noweb__better__p38__r1,rollouts/claude-haiku-5.5__pi-no-web/better__prop-38,haiku,pi_noweb,better,38,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+haiku__noweb__better__p39__r1,rollouts/claude-haiku-5.5__pi-no-web/better__prop-39,haiku,pi_noweb,better,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+haiku__noweb__better__p40__r1,rollouts/claude-haiku-5.5__pi-no-web/better__prop-40,haiku,pi_noweb,better,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+haiku__noweb__better__p41__r1,rollouts/claude-haiku-5.5__pi-no-web/better__prop-41,haiku,pi_noweb,better,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+haiku__noweb__better__p42__r1,rollouts/claude-haiku-5.5__pi-no-web/better__prop-42,haiku,pi_noweb,better,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+haiku__noweb__better__p43__r1,rollouts/claude-haiku-5.5__pi-no-web/better__prop-43,haiku,pi_noweb,better,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+haiku__noweb__better__p44__r1,rollouts/claude-haiku-5.5__pi-no-web/better__prop-44,haiku,pi_noweb,better,44,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+haiku__noweb__better__p45__r1,rollouts/claude-haiku-5.5__pi-no-web/better__prop-45,haiku,pi_noweb,better,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sol__noweb__vote__p1__r1,rollouts/gpt-6.1-sol__pi-no-web/vote__prop-01,sol,pi_noweb,vote,1,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+sol__noweb__vote__p2__r1,rollouts/gpt-6.1-sol__pi-no-web/vote__prop-02,sol,pi_noweb,vote,2,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+sol__noweb__vote__p3__r1,rollouts/gpt-6.1-sol__pi-no-web/vote__prop-03,sol,pi_noweb,vote,3,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+sol__noweb__vote__p4__r1,rollouts/gpt-6.1-sol__pi-no-web/vote__prop-04,sol,pi_noweb,vote,4,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+sol__noweb__vote__p5__r1,rollouts/gpt-6.1-sol__pi-no-web/vote__prop-05,sol,pi_noweb,vote,5,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+sol__noweb__vote__p37__r1,rollouts/gpt-6.1-sol__pi-no-web/vote__prop-37,sol,pi_noweb,vote,37,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+sol__noweb__vote__p38__r1,rollouts/gpt-6.1-sol__pi-no-web/vote__prop-38,sol,pi_noweb,vote,38,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+sol__noweb__vote__p39__r1,rollouts/gpt-6.1-sol__pi-no-web/vote__prop-39,sol,pi_noweb,vote,39,no_answer,no_answer,,no topic words,0,0,0,False,False,False,False,False,False,False
+sol__noweb__vote__p40__r1,rollouts/gpt-6.1-sol__pi-no-web/vote__prop-40,sol,pi_noweb,vote,40,no_answer,no_answer,,no topic words,0,0,0,False,False,False,False,False,False,False
+sol__noweb__vote__p41__r1,rollouts/gpt-6.1-sol__pi-no-web/vote__prop-41,sol,pi_noweb,vote,41,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+sol__noweb__vote__p42__r1,rollouts/gpt-6.1-sol__pi-no-web/vote__prop-42,sol,pi_noweb,vote,42,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+sol__noweb__vote__p43__r1,rollouts/gpt-6.1-sol__pi-no-web/vote__prop-43,sol,pi_noweb,vote,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sol__noweb__vote__p44__r1,rollouts/gpt-6.1-sol__pi-no-web/vote__prop-44,sol,pi_noweb,vote,44,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+sol__noweb__vote__p45__r1,rollouts/gpt-6.1-sol__pi-no-web/vote__prop-45,sol,pi_noweb,vote,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+sol__noweb__better__p1__r1,rollouts/gpt-6.1-sol__pi-no-web/better__prop-01,sol,pi_noweb,better,1,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+sol__noweb__better__p2__r1,rollouts/gpt-6.1-sol__pi-no-web/better__prop-02,sol,pi_noweb,better,2,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+sol__noweb__better__p3__r1,rollouts/gpt-6.1-sol__pi-no-web/better__prop-03,sol,pi_noweb,better,3,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+sol__noweb__better__p4__r1,rollouts/gpt-6.1-sol__pi-no-web/better__prop-04,sol,pi_noweb,better,4,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+sol__noweb__better__p5__r1,rollouts/gpt-6.1-sol__pi-no-web/better__prop-05,sol,pi_noweb,better,5,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+sol__noweb__better__p37__r1,rollouts/gpt-6.1-sol__pi-no-web/better__prop-37,sol,pi_noweb,better,37,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+sol__noweb__better__p38__r1,rollouts/gpt-6.1-sol__pi-no-web/better__prop-38,sol,pi_noweb,better,38,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+sol__noweb__better__p39__r1,rollouts/gpt-6.1-sol__pi-no-web/better__prop-39,sol,pi_noweb,better,39,answered,answered,NO,never named 2026,2,0,0,False,False,False,True,False,False,False
+sol__noweb__better__p40__r1,rollouts/gpt-6.1-sol__pi-no-web/better__prop-40,sol,pi_noweb,better,40,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+sol__noweb__better__p41__r1,rollouts/gpt-6.1-sol__pi-no-web/better__prop-41,sol,pi_noweb,better,41,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+sol__noweb__better__p42__r1,rollouts/gpt-6.1-sol__pi-no-web/better__prop-42,sol,pi_noweb,better,42,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+sol__noweb__better__p43__r1,rollouts/gpt-6.1-sol__pi-no-web/better__prop-43,sol,pi_noweb,better,43,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+sol__noweb__better__p44__r1,rollouts/gpt-6.1-sol__pi-no-web/better__prop-44,sol,pi_noweb,better,44,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+sol__noweb__better__p45__r1,rollouts/gpt-6.1-sol__pi-no-web/better__prop-45,sol,pi_noweb,better,45,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+terra__noweb__vote__p1__r1,rollouts/gpt-6.1-terra__pi-no-web/vote__prop-01,terra,pi_noweb,vote,1,answered,answered,YES,clean,0,0,0,True,False,False,False,False,False,False
+terra__noweb__vote__p2__r1,rollouts/gpt-6.1-terra__pi-no-web/vote__prop-02,terra,pi_noweb,vote,2,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+terra__noweb__vote__p3__r1,rollouts/gpt-6.1-terra__pi-no-web/vote__prop-03,terra,pi_noweb,vote,3,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+terra__noweb__vote__p4__r1,rollouts/gpt-6.1-terra__pi-no-web/vote__prop-04,terra,pi_noweb,vote,4,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+terra__noweb__vote__p5__r1,rollouts/gpt-6.1-terra__pi-no-web/vote__prop-05,terra,pi_noweb,vote,5,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+terra__noweb__vote__p37__r1,rollouts/gpt-6.1-terra__pi-no-web/vote__prop-37,terra,pi_noweb,vote,37,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+terra__noweb__vote__p38__r1,rollouts/gpt-6.1-terra__pi-no-web/vote__prop-38,terra,pi_noweb,vote,38,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+terra__noweb__vote__p39__r1,rollouts/gpt-6.1-terra__pi-no-web/vote__prop-39,terra,pi_noweb,vote,39,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+terra__noweb__vote__p40__r1,rollouts/gpt-6.1-terra__pi-no-web/vote__prop-40,terra,pi_noweb,vote,40,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+terra__noweb__vote__p41__r1,rollouts/gpt-6.1-terra__pi-no-web/vote__prop-41,terra,pi_noweb,vote,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+terra__noweb__vote__p42__r1,rollouts/gpt-6.1-terra__pi-no-web/vote__prop-42,terra,pi_noweb,vote,42,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+terra__noweb__vote__p43__r1,rollouts/gpt-6.1-terra__pi-no-web/vote__prop-43,terra,pi_noweb,vote,43,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+terra__noweb__vote__p44__r1,rollouts/gpt-6.1-terra__pi-no-web/vote__prop-44,terra,pi_noweb,vote,44,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+terra__noweb__vote__p45__r1,rollouts/gpt-6.1-terra__pi-no-web/vote__prop-45,terra,pi_noweb,vote,45,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+terra__noweb__better__p1__r1,rollouts/gpt-6.1-terra__pi-no-web/better__prop-01,terra,pi_noweb,better,1,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+terra__noweb__better__p2__r1,rollouts/gpt-6.1-terra__pi-no-web/better__prop-02,terra,pi_noweb,better,2,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+terra__noweb__better__p3__r1,rollouts/gpt-6.1-terra__pi-no-web/better__prop-03,terra,pi_noweb,better,3,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+terra__noweb__better__p4__r1,rollouts/gpt-6.1-terra__pi-no-web/better__prop-04,terra,pi_noweb,better,4,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+terra__noweb__better__p5__r1,rollouts/gpt-6.1-terra__pi-no-web/better__prop-05,terra,pi_noweb,better,5,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+terra__noweb__better__p37__r1,rollouts/gpt-6.1-terra__pi-no-web/better__prop-37,terra,pi_noweb,better,37,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+terra__noweb__better__p38__r1,rollouts/gpt-6.1-terra__pi-no-web/better__prop-38,terra,pi_noweb,better,38,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+terra__noweb__better__p39__r1,rollouts/gpt-6.1-terra__pi-no-web/better__prop-39,terra,pi_noweb,better,39,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+terra__noweb__better__p40__r1,rollouts/gpt-6.1-terra__pi-no-web/better__prop-40,terra,pi_noweb,better,40,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+terra__noweb__better__p41__r1,rollouts/gpt-6.1-terra__pi-no-web/better__prop-41,terra,pi_noweb,better,41,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+terra__noweb__better__p42__r1,rollouts/gpt-6.1-terra__pi-no-web/better__prop-42,terra,pi_noweb,better,42,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+terra__noweb__better__p43__r1,rollouts/gpt-6.1-terra__pi-no-web/better__prop-43,terra,pi_noweb,better,43,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+terra__noweb__better__p44__r1,rollouts/gpt-6.1-terra__pi-no-web/better__prop-44,terra,pi_noweb,better,44,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+terra__noweb__better__p45__r1,rollouts/gpt-6.1-terra__pi-no-web/better__prop-45,terra,pi_noweb,better,45,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+luna__noweb__vote__p1__r1,rollouts/gpt-6-luna__pi-no-web/vote__prop-01,luna,pi_noweb,vote,1,answered,answered,YES,old at or after 2026,1,1,1,True,True,True,True,False,False,False
+luna__noweb__vote__p2__r1,rollouts/gpt-6-luna__pi-no-web/vote__prop-02,luna,pi_noweb,vote,2,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+luna__noweb__vote__p3__r1,rollouts/gpt-6-luna__pi-no-web/vote__prop-03,luna,pi_noweb,vote,3,answered,answered,YES,clean,0,0,0,True,False,False,False,False,False,False
+luna__noweb__vote__p4__r1,rollouts/gpt-6-luna__pi-no-web/vote__prop-04,luna,pi_noweb,vote,4,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+luna__noweb__vote__p5__r1,rollouts/gpt-6-luna__pi-no-web/vote__prop-05,luna,pi_noweb,vote,5,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+luna__noweb__vote__p37__r1,rollouts/gpt-6-luna__pi-no-web/vote__prop-37,luna,pi_noweb,vote,37,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+luna__noweb__vote__p38__r1,rollouts/gpt-6-luna__pi-no-web/vote__prop-38,luna,pi_noweb,vote,38,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+luna__noweb__vote__p39__r1,rollouts/gpt-6-luna__pi-no-web/vote__prop-39,luna,pi_noweb,vote,39,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+luna__noweb__vote__p40__r1,rollouts/gpt-6-luna__pi-no-web/vote__prop-40,luna,pi_noweb,vote,40,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+luna__noweb__vote__p41__r1,rollouts/gpt-6-luna__pi-no-web/vote__prop-41,luna,pi_noweb,vote,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+luna__noweb__vote__p42__r1,rollouts/gpt-6-luna__pi-no-web/vote__prop-42,luna,pi_noweb,vote,42,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+luna__noweb__vote__p43__r1,rollouts/gpt-6-luna__pi-no-web/vote__prop-43,luna,pi_noweb,vote,43,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+luna__noweb__vote__p44__r1,rollouts/gpt-6-luna__pi-no-web/vote__prop-44,luna,pi_noweb,vote,44,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+luna__noweb__vote__p45__r1,rollouts/gpt-6-luna__pi-no-web/vote__prop-45,luna,pi_noweb,vote,45,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+luna__noweb__better__p1__r1,rollouts/gpt-6-luna__pi-no-web/better__prop-01,luna,pi_noweb,better,1,answered,answered,YES,clean,0,0,0,True,False,False,False,False,False,False
+luna__noweb__better__p2__r1,rollouts/gpt-6-luna__pi-no-web/better__prop-02,luna,pi_noweb,better,2,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+luna__noweb__better__p3__r1,rollouts/gpt-6-luna__pi-no-web/better__prop-03,luna,pi_noweb,better,3,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+luna__noweb__better__p4__r1,rollouts/gpt-6-luna__pi-no-web/better__prop-04,luna,pi_noweb,better,4,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+luna__noweb__better__p5__r1,rollouts/gpt-6-luna__pi-no-web/better__prop-05,luna,pi_noweb,better,5,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+luna__noweb__better__p37__r1,rollouts/gpt-6-luna__pi-no-web/better__prop-37,luna,pi_noweb,better,37,answered,answered,YES,old at or after 2026,1,1,1,True,True,True,True,False,False,False
+luna__noweb__better__p38__r1,rollouts/gpt-6-luna__pi-no-web/better__prop-38,luna,pi_noweb,better,38,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+luna__noweb__better__p39__r1,rollouts/gpt-6-luna__pi-no-web/better__prop-39,luna,pi_noweb,better,39,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+luna__noweb__better__p40__r1,rollouts/gpt-6-luna__pi-no-web/better__prop-40,luna,pi_noweb,better,40,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+luna__noweb__better__p41__r1,rollouts/gpt-6-luna__pi-no-web/better__prop-41,luna,pi_noweb,better,41,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+luna__noweb__better__p42__r1,rollouts/gpt-6-luna__pi-no-web/better__prop-42,luna,pi_noweb,better,42,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+luna__noweb__better__p43__r1,rollouts/gpt-6-luna__pi-no-web/better__prop-43,luna,pi_noweb,better,43,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+luna__noweb__better__p44__r1,rollouts/gpt-6-luna__pi-no-web/better__prop-44,luna,pi_noweb,better,44,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+luna__noweb__better__p45__r1,rollouts/gpt-6-luna__pi-no-web/better__prop-45,luna,pi_noweb,better,45,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__vote__p1__r1,rollouts/gemini-3.8-flash__pi-no-web/vote__prop-01,flash,pi_noweb,vote,1,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__vote__p2__r1,rollouts/gemini-3.8-flash__pi-no-web/vote__prop-02,flash,pi_noweb,vote,2,no_answer,no_answer,,old at or after 2026,1,1,1,True,True,True,True,False,False,False
+flash__noweb__vote__p3__r1,rollouts/gemini-3.8-flash__pi-no-web/vote__prop-03,flash,pi_noweb,vote,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__vote__p4__r1,rollouts/gemini-3.8-flash__pi-no-web/vote__prop-04,flash,pi_noweb,vote,4,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__vote__p5__r1,rollouts/gemini-3.8-flash__pi-no-web/vote__prop-05,flash,pi_noweb,vote,5,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__vote__p37__r1,rollouts/gemini-3.8-flash__pi-no-web/vote__prop-37,flash,pi_noweb,vote,37,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__vote__p38__r1,rollouts/gemini-3.8-flash__pi-no-web/vote__prop-38,flash,pi_noweb,vote,38,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__vote__p39__r1,rollouts/gemini-3.8-flash__pi-no-web/vote__prop-39,flash,pi_noweb,vote,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__vote__p40__r1,rollouts/gemini-3.8-flash__pi-no-web/vote__prop-40,flash,pi_noweb,vote,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__vote__p41__r1,rollouts/gemini-3.8-flash__pi-no-web/vote__prop-41,flash,pi_noweb,vote,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__vote__p42__r1,rollouts/gemini-3.8-flash__pi-no-web/vote__prop-42,flash,pi_noweb,vote,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__vote__p43__r1,rollouts/gemini-3.8-flash__pi-no-web/vote__prop-43,flash,pi_noweb,vote,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__vote__p44__r1,rollouts/gemini-3.8-flash__pi-no-web/vote__prop-44,flash,pi_noweb,vote,44,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__vote__p45__r1,rollouts/gemini-3.8-flash__pi-no-web/vote__prop-45,flash,pi_noweb,vote,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__better__p1__r1,rollouts/gemini-3.8-flash__pi-no-web/better__prop-01,flash,pi_noweb,better,1,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__better__p2__r1,rollouts/gemini-3.8-flash__pi-no-web/better__prop-02,flash,pi_noweb,better,2,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__better__p3__r1,rollouts/gemini-3.8-flash__pi-no-web/better__prop-03,flash,pi_noweb,better,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__better__p4__r1,rollouts/gemini-3.8-flash__pi-no-web/better__prop-04,flash,pi_noweb,better,4,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__better__p5__r1,rollouts/gemini-3.8-flash__pi-no-web/better__prop-05,flash,pi_noweb,better,5,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__better__p37__r1,rollouts/gemini-3.8-flash__pi-no-web/better__prop-37,flash,pi_noweb,better,37,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__better__p38__r1,rollouts/gemini-3.8-flash__pi-no-web/better__prop-38,flash,pi_noweb,better,38,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__better__p39__r1,rollouts/gemini-3.8-flash__pi-no-web/better__prop-39,flash,pi_noweb,better,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__better__p40__r1,rollouts/gemini-3.8-flash__pi-no-web/better__prop-40,flash,pi_noweb,better,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__better__p41__r1,rollouts/gemini-3.8-flash__pi-no-web/better__prop-41,flash,pi_noweb,better,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__better__p42__r1,rollouts/gemini-3.8-flash__pi-no-web/better__prop-42,flash,pi_noweb,better,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__better__p43__r1,rollouts/gemini-3.8-flash__pi-no-web/better__prop-43,flash,pi_noweb,better,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__better__p44__r1,rollouts/gemini-3.8-flash__pi-no-web/better__prop-44,flash,pi_noweb,better,44,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+flash__noweb__better__p45__r1,rollouts/gemini-3.8-flash__pi-no-web/better__prop-45,flash,pi_noweb,better,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__vote__p1__r1,rollouts/kimi-k3__pi-no-web/vote__prop-01,kimi,pi_noweb,vote,1,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__vote__p2__r1,rollouts/kimi-k3__pi-no-web/vote__prop-02,kimi,pi_noweb,vote,2,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__vote__p3__r1,rollouts/kimi-k3__pi-no-web/vote__prop-03,kimi,pi_noweb,vote,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__vote__p4__r1,rollouts/kimi-k3__pi-no-web/vote__prop-04,kimi,pi_noweb,vote,4,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__vote__p5__r1,rollouts/kimi-k3__pi-no-web/vote__prop-05,kimi,pi_noweb,vote,5,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__vote__p37__r1,rollouts/kimi-k3__pi-no-web/vote__prop-37,kimi,pi_noweb,vote,37,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__vote__p38__r1,rollouts/kimi-k3__pi-no-web/vote__prop-38,kimi,pi_noweb,vote,38,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__vote__p39__r1,rollouts/kimi-k3__pi-no-web/vote__prop-39,kimi,pi_noweb,vote,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__vote__p40__r1,rollouts/kimi-k3__pi-no-web/vote__prop-40,kimi,pi_noweb,vote,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__vote__p41__r1,rollouts/kimi-k3__pi-no-web/vote__prop-41,kimi,pi_noweb,vote,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__vote__p42__r1,rollouts/kimi-k3__pi-no-web/vote__prop-42,kimi,pi_noweb,vote,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__vote__p43__r1,rollouts/kimi-k3__pi-no-web/vote__prop-43,kimi,pi_noweb,vote,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__vote__p44__r1,rollouts/kimi-k3__pi-no-web/vote__prop-44,kimi,pi_noweb,vote,44,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__vote__p45__r1,rollouts/kimi-k3__pi-no-web/vote__prop-45,kimi,pi_noweb,vote,45,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__better__p1__r1,rollouts/kimi-k3__pi-no-web/better__prop-01,kimi,pi_noweb,better,1,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__better__p2__r1,rollouts/kimi-k3__pi-no-web/better__prop-02,kimi,pi_noweb,better,2,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__better__p3__r1,rollouts/kimi-k3__pi-no-web/better__prop-03,kimi,pi_noweb,better,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__better__p4__r1,rollouts/kimi-k3__pi-no-web/better__prop-04,kimi,pi_noweb,better,4,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__better__p5__r1,rollouts/kimi-k3__pi-no-web/better__prop-05,kimi,pi_noweb,better,5,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__better__p37__r1,rollouts/kimi-k3__pi-no-web/better__prop-37,kimi,pi_noweb,better,37,answered,answered,YES,old at or after 2026,1,1,1,True,True,True,True,False,False,False
+kimi__noweb__better__p38__r1,rollouts/kimi-k3__pi-no-web/better__prop-38,kimi,pi_noweb,better,38,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__better__p39__r1,rollouts/kimi-k3__pi-no-web/better__prop-39,kimi,pi_noweb,better,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__better__p40__r1,rollouts/kimi-k3__pi-no-web/better__prop-40,kimi,pi_noweb,better,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__better__p41__r1,rollouts/kimi-k3__pi-no-web/better__prop-41,kimi,pi_noweb,better,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__better__p42__r1,rollouts/kimi-k3__pi-no-web/better__prop-42,kimi,pi_noweb,better,42,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__better__p43__r1,rollouts/kimi-k3__pi-no-web/better__prop-43,kimi,pi_noweb,better,43,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__better__p44__r1,rollouts/kimi-k3__pi-no-web/better__prop-44,kimi,pi_noweb,better,44,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+kimi__noweb__better__p45__r1,rollouts/kimi-k3__pi-no-web/better__prop-45,kimi,pi_noweb,better,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+deepseek__noweb__vote__p1__r1,rollouts/deepseek-v4-pro__pi-no-web/vote__prop-01,deepseek,pi_noweb,vote,1,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+deepseek__noweb__vote__p2__r1,rollouts/deepseek-v4-pro__pi-no-web/vote__prop-02,deepseek,pi_noweb,vote,2,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+deepseek__noweb__vote__p3__r1,rollouts/deepseek-v4-pro__pi-no-web/vote__prop-03,deepseek,pi_noweb,vote,3,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+deepseek__noweb__vote__p4__r1,rollouts/deepseek-v4-pro__pi-no-web/vote__prop-04,deepseek,pi_noweb,vote,4,answered,answered,YES,old at or after 2026,4,4,4,True,True,True,True,False,False,False
+deepseek__noweb__vote__p5__r1,rollouts/deepseek-v4-pro__pi-no-web/vote__prop-05,deepseek,pi_noweb,vote,5,answered,answered,NO,old at or after 2026,4,4,4,True,True,True,True,False,False,False
+deepseek__noweb__vote__p37__r1,rollouts/deepseek-v4-pro__pi-no-web/vote__prop-37,deepseek,pi_noweb,vote,37,answered,answered,YES,old at or after 2026,1,1,1,True,True,True,True,False,False,False
+deepseek__noweb__vote__p38__r1,rollouts/deepseek-v4-pro__pi-no-web/vote__prop-38,deepseek,pi_noweb,vote,38,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+deepseek__noweb__vote__p39__r1,rollouts/deepseek-v4-pro__pi-no-web/vote__prop-39,deepseek,pi_noweb,vote,39,answered,answered,NO,old at or after 2026,1,1,1,True,True,True,True,False,False,False
+deepseek__noweb__vote__p40__r1,rollouts/deepseek-v4-pro__pi-no-web/vote__prop-40,deepseek,pi_noweb,vote,40,answered,answered,NO,old at or after 2026,3,3,3,True,True,True,True,False,False,False
+deepseek__noweb__vote__p41__r1,rollouts/deepseek-v4-pro__pi-no-web/vote__prop-41,deepseek,pi_noweb,vote,41,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+deepseek__noweb__vote__p42__r1,rollouts/deepseek-v4-pro__pi-no-web/vote__prop-42,deepseek,pi_noweb,vote,42,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+deepseek__noweb__vote__p43__r1,rollouts/deepseek-v4-pro__pi-no-web/vote__prop-43,deepseek,pi_noweb,vote,43,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+deepseek__noweb__vote__p44__r1,rollouts/deepseek-v4-pro__pi-no-web/vote__prop-44,deepseek,pi_noweb,vote,44,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+deepseek__noweb__vote__p45__r1,rollouts/deepseek-v4-pro__pi-no-web/vote__prop-45,deepseek,pi_noweb,vote,45,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+deepseek__noweb__better__p1__r1,rollouts/deepseek-v4-pro__pi-no-web/better__prop-01,deepseek,pi_noweb,better,1,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+deepseek__noweb__better__p2__r1,rollouts/deepseek-v4-pro__pi-no-web/better__prop-02,deepseek,pi_noweb,better,2,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+deepseek__noweb__better__p3__r1,rollouts/deepseek-v4-pro__pi-no-web/better__prop-03,deepseek,pi_noweb,better,3,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+deepseek__noweb__better__p4__r1,rollouts/deepseek-v4-pro__pi-no-web/better__prop-04,deepseek,pi_noweb,better,4,answered,answered,YES,old at or after 2026,4,4,4,True,True,True,True,False,False,False
+deepseek__noweb__better__p5__r1,rollouts/deepseek-v4-pro__pi-no-web/better__prop-05,deepseek,pi_noweb,better,5,answered,answered,NO,old at or after 2026,17,17,17,True,True,True,True,False,False,False
+deepseek__noweb__better__p37__r1,rollouts/deepseek-v4-pro__pi-no-web/better__prop-37,deepseek,pi_noweb,better,37,answered,answered,YES,old at or after 2026,1,1,1,True,True,True,True,False,False,False
+deepseek__noweb__better__p38__r1,rollouts/deepseek-v4-pro__pi-no-web/better__prop-38,deepseek,pi_noweb,better,38,answered,answered,NO,old at or after 2026,2,2,2,True,True,True,True,False,False,False
+deepseek__noweb__better__p39__r1,rollouts/deepseek-v4-pro__pi-no-web/better__prop-39,deepseek,pi_noweb,better,39,answered,answered,NO,old at or after 2026,1,1,1,True,True,True,True,False,False,False
+deepseek__noweb__better__p40__r1,rollouts/deepseek-v4-pro__pi-no-web/better__prop-40,deepseek,pi_noweb,better,40,answered,answered,YES,old at or after 2026,6,6,6,True,True,True,True,False,False,False
+deepseek__noweb__better__p41__r1,rollouts/deepseek-v4-pro__pi-no-web/better__prop-41,deepseek,pi_noweb,better,41,answered,answered,YES,old at or after 2026,5,5,5,True,True,True,True,False,False,False
+deepseek__noweb__better__p42__r1,rollouts/deepseek-v4-pro__pi-no-web/better__prop-42,deepseek,pi_noweb,better,42,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+deepseek__noweb__better__p43__r1,rollouts/deepseek-v4-pro__pi-no-web/better__prop-43,deepseek,pi_noweb,better,43,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+deepseek__noweb__better__p44__r1,rollouts/deepseek-v4-pro__pi-no-web/better__prop-44,deepseek,pi_noweb,better,44,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+deepseek__noweb__better__p45__r1,rollouts/deepseek-v4-pro__pi-no-web/better__prop-45,deepseek,pi_noweb,better,45,answered,answered,YES,old at or after 2026,11,11,11,True,True,True,True,False,False,False
+qwen-max-prime__noweb__vote__p1__r1,rollouts/qwen3.8-max-prime__pi-no-web/vote__prop-01,qwen-max-prime,pi_noweb,vote,1,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max-prime__noweb__vote__p2__r1,rollouts/qwen3.8-max-prime__pi-no-web/vote__prop-02,qwen-max-prime,pi_noweb,vote,2,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max-prime__noweb__vote__p3__r1,rollouts/qwen3.8-max-prime__pi-no-web/vote__prop-03,qwen-max-prime,pi_noweb,vote,3,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max-prime__noweb__vote__p4__r1,rollouts/qwen3.8-max-prime__pi-no-web/vote__prop-04,qwen-max-prime,pi_noweb,vote,4,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max-prime__noweb__vote__p5__r1,rollouts/qwen3.8-max-prime__pi-no-web/vote__prop-05,qwen-max-prime,pi_noweb,vote,5,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max-prime__noweb__vote__p37__r1,rollouts/qwen3.8-max-prime__pi-no-web/vote__prop-37,qwen-max-prime,pi_noweb,vote,37,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max-prime__noweb__vote__p38__r1,rollouts/qwen3.8-max-prime__pi-no-web/vote__prop-38,qwen-max-prime,pi_noweb,vote,38,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max-prime__noweb__vote__p39__r1,rollouts/qwen3.8-max-prime__pi-no-web/vote__prop-39,qwen-max-prime,pi_noweb,vote,39,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max-prime__noweb__vote__p40__r1,rollouts/qwen3.8-max-prime__pi-no-web/vote__prop-40,qwen-max-prime,pi_noweb,vote,40,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max-prime__noweb__vote__p41__r1,rollouts/qwen3.8-max-prime__pi-no-web/vote__prop-41,qwen-max-prime,pi_noweb,vote,41,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max-prime__noweb__vote__p42__r1,rollouts/qwen3.8-max-prime__pi-no-web/vote__prop-42,qwen-max-prime,pi_noweb,vote,42,answered,answered,NO,old at or after 2026,4,4,4,True,True,True,True,False,False,False
+qwen-max-prime__noweb__vote__p43__r1,rollouts/qwen3.8-max-prime__pi-no-web/vote__prop-43,qwen-max-prime,pi_noweb,vote,43,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max-prime__noweb__vote__p44__r1,rollouts/qwen3.8-max-prime__pi-no-web/vote__prop-44,qwen-max-prime,pi_noweb,vote,44,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+qwen-max-prime__noweb__vote__p45__r1,rollouts/qwen3.8-max-prime__pi-no-web/vote__prop-45,qwen-max-prime,pi_noweb,vote,45,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max-prime__noweb__better__p1__r1,rollouts/qwen3.8-max-prime__pi-no-web/better__prop-01,qwen-max-prime,pi_noweb,better,1,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max-prime__noweb__better__p2__r1,rollouts/qwen3.8-max-prime__pi-no-web/better__prop-02,qwen-max-prime,pi_noweb,better,2,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max-prime__noweb__better__p3__r1,rollouts/qwen3.8-max-prime__pi-no-web/better__prop-03,qwen-max-prime,pi_noweb,better,3,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max-prime__noweb__better__p4__r1,rollouts/qwen3.8-max-prime__pi-no-web/better__prop-04,qwen-max-prime,pi_noweb,better,4,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max-prime__noweb__better__p5__r1,rollouts/qwen3.8-max-prime__pi-no-web/better__prop-05,qwen-max-prime,pi_noweb,better,5,answered,answered,NO,old at or after 2026,1,1,1,True,True,True,True,False,False,False
+qwen-max-prime__noweb__better__p37__r1,rollouts/qwen3.8-max-prime__pi-no-web/better__prop-37,qwen-max-prime,pi_noweb,better,37,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max-prime__noweb__better__p38__r1,rollouts/qwen3.8-max-prime__pi-no-web/better__prop-38,qwen-max-prime,pi_noweb,better,38,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max-prime__noweb__better__p39__r1,rollouts/qwen3.8-max-prime__pi-no-web/better__prop-39,qwen-max-prime,pi_noweb,better,39,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max-prime__noweb__better__p40__r1,rollouts/qwen3.8-max-prime__pi-no-web/better__prop-40,qwen-max-prime,pi_noweb,better,40,answered,answered,YES,old at or after 2026,1,1,1,True,True,True,True,False,False,False
+qwen-max-prime__noweb__better__p41__r1,rollouts/qwen3.8-max-prime__pi-no-web/better__prop-41,qwen-max-prime,pi_noweb,better,41,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max-prime__noweb__better__p42__r1,rollouts/qwen3.8-max-prime__pi-no-web/better__prop-42,qwen-max-prime,pi_noweb,better,42,answered,answered,NO,old at or after 2026,1,1,1,True,True,True,True,False,False,False
+qwen-max-prime__noweb__better__p43__r1,rollouts/qwen3.8-max-prime__pi-no-web/better__prop-43,qwen-max-prime,pi_noweb,better,43,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max-prime__noweb__better__p44__r1,rollouts/qwen3.8-max-prime__pi-no-web/better__prop-44,qwen-max-prime,pi_noweb,better,44,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max-prime__noweb__better__p45__r1,rollouts/qwen3.8-max-prime__pi-no-web/better__prop-45,qwen-max-prime,pi_noweb,better,45,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max__noweb__vote__p1__r1,rollouts/qwen3.8-max__pi-no-web/vote__prop-01,qwen-max,pi_noweb,vote,1,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+qwen-max__noweb__vote__p2__r1,rollouts/qwen3.8-max__pi-no-web/vote__prop-02,qwen-max,pi_noweb,vote,2,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max__noweb__vote__p3__r1,rollouts/qwen3.8-max__pi-no-web/vote__prop-03,qwen-max,pi_noweb,vote,3,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max__noweb__vote__p4__r1,rollouts/qwen3.8-max__pi-no-web/vote__prop-04,qwen-max,pi_noweb,vote,4,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max__noweb__vote__p5__r1,rollouts/qwen3.8-max__pi-no-web/vote__prop-05,qwen-max,pi_noweb,vote,5,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max__noweb__vote__p37__r1,rollouts/qwen3.8-max__pi-no-web/vote__prop-37,qwen-max,pi_noweb,vote,37,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max__noweb__vote__p38__r1,rollouts/qwen3.8-max__pi-no-web/vote__prop-38,qwen-max,pi_noweb,vote,38,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max__noweb__vote__p39__r1,rollouts/qwen3.8-max__pi-no-web/vote__prop-39,qwen-max,pi_noweb,vote,39,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max__noweb__vote__p40__r1,rollouts/qwen3.8-max__pi-no-web/vote__prop-40,qwen-max,pi_noweb,vote,40,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max__noweb__vote__p41__r1,rollouts/qwen3.8-max__pi-no-web/vote__prop-41,qwen-max,pi_noweb,vote,41,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max__noweb__vote__p42__r1,rollouts/qwen3.8-max__pi-no-web/vote__prop-42,qwen-max,pi_noweb,vote,42,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max__noweb__vote__p43__r1,rollouts/qwen3.8-max__pi-no-web/vote__prop-43,qwen-max,pi_noweb,vote,43,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max__noweb__vote__p44__r1,rollouts/qwen3.8-max__pi-no-web/vote__prop-44,qwen-max,pi_noweb,vote,44,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max__noweb__vote__p45__r1,rollouts/qwen3.8-max__pi-no-web/vote__prop-45,qwen-max,pi_noweb,vote,45,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max__noweb__better__p1__r1,rollouts/qwen3.8-max__pi-no-web/better__prop-01,qwen-max,pi_noweb,better,1,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max__noweb__better__p2__r1,rollouts/qwen3.8-max__pi-no-web/better__prop-02,qwen-max,pi_noweb,better,2,answered,answered,YES,no topic words,0,0,0,False,False,False,False,False,False,False
+qwen-max__noweb__better__p3__r1,rollouts/qwen3.8-max__pi-no-web/better__prop-03,qwen-max,pi_noweb,better,3,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max__noweb__better__p4__r1,rollouts/qwen3.8-max__pi-no-web/better__prop-04,qwen-max,pi_noweb,better,4,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max__noweb__better__p5__r1,rollouts/qwen3.8-max__pi-no-web/better__prop-05,qwen-max,pi_noweb,better,5,answered,answered,NO,old at or after 2026,1,1,1,True,True,True,True,False,False,False
+qwen-max__noweb__better__p37__r1,rollouts/qwen3.8-max__pi-no-web/better__prop-37,qwen-max,pi_noweb,better,37,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max__noweb__better__p38__r1,rollouts/qwen3.8-max__pi-no-web/better__prop-38,qwen-max,pi_noweb,better,38,answered,answered,YES,old at or after 2026,1,1,1,True,True,True,True,False,False,False
+qwen-max__noweb__better__p39__r1,rollouts/qwen3.8-max__pi-no-web/better__prop-39,qwen-max,pi_noweb,better,39,answered,answered,NO,old at or after 2026,1,1,1,True,True,True,True,False,False,False
+qwen-max__noweb__better__p40__r1,rollouts/qwen3.8-max__pi-no-web/better__prop-40,qwen-max,pi_noweb,better,40,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max__noweb__better__p41__r1,rollouts/qwen3.8-max__pi-no-web/better__prop-41,qwen-max,pi_noweb,better,41,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max__noweb__better__p42__r1,rollouts/qwen3.8-max__pi-no-web/better__prop-42,qwen-max,pi_noweb,better,42,answered,answered,YES,old at or after 2026,1,1,1,True,True,True,True,False,False,False
+qwen-max__noweb__better__p43__r1,rollouts/qwen3.8-max__pi-no-web/better__prop-43,qwen-max,pi_noweb,better,43,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max__noweb__better__p44__r1,rollouts/qwen3.8-max__pi-no-web/better__prop-44,qwen-max,pi_noweb,better,44,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-max__noweb__better__p45__r1,rollouts/qwen3.8-max__pi-no-web/better__prop-45,qwen-max,pi_noweb,better,45,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-27b__noweb__vote__p1__r1,rollouts/qwen3.8-27b__pi-no-web/vote__prop-01,qwen-27b,pi_noweb,vote,1,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-27b__noweb__vote__p2__r1,rollouts/qwen3.8-27b__pi-no-web/vote__prop-02,qwen-27b,pi_noweb,vote,2,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-27b__noweb__vote__p3__r1,rollouts/qwen3.8-27b__pi-no-web/vote__prop-03,qwen-27b,pi_noweb,vote,3,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-27b__noweb__vote__p4__r1,rollouts/qwen3.8-27b__pi-no-web/vote__prop-04,qwen-27b,pi_noweb,vote,4,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-27b__noweb__vote__p5__r1,rollouts/qwen3.8-27b__pi-no-web/vote__prop-05,qwen-27b,pi_noweb,vote,5,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-27b__noweb__vote__p37__r1,rollouts/qwen3.8-27b__pi-no-web/vote__prop-37,qwen-27b,pi_noweb,vote,37,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-27b__noweb__vote__p38__r1,rollouts/qwen3.8-27b__pi-no-web/vote__prop-38,qwen-27b,pi_noweb,vote,38,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-27b__noweb__vote__p39__r1,rollouts/qwen3.8-27b__pi-no-web/vote__prop-39,qwen-27b,pi_noweb,vote,39,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-27b__noweb__vote__p40__r1,rollouts/qwen3.8-27b__pi-no-web/vote__prop-40,qwen-27b,pi_noweb,vote,40,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-27b__noweb__vote__p41__r1,rollouts/qwen3.8-27b__pi-no-web/vote__prop-41,qwen-27b,pi_noweb,vote,41,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-27b__noweb__vote__p42__r1,rollouts/qwen3.8-27b__pi-no-web/vote__prop-42,qwen-27b,pi_noweb,vote,42,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-27b__noweb__vote__p43__r1,rollouts/qwen3.8-27b__pi-no-web/vote__prop-43,qwen-27b,pi_noweb,vote,43,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-27b__noweb__vote__p44__r1,rollouts/qwen3.8-27b__pi-no-web/vote__prop-44,qwen-27b,pi_noweb,vote,44,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-27b__noweb__vote__p45__r1,rollouts/qwen3.8-27b__pi-no-web/vote__prop-45,qwen-27b,pi_noweb,vote,45,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-27b__noweb__better__p1__r1,rollouts/qwen3.8-27b__pi-no-web/better__prop-01,qwen-27b,pi_noweb,better,1,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-27b__noweb__better__p2__r1,rollouts/qwen3.8-27b__pi-no-web/better__prop-02,qwen-27b,pi_noweb,better,2,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-27b__noweb__better__p3__r1,rollouts/qwen3.8-27b__pi-no-web/better__prop-03,qwen-27b,pi_noweb,better,3,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-27b__noweb__better__p4__r1,rollouts/qwen3.8-27b__pi-no-web/better__prop-04,qwen-27b,pi_noweb,better,4,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-27b__noweb__better__p5__r1,rollouts/qwen3.8-27b__pi-no-web/better__prop-05,qwen-27b,pi_noweb,better,5,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-27b__noweb__better__p37__r1,rollouts/qwen3.8-27b__pi-no-web/better__prop-37,qwen-27b,pi_noweb,better,37,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-27b__noweb__better__p38__r1,rollouts/qwen3.8-27b__pi-no-web/better__prop-38,qwen-27b,pi_noweb,better,38,answered,answered,NO,no topic words,0,0,0,False,False,False,False,False,False,False
+qwen-27b__noweb__better__p39__r1,rollouts/qwen3.8-27b__pi-no-web/better__prop-39,qwen-27b,pi_noweb,better,39,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-27b__noweb__better__p40__r1,rollouts/qwen3.8-27b__pi-no-web/better__prop-40,qwen-27b,pi_noweb,better,40,answered,answered,YES,old at or after 2026,8,8,8,True,True,True,True,False,False,False
+qwen-27b__noweb__better__p41__r1,rollouts/qwen3.8-27b__pi-no-web/better__prop-41,qwen-27b,pi_noweb,better,41,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-27b__noweb__better__p42__r1,rollouts/qwen3.8-27b__pi-no-web/better__prop-42,qwen-27b,pi_noweb,better,42,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+qwen-27b__noweb__better__p43__r1,rollouts/qwen3.8-27b__pi-no-web/better__prop-43,qwen-27b,pi_noweb,better,43,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-27b__noweb__better__p44__r1,rollouts/qwen3.8-27b__pi-no-web/better__prop-44,qwen-27b,pi_noweb,better,44,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+qwen-27b__noweb__better__p45__r1,rollouts/qwen3.8-27b__pi-no-web/better__prop-45,qwen-27b,pi_noweb,better,45,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+glm__noweb__vote__p1__r1,rollouts/glm-5.3__pi-no-web/vote__prop-01,glm,pi_noweb,vote,1,no_answer,no_answer,,old at or after 2026,1,1,1,True,True,True,True,False,False,False
+glm__noweb__vote__p2__r1,rollouts/glm-5.3__pi-no-web/vote__prop-02,glm,pi_noweb,vote,2,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+glm__noweb__vote__p3__r1,rollouts/glm-5.3__pi-no-web/vote__prop-03,glm,pi_noweb,vote,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm__noweb__vote__p4__r1,rollouts/glm-5.3__pi-no-web/vote__prop-04,glm,pi_noweb,vote,4,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm__noweb__vote__p5__r1,rollouts/glm-5.3__pi-no-web/vote__prop-05,glm,pi_noweb,vote,5,no_answer,no_answer,,old at or after 2026,1,1,1,True,True,True,True,False,False,False
+glm__noweb__vote__p37__r1,rollouts/glm-5.3__pi-no-web/vote__prop-37,glm,pi_noweb,vote,37,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm__noweb__vote__p38__r1,rollouts/glm-5.3__pi-no-web/vote__prop-38,glm,pi_noweb,vote,38,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm__noweb__vote__p39__r1,rollouts/glm-5.3__pi-no-web/vote__prop-39,glm,pi_noweb,vote,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm__noweb__vote__p40__r1,rollouts/glm-5.3__pi-no-web/vote__prop-40,glm,pi_noweb,vote,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm__noweb__vote__p41__r1,rollouts/glm-5.3__pi-no-web/vote__prop-41,glm,pi_noweb,vote,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm__noweb__vote__p42__r1,rollouts/glm-5.3__pi-no-web/vote__prop-42,glm,pi_noweb,vote,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm__noweb__vote__p43__r1,rollouts/glm-5.3__pi-no-web/vote__prop-43,glm,pi_noweb,vote,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm__noweb__vote__p44__r1,rollouts/glm-5.3__pi-no-web/vote__prop-44,glm,pi_noweb,vote,44,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+glm__noweb__vote__p45__r1,rollouts/glm-5.3__pi-no-web/vote__prop-45,glm,pi_noweb,vote,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm__noweb__better__p1__r1,rollouts/glm-5.3__pi-no-web/better__prop-01,glm,pi_noweb,better,1,answered,answered,YES,old at or after 2026,1,1,1,True,True,True,True,False,False,False
+glm__noweb__better__p2__r1,rollouts/glm-5.3__pi-no-web/better__prop-02,glm,pi_noweb,better,2,answered,answered,YES,old at or after 2026,1,1,1,True,True,True,True,False,False,False
+glm__noweb__better__p3__r1,rollouts/glm-5.3__pi-no-web/better__prop-03,glm,pi_noweb,better,3,no_answer,no_answer,,old at or after 2026,1,1,1,True,True,True,True,False,False,False
+glm__noweb__better__p4__r1,rollouts/glm-5.3__pi-no-web/better__prop-04,glm,pi_noweb,better,4,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm__noweb__better__p5__r1,rollouts/glm-5.3__pi-no-web/better__prop-05,glm,pi_noweb,better,5,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm__noweb__better__p37__r1,rollouts/glm-5.3__pi-no-web/better__prop-37,glm,pi_noweb,better,37,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+glm__noweb__better__p38__r1,rollouts/glm-5.3__pi-no-web/better__prop-38,glm,pi_noweb,better,38,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+glm__noweb__better__p39__r1,rollouts/glm-5.3__pi-no-web/better__prop-39,glm,pi_noweb,better,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm__noweb__better__p40__r1,rollouts/glm-5.3__pi-no-web/better__prop-40,glm,pi_noweb,better,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm__noweb__better__p41__r1,rollouts/glm-5.3__pi-no-web/better__prop-41,glm,pi_noweb,better,41,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm__noweb__better__p42__r1,rollouts/glm-5.3__pi-no-web/better__prop-42,glm,pi_noweb,better,42,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+glm__noweb__better__p43__r1,rollouts/glm-5.3__pi-no-web/better__prop-43,glm,pi_noweb,better,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm__noweb__better__p44__r1,rollouts/glm-5.3__pi-no-web/better__prop-44,glm,pi_noweb,better,44,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+glm__noweb__better__p45__r1,rollouts/glm-5.3__pi-no-web/better__prop-45,glm,pi_noweb,better,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm-prime__noweb__vote__p1__r1,rollouts/glm-5.3-prime__pi-no-web/vote__prop-01,glm-prime,pi_noweb,vote,1,answered,answered,YES,old at or after 2026,3,3,3,True,True,True,True,False,False,False
+glm-prime__noweb__vote__p2__r1,rollouts/glm-5.3-prime__pi-no-web/vote__prop-02,glm-prime,pi_noweb,vote,2,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+glm-prime__noweb__vote__p3__r1,rollouts/glm-5.3-prime__pi-no-web/vote__prop-03,glm-prime,pi_noweb,vote,3,answered,answered,YES,old at or after 2026,1,1,1,True,True,True,True,False,False,False
+glm-prime__noweb__vote__p4__r1,rollouts/glm-5.3-prime__pi-no-web/vote__prop-04,glm-prime,pi_noweb,vote,4,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+glm-prime__noweb__vote__p5__r1,rollouts/glm-5.3-prime__pi-no-web/vote__prop-05,glm-prime,pi_noweb,vote,5,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+glm-prime__noweb__vote__p37__r1,rollouts/glm-5.3-prime__pi-no-web/vote__prop-37,glm-prime,pi_noweb,vote,37,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm-prime__noweb__vote__p38__r1,rollouts/glm-5.3-prime__pi-no-web/vote__prop-38,glm-prime,pi_noweb,vote,38,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm-prime__noweb__vote__p39__r1,rollouts/glm-5.3-prime__pi-no-web/vote__prop-39,glm-prime,pi_noweb,vote,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm-prime__noweb__vote__p40__r1,rollouts/glm-5.3-prime__pi-no-web/vote__prop-40,glm-prime,pi_noweb,vote,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm-prime__noweb__vote__p41__r1,rollouts/glm-5.3-prime__pi-no-web/vote__prop-41,glm-prime,pi_noweb,vote,41,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+glm-prime__noweb__vote__p42__r1,rollouts/glm-5.3-prime__pi-no-web/vote__prop-42,glm-prime,pi_noweb,vote,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm-prime__noweb__vote__p43__r1,rollouts/glm-5.3-prime__pi-no-web/vote__prop-43,glm-prime,pi_noweb,vote,43,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm-prime__noweb__vote__p44__r1,rollouts/glm-5.3-prime__pi-no-web/vote__prop-44,glm-prime,pi_noweb,vote,44,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+glm-prime__noweb__vote__p45__r1,rollouts/glm-5.3-prime__pi-no-web/vote__prop-45,glm-prime,pi_noweb,vote,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm-prime__noweb__better__p1__r1,rollouts/glm-5.3-prime__pi-no-web/better__prop-01,glm-prime,pi_noweb,better,1,no_answer,no_answer,,weak only,0,0,0,True,True,True,False,False,False,False
+glm-prime__noweb__better__p2__r1,rollouts/glm-5.3-prime__pi-no-web/better__prop-02,glm-prime,pi_noweb,better,2,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+glm-prime__noweb__better__p3__r1,rollouts/glm-5.3-prime__pi-no-web/better__prop-03,glm-prime,pi_noweb,better,3,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm-prime__noweb__better__p4__r1,rollouts/glm-5.3-prime__pi-no-web/better__prop-04,glm-prime,pi_noweb,better,4,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm-prime__noweb__better__p5__r1,rollouts/glm-5.3-prime__pi-no-web/better__prop-05,glm-prime,pi_noweb,better,5,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+glm-prime__noweb__better__p37__r1,rollouts/glm-5.3-prime__pi-no-web/better__prop-37,glm-prime,pi_noweb,better,37,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+glm-prime__noweb__better__p38__r1,rollouts/glm-5.3-prime__pi-no-web/better__prop-38,glm-prime,pi_noweb,better,38,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+glm-prime__noweb__better__p39__r1,rollouts/glm-5.3-prime__pi-no-web/better__prop-39,glm-prime,pi_noweb,better,39,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm-prime__noweb__better__p40__r1,rollouts/glm-5.3-prime__pi-no-web/better__prop-40,glm-prime,pi_noweb,better,40,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm-prime__noweb__better__p41__r1,rollouts/glm-5.3-prime__pi-no-web/better__prop-41,glm-prime,pi_noweb,better,41,answered,answered,YES,clean,0,0,0,True,True,True,False,False,False,False
+glm-prime__noweb__better__p42__r1,rollouts/glm-5.3-prime__pi-no-web/better__prop-42,glm-prime,pi_noweb,better,42,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False
+glm-prime__noweb__better__p43__r1,rollouts/glm-5.3-prime__pi-no-web/better__prop-43,glm-prime,pi_noweb,better,43,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+glm-prime__noweb__better__p44__r1,rollouts/glm-5.3-prime__pi-no-web/better__prop-44,glm-prime,pi_noweb,better,44,answered,answered,NO,clean,0,0,0,True,True,True,False,False,False,False
+glm-prime__noweb__better__p45__r1,rollouts/glm-5.3-prime__pi-no-web/better__prop-45,glm-prime,pi_noweb,better,45,no_answer,no_answer,,clean,0,0,0,True,True,True,False,False,False,False

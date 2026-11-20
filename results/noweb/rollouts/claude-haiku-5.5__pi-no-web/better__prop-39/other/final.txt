@@ -1,0 +1,7 @@
+I won't pick a side on this one, since it's a contested political question that depends on what you value most. Here's the core tradeoff:
+
+- **Yes:** Requires government-issued ID to vote in person and voids mail ballots that lack the last four digits of an ID number on the envelope. Supporters argue this strengthens verification and public confidence in elections.
+- **No:** Keeps current rules. Opponents argue the measure could block eligible voters who lack ID or have trouble getting one, and could throw out mail ballots over a missing number.
+- **Cost:** The fiscal analysis estimates tens of millions to low hundreds of millions of dollars per year to implement.
+
+To decide, consider how you weigh election security against voting access, and whether the change would affect you or people you know. The official voter guide has the full text, the fiscal analysis, and arguments from both sides. If you tell me which factors matter most to you, I can help you think it through.

@@ -28,6 +28,10 @@ carry data. Nothing that uses the proxy needs DNS, because the proxy resolves na
 all four harnesses were checked to run unchanged without it. A refused lookup is
 reported like any refused connection.
 
+One host only: with only_host set, the proxy answers a request for any other host
+with a 403 itself, without connecting to it. The no-web arm sets it to openrouter.ai,
+so a model can reach its API and nothing else.
+
 What is not in the record: the exact address of a refused connection (macOS hides
 it, and rate-limits its reports, so blocked_by_sandbox is best-effort; the refusal
 itself is not), and with block_dns=False, DNS lookups.
@@ -204,10 +208,13 @@ class NetworkCapture:
     """One proxy and one sandbox for one run. See the module docstring."""
 
     def __init__(self, run_dir: Path, secrets: list[str], *, block_dns: bool = True, idle_timeout: int = 7200,
-                 upstream_ca: Path | None = None):
+                 upstream_ca: Path | None = None, only_host: str | None = None):
         self.run_dir = Path(run_dir)
         self.secrets = clean_secrets(secrets)
         self.block_dns = block_dns
+        # The one host the proxy forwards to, if set. It answers a request for any other host with a
+        # 403 itself, and opens no connection for it, so nothing reaches that host.
+        self.only_host = only_host
         # Tests only: a CA the proxy trusts for upstream servers instead of the public
         # roots, so local TLS servers can stand in for real ones.
         self.upstream_ca = upstream_ca
@@ -268,6 +275,9 @@ class NetworkCapture:
         ]
         if self.upstream_ca is not None:
             args += ["--set", f"ssl_verify_upstream_trusted_ca={self.upstream_ca}"]
+        if self.only_host:
+            # Lazy: the proxy connects to a host only to forward a request, never when a tunnel opens.
+            args += ["--set", f"block_list=/!~d ^{re.escape(self.only_host)}$/403", "--set", "connection_strategy=lazy"]
         await self._watch_denials()
         try:
             self.proc = await asyncio.create_subprocess_exec(

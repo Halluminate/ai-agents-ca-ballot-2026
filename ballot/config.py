@@ -13,6 +13,7 @@ KEY = "OPENROUTER_API_KEY"
 # web tool calls an OpenAI address OpenRouter doesn't serve, and Gemini CLI only talks to Google.
 DIRECT_KEYS = {"codex": "OPENAI_API_KEY", "gemini_cli": "GEMINI_API_KEY"}
 VOTER_GUIDE = "https://voterguide.sos.ca.gov/propositions/{number}/"
+ELECTION_DAY = "2026-11-03"
 
 # Outcomes that are real data. A run with one of these is never run again.
 FINAL_STATUSES = ("answered", "no_answer", "timeout", "over_budget")
@@ -26,6 +27,13 @@ def load_config() -> dict:
 def load_ballot() -> list[str]:
     ballot = json.loads((DATA / "ballot.json").read_text())
     return [p["number"] for p in ballot["propositions"]]
+
+
+def load_labels() -> dict[str, str]:
+    """Each proposition's ballot label, the text printed on the ballot: title, summary, fiscal impact,
+    supporters and opponents."""
+    ballot = json.loads((DATA / "ballot.json").read_text())
+    return {p["number"]: p["label"] for p in ballot["propositions"]}
 
 
 def load_keys() -> dict[str, str]:
@@ -49,9 +57,9 @@ def load_key() -> str | None:
     return load_keys().get(KEY)
 
 
-def build_prompt(template: str, question: str, prop: str) -> str:
+def build_prompt(template: str, question: str, prop: str, label: str = "") -> str:
     url = VOTER_GUIDE.format(number=prop)
-    return template.strip().replace("{question}", question).replace("{url}", url)
+    return template.strip().replace("{question}", question).replace("{url}", url).replace("{label}", label)
 
 
 @dataclass
@@ -61,8 +69,8 @@ class Spec:
     model: str  # short name from experiment.toml, such as "claude"
     model_id: str  # OpenRouter model id, or the vendor's own id for a harness on a direct key
     pin: str  # OpenRouter provider the requests are pinned to, where the harness allows it
-    arm: str  # "native" or "common"
-    harness: str  # "claude_code", "codex", "codex_openrouter", "gemini_cli", "grok_build" or "pi"
+    arm: str  # "native", "common" or "noweb"
+    harness: str  # "claude_code", "codex", "codex_openrouter", "gemini_cli", "grok_build", "pi" or "pi_noweb"
     effort: str
     prompt_name: str
     prompt: str

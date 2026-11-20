@@ -19,6 +19,7 @@ HARNESSES = {
     "gemini_cli": "Gemini CLI",
     "grok_build": "Grok Build",
     "pi": "Pi",
+    "pi_noweb": "Pi (no web)",
 }
 QUESTION_ORDER = ("vote", "better", "win")
 

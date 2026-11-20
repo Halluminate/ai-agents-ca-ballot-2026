@@ -387,11 +387,17 @@ PI_MODEL_OVERRIDES = {
 
 
 class Pi:
-    """The shared harness: same loop, system prompt and web tools for every model."""
+    """The shared harness: same loop, system prompt and web tools for every model.
 
-    def __init__(self, search: dict, cache_dir: Path):
+    Without search settings it offers no tools at all: the no-web arm, where a model answers
+    from what it already knows.
+    """
+
+    def __init__(self, search: dict | None = None, cache_dir: Path | None = None):
         self.search = search
         self.cache_dir = cache_dir
+        # With no tools, Pi only talks to the model, so the proxy refuses every other host.
+        self.only_host = None if search else "openrouter.ai"
 
     def setup(self, spec: Spec, room: Room) -> None:
         agent_dir = room.home / ".pi" / "agent"
@@ -408,25 +414,29 @@ class Pi:
             "--system-prompt", spec.system_prompt,
             "--no-builtin-tools", "--no-mcp", "--no-extensions", "--no-skills",
             "--no-prompt-templates", "--no-themes", "--no-context-files",
-            "-e", str(PACKAGE / "pi_ext" / "web_tools.ts"),
+            *(["-e", str(PACKAGE / "pi_ext" / "web_tools.ts")] if self.search else []),
             "-e", str(PACKAGE / "pi_ext" / "openrouter_route.ts"),
             "--", spec.prompt,
         ], None
 
     def env(self, spec: Spec, room: Room, keys: dict) -> dict:
         key = keys[KEY]
-        return {
+        env = {
             "OPENROUTER_API_KEY": key,
             "OPENROUTER_ONLY": spec.pin,
             "PI_CODING_AGENT_DIR": str(room.home / ".pi" / "agent"),
             "PI_OFFLINE": "1",  # keeps the pinned model catalog for the whole run
             "PI_TELEMETRY": "0",
-            "SEARCH_PROVIDER": "openrouter",
-            "SEARCH_API_KEY": key,
-            "SEARCH_ENGINE": self.search["engine"],
-            "SEARCH_HELPER_MODEL": self.search["helper_model"],
-            "WEB_CACHE_DIR": str(self.cache_dir),
         }
+        if self.search:
+            env |= {
+                "SEARCH_PROVIDER": "openrouter",
+                "SEARCH_API_KEY": key,
+                "SEARCH_ENGINE": self.search["engine"],
+                "SEARCH_HELPER_MODEL": self.search["helper_model"],
+                "WEB_CACHE_DIR": str(self.cache_dir),
+            }
+        return env
 
     def parse(self, path: Path) -> Parsed:
         out = Parsed()
