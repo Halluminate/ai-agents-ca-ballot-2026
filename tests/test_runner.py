@@ -9,11 +9,12 @@ import tempfile
 import time
 import unittest
 from pathlib import Path
+from unittest import mock
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from ballot import runner as run
-from ballot.config import Spec, load_config
+from ballot.config import Spec, load_config, load_labels
 from ballot.harnesses import Parsed, Room
 from ballot.paths import ROOT
 
@@ -205,6 +206,53 @@ class Runner(unittest.TestCase):
                          {("grok", "native"), ("sonnet", "native"), ("sonnet", "common"), ("gpt", "native"), ("gpt", "common")})
         with self.assertRaises(SystemExit):
             self.plan("--models", "grok:sideways")
+
+    def test_the_noweb_arm_runs_only_when_asked_and_sees_only_the_ballot_label(self):
+        self.assertNotIn("noweb", {s.arm for s in self.plan()})
+        plan = self.plan("--arms", "noweb")
+        self.assertEqual({s.harness for s in plan}, {"pi_noweb"})
+        self.assertEqual(len(plan), len(self.cfg["models"]) * 3 * 14)  # every model, Kimi and the rest included
+        spec = next(s for s in plan if s.model == "kimi" and s.prompt_name == "vote" and s.prop == "40")
+        self.assertEqual(spec.prompt, self.cfg["noweb"]["prompts"]["vote"] + "\n\n" + load_labels()["40"])
+        self.assertEqual(spec.system_prompt, self.cfg["noweb"]["system_prompt"])
+        self.assertEqual((spec.model_id, spec.effort), ("moonshotai/kimi-k3", "max"))  # as in the common arm
+        self.assertEqual({(s.model, s.arm) for s in self.plan("--models", "kimi:noweb,kimi:common")},
+                         {("kimi", "noweb"), ("kimi", "common")})
+
+    def test_noweb_prompts_are_kept_apart_from_the_others_in_a_folder(self):
+        plan = self.plan("--models", "kimi", "--arms", "common,noweb", "--props", "1")
+        run.write_manifest(self.out, plan, self.cfg)
+        run.write_manifest(self.out, plan, self.cfg)  # a resume: same prompts, no exit
+        self.assertEqual(len(json.loads((self.out / "manifest.json").read_text())["prompt_sha256"]), 6)
+
+    def test_a_run_on_part_of_the_plan_keeps_the_other_checkpoints(self):
+        plan = self.plan("--models", "kimi,claude", "--arms", "noweb", "--props", "1")
+        run.write_manifest(self.out, plan, self.cfg, {"a": "a-20260101", "b": "b-20260101"})
+        run.write_manifest(self.out, plan[:1], self.cfg, {"b": "b-20260202"})
+        self.assertEqual(json.loads((self.out / "manifest.json").read_text())["openrouter_snapshots"],
+                         {"a": "a-20260101", "b": "b-20260202"})
+
+    def test_noweb_needs_every_checkpoint_dated_before_election_day(self):
+        plan = self.plan("--models", "kimi,claude", "--arms", "noweb", "--props", "1")
+
+        def listing(claude: str) -> tuple[int, dict]:
+            return 200, {"data": [{"id": "moonshotai/kimi-k3", "canonical_slug": "moonshotai/kimi-k3-20260715"},
+                                  {"id": "anthropic/claude-opus-5.5", "canonical_slug": claude}]}
+
+        with mock.patch.object(run, "get", return_value=listing("anthropic/claude-opus-5.5-20260921")):
+            self.assertEqual(run.snapshots_before_election(plan)["anthropic/claude-opus-5.5"],
+                             "anthropic/claude-opus-5.5-20260921")
+        for late in ("anthropic/claude-opus-5.5-20261103", "anthropic/claude-opus-5.5-20261201", "anthropic/claude-opus-5.5", ""):
+            with mock.patch.object(run, "get", return_value=listing(late)), self.assertRaises(SystemExit):
+                run.snapshots_before_election(plan)
+        self.assertEqual(run.snapshots_before_election(self.plan("--models", "kimi", "--props", "1")), {})  # web arms
+
+    def test_only_a_web_run_that_never_searched_is_flagged(self):
+        quiet = {"answer": "YES", "seconds": 60, "cost_usd": 0.1, "searches": [], "fetches": [], "error": "", "status": "answered",
+                 "search_errors": 0, "tool_errors": 0, "network": {}, "warnings": [], "run_started_at": "2026-11-17T18:00:00",
+                 "finished_at": "2026-11-17T18:01:00", "run_id": "r"}
+        self.assertIn("NO WEB SEARCH", run.line(1, 1, quiet | {"arm": "common"}, 0.1))
+        self.assertNotIn("NO WEB SEARCH", run.line(1, 1, quiet | {"arm": "noweb"}, 0.1))
 
     def test_the_spend_cap_counts_openrouters_bill_where_there_is_one(self):
         self.assertEqual(run.charge({"cost_usd": 0.1, "billed_usd": 2.5}), 2.5)  # Grok Build's search calls

@@ -10,7 +10,8 @@ results/rollouts/<setup>/<question>__prop-<NN>/ gets each rollout's full event l
 stderr, network summary and any failed attempt's event log. The archive keeps the same paths
 for the heavy files: each rollout's complete network log, the recording proxy's log and the
 archive of its throwaway folders, failed attempts' included, plus any runs set aside from the
-runs folder (set-aside/<folder>-collisions/). results/ also gets the runs folder's manifest
+runs folder (<folder>-collisions/ next to it, or the folder --set-aside names) under
+set-aside/. results/ also gets the runs folder's manifest
 and data/excluded.json. Nothing that holds a secret is copied: not .env, not the proxy's CA
 key, not node_modules or the venv.
 
@@ -220,10 +221,9 @@ def copy_rollout(run_dir: Path, rel: str, out: Path, tar: SplitTar, cleaner: Cle
     return heavy
 
 
-def set_aside(source: Path, tar: SplitTar, cleaner: Cleaner) -> int:
-    """Runs set aside from the runs folder (<folder>-collisions/, next to it) into the archive."""
+def set_aside(aside: Path, tar: SplitTar, cleaner: Cleaner) -> int:
+    """Runs set aside from the runs folder into the archive, under set-aside/<folder name>/."""
     heavy = 0
-    aside = source.parent / f"{source.name}-collisions"
     for path in sorted(p for p in aside.rglob("*") if p.is_file()) if aside.is_dir() else []:
         if path.name.endswith("room.tar.gz"):
             data = clean_room(path, cleaner)
@@ -241,6 +241,8 @@ def main() -> None:
     parser.add_argument("runs", nargs="?", type=Path, default=RUNS)
     parser.add_argument("--logs", type=Path, default=RUNS / "logs.tar", help="archive for the heavy logs")
     parser.add_argument("--out", type=Path, default=RESULTS)
+    parser.add_argument("--set-aside", type=Path, help="runs set aside from the runs folder, for the archive. "
+                        "Default: <runs>-collisions next to it")
     args = parser.parse_args()
     if (args.out / "rollouts").exists():
         sys.exit(f"{args.out / 'rollouts'} already exists. Remove it to export again.")
@@ -250,7 +252,8 @@ def main() -> None:
         # Without the keys there is nothing to look for, and Grok Build's own logs hold a piece of the key.
         sys.exit("No API keys in .env or the environment, so key pieces couldn't be removed. Add the keys the runs used "
                  "(python3 -m ballot keys) and export again.")
-    cleaner = Cleaner(list(keys.values()), owner_addresses([args.runs]), private_names())
+    aside = args.set_aside or args.runs.parent / f"{args.runs.name}-collisions"
+    cleaner = Cleaner(list(keys.values()), owner_addresses([args.runs, aside]), private_names())
     runs = [p.resolve() for p in sorted(args.runs.iterdir()) if p.is_dir() and (p / "result.json").exists()]
     results = [json.loads((p / "result.json").read_text()) for p in runs]
     repeats = max(r["repeat"] for r in results)
@@ -262,10 +265,16 @@ def main() -> None:
         rel = f"rollouts/{setup_slug(result['model'], result['harness'])}/" \
               f"{rollout_slug(result['prompt'], result['prop'], result['repeat'], repeats)}"
         heavy += copy_rollout(run_dir, rel, args.out, tar, cleaner, result["harness"])
-    heavy += set_aside(args.runs, tar, cleaner)
+    heavy += set_aside(aside, tar, cleaner)
     tar.close()
     (args.out / "manifest.json").write_bytes(cleaner.text((args.runs / "manifest.json").read_bytes()))
-    (args.out / "excluded.json").write_bytes(cleaner.text((DATA / "excluded.json").read_bytes()))
+    # Only the exclusions that belong to these rollouts, so a folder of other runs doesn't list them as its own.
+    excluded = json.loads((DATA / "excluded.json").read_text())
+    exported = {r["run_id"] for r in results}
+    if set(excluded) <= exported:
+        (args.out / "excluded.json").write_bytes(cleaner.text((DATA / "excluded.json").read_bytes()))
+    else:
+        (args.out / "excluded.json").write_text(json.dumps({k: v for k, v in excluded.items() if k in exported}, indent=2) + "\n")
     print(f"Copied {len(runs)} rollouts to {args.out / 'rollouts'}. {heavy} heavy log files went to "
           f"{', '.join(p.name for p in tar.parts)}. Replaced {cleaner.hits} key pieces, IP addresses or private names, "
           f"and checked {len(cleaner.ips)} address forms.")

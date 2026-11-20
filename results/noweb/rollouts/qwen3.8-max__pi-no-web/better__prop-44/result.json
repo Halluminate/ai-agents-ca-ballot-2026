@@ -1,0 +1,81 @@
+{
+  "run_id": "qwen-max__noweb__better__p44__r1",
+  "model": "qwen-max",
+  "model_id": "qwen/qwen3.8-max-0902",
+  "pin": "alibaba",
+  "arm": "noweb",
+  "harness": "pi_noweb",
+  "effort": "max",
+  "prompt": "better",
+  "prop": "44",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-17T18:45:26.819703+00:00",
+  "finished_at": "2026-11-17T18:45:33.768810+00:00",
+  "seconds": 5.2,
+  "input_tokens": 269,
+  "output_tokens": 117,
+  "cached_tokens": 0,
+  "cost_usd": 0.0012,
+  "cost_source": "reported",
+  "billed_usd": 0.00124,
+  "searches": [],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 1,
+    "requests_per_host": {
+      "openrouter.ai": 1
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 1
+    },
+    "bytes_up": 1754,
+    "bytes_down": 15963,
+    "wire_bytes": {
+      "harness_to_proxy": 3687,
+      "proxy_to_harness": 20370,
+      "proxy_to_internet": 3553,
+      "internet_to_proxy": 21766
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 2,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 1,
+  "run_started_at": "2026-11-17T18:45:26.819703+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-17T18:45:26.819703+00:00",
+      "finished_at": "2026-11-17T18:45:33.768810+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

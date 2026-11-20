@@ -1,0 +1,88 @@
+{
+  "run_id": "deepseek__noweb__vote__p40__r1",
+  "model": "deepseek",
+  "model_id": "deepseek/deepseek-v4-pro-0813",
+  "pin": "together",
+  "arm": "noweb",
+  "harness": "pi_noweb",
+  "effort": "max",
+  "prompt": "vote",
+  "prop": "40",
+  "repeat": 1,
+  "status": "answered",
+  "answer": "NO",
+  "answer_form": "exact",
+  "error": "",
+  "started_at": "2026-11-19T22:30:21.541311+00:00",
+  "finished_at": "2026-11-19T22:30:59.168726+00:00",
+  "seconds": 35.8,
+  "input_tokens": 295,
+  "output_tokens": 1976,
+  "cached_tokens": 0,
+  "cost_usd": 0.0082,
+  "cost_source": "reported",
+  "billed_usd": 0.00821436,
+  "searches": [],
+  "search_errors": 0,
+  "web_search_requests": null,
+  "fetches": [],
+  "tool_errors": 0,
+  "warnings": [],
+  "network": {
+    "requests": 1,
+    "requests_per_host": {
+      "openrouter.ai": 1
+    },
+    "hosts": [
+      "openrouter.ai"
+    ],
+    "status_counts": {
+      "200": 1
+    },
+    "bytes_up": 1809,
+    "bytes_down": 267125,
+    "wire_bytes": {
+      "harness_to_proxy": 3742,
+      "proxy_to_harness": 281818,
+      "proxy_to_internet": 3608,
+      "internet_to_proxy": 283347
+    },
+    "byte_counter": true,
+    "errors": 0,
+    "error_details": [],
+    "not_intercepted": [],
+    "blocked_by_sandbox": [],
+    "blocked_attempts": 0,
+    "websocket_messages": 0,
+    "tcp_flows": 0,
+    "incomplete_flows": 0,
+    "connections": 2,
+    "empty_connections": 1,
+    "addon_errors": 0,
+    "log": "network.jsonl.gz",
+    "sandbox_log": "ok",
+    "proxy_exit_code": 0,
+    "proxy_stopped_cleanly": true,
+    "proxy_log_errors": 0,
+    "secrets_redacted_at_stop": 0,
+    "dns": "blocked"
+  },
+  "attempts": 2,
+  "run_started_at": "2026-11-19T22:29:21.077995+00:00",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-19T22:29:21.077995+00:00",
+      "finished_at": "2026-11-19T22:29:51.538771+00:00",
+      "status": "error",
+      "error": "Upstream error from Together: Stream error: h2 protocol error: error reading a body from connection"
+    },
+    {
+      "attempt": 2,
+      "started_at": "2026-11-19T22:30:21.541311+00:00",
+      "finished_at": "2026-11-19T22:30:59.168726+00:00",
+      "status": "answered",
+      "error": ""
+    }
+  ]
+}

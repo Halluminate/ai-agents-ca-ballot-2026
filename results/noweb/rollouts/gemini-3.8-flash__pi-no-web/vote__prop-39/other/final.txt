@@ -1,0 +1,28 @@
+Whether to vote "yes" or "no" on Proposition 39 depends on your views regarding voter identification requirements, election security, voter access, and state spending. As an informational resource, I do not take a position on ballot measures or advise how to vote. 
+
+Supporters, including The Transparency Foundation, the Howard Jarvis Taxpayers Association, the Latino American Political Association, and the California Women’s Leadership Association, argue that requiring government-issued identification strengthens election integrity and public confidence. Opponents, including ACLU California Action, Common Cause, and the League of Women Voters of California, argue that the requirement would disenfranchise eligible voters and create costly barriers to voting.
+
+Here is an overview of the arguments on both sides and what each vote signifies:
+
+### What a "Yes" Vote Means
+A **Yes** vote supports amending the state constitution to:
+* Require voters to present government-issued identification to cast a ballot in person.
+* Invalidate mail-in ballots unless the voter includes the last four digits of an approved government-issued ID number on the return envelope.
+* Incur implementation and administrative costs estimated between tens of millions and low hundreds of millions of dollars annually.
+
+**Arguments by supporters:**
+* **Election Integrity:** Supporters argue that requiring government-issued photo ID helps prevent voter impersonation and ensures that only eligible citizens cast ballots.
+* **Public Confidence:** Organizations like The Transparency Foundation maintain that verifiable ID standards increase public trust in election outcomes.
+* **Standard Practice:** Proponents point out that presenting government-issued ID is already a routine requirement for many everyday activities, such as boarding an airplane, cashing a check, or entering federal buildings.
+
+---
+
+### What a "No" Vote Means
+A **No** vote opposes these changes, leaving California’s current voting laws in place, under which:
+* Registered voters generally do not need to show government-issued identification at polling places (except for certain first-time voters registering by mail without providing verification details).
+* Mail-in ballots are verified by comparing the signature on the return envelope with the signature on the voter’s registration record.
+
+**Arguments by opponents:**
+* **Voter Access:** Opponents such as the ACLU and the League of Women Voters argue that strict photo ID rules disproportionately affect low-income citizens, seniors, students, people with disabilities, and minority voters who may not have current government-issued IDs or the means to obtain them easily.
+* **Risk of Disenfranchisement:** Organizations like Common Cause express concern that eligible voters could have valid mail ballots rejected due to missing or mismatched digits on return envelopes.
+* **Cost and Need:** Opponents emphasize that proven in-person voter impersonation is exceedingly rare and argue that spending tens to hundreds of millions of dollars annually to address it is an unnecessary use of taxpayer funds.

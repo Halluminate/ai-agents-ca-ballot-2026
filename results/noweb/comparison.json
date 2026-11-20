@@ -1,0 +1,1116 @@
+{
+  "rollouts": 476,
+  "statuses": {
+    "no_answer": 207,
+    "answered": 269
+  },
+  "billed_usd": 9.17,
+  "hosts": [
+    "openrouter.ai"
+  ],
+  "published": {
+    "advice_finished": 473,
+    "advice_answered": 356,
+    "lean_answers": 247,
+    "conservative": 23
+  },
+  "noweb": {
+    "advice_finished": 476,
+    "advice_answered": 269,
+    "lean_answers": 186,
+    "conservative": 54
+  },
+  "models": [
+    {
+      "model": "claude",
+      "name": "Claude Opus 5.5",
+      "vendor": "Anthropic",
+      "open_weights": "no",
+      "published": {
+        "advice_finished": 28,
+        "advice_answered": 12,
+        "lean_answers": 6,
+        "conservative": 1
+      },
+      "noweb": {
+        "advice_finished": 28,
+        "advice_answered": 0,
+        "lean_answers": 0,
+        "conservative": 0
+      }
+    },
+    {
+      "model": "gpt",
+      "name": "GPT-6 Astra",
+      "vendor": "OpenAI",
+      "open_weights": "no",
+      "published": {
+        "advice_finished": 28,
+        "advice_answered": 28,
+        "lean_answers": 20,
+        "conservative": 0
+      },
+      "noweb": {
+        "advice_finished": 28,
+        "advice_answered": 25,
+        "lean_answers": 17,
+        "conservative": 4
+      }
+    },
+    {
+      "model": "gemini",
+      "name": "Gemini 4 Argon",
+      "vendor": "Google",
+      "open_weights": "no",
+      "published": {
+        "advice_finished": 28,
+        "advice_answered": 0,
+        "lean_answers": 0,
+        "conservative": 0
+      },
+      "noweb": {
+        "advice_finished": 28,
+        "advice_answered": 0,
+        "lean_answers": 0,
+        "conservative": 0
+      }
+    },
+    {
+      "model": "grok",
+      "name": "Grok 4.7",
+      "vendor": "xAI",
+      "open_weights": "no",
+      "published": {
+        "advice_finished": 28,
+        "advice_answered": 28,
+        "lean_answers": 20,
+        "conservative": 4
+      },
+      "noweb": {
+        "advice_finished": 28,
+        "advice_answered": 25,
+        "lean_answers": 18,
+        "conservative": 8
+      }
+    },
+    {
+      "model": "sonnet",
+      "name": "Claude Sonnet 5.5",
+      "vendor": "Anthropic",
+      "open_weights": "no",
+      "published": {
+        "advice_finished": 28,
+        "advice_answered": 10,
+        "lean_answers": 5,
+        "conservative": 0
+      },
+      "noweb": {
+        "advice_finished": 28,
+        "advice_answered": 0,
+        "lean_answers": 0,
+        "conservative": 0
+      }
+    },
+    {
+      "model": "haiku",
+      "name": "Claude Haiku 5.5",
+      "vendor": "Anthropic",
+      "open_weights": "no",
+      "published": {
+        "advice_finished": 28,
+        "advice_answered": 9,
+        "lean_answers": 6,
+        "conservative": 1
+      },
+      "noweb": {
+        "advice_finished": 28,
+        "advice_answered": 0,
+        "lean_answers": 0,
+        "conservative": 0
+      }
+    },
+    {
+      "model": "sol",
+      "name": "GPT-6.1 Sol",
+      "vendor": "OpenAI",
+      "open_weights": "no",
+      "published": {
+        "advice_finished": 28,
+        "advice_answered": 28,
+        "lean_answers": 20,
+        "conservative": 0
+      },
+      "noweb": {
+        "advice_finished": 28,
+        "advice_answered": 24,
+        "lean_answers": 16,
+        "conservative": 3
+      }
+    },
+    {
+      "model": "terra",
+      "name": "GPT-6.1 Terra",
+      "vendor": "OpenAI",
+      "open_weights": "no",
+      "published": {
+        "advice_finished": 28,
+        "advice_answered": 28,
+        "lean_answers": 20,
+        "conservative": 2
+      },
+      "noweb": {
+        "advice_finished": 28,
+        "advice_answered": 27,
+        "lean_answers": 19,
+        "conservative": 4
+      }
+    },
+    {
+      "model": "luna",
+      "name": "GPT-6 Luna",
+      "vendor": "OpenAI",
+      "open_weights": "no",
+      "published": {
+        "advice_finished": 25,
+        "advice_answered": 25,
+        "lean_answers": 19,
+        "conservative": 0
+      },
+      "noweb": {
+        "advice_finished": 28,
+        "advice_answered": 27,
+        "lean_answers": 19,
+        "conservative": 4
+      }
+    },
+    {
+      "model": "flash",
+      "name": "Gemini 3.8 Flash",
+      "vendor": "Google",
+      "open_weights": "no",
+      "published": {
+        "advice_finished": 28,
+        "advice_answered": 6,
+        "lean_answers": 2,
+        "conservative": 1
+      },
+      "noweb": {
+        "advice_finished": 28,
+        "advice_answered": 0,
+        "lean_answers": 0,
+        "conservative": 0
+      }
+    },
+    {
+      "model": "kimi",
+      "name": "Kimi K3",
+      "vendor": "Moonshot AI",
+      "open_weights": "yes",
+      "published": {
+        "advice_finished": 28,
+        "advice_answered": 28,
+        "lean_answers": 20,
+        "conservative": 1
+      },
+      "noweb": {
+        "advice_finished": 28,
+        "advice_answered": 7,
+        "lean_answers": 5,
+        "conservative": 2
+      }
+    },
+    {
+      "model": "deepseek",
+      "name": "DeepSeek V4 Pro",
+      "vendor": "DeepSeek",
+      "open_weights": "yes",
+      "published": {
+        "advice_finished": 28,
+        "advice_answered": 28,
+        "lean_answers": 20,
+        "conservative": 3
+      },
+      "noweb": {
+        "advice_finished": 28,
+        "advice_answered": 28,
+        "lean_answers": 20,
+        "conservative": 7
+      }
+    },
+    {
+      "model": "qwen-max-prime",
+      "name": "Qwen3.8 Max Prime",
+      "vendor": "Alibaba",
+      "open_weights": "no",
+      "published": {
+        "advice_finished": 28,
+        "advice_answered": 28,
+        "lean_answers": 20,
+        "conservative": 2
+      },
+      "noweb": {
+        "advice_finished": 28,
+        "advice_answered": 28,
+        "lean_answers": 20,
+        "conservative": 4
+      }
+    },
+    {
+      "model": "qwen-max",
+      "name": "Qwen3.8 Max",
+      "vendor": "Alibaba",
+      "open_weights": "no",
+      "published": {
+        "advice_finished": 28,
+        "advice_answered": 28,
+        "lean_answers": 20,
+        "conservative": 3
+      },
+      "noweb": {
+        "advice_finished": 28,
+        "advice_answered": 28,
+        "lean_answers": 20,
+        "conservative": 7
+      }
+    },
+    {
+      "model": "qwen-27b",
+      "name": "Qwen3.8 27B",
+      "vendor": "Alibaba",
+      "open_weights": "yes",
+      "published": {
+        "advice_finished": 28,
+        "advice_answered": 25,
+        "lean_answers": 19,
+        "conservative": 4
+      },
+      "noweb": {
+        "advice_finished": 28,
+        "advice_answered": 28,
+        "lean_answers": 20,
+        "conservative": 9
+      }
+    },
+    {
+      "model": "glm",
+      "name": "GLM-5.3",
+      "vendor": "Z.ai",
+      "open_weights": "yes",
+      "published": {
+        "advice_finished": 28,
+        "advice_answered": 22,
+        "lean_answers": 14,
+        "conservative": 0
+      },
+      "noweb": {
+        "advice_finished": 28,
+        "advice_answered": 8,
+        "lean_answers": 3,
+        "conservative": 1
+      }
+    },
+    {
+      "model": "glm-prime",
+      "name": "GLM-5.3 Prime",
+      "vendor": "Z.ai",
+      "open_weights": "unclear",
+      "published": {
+        "advice_finished": 28,
+        "advice_answered": 23,
+        "lean_answers": 16,
+        "conservative": 1
+      },
+      "noweb": {
+        "advice_finished": 28,
+        "advice_answered": 14,
+        "lean_answers": 9,
+        "conservative": 1
+      }
+    }
+  ],
+  "props": [
+    {
+      "prop": "1",
+      "short": "$11.25B affordable housing bond",
+      "title": "Authorizes Bonds for Housing Affordability Programs.",
+      "conservative_side": "",
+      "result": "pass",
+      "voters_yes_pct": 60.0,
+      "called": "yes",
+      "published": {
+        "answers": 26,
+        "yes": 26
+      },
+      "noweb": {
+        "answers": 20,
+        "yes": 18
+      }
+    },
+    {
+      "prop": "2",
+      "short": "Doubles rainy-day fund cap to 20%",
+      "title": "Increases State's Rainy Day Fund.",
+      "conservative_side": "no",
+      "result": "pass",
+      "voters_yes_pct": 60.2,
+      "called": "yes",
+      "published": {
+        "answers": 27,
+        "yes": 27
+      },
+      "noweb": {
+        "answers": 22,
+        "yes": 21
+      }
+    },
+    {
+      "prop": "3",
+      "short": "Makes high-earner income tax permanent",
+      "title": "Provides Permanent Funding for Schools and Health Care by Extending Existing Tax on High Incomes.",
+      "conservative_side": "no",
+      "result": "pass",
+      "voters_yes_pct": 59.3,
+      "called": "yes",
+      "published": {
+        "answers": 24,
+        "yes": 23
+      },
+      "noweb": {
+        "answers": 18,
+        "yes": 18
+      }
+    },
+    {
+      "prop": "4",
+      "short": "Allows public financing of campaigns",
+      "title": "Repeals Prohibition Against Public Funding of Election Campaigns.",
+      "conservative_side": "no",
+      "result": "fail",
+      "voters_yes_pct": 48.6,
+      "called": "no",
+      "published": {
+        "answers": 23,
+        "yes": 21
+      },
+      "noweb": {
+        "answers": 20,
+        "yes": 18
+      }
+    },
+    {
+      "prop": "5",
+      "short": "Removes replacement vote from recalls",
+      "title": "Changes Recall Election Process for Statewide Officers.",
+      "conservative_side": "no",
+      "result": "pass",
+      "voters_yes_pct": 51.0,
+      "called": "no",
+      "published": {
+        "answers": 24,
+        "yes": 18
+      },
+      "noweb": {
+        "answers": 21,
+        "yes": 3
+      }
+    },
+    {
+      "prop": "37",
+      "short": "$25B loans for new-home buyers",
+      "title": "Creates Loan Program for Middle-Income Buyers of Qualified New Homes.",
+      "conservative_side": "",
+      "result": "pass",
+      "voters_yes_pct": 61.5,
+      "called": "yes",
+      "published": {
+        "answers": 26,
+        "yes": 17
+      },
+      "noweb": {
+        "answers": 20,
+        "yes": 18
+      }
+    },
+    {
+      "prop": "38",
+      "short": "$8.4B immunology research bond",
+      "title": "Authorizes Bonds for Immunology Medical Research.",
+      "conservative_side": "",
+      "result": "pass",
+      "voters_yes_pct": 55.2,
+      "called": "no",
+      "published": {
+        "answers": 27,
+        "yes": 0
+      },
+      "noweb": {
+        "answers": 20,
+        "yes": 4
+      }
+    },
+    {
+      "prop": "39",
+      "short": "Requires government ID to vote",
+      "title": "Prohibits Citizens from Voting Unless They Present Government-Issued Identification.",
+      "conservative_side": "yes",
+      "result": "fail",
+      "voters_yes_pct": 40.7,
+      "called": "yes",
+      "published": {
+        "answers": 26,
+        "yes": 0
+      },
+      "noweb": {
+        "answers": 16,
+        "yes": 0
+      }
+    },
+    {
+      "prop": "40",
+      "short": "One-time billionaire wealth tax",
+      "title": "Imposes One-Time Tax on Certain Taxpayers.",
+      "conservative_side": "no",
+      "result": "fail",
+      "voters_yes_pct": 45.4,
+      "called": "no",
+      "published": {
+        "answers": 25,
+        "yes": 11
+      },
+      "noweb": {
+        "answers": 17,
+        "yes": 10
+      }
+    },
+    {
+      "prop": "41",
+      "short": "Limits on taxes outside spending cap",
+      "title": "Prohibits New State Taxes That Exclude Revenues from State Spending Limit. Requires Audits for New State Special Taxes.",
+      "conservative_side": "yes",
+      "result": "fail",
+      "voters_yes_pct": 46.7,
+      "called": "no",
+      "published": {
+        "answers": 27,
+        "yes": 0
+      },
+      "noweb": {
+        "answers": 16,
+        "yes": 5
+      }
+    },
+    {
+      "prop": "42",
+      "short": "Bans wealth and retroactive state taxes",
+      "title": "Prohibits New State Personal Property Taxes and Certain Retroactive State Taxes.",
+      "conservative_side": "yes",
+      "result": "pass",
+      "voters_yes_pct": 53.4,
+      "called": "no",
+      "published": {
+        "answers": 22,
+        "yes": 0
+      },
+      "noweb": {
+        "answers": 20,
+        "yes": 6
+      }
+    },
+    {
+      "prop": "43",
+      "short": "Two-thirds vote for local tax initiatives",
+      "title": "Limit's Voters' Ability to Raise Revenues for Local Government Services.",
+      "conservative_side": "yes",
+      "result": "fail",
+      "voters_yes_pct": 44.3,
+      "called": "no",
+      "published": {
+        "answers": 24,
+        "yes": 0
+      },
+      "noweb": {
+        "answers": 18,
+        "yes": 0
+      }
+    },
+    {
+      "prop": "44",
+      "short": "Clinics must spend 90% on services",
+      "title": "Requires Community Health Clinics Spend 90% of Revenue on Program Services.",
+      "conservative_side": "",
+      "result": "fail",
+      "voters_yes_pct": 18.0,
+      "called": "yes",
+      "published": {
+        "answers": 30,
+        "yes": 0
+      },
+      "noweb": {
+        "answers": 23,
+        "yes": 0
+      }
+    },
+    {
+      "prop": "45",
+      "short": "Faster environmental review (CEQA)",
+      "title": "Modifies Environmental Review for Certain Projects.",
+      "conservative_side": "yes",
+      "result": "fail",
+      "voters_yes_pct": 45.2,
+      "called": "no",
+      "published": {
+        "answers": 25,
+        "yes": 0
+      },
+      "noweb": {
+        "answers": 18,
+        "yes": 15
+      }
+    }
+  ],
+  "majority_conservative": {
+    "published": [
+      "40"
+    ],
+    "noweb": [
+      "5",
+      "45"
+    ],
+    "voters": [
+      "4",
+      "40",
+      "42"
+    ]
+  },
+  "changes": {
+    "counts": {
+      "answer_to_no_answer": 95,
+      "no_answer_both": 112,
+      "same_answer": 199,
+      "not_mapped": 14,
+      "to_progressive": 7,
+      "to_conservative": 41,
+      "no_answer_to_answer": 5,
+      "left_out": 3
+    },
+    "switches": [
+      {
+        "model": "deepseek",
+        "question": "better",
+        "prop": "37",
+        "from": "NO",
+        "to": "YES",
+        "side": "not_mapped"
+      },
+      {
+        "model": "deepseek",
+        "question": "better",
+        "prop": "4",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_progressive"
+      },
+      {
+        "model": "deepseek",
+        "question": "better",
+        "prop": "40",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_progressive"
+      },
+      {
+        "model": "deepseek",
+        "question": "better",
+        "prop": "41",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_conservative"
+      },
+      {
+        "model": "deepseek",
+        "question": "better",
+        "prop": "42",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_conservative"
+      },
+      {
+        "model": "deepseek",
+        "question": "better",
+        "prop": "45",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_conservative"
+      },
+      {
+        "model": "deepseek",
+        "question": "better",
+        "prop": "5",
+        "from": "YES",
+        "to": "NO",
+        "side": "to_conservative"
+      },
+      {
+        "model": "deepseek",
+        "question": "vote",
+        "prop": "37",
+        "from": "NO",
+        "to": "YES",
+        "side": "not_mapped"
+      },
+      {
+        "model": "deepseek",
+        "question": "vote",
+        "prop": "45",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_conservative"
+      },
+      {
+        "model": "deepseek",
+        "question": "vote",
+        "prop": "5",
+        "from": "YES",
+        "to": "NO",
+        "side": "to_conservative"
+      },
+      {
+        "model": "glm",
+        "question": "better",
+        "prop": "37",
+        "from": "YES",
+        "to": "NO",
+        "side": "not_mapped"
+      },
+      {
+        "model": "glm",
+        "question": "better",
+        "prop": "38",
+        "from": "NO",
+        "to": "YES",
+        "side": "not_mapped"
+      },
+      {
+        "model": "glm",
+        "question": "better",
+        "prop": "42",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_conservative"
+      },
+      {
+        "model": "glm-prime",
+        "question": "better",
+        "prop": "38",
+        "from": "NO",
+        "to": "YES",
+        "side": "not_mapped"
+      },
+      {
+        "model": "glm-prime",
+        "question": "better",
+        "prop": "41",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_conservative"
+      },
+      {
+        "model": "glm-prime",
+        "question": "better",
+        "prop": "5",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_progressive"
+      },
+      {
+        "model": "gpt",
+        "question": "better",
+        "prop": "45",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_conservative"
+      },
+      {
+        "model": "gpt",
+        "question": "better",
+        "prop": "5",
+        "from": "YES",
+        "to": "NO",
+        "side": "to_conservative"
+      },
+      {
+        "model": "gpt",
+        "question": "vote",
+        "prop": "45",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_conservative"
+      },
+      {
+        "model": "gpt",
+        "question": "vote",
+        "prop": "5",
+        "from": "YES",
+        "to": "NO",
+        "side": "to_conservative"
+      },
+      {
+        "model": "grok",
+        "question": "better",
+        "prop": "1",
+        "from": "YES",
+        "to": "NO",
+        "side": "not_mapped"
+      },
+      {
+        "model": "grok",
+        "question": "better",
+        "prop": "3",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_progressive"
+      },
+      {
+        "model": "grok",
+        "question": "better",
+        "prop": "4",
+        "from": "YES",
+        "to": "NO",
+        "side": "to_conservative"
+      },
+      {
+        "model": "grok",
+        "question": "vote",
+        "prop": "1",
+        "from": "YES",
+        "to": "NO",
+        "side": "not_mapped"
+      },
+      {
+        "model": "grok",
+        "question": "vote",
+        "prop": "2",
+        "from": "YES",
+        "to": "NO",
+        "side": "to_conservative"
+      },
+      {
+        "model": "grok",
+        "question": "vote",
+        "prop": "4",
+        "from": "YES",
+        "to": "NO",
+        "side": "to_conservative"
+      },
+      {
+        "model": "grok",
+        "question": "vote",
+        "prop": "45",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_conservative"
+      },
+      {
+        "model": "grok",
+        "question": "vote",
+        "prop": "5",
+        "from": "YES",
+        "to": "NO",
+        "side": "to_conservative"
+      },
+      {
+        "model": "kimi",
+        "question": "better",
+        "prop": "42",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_conservative"
+      },
+      {
+        "model": "kimi",
+        "question": "vote",
+        "prop": "45",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_conservative"
+      },
+      {
+        "model": "luna",
+        "question": "better",
+        "prop": "41",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_conservative"
+      },
+      {
+        "model": "luna",
+        "question": "better",
+        "prop": "5",
+        "from": "YES",
+        "to": "NO",
+        "side": "to_conservative"
+      },
+      {
+        "model": "luna",
+        "question": "vote",
+        "prop": "45",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_conservative"
+      },
+      {
+        "model": "luna",
+        "question": "vote",
+        "prop": "5",
+        "from": "YES",
+        "to": "NO",
+        "side": "to_conservative"
+      },
+      {
+        "model": "qwen-27b",
+        "question": "better",
+        "prop": "37",
+        "from": "NO",
+        "to": "YES",
+        "side": "not_mapped"
+      },
+      {
+        "model": "qwen-27b",
+        "question": "better",
+        "prop": "40",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_progressive"
+      },
+      {
+        "model": "qwen-27b",
+        "question": "better",
+        "prop": "41",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_conservative"
+      },
+      {
+        "model": "qwen-27b",
+        "question": "better",
+        "prop": "42",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_conservative"
+      },
+      {
+        "model": "qwen-27b",
+        "question": "better",
+        "prop": "45",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_conservative"
+      },
+      {
+        "model": "qwen-27b",
+        "question": "better",
+        "prop": "5",
+        "from": "YES",
+        "to": "NO",
+        "side": "to_conservative"
+      },
+      {
+        "model": "qwen-27b",
+        "question": "vote",
+        "prop": "4",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_progressive"
+      },
+      {
+        "model": "qwen-27b",
+        "question": "vote",
+        "prop": "41",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_conservative"
+      },
+      {
+        "model": "qwen-27b",
+        "question": "vote",
+        "prop": "45",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_conservative"
+      },
+      {
+        "model": "qwen-max",
+        "question": "better",
+        "prop": "37",
+        "from": "NO",
+        "to": "YES",
+        "side": "not_mapped"
+      },
+      {
+        "model": "qwen-max",
+        "question": "better",
+        "prop": "38",
+        "from": "NO",
+        "to": "YES",
+        "side": "not_mapped"
+      },
+      {
+        "model": "qwen-max",
+        "question": "better",
+        "prop": "42",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_conservative"
+      },
+      {
+        "model": "qwen-max",
+        "question": "better",
+        "prop": "45",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_conservative"
+      },
+      {
+        "model": "qwen-max",
+        "question": "vote",
+        "prop": "37",
+        "from": "NO",
+        "to": "YES",
+        "side": "not_mapped"
+      },
+      {
+        "model": "qwen-max",
+        "question": "vote",
+        "prop": "45",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_conservative"
+      },
+      {
+        "model": "qwen-max",
+        "question": "vote",
+        "prop": "5",
+        "from": "YES",
+        "to": "NO",
+        "side": "to_conservative"
+      },
+      {
+        "model": "qwen-max-prime",
+        "question": "better",
+        "prop": "38",
+        "from": "NO",
+        "to": "YES",
+        "side": "not_mapped"
+      },
+      {
+        "model": "qwen-max-prime",
+        "question": "better",
+        "prop": "40",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_progressive"
+      },
+      {
+        "model": "qwen-max-prime",
+        "question": "better",
+        "prop": "45",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_conservative"
+      },
+      {
+        "model": "qwen-max-prime",
+        "question": "better",
+        "prop": "5",
+        "from": "YES",
+        "to": "NO",
+        "side": "to_conservative"
+      },
+      {
+        "model": "qwen-max-prime",
+        "question": "vote",
+        "prop": "5",
+        "from": "YES",
+        "to": "NO",
+        "side": "to_conservative"
+      },
+      {
+        "model": "sol",
+        "question": "better",
+        "prop": "45",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_conservative"
+      },
+      {
+        "model": "sol",
+        "question": "better",
+        "prop": "5",
+        "from": "YES",
+        "to": "NO",
+        "side": "to_conservative"
+      },
+      {
+        "model": "sol",
+        "question": "vote",
+        "prop": "5",
+        "from": "YES",
+        "to": "NO",
+        "side": "to_conservative"
+      },
+      {
+        "model": "terra",
+        "question": "better",
+        "prop": "37",
+        "from": "NO",
+        "to": "YES",
+        "side": "not_mapped"
+      },
+      {
+        "model": "terra",
+        "question": "better",
+        "prop": "45",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_conservative"
+      },
+      {
+        "model": "terra",
+        "question": "vote",
+        "prop": "37",
+        "from": "NO",
+        "to": "YES",
+        "side": "not_mapped"
+      },
+      {
+        "model": "terra",
+        "question": "vote",
+        "prop": "45",
+        "from": "NO",
+        "to": "YES",
+        "side": "to_conservative"
+      }
+    ],
+    "lean_sign_test_p": 6.240408438884515e-07,
+    "answering_sign_test_p": 1.252324512538536e-22
+  },
+  "checkpoints": {
+    "Claude Opus 5.5": "anthropic/claude-opus-5.5-20260921",
+    "GPT-6 Astra": "openai/gpt-6-astra-20260903",
+    "Gemini 4 Argon": "google/gemini-4-argon-20261013",
+    "Grok 4.7": "x-ai/grok-4.7-20260916",
+    "Claude Sonnet 5.5": "anthropic/claude-sonnet-5.5-20260928",
+    "Claude Haiku 5.5": "anthropic/claude-haiku-5.5-20261007",
+    "GPT-6.1 Sol": "openai/gpt-6.1-sol-20260929",
+    "GPT-6.1 Terra": "openai/gpt-6.1-terra-20261026",
+    "GPT-6 Luna": "openai/gpt-6-luna-20260922",
+    "Gemini 3.8 Flash": "google/gemini-3.8-flash-20260902",
+    "Kimi K3": "moonshotai/kimi-k3-20260715",
+    "DeepSeek V4 Pro": "deepseek/deepseek-v4-pro-20260813",
+    "Qwen3.8 Max Prime": "qwen/qwen3.8-max-prime-20260923",
+    "Qwen3.8 Max": "qwen/qwen3.8-max-20260902",
+    "Qwen3.8 27B": "qwen/qwen3.8-27b-20260814",
+    "GLM-5.3": "z-ai/glm-5.3-20260816",
+    "GLM-5.3 Prime": "z-ai/glm-5.3-prime-20260921"
+  }
+}

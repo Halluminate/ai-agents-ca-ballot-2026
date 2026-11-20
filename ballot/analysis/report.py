@@ -142,8 +142,8 @@ def effects_section(results: list[dict]) -> str:
         rows.append(row)
     headers = ["model", "arm", *[f"{a} vs {b}" for a, b in combinations(prompts, 2)]]
     prompt_part = ("### Between prompts\n\nShare of propositions where the same model and harness gave different "
-                   "answers to two prompts. \"win\" asks for a prediction, so it can differ for good reason.\n\n"
-                   + table(headers, rows))
+                   "answers to two prompts." + (" \"win\" asks for a prediction, so it can differ for good reason." if "win" in prompts else "")
+                   + "\n\n" + table(headers, rows))
 
     rows = []
     for model in order(results, "model"):
@@ -155,10 +155,10 @@ def effects_section(results: list[dict]) -> str:
             same, total = compare(results, (model, "native", prompt), (model, "common", prompt))
             row.append(percent(total - same, total))
         rows.append(row)
-    harness_part = ("### Between harnesses\n\nShare of propositions where a model's native harness and the shared "
-                    "harness gave different answers to the same prompt.\n\n" + table(["model", *prompts], rows))
+    harness_part = ("\n\n### Between harnesses\n\nShare of propositions where a model's native harness and the shared "
+                    "harness gave different answers to the same prompt.\n\n" + table(["model", *prompts], rows)) if rows else ""
     note = "With one run per condition, a difference here can be noise. Repeats would separate the two."
-    return f"## Prompt and harness effects\n\n{note}\n\n{prompt_part}\n\n{harness_part}"
+    return f"## Prompt and harness effects\n\n{note}\n\n{prompt_part}{harness_part}"
 
 
 def agreement_section(results: list[dict]) -> str:
@@ -194,6 +194,9 @@ def network_section(results: list[dict]) -> str:
 
 
 def sources_section(results: list[dict]) -> str:
+    """The sites each arm read most, or nothing when no rollout opened a page."""
+    if not any(r["fetches"] for r in results):
+        return ""
     parts = ["## Most-read sites\n\nBased on the pages each harness reports opening."]
     for arm in order(results, "arm"):
         domains = Counter(urlparse(url).netloc.removeprefix("www.") for r in results if r["arm"] == arm for url in r["fetches"])
@@ -209,7 +212,8 @@ def write_report(folder: Path) -> list[dict]:
 
     manifest = json.loads((folder / "manifest.json").read_text()) if (folder / "manifest.json").exists() else {}
     config = manifest.get("config") or {}
-    prompts = config.get("prompts") or {}
+    noweb = all(r["arm"] == "noweb" for r in results)
+    prompts = ((config.get("noweb") or {}) if noweb else config).get("prompts") or {}
     results = sort_results(results, config)
     write_csvs(folder, results)
     ran = set(order(results, "prop"))
@@ -231,7 +235,7 @@ def write_report(folder: Path) -> list[dict]:
         network_section(results),
         sources_section(results),
     ]
-    (folder / "report.md").write_text("\n\n".join(sections) + "\n")
+    (folder / "report.md").write_text("\n\n".join(section for section in sections if section) + "\n")
     print(f"Wrote {folder / 'report.md'} and runs.csv")
     return results
 

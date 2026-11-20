@@ -1,0 +1,12 @@
+Deciding whether to vote "yes" or "no" on Proposition 5 depends on your perspective on how recall elections for statewide officers should be conducted and how resulting vacancies should be filled. 
+
+According to the provided ballot summary, this legislative constitutional amendment proposes altering the state's existing recall election procedures, though no formal arguments from supporters or opponents were submitted for the ballot text.
+
+Here is a breakdown of what each vote means based on the provided ballot measure summary:
+
+* **Voting "Yes"**: According to the ballot description, a "yes" vote supports changing the current system so that voters only decide whether to recall the officer during the initial recall election. If the recall is successful, the resulting vacancy would then be filled either by a subsequent special election or through an appointment, rather than on the same ballot. In broader policy discussions regarding recall reform, proponents of this approach generally argue that separating the recall question from the replacement selection keeps the focus on the incumbent's performance and prevents a replacement candidate from winning office with a smaller percentage of the vote than the recalled official received.
+
+* **Voting "No"**: Based on the ballot summary, a "no" vote keeps the current law in place, meaning voters continue to vote on whether to recall a statewide officer and select a replacement candidate at the same time on the same ballot. In general debates over recall procedures, those who favor keeping the simultaneous election process often argue that it is more direct, ensures voters immediately choose the successor rather than relying on an appointment, and avoids the potential delays or administrative complexities of holding a second, separate special election.
+
+**Fiscal Considerations**
+As stated in the provided fiscal impact summary, the net financial effect of Proposition 5 is unknown. Depending on which statewide office is subject to a recall, changing the process could result in either savings or additional costs amounting to millions of dollars to administer the election.

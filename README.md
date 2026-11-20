@@ -37,6 +37,7 @@ GitHub shows files of up to a few megabytes on the page; for larger ones, its Ra
 | [results/report.md](results/report.md) | Every answer and refusal, by setup, question and proposition, and what each harness contacted |
 | [results/search_summary.md](results/search_summary.md) | Where each setup searched and what it read |
 | [results/OLD_MEASURE_CHECK.md](results/OLD_MEASURE_CHECK.md) | The 11 answers about an older measure with the same number, and how every rollout was checked |
+| [results/noweb/](results/noweb/) | The no-web arm: the same 17 models in Pi shown only each ballot label, 476 rollouts in the same layout, with [comparison.md](results/noweb/comparison.md) against the published answers and its own older-measure check |
 | `results/runs.csv`, `visits.csv`, `old_measure_screen.csv` | One row per rollout; every page opened, with its position in the run; the older-measure screen, one row per rollout |
 | `results/excluded.json`, `manifest.json` | The excluded answers, and the configuration behind every rollout |
 | [docs/methodology.md](docs/methodology.md) | Prompts, setups, harness settings, what each rollout records, and what we learned about the harnesses |
@@ -46,7 +47,8 @@ GitHub shows files of up to a few megabytes on the page; for larger ones, its Ra
 
 Every network request and response (keys redacted), the recording proxy's logs and every file each harness wrote are in
 the [logs release](https://github.com/Halluminate/ai-agents-ca-ballot-2026/releases/tag/logs-v1), under the same
-`rollouts/<setup>/<rollout>/` paths. Download both parts and unpack them into one folder.
+`rollouts/<setup>/<rollout>/` paths. Download both parts and unpack them into one folder. The no-web arm's are in their own file there,
+`noweb-logs-part1.tar`, under the same paths as in `results/noweb/`.
 
 ## Rerun the experiment
 
@@ -96,8 +98,19 @@ caffeinate -i python3 -m ballot run --props 1 --yes
 caffeinate -i python3 -m ballot run --yes
 ```
 
+**The no-web arm.** Every model in Pi with no tools at all, shown only the proposition's ballot label, the text printed
+on the ballot, so it answers from what it already knows. It runs only when asked; give it its own folder with `--name`.
+It won't start unless every model's checkpoint on OpenRouter is dated before election day.
+[docs/methodology.md](docs/methodology.md#the-no-web-arm) has the details.
+
+```bash
+caffeinate -i python3 -m ballot run --arms noweb --name noweb --yes
+```
+
 **Publish.** `export` writes the cleaned copy of `runs/` into `results/` and the heavy logs into `runs/logs-part*.tar`;
-`results` builds the pages and tables in `results/` from the rollouts.
+`results` builds the pages and tables in `results/` from the rollouts. The no-web runs are exported on their own, into
+`results/noweb/`, with `python3 -m ballot export runs/noweb --out results/noweb --logs runs/noweb-logs.tar --set-aside runs/noweb-timeouts`; `results`
+then builds their pages too.
 
 ```bash
 python3 -m ballot export
@@ -145,7 +158,7 @@ checks every published record against its rollout, as `add.py` did, and `python3
 | `ballot/keys.py`, `preflight.py`, `codex_catalog.py` | Saving keys, checking everything before a run, and Codex's model catalogs |
 | `ballot/export.py` | Copies the runs into `results/`, cleaned, and the heavy logs into the release archive |
 | `ballot/meta.py` | Names for models, harnesses, questions and propositions |
-| `ballot/analysis/` | `load` reads rollouts; `report`, `sites`, `old_measures` and `trajectories` write the pages and tables in `results/`; `pipeline` runs them all |
+| `ballot/analysis/` | `load` reads rollouts; `report`, `sites`, `old_measures` and `trajectories` write the pages and tables in `results/`; `noweb` writes `results/noweb/` and its comparison with the published answers; `pipeline` runs them all |
 | `ballot/tagging/` | The tagging kit, its record checker (`add.py`) and the merge of the tag records |
 
 ## Tests
@@ -156,7 +169,7 @@ None of these spend anything.
 |---|---|
 | `tests/test_offline.py` | The prompts and ballot, how a yes or no is read (and refusals aren't), each harness's event parser and cost estimate, and each harness's settings, with no model calls |
 | `tests/test_runner.py` | The runner with a stub harness: refusals are data and never retried, infrastructure failures are, timeouts, resuming, the spending cap and per-model limits |
-| `tests/test_pipeline.py` | Runs the real harness binaries against a local fake server shaped like OpenRouter, OpenAI and Google. It checks that each harness completes a run, offers only web tools, sends the right effort, pins its provider and uses only its own key. |
+| `tests/test_pipeline.py` | Runs the real harness binaries against a local fake server shaped like OpenRouter, OpenAI and Google. It checks that each harness completes a run, offers only web tools (Pi in the no-web arm, none), sends the right effort, pins its provider and uses only its own key. |
 | `tests/test_add_keys.py` | That the keys command keeps every key off the screen and writes a private `.env` |
 | `tests/test_netlog.py` | The network capture, with local servers and the real harness binaries |
 

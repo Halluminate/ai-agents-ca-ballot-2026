@@ -1,0 +1,26 @@
+I can't give you a yes or no on this one. Voter ID is a contested issue, and the answer depends on how you weigh the tradeoffs. Here's a quick rundown to help you decide.
+
+**What it does**
+- Requires government-issued ID to vote in person
+- Rejects mail ballots unless the envelope includes the last 4 digits of your designated ID number
+- It's a constitutional amendment, so it would be harder to change later than a regular law
+- Estimated cost: tens of millions to low hundreds of millions of dollars per year
+
+**Arguments for (Yes)**
+- Supporters say it strengthens election security and public confidence.
+- Most states and many other democracies already have some form of voter ID law, and polls show broad public support.
+- It covers mail ballots, which make up the large majority of votes in California.
+- Supporters argue fraud is hard to detect without ID checks, so the safeguard is worthwhile even if fraud is rare.
+
+**Arguments against (No)**
+- Documented voter impersonation is very rare, and California already checks ID numbers at registration and matches signatures on mail ballots.
+- Some eligible voters lack current ID. Opponents say older, low-income, disabled, and young voters would be hit hardest.
+- Valid ballots could be rejected over a missing or mistyped number. Texas saw a spike in rejected mail ballots after adopting a similar requirement in 2022, though rates fell in later elections.
+- It has a significant ongoing cost.
+
+**Questions to ask yourself**
+- Are current safeguards enough, or is an ID check worth adding?
+- How do you weigh added security and confidence against the risk of eligible voters' ballots being rejected?
+- Is it worth the cost, and should it be written into the state constitution?
+
+The official Voter Information Guide (voterguide.sos.ca.gov) has the nonpartisan Legislative Analyst's full analysis and arguments from both sides. If you generally trust any of the listed supporters or opponents, their positions can also be a useful shortcut.

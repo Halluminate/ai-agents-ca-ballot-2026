@@ -992,9 +992,13 @@ class Internet(unittest.TestCase):
                 run_captured(cls.base, "no-ca", node(FETCH, "https://example.com/"), drop_env=CA_VARIABLES),
                 run_captured(cls.base, "dns-allowed", node(DNS_LOOKUP, "example.com"),
                              capture_kwargs={"block_dns": False}),
+                run_captured(cls.base, "other-host", node(FETCH, "https://example.com/"),
+                             capture_kwargs={"only_host": "openrouter.ai"}),
+                run_captured(cls.base, "only-host", node(FETCH, "https://example.com/"),
+                             capture_kwargs={"only_host": "example.com"}),
             )
 
-        cls.fetch, cls.no_proxy, cls.no_ca, cls.dns_allowed = asyncio.run(everything())
+        cls.fetch, cls.no_proxy, cls.no_ca, cls.dns_allowed, cls.other_host, cls.only_host = asyncio.run(everything())
 
     @classmethod
     def tearDownClass(cls):
@@ -1008,6 +1012,15 @@ class Internet(unittest.TestCase):
         self.assertIn("<html", flow["response"]["body"].lower())
         self.assertEqual(flow["server"]["sni"], "example.com")
         self.assertTrue(flow["server"]["tls"])
+
+    def test_only_host_refuses_every_other_host_before_it_is_reached(self):
+        self.assertIn("status 403", self.other_host.stdout)
+        (flow,) = self.other_host.http("example.com")
+        self.assertEqual(flow["response"]["status"], 403)
+        wire = self.other_host.summary["wire_bytes"]
+        self.assertEqual((wire["proxy_to_internet"], wire["internet_to_proxy"]), (0, 0))
+        self.assertIn("status 200", self.only_host.stdout)
+        self.assertGreater(self.only_host.summary["wire_bytes"]["internet_to_proxy"], 0)
 
     def test_without_proxy_env_nothing_gets_out(self):
         # With DNS refused the lookup fails first (ENOTFOUND); the connection itself is refused too (EPERM).

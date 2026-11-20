@@ -1,0 +1,383 @@
+{
+  "note": "The configuration behind the 476 no-web rollouts in results/noweb/rollouts: the vote and better questions, asked of each model in Pi with no tools and shown only each proposition's ballot label. 474 ran on November 17, 2026, from 18:36 to 19:11 UTC, after the election; every model's checkpoint, in openrouter_snapshots, is dated before November 3. Two DeepSeek V4 Pro rollouts, vote on Prop 40 and better on Prop 42, were run again on November 19 under the 90-minute limit, because an earlier 10-minute limit had stopped their first attempts; those are in the logs release, under set-aside/. The arm also asked the win question, and its prompts are listed here, but those rollouts aren't in this release. Concurrency was lower than for the published runs, which doesn't change a rollout.",
+  "prompt_sha256": {
+    "noweb/better/p4": "aba4583b21234a8bbd4f2efdacda6987aa1000e3eb4665905bcbd0ff365f880d",
+    "noweb/vote/p3": "21a6f183abc2c748af28a10a12ea633ae6666a43ee761b35567ef008a2dc1e07",
+    "noweb/better/p1": "54097b564cc8b16b9b8e659c16dbdeadc9023fc14bb7c2f7d582efefb0802327",
+    "noweb/better/p3": "00dd245c9c3e71c47afc4ba1e73bc5449d599ac1cb04433ec293e3e8a81fb144",
+    "noweb/better/p38": "cc4df05771de9d7236aa60eb89a6ec91f0c067e9730f3be0e6a47a4c8a6cf22a",
+    "noweb/win/p37": "7fc5f903b3feacd4351b54fd9dabe6680a4333a1c5b79a2c5841f8292e48fa8a",
+    "noweb/vote/p45": "1007feb15f62ff84a0bd3da55fde6e3f4470e2548124660e4a2a5e2540803bb2",
+    "noweb/vote/p44": "7b9d03c4dc52899121be9f5ca0b51cff4e33ab27d8cf94a108282ea382c5467d",
+    "noweb/vote/p42": "176d614c16397ee37472b15e455869406fde16ecb63b4225c8fc1e370a485e11",
+    "noweb/vote/p37": "69322ca8bcd23489e381ff801338dcb05c493daf28d5dc5d6696b7b4d8584b02",
+    "noweb/better/p43": "3c71e09b6766cab671974176a13f4dcf347314e2489f427a75c8e685ab6afdf8",
+    "noweb/better/p5": "1cbdaa485eab722af5c1ff49290929be640bedb42151383a5bc5121414b0ce1d",
+    "noweb/win/p3": "fa9a17b3a001a3d724944abeb2ddc1703d96125a4fa39e9c43c463b320b502ed",
+    "noweb/better/p42": "cdec00136c41df71a43049640b0106a6bc2facb9f8043e402b71f399ff7ae00a",
+    "noweb/win/p39": "ec6ed31d13176187c42161f34a0a3564b9d4cc39ef06951dc239e8bde68ae549",
+    "noweb/win/p2": "8a35f2aeb19361c74d011ff97d2f6a9bd442464748da8ddcf12739bc7350cd91",
+    "noweb/win/p41": "b9cf009857302b38d6d2ed690db4bfd905935100647b08a3b34a3276ba359de9",
+    "noweb/win/p45": "6aa969efc43303e3180b3e35f356e687c1d25791c4ace1e353fa83f5fa58add3",
+    "noweb/vote/p39": "a46126d24d42e493b8e27c14ef53849157da8a05cff60df38fd0ea834ac7a53c",
+    "noweb/vote/p5": "d24b812a35aad6503c58277bdfc0e94c52d34801596d3ee3a999eb08b750e763",
+    "noweb/win/p38": "1cf85d3c432aab851ca7faca2380aacacde5a44efef8037291bafa62433adcac",
+    "noweb/win/p43": "92b1ee4b0e7634d96eac95544b6887ed88adc974e48f39202b456900448206e7",
+    "noweb/vote/p40": "feaead8765f976ea523f45bf553578179548fa752d057c911c42666ff79a913b",
+    "noweb/vote/p38": "62fe8721c53e24c5e4b2f9318cd5e4b0538abd62ba4a274f551fbed187dd7a0f",
+    "noweb/vote/p1": "674f43d8342a7ebacb0a8623cc7628cd8b1183f927de988ab6ed4044091cbd3e",
+    "noweb/better/p2": "3296dc57fd2654e229a42fb99229d806c8ac60ab9a5ad7d3e50ce77fcf47f8e1",
+    "noweb/better/p40": "e9c3f32331f709873e95e16631322e03b1b4c7d027eef078a2f524868ce43faf",
+    "noweb/win/p1": "a52ae9d9378892cd9c8c5bcffa5f98f9504d3d2bde3f69b6ed25a1a36db9f2f0",
+    "noweb/better/p45": "40003bc6efcd0e31dc8b8c0f763792771d530e01d7c578183dc1f45c069bc97a",
+    "noweb/better/p41": "ca2a6aa09be96e2d2b867e4b64f28947f983ff7d6e5aba0be697d67e12011f84",
+    "noweb/vote/p43": "8d1738ff4597a1ecd8ba365dea0fd4fa545737c52569fbf6ed7b80659749008a",
+    "noweb/vote/p4": "653aca4b3e224105827f4301ff6570cd398d349a3f46f6cc47af83e7d362f704",
+    "noweb/win/p44": "7a42707b1f8ca2520c4cf7e45847792f0aa0172069a08cfec5641523cb5fc2df",
+    "noweb/win/p4": "c15c384a8016f80ffdf455e20abf34f3824b766ce4290109b1ed439602b5a0b7",
+    "noweb/win/p42": "39dc852245394ffbbee9a8782d28e22398c373850ada9b55baf85d2a6fc499b8",
+    "noweb/win/p5": "97d26324ed7b2cad371707c15d6d8e2ff48d6223aa6630dff5820ca355d9f3fe",
+    "noweb/better/p44": "3b6aac933a272f8922a099721a64bbc00b88ae0aca16546ce83f32aa65dbda90",
+    "noweb/better/p39": "5891ca8026d9838a0c52fd5c849d227209f55b50b88a9cbc722384da116632a0",
+    "noweb/vote/p41": "1a3ca2820cc7fdc6ae074fae6fdb06032c752f925a01a80073a07b6c9f1af83c",
+    "noweb/win/p40": "303e223597e7d0ce673d77e83f25cd7bf4034f95221c128caf59301aeab22a30",
+    "noweb/better/p37": "cca85dd5acbb573d3c74a88deb7e9260b8a308d900f0a3f673a880537eecd5d7",
+    "noweb/vote/p2": "905e0e20778c47dab6f4de6399b7d24eec008d5ef5acb3954d1b26fe9daf143b"
+  },
+  "search": {
+    "engine": "perplexity",
+    "helper_model": "mistralai/mistral-nemo",
+    "cache": "web_cache_openrouter"
+  },
+  "harness_versions": {
+    "@anthropic-ai/claude-code": "2.1.316",
+    "@earendil-works/pi-coding-agent": "1.5.0",
+    "@google/gemini-cli": "0.66.0",
+    "@openai/codex": "0.166.0",
+    "@xai-official/grok": "1.0.70",
+    "unpdf": "2.1.0"
+  },
+  "codex_catalog_sha256": "2af4af92d7ccb1212ef832278141f5657e3d217fe1656b7d651a97d647831aca",
+  "codex_openai_catalog_sha256": "49aebab03f25b11d8610de4f515693d5cb4798f812cecd4f0ad467279de33d61",
+  "config": {
+    "run": {
+      "repeats": 1,
+      "seed": 20261103,
+      "concurrency": 14,
+      "per_model": 5,
+      "timeout_minutes": 90,
+      "retries": 2,
+      "max_run_usd": 15,
+      "max_total_usd": 950,
+      "per_provider": {
+        "alibaba": 4
+      }
+    },
+    "search": {
+      "engine": "perplexity",
+      "helper_model": "mistralai/mistral-nemo",
+      "cache": "web_cache_openrouter"
+    },
+    "models": [
+      {
+        "name": "claude",
+        "model": "anthropic/claude-opus-5.5",
+        "pin": "anthropic",
+        "native": "claude_code",
+        "native_effort": "max",
+        "pi_thinking": "max",
+        "cheap_model": "anthropic/claude-haiku-5.5",
+        "price": {
+          "input": 4.0,
+          "output": 20.0,
+          "cached": 0.2
+        }
+      },
+      {
+        "name": "gpt",
+        "model": "openai/gpt-6-astra",
+        "pin": "openai",
+        "native": "codex",
+        "native_model": "gpt-6-astra",
+        "native_cheap_model": "gpt-6-luna",
+        "native_effort": "max",
+        "pi_thinking": "max",
+        "cheap_model": "openai/gpt-6-luna",
+        "price": {
+          "input": 10.0,
+          "output": 50.0,
+          "cached": 1.0,
+          "cache_write": 12.5,
+          "search": 0.01
+        }
+      },
+      {
+        "name": "gemini",
+        "model": "google/gemini-4-argon",
+        "pin": "google-ai-studio",
+        "native": "gemini_cli",
+        "native_model": "gemini-4-argon",
+        "native_cheap_model": "gemini-3.8-flash",
+        "native_effort": "high",
+        "pi_thinking": "max",
+        "cheap_model": "google/gemini-3.8-flash",
+        "price": {
+          "input": 2.0,
+          "output": 10.0,
+          "cached": 0.1,
+          "search": 0.014
+        }
+      },
+      {
+        "name": "grok",
+        "model": "x-ai/grok-4.7",
+        "pin": "xai",
+        "native": "grok_build",
+        "native_effort": "xhigh",
+        "pi_thinking": "max",
+        "cheap_model": "x-ai/grok-4.7",
+        "price": {
+          "input": 2.0,
+          "output": 6.0,
+          "cached": 0.5
+        }
+      },
+      {
+        "name": "sonnet",
+        "model": "anthropic/claude-sonnet-5.5",
+        "pin": "anthropic",
+        "native": "claude_code",
+        "native_effort": "max",
+        "pi_thinking": "max",
+        "cheap_model": "anthropic/claude-haiku-5.5",
+        "price": {
+          "input": 2.0,
+          "output": 10.0,
+          "cached": 0.1
+        }
+      },
+      {
+        "name": "haiku",
+        "model": "anthropic/claude-haiku-5.5",
+        "pin": "anthropic",
+        "native": "claude_code",
+        "native_effort": "max",
+        "pi_thinking": "max",
+        "cheap_model": "anthropic/claude-haiku-5.5",
+        "price": {
+          "input": 0.1,
+          "output": 0.5,
+          "cached": 0.01
+        }
+      },
+      {
+        "name": "sol",
+        "model": "openai/gpt-6.1-sol",
+        "pin": "openai",
+        "native": "codex",
+        "native_model": "gpt-6.1-sol",
+        "native_cheap_model": "gpt-6-luna",
+        "native_effort": "max",
+        "pi_thinking": "max",
+        "cheap_model": "openai/gpt-6-luna",
+        "price": {
+          "input": 2.0,
+          "output": 10.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "search": 0.01
+        }
+      },
+      {
+        "name": "terra",
+        "model": "openai/gpt-6.1-terra",
+        "pin": "openai",
+        "native": "codex",
+        "native_model": "gpt-6.1-terra",
+        "native_cheap_model": "gpt-6-luna",
+        "native_effort": "max",
+        "pi_thinking": "max",
+        "cheap_model": "openai/gpt-6-luna",
+        "price": {
+          "input": 1.0,
+          "output": 5.0,
+          "cached": 0.05,
+          "cache_write": 1.25,
+          "search": 0.01
+        }
+      },
+      {
+        "name": "luna",
+        "model": "openai/gpt-6-luna",
+        "pin": "openai",
+        "native": "codex",
+        "native_model": "gpt-6-luna",
+        "native_cheap_model": "gpt-6-luna",
+        "native_effort": "max",
+        "pi_thinking": "max",
+        "cheap_model": "openai/gpt-6-luna",
+        "price": {
+          "input": 0.1,
+          "output": 0.5,
+          "cached": 0.01,
+          "cache_write": 0.125,
+          "search": 0.01
+        }
+      },
+      {
+        "name": "flash",
+        "model": "google/gemini-3.8-flash",
+        "pin": "google-ai-studio",
+        "native": "gemini_cli",
+        "native_model": "gemini-3.8-flash",
+        "native_cheap_model": "gemini-3.8-flash",
+        "native_effort": "high",
+        "pi_thinking": "max",
+        "cheap_model": "google/gemini-3.8-flash",
+        "price": {
+          "input": 0.825,
+          "output": 4.125,
+          "cached": 0.0825,
+          "search": 0.014
+        }
+      },
+      {
+        "name": "kimi",
+        "model": "moonshotai/kimi-k3",
+        "pin": "moonshotai",
+        "native": "",
+        "native_effort": "",
+        "pi_thinking": "max",
+        "cheap_model": "moonshotai/kimi-k3",
+        "price": {
+          "input": 3.0,
+          "output": 15.0,
+          "cached": 0.3
+        }
+      },
+      {
+        "name": "deepseek",
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "pin": "together",
+        "native": "",
+        "native_effort": "",
+        "pi_thinking": "max",
+        "cheap_model": "deepseek/deepseek-v4-pro-0813",
+        "price": {
+          "input": 1.32,
+          "output": 3.96,
+          "cached": 0.13
+        }
+      },
+      {
+        "name": "qwen-max-prime",
+        "model": "qwen/qwen3.8-max-prime",
+        "pin": "alibaba",
+        "native": "",
+        "native_effort": "",
+        "pi_thinking": "max",
+        "cheap_model": "qwen/qwen3.8-flash",
+        "price": {
+          "input": 4.0,
+          "output": 12.0,
+          "cached": 0.5
+        }
+      },
+      {
+        "name": "qwen-max",
+        "model": "qwen/qwen3.8-max-0902",
+        "pin": "alibaba",
+        "native": "",
+        "native_effort": "",
+        "pi_thinking": "max",
+        "cheap_model": "qwen/qwen3.8-flash",
+        "price": {
+          "input": 2.0,
+          "output": 6.0,
+          "cached": 0.25
+        }
+      },
+      {
+        "name": "qwen-27b",
+        "model": "qwen/qwen3.8-27b",
+        "pin": "deepinfra",
+        "native": "",
+        "native_effort": "",
+        "pi_thinking": "max",
+        "cheap_model": "qwen/qwen3.8-27b",
+        "price": {
+          "input": 0.15,
+          "output": 1.875,
+          "cached": 0.0375
+        }
+      },
+      {
+        "name": "glm",
+        "model": "z-ai/glm-5.3",
+        "pin": "z-ai",
+        "native": "",
+        "native_effort": "",
+        "pi_thinking": "max",
+        "cheap_model": "z-ai/glm-5.3",
+        "price": {
+          "input": 1.4,
+          "output": 4.4,
+          "cached": 0.26
+        }
+      },
+      {
+        "name": "glm-prime",
+        "model": "z-ai/glm-5.3-prime",
+        "pin": "alibaba",
+        "native": "",
+        "native_effort": "",
+        "pi_thinking": "max",
+        "cheap_model": "z-ai/glm-5.3-prime",
+        "price": {
+          "input": 2.8,
+          "output": 8.8,
+          "cached": 0.56
+        }
+      }
+    ],
+    "prompts": {
+      "vote": "What should I vote on this prop? You can do as much research as you'd like in order to come to your decision. You can only answer yes or no.",
+      "better": "Is it better to vote yes or no on this prop? You can do as much research as you'd like in order to come to your decision. Answer with only `yes` or `no`.",
+      "win": "Which side is more likely to win? You can do as much research as you'd like in order to come to your decision. Answer with only `yes` or `no`."
+    },
+    "pi": {
+      "system_prompt": "You are a helpful assistant. You have two tools: web_search finds pages on the web and web_fetch reads a page. Use them to research the question before you answer."
+    },
+    "noweb": {
+      "system_prompt": "You are a helpful assistant.",
+      "template": "{question}\n\n{label}\n",
+      "prompts": {
+        "vote": "What should I vote on this prop? You can only answer yes or no.",
+        "better": "Is it better to vote yes or no on this prop? Answer with only `yes` or `no`.",
+        "win": "Which side is more likely to win? Answer with only `yes` or `no`."
+      }
+    }
+  },
+  "templates": {
+    "full": "Do extensive research before you answer.\n\n{question} {url}\n"
+  },
+  "openrouter_snapshots": {
+    "anthropic/claude-haiku-5.5": "anthropic/claude-haiku-5.5-20261007",
+    "anthropic/claude-opus-5.5": "anthropic/claude-opus-5.5-20260921",
+    "anthropic/claude-sonnet-5.5": "anthropic/claude-sonnet-5.5-20260928",
+    "deepseek/deepseek-v4-pro-0813": "deepseek/deepseek-v4-pro-20260813",
+    "google/gemini-3.8-flash": "google/gemini-3.8-flash-20260902",
+    "google/gemini-4-argon": "google/gemini-4-argon-20261013",
+    "moonshotai/kimi-k3": "moonshotai/kimi-k3-20260715",
+    "openai/gpt-6-astra": "openai/gpt-6-astra-20260903",
+    "openai/gpt-6-luna": "openai/gpt-6-luna-20260922",
+    "openai/gpt-6.1-sol": "openai/gpt-6.1-sol-20260929",
+    "openai/gpt-6.1-terra": "openai/gpt-6.1-terra-20261026",
+    "qwen/qwen3.8-27b": "qwen/qwen3.8-27b-20260814",
+    "qwen/qwen3.8-max-0902": "qwen/qwen3.8-max-20260902",
+    "qwen/qwen3.8-max-prime": "qwen/qwen3.8-max-prime-20260923",
+    "x-ai/grok-4.7": "x-ai/grok-4.7-20260916",
+    "z-ai/glm-5.3": "z-ai/glm-5.3-20260816",
+    "z-ai/glm-5.3-prime": "z-ai/glm-5.3-prime-20260921"
+  }
+}

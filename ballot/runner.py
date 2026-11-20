@@ -21,6 +21,7 @@ from pathlib import Path
 from ballot.analysis.load import billed_cost
 from ballot.config import (
     DIRECT_KEYS,
+    ELECTION_DAY,
     FINAL_STATUSES,
     KEY,
     Spec,
@@ -29,9 +30,11 @@ from ballot.config import (
     load_ballot,
     load_config,
     load_keys,
+    load_labels,
 )
 from ballot.harnesses import NATIVE, Pi, Room, base_env, estimate_cost
 from ballot.paths import DATA, ROOT, RUNS
+from ballot.preflight import get
 
 ACTIVE: set[int] = set()  # process groups to kill if the runner is interrupted
 RETRY_BACKOFF_SECONDS = 30
@@ -39,6 +42,8 @@ RATE_LIMIT_BACKOFF_SECONDS = 180  # an upstream rate limit takes minutes, not se
 RATE_LIMITED = re.compile(r"\b429\b|rate.?limit", re.I)
 CAPTURE_NETWORK = True  # every run records all its traffic, see netlog.py
 ARCHIVE_SKIP = ("home/.grok/bin",)  # Grok's unpacked binary, 130 MB per run
+# native: the vendor's own harness. common: Pi with web tools. noweb: Pi with no tools, shown only the ballot label.
+ARMS = ("native", "common", "noweb")
 
 
 def parse_args() -> argparse.Namespace:
@@ -46,8 +51,9 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--name", help="a separate folder under runs/, such as for a test. Default: runs/ itself. Run the same command again to resume")
     parser.add_argument("--smoke", action="store_true", help="Proposition 1 and the first prompt only, to test the plumbing")
     parser.add_argument("--cheap", action="store_true", help="use each model's cheap stand-in at low effort")
-    parser.add_argument("--models", help="comma-separated names from experiment.toml. name:native or name:common runs one harness of that model")
-    parser.add_argument("--arms", help="native, common, or both. Default: both")
+    parser.add_argument("--models", help="comma-separated names from experiment.toml. name:native, name:common or name:noweb runs one arm of that model")
+    parser.add_argument("--arms", help="comma-separated: native, common, noweb. Default: native,common. "
+                        "noweb is Pi with no tools, shown only the ballot label; give it its own --name")
     parser.add_argument("--prompts", help="comma-separated prompt names from experiment.toml")
     parser.add_argument("--props", help="comma-separated proposition numbers. Default: all 14")
     parser.add_argument("--repeats", type=int, help="overrides repeats in experiment.toml")
@@ -55,7 +61,7 @@ def parse_args() -> argparse.Namespace:
                         help="only the runs that already ended in an error. Safe beside a runner still going on the folder")
     parser.add_argument("--slow-first", action="store_true",
                         help="start the slowest model and harness pairs first, by their measured time, so they don't trail at the end")
-    parser.add_argument("--first", help="pairs to run first, in this order, so they finish whole: model names, or name:native / name:common")
+    parser.add_argument("--first", help="pairs to run first, in this order, so they finish whole: model names, or name:native, name:common or name:noweb")
     parser.add_argument("--skip-running-in", help="another runner's log on this folder: leave it the runs it has started and not finished")
     parser.add_argument("--control", help="the file in the run folder that sets runs at once mid-run. Default: concurrency.txt")
     parser.add_argument("--concurrency", type=int, help="runs at once in total. Overrides experiment.toml")
@@ -82,8 +88,8 @@ def pick_models(names: str | None, cfg: dict, arms: list[str]) -> dict[str, list
     for item in names.split(",") if names else available:
         name, _, arm = item.partition(":")
         pick(name, available, "models")
-        wanted = pick(arm, ["native", "common"], "arms") if arm else arms
-        chosen[name] = [a for a in ("native", "common") if a in wanted or a in chosen.get(name, [])]
+        wanted = pick(arm, list(ARMS), "arms") if arm else arms
+        chosen[name] = [a for a in ARMS if a in wanted or a in chosen.get(name, [])]
     return chosen
 
 
@@ -92,9 +98,14 @@ def build_plan(args: argparse.Namespace, cfg: dict) -> list[Spec]:
     props = ["1"] if args.smoke and not args.props else pick(args.props, ballot, "propositions")
     all_prompts = list(cfg["prompts"])
     prompt_names = all_prompts[:1] if args.smoke and not args.prompts else pick(args.prompts, all_prompts, "prompts")
-    arms = pick(args.arms, ["native", "common"], "arms")
+    arms = pick(args.arms or "native,common", list(ARMS), "arms")
     chosen = pick_models(args.models, cfg, arms)
     repeats = args.repeats or cfg["run"]["repeats"]
+    labels = load_labels()
+    # Each arm's prompt template, questions and Pi system prompt.
+    web = (cfg["templates"]["full"], cfg["prompts"], cfg["pi"]["system_prompt"])
+    setups = {"native": web, "common": web,
+              "noweb": (cfg["templates"]["noweb"], cfg["noweb"]["prompts"], cfg["noweb"]["system_prompt"])}
 
     plan = []
     for model in cfg["models"]:
@@ -105,6 +116,7 @@ def build_plan(args: argparse.Namespace, cfg: dict) -> list[Spec]:
             if arm == "native":
                 # A harness on a direct key takes the vendor's own model id.
                 model_id = model.get("native_cheap_model" if args.cheap else "native_model") or model_id
+            template, questions, system_prompt = setups[arm]
             for prompt_name in prompt_names:
                 for prop in props:
                     for repeat in range(1, repeats + 1):
@@ -114,30 +126,35 @@ def build_plan(args: argparse.Namespace, cfg: dict) -> list[Spec]:
                             model_id=model_id,
                             pin=model["pin"],
                             arm=arm,
-                            harness=model["native"] if arm == "native" else "pi",
+                            harness={"native": model["native"], "common": "pi", "noweb": "pi_noweb"}[arm],
                             effort="low" if args.cheap else effort,
                             prompt_name=prompt_name,
-                            prompt=build_prompt(cfg["templates"]["full"], cfg["prompts"][prompt_name], prop),
+                            prompt=build_prompt(template, questions[prompt_name], prop, labels[prop]),
                             prop=prop,
                             repeat=repeat,
                             price=model["price"],
                             max_run_usd=cfg["run"]["max_run_usd"],
-                            system_prompt=cfg["pi"]["system_prompt"],
+                            system_prompt=system_prompt,
                         ))
     # A shuffled order stops time drift from lining up with any one condition.
     random.Random(cfg["run"]["seed"]).shuffle(plan)
     return plan
 
 
-def write_manifest(out: Path, plan: list[Spec], cfg: dict) -> None:
+def write_manifest(out: Path, plan: list[Spec], cfg: dict, snapshots: dict | None = None) -> None:
     """Record exactly what ran. Refuse to mix different prompts into one folder."""
-    prompts = {f"{s.prompt_name}/p{s.prop}": hashlib.sha256(s.prompt.encode()).hexdigest() for s in plan}
+    # The no-web arm asks the same questions in other words, so its prompts are keyed apart.
+    prompts = {f"{'noweb/' if s.arm == 'noweb' else ''}{s.prompt_name}/p{s.prop}": hashlib.sha256(s.prompt.encode()).hexdigest()
+               for s in plan}
     path = out / "manifest.json"
     if path.exists():
-        old = json.loads(path.read_text())["prompt_sha256"]
+        manifest = json.loads(path.read_text())
+        old = manifest["prompt_sha256"]
         if any(old.get(name, digest) != digest for name, digest in prompts.items()):
             sys.exit(f"Prompts changed since {out.name} started. Use a new --name to keep results comparable.")
         prompts = {**old, **prompts}
+        # A run on part of the plan, such as --retry-errors, keeps the other models' checkpoints.
+        snapshots = {**manifest.get("openrouter_snapshots", {}), **(snapshots or {})}
     catalog = DATA / "codex_openrouter_catalog.json"
     openai_catalog = DATA / "codex_openai_catalog.json"
     path.write_text(json.dumps({
@@ -150,7 +167,34 @@ def write_manifest(out: Path, plan: list[Spec], cfg: dict) -> None:
         "codex_openai_catalog_sha256": hashlib.sha256(openai_catalog.read_bytes()).hexdigest(),
         "config": {k: v for k, v in cfg.items() if k != "templates"},
         "templates": cfg["templates"],
+        "openrouter_snapshots": snapshots or {},
     }, indent=2))
+
+
+def snapshots_before_election(plan: list[Spec]) -> dict[str, str]:
+    """The dated checkpoint OpenRouter serves for each no-web model. Exits unless every one is dated
+    before election day: the arm asks what a model knows on its own, and a later checkpoint could
+    have learned the results."""
+    model_ids = sorted({s.model_id for s in plan if s.arm == "noweb"})
+    if not model_ids:
+        return {}
+    status, listing = get("https://openrouter.ai/api/v1/models")
+    if status != 200:
+        sys.exit(f"Not running the no-web arm: OpenRouter's model list answered {status}, so the checkpoints can't be checked.")
+    slugs = {m["id"]: m.get("canonical_slug") or "" for m in listing.get("data") or []}
+    snapshots = {model_id: slugs.get(model_id, "") for model_id in model_ids}
+    day = ELECTION_DAY.replace("-", "")
+    dates = {m: checkpoint_date(slug) for m, slug in snapshots.items()}
+    late = [f"{m} ({snapshots[m] or 'not listed'})" for m, date in dates.items() if not date or date >= day]
+    if late:
+        sys.exit(f"Not running the no-web arm: these models have no checkpoint dated before {ELECTION_DAY}: {', '.join(late)}.")
+    return snapshots
+
+
+def checkpoint_date(slug: str) -> str:
+    """The YYYYMMDD date that ends a dated OpenRouter slug, such as kimi-k3-20260715, or "" if it has none."""
+    date = slug.rsplit("-", 1)[-1]
+    return date if len(date) == 8 and date.isdigit() else ""
 
 
 def kill_group(pid: int) -> None:
@@ -221,7 +265,8 @@ async def attempt(spec: Spec, harness, keys: dict, run_dir: Path, timeout: float
             # lookups stay blocked unless the harness's page reader can't work without them;
             # its connections still all go through the proxy.
             capture = NetworkCapture(run_dir, secrets=list(keys.values()),
-                                     block_dns=not getattr(harness, "needs_dns", False))
+                                     block_dns=not getattr(harness, "needs_dns", False),
+                                     only_host=getattr(harness, "only_host", None))
             await capture.start()
             env |= capture.env()  # last, so nothing overrides the proxy settings
             cmd = capture.wrap(cmd)
@@ -326,7 +371,7 @@ def line(done: int, total: int, r: dict, spent: float) -> str:
     answer = r["answer"] or "no answer"
     detail = f"{r['seconds'] / 60:.1f}m ${r['cost_usd']:.2f} {len(r['searches'])} searches {len(r['fetches'])} pages"
     suffix = f" | {r['error'][:140]}" if r["error"] else ""
-    if r["status"] in ("answered", "no_answer") and not r["searches"]:
+    if r["status"] in ("answered", "no_answer") and not r["searches"] and r["arm"] != "noweb":
         suffix += " | NO WEB SEARCH"
     if r["search_errors"]:
         suffix += f" | {r['search_errors']} failed searches"
@@ -468,7 +513,7 @@ def main() -> None:
         order = []
         for item in args.first.split(","):
             model, _, arm = item.partition(":")
-            order += [(model, a) for a in ((arm,) if arm else ("native", "common"))]
+            order += [(model, a) for a in ((arm,) if arm else ARMS)]
         rank = {pair: i for i, pair in enumerate(order)}
         plan = sorted(plan, key=lambda s: rank.get((s.model, s.arm), len(order)))
     if args.skip_running_in:
@@ -482,6 +527,9 @@ def main() -> None:
           f"{len({s.prop for s in plan})} propositions, {len({s.repeat for s in plan})} repeats. "
           f"Stops starting runs after ${limits['max_total_usd']}. Keys: {', '.join(needed)}"
           + (f" (missing: {', '.join(missing)})." if missing else "."))
+    snapshots = snapshots_before_election(plan)
+    if snapshots:
+        print("Checkpoints, all dated before election day: " + ", ".join(snapshots.values()))
     if args.dry_run:
         for spec in plan:
             print(f"  {spec.run_id}: {spec.harness}, {spec.model_id}, effort {spec.effort}")
@@ -490,16 +538,14 @@ def main() -> None:
         sys.exit("Cancelled.")
 
     out.mkdir(parents=True, exist_ok=True)
-    write_manifest(out, plan, cfg)
+    write_manifest(out, plan, cfg, snapshots)
     # A second runner gets its own control file, so it never changes the first runner's limit.
     control = out / (args.control or ("concurrency-retry.txt" if args.retry_errors else "concurrency.txt"))
     control.write_text(f"{limits['concurrency']}\n")
     print(f"{limits['concurrency']} runs at once. To change that mid-run, write a number to {control}.", flush=True)
     cache = RUNS / cfg["search"].get("cache", "web_cache_openrouter")
-    harnesses = {
-        s.run_id: Pi(cfg["search"], cache) if s.arm == "common" else NATIVE[s.harness]()
-        for s in plan
-    }
+    pis = {"common": Pi(cfg["search"], cache), "noweb": Pi()}
+    harnesses = {s.run_id: pis[s.arm] if s.arm in pis else NATIVE[s.harness]() for s in plan}
     try:
         results = asyncio.run(run_all(plan, harnesses, keys, out, cfg, control))
     except KeyboardInterrupt:

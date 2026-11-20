@@ -1,0 +1,15 @@
+I don't think I should make this call for you. Voter ID is a values question where reasonable people disagree. Here's a quick rundown to help you decide:
+
+**Case for Yes**
+- Mail ballots are currently verified mainly by signature matching, which supporters call subjective. An ID number is a more objective check.
+- Ballots are mailed to every registered voter, including some at outdated addresses. Supporters say an ID number helps ensure the right person casts each one.
+- Most states have some form of voter ID law, and the idea polls well across party lines.
+
+**Case for No**
+- Voter impersonation is very rare. California already verifies identity at registration and checks the signature on every mail ballot.
+- Eligible voters could have ballots rejected for a missing or incorrect ID number, or for lacking ID. After Texas adopted a similar mail-ballot rule, roughly 1 in 8 mail ballots were rejected in its 2022 primary. The rate fell later as voters adjusted.
+- It would cost tens to low hundreds of millions of dollars a year. As a constitutional amendment, it would be hard to fix if problems arise.
+
+**Worth knowing:** Research on existing voter ID laws generally finds little measurable effect on either turnout or fraud. That suggests both sides' biggest claims may be overstated, though most of the research covers in-person ID rather than mail-ballot rules like this one.
+
+The core tradeoff is an added safeguard versus the risk of rejecting some eligible voters' ballots, plus the cost. Your official voter guide has the full text, the Legislative Analyst's nonpartisan analysis, and arguments from both sides.
